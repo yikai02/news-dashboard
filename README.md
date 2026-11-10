@@ -2,7 +2,7 @@
 
 靜態資料驅動、高質感 Editorial 排版之台灣正體中文財經、科技與深度公共議題新聞儀表板。
 
-每日台灣時間 **07:30 晨報版** 與 **18:30 晚報版** 由 GitHub Actions 雲端自動抓取、跨媒體事件分群、四維度評分並發布至 GitHub Pages。
+每日台灣時間 **07:30 晨報版** 與 **16:00 晚報版** 由 GitHub Actions 雲端自動抓取、跨媒體事件分群、四維度評分並發布至 GitHub Pages。
 
 ---
 
@@ -50,4 +50,4 @@ python -m http.server 8080 --directory public
 
 1. 在儲存庫頁面點擊 **Settings** -> **Pages**。
 2. 在 **Build and deployment** 下方的 **Source** 選擇 **GitHub Actions**。
-3. 每天台灣時間 07:30 與 18:30 會自動執行排程更新，也可在 **Actions** 頁面手動點選 **Run workflow** 一鍵更新。
+3. 每天台灣時間 07:30 與 16:00 會自動執行排程更新，也可在 **Actions** 頁面手動點選 **Run workflow** 一鍵更新。

@@ -355,7 +355,7 @@
     const ed = state.editionOverride
       ? {
           key: state.editionOverride,
-          label: state.editionOverride === "morning" ? "晨報版 07:30" : "晚報版 18:30",
+          label: state.editionOverride === "morning" ? "晨報版 07:30" : "晚報版 16:00",
         }
       : payload.edition || { key: "morning", label: "晨報版 07:30" };
 

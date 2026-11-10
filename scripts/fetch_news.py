@@ -22,7 +22,7 @@
 5. 總經數據看板：
    - US 10Y 殖利率、美元指數 (DXY)、美元/台幣、台灣景氣燈號最新指標。
 6. 輸出格式：
-   - 產出 public/daily_news.json，包含 edition（晨報版 07:30 / 晚報版 18:30）與更新時間戳記。
+   - 產出 public/daily_news.json，包含 edition（晨報版 07:30 / 晚報版 16:00）與更新時間戳記。
 """
 from __future__ import annotations
 
@@ -1183,13 +1183,13 @@ def resolve_edition(choice: str, now: datetime) -> dict:
     if choice in ("morning", "evening"):
         key = choice
     else:
-        # 強制以台灣時間判定：05:00 - 13:59 為晨報版 07:30，14:00 - 04:59 為晚報版 18:30
-        key = "morning" if 5 <= now.hour < 14 else "evening"
+        # 強制以台灣時間判定：05:00 - 12:59 為晨報版 07:30，13:00 - 04:59 為晚報版 16:00
+        key = "morning" if 5 <= now.hour < 13 else "evening"
     return {
         "key": key,
-        "label": "晨報版 07:30" if key == "morning" else "晚報版 18:30",
+        "label": "晨報版 07:30" if key == "morning" else "晚報版 16:00",
         "name": "晨報版" if key == "morning" else "晚報版",
-        "scheduledTime": "07:30" if key == "morning" else "18:30",
+        "scheduledTime": "07:30" if key == "morning" else "16:00",
     }
 
 
@@ -1555,7 +1555,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
           </div>
           <div class="edition-switch" role="group" aria-label="切換晨報與晚報版號">
             <button type="button" class="edition-btn" data-edition-switch="morning" aria-pressed="{ 'true' if payload['edition']['key'] == 'morning' else 'false' }">晨報版 07:30</button>
-            <button type="button" class="edition-btn" data-edition-switch="evening" aria-pressed="{ 'true' if payload['edition']['key'] == 'evening' else 'false' }">晚報版 18:30</button>
+            <button type="button" class="edition-btn" data-edition-switch="evening" aria-pressed="{ 'true' if payload['edition']['key'] == 'evening' else 'false' }">晚報版 16:00</button>
           </div>
         </div>
       </div>

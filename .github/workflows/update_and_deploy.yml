@@ -5,8 +5,8 @@ on:
     # GitHub Actions 排程採用 UTC 時間：
     # UTC 23:30 -> 台灣時間 (UTC+8) 07:30 晨報版
     - cron: '30 23 * * *'
-    # UTC 10:30 -> 台灣時間 (UTC+8) 18:30 晚報版
-    - cron: '30 10 * * *'
+    # UTC 08:00 -> 台灣時間 (UTC+8) 16:00 晚報版
+    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       edition:
