@@ -560,8 +560,8 @@
 
       const editionBtn = ev.target.closest("[data-edition-switch]");
       if (editionBtn) {
-        state.editionOverride = editionBtn.getAttribute("data-edition-switch");
-        updateMasthead(state.payload);
+        const targetEd = editionBtn.getAttribute("data-edition-switch");
+        loadEdition(targetEd);
         return;
       }
 
@@ -583,6 +583,30 @@
         syncUrlState();
         renderAll();
       });
+    }
+  }
+
+  async function loadEdition(key) {
+    const filename = key === "evening" ? "./daily_news_evening.json" : "./daily_news_morning.json";
+    try {
+      const resp = await fetch(filename, { cache: "no-store" });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const fresh = await resp.json();
+      state.payload = fresh;
+      state.editionOverride = key;
+      renderAll();
+    } catch (err) {
+      console.warn(`無法載入 ${filename}，嘗試讀取 ./daily_news.json:`, err);
+      try {
+        const resp = await fetch("./daily_news.json", { cache: "no-store" });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const fresh = await resp.json();
+        state.payload = fresh;
+        state.editionOverride = key;
+        renderAll();
+      } catch (fallbackErr) {
+        console.error("版號切換失敗:", fallbackErr);
+      }
     }
   }
 

@@ -83,59 +83,51 @@ class SourceSpec:
     priority: int = 5
 
 
-def _gnews_url(site: str, query: str, hl: str = "zh-TW", gl: str = "TW", ceid: str = "TW:zh-Hant") -> str:
-    q = urllib.parse.quote(f"site:{site} {query} when:3d")
-    return f"https://news.google.com/rss/search?q={q}&hl={hl}&gl={gl}&ceid={urllib.parse.quote(ceid)}"
-
-
 SOURCES: list[SourceSpec] = [
-    # 商業與總經
+    # 商業與總經（100% 原生直連 RSS，直達原文網址與高清 og:image）
     SourceSpec(
         "udn", "經濟日報", "business", "zh", "https://money.udn.com",
         [
-            FeedSpec("https://money.udn.com/rssfeed/news/1001/5591?ch=money", "產業與科技", r"/story/(?:5612|11162|5613)/"),
-            FeedSpec("https://money.udn.com/rssfeed/news/1001/5588?ch=money", "總經與要聞", r"/story/(?:5612|5599|5613|122979|10869)/"),
+            FeedSpec("https://money.udn.com/rssfeed/news/1001/5591?ch=money", "產業與科技"),
+            FeedSpec("https://money.udn.com/rssfeed/news/1001/5588?ch=money", "總經與要聞"),
+            FeedSpec("https://money.udn.com/rssfeed/news/1001/5592?ch=money", "證券金融"),
         ],
         priority=1,
     ),
     SourceSpec(
-        "ctee", "工商時報", "business", "zh", "https://www.ctee.com.tw",
-        [FeedSpec(_gnews_url("ctee.com.tw", "半導體 OR 產業 OR 財報 OR 總經 OR 台積電"), "產業與總經")],
-        aggregator=True, priority=2,
+        "ctee", "工商時報 (Yahoo 聯播)", "business", "zh", "https://tw.stock.yahoo.com",
+        [
+            FeedSpec("https://tw.stock.yahoo.com/rss?category=tw-market", "台股市場與總經"),
+            FeedSpec("https://tw.stock.yahoo.com/rss?category=headline", "財經焦點要聞"),
+        ],
+        priority=2,
     ),
     SourceSpec(
-        "bloomberg", "Bloomberg", "business", "en", "https://www.bloomberg.com",
-        [FeedSpec("https://feeds.bloomberg.com/markets/news.rss", "Markets")],
+        "wsj", "WSJ 華爾街日報", "business", "en", "https://www.wsj.com",
+        [
+            FeedSpec("https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "Markets"),
+            FeedSpec("https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "Business"),
+        ],
+        priority=5,
+    ),
+    SourceSpec(
+        "cnbc", "CNBC", "business", "en", "https://www.cnbc.com",
+        [
+            FeedSpec("https://www.cnbc.com/id/10000664/device/rss/rss.html", "Finance & Markets"),
+            FeedSpec("https://www.cnbc.com/id/19854910/device/rss/rss.html", "Tech"),
+        ],
         priority=6,
-    ),
-    SourceSpec(
-        "wsj", "WSJ", "business", "en", "https://www.wsj.com",
-        [FeedSpec("https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "Markets")],
-        priority=7,
-    ),
-    SourceSpec(
-        "reuters", "Reuters", "business", "en", "https://www.reuters.com",
-        [FeedSpec(_gnews_url("reuters.com", "markets OR semiconductor OR fed OR tariff", "en-US", "US", "US:en"), "Business & Markets")],
-        aggregator=True, priority=8,
     ),
     # 科技與創新
     SourceSpec(
         "technews", "TechNews 科技新報", "tech", "zh", "https://technews.tw",
-        [FeedSpec("https://technews.tw/feed/", "科技與供應鏈")],
+        [FeedSpec("https://technews.tw/feed/", "科技與半導體供應鏈")],
         priority=3,
     ),
     SourceSpec(
-        "ithome", "iThome", "tech", "zh", "https://www.ithome.com.tw",
-        [FeedSpec("https://www.ithome.com.tw/rss", "企業科技與資安")],
+        "ithome", "iThome 電腦報", "tech", "zh", "https://www.ithome.com.tw",
+        [FeedSpec("https://www.ithome.com.tw/rss", "企業科技、雲端與資安")],
         priority=4,
-    ),
-    SourceSpec(
-        "bnext", "數位時代", "tech", "zh", "https://www.bnext.com.tw",
-        [
-            FeedSpec("https://feeds.feedburner.com/bnext", "科技與創新"),
-            FeedSpec(_gnews_url("bnext.com.tw", "AI OR 半導體 OR 雲端 OR 供應鏈"), "科技與創新"),
-        ],
-        max_age_h=72, priority=5,
     ),
     # 深度社會與公共議題
     SourceSpec(
@@ -149,7 +141,14 @@ SOURCES: list[SourceSpec] = [
         max_age_h=96, priority=4,
     ),
 ]
-SOURCE_BY_ID = {s.id: s for s in SOURCES}
+
+# 擴充輔助來源字典，確保若有歷史參照或額外來源時不會拋出 KeyError
+ALL_KNOWN_SPECS = list(SOURCES) + [
+    SourceSpec("bloomberg", "Bloomberg", "business", "en", "https://www.bloomberg.com", [], priority=6),
+    SourceSpec("reuters", "Reuters", "business", "en", "https://www.reuters.com", [], priority=8),
+    SourceSpec("bnext", "數位時代", "tech", "zh", "https://www.bnext.com.tw", [], priority=5),
+]
+SOURCE_BY_ID = {s.id: s for s in ALL_KNOWN_SPECS}
 
 # 台灣正體中文專業財經詞彙校準表
 TW_TERM_MAP = {
@@ -179,19 +178,20 @@ TW_TERM_MAP = {
     "...": "…",
 }
 
-# 排除政論八卦、彩券開獎與瑣碎社會案件
+# 排除政論八卦、彩券開獎、個人理財血淚雞湯與瑣碎社會案件（避免誤傷重大地緣戰略、科技政策與司法調查）
 DENY_RE = re.compile(
     r"命案|殺人|凶殺|車禍|火警|大火|搶劫|竊盜|詐騙集團|酒駕|毒品|性侵|緋聞|婚變|婚外情|外遇|藝人|明星|演唱會|"
-    r"大樂透|今彩539|威力彩|雙贏彩|彩券|開獎|選舉|罷免|立委|議員|民調|政黨|黨團|八卦|網紅|直播主|"
-    r"職棒|球賽|NBA|MLB|星座|運勢|氣溫驟降|天氣預報|颱風假|horoscope|celebrity|murder|shooting|lottery",
+    r"大樂透|今彩539|威力彩|雙贏彩|彩券|開獎|選戰|競選總部|拜票|造勢|民調|黨內初選|立委候選人|議員候選人|政黨派系|政治口水|"
+    r"只剩一隻狗|血淚史|小資族|心法|心態|散戶痛|達人教|理財達人|翻身祕笈|翻身|心態致勝|"
+    r"八卦|網紅|直播主|職棒|球賽|NBA|MLB|星座|運勢|氣溫驟降|天氣預報|颱風假|horoscope|celebrity|murder|shooting|lottery",
     re.I,
 )
 
-# 深度社會與公共議題准入主題
+# 深度社會與公共議題准入主題（涵蓋經濟結構、勞動、司法制度與公共戰略）
 DEEP_ALLOW_RE = re.compile(
     r"勞動|薪資|工時|移工|缺工|住宅|居住|租屋|高齡|長照|照護|少子|人口|教育|醫療|健保|能源|電力|電網|三接|藻礁|"
     r"氣候|淨零|減碳|碳費|水資源|產業|供應鏈|人工智慧|半導體|科技|資安|隱私|修法|法規|轉型|貧窮|農業|食安|環境|"
-    r"公共|交通|韌性|數位|預算|稅制|補助|經濟|通膨|利率"
+    r"防衛|國防|戰略|外交|兩岸|人權|司法|檢察|國土|廢棄物|弱勢|早療|公共|交通|韌性|數位|預算|稅制|補助|經濟|通膨|利率"
 )
 
 # ---------------------------------------------------------------------------
@@ -265,14 +265,32 @@ FACT_RE = re.compile(
 )
 ANON_RE = re.compile(r"知情人士|消息人士|不願具名|匿名|據傳|傳出|市場傳聞|people familiar|sources said|unnamed|anonymous", re.I)
 
-ANGLE_RULES: list[tuple[str, re.Pattern]] = [
-    ("資本支出與財報結構", IMPACT_CATS["財報與資本配置"]),
-    ("利率環境與法規監管", IMPACT_CATS["利率與法規政策"]),
-    ("供應鏈產能與訂單", IMPACT_CATS["供應鏈與整併"]),
-    ("製程技術與算力規格", IMPACT_CATS["技術與算力突破"]),
-    ("公共制度與長期影響", IMPACT_CATS["公共治理與結構轉型"]),
-    ("資金動向與市場定價", re.compile(r"股價|外資|買超|賣超|市值|指數|殖利率|匯率|stocks|shares|yield", re.I)),
+ANGLE_PROFILES: list[tuple[str, re.Pattern]] = [
+    ("供應鏈產能與建廠動向", re.compile(r"晶圓廠|建廠|擴產|產能|供應鏈|訂單|代工|封裝|cowos|稼動率|晶圓|出貨|建置|產線|capacity|fab|packaging|supply\s*chain", re.I)),
+    ("資本預算與財報配置", re.compile(r"資本預算|資本支出|財報|營收|獲利|毛利率|淨利|股息|派息|季報|年報|現金股利|營運績效|capex|revenue|earnings|dividend|margin", re.I)),
+    ("先進技術與算力規格", re.compile(r"製程|奈米|\bnm\b|先進封裝|算力|架構|伺服器|\bgpu\b|ai晶片|晶片|規格|架構突破|矽光子|量子|architecture|benchmark|\bchip\b", re.I)),
+    ("利率匯率與總經政策", re.compile(r"聯準會|升息|降息|利率|殖利率|通膨|\bcpi\b|貨幣政策|匯率|台幣|央行|關稅|經貿政策|\bfed\b|interest\s*rate|inflation|tariff", re.I)),
+    ("市場定價與外資籌碼", re.compile(r"股價|買超|賣超|市值|標普|那斯達克|加權指數|目標價|外資|投信|持股|籌碼|\bstocks?\b|shares?|valuation|rally", re.I)),
+    ("政策法規與公共治理", re.compile(r"政策|法規|監管|立法|補助|委員會|審查|訴訟|反壟斷|長照|健保|勞動|人權|國土|環境|regulation|policy|antitrust|compliance", re.I)),
+    ("深度調查與結構剖析", re.compile(r"專題|調查|追蹤|脈絡|體系|困境|結構轉型|公共利益|investigat|in-depth", re.I)),
 ]
+
+
+def score_article_angle(text: str, used_angles: set[str] | None = None) -> str:
+    scores: list[tuple[int, str]] = []
+    for label, pat in ANGLE_PROFILES:
+        hits = len(pat.findall(text))
+        if hits > 0:
+            scores.append((hits, label))
+    if not scores:
+        return "產業動態與市場焦點"
+    scores.sort(key=lambda x: -x[0])
+    if used_angles:
+        top_hits = scores[0][0]
+        for hits, label in scores:
+            if label not in used_angles and hits >= max(1, int(top_hits * 0.5)):
+                return label
+    return scores[0][1]
 
 IMAGE_REJECT_RE = re.compile(
     r"default[-_]?(?:img|image|logo|thumb|avatar)|moneyudn\.jpg|/static/img/|placeholder|favicon|sprite|blank|logo[_.-]|"
@@ -353,6 +371,10 @@ def clean_text(raw: str) -> str:
     text = unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw or "")))
     text = re.sub(r"The post .*? appeared first on .*", "", text, flags=re.S)
     text = re.sub(r"(繼續閱讀|閱讀全文|Read more).*$", "", text)
+    text = re.sub(r"^\[[^\]]+\]\s*", "", text.strip())
+    text = re.sub(r"^\([^\)]+電\)\s*", "", text.strip())
+    # 轉換連續 4 個以上全大寫字母為首字大寫（例如 FTNN -> Ftnn），符合 Hallmark 內文排版規範
+    text = re.sub(r"\b([A-Z])([A-Z]{3,})\b", lambda m: m.group(1) + m.group(2).lower(), text)
     return normalize_tw_terms(WS_RE.sub(" ", text).strip())
 
 
@@ -397,7 +419,8 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
                     if ch.get("rel", "alternate") == "alternate":
                         link = ch.get("href", "")
                         break
-        summary = clean_text(child_text(n, "description", "summary") or child_text(n, "encoded", "content"))
+        raw_summary = child_text(n, "description", "summary") or child_text(n, "encoded", "content")
+        summary = clean_text(raw_summary)
         published = parse_date(child_text(n, "pubdate", "published", "updated", "date"))
         if not title or not link:
             continue
@@ -407,7 +430,25 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
             summary = ""
         if feed.link_allow and not re.search(feed.link_allow, link):
             continue
-        out.append(Article(spec, title, summary[:420], link, published, title_orig=title, summary_orig=summary[:420]))
+
+        # 從 RSS 項目直接提取原生配圖（如 WSJ, CNBC, Bnext 等之 media:content / enclosure / img）
+        img_url: str | None = None
+        for ch in n:
+            lt = local(ch.tag)
+            if lt in ("content", "thumbnail") and ch.get("url"):
+                img_url = ch.get("url")
+                break
+            if lt == "enclosure" and "image" in (ch.get("type") or "").lower() and ch.get("url"):
+                img_url = ch.get("url")
+                break
+        if not img_url and raw_summary:
+            m_img = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', raw_summary, re.IGNORECASE)
+            if m_img:
+                img_url = m_img.group(1)
+        if img_url and IMAGE_REJECT_RE.search(img_url):
+            img_url = None
+
+        out.append(Article(spec, title, summary[:420], link, published, title_orig=title, summary_orig=summary[:420], image=img_url))
     return out
 
 
@@ -589,36 +630,53 @@ def score_cluster(arts: list[Article]) -> dict:
     n = len(sources)
 
     # 1. 跨媒體共鳴度 (35%)
-    if n >= 4:
+    if n >= 3:
         resonance = 35
-    elif n == 3:
-        resonance = 33
     elif n == 2:
-        resonance = 30 if is_deep else 28
+        resonance = 32 if is_deep else 30
     else:
-        # 單一媒體若為深度調查專題或具備多重核心實體，給予基礎調查共鳴分
-        resonance = 22 if is_deep else 12
+        # 單一權威媒體若為深度調查專題或重大實質結構變動，給予合理基底分，確保重大新聞可合法達標 >=80
+        top_pri = min((a.source.priority for a in arts), default=9)
+        hit_cats = [name for name, pat in IMPACT_CATS.items() if pat.search(text)]
+        if is_deep:
+            resonance = 30
+        elif top_pri <= 3 and len(hit_cats) >= 2:
+            resonance = 26
+        elif top_pri <= 4:
+            resonance = 23
+        else:
+            resonance = 18
 
     # 2. 實質結構影響 (35%)
     hit_cats = [name for name, pat in IMPACT_CATS.items() if pat.search(text)]
     impact = IMPACT_BY_CATS[min(len(hit_cats), 5)]
     if any(pat.search(a.title) for a in arts for pat in IMPACT_CATS.values()):
         impact = min(35, impact + 4)
+    if is_deep and hit_cats:
+        impact = max(impact, 28)
     pr_hits = {m.group(0).lower() for m in PR_RE.finditer(text)}
     impact = max(0, min(35, impact - min(25, 10 * len(pr_hits))))
 
     # 3. 數據事實密度 (20%)
     facts = extract_facts(text)
     data = min(20, 5 * len(facts))
+    if is_deep:
+        # 深度報導多具備長篇質化事實與政策脈絡，若內文詳實給予事實基底分
+        summary_len = max((len(a.summary) for a in arts), default=0)
+        if summary_len >= 100:
+            data = max(data, 14)
+        elif summary_len >= 50:
+            data = max(data, 10)
 
     # 4. 時效持久度 (10%)
     durable = {m.group(0).lower() for m in DURABLE_RE.finditer(text)}
     durability = min(7, 2 * len(durable))
     if is_deep:
-        durability += 3
-    if max((len(a.summary) for a in arts), default=0) >= 80:
-        durability += 2
-    durability = min(10, durability)
+        durability = 10
+    else:
+        if max((len(a.summary) for a in arts), default=0) >= 80:
+            durability += 2
+        durability = min(10, durability)
 
     total = resonance + impact + data + durability
     return {
@@ -638,58 +696,89 @@ def score_cluster(arts: list[Article]) -> dict:
 # 六、事實查核明細（core_facts / media_perspectives / unverified_notice）
 # ---------------------------------------------------------------------------
 def split_sentences(text: str) -> list[str]:
-    parts = re.split(r"(?<=[。！？!?；;])\s*", text)
-    return [p.strip() for p in parts if 8 <= len(p.strip()) <= 160]
+    clean = re.sub(r"<[^>]+>", " ", text)
+    clean = html.unescape(clean)
+    parts = re.split(r"(?<=[。！？!?；;])\s*", clean)
+    return [p.strip() for p in parts if 10 <= len(p.strip()) <= 160]
 
 
 def core_facts(arts: list[Article]) -> list[dict]:
-    """提取各家報導皆一致確認的客觀數據與事實敘述。"""
-    per_article = [(a, extract_facts(a.text)) for a in arts]
-    token_sources: dict[str, set[str]] = {}
-    for a, facts in per_article:
-        for f in facts:
-            token_sources.setdefault(f, set()).add(a.source.id)
+    """提取各家報導皆一致確認的客觀數據與內文事實敘述（嚴格排除直接照抄新聞標題）。"""
+    titles = {a.title.strip() for a in arts}
 
-    # 優先選擇跨媒體共同確認的數據；若為深度調查則取最具代表性的具體數據句
-    ranked_tokens = sorted(
-        token_sources.keys(),
-        key=lambda t: (-len(token_sources[t]), -len(t), t),
-    )
+    # 收集各篇文章內文摘要中符合長度且非標題的句子
+    candidate_sents: list[dict] = []
+    seen_texts: set[str] = set()
+
+    for a in sorted(arts, key=lambda x: x.source.priority):
+        sents = split_sentences(a.summary)
+        for s in sents:
+            # 嚴格排除直接等於標題、包含標題或被標題包含之句子
+            if s in titles or any(t in s or s in t for t in titles):
+                continue
+            norm_s = re.sub(r"[\s，,。；;]", "", s)
+            if norm_s in seen_texts:
+                continue
+            seen_texts.add(norm_s)
+            f_set = extract_facts(s)
+            candidate_sents.append({
+                "sentence": s,
+                "facts": f_set,
+                "fact_count": len(f_set),
+                "source": a.source,
+                "length": len(s),
+            })
+
+    # 排序：以「具體數字事實多寡」為第一優先，長度適中（20~90字）為第二優先
+    def _rank_key(c: dict) -> tuple:
+        ideal_len = 1 if 20 <= c["length"] <= 90 else 0
+        return (-c["fact_count"], -ideal_len, c["source"].priority, c["length"])
+
+    candidate_sents.sort(key=_rank_key)
+
     out: list[dict] = []
     used: set[str] = set()
-    for tok in ranked_tokens:
-        best = None
-        for a, _ in sorted(per_article, key=lambda p: p[0].source.priority):
-            candidates = split_sentences(a.summary) + ([a.title] if tok in norm_fact(a.title) else [])
-            for sent in candidates:
-                if tok in norm_fact(sent) and sent not in used and (best is None or len(sent) < len(best)):
-                    best = sent
-            if best:
-                break
-        if best and best not in used:
-            used.add(best)
-            confirmed_ids = sorted(token_sources[tok], key=lambda x: SOURCE_BY_ID[x].priority)
-            out.append({
-                "text": best,
-                "metric": tok,
-                "confirmed_by": [SOURCE_BY_ID[s].name for s in confirmed_ids],
-            })
+
+    for c in candidate_sents:
+        sent = c["sentence"]
+        if sent in used:
+            continue
+        used.add(sent)
+
+        metrics = list(c["facts"])
+        primary_metric = metrics[0] if metrics else ""
+        confirmed: set[str] = {c["source"].name}
+        if primary_metric:
+            for other in arts:
+                if primary_metric in extract_facts(other.text):
+                    confirmed.add(other.source.name)
+        confirmed_names = sorted(
+            confirmed,
+            key=lambda name: next((s.priority for s in SOURCES if s.name == name), 99),
+        )
+        out.append({
+            "text": sent,
+            "metric": primary_metric,
+            "confirmed_by": confirmed_names,
+        })
         if len(out) >= 3:
             break
 
-    if not out:
+    # 若摘要過短無獨立數據句，從摘要提取非標題之完整敘述句
+    if len(out) < 2:
         for a in sorted(arts, key=lambda x: x.source.priority):
-            for sent in split_sentences(a.summary) or [a.title]:
-                if sent not in used:
-                    used.add(sent)
+            for s in split_sentences(a.summary):
+                if s not in used and s not in titles and not any(t in s or s in t for t in titles):
+                    used.add(s)
                     out.append({
-                        "text": sent,
+                        "text": s,
                         "metric": "",
-                        "confirmed_by": [x.source.name for x in arts[:3]],
+                        "confirmed_by": [a.source.name],
                     })
                     break
             if len(out) >= 2:
                 break
+
     return out
 
 
@@ -697,13 +786,21 @@ def perspectives(arts: list[Article]) -> list[dict]:
     by_source: dict[str, Article] = {}
     for a in sorted(arts, key=lambda x: x.source.priority):
         by_source.setdefault(a.source.id, a)
-    out = []
+    out: list[dict] = []
     used_angles: set[str] = set()
     for a in list(by_source.values())[:3]:
-        matched_angles = [label for label, pat in ANGLE_RULES if pat.search(a.text)]
-        angle = next((lbl for lbl in matched_angles if lbl not in used_angles), matched_angles[0] if matched_angles else "產業與市場脈絡")
+        angle = score_article_angle(a.text, used_angles)
         used_angles.add(angle)
-        lead = (split_sentences(a.summary) or [a.title])[0]
+
+        # 挑選非標題之內文首句，作為聚焦觀點
+        lead = ""
+        for s in split_sentences(a.summary):
+            if s != a.title and s not in a.title and a.title not in s:
+                lead = s
+                break
+        if not lead:
+            lead = a.summary or a.title
+
         out.append({
             "media": a.source.name,
             "headline": a.title,
@@ -1243,7 +1340,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
     def esc(v: object) -> str:
         s = str(v if v is not None else "")
         s = re.sub(r"\.{3,}", "…", s)
-        return html.escape(s, quote=True)
+        escaped = html.escape(s, quote=True)
+        return re.sub(r"\b(AI|GPU|CPU|IPO|CPI|DXY|PCE|FED|FOMC)\b", r"<abbr>\1</abbr>", escaped)
 
     def fmt_time(iso_str: str | None) -> str:
         if not iso_str:
@@ -1661,24 +1759,11 @@ def run(args: argparse.Namespace) -> int:
     if mode == "live":
         live_articles, statuses = collect_live(now)
         translate_articles(live_articles)
-        # 結合即時白名單抓取與多媒體基準事件庫，確保離峰時段亦具備完整跨媒體對照與深度專題
-        seed_articles = curated_benchmark_articles(now)
-        by_url = {a.url: a for a in live_articles}
-        combined = list(live_articles)
-        for sa in seed_articles:
-            if sa.url in by_url:
-                la = by_url[sa.url]
-                if len(sa.summary) > len(la.summary):
-                    la.summary = sa.summary
-                    la.title = sa.title
-                if sa.image and not la.image:
-                    la.image = sa.image
-            else:
-                combined.append(sa)
-        stories, story_articles, stats = build_stories(combined, args.threshold)
+        # 正式環境 100% 僅使用真實 RSS 抓取之即時新聞，絕不混入任何 Seed 假資料或假網址
+        stories, story_articles, stats = build_stories(live_articles, args.threshold)
         attach_images(stories, story_articles)
         macro = collect_macro(args, sample_only=False)
-        analysed_count = len(combined)
+        analysed_count = len(live_articles)
     else:
         seed_articles = curated_benchmark_articles(now)
         statuses = [
@@ -1687,6 +1772,7 @@ def run(args: argparse.Namespace) -> int:
             for s in SOURCES
         ]
         stories, story_articles, stats = build_stories(seed_articles, args.threshold)
+        attach_images(stories, story_articles)
         macro = collect_macro(args, sample_only=True)
         analysed_count = len(seed_articles)
 
@@ -1714,7 +1800,30 @@ def run(args: argparse.Namespace) -> int:
     if problems:
         log.error("輸出驗證失敗：%s", "; ".join(problems))
         return 2
+
+    # 1. 寫入主檔案 daily_news.json
     atomic_write_json(out_path, payload)
+
+    # 2. 同步寫入專屬版號檔案 daily_news_morning.json / daily_news_evening.json
+    ed_key = ed.get("key", "morning")
+    edition_out = out_path.parent / f"daily_news_{ed_key}.json"
+    atomic_write_json(edition_out, payload)
+    log.info("已同步輸出專屬版號檔案：%s", edition_out)
+
+    # 3. 確保另一版號檔案存在（初次執行若另一版尚不存在，產生同日鏡像避免切換時 404）
+    other_key = "evening" if ed_key == "morning" else "morning"
+    other_out = out_path.parent / f"daily_news_{other_key}.json"
+    if not other_out.exists():
+        other_payload = dict(payload)
+        other_payload["edition"] = {
+            "key": other_key,
+            "label": "晚報版 16:00" if other_key == "evening" else "晨報版 07:30",
+            "name": "晚報版" if other_key == "evening" else "晨報版",
+            "scheduledTime": "16:00" if other_key == "evening" else "07:30",
+        }
+        atomic_write_json(other_out, other_payload)
+        log.info("已初始化另一版號檔案：%s", other_out)
+
     html_path = Path(args.html) if getattr(args, "html", None) else out_path.parent / "index.html"
     render_dashboard_html(payload, html_path)
     log.info("已同步更新 HTML 靜態渲染檔案：%s", html_path)

@@ -22,7 +22,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - 'public/daily_news.json'
+      - 'public/daily_news*.json'
       - 'public/index.html'
       - '.hallmark/**'
       - 'README.md'
@@ -69,7 +69,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/daily_news.json public/index.html
+          git add public/daily_news*.json public/index.html
           if git diff --staged --quiet; then
             echo "無新增變更，跳過 Commit"
           else
