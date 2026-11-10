@@ -1,0 +1,4 @@
+# 現代商業與深度時事新聞儀表板 (Modern Business & Current Affairs Dashboard)
+# 後端管線主要採用 Python 3.11 標準庫 (urllib, xml.etree.ElementTree, concurrent.futures, json, html, re)
+# 安裝 tzdata 以確保在任何 Linux / GitHub Actions 雲端虛擬環境下皆能精確取得 Asia/Taipei 台灣時區
+tzdata>=2024.1

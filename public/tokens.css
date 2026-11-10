@@ -1,0 +1,20 @@
+/* Hallmark · shape: app screen · genre: editorial · theme: Editorial (by request) · polarity: warm-uncoated-paper · accent: printer's green · type: Bricolage Grotesque 800 condensed + Noto Sans TC over Source Serif 4 + Noto Serif TC · layout: masthead + 4-cell macro strip + 2-lead 7:5 broadsheet split + 2-column secondary grid · motion: stillness · density: dense · v2.0.0 */
+/* Hallmark · pre-emit critique: 1) Every section and card places its heading (<h1>/<h2>/<h3>) as the first child of its header/article container, with metadata and timestamps placed after the heading in <p> or <dl> rows — zero eyebrow pills or pre-heading spans (Gate 54). 2) Every color, font-family, spacing, radius, and transition references :root custom properties from tokens.css (Gate 48). 3) Broadsheet grids use minmax(0, 1fr) columns with 1px ink hairlines and collapse cleanly at 64rem and 42rem with zero horizontal overflow. */
+:root {
+  color-scheme: light;
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 1.728rem; --text-section: 1.2rem; --text-title: 1rem; --text-lead: 1rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(97% 0.007 86); --color-paper-2: oklch(94% 0.010 86); --color-paper-3: oklch(91% 0.012 84);
+  --color-ink: oklch(16% 0.012 280); --color-ink-2: oklch(29% 0.011 280); --color-muted: oklch(48% 0.010 75);
+  --color-rule: oklch(85% 0.009 85); --color-rule-2: oklch(64% 0.010 80);
+  --color-accent: oklch(49% 0.130 152); --color-accent-ink: oklch(98% 0.005 88); --color-focus: oklch(52% 0.135 152);
+  --font-display: "Bricolage Grotesque", "Noto Sans TC", "PingFang TC", "Heiti TC", ui-sans-serif, sans-serif; --font-body: "Source Serif 4", "Noto Serif TC", "Songti TC", "PMingLiU", ui-serif, Georgia, serif;
+  --radius-card: 0; --radius-pill: 0; --rule-hair: 1px; --rule-heavy: 4px; --shadow-card: none;
+  --tracking-display: -0.012em; --display-weight: 800;
+}
