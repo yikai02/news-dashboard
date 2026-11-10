@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-11T01:47:16+08:00",
-  "updatedAt": "2026-11-11 01:47",
+  "generatedAt": "2026-11-11T01:48:12+08:00",
+  "updatedAt": "2026-11-11 01:48",
   "date": "2026-11-11",
   "weekday": "星期三",
   "dataMode": "live",
@@ -128,7 +128,7 @@
       "summary": "台積電董事會正式核准約新台幣 1.34 兆元（約 412 億美元）資本預算，資金將用於 2 奈米先進製程建廠、CoWoS 先進封裝產能擴充及經常性研發資本支出。法人預估明年全年資本支出有望挑戰 380 億美元高檔，帶動台灣廠務工程與半導體設備供應鏈訂單能見度直達 2027 年下半年。",
       "source": "經濟日報",
       "url": "https://money.udn.com/money/story/5612/9870216",
-      "publishedAt": "2026-11-10T22:47:16+08:00",
+      "publishedAt": "2026-11-10T22:48:12+08:00",
       "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/06/28/35084788.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
       "score": 99,
@@ -324,7 +324,7 @@
       "summary": "台灣 65 歲以上高齡人口占比正式突破 20% 邁入超高齡社會，衛福部長照基金年度預算雖擴編至 876 億元，但第一線照顧服務員與機構護理人力缺口仍達 4.5 萬人。調查發現，現行論件計酬支付制度使居服員傾向承接輕症家務案，導致中重症失能家庭平均等待床位時間長達 6.5 個月，急需透過修法調整分級給付與跨專業整合照護。",
       "source": "報導者",
       "url": "https://www.twreporter.org/a/long-term-care-workforce-structural-gap-2026",
-      "publishedAt": "2026-11-10T13:47:16+08:00",
+      "publishedAt": "2026-11-10T13:48:12+08:00",
       "imageUrl": "https://www.twreporter.org/images/20261103152359-05c2ef7f1e780c17595163cb5cc8e30f-tablet.jpg",
       "imageCredit": "報導者",
       "score": 94,
@@ -449,188 +449,6 @@
         }
       ],
       "rank": 2
-    },
-    {
-      "id": "sbba52dd5",
-      "section": "business_tech",
-      "title": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9870483",
-      "publishedAt": "2026-11-11T01:36:07+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/10/35504982.jpg&M=1&s=Y&x=0&y=11&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 91,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 32,
-        "data": 20,
-        "durability": 4
-      },
-      "mediaCount": 5,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "core_facts": [
-        {
-          "text": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "metric": "10億美元",
-          "confirmed_by": [
-            "經濟日報",
-            "數位時代"
-          ]
-        },
-        {
-          "text": "台積電入股Anthropic!擬砸5億美元投資 同步布局OpenAI",
-          "metric": "5億美元",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報"
-          ]
-        },
-        {
-          "text": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "metric": "9元",
-          "confirmed_by": [
-            "工商時報",
-            "TechNews 科技新報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-          "angle": "利率環境與法規監管",
-          "focus": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "excerpt": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "url": "https://money.udn.com/money/story/5612/9870483",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報",
-          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "angle": "供應鏈產能與訂單",
-          "focus": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "excerpt": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
-          "angle": "利率環境與法規監管",
-          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
-          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "metric": "10億美元",
-          "confirmed_by": [
-            "經濟日報",
-            "數位時代"
-          ]
-        },
-        {
-          "text": "台積電入股Anthropic!擬砸5億美元投資 同步布局OpenAI",
-          "metric": "5億美元",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報"
-          ]
-        },
-        {
-          "text": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "metric": "9元",
-          "confirmed_by": [
-            "工商時報",
-            "TechNews 科技新報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-          "angle": "利率環境與法規監管",
-          "focus": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "excerpt": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-          "url": "https://money.udn.com/money/story/5612/9870483",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報",
-          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "angle": "供應鏈產能與訂單",
-          "focus": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "excerpt": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
-          "angle": "利率環境與法規監管",
-          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
-          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9870483",
-          "headline": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
-          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VSmpRdlBlZ0x4R0tRaFlmQ1g2RjVCMkJ6eUNucTI5RWt5N0hneGJFZ2JGdDdhc3RfOVdERVBTOF9HYmNMQVQxLVRtRlBKVWNiaUU4VlBiS0VvcmtrOE5v?oc=5",
-          "headline": "台積電入股Anthropic!擬砸5億美元投資 同步布局OpenAI",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52VzNkQml6RnY1SFF1d1JJdHk0MUlob2RyeU82ZmFURkkzVEpqa29lNDBRVjNDTHFmaWNmYjJmNlJ2R3lwTy1EXzNwQmJBZ0xSenhBWDVIN3BRcXpGSGww?oc=5",
-          "headline": "《國際產業》Anthropic IPO細節曝光!輝達、台積電等巨頭認購- 國際",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
-          "lang": "zh"
-        },
-        {
-          "media": "數位時代",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUY2U0RhSG9KcFN2clI3cDlNUkN5LUI3allWNmtJYlNXWEhaN2JqTmxnemN0UW9SdzZiaUhVeFl1SnJCc1d6R3ZZU2JOQlNxMTZLem9RTHh6RklaWTVPMi05QzliTkJRcFRSd1J6UmJTXzFoRm8zSkdUTWhXdURRV0JQd2RoUldwZmo4?oc=5",
-          "headline": "押寶AI雙雄!台積電擬砸最高10億美元入股OpenAI、Anthropic,歷年創投布局一次看",
-          "lang": "zh"
-        },
-        {
-          "media": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY2I3VHRfaEF6T19qN28tZEVhN0piNERjTFpJRVlDMFdTLXJUZTlNdGJXblVLTVpEY0QzUVdvay1IazlCNTBmbGFWQ3NlNkIxRzBZSTIwSEJGUnJKTjl2YkZrUVdLVzB3T1V2WkRhRVAzcmVCVFJ6RjRfUEJveDZnWTlFYTBRZl9sMFlIUGZZaXlibmc?oc=5",
-          "headline": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
-          "lang": "zh"
-        }
-      ],
-      "rank": 3
     },
     {
       "id": "s74df56b3",
@@ -802,6 +620,186 @@
           "lang": "zh"
         }
       ],
+      "rank": 3
+    },
+    {
+      "id": "s70b1456a",
+      "section": "business_tech",
+      "title": "台積電投資Anthropic和OpenAI 各5億美元",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "晶圓代工廠台積電董事會今天核准在5億美元額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI Gro…",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5612/9870202",
+      "publishedAt": "2026-11-10T22:16:09+08:00",
+      "imageUrl": null,
+      "imageCredit": null,
+      "score": 89,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 32,
+        "data": 20,
+        "durability": 2
+      },
+      "mediaCount": 5,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "core_facts": [
+        {
+          "text": "台積電投資Anthropic和OpenAI 各5億美元",
+          "metric": "5億美元",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報"
+          ]
+        },
+        {
+          "text": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "metric": "9元",
+          "confirmed_by": [
+            "工商時報",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
+          "metric": "$1billion",
+          "confirmed_by": [
+            "Reuters"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "台積電投資Anthropic和OpenAI 各5億美元",
+          "angle": "利率環境與法規監管",
+          "focus": "晶圓代工廠台積電董事會今天核准在5億美元額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI Gro…",
+          "excerpt": "晶圓代工廠台積電董事會今天核准在5億美元額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI Gro…",
+          "url": "https://money.udn.com/money/story/5612/9870202",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報",
+          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "angle": "供應鏈產能與訂單",
+          "focus": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "excerpt": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
+          "angle": "利率環境與法規監管",
+          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
+          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
+          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "台積電投資Anthropic和OpenAI 各5億美元",
+          "metric": "5億美元",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報"
+          ]
+        },
+        {
+          "text": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "metric": "9元",
+          "confirmed_by": [
+            "工商時報",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
+          "metric": "$1billion",
+          "confirmed_by": [
+            "Reuters"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "台積電投資Anthropic和OpenAI 各5億美元",
+          "angle": "利率環境與法規監管",
+          "focus": "晶圓代工廠台積電董事會今天核准在5億美元額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI Gro…",
+          "excerpt": "晶圓代工廠台積電董事會今天核准在5億美元額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI Gro…",
+          "url": "https://money.udn.com/money/story/5612/9870202",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報",
+          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "angle": "供應鏈產能與訂單",
+          "focus": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "excerpt": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
+          "angle": "利率環境與法規監管",
+          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
+          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發2026年第三季每股現金股利達9元,展 […]",
+          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9870202",
+          "headline": "台積電投資Anthropic和OpenAI 各5億美元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGLTF2ZnQ4aThTbnZmNmtxQ0kwRGlmRGwwelMwbHpKWWVjbTBjTFBsbHJSTko1bkRnbXBOV254MHU3eWEyTkVXS3dSLVBFSzdsQkZVSXpLNXF4aDZSay1z?oc=5",
+          "headline": "季配9元破紀錄 台積電將砸320億入股OpenAI、Anthropic",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VSmpRdlBlZ0x4R0tRaFlmQ1g2RjVCMkJ6eUNucTI5RWt5N0hneGJFZ2JGdDdhc3RfOVdERVBTOF9HYmNMQVQxLVRtRlBKVWNiaUU4VlBiS0VvcmtrOE5v?oc=5",
+          "headline": "台積電入股Anthropic!擬砸5億美元投資 同步布局OpenAI",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52VzNkQml6RnY1SFF1d1JJdHk0MUlob2RyeU82ZmFURkkzVEpqa29lNDBRVjNDTHFmaWNmYjJmNlJ2R3lwTy1EXzNwQmJBZ0xSenhBWDVIN3BRcXpGSGww?oc=5",
+          "headline": "《國際產業》Anthropic IPO細節曝光!輝達、台積電等巨頭認購- 國際",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
+          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
+          "lang": "zh"
+        },
+        {
+          "media": "數位時代",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUY2U0RhSG9KcFN2clI3cDlNUkN5LUI3allWNmtJYlNXWEhaN2JqTmxnemN0UW9SdzZiaUhVeFl1SnJCc1d6R3ZZU2JOQlNxMTZLem9RTHh6RklaWTVPMi05QzliTkJRcFRSd1J6UmJTXzFoRm8zSkdUTWhXdURRV0JQd2RoUldwZmo4?oc=5",
+          "headline": "押寶AI雙雄!台積電擬砸最高10億美元入股OpenAI、Anthropic,歷年創投布局一次看",
+          "lang": "zh"
+        },
+        {
+          "media": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY2I3VHRfaEF6T19qN28tZEVhN0piNERjTFpJRVlDMFdTLXJUZTlNdGJXblVLTVpEY0QzUVdvay1IazlCNTBmbGFWQ3NlNkIxRzBZSTIwSEJGUnJKTjl2YkZrUVdLVzB3T1V2WkRhRVAzcmVCVFJ6RjRfUEJveDZnWTlFYTBRZl9sMFlIUGZZaXlibmc?oc=5",
+          "headline": "TSMC to invest up to $1 billion in Anthropic, OpenAI",
+          "lang": "zh"
+        }
+      ],
       "rank": 4
     },
     {
@@ -813,7 +811,7 @@
       "summary": "AI 伺服器單櫃功耗突破 120kW，明年液冷滲透率上看 45%，整體液冷散熱市場規模年增 68% 達 140 億美元。",
       "source": "經濟日報",
       "url": "https://money.udn.com/money/story/5612/9870198",
-      "publishedAt": "2026-11-10T18:47:16+08:00",
+      "publishedAt": "2026-11-10T18:48:12+08:00",
       "imageUrl": null,
       "imageCredit": null,
       "score": 86,
@@ -1255,7 +1253,7 @@
       "summary": "美債 10 年期殖利率急彈 13 個個基點至 4.99%，美元兌新台幣來到 33.015 元。外資單日賣超台股 341 億元，連續 9 日調節權值股，法人提醒短線須關注聯準會官員談話與外資匯出節奏。",
       "source": "經濟日報",
       "url": "https://money.udn.com/money/story/5612/9870315",
-      "publishedAt": "2026-11-10T22:47:16+08:00",
+      "publishedAt": "2026-11-10T22:48:12+08:00",
       "imageUrl": null,
       "imageCredit": null,
       "score": 83,
@@ -1553,9 +1551,9 @@
     }
   ],
   "stats": {
-    "clusters": 322,
+    "clusters": 323,
     "passed": 9,
-    "below_threshold": 313,
+    "below_threshold": 314,
     "articlesAnalysed": 421
   },
   "sourcesStatus": [
@@ -1565,7 +1563,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 32,
+      "count": 33,
       "error": null
     },
     {
