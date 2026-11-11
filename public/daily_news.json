@@ -6,8 +6,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-11T08:57:44+08:00",
-  "updatedAt": "2026-11-11 08:57",
+  "generatedAt": "2026-11-11T08:58:41+08:00",
+  "updatedAt": "2026-11-11 08:58",
   "date": "2026-11-11",
   "weekday": "星期三",
   "dataMode": "live",
@@ -1009,10 +1009,10 @@
     }
   ],
   "stats": {
-    "clusters": 283,
+    "clusters": 279,
     "passed": 8,
-    "below_threshold": 275,
-    "articlesAnalysed": 333
+    "below_threshold": 271,
+    "articlesAnalysed": 334
   },
   "sourcesStatus": [
     {
@@ -1021,7 +1021,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 52,
+      "count": 53,
       "error": null
     },
     {
