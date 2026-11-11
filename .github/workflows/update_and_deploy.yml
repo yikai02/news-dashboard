@@ -96,3 +96,15 @@ jobs:
       - name: 部署網站
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: 發送 ntfy 推播通知
+        if: success()
+        continue-on-error: true
+        run: |
+          curl -4 -fsS --retry 2 --max-time 10 \
+            -H "Title: Dashboard Updated" \
+            -H "Priority: default" \
+            -H "Tags: white_check_mark,newspaper" \
+            -H "Click: https://yikai02.github.io/news-dashboard/" \
+            -d "新聞儀表板已自動抓取更新並部署完畢，點擊直接查看最新頭條！" \
+            "https://ntfy.sh/kyle-anti-0910"

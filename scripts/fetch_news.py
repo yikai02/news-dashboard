@@ -289,11 +289,15 @@ FACT_RE = re.compile(
 )
 ANON_RE = re.compile(r"知情人士|消息人士|不願具名|匿名|據傳|傳出|市場傳聞|people familiar|sources said|unnamed|anonymous", re.I)
 
+_MACRO_POLICY_RE = re.compile(
+    r"聯準會|升息|降息|利率|殖利率|通膨|\bcpi\b|貨幣政策|匯率|央行|關稅|經貿政策|\bfed\b|interest\s*rate|inflation|tariff",
+    re.I,
+)
 ANGLE_PROFILES: list[tuple[str, re.Pattern]] = [
     ("供應鏈產能與建廠動向", re.compile(r"晶圓廠|建廠|擴產|產能|供應鏈|訂單|代工|封裝|cowos|稼動率|晶圓|出貨|建置|產線|capacity|fab|packaging|supply\s*chain", re.I)),
-    ("資本預算與財報配置", re.compile(r"資本預算|資本支出|財報|營收|獲利|毛利率|淨利|股息|派息|季報|年報|現金股利|營運績效|capex|revenue|earnings|dividend|margin", re.I)),
+    ("資本預算與財報配置", re.compile(r"資本預算|資本支出|財報|營收|獲利|毛利率|淨利|股息|派息|季報|年報|現金股利|營運績效|認購|入股|特別股|普通股|股權|資金配置|capex|revenue|earnings|dividend|margin", re.I)),
     ("先進技術與算力規格", re.compile(r"製程|奈米|\bnm\b|先進封裝|算力|架構|伺服器|\bgpu\b|ai晶片|晶片|規格|架構突破|矽光子|量子|architecture|benchmark|\bchip\b", re.I)),
-    ("利率匯率與總經政策", re.compile(r"聯準會|升息|降息|利率|殖利率|通膨|\bcpi\b|貨幣政策|匯率|台幣|央行|關稅|經貿政策|\bfed\b|interest\s*rate|inflation|tariff", re.I)),
+    ("利率匯率與總經政策", _MACRO_POLICY_RE),
     ("市場定價與外資籌碼", re.compile(r"股價|買超|賣超|市值|標普|那斯達克|加權指數|目標價|外資|投信|持股|籌碼|\bstocks?\b|shares?|valuation|rally", re.I)),
     ("政策法規與公共治理", re.compile(r"政策|法規|監管|立法|補助|委員會|審查|訴訟|反壟斷|長照|健保|勞動|人權|國土|環境|regulation|policy|antitrust|compliance", re.I)),
     ("深度調查與結構剖析", re.compile(r"專題|調查|追蹤|脈絡|體系|困境|結構轉型|公共利益|investigat|in-depth", re.I)),
@@ -303,6 +307,8 @@ ANGLE_PROFILES: list[tuple[str, re.Pattern]] = [
 def score_article_angle(text: str, used_angles: set[str] | None = None) -> str:
     scores: list[tuple[int, str]] = []
     for label, pat in ANGLE_PROFILES:
+        if label == "利率匯率與總經政策" and not _MACRO_POLICY_RE.search(text):
+            continue
         hits = len(pat.findall(text))
         if hits > 0:
             scores.append((hits, label))
@@ -1584,10 +1590,14 @@ def atomic_write_text(path: Path, text: str) -> None:
 
 def render_dashboard_html(payload: dict, html_path: Path) -> None:
     """以純靜態方式同步產出符合 Hallmark Editorial 規範之 index.html。"""
-    def esc(v: object) -> str:
-        s = str(v if v is not None else "")
+    def esc_attr(v: object) -> str:
+        """HTML 屬性與純文字標題專用跳脫：剝除 HTML 標籤且絕不插入 <abbr>。"""
+        s = TAG_RE.sub("", str(v if v is not None else ""))
         s = re.sub(r"\.{3,}", "…", s)
-        escaped = html.escape(s, quote=True)
+        return html.escape(s, quote=True)
+
+    def esc(v: object) -> str:
+        escaped = esc_attr(v)
         return re.sub(r"\b(AI|GPU|CPU|IPO|CPI|DXY|PCE|FED|FOMC)\b", r"<abbr>\1</abbr>", escaped)
 
     def fmt_time(iso_str: str | None) -> str:
@@ -1616,8 +1626,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         lx, ly = coords[-1].split(",")
         stroke = "var(--color-accent)" if is_up else "var(--color-ink-2)"
         return (
-            f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{esc(label)} 近期走勢">'
-            f'<title>{esc(label)} 近期走勢（最低 {mn}，最高 {mx}）</title>'
+            f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{esc_attr(label)} 近期走勢">'
+            f'<title>{esc_attr(label)} 近期走勢（最低 {mn}，最高 {mx}）</title>'
             f'<polyline fill="none" stroke="{stroke}" stroke-width="1.5" points="{" ".join(coords)}" />'
             f'<circle cx="{lx}" cy="{ly}" r="2.2" fill="{stroke}" />'
             f'</svg>'
@@ -1684,13 +1694,13 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
                 <span class="perspective-item__media">{esc(p["media"])}</span>
                 <span class="perspective-item__angle">{esc(p["angle"])}</span>
               </div>
-              <p class="perspective-item__headline"><a href="{esc(p["url"])}" target="_blank" rel="noopener noreferrer">{esc(p["headline"])}</a></p>
+              <p class="perspective-item__headline"><a href="{esc_attr(p["url"])}" target="_blank" rel="noopener noreferrer">{esc(p["headline"])}</a></p>
               <p class="perspective-item__focus">{esc(p.get("focus") or p.get("excerpt") or "")}</p>
             </li>"""
             for p in perspectives
         )
         src_li = "".join(
-            f'<li><span><strong>{esc(s["media"])}</strong>：{esc(s["headline"])}</span><a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer">開啟原始報導</a></li>'
+            f'<li><span><strong>{esc(s["media"])}</strong>：{esc(s["headline"])}</span><a href="{esc_attr(s["url"])}" target="_blank" rel="noopener noreferrer">開啟原始報導</a></li>'
             for s in sources
         )
         unv_html = (
@@ -1698,11 +1708,11 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             if story.get("unverified_notice") else ""
         )
         return f"""<div class="factcheck-disclosure">
-      <button type="button" class="factcheck-toggle" data-toggle-story="{esc(story['id'])}" aria-expanded="false" aria-controls="{esc(drawer_id)}">
+      <button type="button" class="factcheck-toggle" data-toggle-story="{esc_attr(story['id'])}" aria-expanded="false" aria-controls="{esc_attr(drawer_id)}">
         <span>事實查核明細（{len(sources)} 家出處）</span>
         <span data-toggle-label>展開</span>
       </button>
-      <div id="{esc(drawer_id)}" class="factcheck-drawer" data-open="false">
+      <div id="{esc_attr(drawer_id)}" class="factcheck-drawer" data-open="false">
         <div class="factcheck-drawer__inner">
           <div class="factcheck-drawer__content">
             <dl class="score-breakdown" aria-label="四維度重要性評分拆解">
@@ -1734,7 +1744,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         if story.get("imageUrl"):
             credit = story.get("imageCredit") or story.get("source") or "原始媒體"
             media_html = f"""<figure class="lead-story__media">
-              <img src="{esc(story['imageUrl'])}" alt="{esc(story['title'])}" loading="eager" decoding="async" data-fallback-story="{esc(story['id'])}" />
+              <img src="{esc_attr(story['imageUrl'])}" alt="{esc_attr(story['title'])}" loading="eager" decoding="async" data-fallback-story="{esc_attr(story['id'])}" />
               <figcaption>新聞原生首圖（提取自原始網頁 meta og:image，來源：{esc(credit)}）</figcaption>
             </figure>"""
         else:
@@ -1750,7 +1760,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
                 <span class="perspective-item__media">{esc(p["media"])}</span>
                 <span class="perspective-item__angle">{esc(p["angle"])}</span>
               </div>
-              <p class="perspective-item__headline"><a href="{esc(p["url"])}" target="_blank" rel="noopener noreferrer">{esc(p["headline"])}</a></p>
+              <p class="perspective-item__headline"><a href="{esc_attr(p["url"])}" target="_blank" rel="noopener noreferrer">{esc(p["headline"])}</a></p>
               <p class="perspective-item__focus">{esc(p.get("focus") or p.get("excerpt") or "")}</p>
             </li>"""
             for p in persp
@@ -1760,15 +1770,15 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             if story.get("unverified_notice")
             else '<div class="unverified-callout" role="note"><strong>查核狀態：</strong>本則頭條所有核心數據均經 2 家以上具名媒體或官方公開公報交叉確認，無單一匿名消息源。</div>'
         )
-        return f"""<article class="lead-story" data-story-id="{esc(story['id'])}">
+        return f"""<article class="lead-story" data-story-id="{esc_attr(story['id'])}">
           <div class="lead-story__primary">
-            <h3 class="lead-story__headline"><a href="{esc(story['url'])}" target="_blank" rel="noopener noreferrer">{esc(story['title'])}</a></h3>
+            <h3 class="lead-story__headline"><a href="{esc_attr(story['url'])}" target="_blank" rel="noopener noreferrer">{esc(story['title'])}</a></h3>
             <div class="story-meta">
               <span class="story-meta__item story-meta__score">重要性評分 {esc(story['score'])} 分</span>
               <span class="story-meta__item">跨媒體共鳴 {esc(story['mediaCount'])} 家</span>
               <span class="story-meta__item">領銜報導：{esc(story['source'])}</span>
               <span class="story-meta__item">分類：{esc(sec_label)}</span>
-              <time class="story-meta__item" datetime="{esc(story.get('publishedAt') or '')}">{esc(fmt_time(story.get('publishedAt')))}</time>
+              <time class="story-meta__item" datetime="{esc_attr(story.get('publishedAt') or '')}">{esc(fmt_time(story.get('publishedAt')))}</time>
             </div>
             {media_html}
             <p class="lead-story__summary">{esc(story['summary'])}</p>
@@ -1796,7 +1806,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             body = f"""<div class="story-card__body-split">
               <p class="story-card__summary">{esc(story['summary'])}</p>
               <figure class="story-card__thumb">
-                <img src="{esc(story['imageUrl'])}" alt="{esc(story['title'])}" loading="lazy" decoding="async" data-fallback-thumb="{esc(story['id'])}" />
+                <img src="{esc_attr(story['imageUrl'])}" alt="{esc_attr(story['title'])}" loading="lazy" decoding="async" data-fallback-thumb="{esc_attr(story['id'])}" />
               </figure>
             </div>"""
         else:
@@ -1805,13 +1815,13 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             f'<div class="unverified-callout" role="note"><strong>單一消息源警示：</strong>{esc(story["unverified_notice"])}</div>'
             if story.get("unverified_notice") else ""
         )
-        return f"""<article class="{cls}" data-story-id="{esc(story['id'])}">
-          <h3 class="story-card__headline"><a href="{esc(story['url'])}" target="_blank" rel="noopener noreferrer">{esc(story['title'])}</a></h3>
+        return f"""<article class="{cls}" data-story-id="{esc_attr(story['id'])}">
+          <h3 class="story-card__headline"><a href="{esc_attr(story['url'])}" target="_blank" rel="noopener noreferrer">{esc(story['title'])}</a></h3>
           <div class="story-meta">
             <span class="story-meta__item story-meta__score">評分 {esc(story['score'])} 分</span>
             <span class="story-meta__item">{esc(story['mediaCount'])} 家共鳴</span>
             <span class="story-meta__item">{esc(story['source'])}</span>
-            <time class="story-meta__item" datetime="{esc(story.get('publishedAt') or '')}">{esc(fmt_time(story.get('publishedAt')))}</time>
+            <time class="story-meta__item" datetime="{esc_attr(story.get('publishedAt') or '')}">{esc(fmt_time(story.get('publishedAt')))}</time>
           </div>
           {body}
           {unv}
@@ -1842,7 +1852,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>現代商業與深度時事新聞儀表板（{esc(payload['edition']['label'])}）</title>
+  <title>現代商業與深度時事新聞儀表板（{esc_attr(payload['edition']['label'])}）</title>
   <meta name="description" content="靜態資料驅動之台灣正體中文高價值商業、科技供應鏈與深度公共議題新聞儀表板，嚴選重要性 80 分以上跨媒體核實報導。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

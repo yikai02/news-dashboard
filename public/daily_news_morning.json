@@ -6,8 +6,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-11T08:48:55+08:00",
-  "updatedAt": "2026-11-11 08:48",
+  "generatedAt": "2026-11-11T08:57:44+08:00",
+  "updatedAt": "2026-11-11 08:57",
   "date": "2026-11-11",
   "weekday": "星期三",
   "dataMode": "live",
@@ -173,7 +173,7 @@
         {
           "media": "經濟日報",
           "headline": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-          "angle": "利率匯率與總經政策",
+          "angle": "資本預算與財報配置",
           "focus": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
           "excerpt": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
           "url": "https://money.udn.com/money/story/5612/9870483",
@@ -227,7 +227,7 @@
         {
           "media": "經濟日報",
           "headline": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
-          "angle": "利率匯率與總經政策",
+          "angle": "資本預算與財報配置",
           "focus": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
           "excerpt": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
           "url": "https://money.udn.com/money/story/5612/9870483",
@@ -828,110 +828,6 @@
       "rank": 6
     },
     {
-      "id": "sf142d42e",
-      "section": "business_tech",
-      "title": "台灣 AI 導入不輸南韓 投資回報卻落後?揭台廠 AI 競爭力三大隱憂",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。美商鄧白氏最新調查顯示,台灣77.8%的受訪企業已跨越AI規劃及試行階段,與南韓78.5%幾乎並駕齊驅;但取得廣泛或顯著投資回報的企業占比,台灣僅26.4%,明顯落後南韓的44.1%。進一步觀察,台灣企業在資料準備度、技術架構及風險治理能力等三大面向仍有不足,凸顯AI從廣泛部署走向實際獲利,仍面臨不少挑戰。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9870345",
-      "publishedAt": "2026-11-10T22:14:44+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/06/28/35084788.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 80,
-      "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 32,
-        "data": 20,
-        "durability": 2
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併"
-      ],
-      "core_facts": [
-        {
-          "text": "美商鄧白氏最新調查顯示,台灣77.8%的受訪企業已跨越AI規劃及試行階段,與南韓78.5%幾乎並駕齊驅;但取得廣泛或顯著投資回報的企業占比,台灣僅26.4%,明顯落後南韓的44.1%。",
-          "metric": "26.4%",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "進一步觀察,台灣企業在資料準備度、技術架構及風險治理能力等三大面向仍有不足,凸顯AI從廣泛部署走向實際獲利,仍面臨不少挑戰。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台灣 AI 導入不輸南韓 投資回報卻落後?揭台廠 AI 競爭力三大隱憂",
-          "angle": "資本預算與財報配置",
-          "focus": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "excerpt": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "url": "https://money.udn.com/money/story/5612/9870345",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "美商鄧白氏最新調查顯示,台灣77.8%的受訪企業已跨越AI規劃及試行階段,與南韓78.5%幾乎並駕齊驅;但取得廣泛或顯著投資回報的企業占比,台灣僅26.4%,明顯落後南韓的44.1%。",
-          "metric": "26.4%",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "進一步觀察,台灣企業在資料準備度、技術架構及風險治理能力等三大面向仍有不足,凸顯AI從廣泛部署走向實際獲利,仍面臨不少挑戰。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台灣 AI 導入不輸南韓 投資回報卻落後?揭台廠 AI 競爭力三大隱憂",
-          "angle": "資本預算與財報配置",
-          "focus": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "excerpt": "台灣企業積極擁抱人工智慧(AI),投資效益卻未必跟得上部署腳步。",
-          "url": "https://money.udn.com/money/story/5612/9870345",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9870345",
-          "headline": "台灣 AI 導入不輸南韓 投資回報卻落後?揭台廠 AI 競爭力三大隱憂",
-          "lang": "zh"
-        }
-      ],
-      "rank": 7
-    },
-    {
       "id": "s16abf7f8",
       "section": "business_tech",
       "title": "台灣大前10月每股純益 4.74元,年增22%,收購精誠總持股達61.02%",
@@ -1033,7 +929,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "sd0bbd156",
@@ -1109,14 +1005,14 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 8
     }
   ],
   "stats": {
-    "clusters": 278,
-    "passed": 9,
-    "below_threshold": 269,
-    "articlesAnalysed": 332
+    "clusters": 283,
+    "passed": 8,
+    "below_threshold": 275,
+    "articlesAnalysed": 333
   },
   "sourcesStatus": [
     {
