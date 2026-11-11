@@ -14,7 +14,7 @@
   --color-ink: oklch(16% 0.012 280); --color-ink-2: oklch(29% 0.011 280); --color-muted: oklch(48% 0.010 75);
   --color-rule: oklch(85% 0.009 85); --color-rule-2: oklch(64% 0.010 80);
   --color-accent: oklch(49% 0.130 152); --color-accent-ink: oklch(98% 0.005 88); --color-focus: oklch(52% 0.135 152);
-  --font-display: "Bricolage Grotesque", "Noto Sans TC", "PingFang TC", "Heiti TC", ui-sans-serif, sans-serif; --font-body: "Source Serif 4", "Noto Serif TC", "Songti TC", "PMingLiU", ui-serif, Georgia, serif;
+  --font-display: "Bricolage Grotesque", "Noto Sans TC", "PingFang TC", "Heiti TC", ui-sans-serif, sans-serif; --font-body: "Source Serif 4", "Noto Serif TC", "Songti TC", "PMingLiU", ui-serif, Georgia, serif; --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --radius-card: 0; --radius-pill: 0; --rule-hair: 1px; --rule-heavy: 4px; --shadow-card: none;
   --tracking-display: -0.012em; --display-weight: 800;
 }

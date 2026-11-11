@@ -4,6 +4,7 @@
 
   const state = {
     payload: null,
+    editionMarketsCache: {},
     filter: "all",
     query: "",
     editionOverride: null,
@@ -40,14 +41,14 @@
     return num.toFixed(typeof digits === "number" ? digits : 2);
   }
 
-  function buildSparklineSvg(history, label, isUp) {
+  function buildSparklineSvg(history, label, isUp, market) {
     const pts = Array.isArray(history)
       ? history.map(Number).filter((n) => Number.isFinite(n))
       : [];
     if (pts.length < 2) return "";
-    const w = 84;
-    const h = 28;
-    const pad = 3;
+    const w = 72;
+    const h = 24;
+    const pad = 2.5;
     const min = Math.min(...pts);
     const max = Math.max(...pts);
     const span = max - min || 1;
@@ -57,7 +58,14 @@
       return `${x.toFixed(1)},${y.toFixed(1)}`;
     });
     const last = coords[coords.length - 1].split(",");
-    const strokeVar = isUp ? "var(--color-accent)" : "var(--color-ink-2)";
+    const strokeVar =
+      market === "tw"
+        ? isUp
+          ? "var(--color-error)"
+          : "var(--color-accent)"
+        : isUp
+        ? "var(--color-accent)"
+        : "var(--color-ink-2)";
     return `<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${escapeHtml(label)} 近期走勢">
       <title>${escapeHtml(label)} 近期走勢（最低 ${min}，最高 ${max}）</title>
       <polyline fill="none" stroke="${strokeVar}" stroke-width="1.5" points="${coords.join(" ")}" />
@@ -65,37 +73,115 @@
     </svg>`;
   }
 
-  function renderMacroBar(macro) {
+  function renderMarketCell(item, cellClass) {
+    const digits = typeof item.digits === "number" ? item.digits : 2;
+    const valStr = formatNumber(item.value, digits);
+    const chg = Number(item.change || 0);
+    const pct = Number(item.changePct || 0);
+    const sign = chg > 0 ? "+" : "";
+    const trend = chg > 0 ? "up" : chg < 0 ? "down" : "flat";
+    const marketAttr = item.market ? ` data-market="${escapeHtml(item.market)}"` : "";
+    const symbolHtml =
+      item.symbol && item.symbol !== "NDC"
+        ? `<code class="market-cell__symbol">${escapeHtml(item.symbol)}</code>`
+        : "";
+    const deltaText = item.light
+      ? `${item.light}（${sign}${formatNumber(chg, digits)} ${item.unit || ""}）`
+      : `${sign}${formatNumber(chg, digits)} (${sign}${pct.toFixed(2)}%)`;
+    const spark = buildSparklineSvg(item.history, item.label, chg >= 0, item.market);
+    return `<article class="${escapeHtml(cellClass)}"${marketAttr}>
+      <div class="macro-cell__main">
+        <p class="market-cell__name">${escapeHtml(item.label)}</p>
+        ${symbolHtml}
+        <div class="macro-cell__value-row">
+          <span class="macro-cell__value">${escapeHtml(valStr)}</span>
+          ${item.unit ? `<span class="macro-cell__unit">${escapeHtml(item.unit)}</span>` : ""}
+        </div>
+        <div class="${escapeHtml(cellClass)}__delta" data-trend="${trend}">${escapeHtml(deltaText)}</div>
+      </div>
+      <div class="macro-cell__spark">
+        ${spark}
+        <span class="macro-cell__asof">${escapeHtml(item.asOf || "")}</span>
+      </div>
+    </article>`;
+  }
+
+  function renderMacroBar(payload) {
     const container = document.getElementById("macro-grid");
-    if (!container || !macro || !Array.isArray(macro.items)) return;
-    container.innerHTML = macro.items
-      .map((item) => {
-        const digits = typeof item.digits === "number" ? item.digits : 2;
-        const valStr = formatNumber(item.value, digits);
-        const chg = Number(item.change || 0);
-        const pct = Number(item.changePct || 0);
-        const sign = chg > 0 ? "+" : "";
-        const trend = chg > 0 ? "up" : chg < 0 ? "down" : "flat";
-        const deltaText = item.light
-          ? `${item.light}（較上期 ${sign}${formatNumber(chg, digits)} ${item.unit || ""}）`
-          : `${sign}${formatNumber(chg, digits)} (${sign}${pct.toFixed(2)}%)`;
-        const spark = buildSparklineSvg(item.history, item.label, chg >= 0);
-        return `<article class="macro-cell">
-          <div class="macro-cell__main">
-            <h3>${escapeHtml(item.label)}</h3>
-            <div class="macro-cell__value-row">
-              <span class="macro-cell__value">${escapeHtml(valStr)}</span>
-              ${item.unit ? `<span class="macro-cell__unit">${escapeHtml(item.unit)}</span>` : ""}
-            </div>
-            <div class="macro-cell__delta" data-trend="${trend}">${escapeHtml(deltaText)}</div>
-          </div>
-          <div class="macro-cell__spark">
-            ${spark}
-            <span class="macro-cell__asof">${escapeHtml(item.asOf || "")}</span>
-          </div>
-        </article>`;
-      })
-      .join("");
+    const items =
+      payload?.macro_indicators ||
+      payload?.macro?.macro_indicators ||
+      payload?.macro?.items ||
+      [];
+    if (!container || !Array.isArray(items)) return;
+    container.innerHTML = items.map((item) => renderMarketCell(item, "macro-cell")).join("");
+  }
+
+  function renderMarketFocus(payload, activeEditionKey) {
+    const section = document.getElementById("market-focus-section");
+    const headingEl = document.getElementById("market-focus-heading");
+    const noteEl = document.getElementById("market-focus-note");
+    const idxGrid = document.getElementById("market-focus-indices");
+    const stkGrid = document.getElementById("market-focus-stocks");
+    if (!section || !idxGrid || !stkGrid || !payload) return;
+
+    const edMap =
+      payload.edition_markets ||
+      payload.macro?.edition_markets ||
+      state.editionMarketsCache ||
+      {};
+    if (edMap && (edMap.morning || edMap.evening)) {
+      state.editionMarketsCache = { ...state.editionMarketsCache, ...edMap };
+    }
+
+    const key = activeEditionKey === "evening" ? "evening" : "morning";
+    let groupData = edMap[key] || state.editionMarketsCache[key];
+
+    if ((!groupData || !Array.isArray(groupData.items)) && Array.isArray(payload.market_focus)) {
+      groupData = {
+        edition: key,
+        items: payload.market_focus,
+        indices: payload.market_focus.filter((x) => x.group === "index"),
+        stocks: payload.market_focus.filter((x) => x.group !== "index"),
+      };
+    }
+
+    if (!groupData || !Array.isArray(groupData.items) || groupData.items.length === 0) {
+      section.hidden = true;
+      return;
+    }
+
+    section.hidden = false;
+    const isTw = key === "evening";
+    section.setAttribute("data-market-convention", isTw ? "tw" : "us");
+
+    if (headingEl) {
+      headingEl.textContent =
+        groupData.title ||
+        (isTw
+          ? "台股收盤與核心權值表現（晚報焦點）"
+          : "美股收盤與科技巨頭表現（晨報焦點）");
+    }
+    if (noteEl) {
+      noteEl.textContent =
+        groupData.description ||
+        (isTw
+          ? "涵蓋台灣加權、櫃買指數與核心 ETF／權值股（台股慣例：漲紅跌綠）"
+          : "涵蓋標普 500、那斯達克、費半、道瓊指數與美股科技 ADR（+ 上漲 / - 下跌）");
+    }
+
+    const indices = Array.isArray(groupData.indices)
+      ? groupData.indices
+      : groupData.items.filter((x) => x.group === "index");
+    const stocks = Array.isArray(groupData.stocks)
+      ? groupData.stocks
+      : groupData.items.filter((x) => x.group !== "index");
+
+    idxGrid.setAttribute("data-cols", indices.length <= 2 ? "2" : "4");
+    idxGrid.innerHTML = indices.map((item) => renderMarketCell(item, "market-cell")).join("");
+
+    stkGrid.setAttribute("data-cols", stocks.length === 6 ? "3" : stocks.length <= 2 ? "2" : "4");
+    stkGrid.innerHTML = stocks.map((item) => renderMarketCell(item, "market-cell")).join("");
   }
 
   function renderFactLedgerFigure(story) {
@@ -407,8 +493,10 @@
     const payload = state.payload;
     if (!payload) return;
 
+    const activeEditionKey = state.editionOverride || payload.edition?.key || "morning";
     updateMasthead(payload);
-    renderMacroBar(payload.macro);
+    renderMacroBar(payload);
+    renderMarketFocus(payload, activeEditionKey);
     renderColophon(payload);
 
     const allStories = Array.isArray(payload.stories) ? payload.stories : [];
@@ -605,7 +693,11 @@
         state.editionOverride = key;
         renderAll();
       } catch (fallbackErr) {
-        console.error("版號切換失敗:", fallbackErr);
+        console.warn("改以本機快取資料切換版號與市場焦點:", fallbackErr);
+        if (state.payload) {
+          state.editionOverride = key;
+          renderAll();
+        }
       }
     }
   }

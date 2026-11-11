@@ -1114,31 +1114,202 @@ def attach_images(stories: list[dict], story_articles: dict[str, list[Article]])
 
 
 # ---------------------------------------------------------------------------
-# 八、總經數據看板 (US 10Y / DXY / USD-TWD / 台灣景氣燈號)
+# 八、總經、商品期貨與晨晚報動態市場看板 (TWSE / TPEX / CNBC / Yahoo 備援)
 # ---------------------------------------------------------------------------
-def fetch_yahoo(symbol: str) -> dict | None:
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{urllib.parse.quote(symbol)}?range=1mo&interval=1d"
+def _parse_num(raw: object) -> float | None:
+    if raw is None:
+        return None
+    s = str(raw).strip().replace(",", "").replace("%", "").replace("+", "")
+    if not s or s in ("-", "--", "N/A", "null"):
+        return None
     try:
-        data, _, charset = http_get(url, timeout=10)
-        res = json.loads(decode(data, charset))["chart"]["result"][0]
-        ts = res["timestamp"]
-        closes = res["indicators"]["quote"][0]["close"]
-        pairs = [(t, float(c)) for t, c in zip(ts, closes, strict=False) if c is not None]
-        if len(pairs) < 2:
+        return float(s)
+    except ValueError:
+        return None
+
+
+def fetch_yahoo(symbol: str) -> dict | None:
+    for host in ("query1.finance.yahoo.com", "query2.finance.yahoo.com"):
+        url = f"https://{host}/v8/finance/chart/{urllib.parse.quote(symbol)}?range=1mo&interval=1d"
+        try:
+            data, _, charset = http_get(url, timeout=8, retries=1)
+            res = json.loads(decode(data, charset))["chart"]["result"][0]
+            ts = res["timestamp"]
+            closes = res["indicators"]["quote"][0]["close"]
+            pairs = [(t, float(c)) for t, c in zip(ts, closes, strict=False) if c is not None]
+            if len(pairs) < 2:
+                continue
+            latest_val = round(pairs[-1][1], 4)
+            prev_val = round(pairs[-2][1], 4)
+            change = round(latest_val - prev_val, 4)
+            pct = round((change / prev_val) * 100, 2) if prev_val else 0.0
+            return {
+                "value": latest_val,
+                "change": change,
+                "changePct": pct,
+                "asOf": datetime.fromtimestamp(pairs[-1][0], TZ).date().isoformat(),
+                "history": [round(c, 4) for _, c in pairs[-15:]],
+                "source": "Yahoo Finance",
+            }
+        except Exception as exc:  # noqa: BLE001
+            log.debug("Yahoo 行情 %s (%s) 失敗：%s", symbol, host, f"{type(exc).__name__}: {exc}"[:100])
+    return None
+
+
+def fetch_cnbc_batch(cnbc_symbols: list[str]) -> dict[str, dict]:
+    """透過 CNBC 公開報價介面一次批次取得全球總經、期貨、美股與台股即時/收盤數據。"""
+    syms = [s for s in cnbc_symbols if s]
+    if not syms:
+        return {}
+    out: dict[str, dict] = {}
+    url = (
+        "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol"
+        f"?symbols={urllib.parse.quote('|'.join(syms))}"
+        "&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1"
+    )
+    try:
+        data, _, charset = http_get(url, timeout=10, retries=1)
+        quotes = json.loads(decode(data, charset)).get("FormattedQuoteResult", {}).get("FormattedQuote", [])
+        if isinstance(quotes, dict):
+            quotes = [quotes]
+        for q in quotes:
+            sym = q.get("symbol")
+            val = _parse_num(q.get("last"))
+            if not sym or val is None:
+                continue
+            prev = _parse_num(q.get("previous_day_closing"))
+            chg = _parse_num(q.get("change"))
+            pct = _parse_num(q.get("change_pct"))
+            if chg is None and prev:
+                chg = round(val - prev, 4)
+            if pct is None and prev and chg is not None:
+                pct = round((chg / prev) * 100, 2)
+            raw_dt = str(q.get("last_time") or "")
+            as_of = raw_dt[:10] if re.match(r"\d{4}-\d{2}-\d{2}", raw_dt) else datetime.now(TZ).date().isoformat()
+            out[sym] = {
+                "value": round(val, 4),
+                "change": round(chg or 0.0, 4),
+                "changePct": round(pct or 0.0, 2),
+                "asOf": as_of,
+                "source": "CNBC Market Data",
+            }
+    except Exception as exc:  # noqa: BLE001
+        log.warning("CNBC 批次報價失敗：%s", f"{type(exc).__name__}: {exc}"[:140])
+    return out
+
+
+def fetch_cnbc_chart(cnbc_sym: str, limit: int = 15) -> list[float]:
+    if not cnbc_sym:
+        return []
+    url = f"https://ts-api.cnbc.com/harmony/app/charts/1M.json?symbol={urllib.parse.quote(cnbc_sym)}"
+    try:
+        data, _, charset = http_get(url, timeout=7, retries=1)
+        bars = json.loads(decode(data, charset)).get("barData", {}).get("priceBars", [])
+        pts = [_parse_num(b.get("close")) for b in bars[-limit:]]
+        return [round(p, 4) for p in pts if p is not None]
+    except Exception:  # noqa: BLE001
+        return []
+
+
+def fetch_twse_mis(ex_ch_list: list[str]) -> dict[str, dict]:
+    """取得證交所與櫃買中心即時盤中/收盤撮合行情（支援盤中零延遲與最佳買賣價備援）。"""
+    exchs = [e for e in ex_ch_list if e]
+    if not exchs:
+        return {}
+    url = f"https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch={'|'.join(exchs)}&json=1"
+    out: dict[str, dict] = {}
+    try:
+        data, _, charset = http_get(url, timeout=8, retries=1)
+        arr = json.loads(decode(data, charset)).get("msgArray", [])
+        for m in arr:
+            code = str(m.get("c") or "")
+            ex = str(m.get("ex") or "")
+            key = f"{ex}_{code}.tw" if ex and code else ""
+            if not key:
+                continue
+            prev = _parse_num(m.get("y"))
+            opened = _parse_num(m.get("o"))
+            price = _parse_num(m.get("z")) or _parse_num(m.get("pz"))
+            # 盤中若當前 5 秒撮合無成交量（z='-'）且已開盤，取最佳一檔買賣均價/買價避免漏報
+            if price is None and opened is not None and opened > 0:
+                bid = next((_parse_num(x) for x in str(m.get("b") or "").split("_") if _parse_num(x)), None)
+                ask = next((_parse_num(x) for x in str(m.get("a") or "").split("_") if _parse_num(x)), None)
+                if bid and ask:
+                    price = round((bid + ask) / 2, 4)
+                else:
+                    price = bid or ask or opened
+            if price is None or price <= 0:
+                continue
+            chg = round(price - prev, 4) if prev else 0.0
+            pct = round((chg / prev) * 100, 2) if prev else 0.0
+            d_raw = str(m.get("d") or "")
+            as_of = f"{d_raw[:4]}-{d_raw[4:6]}-{d_raw[6:8]}" if len(d_raw) == 8 and d_raw.isdigit() else datetime.now(TZ).date().isoformat()
+            out[key] = {
+                "value": round(price, 4),
+                "change": chg,
+                "changePct": pct,
+                "asOf": as_of,
+                "source": "TWSE / TPEx",
+            }
+    except Exception as exc:  # noqa: BLE001
+        log.warning("TWSE MIS 行情失敗：%s", f"{type(exc).__name__}: {exc}"[:140])
+    return out
+
+
+def fetch_twse_openapi_close() -> dict[str, dict]:
+    """證交所每日收盤備援（供開盤前或盤後休市補全收盤價）。"""
+    out: dict[str, dict] = {}
+    try:
+        data, _, charset = http_get("https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL", timeout=9, retries=1)
+        rows = json.loads(decode(data, charset))
+        for r in rows:
+            code = str(r.get("Code") or "").strip()
+            close_p = _parse_num(r.get("ClosingPrice"))
+            chg = _parse_num(r.get("Change"))
+            d_raw = str(r.get("Date") or "").strip()
+            if not code or close_p is None:
+                continue
+            as_of = datetime.now(TZ).date().isoformat()
+            if len(d_raw) == 7 and d_raw.isdigit():
+                as_of = f"{1911 + int(d_raw[:3]):04d}-{d_raw[3:5]}-{d_raw[5:7]}"
+            prev = close_p - (chg or 0.0)
+            pct = round(((chg or 0.0) / prev) * 100, 2) if prev else 0.0
+            out[code] = {
+                "value": round(close_p, 4),
+                "change": round(chg or 0.0, 4),
+                "changePct": pct,
+                "asOf": as_of,
+                "source": "TWSE OpenAPI",
+            }
+    except Exception as exc:  # noqa: BLE001
+        log.debug("TWSE OpenAPI 失敗：%s", exc)
+    return out
+
+
+def fetch_tpex_index() -> dict | None:
+    """櫃買中心（^TWOII）近期收盤走勢與備援報價。"""
+    try:
+        data, _, charset = http_get("https://www.tpex.org.tw/openapi/v1/tpex_index", timeout=8, retries=1)
+        rows = json.loads(decode(data, charset))
+        pts = [(str(r.get("Date") or ""), _parse_num(r.get("Close")), _parse_num(r.get("Change"))) for r in rows]
+        valid = [(d, c, chg) for d, c, chg in pts if c is not None]
+        if not valid:
             return None
-        latest_val = round(pairs[-1][1], 4)
-        prev_val = round(pairs[-2][1], 4)
-        change = round(latest_val - prev_val, 4)
-        pct = round((change / prev_val) * 100, 2) if prev_val else 0.0
+        d_last, close_v, chg_v = valid[-1]
+        chg_v = chg_v or 0.0
+        prev = close_v - chg_v
+        pct = round((chg_v / prev) * 100, 2) if prev else 0.0
+        as_of = f"{d_last[:4]}-{d_last[4:6]}-{d_last[6:8]}" if len(d_last) == 8 and d_last.isdigit() else datetime.now(TZ).date().isoformat()
         return {
-            "value": latest_val,
-            "change": change,
+            "value": round(close_v, 4),
+            "change": round(chg_v, 4),
             "changePct": pct,
-            "asOf": datetime.fromtimestamp(pairs[-1][0], TZ).date().isoformat(),
-            "history": [round(c, 4) for _, c in pairs[-20:]],
+            "asOf": as_of,
+            "history": [round(c, 4) for _, c, _ in valid[-15:]],
+            "source": "TPEx OpenAPI",
         }
     except Exception as exc:  # noqa: BLE001
-        log.warning("行情 %s 失敗：%s", symbol, f"{type(exc).__name__}: {exc}"[:140])
+        log.debug("TPEx OpenAPI 失敗：%s", exc)
         return None
 
 
@@ -1146,6 +1317,9 @@ def fetch_ndc_signal(args: argparse.Namespace) -> dict:
     """取得台灣景氣對策信號最新指標（支援手動覆寫與公開新聞動態提取）。"""
     base = {
         "id": "ndc",
+        "symbol": "NDC",
+        "group": "macro",
+        "market": "tw",
         "label": "台灣景氣燈號",
         "unit": "分",
         "digits": 0,
@@ -1189,40 +1363,206 @@ def fetch_ndc_signal(args: argparse.Namespace) -> dict:
         }
 
 
-MACRO_LIVE = [
-    ("us10y", "US 10Y 殖利率", "^TNX", "%", 2, [4.72, 4.78, 4.81, 4.85, 4.89, 4.86, 4.91, 4.86, 4.99]),
-    ("dxy", "美元指數 (DXY)", "DX-Y.NYB", "", 2, [101.8, 102.0, 102.1, 101.9, 102.2, 102.3, 101.65, 102.35]),
-    ("usdtwd", "美元/台幣", "TWD=X", "", 3, [32.45, 32.58, 32.66, 32.75, 32.88, 33.10, 32.76, 33.015]),
+# 格式：(id, label, symbol, group, market, unit, digits, cnbc_symbol, twse_exch, fallback_hist)
+MACRO_ANCHOR_SPECS: list[tuple] = [
+    ("us10y", "US 10Y 殖利率", "^TNX", "macro", "us", "%", 2, "US10Y", None, [4.72, 4.78, 4.81, 4.85, 4.89, 4.86, 4.91, 4.86, 5.00]),
+    ("dxy", "美元指數 (DXY)", "DX-Y.NYB", "macro", "us", "", 2, ".DXY", None, [101.8, 102.0, 102.1, 101.9, 102.2, 102.3, 101.65, 102.28]),
+    ("wti", "WTI 原油期貨", "CL=F", "macro", "us", "美元", 2, "@CL.1", None, [83.2, 84.1, 84.6, 85.0, 85.4, 86.1, 86.04, 86.52]),
+    ("gold", "紐約黃金期貨", "GC=F", "macro", "us", "美元", 2, "@GC.1", None, [3950.0, 3972.0, 3990.0, 4010.0, 4022.0, 4030.2, 4035.7]),
 ]
 
+EDITION_MARKET_SPECS: dict[str, dict] = {
+    "morning": {
+        "title": "美股收盤與科技巨頭表現（晨報焦點）",
+        "description": "涵蓋標普 500、那斯達克、費城半導體、道瓊指數與美股核心科技 ADR（+ 上漲 / - 下跌）",
+        "convention": "us",
+        "specs": [
+            ("sp500", "S&P 500", "^GSPC", "index", "us", "", 2, ".SPX", None, [7353.73, 7376.86, 7549.94, 7520.93]),
+            ("nasdaq", "那斯達克指數", "^IXIC", "index", "us", "", 2, ".IXIC", None, [24600.0, 24850.0, 25253.14, 25065.87]),
+            ("sox", "費城半導體指數", "^SOX", "index", "us", "", 2, ".SOX", None, [9750.0, 9890.0, 10033.93, 9998.33]),
+            ("dji", "道瓊工業指數", "^DJI", "index", "us", "", 2, ".DJI", None, [51600.0, 51920.0, 52389.75, 52231.89]),
+            ("tsm", "台積電 ADR", "TSM", "stock", "us", "美元", 2, "TSM", None, [372.5, 381.0, 388.62, 396.48]),
+            ("nvda", "輝達 NVIDIA", "NVDA", "stock", "us", "美元", 2, "NVDA", None, [171.2, 174.5, 178.67, 168.89]),
+            ("aapl", "蘋果 Apple", "AAPL", "stock", "us", "美元", 2, "AAPL", None, [344.0, 347.8, 350.69, 348.51]),
+            ("tsla", "特斯拉 Tesla", "TSLA", "stock", "us", "美元", 2, "TSLA", None, [368.5, 373.0, 378.05, 379.78]),
+        ],
+    },
+    "evening": {
+        "title": "台股收盤與核心權值表現（晚報焦點）",
+        "description": "涵蓋台灣加權、櫃買指數與台灣 50 ETF 及核心電子權值股（台股慣例：漲紅跌綠）",
+        "convention": "tw",
+        "specs": [
+            ("twii", "加權指數", "^TWII", "index", "tw", "", 2, ".TWII", "tse_t00.tw", [41950.0, 42210.0, 42711.92, 42904.08]),
+            ("twoii", "櫃買指數", "^TWOII", "index", "tw", "", 2, None, "otc_o00.tw", [321.97, 326.5, 332.97, 336.39]),
+            ("0050", "元大台灣50", "0050.TW", "stock", "tw", "元", 2, "0050-TW", "tse_0050.tw", [97.4, 98.5, 99.7, 100.2]),
+            ("006208", "富邦台50", "006208.TW", "stock", "tw", "元", 2, "006208-TW", "tse_006208.tw", [223.1, 226.0, 228.9, 230.0]),
+            ("2330", "台積電", "2330.TW", "stock", "tw", "元", 0, "2330-TW", "tse_2330.tw", [2220.0, 2255.0, 2285.0, 2310.0]),
+            ("2303", "聯電", "2303.TW", "stock", "tw", "元", 2, "2303-TW", "tse_2303.tw", [99.8, 100.1, 100.5, 100.0]),
+            ("2454", "聯發科", "2454.TW", "stock", "tw", "元", 0, "2454-TW", "tse_2454.tw", [3750.0, 3790.0, 3830.0, 3815.0]),
+            ("2317", "鴻海", "2317.TW", "stock", "tw", "元", 2, "2317-TW", "tse_2317.tw", [235.5, 238.0, 241.5, 238.0]),
+        ],
+    },
+}
 
-def collect_macro(args: argparse.Namespace, sample_only: bool = False) -> dict:
-    items = []
-    results: dict[str, dict | None] = {}
-    if not sample_only:
-        with cf.ThreadPoolExecutor(max_workers=4) as pool:
-            futs = {pool.submit(fetch_yahoo, sym): key for key, _l, sym, _u, _d, _h in MACRO_LIVE}
-            for f in cf.as_completed(futs):
-                results[futs[f]] = f.result()
-    for key, label, _sym, unit, digits, fallback_hist in MACRO_LIVE:
-        res = results.get(key)
-        if res:
-            items.append({
-                "id": key, "label": label, "unit": unit, "digits": digits,
-                "status": "ok", "source": "Yahoo Finance", **res,
-            })
+
+def _build_market_item(
+    spec: tuple,
+    cnbc_quotes: dict[str, dict],
+    cnbc_charts: dict[str, list[float]],
+    twse_quotes: dict[str, dict],
+    twse_close: dict[str, dict],
+    tpex_data: dict | None,
+    yahoo_data: dict[str, dict | None],
+    sample_only: bool,
+) -> dict:
+    key, label, symbol, group, market, unit, digits, cnbc_sym, twse_exch, fallback_hist = spec
+    meta = {"id": key, "label": label, "symbol": symbol, "group": group, "market": market, "unit": unit, "digits": digits}
+
+    if sample_only:
+        chg = round(fallback_hist[-1] - fallback_hist[-2], 4)
+        pct = round((chg / fallback_hist[-2]) * 100, 2) if fallback_hist[-2] else 0.0
+        return {
+            **meta,
+            "status": "sample",
+            "value": fallback_hist[-1],
+            "change": chg,
+            "changePct": pct,
+            "asOf": datetime.now(TZ).date().isoformat(),
+            "history": fallback_hist,
+            "source": "Sample Data",
+        }
+
+    # 多層優先序：台股優先 TWSE/TPEx（零延遲）-> CNBC -> 證交所收盤 -> Yahoo Finance -> 安全備援
+    picked: dict | None = None
+    if market == "tw" and twse_exch and twse_exch in twse_quotes:
+        picked = dict(twse_quotes[twse_exch])
+    if not picked and cnbc_sym and cnbc_sym in cnbc_quotes:
+        picked = dict(cnbc_quotes[cnbc_sym])
+    if not picked and symbol == "^TWOII" and tpex_data:
+        picked = dict(tpex_data)
+    if not picked and market == "tw" and symbol.endswith(".TW"):
+        code = symbol[:-3]
+        if code in twse_close:
+            picked = dict(twse_close[code])
+    if not picked and yahoo_data.get(symbol):
+        picked = dict(yahoo_data[symbol] or {})
+
+    # 組合走勢序列（歷史收盤 + 最新價同步尾端）
+    hist = (picked or {}).get("history") or []
+    if not hist and cnbc_sym and cnbc_charts.get(cnbc_sym):
+        hist = list(cnbc_charts[cnbc_sym])
+    if not hist and symbol == "^TWOII" and tpex_data and tpex_data.get("history"):
+        hist = list(tpex_data["history"])
+
+    if picked:
+        val = float(picked["value"])
+        if hist:
+            if abs(hist[-1] - val) > 1e-6:
+                hist = (hist + [val])[-15:]
         else:
-            chg = round(fallback_hist[-1] - fallback_hist[-2], 4)
-            pct = round((chg / fallback_hist[-2]) * 100, 2)
-            items.append({
-                "id": key, "label": label, "unit": unit, "digits": digits,
-                "status": "sample" if sample_only else "cached",
-                "value": fallback_hist[-1], "change": chg, "changePct": pct,
-                "asOf": datetime.now(TZ).date().isoformat(),
-                "history": fallback_hist, "source": "Yahoo Finance",
-            })
-    items.append(fetch_ndc_signal(args))
-    return {"items": items}
+            prev = round(val - float(picked.get("change") or 0.0), 4)
+            hist = [prev, val] if prev > 0 else [val, val]
+        return {
+            **meta,
+            "status": "ok",
+            "value": round(val, 4),
+            "change": round(float(picked.get("change") or 0.0), 4),
+            "changePct": round(float(picked.get("changePct") or 0.0), 2),
+            "asOf": picked.get("asOf") or datetime.now(TZ).date().isoformat(),
+            "history": [round(x, 4) for x in hist[-15:]],
+            "source": picked.get("source") or "Market Feed",
+        }
+
+    chg = round(fallback_hist[-1] - fallback_hist[-2], 4)
+    pct = round((chg / fallback_hist[-2]) * 100, 2) if fallback_hist[-2] else 0.0
+    return {
+        **meta,
+        "status": "cached",
+        "value": fallback_hist[-1],
+        "change": chg,
+        "changePct": pct,
+        "asOf": datetime.now(TZ).date().isoformat(),
+        "history": fallback_hist,
+        "source": "Market Cache",
+    }
+
+
+def collect_macro(args: argparse.Namespace, edition_key: str = "morning", sample_only: bool = False) -> dict:
+    """抓取全時段總經與商品期貨（macro_indicators），及晨/晚報動態市場焦點（edition_markets / market_focus）。"""
+    all_specs = list(MACRO_ANCHOR_SPECS)
+    for ed_cfg in EDITION_MARKET_SPECS.values():
+        all_specs.extend(ed_cfg["specs"])
+
+    cnbc_quotes: dict[str, dict] = {}
+    cnbc_charts: dict[str, list[float]] = {}
+    twse_quotes: dict[str, dict] = {}
+    twse_close: dict[str, dict] = {}
+    tpex_data: dict | None = None
+    yahoo_data: dict[str, dict | None] = {}
+
+    if not sample_only:
+        cnbc_syms = [s[7] for s in all_specs if s[7]]
+        twse_exchs = [s[8] for s in all_specs if s[8]]
+        with cf.ThreadPoolExecutor(max_workers=6) as pool:
+            f_cnbc = pool.submit(fetch_cnbc_batch, cnbc_syms)
+            f_twse = pool.submit(fetch_twse_mis, twse_exchs)
+            f_tpex = pool.submit(fetch_tpex_index)
+            f_twse_day = pool.submit(fetch_twse_openapi_close)
+            chart_futs = {pool.submit(fetch_cnbc_chart, sym): sym for sym in cnbc_syms}
+
+            cnbc_quotes = f_cnbc.result()
+            twse_quotes = f_twse.result()
+            tpex_data = f_tpex.result()
+            twse_close = f_twse_day.result()
+            for cfut, sym in chart_futs.items():
+                cnbc_charts[sym] = cfut.result()
+
+        # 僅對前兩層（TWSE/TPEx 與 CNBC）皆無數據的少數標的補查 Yahoo Finance，避免 429 請求風暴
+        missing_yahoo = []
+        for s in all_specs:
+            _k, _l, sym, _g, mkt, _u, _d, c_sym, t_exch, _fh = s
+            has_tw = mkt == "tw" and (
+                (t_exch and t_exch in twse_quotes)
+                or (sym == "^TWOII" and tpex_data)
+                or (sym.endswith(".TW") and sym[:-3] in twse_close)
+            )
+            has_cnbc = bool(c_sym and c_sym in cnbc_quotes)
+            if not has_tw and not has_cnbc:
+                missing_yahoo.append(sym)
+        for sym in missing_yahoo:
+            yahoo_data[sym] = fetch_yahoo(sym)
+
+    macro_indicators = [
+        _build_market_item(s, cnbc_quotes, cnbc_charts, twse_quotes, twse_close, tpex_data, yahoo_data, sample_only)
+        for s in MACRO_ANCHOR_SPECS
+    ]
+    macro_indicators.append(fetch_ndc_signal(args))
+
+    edition_markets: dict[str, dict] = {}
+    for ed_k, ed_cfg in EDITION_MARKET_SPECS.items():
+        items_list = [
+            _build_market_item(s, cnbc_quotes, cnbc_charts, twse_quotes, twse_close, tpex_data, yahoo_data, sample_only)
+            for s in ed_cfg["specs"]
+        ]
+        edition_markets[ed_k] = {
+            "edition": ed_k,
+            "title": ed_cfg["title"],
+            "description": ed_cfg["description"],
+            "convention": ed_cfg["convention"],
+            "indices": [x for x in items_list if x["group"] == "index"],
+            "stocks": [x for x in items_list if x["group"] != "index"],
+            "items": items_list,
+        }
+
+    active_key = edition_key if edition_key in edition_markets else "morning"
+    active_focus = edition_markets[active_key]["items"]
+    return {
+        "items": macro_indicators,
+        "macro_indicators": macro_indicators,
+        "market_focus": active_focus,
+        "edition_markets": edition_markets,
+        "activeEdition": active_key,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -1598,7 +1938,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
 
     def esc(v: object) -> str:
         escaped = esc_attr(v)
-        return re.sub(r"\b(AI|GPU|CPU|IPO|CPI|DXY|PCE|FED|FOMC)\b", r"<abbr>\1</abbr>", escaped)
+        return re.sub(r"\b(AI|GPU|CPU|IPO|CPI|DXY|WTI|PCE|FED|FOMC|NVIDIA)\b", r"<abbr>\1</abbr>", escaped)
 
     def fmt_time(iso_str: str | None) -> str:
         if not iso_str:
@@ -1611,11 +1951,11 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         except Exception:
             return iso_str
 
-    def spark_svg(history: list[float] | None, label: str, is_up: bool) -> str:
+    def spark_svg(history: list[float] | None, label: str, is_up: bool, market: str = "us") -> str:
         pts = [float(x) for x in (history or [])]
         if len(pts) < 2:
             return ""
-        w, h, pad = 84, 28, 3
+        w, h, pad = 72, 24, 2.5
         mn, mx = min(pts), max(pts)
         span = (mx - mn) or 1.0
         coords = []
@@ -1624,7 +1964,10 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             y = h - pad - ((v - mn) / span) * (h - pad * 2)
             coords.append(f"{x:.1f},{y:.1f}")
         lx, ly = coords[-1].split(",")
-        stroke = "var(--color-accent)" if is_up else "var(--color-ink-2)"
+        if market == "tw":
+            stroke = "var(--color-error)" if is_up else "var(--color-accent)"
+        else:
+            stroke = "var(--color-accent)" if is_up else "var(--color-ink-2)"
         return (
             f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{esc_attr(label)} 近期走勢">'
             f'<title>{esc_attr(label)} 近期走勢（最低 {mn}，最高 {mx}）</title>'
@@ -1633,36 +1976,58 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
             f'</svg>'
         )
 
-    def render_macro_cells(macro: dict) -> str:
-        out = []
-        for item in macro.get("items", []):
-            digits = item.get("digits", 2)
-            val_str = f"{float(item['value']):.{digits}f}"
-            chg = float(item.get("change", 0))
-            pct = float(item.get("changePct", 0))
-            sign = "+" if chg > 0 else ""
-            trend = "up" if chg > 0 else ("down" if chg < 0 else "flat")
-            if item.get("light"):
-                delta_txt = f"{item['light']}（較上期 {sign}{chg:.{digits}f} {item.get('unit', '')}）"
-            else:
-                delta_txt = f"{sign}{chg:.{digits}f} ({sign}{pct:.2f}%)"
-            svg = spark_svg(item.get("history", []), item["label"], chg >= 0)
-            unit_html = f'<span class="macro-cell__unit">{esc(item["unit"])}</span>' if item.get("unit") else ""
-            out.append(f"""<article class="macro-cell">
+    def render_market_cell_html(item: dict, cell_class: str) -> str:
+        digits = item.get("digits", 2)
+        val_str = f"{float(item['value']):.{digits}f}"
+        chg = float(item.get("change", 0))
+        pct = float(item.get("changePct", 0))
+        sign = "+" if chg > 0 else ""
+        trend = "up" if chg > 0 else ("down" if chg < 0 else "flat")
+        if item.get("light"):
+            delta_txt = f"{item['light']}（{sign}{chg:.{digits}f} {item.get('unit', '')}）"
+        else:
+            delta_txt = f"{sign}{chg:.{digits}f} ({sign}{pct:.2f}%)"
+        mkt = item.get("market", "us")
+        svg = spark_svg(item.get("history", []), item["label"], chg >= 0, mkt)
+        sym = item.get("symbol") or ""
+        sym_html = f'<code class="market-cell__symbol">{esc_attr(sym)}</code>' if sym and sym != "NDC" else ""
+        unit_html = f'<span class="macro-cell__unit">{esc(item["unit"])}</span>' if item.get("unit") else ""
+        mkt_attr = f' data-market="{esc_attr(mkt)}"' if mkt else ""
+        return f"""<article class="{esc_attr(cell_class)}"{mkt_attr}>
           <div class="macro-cell__main">
-            <h3>{esc(item["label"])}</h3>
+            <p class="market-cell__name">{esc(item["label"])}</p>
+            {sym_html}
             <div class="macro-cell__value-row">
-              <span class="macro-cell__value">{esc(val_str)}</span>
+              <span class="macro-cell__value">{esc_attr(val_str)}</span>
               {unit_html}
             </div>
-            <div class="macro-cell__delta" data-trend="{trend}">{esc(delta_txt)}</div>
+            <div class="{esc_attr(cell_class)}__delta" data-trend="{trend}">{esc_attr(delta_txt)}</div>
           </div>
           <div class="macro-cell__spark">
             {svg}
-            <span class="macro-cell__asof">{esc(item.get("asOf", ""))}</span>
+            <span class="macro-cell__asof">{esc_attr(item.get("asOf", ""))}</span>
           </div>
-        </article>""")
-        return "\n".join(out)
+        </article>"""
+
+    def render_macro_cells(macro: dict) -> str:
+        items = payload.get("macro_indicators") or macro.get("macro_indicators") or macro.get("items", [])
+        return "\n".join(render_market_cell_html(item, "macro-cell") for item in items)
+
+    ed_key = (payload.get("edition") or {}).get("key", "morning")
+    ed_markets = (payload.get("edition_markets") or (payload.get("macro") or {}).get("edition_markets") or {}).get(ed_key) or {}
+    focus_items = payload.get("market_focus") or ed_markets.get("items") or []
+    focus_idx = ed_markets.get("indices") or [x for x in focus_items if x.get("group") == "index"]
+    focus_stk = ed_markets.get("stocks") or [x for x in focus_items if x.get("group") != "index"]
+    focus_title = ed_markets.get("title") or ("台股收盤與核心權值表現（晚報焦點）" if ed_key == "evening" else "美股收盤與科技巨頭表現（晨報焦點）")
+    focus_desc = ed_markets.get("description") or (
+        "涵蓋台灣加權、櫃買指數與台灣 50 ETF 及核心電子權值股（台股慣例：漲紅跌綠）"
+        if ed_key == "evening"
+        else "涵蓋標普 500、那斯達克、費城半導體、道瓊指數與美股核心科技 ADR（+ 上漲 / - 下跌）"
+    )
+    focus_idx_cols = "2" if len(focus_idx) <= 2 else "4"
+    focus_stk_cols = "3" if len(focus_stk) == 6 else ("2" if len(focus_stk) <= 2 else "4")
+    focus_idx_html = "\n".join(render_market_cell_html(item, "market-cell") for item in focus_idx)
+    focus_stk_html = "\n".join(render_market_cell_html(item, "market-cell") for item in focus_stk)
 
     def render_fact_ledger(story: dict) -> str:
         cells = []
@@ -1919,11 +2284,32 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
     <main id="main-content">
       <section class="macro-section" aria-labelledby="macro-heading">
         <div class="macro-section__head">
-          <h2 id="macro-heading">總經關鍵指標看板</h2>
-          <p class="macro-section__note">涵蓋美國 10 年期公債殖利率、美元指數 (DXY)、美元兌新台幣匯率與國家發展委員會台灣景氣對策信號</p>
+          <h2 id="macro-heading">總經與商品期貨列（Macro &amp; Commodities）</h2>
+          <p class="macro-section__note">涵蓋美國 10 年期公債殖利率、美元指數 (<abbr>DXY</abbr>)、<abbr>WTI</abbr> 原油期貨、紐約黃金期貨與國家發展委員會台灣景氣對策信號</p>
         </div>
         <div id="macro-grid" class="macro-grid">
           {render_macro_cells(payload['macro'])}
+        </div>
+      </section>
+
+      <section id="market-focus-section" class="macro-section market-focus-section" data-market-convention="{ 'tw' if ed_key == 'evening' else 'us' }" aria-labelledby="market-focus-heading">
+        <div class="macro-section__head">
+          <h2 id="market-focus-heading">{esc(focus_title)}</h2>
+          <p id="market-focus-note" class="macro-section__note">{esc(focus_desc)}</p>
+        </div>
+        <div class="market-ledger-groups">
+          <div class="market-ledger-group">
+            <h3>主要指數</h3>
+            <div id="market-focus-indices" class="market-grid" data-cols="{focus_idx_cols}">
+              {focus_idx_html}
+            </div>
+          </div>
+          <div class="market-ledger-group">
+            <h3>重點標的</h3>
+            <div id="market-focus-stocks" class="market-grid" data-cols="{focus_stk_cols}">
+              {focus_stk_html}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1996,7 +2382,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
 
 def validate(payload: dict) -> list[str]:
     problems = []
-    for key in ("schemaVersion", "edition", "generatedAt", "updatedAt", "macro", "stories", "sourcesStatus"):
+    for key in ("schemaVersion", "edition", "generatedAt", "updatedAt", "macro", "macro_indicators", "market_focus", "stories", "sourcesStatus"):
         if key not in payload:
             problems.append(f"缺少欄位 {key}")
     for s in payload.get("stories", []):
@@ -2012,6 +2398,8 @@ def run(args: argparse.Namespace) -> int:
     now = datetime.now(TZ)
     out_path = Path(args.out)
     mode = "sample" if args.sample else "live"
+    ed = resolve_edition(args.edition, now)
+    ed_key = ed.get("key", "morning")
 
     if mode == "live":
         live_articles, statuses = collect_live(now)
@@ -2019,7 +2407,7 @@ def run(args: argparse.Namespace) -> int:
         # 正式環境 100% 僅使用真實 RSS 抓取之即時新聞，絕不混入任何 Seed 假資料或假網址
         stories, story_articles, stats = build_stories(live_articles, args.threshold)
         attach_images(stories, story_articles)
-        macro = collect_macro(args, sample_only=False)
+        macro = collect_macro(args, edition_key=ed_key, sample_only=False)
         analysed_count = len(live_articles)
     else:
         seed_articles = curated_benchmark_articles(now)
@@ -2030,13 +2418,12 @@ def run(args: argparse.Namespace) -> int:
         ]
         stories, story_articles, stats = build_stories(seed_articles, args.threshold)
         attach_images(stories, story_articles)
-        macro = collect_macro(args, sample_only=True)
+        macro = collect_macro(args, edition_key=ed_key, sample_only=True)
         analysed_count = len(seed_articles)
 
     for rank, s in enumerate(stories, start=1):
         s["rank"] = rank
     lead_ids = [s["id"] for s in stories[:2]]
-    ed = resolve_edition(args.edition, now)
     payload = {
         "schemaVersion": SCHEMA_VERSION,
         "edition": ed,
@@ -2048,6 +2435,9 @@ def run(args: argparse.Namespace) -> int:
         "threshold": args.threshold,
         "scoreWeights": {"resonance": 35, "impact": 35, "data": 20, "durability": 10},
         "macro": macro,
+        "macro_indicators": macro["macro_indicators"],
+        "market_focus": macro["market_focus"],
+        "edition_markets": macro["edition_markets"],
         "leadIds": lead_ids,
         "stories": stories,
         "stats": {**stats, "articlesAnalysed": analysed_count},
@@ -2062,14 +2452,15 @@ def run(args: argparse.Namespace) -> int:
     atomic_write_json(out_path, payload)
 
     # 2. 同步寫入專屬版號檔案 daily_news_morning.json / daily_news_evening.json
-    ed_key = ed.get("key", "morning")
     edition_out = out_path.parent / f"daily_news_{ed_key}.json"
     atomic_write_json(edition_out, payload)
     log.info("已同步輸出專屬版號檔案：%s", edition_out)
 
-    # 3. 確保另一版號檔案存在（初次執行若另一版尚不存在，產生同日鏡像避免切換時 404）
+    # 3. 確保另一版號檔案具備新版動態市場焦點欄位（未存在則建立鏡像，舊格式則升級行情欄位並保留其新聞）
     other_key = "evening" if ed_key == "morning" else "morning"
     other_out = out_path.parent / f"daily_news_{other_key}.json"
+    other_focus = macro["edition_markets"][other_key]["items"]
+    other_macro = {**macro, "market_focus": other_focus, "activeEdition": other_key}
     if not other_out.exists():
         other_payload = dict(payload)
         other_payload["edition"] = {
@@ -2078,8 +2469,23 @@ def run(args: argparse.Namespace) -> int:
             "name": "晚報版" if other_key == "evening" else "晨報版",
             "scheduledTime": "16:00" if other_key == "evening" else "07:30",
         }
+        other_payload["macro"] = other_macro
+        other_payload["macro_indicators"] = macro["macro_indicators"]
+        other_payload["market_focus"] = other_focus
+        other_payload["edition_markets"] = macro["edition_markets"]
         atomic_write_json(other_out, other_payload)
         log.info("已初始化另一版號檔案：%s", other_out)
+    else:
+        try:
+            existing_other = json.loads(other_out.read_text(encoding="utf-8"))
+            existing_other["macro"] = other_macro
+            existing_other["macro_indicators"] = macro["macro_indicators"]
+            existing_other["market_focus"] = other_focus
+            existing_other["edition_markets"] = macro["edition_markets"]
+            atomic_write_json(other_out, existing_other)
+            log.info("已同步升級另一版號行情結構：%s", other_out)
+        except Exception as exc:  # noqa: BLE001
+            log.debug("讀取或升級 %s 失敗：%s", other_out, exc)
 
     html_path = Path(args.html) if getattr(args, "html", None) else out_path.parent / "index.html"
     render_dashboard_html(payload, html_path)
