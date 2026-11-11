@@ -182,9 +182,31 @@ TW_TERM_MAP = {
 DENY_RE = re.compile(
     r"命案|殺人|凶殺|車禍|火警|大火|搶劫|竊盜|詐騙集團|酒駕|毒品|性侵|緋聞|婚變|婚外情|外遇|藝人|明星|演唱會|"
     r"大樂透|今彩539|威力彩|雙贏彩|彩券|開獎|選戰|競選總部|拜票|造勢|民調|黨內初選|立委候選人|議員候選人|政黨派系|政治口水|"
-    r"只剩一隻狗|血淚史|小資族|心法|心態|散戶痛|達人教|理財達人|翻身祕笈|翻身|心態致勝|"
+    r"只剩一隻狗|血淚史|小資族|小資女|第一桶金|存錢體質|社畜|心法|心態|散戶痛|達人教|理財達人|翻身祕笈|翻身|心態致勝|"
+    r"【公告】|\[公告\]|公告本公司|公開資訊觀測站重大訊息公告|編按\s*[:：]\s*本文首刊於|本文首刊於\d{4}年|"
+    r"捐贈[^\n]{0,20}基金會|慈善基金會|文教基金會|補充[^\n]{0,20}董事會[^\n]{0,20}實際執行情形|決議不分派股利|"
+    r"Rti精選新聞|精選新聞|盤前要聞|早安財經|"
     r"八卦|網紅|直播主|職棒|球賽|NBA|MLB|星座|運勢|氣溫驟降|天氣預報|颱風假|horoscope|celebrity|murder|shooting|lottery",
     re.I,
+)
+TITLE_NOISE_RE = re.compile(
+    r"是買點嗎|買點到了嗎|該不該買|能進場嗎|能買嗎|可以撿嗎|台積公司董事會決議$",
+    re.I,
+)
+SITE_BOILERPLATE_RE = re.compile(
+    r"提供.{0,20}報價|Yahoo奇摩股市|即時新聞、財經|訂閱電子報|追蹤我們|更多新聞請看|最完整.{0,12}新聞",
+    re.I,
+)
+WIRE_PREFIX_RE = re.compile(
+    r"^(?:"
+    r"(?:\[[^\]]{1,40}\]|【[^】]{1,40}】|\([^\)]{1,40}(?:電|訊|報導|綜合|整理|中心|中央社)\))\s*"
+    r"|(?:(?:特派|資深)?記者|編譯|撰文)\s*[^\s，。；！？/]{2,8}\s*/\s*[^\n，。；！？]{1,12}?(?:報導|電|訊|綜合)\s*"
+    r"|(?:(?:特派|資深)?記者|編譯|撰文)\s*[^\s，。；！？/]{2,6}\s+[^\n，。；！？/]{1,12}?(?:報導|電|訊)\s*"
+    r"|(?:(?:特派|資深)?記者|編譯|撰文)[^\s，。；！？]{2,14}?(?:報導|電|訊)\s*"
+    r"|(?:即時|財經|政治|國際|科技|產業|地方|社會|數位內容|編輯|新聞)?(?:中心|部)\s*/?\s*[^\n，。；！？]{1,12}?(?:報導|整理|綜合)\s*"
+    r"|(?:文|整理)\s*/\s*[^\s，。；！？]{2,10}\s*"
+    r"|編按\s*:\s*[^。\n]{0,180}。\s*"
+    r")+"
 )
 
 # 深度社會與公共議題准入主題（涵蓋經濟結構、勞動、司法制度與公共戰略）
@@ -208,6 +230,8 @@ STRONG_ENTITIES: dict[str, list[str]] = {
     "谷歌": ["谷歌", "google", "alphabet", "gemini"],
     "亞馬遜": ["亞馬遜", "amazon", "aws"],
     "openai": ["openai", "chatgpt"],
+    "anthropic": ["anthropic", "claude"],
+    "日月光": ["日月光", "日月光投控", r"\base\b"],
     "軟銀": ["軟銀", "softbank"],
     "特斯拉": ["特斯拉", "tesla"],
     "英特爾": ["英特爾", r"\bintel\b"],
@@ -317,6 +341,8 @@ class Article:
     ents_weak: set[str] = dataclasses.field(default_factory=set)
     tokens: set[str] = dataclasses.field(default_factory=set)
     grams4: set[str] = dataclasses.field(default_factory=set)
+    ev_facts: set[str] = dataclasses.field(default_factory=set)
+    subj: str = ""
 
     @property
     def text(self) -> str:
@@ -367,15 +393,42 @@ def normalize_tw_terms(text: str) -> str:
     return out
 
 
+_SENT_END_RE = re.compile(r"[。！？!?]|(?<![\dA-Z])\.(?=\s|$)")
+
+
 def clean_text(raw: str) -> str:
     text = unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw or "")))
     text = re.sub(r"The post .*? appeared first on .*", "", text, flags=re.S)
     text = re.sub(r"(繼續閱讀|閱讀全文|Read more).*$", "", text)
-    text = re.sub(r"^\[[^\]]+\]\s*", "", text.strip())
-    text = re.sub(r"^\([^\)]+電\)\s*", "", text.strip())
+    text = WS_RE.sub(" ", text).strip()
+    text = WIRE_PREFIX_RE.sub("", text).strip()
     # 轉換連續 4 個以上全大寫字母為首字大寫（例如 FTNN -> Ftnn），符合 Hallmark 內文排版規範
     text = re.sub(r"\b([A-Z])([A-Z]{3,})\b", lambda m: m.group(1) + m.group(2).lower(), text)
     return normalize_tw_terms(WS_RE.sub(" ", text).strip())
+
+
+def trim_complete_summary(text: str, max_len: int = 900) -> str:
+    """裁切摘要時優先保留至最後一個完整句尾標點，避免切斷年份、日期或數字（如 2027年3月1）。"""
+    t = WIRE_PREFIX_RE.sub("", WS_RE.sub(" ", text).strip()).strip()
+    if not t:
+        return ""
+    window = t[:max_len]
+    ends = [m.end() for m in _SENT_END_RE.finditer(window)]
+    # 若全文已超過上限，或目前文字沒有正常句尾（被 RSS 硬截斷 / 結尾為刪節號），退回最後一個完整句
+    needs_trim = len(t) > max_len or (window[-1] not in "。！？!?." and not window.endswith("..."))
+    if needs_trim and ends and ends[-1] >= 24:
+        return window[:ends[-1]].strip()
+    if len(t) > max_len:
+        pauses = [m.start() for m in re.finditer(r"[；;，,]", window)]
+        if pauses and pauses[-1] >= 24:
+            return window[:pauses[-1]].strip() + "…"
+        return window.rstrip("，,；; ") + "…"
+    # 無任何句號卻以不完整詞彙＋刪節號結尾（如「…較去年同期成長…」），退回完整子句
+    if window.endswith("…"):
+        cleaned = re.sub(r"[，,][^，,]{1,18}…$", "", window).strip()
+        if len(cleaned) >= 24:
+            return cleaned + "…"
+    return window
 
 
 def parse_date(raw: str | None) -> datetime | None:
@@ -411,7 +464,7 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
     nodes = [n for n in root.iter() if local(n.tag) in ("item", "entry")]
     out: list[Article] = []
     for n in nodes:
-        title = clean_text(child_text(n, "title"))
+        raw_title_val = child_text(n, "title")
         link = child_text(n, "link")
         if not link:
             for ch in n:
@@ -420,14 +473,27 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
                         link = ch.get("href", "")
                         break
         raw_summary = child_text(n, "description", "summary") or child_text(n, "encoded", "content")
-        summary = clean_text(raw_summary)
+        is_gnews = "news.google.com" in feed.url or spec.aggregator
+        raw_plain_title = normalize_tw_terms(
+            WS_RE.sub(" ", unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw_title_val or "")))).strip()
+        )
+        raw_plain_summary = "" if is_gnews else normalize_tw_terms(
+            WS_RE.sub(" ", unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw_summary or "")))).strip()
+        )
+        title = clean_text(raw_title_val)
+        summary = "" if is_gnews else trim_complete_summary(clean_text(raw_summary), 900)
         published = parse_date(child_text(n, "pubdate", "published", "updated", "date"))
         if not title or not link:
             continue
-        is_gnews = "news.google.com" in feed.url or spec.aggregator
         if is_gnews:
             title = re.sub(r"\s+-\s+[^-]{2,40}$", "", title).strip()
-            summary = ""
+        # 在電頭與【公告】標籤被 clean_text 剝除前先攔截雜訊公告、舊專欄與買點猜謎
+        if (
+            DENY_RE.search(f"{raw_plain_title} {raw_plain_summary}")
+            or TITLE_NOISE_RE.search(raw_plain_title)
+            or TITLE_NOISE_RE.search(title)
+        ):
+            continue
         if feed.link_allow and not re.search(feed.link_allow, link):
             continue
 
@@ -448,7 +514,7 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
         if img_url and IMAGE_REJECT_RE.search(img_url):
             img_url = None
 
-        out.append(Article(spec, title, summary[:420], link, published, title_orig=title, summary_orig=summary[:420], image=img_url))
+        out.append(Article(spec, title, summary[:900], link, published, title_orig=title, summary_orig=summary[:900], image=img_url))
     return out
 
 
@@ -473,8 +539,9 @@ def fetch_source(spec: SourceSpec, now: datetime) -> tuple[list[Article], dict]:
 
 
 def is_relevant(a: Article) -> bool:
-    blob = f"{a.title_orig} {a.title} {a.summary}"
-    if DENY_RE.search(blob):
+    title_blob = f"{a.title_orig} {a.title}"
+    blob = f"{title_blob} {a.summary}"
+    if DENY_RE.search(blob) or TITLE_NOISE_RE.search(a.title_orig) or TITLE_NOISE_RE.search(a.title):
         return False
     if a.source.group == "deep" and not DEEP_ALLOW_RE.search(blob):
         return False
@@ -557,50 +624,110 @@ def _compile(entities: dict[str, list[str]]) -> dict[str, re.Pattern]:
     return {k: re.compile("|".join(v), re.I) for k, v in entities.items()}
 
 
+TITLE_SUBJ_RE = re.compile(
+    r"^([\u3400-\u9fff]{2,5}?)(?:1?\d月|前\d季|第[1-4一二三四]季|公布|營收|董事會|獲利|股價|遭|斥資|買入|買進|賣出|宣布|擬|今|昨日|盤中|與|攜手)"
+)
+NON_COMPANY_SUBJ = {
+    "美國", "台灣", "台股", "美股", "日股", "陸股", "全球", "亞洲", "歐洲", "中國", "日本", "韓國",
+    "外資", "法人", "市場", "大盤", "經濟", "今年", "去年", "明年", "今日", "本季", "最新", "重磅",
+    "央行", "財政", "政院", "立院", "政府", "國際", "企業", "科技", "財經", "產業",
+}
+_SUBJ_ALIAS = {"台積": "台積電", "台積公司": "台積電"}
+_EVENT_SYNS: list[tuple[re.Pattern, str]] = [
+    (re.compile(r"現金股利|股息|股利|派息"), "配息"),
+    (re.compile(r"認購|入股|買股|參股|注資|持股"), "投資"),
+    (re.compile(r"資本預算|資本支出"), "資本投資"),
+    (re.compile(r"消費者物價指數|物價指數|消費者物價"), "通膨"),
+    (re.compile(r"重磅宣布|拍板定案|拍板"), "核准"),
+    (re.compile(r"第[1１一]季|\bQ1\b", re.I), "第一季"),
+    (re.compile(r"第[2２二]季|\bQ2\b", re.I), "第二季"),
+    (re.compile(r"第[3３三]季|\bQ3\b", re.I), "第三季"),
+    (re.compile(r"第[4４四]季|\bQ4\b", re.I), "第四季"),
+]
+_MASK_GENERIC_RE = re.compile(r"宣布|指出|強調|表示|回應|爆料|曝|曝光|最新|消息|報導|今日|今年|去年|明年|市場|億元|新台幣|台幣|億美元|美元")
+_DATE_FACT_RE = re.compile(r"^(?:19|20)\d{2}年?$|^\d{1,2}月$|^[1-4]季$")
+
+
 def annotate(articles: list[Article], strong: dict[str, re.Pattern], weak: dict[str, re.Pattern]) -> None:
     for a in articles:
-        blob = f"{a.title_orig} {a.title} {a.summary}"
-        a.ents_strong = {k for k, p in strong.items() if p.search(blob)}
-        a.ents_weak = {k for k, p in weak.items() if p.search(blob)}
+        # 僅從標題提取強/弱實體，避免內文回顧舊聞（如「昔日聯準會升息、通膨」）污染分群實體集合
+        title_blob = f"{a.title_orig} {a.title}".strip()
+        a.ents_strong = {k for k, p in strong.items() if p.search(title_blob)}
+        a.ents_weak = {k for k, p in weak.items() if p.search(title_blob)}
+
+        m_subj = TITLE_SUBJ_RE.match(re.sub(r"^[\[【\(][^\]】\)]{1,18}[\]】\)]\s*", "", a.title).strip())
+        subj = _SUBJ_ALIAS.get(m_subj.group(1), m_subj.group(1)) if m_subj else ""
+        a.subj = "" if subj in NON_COMPANY_SUBJ else subj
+
+        # 遮罩實體名稱與通用動詞，再套用事件同義詞，使 toks 代表「事件本質」而非僅重複公司名
+        t_ev = a.title
+        for p in strong.values():
+            t_ev = p.sub(" ", t_ev)
+        for pat, rep_tok in _EVENT_SYNS:
+            t_ev = pat.sub(rep_tok, t_ev)
+        t_ev = _MASK_GENERIC_RE.sub(" ", t_ev)
+
         toks: set[str] = set()
         grams: set[str] = set()
-        for seg in re.findall(r"[\u3400-\u9fff]+", a.title):
+        for seg in re.findall(r"[\u3400-\u9fff]+", t_ev):
             toks.update(seg[i:i + 2] for i in range(len(seg) - 1))
             grams.update(seg[i:i + 4] for i in range(len(seg) - 3))
         for w in re.findall(r"[A-Za-z]{4,}", a.title_orig):
             if w.lower() not in STOP_EN:
                 toks.add(w.lower())
         a.tokens, a.grams4 = toks, grams - GENERIC_4GRAM
+        a.ev_facts = {f for f in extract_facts(a.text) if not _DATE_FACT_RE.match(f)}
 
 
 def similar(a: Article, b: Article) -> bool:
-    strong = len(a.ents_strong & b.ents_strong)
+    if a.subj and b.subj and a.subj != b.subj and not (a.subj in b.title and b.subj in a.title):
+        return False
+    strong_shared = a.ents_strong & b.ents_strong
+    strong = len(strong_shared)
+    if a.ents_strong and b.ents_strong and strong == 0:
+        return False
+
     inter = len(a.tokens & b.tokens)
     union = len(a.tokens | b.tokens)
     jac = inter / union if union else 0.0
     min_len = min(len(a.tokens), len(b.tokens))
     overlap = inter / min_len if min_len else 0.0
-    shared_facts = extract_facts(a.text) & extract_facts(b.text)
-    if len(shared_facts) >= 2 and (inter >= 1 or strong >= 1 or bool(a.ents_weak & b.ents_weak)):
+    shared_ev = a.ev_facts & b.ev_facts
+    g4 = len(a.grams4 & b.grams4)
+
+    if strong >= 2:
+        return inter >= 2 or len(shared_ev) >= 1 or overlap >= 0.25
+    if strong == 1:
+        # 只有單一強實體相同（如皆為「台積電」）遠遠不夠，必須事件關鍵詞或核心數據高度重疊
+        if len(shared_ev) >= 1 and inter >= 2:
+            return True
+        if g4 >= 1 and inter >= 2:
+            return True
+        return inter >= 3 and (jac >= 0.14 or overlap >= 0.30)
+
+    # 僅一邊有強實體而另一邊沒有時，避免跨題硬湊
+    if bool(a.ents_strong) != bool(b.ents_strong):
+        return g4 >= 1 and jac >= 0.25
+    if len(shared_ev) >= 2 and inter >= 3 and overlap >= 0.30:
         return True
-    if strong >= 2 and (jac >= 0.10 or overlap >= 0.25 or bool(shared_facts)):
+    if g4 >= 1 and inter >= 4 and overlap >= 0.35:
         return True
-    if strong == 1 and (jac >= 0.14 or overlap >= 0.28 or (len(shared_facts) >= 1 and inter >= 2)):
-        return True
-    if (a.grams4 & b.grams4) and (jac >= 0.12 or overlap >= 0.25):
-        return True
-    return jac >= 0.34
+    return jac >= 0.42
 
 
 def cluster(articles: list[Article]) -> list[list[Article]]:
-    """以代表性種子為核心之星狀分群（避免 Union-Find 傳遞鏈結將不同主題串成同一群）。"""
-    ordered = sorted(articles, key=lambda a: (a.source.priority, -len(a.summary)))
+    """嚴格共識分群：新文章須與群內多位核心成員具備高事件相似度，避免異題混入。"""
+    ordered = sorted(
+        articles,
+        key=lambda a: (a.source.priority, -(a.published.timestamp() if a.published else 0.0), -len(a.summary)),
+    )
     groups: list[list[Article]] = []
     for art in ordered:
         placed = False
         for g in groups:
             seed = g[0]
-            if similar(art, seed) and sum(1 for m in g[:3] if similar(art, m)) >= 1:
+            needed = min(len(g[:3]), 2)
+            if similar(art, seed) and sum(1 for m in g[:3] if similar(art, m)) >= needed:
                 g.append(art)
                 placed = True
                 break
@@ -695,43 +822,55 @@ def score_cluster(arts: list[Article]) -> dict:
 # ---------------------------------------------------------------------------
 # 六、事實查核明細（core_facts / media_perspectives / unverified_notice）
 # ---------------------------------------------------------------------------
-def split_sentences(text: str) -> list[str]:
-    clean = re.sub(r"<[^>]+>", " ", text)
-    clean = html.unescape(clean)
-    parts = re.split(r"(?<=[。！？!?；;])\s*", clean)
-    return [p.strip() for p in parts if 10 <= len(p.strip()) <= 160]
+def split_sentences(text: str, complete_only: bool = True) -> list[str]:
+    clean = re.sub(r"<[^>]+>", " ", text or "")
+    clean = normalize_tw_terms(WS_RE.sub(" ", unicodedata.normalize("NFKC", html.unescape(clean))).strip())
+    clean = WIRE_PREFIX_RE.sub("", clean).strip()
+    parts = re.split(r"(?<=[。！？!?])\s*|(?<![\dA-Z])\.\s+", clean)
+    out: list[str] = []
+    for p in parts:
+        s = WIRE_PREFIX_RE.sub("", p.strip()).strip()
+        if not s:
+            continue
+        if complete_only:
+            if s.endswith(("…", "...", "...")):
+                continue
+            if s[-1] not in "。！？!?." or (s.endswith(".") and re.search(r"[\u3400-\u9fff]\.$", s)):
+                continue
+        if 10 <= len(s) <= 180:
+            out.append(s)
+    return out
 
 
 def core_facts(arts: list[Article]) -> list[dict]:
-    """提取各家報導皆一致確認的客觀數據與內文事實敘述（嚴格排除直接照抄新聞標題）。"""
+    """提取各家報導皆一致確認的客觀數據與內文事實敘述（排除標題重複、記者署名與截斷殘句）。"""
     titles = {a.title.strip() for a in arts}
 
-    # 收集各篇文章內文摘要中符合長度且非標題的句子
+    # 收集各篇文章內文摘要中完整且非標題的句子
     candidate_sents: list[dict] = []
     seen_texts: set[str] = set()
 
     for a in sorted(arts, key=lambda x: x.source.priority):
-        sents = split_sentences(a.summary)
+        sents = split_sentences(a.summary, complete_only=True)
         for s in sents:
-            # 嚴格排除直接等於標題、包含標題或被標題包含之句子
             if s in titles or any(t in s or s in t for t in titles):
                 continue
             norm_s = re.sub(r"[\s，,。；;]", "", s)
             if norm_s in seen_texts:
                 continue
             seen_texts.add(norm_s)
-            f_set = extract_facts(s)
+            f_set = {f for f in extract_facts(s) if not _DATE_FACT_RE.match(f)} or extract_facts(s)
             candidate_sents.append({
                 "sentence": s,
                 "facts": f_set,
-                "fact_count": len(f_set),
+                "fact_count": len([f for f in f_set if not _DATE_FACT_RE.match(f)]),
                 "source": a.source,
                 "length": len(s),
             })
 
-    # 排序：以「具體數字事實多寡」為第一優先，長度適中（20~90字）為第二優先
+    # 排序：優先挑選富含非日期數據的事實句，其次看長度適中（20~100字）與來源權威度
     def _rank_key(c: dict) -> tuple:
-        ideal_len = 1 if 20 <= c["length"] <= 90 else 0
+        ideal_len = 1 if 20 <= c["length"] <= 100 else 0
         return (-c["fact_count"], -ideal_len, c["source"].priority, c["length"])
 
     candidate_sents.sort(key=_rank_key)
@@ -745,7 +884,7 @@ def core_facts(arts: list[Article]) -> list[dict]:
             continue
         used.add(sent)
 
-        metrics = list(c["facts"])
+        metrics = sorted(c["facts"], key=lambda m: (1 if _DATE_FACT_RE.match(m) else 0, -len(m), m))
         primary_metric = metrics[0] if metrics else ""
         confirmed: set[str] = {c["source"].name}
         if primary_metric:
@@ -764,10 +903,10 @@ def core_facts(arts: list[Article]) -> list[dict]:
         if len(out) >= 3:
             break
 
-    # 若摘要過短無獨立數據句，從摘要提取非標題之完整敘述句
+    # 若完整句不足 2 條，優先補齊其他完整句；仍無完整句時僅裁切至完整子句，絕不保留半截年份/數字
     if len(out) < 2:
         for a in sorted(arts, key=lambda x: x.source.priority):
-            for s in split_sentences(a.summary):
+            for s in split_sentences(a.summary, complete_only=True):
                 if s not in used and s not in titles and not any(t in s or s in t for t in titles):
                     used.add(s)
                     out.append({
@@ -777,6 +916,17 @@ def core_facts(arts: list[Article]) -> list[dict]:
                     })
                     break
             if len(out) >= 2:
+                break
+
+    if not out:
+        for a in sorted(arts, key=lambda x: x.source.priority):
+            fallback = trim_complete_summary(a.summary, 140)
+            if fallback and fallback not in titles and not any(t in fallback or fallback in t for t in titles):
+                out.append({
+                    "text": fallback,
+                    "metric": "",
+                    "confirmed_by": [a.source.name],
+                })
                 break
 
     return out
@@ -792,21 +942,22 @@ def perspectives(arts: list[Article]) -> list[dict]:
         angle = score_article_angle(a.text, used_angles)
         used_angles.add(angle)
 
-        # 挑選非標題之內文首句，作為聚焦觀點
+        # 挑選非標題且完整之內文首句，作為聚焦觀點
         lead = ""
-        for s in split_sentences(a.summary):
+        for s in split_sentences(a.summary, complete_only=True):
             if s != a.title and s not in a.title and a.title not in s:
                 lead = s
                 break
         if not lead:
-            lead = a.summary or a.title
+            lead = trim_complete_summary(a.summary, 140) or a.title
+        excerpt = trim_complete_summary(lead, 150)
 
         out.append({
             "media": a.source.name,
             "headline": a.title,
             "angle": angle,
-            "focus": lead[:110],
-            "excerpt": lead[:110],
+            "focus": excerpt,
+            "excerpt": excerpt,
             "url": a.url,
             "lang": "zh",
         })
@@ -831,6 +982,8 @@ class _HeadMeta(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.og: str | None = None
+        self.og_desc: str | None = None
+        self.meta_desc: str | None = None
         self.done = False
 
     def handle_starttag(self, tag: str, attrs: list) -> None:
@@ -839,19 +992,25 @@ class _HeadMeta(HTMLParser):
         a = {k.lower(): (v or "") for k, v in attrs}
         prop = (a.get("property") or a.get("name") or "").lower()
         content = a.get("content", "").strip()
-        if prop in ("og:image", "og:image:secure_url", "og:image:url") and content:
+        if not content:
+            return
+        if prop in ("og:image", "og:image:secure_url", "og:image:url"):
             if prop.endswith("secure_url") or not self.og:
                 self.og = content
+        elif prop == "og:description" and not self.og_desc:
+            self.og_desc = content
+        elif prop == "description" and not self.meta_desc:
+            self.meta_desc = content
 
     def handle_endtag(self, tag: str) -> None:
         if tag == "head":
             self.done = True
 
 
-def fetch_og_image(url: str) -> str | None:
+def fetch_head_meta(url: str) -> tuple[str | None, str | None]:
     host = urllib.parse.urlsplit(url).netloc
     if not host or host.endswith("news.google.com"):
-        return None
+        return None, None
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
         parser = _HeadMeta()
@@ -865,38 +1024,87 @@ def fetch_og_image(url: str) -> str | None:
                     break
                 read += len(chunk)
                 parser.feed(chunk.decode(charset, errors="replace"))
-        if not parser.og:
-            return None
-        img = urllib.parse.urljoin(final, html.unescape(parser.og))
-        if urllib.parse.urlsplit(img).scheme not in ("http", "https") or IMAGE_REJECT_RE.search(img):
-            return None
-        return img
+        img: str | None = None
+        if parser.og:
+            cand = urllib.parse.urljoin(final, html.unescape(parser.og))
+            if urllib.parse.urlsplit(cand).scheme in ("http", "https") and not IMAGE_REJECT_RE.search(cand):
+                img = cand
+        desc = parser.og_desc or parser.meta_desc
+        return img, desc
     except Exception as exc:  # noqa: BLE001
-        log.debug("og:image 失敗 %s：%s", url, exc)
-        return None
+        log.debug("head meta 失敗 %s：%s", url, exc)
+        return None, None
+
+
+def fetch_og_image(url: str) -> str | None:
+    img, _ = fetch_head_meta(url)
+    return img
 
 
 def attach_images(stories: list[dict], story_articles: dict[str, list[Article]]) -> None:
+    """抓取合格新聞群組之網頁 <head>，補全高解析度 og:image 與完整 og:description 內文（消除 RSS 斷句）。"""
     jobs: list[tuple[str, Article]] = []
+    seen_urls: set[str] = set()
     for sid, arts in story_articles.items():
         for a in sorted(arts, key=lambda x: x.source.priority):
-            if a.image:
-                continue
-            jobs.append((sid, a))
-    results: dict[tuple[str, str], str | None] = {}
+            # 針對缺乏圖片，或為台灣媒體且摘要較短/無完整句尾者抓取 <head>
+            needs_img = not a.image
+            needs_desc = a.source.lang == "zh" and (len(a.summary) < 180 or not a.summary.endswith(("。", "！", "？")))
+            if (needs_img or needs_desc) and a.url not in seen_urls:
+                seen_urls.add(a.url)
+                jobs.append((sid, a))
+    results: dict[str, tuple[str | None, str | None]] = {}
     if jobs:
         with cf.ThreadPoolExecutor(max_workers=8) as pool:
-            futs = {pool.submit(fetch_og_image, a.url): (sid, a) for sid, a in jobs}
+            futs = {pool.submit(fetch_head_meta, a.url): a for _, a in jobs}
             for fut in cf.as_completed(futs):
-                sid, a = futs[fut]
-                results[(sid, a.url)] = fut.result()
+                a = futs[fut]
+                results[a.url] = fut.result()
+
     for story in stories:
-        for a in sorted(story_articles[story["id"]], key=lambda x: x.source.priority):
-            img = a.image or results.get((story["id"], a.url))
-            if img and not IMAGE_REJECT_RE.search(img):
-                story["imageUrl"] = img
+        arts = story_articles[story["id"]]
+        enriched = False
+        for a in arts:
+            img, raw_desc = results.get(a.url, (None, None))
+            if not a.image and img and not IMAGE_REJECT_RE.search(img):
+                a.image = img
+            if raw_desc and a.source.lang == "zh":
+                cleaned = trim_complete_summary(clean_text(raw_desc), 900)
+                if (
+                    cleaned
+                    and not SITE_BOILERPLATE_RE.search(cleaned)
+                    and not DENY_RE.search(cleaned)
+                    and len(cleaned) > len(a.summary) + 15
+                ):
+                    title_grams = set(re.findall(r"[\u3400-\u9fff]{2}", a.title))
+                    desc_grams = set(re.findall(r"[\u3400-\u9fff]{2}", cleaned))
+                    if not a.summary or (title_grams & desc_grams):
+                        a.summary = cleaned
+                        a.ev_facts = {f for f in extract_facts(a.text) if not _DATE_FACT_RE.match(f)}
+                        enriched = True
+
+        for a in sorted(arts, key=lambda x: x.source.priority):
+            if a.image and not IMAGE_REJECT_RE.search(a.image):
+                story["imageUrl"] = a.image
                 story["imageCredit"] = a.source.name
                 break
+
+        if enriched:
+            rep = _pick_representative(arts, story["section"])
+            cf_list = core_facts(arts)
+            mp_list = perspectives(arts)
+            unv_str = unverified_notice(arts)
+            story["title"] = rep.title
+            story["titleOriginal"] = rep.title_orig if rep.title_orig != rep.title else None
+            story["summary"] = trim_complete_summary(rep.summary, 320) or rep.summary
+            story["source"] = rep.source.name
+            story["url"] = rep.url
+            story["core_facts"] = cf_list
+            story["coreFacts"] = cf_list
+            story["media_perspectives"] = mp_list
+            story["mediaPerspectives"] = mp_list
+            story["unverified_notice"] = unv_str
+            story["unverifiedNotice"] = unv_str
 
 
 # ---------------------------------------------------------------------------
@@ -1221,6 +1429,45 @@ def section_of(arts: list[Article]) -> str:
     return "business_tech"
 
 
+_CLICKBAIT_TITLE_RE = re.compile(r"[？?]|是買點嗎|買點|震撼彈|曝光|驚呆|網看傻")
+
+
+def _pick_representative(arts: list[Article], sec: str) -> Article:
+    """挑選與同群其他文章關鍵字/實體共鳴度最高（Center Article）且發布時間最新的代表報導。"""
+    if len(arts) == 1:
+        return arts[0]
+    pool = [a for a in arts if a.lang == "zh"] or arts
+    ts_list = [a.published.timestamp() for a in pool if a.published]
+    max_ts = max(ts_list) if ts_list else 0.0
+    min_ts = min(ts_list) if ts_list else 0.0
+
+    def _rep_score(cand: Article) -> tuple:
+        centrality = 0.0
+        for other in arts:
+            if other is cand:
+                continue
+            centrality += (
+                2.0 * len(cand.ents_strong & other.ents_strong)
+                + 1.5 * len(cand.tokens & other.tokens)
+                + 1.0 * len(cand.ev_facts & other.ev_facts)
+            )
+        if cand.published and max_ts > min_ts:
+            recency = 3.0 * ((cand.published.timestamp() - min_ts) / (max_ts - min_ts))
+        elif cand.published:
+            recency = 1.0
+        else:
+            recency = 0.0
+        deep_bonus = 2.0 if (sec == "deep" and cand.source.group == "deep") else 0.0
+        summary_bonus = 1.5 if (len(cand.summary) >= 40 and "。" in cand.summary) else (0.5 if cand.summary else 0.0)
+        clickbait_pen = -4.0 if _CLICKBAIT_TITLE_RE.search(cand.title) else 0.0
+        pri_bonus = max(0.0, (10 - cand.source.priority) * 0.2)
+        total = centrality + recency + deep_bonus + summary_bonus + clickbait_pen + pri_bonus
+        cand_ts = cand.published.timestamp() if cand.published else 0.0
+        return (total, cand_ts, -cand.source.priority, len(cand.summary))
+
+    return max(pool, key=_rep_score)
+
+
 def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], dict[str, list[Article]], dict]:
     annotate(articles, _compile(STRONG_ENTITIES), _compile(WEAK_ENTITIES))
     groups = cluster(articles)
@@ -1233,8 +1480,8 @@ def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], 
             below += 1
             continue
         sec = section_of(arts)
+        rep = _pick_representative(arts, sec)
         arts_sorted = sorted(arts, key=lambda a: (0 if (sec == "deep" and a.source.group == "deep") else 1, a.source.priority, -len(a.summary)))
-        rep = next((a for a in arts_sorted if a.lang == "zh" and a.summary), arts_sorted[0])
         img_art = next((a for a in arts_sorted if a.image and not IMAGE_REJECT_RE.search(a.image)), None)
         times = [a.published for a in arts if a.published]
         sid = "s" + hashlib.sha1(f"{rep.url}|{rep.title}".encode("utf-8")).hexdigest()[:8]
@@ -1247,7 +1494,7 @@ def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], 
             "title": rep.title,
             "titleOriginal": rep.title_orig if rep.title_orig != rep.title else None,
             "lang": "zh",
-            "summary": rep.summary or (arts_sorted[0].summary or ""),
+            "summary": trim_complete_summary(rep.summary or (arts_sorted[0].summary or ""), 320),
             "source": rep.source.name,
             "url": rep.url,
             "publishedAt": max(times).isoformat(timespec="seconds") if times else None,
