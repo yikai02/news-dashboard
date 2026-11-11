@@ -6,8 +6,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-11T08:46:10+08:00",
-  "updatedAt": "2026-11-11 08:46",
+  "generatedAt": "2026-11-11T08:48:55+08:00",
+  "updatedAt": "2026-11-11 08:48",
   "date": "2026-11-11",
   "weekday": "星期三",
   "dataMode": "live",
@@ -131,12 +131,12 @@
       "publishedAt": "2026-11-11T08:35:36+08:00",
       "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/10/35504982.jpg&M=1&s=Y&x=0&y=11&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
-      "score": 96,
+      "score": 94,
       "scoreBreakdown": {
         "resonance": 35,
         "impact": 35,
         "data": 20,
-        "durability": 6
+        "durability": 4
       },
       "mediaCount": 3,
       "impactCategories": [
@@ -294,12 +294,6 @@
           "media": "工商時報 (Yahoo 聯播)",
           "url": "https://tw.news.yahoo.com/%E5%BE%9Eai%E6%99%B6%E7%89%87%E8%A3%BD%E9%80%A0%E8%B7%A8%E8%B6%B3%E6%A8%A1%E5%9E%8B%E6%8A%95%E8%B3%87-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%82%BA%E4%BD%95%E6%93%AC%E5%85%A5%E8%82%A1openai-anthropic-%E4%B8%89%E5%80%8B%E8%A7%80%E5%AF%9F%E8%A7%A3%E6%9E%90%E5%B8%83%E5%B1%80-162506165.html",
           "headline": "從AI晶片製造跨足模型投資!台積電為何擬入股OpenAI、Anthropic?三個觀察解析布局",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%AC%E6%8A%95%E8%B3%87openai-anthropic%E5%85%A9%E5%A4%A7ai%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%8F%B8-%E5%90%84%E6%9C%80%E9%AB%985%E5%84%84%E7%BE%8E%E5%85%83-%E8%91%A3%E4%BA%8B%E6%9C%83%E5%8F%A6%E6%A0%B8%E5%87%86409%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E6%9C%AC%E9%A0%90%E7%AE%97-160820174.html",
-          "headline": "台積電擬投資OpenAI、Anthropic兩大AI模型公司,各最高5億美元!董事會另核准409億美元資本預算",
           "lang": "zh"
         },
         {
@@ -1119,10 +1113,10 @@
     }
   ],
   "stats": {
-    "clusters": 283,
+    "clusters": 278,
     "passed": 9,
-    "below_threshold": 274,
-    "articlesAnalysed": 334
+    "below_threshold": 269,
+    "articlesAnalysed": 332
   },
   "sourcesStatus": [
     {
@@ -1131,7 +1125,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 53,
+      "count": 52,
       "error": null
     },
     {
