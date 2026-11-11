@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 102.254,
-        "change": 0.023,
-        "changePct": 0.02,
+        "value": 102.262,
+        "change": 0.031,
+        "changePct": 0.03,
         "asOf": "2026-11-10",
         "history": [
           101.78,
@@ -80,7 +80,7 @@
           101.547,
           102.298,
           101.653,
-          102.254
+          102.262
         ],
         "source": "CNBC Market Data"
       },
@@ -93,9 +93,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.14,
-        "change": 0.1,
-        "changePct": 0.12,
+        "value": 86.75,
+        "change": 0.71,
+        "changePct": 0.83,
         "asOf": "2026-11-10",
         "history": [
           97.15,
@@ -112,7 +112,7 @@
           90.52,
           90.83,
           86.85,
-          86.14
+          86.75
         ],
         "source": "CNBC Market Data"
       },
@@ -125,9 +125,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 4049.8,
-        "change": 19.6,
-        "changePct": 0.49,
+        "value": 4052.0,
+        "change": 21.8,
+        "changePct": 0.54,
         "asOf": "2026-11-10",
         "history": [
           4150.0,
@@ -144,7 +144,7 @@
           4113.5,
           4074.9,
           4114.5,
-          4049.8
+          4052.0
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 102.254,
-        "change": 0.023,
-        "changePct": 0.02,
+        "value": 102.262,
+        "change": 0.031,
+        "changePct": 0.03,
         "asOf": "2026-11-10",
         "history": [
           101.78,
@@ -238,7 +238,7 @@
           101.547,
           102.298,
           101.653,
-          102.254
+          102.262
         ],
         "source": "CNBC Market Data"
       },
@@ -251,9 +251,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.14,
-        "change": 0.1,
-        "changePct": 0.12,
+        "value": 86.75,
+        "change": 0.71,
+        "changePct": 0.83,
         "asOf": "2026-11-10",
         "history": [
           97.15,
@@ -270,7 +270,7 @@
           90.52,
           90.83,
           86.85,
-          86.14
+          86.75
         ],
         "source": "CNBC Market Data"
       },
@@ -283,9 +283,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 4049.8,
-        "change": 19.6,
-        "changePct": 0.49,
+        "value": 4052.0,
+        "change": 21.8,
+        "changePct": 0.54,
         "asOf": "2026-11-10",
         "history": [
           4150.0,
@@ -302,7 +302,7 @@
           4113.5,
           4074.9,
           4114.5,
-          4049.8
+          4052.0
         ],
         "source": "CNBC Market Data"
       },
@@ -345,9 +345,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 43171.25,
-        "change": 459.33,
-        "changePct": 1.08,
+        "value": 43568.82,
+        "change": 856.9,
+        "changePct": 2.01,
         "asOf": "2026-11-11",
         "history": [
           46292.93,
@@ -364,7 +364,7 @@
           39701.64,
           41661.7,
           42711.92,
-          43171.25
+          43568.82
         ],
         "source": "TWSE / TPEx"
       },
@@ -377,9 +377,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 335.97,
-        "change": 3.0,
-        "changePct": 0.9,
+        "value": 338.33,
+        "change": 5.36,
+        "changePct": 1.61,
         "asOf": "2026-11-11",
         "history": [
           369.24,
@@ -389,7 +389,7 @@
           304.02,
           321.97,
           332.97,
-          335.97
+          338.33
         ],
         "source": "TWSE / TPEx"
       },
@@ -402,9 +402,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 101.175,
-        "change": 1.475,
-        "changePct": 1.48,
+        "value": 101.975,
+        "change": 2.275,
+        "changePct": 2.28,
         "asOf": "2026-11-11",
         "history": [
           107.25,
@@ -421,7 +421,7 @@
           92.5,
           97.45,
           99.7,
-          101.175
+          101.975
         ],
         "source": "TWSE / TPEx"
       },
@@ -434,9 +434,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 232.1,
-        "change": 3.2,
-        "changePct": 1.4,
+        "value": 234.25,
+        "change": 5.35,
+        "changePct": 2.34,
         "asOf": "2026-11-11",
         "history": [
           245.3,
@@ -453,7 +453,7 @@
           210.1,
           223.6,
           228.9,
-          232.1
+          234.25
         ],
         "source": "TWSE / TPEx"
       },
@@ -466,9 +466,9 @@
         "unit": "元",
         "digits": 0,
         "status": "ok",
-        "value": 2337.5,
-        "change": 52.5,
-        "changePct": 2.3,
+        "value": 2357.5,
+        "change": 72.5,
+        "changePct": 3.17,
         "asOf": "2026-11-11",
         "history": [
           2405.0,
@@ -485,7 +485,7 @@
           2135.0,
           2235.0,
           2285.0,
-          2337.5
+          2357.5
         ],
         "source": "TWSE / TPEx"
       },
@@ -498,9 +498,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 100.75,
-        "change": 0.25,
-        "changePct": 0.25,
+        "value": 102.25,
+        "change": 1.75,
+        "changePct": 1.74,
         "asOf": "2026-11-11",
         "history": [
           127.0,
@@ -517,7 +517,7 @@
           92.0,
           96.7,
           100.5,
-          100.75
+          102.25
         ],
         "source": "TWSE / TPEx"
       },
@@ -530,9 +530,9 @@
         "unit": "元",
         "digits": 0,
         "status": "ok",
-        "value": 3837.5,
-        "change": 7.5,
-        "changePct": 0.2,
+        "value": 3917.5,
+        "change": 87.5,
+        "changePct": 2.28,
         "asOf": "2026-11-11",
         "history": [
           4150.0,
@@ -549,7 +549,7 @@
           3390.0,
           3725.0,
           3830.0,
-          3837.5
+          3917.5
         ],
         "source": "TWSE / TPEx"
       },
@@ -562,9 +562,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 237.75,
-        "change": -3.75,
-        "changePct": -1.55,
+        "value": 240.75,
+        "change": -0.75,
+        "changePct": -0.31,
         "asOf": "2026-11-11",
         "history": [
           241.5,
@@ -581,7 +581,7 @@
           224.5,
           239.0,
           241.5,
-          237.75
+          240.75
         ],
         "source": "TWSE / TPEx"
       }
@@ -1126,9 +1126,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 43171.25,
-            "change": 459.33,
-            "changePct": 1.08,
+            "value": 43568.82,
+            "change": 856.9,
+            "changePct": 2.01,
             "asOf": "2026-11-11",
             "history": [
               46292.93,
@@ -1145,7 +1145,7 @@
               39701.64,
               41661.7,
               42711.92,
-              43171.25
+              43568.82
             ],
             "source": "TWSE / TPEx"
           },
@@ -1158,9 +1158,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 335.97,
-            "change": 3.0,
-            "changePct": 0.9,
+            "value": 338.33,
+            "change": 5.36,
+            "changePct": 1.61,
             "asOf": "2026-11-11",
             "history": [
               369.24,
@@ -1170,7 +1170,7 @@
               304.02,
               321.97,
               332.97,
-              335.97
+              338.33
             ],
             "source": "TWSE / TPEx"
           }
@@ -1185,9 +1185,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 101.175,
-            "change": 1.475,
-            "changePct": 1.48,
+            "value": 101.975,
+            "change": 2.275,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               107.25,
@@ -1204,7 +1204,7 @@
               92.5,
               97.45,
               99.7,
-              101.175
+              101.975
             ],
             "source": "TWSE / TPEx"
           },
@@ -1217,9 +1217,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 232.1,
-            "change": 3.2,
-            "changePct": 1.4,
+            "value": 234.25,
+            "change": 5.35,
+            "changePct": 2.34,
             "asOf": "2026-11-11",
             "history": [
               245.3,
@@ -1236,7 +1236,7 @@
               210.1,
               223.6,
               228.9,
-              232.1
+              234.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1249,9 +1249,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2337.5,
-            "change": 52.5,
-            "changePct": 2.3,
+            "value": 2357.5,
+            "change": 72.5,
+            "changePct": 3.17,
             "asOf": "2026-11-11",
             "history": [
               2405.0,
@@ -1268,7 +1268,7 @@
               2135.0,
               2235.0,
               2285.0,
-              2337.5
+              2357.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1281,9 +1281,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 100.75,
-            "change": 0.25,
-            "changePct": 0.25,
+            "value": 102.25,
+            "change": 1.75,
+            "changePct": 1.74,
             "asOf": "2026-11-11",
             "history": [
               127.0,
@@ -1300,7 +1300,7 @@
               92.0,
               96.7,
               100.5,
-              100.75
+              102.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1313,9 +1313,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3837.5,
-            "change": 7.5,
-            "changePct": 0.2,
+            "value": 3917.5,
+            "change": 87.5,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               4150.0,
@@ -1332,7 +1332,7 @@
               3390.0,
               3725.0,
               3830.0,
-              3837.5
+              3917.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1345,9 +1345,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 237.75,
-            "change": -3.75,
-            "changePct": -1.55,
+            "value": 240.75,
+            "change": -0.75,
+            "changePct": -0.31,
             "asOf": "2026-11-11",
             "history": [
               241.5,
@@ -1364,7 +1364,7 @@
               224.5,
               239.0,
               241.5,
-              237.75
+              240.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -1379,9 +1379,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 43171.25,
-            "change": 459.33,
-            "changePct": 1.08,
+            "value": 43568.82,
+            "change": 856.9,
+            "changePct": 2.01,
             "asOf": "2026-11-11",
             "history": [
               46292.93,
@@ -1398,7 +1398,7 @@
               39701.64,
               41661.7,
               42711.92,
-              43171.25
+              43568.82
             ],
             "source": "TWSE / TPEx"
           },
@@ -1411,9 +1411,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 335.97,
-            "change": 3.0,
-            "changePct": 0.9,
+            "value": 338.33,
+            "change": 5.36,
+            "changePct": 1.61,
             "asOf": "2026-11-11",
             "history": [
               369.24,
@@ -1423,7 +1423,7 @@
               304.02,
               321.97,
               332.97,
-              335.97
+              338.33
             ],
             "source": "TWSE / TPEx"
           },
@@ -1436,9 +1436,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 101.175,
-            "change": 1.475,
-            "changePct": 1.48,
+            "value": 101.975,
+            "change": 2.275,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               107.25,
@@ -1455,7 +1455,7 @@
               92.5,
               97.45,
               99.7,
-              101.175
+              101.975
             ],
             "source": "TWSE / TPEx"
           },
@@ -1468,9 +1468,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 232.1,
-            "change": 3.2,
-            "changePct": 1.4,
+            "value": 234.25,
+            "change": 5.35,
+            "changePct": 2.34,
             "asOf": "2026-11-11",
             "history": [
               245.3,
@@ -1487,7 +1487,7 @@
               210.1,
               223.6,
               228.9,
-              232.1
+              234.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1500,9 +1500,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2337.5,
-            "change": 52.5,
-            "changePct": 2.3,
+            "value": 2357.5,
+            "change": 72.5,
+            "changePct": 3.17,
             "asOf": "2026-11-11",
             "history": [
               2405.0,
@@ -1519,7 +1519,7 @@
               2135.0,
               2235.0,
               2285.0,
-              2337.5
+              2357.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1532,9 +1532,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 100.75,
-            "change": 0.25,
-            "changePct": 0.25,
+            "value": 102.25,
+            "change": 1.75,
+            "changePct": 1.74,
             "asOf": "2026-11-11",
             "history": [
               127.0,
@@ -1551,7 +1551,7 @@
               92.0,
               96.7,
               100.5,
-              100.75
+              102.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1564,9 +1564,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3837.5,
-            "change": 7.5,
-            "changePct": 0.2,
+            "value": 3917.5,
+            "change": 87.5,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               4150.0,
@@ -1583,7 +1583,7 @@
               3390.0,
               3725.0,
               3830.0,
-              3837.5
+              3917.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1596,9 +1596,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 237.75,
-            "change": -3.75,
-            "changePct": -1.55,
+            "value": 240.75,
+            "change": -0.75,
+            "changePct": -0.31,
             "asOf": "2026-11-11",
             "history": [
               241.5,
@@ -1615,7 +1615,7 @@
               224.5,
               239.0,
               241.5,
-              237.75
+              240.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -3156,9 +3156,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 102.254,
-      "change": 0.023,
-      "changePct": 0.02,
+      "value": 102.262,
+      "change": 0.031,
+      "changePct": 0.03,
       "asOf": "2026-11-10",
       "history": [
         101.78,
@@ -3175,7 +3175,7 @@
         101.547,
         102.298,
         101.653,
-        102.254
+        102.262
       ],
       "source": "CNBC Market Data"
     },
@@ -3188,9 +3188,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 86.14,
-      "change": 0.1,
-      "changePct": 0.12,
+      "value": 86.75,
+      "change": 0.71,
+      "changePct": 0.83,
       "asOf": "2026-11-10",
       "history": [
         97.15,
@@ -3207,7 +3207,7 @@
         90.52,
         90.83,
         86.85,
-        86.14
+        86.75
       ],
       "source": "CNBC Market Data"
     },
@@ -3220,9 +3220,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 4049.8,
-      "change": 19.6,
-      "changePct": 0.49,
+      "value": 4052.0,
+      "change": 21.8,
+      "changePct": 0.54,
       "asOf": "2026-11-10",
       "history": [
         4150.0,
@@ -3239,7 +3239,7 @@
         4113.5,
         4074.9,
         4114.5,
-        4049.8
+        4052.0
       ],
       "source": "CNBC Market Data"
     },
@@ -3282,9 +3282,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 43171.25,
-      "change": 459.33,
-      "changePct": 1.08,
+      "value": 43568.82,
+      "change": 856.9,
+      "changePct": 2.01,
       "asOf": "2026-11-11",
       "history": [
         46292.93,
@@ -3301,7 +3301,7 @@
         39701.64,
         41661.7,
         42711.92,
-        43171.25
+        43568.82
       ],
       "source": "TWSE / TPEx"
     },
@@ -3314,9 +3314,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 335.97,
-      "change": 3.0,
-      "changePct": 0.9,
+      "value": 338.33,
+      "change": 5.36,
+      "changePct": 1.61,
       "asOf": "2026-11-11",
       "history": [
         369.24,
@@ -3326,7 +3326,7 @@
         304.02,
         321.97,
         332.97,
-        335.97
+        338.33
       ],
       "source": "TWSE / TPEx"
     },
@@ -3339,9 +3339,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 101.175,
-      "change": 1.475,
-      "changePct": 1.48,
+      "value": 101.975,
+      "change": 2.275,
+      "changePct": 2.28,
       "asOf": "2026-11-11",
       "history": [
         107.25,
@@ -3358,7 +3358,7 @@
         92.5,
         97.45,
         99.7,
-        101.175
+        101.975
       ],
       "source": "TWSE / TPEx"
     },
@@ -3371,9 +3371,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 232.1,
-      "change": 3.2,
-      "changePct": 1.4,
+      "value": 234.25,
+      "change": 5.35,
+      "changePct": 2.34,
       "asOf": "2026-11-11",
       "history": [
         245.3,
@@ -3390,7 +3390,7 @@
         210.1,
         223.6,
         228.9,
-        232.1
+        234.25
       ],
       "source": "TWSE / TPEx"
     },
@@ -3403,9 +3403,9 @@
       "unit": "元",
       "digits": 0,
       "status": "ok",
-      "value": 2337.5,
-      "change": 52.5,
-      "changePct": 2.3,
+      "value": 2357.5,
+      "change": 72.5,
+      "changePct": 3.17,
       "asOf": "2026-11-11",
       "history": [
         2405.0,
@@ -3422,7 +3422,7 @@
         2135.0,
         2235.0,
         2285.0,
-        2337.5
+        2357.5
       ],
       "source": "TWSE / TPEx"
     },
@@ -3435,9 +3435,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 100.75,
-      "change": 0.25,
-      "changePct": 0.25,
+      "value": 102.25,
+      "change": 1.75,
+      "changePct": 1.74,
       "asOf": "2026-11-11",
       "history": [
         127.0,
@@ -3454,7 +3454,7 @@
         92.0,
         96.7,
         100.5,
-        100.75
+        102.25
       ],
       "source": "TWSE / TPEx"
     },
@@ -3467,9 +3467,9 @@
       "unit": "元",
       "digits": 0,
       "status": "ok",
-      "value": 3837.5,
-      "change": 7.5,
-      "changePct": 0.2,
+      "value": 3917.5,
+      "change": 87.5,
+      "changePct": 2.28,
       "asOf": "2026-11-11",
       "history": [
         4150.0,
@@ -3486,7 +3486,7 @@
         3390.0,
         3725.0,
         3830.0,
-        3837.5
+        3917.5
       ],
       "source": "TWSE / TPEx"
     },
@@ -3499,9 +3499,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 237.75,
-      "change": -3.75,
-      "changePct": -1.55,
+      "value": 240.75,
+      "change": -0.75,
+      "changePct": -0.31,
       "asOf": "2026-11-11",
       "history": [
         241.5,
@@ -3518,7 +3518,7 @@
         224.5,
         239.0,
         241.5,
-        237.75
+        240.75
       ],
       "source": "TWSE / TPEx"
     }
@@ -4063,9 +4063,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 43171.25,
-          "change": 459.33,
-          "changePct": 1.08,
+          "value": 43568.82,
+          "change": 856.9,
+          "changePct": 2.01,
           "asOf": "2026-11-11",
           "history": [
             46292.93,
@@ -4082,7 +4082,7 @@
             39701.64,
             41661.7,
             42711.92,
-            43171.25
+            43568.82
           ],
           "source": "TWSE / TPEx"
         },
@@ -4095,9 +4095,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 335.97,
-          "change": 3.0,
-          "changePct": 0.9,
+          "value": 338.33,
+          "change": 5.36,
+          "changePct": 1.61,
           "asOf": "2026-11-11",
           "history": [
             369.24,
@@ -4107,7 +4107,7 @@
             304.02,
             321.97,
             332.97,
-            335.97
+            338.33
           ],
           "source": "TWSE / TPEx"
         }
@@ -4122,9 +4122,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 101.175,
-          "change": 1.475,
-          "changePct": 1.48,
+          "value": 101.975,
+          "change": 2.275,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             107.25,
@@ -4141,7 +4141,7 @@
             92.5,
             97.45,
             99.7,
-            101.175
+            101.975
           ],
           "source": "TWSE / TPEx"
         },
@@ -4154,9 +4154,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 232.1,
-          "change": 3.2,
-          "changePct": 1.4,
+          "value": 234.25,
+          "change": 5.35,
+          "changePct": 2.34,
           "asOf": "2026-11-11",
           "history": [
             245.3,
@@ -4173,7 +4173,7 @@
             210.1,
             223.6,
             228.9,
-            232.1
+            234.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -4186,9 +4186,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2337.5,
-          "change": 52.5,
-          "changePct": 2.3,
+          "value": 2357.5,
+          "change": 72.5,
+          "changePct": 3.17,
           "asOf": "2026-11-11",
           "history": [
             2405.0,
@@ -4205,7 +4205,7 @@
             2135.0,
             2235.0,
             2285.0,
-            2337.5
+            2357.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -4218,9 +4218,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 100.75,
-          "change": 0.25,
-          "changePct": 0.25,
+          "value": 102.25,
+          "change": 1.75,
+          "changePct": 1.74,
           "asOf": "2026-11-11",
           "history": [
             127.0,
@@ -4237,7 +4237,7 @@
             92.0,
             96.7,
             100.5,
-            100.75
+            102.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -4250,9 +4250,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3837.5,
-          "change": 7.5,
-          "changePct": 0.2,
+          "value": 3917.5,
+          "change": 87.5,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             4150.0,
@@ -4269,7 +4269,7 @@
             3390.0,
             3725.0,
             3830.0,
-            3837.5
+            3917.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -4282,9 +4282,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 237.75,
-          "change": -3.75,
-          "changePct": -1.55,
+          "value": 240.75,
+          "change": -0.75,
+          "changePct": -0.31,
           "asOf": "2026-11-11",
           "history": [
             241.5,
@@ -4301,7 +4301,7 @@
             224.5,
             239.0,
             241.5,
-            237.75
+            240.75
           ],
           "source": "TWSE / TPEx"
         }
@@ -4316,9 +4316,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 43171.25,
-          "change": 459.33,
-          "changePct": 1.08,
+          "value": 43568.82,
+          "change": 856.9,
+          "changePct": 2.01,
           "asOf": "2026-11-11",
           "history": [
             46292.93,
@@ -4335,7 +4335,7 @@
             39701.64,
             41661.7,
             42711.92,
-            43171.25
+            43568.82
           ],
           "source": "TWSE / TPEx"
         },
@@ -4348,9 +4348,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 335.97,
-          "change": 3.0,
-          "changePct": 0.9,
+          "value": 338.33,
+          "change": 5.36,
+          "changePct": 1.61,
           "asOf": "2026-11-11",
           "history": [
             369.24,
@@ -4360,7 +4360,7 @@
             304.02,
             321.97,
             332.97,
-            335.97
+            338.33
           ],
           "source": "TWSE / TPEx"
         },
@@ -4373,9 +4373,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 101.175,
-          "change": 1.475,
-          "changePct": 1.48,
+          "value": 101.975,
+          "change": 2.275,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             107.25,
@@ -4392,7 +4392,7 @@
             92.5,
             97.45,
             99.7,
-            101.175
+            101.975
           ],
           "source": "TWSE / TPEx"
         },
@@ -4405,9 +4405,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 232.1,
-          "change": 3.2,
-          "changePct": 1.4,
+          "value": 234.25,
+          "change": 5.35,
+          "changePct": 2.34,
           "asOf": "2026-11-11",
           "history": [
             245.3,
@@ -4424,7 +4424,7 @@
             210.1,
             223.6,
             228.9,
-            232.1
+            234.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -4437,9 +4437,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2337.5,
-          "change": 52.5,
-          "changePct": 2.3,
+          "value": 2357.5,
+          "change": 72.5,
+          "changePct": 3.17,
           "asOf": "2026-11-11",
           "history": [
             2405.0,
@@ -4456,7 +4456,7 @@
             2135.0,
             2235.0,
             2285.0,
-            2337.5
+            2357.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -4469,9 +4469,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 100.75,
-          "change": 0.25,
-          "changePct": 0.25,
+          "value": 102.25,
+          "change": 1.75,
+          "changePct": 1.74,
           "asOf": "2026-11-11",
           "history": [
             127.0,
@@ -4488,7 +4488,7 @@
             92.0,
             96.7,
             100.5,
-            100.75
+            102.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -4501,9 +4501,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3837.5,
-          "change": 7.5,
-          "changePct": 0.2,
+          "value": 3917.5,
+          "change": 87.5,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             4150.0,
@@ -4520,7 +4520,7 @@
             3390.0,
             3725.0,
             3830.0,
-            3837.5
+            3917.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -4533,9 +4533,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 237.75,
-          "change": -3.75,
-          "changePct": -1.55,
+          "value": 240.75,
+          "change": -0.75,
+          "changePct": -0.31,
           "asOf": "2026-11-11",
           "history": [
             241.5,
@@ -4552,7 +4552,7 @@
             224.5,
             239.0,
             241.5,
-            237.75
+            240.75
           ],
           "source": "TWSE / TPEx"
         }

@@ -6,8 +6,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-11T09:41:53+08:00",
-  "updatedAt": "2026-11-11 09:41",
+  "generatedAt": "2026-11-11T10:52:16+08:00",
+  "updatedAt": "2026-11-11 10:52",
   "date": "2026-11-11",
   "weekday": "星期三",
   "dataMode": "live",
@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 102.254,
-        "change": 0.023,
-        "changePct": 0.02,
+        "value": 102.262,
+        "change": 0.031,
+        "changePct": 0.03,
         "asOf": "2026-11-10",
         "history": [
           101.78,
@@ -80,7 +80,7 @@
           101.547,
           102.298,
           101.653,
-          102.254
+          102.262
         ],
         "source": "CNBC Market Data"
       },
@@ -93,9 +93,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.14,
-        "change": 0.1,
-        "changePct": 0.12,
+        "value": 86.75,
+        "change": 0.71,
+        "changePct": 0.83,
         "asOf": "2026-11-10",
         "history": [
           97.15,
@@ -112,7 +112,7 @@
           90.52,
           90.83,
           86.85,
-          86.14
+          86.75
         ],
         "source": "CNBC Market Data"
       },
@@ -125,9 +125,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 4049.8,
-        "change": 19.6,
-        "changePct": 0.49,
+        "value": 4052.0,
+        "change": 21.8,
+        "changePct": 0.54,
         "asOf": "2026-11-10",
         "history": [
           4150.0,
@@ -144,7 +144,7 @@
           4113.5,
           4074.9,
           4114.5,
-          4049.8
+          4052.0
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 102.254,
-        "change": 0.023,
-        "changePct": 0.02,
+        "value": 102.262,
+        "change": 0.031,
+        "changePct": 0.03,
         "asOf": "2026-11-10",
         "history": [
           101.78,
@@ -238,7 +238,7 @@
           101.547,
           102.298,
           101.653,
-          102.254
+          102.262
         ],
         "source": "CNBC Market Data"
       },
@@ -251,9 +251,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.14,
-        "change": 0.1,
-        "changePct": 0.12,
+        "value": 86.75,
+        "change": 0.71,
+        "changePct": 0.83,
         "asOf": "2026-11-10",
         "history": [
           97.15,
@@ -270,7 +270,7 @@
           90.52,
           90.83,
           86.85,
-          86.14
+          86.75
         ],
         "source": "CNBC Market Data"
       },
@@ -283,9 +283,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 4049.8,
-        "change": 19.6,
-        "changePct": 0.49,
+        "value": 4052.0,
+        "change": 21.8,
+        "changePct": 0.54,
         "asOf": "2026-11-10",
         "history": [
           4150.0,
@@ -302,7 +302,7 @@
           4113.5,
           4074.9,
           4114.5,
-          4049.8
+          4052.0
         ],
         "source": "CNBC Market Data"
       },
@@ -1133,9 +1133,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 43171.25,
-            "change": 459.33,
-            "changePct": 1.08,
+            "value": 43568.82,
+            "change": 856.9,
+            "changePct": 2.01,
             "asOf": "2026-11-11",
             "history": [
               46292.93,
@@ -1152,7 +1152,7 @@
               39701.64,
               41661.7,
               42711.92,
-              43171.25
+              43568.82
             ],
             "source": "TWSE / TPEx"
           },
@@ -1165,9 +1165,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 335.97,
-            "change": 3.0,
-            "changePct": 0.9,
+            "value": 338.33,
+            "change": 5.36,
+            "changePct": 1.61,
             "asOf": "2026-11-11",
             "history": [
               369.24,
@@ -1177,7 +1177,7 @@
               304.02,
               321.97,
               332.97,
-              335.97
+              338.33
             ],
             "source": "TWSE / TPEx"
           }
@@ -1192,9 +1192,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 101.175,
-            "change": 1.475,
-            "changePct": 1.48,
+            "value": 101.975,
+            "change": 2.275,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               107.25,
@@ -1211,7 +1211,7 @@
               92.5,
               97.45,
               99.7,
-              101.175
+              101.975
             ],
             "source": "TWSE / TPEx"
           },
@@ -1224,9 +1224,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 232.1,
-            "change": 3.2,
-            "changePct": 1.4,
+            "value": 234.25,
+            "change": 5.35,
+            "changePct": 2.34,
             "asOf": "2026-11-11",
             "history": [
               245.3,
@@ -1243,7 +1243,7 @@
               210.1,
               223.6,
               228.9,
-              232.1
+              234.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1256,9 +1256,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2337.5,
-            "change": 52.5,
-            "changePct": 2.3,
+            "value": 2357.5,
+            "change": 72.5,
+            "changePct": 3.17,
             "asOf": "2026-11-11",
             "history": [
               2405.0,
@@ -1275,7 +1275,7 @@
               2135.0,
               2235.0,
               2285.0,
-              2337.5
+              2357.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1288,9 +1288,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 100.75,
-            "change": 0.25,
-            "changePct": 0.25,
+            "value": 102.25,
+            "change": 1.75,
+            "changePct": 1.74,
             "asOf": "2026-11-11",
             "history": [
               127.0,
@@ -1307,7 +1307,7 @@
               92.0,
               96.7,
               100.5,
-              100.75
+              102.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1320,9 +1320,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3837.5,
-            "change": 7.5,
-            "changePct": 0.2,
+            "value": 3917.5,
+            "change": 87.5,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               4150.0,
@@ -1339,7 +1339,7 @@
               3390.0,
               3725.0,
               3830.0,
-              3837.5
+              3917.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1352,9 +1352,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 237.75,
-            "change": -3.75,
-            "changePct": -1.55,
+            "value": 240.75,
+            "change": -0.75,
+            "changePct": -0.31,
             "asOf": "2026-11-11",
             "history": [
               241.5,
@@ -1371,7 +1371,7 @@
               224.5,
               239.0,
               241.5,
-              237.75
+              240.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -1386,9 +1386,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 43171.25,
-            "change": 459.33,
-            "changePct": 1.08,
+            "value": 43568.82,
+            "change": 856.9,
+            "changePct": 2.01,
             "asOf": "2026-11-11",
             "history": [
               46292.93,
@@ -1405,7 +1405,7 @@
               39701.64,
               41661.7,
               42711.92,
-              43171.25
+              43568.82
             ],
             "source": "TWSE / TPEx"
           },
@@ -1418,9 +1418,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 335.97,
-            "change": 3.0,
-            "changePct": 0.9,
+            "value": 338.33,
+            "change": 5.36,
+            "changePct": 1.61,
             "asOf": "2026-11-11",
             "history": [
               369.24,
@@ -1430,7 +1430,7 @@
               304.02,
               321.97,
               332.97,
-              335.97
+              338.33
             ],
             "source": "TWSE / TPEx"
           },
@@ -1443,9 +1443,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 101.175,
-            "change": 1.475,
-            "changePct": 1.48,
+            "value": 101.975,
+            "change": 2.275,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               107.25,
@@ -1462,7 +1462,7 @@
               92.5,
               97.45,
               99.7,
-              101.175
+              101.975
             ],
             "source": "TWSE / TPEx"
           },
@@ -1475,9 +1475,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 232.1,
-            "change": 3.2,
-            "changePct": 1.4,
+            "value": 234.25,
+            "change": 5.35,
+            "changePct": 2.34,
             "asOf": "2026-11-11",
             "history": [
               245.3,
@@ -1494,7 +1494,7 @@
               210.1,
               223.6,
               228.9,
-              232.1
+              234.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1507,9 +1507,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2337.5,
-            "change": 52.5,
-            "changePct": 2.3,
+            "value": 2357.5,
+            "change": 72.5,
+            "changePct": 3.17,
             "asOf": "2026-11-11",
             "history": [
               2405.0,
@@ -1526,7 +1526,7 @@
               2135.0,
               2235.0,
               2285.0,
-              2337.5
+              2357.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1539,9 +1539,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 100.75,
-            "change": 0.25,
-            "changePct": 0.25,
+            "value": 102.25,
+            "change": 1.75,
+            "changePct": 1.74,
             "asOf": "2026-11-11",
             "history": [
               127.0,
@@ -1558,7 +1558,7 @@
               92.0,
               96.7,
               100.5,
-              100.75
+              102.25
             ],
             "source": "TWSE / TPEx"
           },
@@ -1571,9 +1571,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3837.5,
-            "change": 7.5,
-            "changePct": 0.2,
+            "value": 3917.5,
+            "change": 87.5,
+            "changePct": 2.28,
             "asOf": "2026-11-11",
             "history": [
               4150.0,
@@ -1590,7 +1590,7 @@
               3390.0,
               3725.0,
               3830.0,
-              3837.5
+              3917.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1603,9 +1603,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 237.75,
-            "change": -3.75,
-            "changePct": -1.55,
+            "value": 240.75,
+            "change": -0.75,
+            "changePct": -0.31,
             "asOf": "2026-11-11",
             "history": [
               241.5,
@@ -1622,7 +1622,7 @@
               224.5,
               239.0,
               241.5,
-              237.75
+              240.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -1673,9 +1673,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 102.254,
-      "change": 0.023,
-      "changePct": 0.02,
+      "value": 102.262,
+      "change": 0.031,
+      "changePct": 0.03,
       "asOf": "2026-11-10",
       "history": [
         101.78,
@@ -1692,7 +1692,7 @@
         101.547,
         102.298,
         101.653,
-        102.254
+        102.262
       ],
       "source": "CNBC Market Data"
     },
@@ -1705,9 +1705,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 86.14,
-      "change": 0.1,
-      "changePct": 0.12,
+      "value": 86.75,
+      "change": 0.71,
+      "changePct": 0.83,
       "asOf": "2026-11-10",
       "history": [
         97.15,
@@ -1724,7 +1724,7 @@
         90.52,
         90.83,
         86.85,
-        86.14
+        86.75
       ],
       "source": "CNBC Market Data"
     },
@@ -1737,9 +1737,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 4049.8,
-      "change": 19.6,
-      "changePct": 0.49,
+      "value": 4052.0,
+      "change": 21.8,
+      "changePct": 0.54,
       "asOf": "2026-11-10",
       "history": [
         4150.0,
@@ -1756,7 +1756,7 @@
         4113.5,
         4074.9,
         4114.5,
-        4049.8
+        4052.0
       ],
       "source": "CNBC Market Data"
     },
@@ -2587,9 +2587,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 43171.25,
-          "change": 459.33,
-          "changePct": 1.08,
+          "value": 43568.82,
+          "change": 856.9,
+          "changePct": 2.01,
           "asOf": "2026-11-11",
           "history": [
             46292.93,
@@ -2606,7 +2606,7 @@
             39701.64,
             41661.7,
             42711.92,
-            43171.25
+            43568.82
           ],
           "source": "TWSE / TPEx"
         },
@@ -2619,9 +2619,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 335.97,
-          "change": 3.0,
-          "changePct": 0.9,
+          "value": 338.33,
+          "change": 5.36,
+          "changePct": 1.61,
           "asOf": "2026-11-11",
           "history": [
             369.24,
@@ -2631,7 +2631,7 @@
             304.02,
             321.97,
             332.97,
-            335.97
+            338.33
           ],
           "source": "TWSE / TPEx"
         }
@@ -2646,9 +2646,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 101.175,
-          "change": 1.475,
-          "changePct": 1.48,
+          "value": 101.975,
+          "change": 2.275,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             107.25,
@@ -2665,7 +2665,7 @@
             92.5,
             97.45,
             99.7,
-            101.175
+            101.975
           ],
           "source": "TWSE / TPEx"
         },
@@ -2678,9 +2678,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 232.1,
-          "change": 3.2,
-          "changePct": 1.4,
+          "value": 234.25,
+          "change": 5.35,
+          "changePct": 2.34,
           "asOf": "2026-11-11",
           "history": [
             245.3,
@@ -2697,7 +2697,7 @@
             210.1,
             223.6,
             228.9,
-            232.1
+            234.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -2710,9 +2710,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2337.5,
-          "change": 52.5,
-          "changePct": 2.3,
+          "value": 2357.5,
+          "change": 72.5,
+          "changePct": 3.17,
           "asOf": "2026-11-11",
           "history": [
             2405.0,
@@ -2729,7 +2729,7 @@
             2135.0,
             2235.0,
             2285.0,
-            2337.5
+            2357.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2742,9 +2742,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 100.75,
-          "change": 0.25,
-          "changePct": 0.25,
+          "value": 102.25,
+          "change": 1.75,
+          "changePct": 1.74,
           "asOf": "2026-11-11",
           "history": [
             127.0,
@@ -2761,7 +2761,7 @@
             92.0,
             96.7,
             100.5,
-            100.75
+            102.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -2774,9 +2774,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3837.5,
-          "change": 7.5,
-          "changePct": 0.2,
+          "value": 3917.5,
+          "change": 87.5,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             4150.0,
@@ -2793,7 +2793,7 @@
             3390.0,
             3725.0,
             3830.0,
-            3837.5
+            3917.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2806,9 +2806,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 237.75,
-          "change": -3.75,
-          "changePct": -1.55,
+          "value": 240.75,
+          "change": -0.75,
+          "changePct": -0.31,
           "asOf": "2026-11-11",
           "history": [
             241.5,
@@ -2825,7 +2825,7 @@
             224.5,
             239.0,
             241.5,
-            237.75
+            240.75
           ],
           "source": "TWSE / TPEx"
         }
@@ -2840,9 +2840,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 43171.25,
-          "change": 459.33,
-          "changePct": 1.08,
+          "value": 43568.82,
+          "change": 856.9,
+          "changePct": 2.01,
           "asOf": "2026-11-11",
           "history": [
             46292.93,
@@ -2859,7 +2859,7 @@
             39701.64,
             41661.7,
             42711.92,
-            43171.25
+            43568.82
           ],
           "source": "TWSE / TPEx"
         },
@@ -2872,9 +2872,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 335.97,
-          "change": 3.0,
-          "changePct": 0.9,
+          "value": 338.33,
+          "change": 5.36,
+          "changePct": 1.61,
           "asOf": "2026-11-11",
           "history": [
             369.24,
@@ -2884,7 +2884,7 @@
             304.02,
             321.97,
             332.97,
-            335.97
+            338.33
           ],
           "source": "TWSE / TPEx"
         },
@@ -2897,9 +2897,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 101.175,
-          "change": 1.475,
-          "changePct": 1.48,
+          "value": 101.975,
+          "change": 2.275,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             107.25,
@@ -2916,7 +2916,7 @@
             92.5,
             97.45,
             99.7,
-            101.175
+            101.975
           ],
           "source": "TWSE / TPEx"
         },
@@ -2929,9 +2929,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 232.1,
-          "change": 3.2,
-          "changePct": 1.4,
+          "value": 234.25,
+          "change": 5.35,
+          "changePct": 2.34,
           "asOf": "2026-11-11",
           "history": [
             245.3,
@@ -2948,7 +2948,7 @@
             210.1,
             223.6,
             228.9,
-            232.1
+            234.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -2961,9 +2961,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2337.5,
-          "change": 52.5,
-          "changePct": 2.3,
+          "value": 2357.5,
+          "change": 72.5,
+          "changePct": 3.17,
           "asOf": "2026-11-11",
           "history": [
             2405.0,
@@ -2980,7 +2980,7 @@
             2135.0,
             2235.0,
             2285.0,
-            2337.5
+            2357.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2993,9 +2993,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 100.75,
-          "change": 0.25,
-          "changePct": 0.25,
+          "value": 102.25,
+          "change": 1.75,
+          "changePct": 1.74,
           "asOf": "2026-11-11",
           "history": [
             127.0,
@@ -3012,7 +3012,7 @@
             92.0,
             96.7,
             100.5,
-            100.75
+            102.25
           ],
           "source": "TWSE / TPEx"
         },
@@ -3025,9 +3025,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3837.5,
-          "change": 7.5,
-          "changePct": 0.2,
+          "value": 3917.5,
+          "change": 87.5,
+          "changePct": 2.28,
           "asOf": "2026-11-11",
           "history": [
             4150.0,
@@ -3044,7 +3044,7 @@
             3390.0,
             3725.0,
             3830.0,
-            3837.5
+            3917.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -3057,9 +3057,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 237.75,
-          "change": -3.75,
-          "changePct": -1.55,
+          "value": 240.75,
+          "change": -0.75,
+          "changePct": -0.31,
           "asOf": "2026-11-11",
           "history": [
             241.5,
@@ -3076,7 +3076,7 @@
             224.5,
             239.0,
             241.5,
-            237.75
+            240.75
           ],
           "source": "TWSE / TPEx"
         }
@@ -3084,30 +3084,30 @@
     }
   },
   "leadIds": [
-    "sbba52dd5",
+    "s63821130",
     "s6b0579c0"
   ],
   "stories": [
     {
-      "id": "sbba52dd5",
+      "id": "s63821130",
       "section": "business_tech",
-      "title": "台積電加入 AI 閉環投資 認購 Anthropic、OpenAI 股票",
+      "title": "台積電擬入股Anthropic、OpenAI,但未揭露晶片採購或產能承諾",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "台積電加入AI閉環投資行列,董事會昨(10)日通過,核准5億美元(近新台幣165億元)額度內認購Anthropic普通股,以及於5億美元額度內認購OpenAI特別股,合計最高10億美元(約新台幣330億元)。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9870483",
+      "summary": "MoneyDJ新聞 2026-11-11 08:28:23 數位內容中心 發佈- 台積電11月10日董事會決議,擬各投入5億美元入股Anthropic與OpenAI,並核准約409.27億美元資本預算;同日也通過第三季財報與調升現金股利。 - 公告未揭露任何與上述AI業者相關的晶片採購、優先供應或明確技術合作條款;同時,先進封裝(CoWoS)與關鍵設備交期吃緊,可能成為產能落地的主要瓶頸。 - 後續焦點在於,公司是否會在未來聲明或合作文件中披露採購與交付條款,以及409.27億美元資本預算將如何分配至先進製程、先進封裝(含CoWoS)與海外廠房,以因應交期壓力。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%AC%E5%85%A5%E8%82%A1anthropic-openai-%E4%BD%86%E6%9C%AA%E6%8F%AD%E9%9C%B2%E6%99%B6%E7%89%87%E6%8E%A1%E8%B3%BC%E6%88%96%E7%94%A2%E8%83%BD%E6%89%BF%E8%AB%BE-002800037.html",
       "publishedAt": "2026-11-11T08:35:36+08:00",
       "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/10/35504982.jpg&M=1&s=Y&x=0&y=11&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
-      "score": 94,
+      "score": 89,
       "scoreBreakdown": {
-        "resonance": 35,
+        "resonance": 30,
         "impact": 35,
         "data": 20,
         "durability": 4
       },
-      "mediaCount": 3,
+      "mediaCount": 2,
       "impactCategories": [
         "財報與資本配置",
         "利率與法規政策",
@@ -3156,15 +3156,6 @@
           "excerpt": "路透報導,Anthropic即將上市,背後匯集亞馬遜、Google及多家半導體大廠資金,成為科技業共同押注的AI企業。",
           "url": "https://tw.stock.yahoo.com/news/%E4%BA%9E%E9%A6%AC%E9%81%9C-google%E5%88%B0%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%BD%8A%E6%8A%BC%E6%B3%A8-anthropic%E4%B8%8A%E5%B8%82%E8%80%83%E9%A9%97ai%E6%8A%95%E8%B3%87%E4%BF%A1%E5%BF%83-003536118.html",
           "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發 2026 年第三季每股現金股利達 9 元,展現公司充沛的現金流與回饋股東的誠意。",
-          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發 2026 年第三季每股現金股利達 9 元,展現公司充沛的現金流與回饋股東的誠意。",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "lang": "zh"
         }
       ],
       "unverified_notice": "",
@@ -3210,15 +3201,6 @@
           "excerpt": "路透報導,Anthropic即將上市,背後匯集亞馬遜、Google及多家半導體大廠資金,成為科技業共同押注的AI企業。",
           "url": "https://tw.stock.yahoo.com/news/%E4%BA%9E%E9%A6%AC%E9%81%9C-google%E5%88%B0%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%BD%8A%E6%8A%BC%E6%B3%A8-anthropic%E4%B8%8A%E5%B8%82%E8%80%83%E9%A9%97ai%E6%8A%95%E8%B3%87%E4%BF%A1%E5%BF%83-003536118.html",
           "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發 2026 年第三季每股現金股利達 9 元,展現公司充沛的現金流與回饋股東的誠意。",
-          "excerpt": "台積電召開董事會,會中通過多項重大決議,其中最受市場矚目的焦點為核准配發 2026 年第三季每股現金股利達 9 元,展現公司充沛的現金流與回饋股東的誠意。",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
@@ -3251,18 +3233,6 @@
           "media": "工商時報 (Yahoo 聯播)",
           "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBq3%E9%85%8D%E6%81%AF9%E5%85%83-%E5%85%A5%E8%82%A1ai%E7%B5%82%E7%AB%AF%E5%85%A9%E5%B7%A8%E9%A0%ADanthropic%E8%88%87openai-%E6%89%B6%E6%A4%8D%E7%94%9F%E6%85%8B%E7%B3%BB-000252682.html",
           "headline": "台積電Q3配息9元、入股AI終端兩巨頭Anthropic與OpenAI,扶植生態系",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%8A%A0%E5%85%A5ai%E9%96%89%E7%92%B0%E6%8A%95%E8%B3%87-%E8%AA%8D%E8%B3%BCanthropic-openai%E8%82%A1%E7%A5%A8-223422439.html",
-          "headline": "台積電加入AI閉環投資 認購Anthropic、OpenAI股票",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/10/tsmcs-third-quarter-cash-dividend-reached-nt9/",
-          "headline": "台積電賺大錢,決議第三季股利調升到 9 元,另認購 Anthropic 與 OpenAI 股份",
           "lang": "zh"
         }
       ],
@@ -3373,240 +3343,259 @@
       "rank": 2
     },
     {
-      "id": "sa6a22de0",
+      "id": "sc27bc09e",
       "section": "business_tech",
-      "title": "美國資料中心鉅額減損,軟銀單季虧損1.12兆日圓,兩年來首見",
+      "title": "台積電漲45元 台股漲逾600點早盤衝高後回落",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。美國AI資料中心設備採購計畫調整,加上投資組合表現疲弱,成為業績主要拖累。軟銀上半財年因調整美國資料中心發電設備採購安排,認列約37億美元損失,涉及俄亥俄州等開發項目。相關支出包括無法退還的設備與產能預付款,以及合約修改和解成本,凸顯大型AI基礎設施計畫在規格及採購安排變動時面臨的財務風險。投資事業也承受壓力,安謀(Arm)、英特爾及韓國電商酷膨(Coupang)股價下跌,進一步拖累集團損益。",
+      "summary": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
       "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E9%89%85%E9%A1%8D%E6%B8%9B%E6%90%8D-%E8%BB%9F%E9%8A%80%E5%96%AE%E5%AD%A3%E8%99%A7%E6%90%8D1-12%E5%85%86%E6%97%A5%E5%9C%93-%E5%85%A9%E5%B9%B4%E4%BE%86%E9%A6%96%E8%A6%8B-004322289.html",
-      "publishedAt": "2026-11-11T08:43:22+08:00",
-      "imageUrl": "https://img.technews.tw/wp-content/uploads/2018/12/19143725/Softbank-e1545201464213.jpg",
-      "imageCredit": "TechNews 科技新報",
-      "score": 85,
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
+      "publishedAt": "2026-11-11T09:30:56+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/570509a4cff3be66b555bec74c656068721544e01ee44e0791a233b492cd2b7d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_ttv_com_tw_433%2Fe017633f03e051b16cccee5ee43b8dd3.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 84,
       "scoreBreakdown": {
         "resonance": 30,
-        "impact": 35,
+        "impact": 32,
         "data": 20,
-        "durability": 0
+        "durability": 2
       },
       "mediaCount": 2,
       "impactCategories": [
         "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
+        "利率與法規政策"
       ],
       "core_facts": [
         {
-          "text": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "metric": "1.12兆",
+          "text": "3大權值股,台積電(2330)最多上漲45元至2330元;聯發科(2454)最多漲90元至3920元,不過隨後翻黑;台達電(2308)最多漲20元至1295元,但同樣翻黑。",
+          "metric": "1295元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "集團累計投入646億美元取得OpenAI約13%股權,隨著投資版圖橫跨AI模型、資料中心、半導體及機器人,資金成本與投資回收時程,成為市場衡量其後續財務表現的重要因素。",
-          "metric": "646億美元",
+          "text": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "metric": "2.02%",
           "confirmed_by": [
+            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "metric": "70億美元",
+          "text": "台積電最多漲45元至2330元。",
+          "metric": "2330元",
           "confirmed_by": [
-            "TechNews 科技新報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "美國資料中心鉅額減損,軟銀單季虧損1.12兆日圓,兩年來首見",
-          "angle": "資本預算與財報配置",
-          "focus": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "excerpt": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E9%89%85%E9%A1%8D%E6%B8%9B%E6%90%8D-%E8%BB%9F%E9%8A%80%E5%96%AE%E5%AD%A3%E8%99%A7%E6%90%8D1-12%E5%85%86%E6%97%A5%E5%9C%93-%E5%85%A9%E5%B9%B4%E4%BE%86%E9%A6%96%E8%A6%8B-004322289.html",
+          "media": "經濟日報",
+          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%…",
+          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%…",
+          "url": "https://money.udn.com/money/story/5612/9870943",
           "lang": "zh"
         },
         {
-          "media": "TechNews 科技新報",
-          "headline": "美國資料中心虧損拖累,軟銀集團第二季淨損 70 億美元",
-          "angle": "產業動態與市場焦點",
-          "focus": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "excerpt": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "url": "https://finance.technews.tw/2026/11/10/softbank-group-posts-7-billion-net-loss-in-q2/",
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "台積電漲45元 台股早盤漲逾600點隨後漲勢收斂",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E%E9%9A%A8%E5%BE%8C%E6%BC%B2%E5%8B%A2%E6%94%B6%E6%96%82-012702587.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "metric": "1.12兆",
+          "text": "3大權值股,台積電(2330)最多上漲45元至2330元;聯發科(2454)最多漲90元至3920元,不過隨後翻黑;台達電(2308)最多漲20元至1295元,但同樣翻黑。",
+          "metric": "1295元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "集團累計投入646億美元取得OpenAI約13%股權,隨著投資版圖橫跨AI模型、資料中心、半導體及機器人,資金成本與投資回收時程,成為市場衡量其後續財務表現的重要因素。",
-          "metric": "646億美元",
+          "text": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "metric": "2.02%",
           "confirmed_by": [
+            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "metric": "70億美元",
+          "text": "台積電最多漲45元至2330元。",
+          "metric": "2330元",
           "confirmed_by": [
-            "TechNews 科技新報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "美國資料中心鉅額減損,軟銀單季虧損1.12兆日圓,兩年來首見",
-          "angle": "資本預算與財報配置",
-          "focus": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "excerpt": "軟銀(9984.T)週二公布,截至9月底的第二財季淨損約1.12兆日圓,約合71億美元,為近兩年來首度單季虧損,遠遜於分析師平均預估的獲利1,290億日圓。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E9%89%85%E9%A1%8D%E6%B8%9B%E6%90%8D-%E8%BB%9F%E9%8A%80%E5%96%AE%E5%AD%A3%E8%99%A7%E6%90%8D1-12%E5%85%86%E6%97%A5%E5%9C%93-%E5%85%A9%E5%B9%B4%E4%BE%86%E9%A6%96%E8%A6%8B-004322289.html",
+          "media": "經濟日報",
+          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%…",
+          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%…",
+          "url": "https://money.udn.com/money/story/5612/9870943",
           "lang": "zh"
         },
         {
-          "media": "TechNews 科技新報",
-          "headline": "美國資料中心虧損拖累,軟銀集團第二季淨損 70 億美元",
-          "angle": "產業動態與市場焦點",
-          "focus": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "excerpt": "科技投資公司軟銀集團(SoftBank Group)10 日表示,受到支援美國資料中心興建計畫而支付的高額預付款影響,該公司在 7 月至 9 月的第二季淨損 1.1 兆日圓(約 70 億美元)。",
-          "url": "https://finance.technews.tw/2026/11/10/softbank-group-posts-7-billion-net-loss-in-q2/",
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "台積電漲45元 台股早盤漲逾600點隨後漲勢收斂",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E%E9%9A%A8%E5%BE%8C%E6%BC%B2%E5%8B%A2%E6%94%B6%E6%96%82-012702587.html",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E9%89%85%E9%A1%8D%E6%B8%9B%E6%90%8D-%E8%BB%9F%E9%8A%80%E5%96%AE%E5%AD%A3%E8%99%A7%E6%90%8D1-12%E5%85%86%E6%97%A5%E5%9C%93-%E5%85%A9%E5%B9%B4%E4%BE%86%E9%A6%96%E8%A6%8B-004322289.html",
-          "headline": "美國資料中心鉅額減損,軟銀單季虧損1.12兆日圓,兩年來首見",
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9870943",
+          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
           "lang": "zh"
         },
         {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/10/softbank-group-posts-7-billion-net-loss-in-q2/",
-          "headline": "美國資料中心虧損拖累,軟銀集團第二季淨損 70 億美元",
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E%E9%9A%A8%E5%BE%8C%E6%BC%B2%E5%8B%A2%E6%94%B6%E6%96%82-012702587.html",
+          "headline": "台積電漲45元 台股早盤漲逾600點隨後漲勢收斂",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
+          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%96%8B%E9%AB%98%E9%87%8D%E8%BF%9443k%E9%99%B7%E9%9C%87%E7%9B%AA-%E5%BA%A6%E9%A3%86%E6%BC%B2%E9%80%BE600%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%A0%98%E9%A0%AD%E6%8B%8945%E5%85%83-011834557.html",
+          "headline": "台股開高重返43K陷震盪!一度飆漲逾600點 台積電領頭拉45元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%87%9F%E6%94%B6%E5%89%B5%E9%AB%98-%E8%82%A1%E5%83%B9%E5%BC%B7%E6%8B%8945%E5%85%83-%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E5%A4%A7%E6%BC%B2%E9%80%BE600%E9%BB%9E-010649621.html",
+          "headline": "台積電營收創高 股價強拉45元!台股開盤大漲逾600點",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E%E5%BE%8C%E5%9B%9E%E8%90%BD-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-013216643.html",
+          "headline": "台股早盤漲逾600點後回落 台積電漲45元",
           "lang": "zh"
         }
       ],
       "rank": 3
     },
     {
-      "id": "s51e116ba",
+      "id": "s77b7d035",
       "section": "business_tech",
-      "title": "台積電10月營收年增近六成,ADR週二逆勢漲2.02%、費半第二強",
+      "title": "AI人才戰使科技業缺工嚴峻 研發主管年薪中位數逼近200萬",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。同日,費半翻空小跌0.35%。不過,最新收市價與10月5日締造的史上新高,五週急吐90.99美元或19%,瀕臨熊市領域。台積電週二公布,10月合併營收達新台幣5,868.9億元,月增14.7%、年增59.7%。累計今年前十個月營收為4兆4,856.17億元,較去年同期增加43.3%,顯示公司營運持續維持強勁成長。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E5%B9%B4%E5%A2%9E%E8%BF%91%E5%85%AD%E6%88%90-adr%E9%80%B1%E4%BA%8C%E9%80%86%E5%8B%A2%E6%BC%B22-02-%E8%B2%BB%E5%8D%8A%E7%AC%AC%E4%BA%8C%E5%BC%B7-003334552.html",
-      "publishedAt": "2026-11-11T08:33:34+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/8010e84c3492b6a7457cf0f95927ddf98f4f89527ef77a238c59d0c5294774b2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Ftaisounds_com_380%2Fbe6a14e543f8b86a4f9ed3e718a065cf.jpg",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 83,
+      "summary": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。台灣身為全球半導體供應鏈的重要基地,除了面臨國際技術競爭與供應鏈安全挑戰,更必須面對日益嚴峻的人才爭奪戰。1111人力銀行統計,今年10月AI相關工作機會逼近3.9萬筆,較去年同期大增46%,顯示就業市場AI人才需求持續升溫中,其中以電子科技、資訊、軟體及半導體產業最火燙。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5612/9871067",
+      "publishedAt": "2026-11-11T10:13:15+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/11/35505709.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=854&sl=W&fw=1050&exp=3600",
+      "imageCredit": "經濟日報",
+      "score": 82,
       "scoreBreakdown": {
         "resonance": 26,
         "impact": 35,
-        "data": 20,
-        "durability": 2
+        "data": 15,
+        "durability": 6
       },
       "mediaCount": 1,
       "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "技術與算力突破"
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
       ],
       "core_facts": [
         {
-          "text": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "metric": "396.48美元",
+          "text": "1111人力銀行統計,今年10月AI相關工作機會逼近3.9萬筆,較去年同期大增46%,顯示就業市場AI人才需求持續升溫中,其中以電子科技、資訊、軟體及半導體產業最火燙。",
+          "metric": "3.9萬",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         },
         {
-          "text": "台積電週二公布,10月合併營收達新台幣5,868.9億元,月增14.7%、年增59.7%。",
-          "metric": "5868.9億元",
+          "text": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         },
         {
-          "text": "累計今年前十個月營收為4兆4,856.17億元,較去年同期增加43.3%,顯示公司營運持續維持強勁成長。",
-          "metric": "4856.17億元",
+          "text": "台灣身為全球半導體供應鏈的重要基地,除了面臨國際技術競爭與供應鏈安全挑戰,更必須面對日益嚴峻的人才爭奪戰。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電10月營收年增近六成,ADR週二逆勢漲2.02%、費半第二強",
-          "angle": "資本預算與財報配置",
-          "focus": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "excerpt": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E5%B9%B4%E5%A2%9E%E8%BF%91%E5%85%AD%E6%88%90-adr%E9%80%B1%E4%BA%8C%E9%80%86%E5%8B%A2%E6%BC%B22-02-%E8%B2%BB%E5%8D%8A%E7%AC%AC%E4%BA%8C%E5%BC%B7-003334552.html",
+          "media": "經濟日報",
+          "headline": "AI人才戰使科技業缺工嚴峻 研發主管年薪中位數逼近200萬",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "excerpt": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "url": "https://money.udn.com/money/story/5612/9871067",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "metric": "396.48美元",
+          "text": "1111人力銀行統計,今年10月AI相關工作機會逼近3.9萬筆,較去年同期大增46%,顯示就業市場AI人才需求持續升溫中,其中以電子科技、資訊、軟體及半導體產業最火燙。",
+          "metric": "3.9萬",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         },
         {
-          "text": "台積電週二公布,10月合併營收達新台幣5,868.9億元,月增14.7%、年增59.7%。",
-          "metric": "5868.9億元",
+          "text": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         },
         {
-          "text": "累計今年前十個月營收為4兆4,856.17億元,較去年同期增加43.3%,顯示公司營運持續維持強勁成長。",
-          "metric": "4856.17億元",
+          "text": "台灣身為全球半導體供應鏈的重要基地,除了面臨國際技術競爭與供應鏈安全挑戰,更必須面對日益嚴峻的人才爭奪戰。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "經濟日報"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電10月營收年增近六成,ADR週二逆勢漲2.02%、費半第二強",
-          "angle": "資本預算與財報配置",
-          "focus": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "excerpt": "全球晶圓代工一哥台積電(2330,美股代碼TSM)10月營收年增近六成,為AI晶片需求提供支撐,激勵美國存託憑證(Adr)週二逆勢收高7.80美元或2.02%,報396.48美元,在費城半導體指數成分股中漲幅排名第二,僅次於急漲3.91%的博通。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E5%B9%B4%E5%A2%9E%E8%BF%91%E5%85%AD%E6%88%90-adr%E9%80%B1%E4%BA%8C%E9%80%86%E5%8B%A2%E6%BC%B22-02-%E8%B2%BB%E5%8D%8A%E7%AC%AC%E4%BA%8C%E5%BC%B7-003334552.html",
+          "media": "經濟日報",
+          "headline": "AI人才戰使科技業缺工嚴峻 研發主管年薪中位數逼近200萬",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "excerpt": "全球AI競爭白熱化,從美中科技角力、先進晶片供應鏈布局,人工智慧已成為各國科技競爭與產業升級的核心戰場。",
+          "url": "https://money.udn.com/money/story/5612/9871067",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB10%E6%9C%88%E7%87%9F%E6%94%B6%E5%B9%B4%E5%A2%9E%E8%BF%91%E5%85%AD%E6%88%90-adr%E9%80%B1%E4%BA%8C%E9%80%86%E5%8B%A2%E6%BC%B22-02-%E8%B2%BB%E5%8D%8A%E7%AC%AC%E4%BA%8C%E5%BC%B7-003334552.html",
-          "headline": "台積電10月營收年增近六成,ADR週二逆勢漲2.02%、費半第二強",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/fed%E5%8D%87%E6%81%AF%E8%AD%A6%E5%A0%B1%E9%9F%BF%E8%B5%B7-%E7%BE%8E%E8%82%A1%E5%85%A8%E7%B7%9A%E6%94%B6%E9%BB%91-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%80%86%E5%8B%A2%E6%BC%B22-230356939.html",
-          "headline": "Fed升息警報響起!美股全線收黑 台積電ADR逆勢漲2%",
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9871067",
+          "headline": "AI人才戰使科技業缺工嚴峻 研發主管年薪中位數逼近200萬",
           "lang": "zh"
         }
       ],
@@ -3791,122 +3780,6 @@
       "rank": 6
     },
     {
-      "id": "sc27bc09e",
-      "section": "business_tech",
-      "title": "台積電漲45元 台股漲逾600點早盤衝高後回落",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
-      "publishedAt": "2026-11-11T09:23:49+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/878a7673a0c8bb4a4b4c581aa549ecbe705b6bed24ac870eebd3045a5fda2de5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fcna.com.tw%2Fe9f4f18188558635f54c51cd06e700be",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 80,
-      "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 32,
-        "data": 20,
-        "durability": 2
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "metric": "2.02%",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "台積電最多漲45元至2330元。",
-          "metric": "2330元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "台積電第3季股利每股9元創新高,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度下跌翻黑。",
-          "metric": "9元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "metric": "2.02%",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "台積電最多漲45元至2330元。",
-          "metric": "2330元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "台積電第3季股利每股9元創新高,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度下跌翻黑。",
-          "metric": "9元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "excerpt": "台積電第3季股利每股9元創新高,週二ADR股價上漲2.02%,今天股價跟漲,率領台股早盤最多漲逾600點,站回43000點,但大盤隨後漲幅收斂,指數拉回甚至一度翻黑。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-%E5%8F%B0%E8%82%A1%E6%BC%B2%E9%80%BE600%E9%BB%9E%E6%97%A9%E7%9B%A4%E8%A1%9D%E9%AB%98%E5%BE%8C%E5%9B%9E%E8%90%BD-012349357.html",
-          "headline": "台積電漲45元 台股漲逾600點早盤衝高後回落",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%87%9F%E6%94%B6%E5%89%B5%E9%AB%98-%E8%82%A1%E5%83%B9%E5%BC%B7%E6%8B%8945%E5%85%83-%E5%8F%B0%E8%82%A1%E9%96%8B%E7%9B%A4%E5%A4%A7%E6%BC%B2%E9%80%BE600%E9%BB%9E-010649621.html",
-          "headline": "台積電營收創高 股價強拉45元!台股開盤大漲逾600點",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E6%BC%B2%E9%80%BE600%E9%BB%9E%E5%BE%8C%E5%9B%9E%E8%90%BD-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B245%E5%85%83-013216643.html",
-          "headline": "台股早盤漲逾600點後回落 台積電漲45元",
-          "lang": "zh"
-        }
-      ],
-      "rank": 7
-    },
-    {
       "id": "sd0bbd156",
       "section": "business_tech",
       "title": "日月光10月營收威風 業績連四月攻頂 先進封測躍集團投資重心",
@@ -3980,14 +3853,118 @@
           "lang": "zh"
         }
       ],
+      "rank": 7
+    },
+    {
+      "id": "s354ebf11",
+      "section": "business_tech",
+      "title": "藍天前三季每股盈餘4.09元,Q1將推RTX Spark新機攻AI,股淨比低於0.5",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "藍天(2362)第三季財報,單季合併營收57.6億元,年增5%,毛利率19%,較上季回升2個百分點,營益率5%,持平上季,稅後淨利為0.25億元。累計前三季合併營收172.3億元,年增13%,營業利益10億元,稅後淨利23.65億元,每股純益 4.09元,年增2.6倍,每股淨值增加至82.43元,目前股價僅約逾40元,股淨比低於0.5。藍天指出,筆電事業高附加價值策略奏效,前三季筆電營收逆勢衝149.3億元,年增15%;藍海機種近半貢獻保利抗震,明年首季將推出RTX Spark新機種,強化AI PC佈局。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E8%97%8D%E5%A4%A9%E5%89%8D%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%984-09%E5%85%83-q1%E5%B0%87%E6%8E%A8rtx-spark%E6%96%B0%E6%A9%9F%E6%94%BBai-%E8%82%A1%E6%B7%A8%E6%AF%94%E4%BD%8E%E6%96%BC0-024256807.html",
+      "publishedAt": "2026-11-11T10:42:56+08:00",
+      "imageUrl": null,
+      "imageCredit": null,
+      "score": 80,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 32,
+        "data": 20,
+        "durability": 2
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策"
+      ],
+      "core_facts": [
+        {
+          "text": "累計前三季合併營收172.3億元,年增13%,營業利益10億元,稅後淨利23.65億元,每股純益 4.09元,年增2.6倍,每股淨值增加至82.43元,目前股價僅約逾40元,股淨比低於0.5。",
+          "metric": "172.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "根據研調機構數據,第三季全球筆電市場受零組件成本上揚及需求波動影響,出貨量年減逾兩成,受大環境衝擊,藍天筆電事業第三季出貨26.1萬台,營收49.3億元,季減15%,ASP年增23%,加上匯率挹注,儘管出貨量較同期減少,第三季營收仍成長4%。",
+          "metric": "49.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "累計前三季筆電總出貨量為87.3萬台,年減20%,受惠ASP大幅拉升以及匯率有利因素,前三季累計營收貢獻149.3億元,年增15%。",
+          "metric": "149.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "藍天前三季每股盈餘4.09元,Q1將推RTX Spark新機攻AI,股淨比低於0.5",
+          "angle": "資本預算與財報配置",
+          "focus": "藍天(2362)第三季財報,單季合併營收57.6億元,年增5%,毛利率19%,較上季回升2個百分點,營益率5%,持平上季,稅後淨利為0.25億元。",
+          "excerpt": "藍天(2362)第三季財報,單季合併營收57.6億元,年增5%,毛利率19%,較上季回升2個百分點,營益率5%,持平上季,稅後淨利為0.25億元。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%97%8D%E5%A4%A9%E5%89%8D%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%984-09%E5%85%83-q1%E5%B0%87%E6%8E%A8rtx-spark%E6%96%B0%E6%A9%9F%E6%94%BBai-%E8%82%A1%E6%B7%A8%E6%AF%94%E4%BD%8E%E6%96%BC0-024256807.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "累計前三季合併營收172.3億元,年增13%,營業利益10億元,稅後淨利23.65億元,每股純益 4.09元,年增2.6倍,每股淨值增加至82.43元,目前股價僅約逾40元,股淨比低於0.5。",
+          "metric": "172.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "根據研調機構數據,第三季全球筆電市場受零組件成本上揚及需求波動影響,出貨量年減逾兩成,受大環境衝擊,藍天筆電事業第三季出貨26.1萬台,營收49.3億元,季減15%,ASP年增23%,加上匯率挹注,儘管出貨量較同期減少,第三季營收仍成長4%。",
+          "metric": "49.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "累計前三季筆電總出貨量為87.3萬台,年減20%,受惠ASP大幅拉升以及匯率有利因素,前三季累計營收貢獻149.3億元,年增15%。",
+          "metric": "149.3億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "藍天前三季每股盈餘4.09元,Q1將推RTX Spark新機攻AI,股淨比低於0.5",
+          "angle": "資本預算與財報配置",
+          "focus": "藍天(2362)第三季財報,單季合併營收57.6億元,年增5%,毛利率19%,較上季回升2個百分點,營益率5%,持平上季,稅後淨利為0.25億元。",
+          "excerpt": "藍天(2362)第三季財報,單季合併營收57.6億元,年增5%,毛利率19%,較上季回升2個百分點,營益率5%,持平上季,稅後淨利為0.25億元。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%97%8D%E5%A4%A9%E5%89%8D%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%984-09%E5%85%83-q1%E5%B0%87%E6%8E%A8rtx-spark%E6%96%B0%E6%A9%9F%E6%94%BBai-%E8%82%A1%E6%B7%A8%E6%AF%94%E4%BD%8E%E6%96%BC0-024256807.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E8%97%8D%E5%A4%A9%E5%89%8D%E4%B8%89%E5%AD%A3%E6%AF%8F%E8%82%A1%E7%9B%88%E9%A4%984-09%E5%85%83-q1%E5%B0%87%E6%8E%A8rtx-spark%E6%96%B0%E6%A9%9F%E6%94%BBai-%E8%82%A1%E6%B7%A8%E6%AF%94%E4%BD%8E%E6%96%BC0-024256807.html",
+          "headline": "藍天前三季每股盈餘4.09元,Q1將推RTX Spark新機攻AI,股淨比低於0.5",
+          "lang": "zh"
+        }
+      ],
       "rank": 8
     }
   ],
   "stats": {
-    "clusters": 289,
+    "clusters": 301,
     "passed": 8,
-    "below_threshold": 281,
-    "articlesAnalysed": 348
+    "below_threshold": 293,
+    "articlesAnalysed": 347
   },
   "sourcesStatus": [
     {
@@ -3996,7 +3973,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 52,
+      "count": 51,
       "error": null
     },
     {
@@ -4005,7 +3982,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 97,
+      "count": 92,
       "error": null
     },
     {
@@ -4014,7 +3991,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 96,
+      "count": 95,
       "error": null
     },
     {
