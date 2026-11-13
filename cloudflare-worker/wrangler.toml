@@ -1,6 +1,8 @@
 name = "news-dashboard-cron"
 main = "worker.js"
 compatibility_date = "2026-11-01"
+workers_dev = false
+preview_urls = false
 
 [vars]
 GITHUB_OWNER = "yikai02"
