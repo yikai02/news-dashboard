@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-13T15:10:53+08:00",
-  "updatedAt": "2026-11-13 15:10",
+  "generatedAt": "2026-11-13T15:36:51+08:00",
+  "updatedAt": "2026-11-13 15:36",
   "date": "2026-11-13",
   "weekday": "星期五",
   "dataMode": "live",
@@ -29,9 +29,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.121,
-        "change": 0.018,
-        "changePct": 0.35,
+        "value": 5.125,
+        "change": 0.022,
+        "changePct": 0.43,
         "asOf": "2026-11-13",
         "history": [
           4.986,
@@ -48,7 +48,7 @@
           4.983,
           5.0,
           5.103,
-          5.121
+          5.125
         ],
         "source": "CNBC Market Data"
       },
@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.081,
-        "change": -0.092,
-        "changePct": -0.09,
+        "value": 103.159,
+        "change": -0.014,
+        "changePct": -0.01,
         "asOf": "2026-11-13",
         "history": [
           101.81,
@@ -80,7 +80,7 @@
           101.653,
           102.231,
           102.908,
-          103.081
+          103.159
         ],
         "source": "CNBC Market Data"
       },
@@ -93,11 +93,12 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.88,
-        "change": 0.14,
-        "changePct": 0.16,
+        "value": 88.75,
+        "change": 0.01,
+        "changePct": 0.01,
         "asOf": "2026-11-13",
         "history": [
+          103.27,
           101.76,
           99.9,
           102.78,
@@ -111,8 +112,7 @@
           86.85,
           86.04,
           86.53,
-          88.74,
-          88.88
+          88.75
         ],
         "source": "CNBC Market Data"
       },
@@ -125,12 +125,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3906.7,
-        "change": 21.4,
-        "changePct": 0.55,
+        "value": 3899.4,
+        "change": 14.1,
+        "changePct": 0.36,
         "asOf": "2026-11-13",
         "history": [
-          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -144,7 +143,8 @@
           4114.5,
           4030.2,
           4000.5,
-          3906.7
+          3885.3,
+          3899.4
         ],
         "source": "CNBC Market Data"
       },
@@ -187,9 +187,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.121,
-        "change": 0.018,
-        "changePct": 0.35,
+        "value": 5.125,
+        "change": 0.022,
+        "changePct": 0.43,
         "asOf": "2026-11-13",
         "history": [
           4.986,
@@ -206,7 +206,7 @@
           4.983,
           5.0,
           5.103,
-          5.121
+          5.125
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.081,
-        "change": -0.092,
-        "changePct": -0.09,
+        "value": 103.159,
+        "change": -0.014,
+        "changePct": -0.01,
         "asOf": "2026-11-13",
         "history": [
           101.81,
@@ -238,7 +238,7 @@
           101.653,
           102.231,
           102.908,
-          103.081
+          103.159
         ],
         "source": "CNBC Market Data"
       },
@@ -251,11 +251,12 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.88,
-        "change": 0.14,
-        "changePct": 0.16,
+        "value": 88.75,
+        "change": 0.01,
+        "changePct": 0.01,
         "asOf": "2026-11-13",
         "history": [
+          103.27,
           101.76,
           99.9,
           102.78,
@@ -269,8 +270,7 @@
           86.85,
           86.04,
           86.53,
-          88.74,
-          88.88
+          88.75
         ],
         "source": "CNBC Market Data"
       },
@@ -283,12 +283,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3906.7,
-        "change": 21.4,
-        "changePct": 0.55,
+        "value": 3899.4,
+        "change": 14.1,
+        "changePct": 0.36,
         "asOf": "2026-11-13",
         "history": [
-          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -302,7 +301,8 @@
           4114.5,
           4030.2,
           4000.5,
-          3906.7
+          3885.3,
+          3899.4
         ],
         "source": "CNBC Market Data"
       },
@@ -737,7 +737,7 @@
             "value": 405.49,
             "change": -7.86,
             "changePct": -1.9,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               418.51,
               424.37,
@@ -769,7 +769,7 @@
             "value": 166.19,
             "change": -7.54,
             "changePct": -4.34,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               210.96,
               216.0,
@@ -801,7 +801,7 @@
             "value": 354.88,
             "change": -0.48,
             "changePct": -0.14,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               347.725,
               343.91,
@@ -833,7 +833,7 @@
             "value": 397.45,
             "change": 6.61,
             "changePct": 1.69,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               372.22,
               391.62,
@@ -995,7 +995,7 @@
             "value": 405.49,
             "change": -7.86,
             "changePct": -1.9,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               418.51,
               424.37,
@@ -1027,7 +1027,7 @@
             "value": 166.19,
             "change": -7.54,
             "changePct": -4.34,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               210.96,
               216.0,
@@ -1059,7 +1059,7 @@
             "value": 354.88,
             "change": -0.48,
             "changePct": -0.14,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               347.725,
               343.91,
@@ -1091,7 +1091,7 @@
             "value": 397.45,
             "change": 6.61,
             "changePct": 1.69,
-            "asOf": "2026-11-12",
+            "asOf": "2026-11-11",
             "history": [
               372.22,
               391.62,
@@ -1640,9 +1640,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 5.121,
-      "change": 0.018,
-      "changePct": 0.35,
+      "value": 5.125,
+      "change": 0.022,
+      "changePct": 0.43,
       "asOf": "2026-11-13",
       "history": [
         4.986,
@@ -1659,7 +1659,7 @@
         4.983,
         5.0,
         5.103,
-        5.121
+        5.125
       ],
       "source": "CNBC Market Data"
     },
@@ -1672,9 +1672,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.081,
-      "change": -0.092,
-      "changePct": -0.09,
+      "value": 103.159,
+      "change": -0.014,
+      "changePct": -0.01,
       "asOf": "2026-11-13",
       "history": [
         101.81,
@@ -1691,7 +1691,7 @@
         101.653,
         102.231,
         102.908,
-        103.081
+        103.159
       ],
       "source": "CNBC Market Data"
     },
@@ -1704,11 +1704,12 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 88.88,
-      "change": 0.14,
-      "changePct": 0.16,
+      "value": 88.75,
+      "change": 0.01,
+      "changePct": 0.01,
       "asOf": "2026-11-13",
       "history": [
+        103.27,
         101.76,
         99.9,
         102.78,
@@ -1722,8 +1723,7 @@
         86.85,
         86.04,
         86.53,
-        88.74,
-        88.88
+        88.75
       ],
       "source": "CNBC Market Data"
     },
@@ -1736,12 +1736,11 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3906.7,
-      "change": 21.4,
-      "changePct": 0.55,
+      "value": 3899.4,
+      "change": 14.1,
+      "changePct": 0.36,
       "asOf": "2026-11-13",
       "history": [
-        4007.9,
         4038.4,
         4074.6,
         4051.6,
@@ -1755,7 +1754,8 @@
         4114.5,
         4030.2,
         4000.5,
-        3906.7
+        3885.3,
+        3899.4
       ],
       "source": "CNBC Market Data"
     },
@@ -2190,7 +2190,7 @@
           "value": 405.49,
           "change": -7.86,
           "changePct": -1.9,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             418.51,
             424.37,
@@ -2222,7 +2222,7 @@
           "value": 166.19,
           "change": -7.54,
           "changePct": -4.34,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             210.96,
             216.0,
@@ -2254,7 +2254,7 @@
           "value": 354.88,
           "change": -0.48,
           "changePct": -0.14,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             347.725,
             343.91,
@@ -2286,7 +2286,7 @@
           "value": 397.45,
           "change": 6.61,
           "changePct": 1.69,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             372.22,
             391.62,
@@ -2448,7 +2448,7 @@
           "value": 405.49,
           "change": -7.86,
           "changePct": -1.9,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             418.51,
             424.37,
@@ -2480,7 +2480,7 @@
           "value": 166.19,
           "change": -7.54,
           "changePct": -4.34,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             210.96,
             216.0,
@@ -2512,7 +2512,7 @@
           "value": 354.88,
           "change": -0.48,
           "changePct": -0.14,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             347.725,
             343.91,
@@ -2544,7 +2544,7 @@
           "value": 397.45,
           "change": 6.61,
           "changePct": 1.69,
-          "asOf": "2026-11-12",
+          "asOf": "2026-11-11",
           "history": [
             372.22,
             391.62,
@@ -3082,138 +3082,10 @@
     }
   },
   "leadIds": [
-    "s41ba8689",
-    "s6b0579c0"
+    "s6b0579c0",
+    "sce5c69ff"
   ],
   "stories": [
-    {
-      "id": "s41ba8689",
-      "section": "deep",
-      "title": "黃仁勳去職,供應鏈:輝達技術路徑不變、Asic 發展加速",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。4 位半導體供應鏈人士今天分析,輝達既有高階技術藍圖路線進展不變,繪圖晶片(GPU)迭代速度也不會放緩,但特殊應用晶片(Asic)陣營可能趁機搶食大餅。",
-      "source": "TechNews 科技新報",
-      "url": "https://technews.tw/2026/11/13/jensen-huang-departs-supply-chain-nvidia-tech-roadmap-unchanged-asic-dev-accelerates/",
-      "publishedAt": "2026-11-13T12:30:51+08:00",
-      "imageUrl": "https://img.technews.tw/wp-content/uploads/2026/11/13122233/RC2EHLABN0YD.jpg",
-      "imageCredit": "TechNews 科技新報",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 32,
-        "impact": 32,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "core_facts": [
-        {
-          "text": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "4 位半導體供應鏈人士今天分析,輝達既有高階技術藍圖路線進展不變,繪圖晶片(GPU)迭代速度也不會放緩,但特殊應用晶片(Asic)陣營可能趁機搶食大餅。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "如今黃仁勳去留出現變數,外界關注是否衝擊台廠訂單及後續合作。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "TechNews 科技新報",
-          "headline": "黃仁勳去職,供應鏈:輝達技術路徑不變、Asic 發展加速",
-          "angle": "先進技術與算力規格",
-          "focus": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "excerpt": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "url": "https://technews.tw/2026/11/13/jensen-huang-departs-supply-chain-nvidia-tech-roadmap-unchanged-asic-dev-accelerates/",
-          "lang": "zh"
-        },
-        {
-          "media": "公視新聞網",
-          "headline": "輝達與台灣AI供應鏈合作密切 黃仁勳去留是否衝擊產業待觀察",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "由於輝達與台灣AI供應鏈合作密切,不但是台積電最大客戶,鴻海、廣達、緯創等大廠也都是AI基礎設施的合作夥伴。",
-          "excerpt": "由於輝達與台灣AI供應鏈合作密切,不但是台積電最大客戶,鴻海、廣達、緯創等大廠也都是AI基礎設施的合作夥伴。",
-          "url": "https://news.pts.org.tw/article/835512",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "4 位半導體供應鏈人士今天分析,輝達既有高階技術藍圖路線進展不變,繪圖晶片(GPU)迭代速度也不會放緩,但特殊應用晶片(Asic)陣營可能趁機搶食大餅。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "如今黃仁勳去留出現變數,外界關注是否衝擊台廠訂單及後續合作。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "TechNews 科技新報",
-          "headline": "黃仁勳去職,供應鏈:輝達技術路徑不變、Asic 發展加速",
-          "angle": "先進技術與算力規格",
-          "focus": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "excerpt": "黃仁勳辭去人工智慧AI晶片大廠輝達(Nvidia)執行長等職,引發全球科技業震撼。",
-          "url": "https://technews.tw/2026/11/13/jensen-huang-departs-supply-chain-nvidia-tech-roadmap-unchanged-asic-dev-accelerates/",
-          "lang": "zh"
-        },
-        {
-          "media": "公視新聞網",
-          "headline": "輝達與台灣AI供應鏈合作密切 黃仁勳去留是否衝擊產業待觀察",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "由於輝達與台灣AI供應鏈合作密切,不但是台積電最大客戶,鴻海、廣達、緯創等大廠也都是AI基礎設施的合作夥伴。",
-          "excerpt": "由於輝達與台灣AI供應鏈合作密切,不但是台積電最大客戶,鴻海、廣達、緯創等大廠也都是AI基礎設施的合作夥伴。",
-          "url": "https://news.pts.org.tw/article/835512",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/13/jensen-huang-departs-supply-chain-nvidia-tech-roadmap-unchanged-asic-dev-accelerates/",
-          "headline": "黃仁勳去職,供應鏈:輝達技術路徑不變、Asic 發展加速",
-          "lang": "zh"
-        },
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835512",
-          "headline": "輝達與台灣AI供應鏈合作密切 黃仁勳去留是否衝擊產業待觀察",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
     {
       "id": "s6b0579c0",
       "section": "deep",
@@ -3316,115 +3188,84 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 1
     },
     {
-      "id": "secc162f3",
+      "id": "sce5c69ff",
       "section": "deep",
-      "title": "部分員工個資疑外流 台積電:無證據顯示系統遭入侵",
+      "title": "盼育兒留停津貼加發2成入法 勞動部改附帶決議達成共識",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
+      "summary": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。至於育兒留職停薪津貼,現行給付標準8成薪,6成已入法、2成政府額外加發,民眾黨團原先堅持2成也要入法,但勞動部建議改用附帶決議處理,朝野達成共識。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835511",
-      "publishedAt": "2026-11-12T20:33:53+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301550/conversions/ayE7QsJ0IAfEW9GDV8G6DALdQ2eFetp1G7HnTlPN-og_jpg.jpg",
+      "url": "https://news.pts.org.tw/article/835578",
+      "publishedAt": "2026-11-13T15:27:54+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301615/conversions/YoP0Qg84MjYqb9uF524cUnT1YCSqkLZCVI3YrVBX-og_jpg.jpg",
       "imageCredit": "公視新聞網",
-      "score": 85,
+      "score": 86,
       "scoreBreakdown": {
-        "resonance": 32,
-        "impact": 28,
-        "data": 15,
+        "resonance": 30,
+        "impact": 32,
+        "data": 14,
         "durability": 10
       },
-      "mediaCount": 2,
+      "mediaCount": 1,
       "impactCategories": [
-        "技術與算力突破"
+        "利率與法規政策",
+        "公共治理與結構轉型"
       ],
       "core_facts": [
         {
-          "text": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形,正與相關雲端服務供應商及調查機關密切合作,以釐清狀況並採取必要措施。",
-          "metric": "4.6萬",
-          "confirmed_by": [
-            "iThome 電腦報"
-          ]
-        },
-        {
-          "text": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "metric": "10萬",
+          "text": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "metric": "5000元",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "我們將適時提供後續更新。",
+          "text": "至於育兒留職停薪津貼,現行給付標準8成薪,6成已入法、2成政府額外加發,民眾黨團原先堅持2成也要入法,但勞動部建議改用附帶決議處理,朝野達成共識。",
           "metric": "",
           "confirmed_by": [
-            "iThome 電腦報"
+            "公視新聞網"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "部分員工個資疑外流 台積電:無證據顯示系統遭入侵",
-          "angle": "產業動態與市場焦點",
-          "focus": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "excerpt": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "url": "https://news.pts.org.tw/article/835511",
-          "lang": "zh"
-        },
-        {
-          "media": "iThome 電腦報",
-          "headline": "地下論壇有人聲稱兜售4.6萬筆台積電員工紀錄,台積電回應無證據顯示公司系統遭入侵",
-          "angle": "深度調查與結構剖析",
-          "focus": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形…",
-          "excerpt": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形…",
-          "url": "https://www.ithome.com.tw/news/180450",
+          "headline": "盼育兒留停津貼加發2成入法 勞動部改附帶決議達成共識",
+          "angle": "政策法規與公共治理",
+          "focus": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "excerpt": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "url": "https://news.pts.org.tw/article/835578",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形,正與相關雲端服務供應商及調查機關密切合作,以釐清狀況並採取必要措施。",
-          "metric": "4.6萬",
-          "confirmed_by": [
-            "iThome 電腦報"
-          ]
-        },
-        {
-          "text": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "metric": "10萬",
+          "text": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "metric": "5000元",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "我們將適時提供後續更新。",
+          "text": "至於育兒留職停薪津貼,現行給付標準8成薪,6成已入法、2成政府額外加發,民眾黨團原先堅持2成也要入法,但勞動部建議改用附帶決議處理,朝野達成共識。",
           "metric": "",
           "confirmed_by": [
-            "iThome 電腦報"
+            "公視新聞網"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "部分員工個資疑外流 台積電:無證據顯示系統遭入侵",
-          "angle": "產業動態與市場焦點",
-          "focus": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "excerpt": "近期駭客網路攻擊猖獗,外交部領事事務局部分網站疑似被駭客入侵,將近10萬筆民眾個資遭到非法讀取外洩,包含護照大頭照、授權書等資料,領務局則表示,正在釐清原因,除了接連有政府機構發生資安問題,連台積電也被爆出員工個資疑似被流入暗網,台積電表示,目前還沒有證據顯示公司系統遭到入侵。",
-          "url": "https://news.pts.org.tw/article/835511",
-          "lang": "zh"
-        },
-        {
-          "media": "iThome 電腦報",
-          "headline": "地下論壇有人聲稱兜售4.6萬筆台積電員工紀錄,台積電回應無證據顯示公司系統遭入侵",
-          "angle": "深度調查與結構剖析",
-          "focus": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形…",
-          "excerpt": "今日有新聞媒體報導,有人在地下論壇DarkForums與BreachForums聲稱取得4.6萬筆台積電員工紀錄,資料量為6.9GB,當中包含個資,對方開價3個比特幣兜售(約合新台幣726萬元),揚言一週內沒人買就公開全部資料,對此台積電的回應是:「已掌握此情形…",
-          "url": "https://www.ithome.com.tw/news/180450",
+          "headline": "盼育兒留停津貼加發2成入法 勞動部改附帶決議達成共識",
+          "angle": "政策法規與公共治理",
+          "focus": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "excerpt": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。",
+          "url": "https://news.pts.org.tw/article/835578",
           "lang": "zh"
         }
       ],
@@ -3432,18 +3273,12 @@
       "sources": [
         {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835511",
-          "headline": "部分員工個資疑外流 台積電:無證據顯示系統遭入侵",
-          "lang": "zh"
-        },
-        {
-          "media": "iThome 電腦報",
-          "url": "https://www.ithome.com.tw/news/180450",
-          "headline": "地下論壇有人聲稱兜售4.6萬筆台積電員工紀錄,台積電回應無證據顯示公司系統遭入侵",
+          "url": "https://news.pts.org.tw/article/835578",
+          "headline": "盼育兒留停津貼加發2成入法 勞動部改附帶決議達成共識",
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "id": "s85a40546",
@@ -3454,7 +3289,7 @@
       "summary": "美股四大指數全面收黑,台股今(13)日卻「逆勢大反攻」!早盤一度大漲超過千點,站上4萬4000點大關,新台幣也由貶轉升,上演股匯雙漲。黃仁勳閃電卸任輝達執行長,是否成為全球AI產業黑天鵝?專家分析,台灣AI供應鏈短期訂單不受影響,但長期可能面臨成長放緩及股價估值修正壓力。而美國科技巨頭如果縮減AI資本支出,恐怕是台灣真正的隱憂。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835580",
-      "publishedAt": "2026-11-13T13:20:11+08:00",
+      "publishedAt": "2026-11-13T15:29:10+08:00",
       "imageUrl": "https://s.yimg.com/lo/mysterio/api/41273cee603eca7bdda1f73f22cfc3b1a91cc65cac3f1cb72ed90c68eb1c9013/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_pts_org_tw_599%2Fcf8c0642f4d8b07961d37e86352eb413",
       "imageCredit": "工商時報 (Yahoo 聯播)",
       "score": 84,
@@ -3573,7 +3408,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "s2ce8a409",
@@ -3662,18 +3497,18 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 4
     },
     {
-      "id": "s4726c551",
+      "id": "s238605f1",
       "section": "deep",
-      "title": "壽山動物園新成員「小虎」亮相 園方成功復育瀕危孟加拉虎",
+      "title": "成功復育瀕危孟加拉虎 壽山動物園新成員「小虎」亮相",
       "titleOriginal": null,
       "lang": "zh",
       "summary": "瀕危物種「孟加拉虎」目前全球野外族群不到4000隻,高雄壽山動物園有3隻成虎,去(2025)年底成功復育、產下新成員「小虎」。園方表示,這是動物園搬到壽山20幾年來,第一次迎接孟加拉虎出生,初期幾乎24小時掌握小虎生長情況,近一年多細心照護,小虎健康茁壯,昨(12)日起在園區正式亮相,因牠個性好奇、活動力也不小,初期都只安排半天展出,以免讓牠太過疲累。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835563",
-      "publishedAt": "2026-11-13T14:08:03+08:00",
+      "publishedAt": "2026-11-13T14:58:34+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/301611/conversions/xtv9QCs0iYyTgOHiTb2HuAfwZX18s5q4ZXhud4tn-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
@@ -3706,7 +3541,7 @@
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "壽山動物園新成員「小虎」亮相 園方成功復育瀕危孟加拉虎",
+          "headline": "成功復育瀕危孟加拉虎 壽山動物園新成員「小虎」亮相",
           "angle": "產業動態與市場焦點",
           "focus": "瀕危物種「孟加拉虎」目前全球野外族群不到4000隻,高雄壽山動物園有3隻成虎,去(2025)年底成功復育、產下新成員「小虎」。",
           "excerpt": "瀕危物種「孟加拉虎」目前全球野外族群不到4000隻,高雄壽山動物園有3隻成虎,去(2025)年底成功復育、產下新成員「小虎」。",
@@ -3734,7 +3569,7 @@
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "壽山動物園新成員「小虎」亮相 園方成功復育瀕危孟加拉虎",
+          "headline": "成功復育瀕危孟加拉虎 壽山動物園新成員「小虎」亮相",
           "angle": "產業動態與市場焦點",
           "focus": "瀕危物種「孟加拉虎」目前全球野外族群不到4000隻,高雄壽山動物園有3隻成虎,去(2025)年底成功復育、產下新成員「小虎」。",
           "excerpt": "瀕危物種「孟加拉虎」目前全球野外族群不到4000隻,高雄壽山動物園有3隻成虎,去(2025)年底成功復育、產下新成員「小虎」。",
@@ -3747,23 +3582,23 @@
         {
           "media": "公視新聞網",
           "url": "https://news.pts.org.tw/article/835563",
-          "headline": "壽山動物園新成員「小虎」亮相 園方成功復育瀕危孟加拉虎",
+          "headline": "成功復育瀕危孟加拉虎 壽山動物園新成員「小虎」亮相",
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 5
     },
     {
-      "id": "sc163de63",
+      "id": "se7a62ce5",
       "section": "deep",
-      "title": "日本企業持續遭駭客攻擊 無印良品洩逾2千萬筆個資",
+      "title": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
+      "summary": "AI如何融入教育才能幫助學生思考,而非取代思考?台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。專家指出,教師可以適時引導讓AI退場,讓學生自主探索。教育部也將推動AI學習平台,協助教師掌握學習歷程,培養學生持續思考與創新的能力。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835509",
-      "publishedAt": "2026-11-12T20:24:39+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301557/conversions/a0YoKdRtjc92Cf9u0lr0SRZyAkTfgnNvjIeoW462-og_jpg.jpg",
+      "url": "https://news.pts.org.tw/article/835572",
+      "publishedAt": "2026-11-13T15:30:10+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301620/conversions/eTAaMpDAUysObaQQX8pP1xCUWj3VyWRfYBMqK3pr-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
       "scoreBreakdown": {
@@ -3774,12 +3609,26 @@
       },
       "mediaCount": 1,
       "impactCategories": [
-        "技術與算力突破"
+        "公共治理與結構轉型"
       ],
       "core_facts": [
         {
-          "text": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "metric": "2726萬",
+          "text": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "專家指出,教師可以適時引導讓AI退場,讓學生自主探索。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。",
+          "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
@@ -3788,19 +3637,33 @@
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "日本企業持續遭駭客攻擊 無印良品洩逾2千萬筆個資",
+          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
           "angle": "產業動態與市場焦點",
-          "focus": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "excerpt": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "url": "https://news.pts.org.tw/article/835509",
+          "focus": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "excerpt": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "url": "https://news.pts.org.tw/article/835572",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "metric": "2726萬",
+          "text": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "專家指出,教師可以適時引導讓AI退場,讓學生自主探索。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。",
+          "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
@@ -3809,11 +3672,11 @@
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "日本企業持續遭駭客攻擊 無印良品洩逾2千萬筆個資",
+          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
           "angle": "產業動態與市場焦點",
-          "focus": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "excerpt": "日本有多家企業,也持續遭到駭客攻擊,台灣人熟悉的「無印良品」,日本營運公司「良品計劃」的官方APP和網路商店,就發生重大資安與不當存取事件,有超過2726萬筆顧客資料被洩漏,其中「Muji Card」信用卡資料,也有大約109萬筆會員資料、完整信用卡號外洩,公司高層今(12)日出面道歉。",
-          "url": "https://news.pts.org.tw/article/835509",
+          "focus": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "excerpt": "AI如何融入教育才能幫助學生思考,而非取代思考?",
+          "url": "https://news.pts.org.tw/article/835572",
           "lang": "zh"
         }
       ],
@@ -3821,12 +3684,12 @@
       "sources": [
         {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835509",
-          "headline": "日本企業持續遭駭客攻擊 無印良品洩逾2千萬筆個資",
+          "url": "https://news.pts.org.tw/article/835572",
+          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "s6c0bbdca",
@@ -3903,7 +3766,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "s9f204087",
@@ -4007,7 +3870,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "scbc70d3c",
@@ -4083,7 +3946,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "id": "sbc88d5b6",
@@ -4159,14 +4022,14 @@
           "lang": "zh"
         }
       ],
-      "rank": 11
+      "rank": 10
     }
   ],
   "stats": {
-    "clusters": 287,
-    "passed": 11,
-    "below_threshold": 276,
-    "articlesAnalysed": 329
+    "clusters": 283,
+    "passed": 10,
+    "below_threshold": 273,
+    "articlesAnalysed": 323
   },
   "sourcesStatus": [
     {
@@ -4175,7 +4038,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 54,
+      "count": 53,
       "error": null
     },
     {
@@ -4184,7 +4047,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 74,
+      "count": 69,
       "error": null
     },
     {
@@ -4193,7 +4056,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 96,
+      "count": 97,
       "error": null
     },
     {
@@ -4211,7 +4074,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
@@ -4238,7 +4101,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 19,
+      "count": 18,
       "error": null
     }
   ]
