@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-13T15:39:11+08:00",
-  "updatedAt": "2026-11-13 15:39",
+  "generatedAt": "2026-11-13T15:40:27+08:00",
+  "updatedAt": "2026-11-13 15:40",
   "date": "2026-11-13",
   "weekday": "星期五",
   "dataMode": "live",
@@ -29,9 +29,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.125,
-        "change": 0.022,
-        "changePct": 0.43,
+        "value": 5.123,
+        "change": 0.02,
+        "changePct": 0.39,
         "asOf": "2026-11-13",
         "history": [
           4.986,
@@ -48,7 +48,7 @@
           4.983,
           5.0,
           5.103,
-          5.125
+          5.123
         ],
         "source": "CNBC Market Data"
       },
@@ -61,12 +61,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.145,
-        "change": -0.028,
-        "changePct": -0.03,
+        "value": 103.132,
+        "change": -0.041,
+        "changePct": -0.04,
         "asOf": "2026-11-13",
         "history": [
-          101.81,
           101.959,
           102.319,
           102.194,
@@ -80,7 +79,8 @@
           101.653,
           102.231,
           102.908,
-          103.145
+          103.173,
+          103.132
         ],
         "source": "CNBC Market Data"
       },
@@ -93,12 +93,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.6,
-        "change": -0.14,
-        "changePct": -0.16,
+        "value": 88.65,
+        "change": -0.09,
+        "changePct": -0.1,
         "asOf": "2026-11-13",
         "history": [
-          103.27,
           101.76,
           99.9,
           102.78,
@@ -112,7 +111,8 @@
           86.85,
           86.04,
           86.53,
-          88.6
+          88.74,
+          88.65
         ],
         "source": "CNBC Market Data"
       },
@@ -125,12 +125,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3899.0,
-        "change": 13.7,
-        "changePct": 0.35,
+        "value": 3898.6,
+        "change": 13.3,
+        "changePct": 0.34,
         "asOf": "2026-11-13",
         "history": [
-          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -144,7 +143,8 @@
           4114.5,
           4030.2,
           4000.5,
-          3899.0
+          3885.3,
+          3898.6
         ],
         "source": "CNBC Market Data"
       },
@@ -187,9 +187,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.125,
-        "change": 0.022,
-        "changePct": 0.43,
+        "value": 5.123,
+        "change": 0.02,
+        "changePct": 0.39,
         "asOf": "2026-11-13",
         "history": [
           4.986,
@@ -206,7 +206,7 @@
           4.983,
           5.0,
           5.103,
-          5.125
+          5.123
         ],
         "source": "CNBC Market Data"
       },
@@ -219,12 +219,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.145,
-        "change": -0.028,
-        "changePct": -0.03,
+        "value": 103.132,
+        "change": -0.041,
+        "changePct": -0.04,
         "asOf": "2026-11-13",
         "history": [
-          101.81,
           101.959,
           102.319,
           102.194,
@@ -238,7 +237,8 @@
           101.653,
           102.231,
           102.908,
-          103.145
+          103.173,
+          103.132
         ],
         "source": "CNBC Market Data"
       },
@@ -251,12 +251,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.6,
-        "change": -0.14,
-        "changePct": -0.16,
+        "value": 88.65,
+        "change": -0.09,
+        "changePct": -0.1,
         "asOf": "2026-11-13",
         "history": [
-          103.27,
           101.76,
           99.9,
           102.78,
@@ -270,7 +269,8 @@
           86.85,
           86.04,
           86.53,
-          88.6
+          88.74,
+          88.65
         ],
         "source": "CNBC Market Data"
       },
@@ -283,12 +283,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3899.0,
-        "change": 13.7,
-        "changePct": 0.35,
+        "value": 3898.6,
+        "change": 13.3,
+        "changePct": 0.34,
         "asOf": "2026-11-13",
         "history": [
-          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -302,7 +301,8 @@
           4114.5,
           4030.2,
           4000.5,
-          3899.0
+          3885.3,
+          3898.6
         ],
         "source": "CNBC Market Data"
       },
@@ -1640,9 +1640,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 5.125,
-      "change": 0.022,
-      "changePct": 0.43,
+      "value": 5.123,
+      "change": 0.02,
+      "changePct": 0.39,
       "asOf": "2026-11-13",
       "history": [
         4.986,
@@ -1659,7 +1659,7 @@
         4.983,
         5.0,
         5.103,
-        5.125
+        5.123
       ],
       "source": "CNBC Market Data"
     },
@@ -1672,12 +1672,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.145,
-      "change": -0.028,
-      "changePct": -0.03,
+      "value": 103.132,
+      "change": -0.041,
+      "changePct": -0.04,
       "asOf": "2026-11-13",
       "history": [
-        101.81,
         101.959,
         102.319,
         102.194,
@@ -1691,7 +1690,8 @@
         101.653,
         102.231,
         102.908,
-        103.145
+        103.173,
+        103.132
       ],
       "source": "CNBC Market Data"
     },
@@ -1704,12 +1704,11 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 88.6,
-      "change": -0.14,
-      "changePct": -0.16,
+      "value": 88.65,
+      "change": -0.09,
+      "changePct": -0.1,
       "asOf": "2026-11-13",
       "history": [
-        103.27,
         101.76,
         99.9,
         102.78,
@@ -1723,7 +1722,8 @@
         86.85,
         86.04,
         86.53,
-        88.6
+        88.74,
+        88.65
       ],
       "source": "CNBC Market Data"
     },
@@ -1736,12 +1736,11 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3899.0,
-      "change": 13.7,
-      "changePct": 0.35,
+      "value": 3898.6,
+      "change": 13.3,
+      "changePct": 0.34,
       "asOf": "2026-11-13",
       "history": [
-        4007.9,
         4038.4,
         4074.6,
         4051.6,
@@ -1755,7 +1754,8 @@
         4114.5,
         4030.2,
         4000.5,
-        3899.0
+        3885.3,
+        3898.6
       ],
       "source": "CNBC Market Data"
     },
@@ -3770,82 +3770,6 @@
       "rank": 7
     },
     {
-      "id": "scbc70d3c",
-      "section": "business_tech",
-      "title": "耀勝Q3毛利率較上季增加、達22% 營運有望迎來華麗轉身",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9876525",
-      "publishedAt": "2026-11-13T12:27:04+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/13/35514504.jpg&M=1&s=Y&x=0&y=0&sw=1039&sh=693&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 80,
-      "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 32,
-        "data": 20,
-        "durability": 2
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "metric": "12.28億元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "耀勝Q3毛利率較上季增加、達22% 營運有望迎來華麗轉身",
-          "angle": "資本預算與財報配置",
-          "focus": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "excerpt": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "url": "https://money.udn.com/money/story/5612/9876525",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "metric": "12.28億元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "耀勝Q3毛利率較上季增加、達22% 營運有望迎來華麗轉身",
-          "angle": "資本預算與財報配置",
-          "focus": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "excerpt": "耀勝公布第3季財報,第3季合併營收達4.04億元,季增2.15%,歸屬母公司業主淨損為5112萬元,單季每股損失(每股純益)0.77元;累計前三季合併營收12.28億元,歸屬母公司稅後淨損1.23億元,每股虧損1.86元。",
-          "url": "https://money.udn.com/money/story/5612/9876525",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9876525",
-          "headline": "耀勝Q3毛利率較上季增加、達22% 營運有望迎來華麗轉身",
-          "lang": "zh"
-        }
-      ],
-      "rank": 8
-    },
-    {
       "id": "sbc88d5b6",
       "section": "business_tech",
       "title": "鴻海、廣達、和碩…同為AI伺服器代工它卻重挫 法人上修獲利不調目標價:風險在資料中心",
@@ -3919,13 +3843,13 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 8
     }
   ],
   "stats": {
-    "clusters": 281,
-    "passed": 9,
-    "below_threshold": 272,
+    "clusters": 282,
+    "passed": 8,
+    "below_threshold": 274,
     "articlesAnalysed": 322
   },
   "sourcesStatus": [
