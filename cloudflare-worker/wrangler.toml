@@ -1,0 +1,13 @@
+name = "news-dashboard-cron"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+GITHUB_OWNER = "yikai02"
+GITHUB_REPO = "news-dashboard"
+WORKFLOW_FILE = "update_and_deploy.yml"
+
+[triggers]
+# 台灣時間 (UTC+8) 07:30 晨報 = UTC 23:30
+# 台灣時間 (UTC+8) 16:00 晚報 = UTC 08:00
+crons = ["30 23 * * *", "0 8 * * *"]

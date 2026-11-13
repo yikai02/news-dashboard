@@ -2,11 +2,13 @@ name: 每日新聞抓取與 GitHub Pages 自動部署
 
 on:
   schedule:
-    # GitHub Actions 排程採用 UTC 時間：
-    # UTC 23:30 -> 台灣時間 (UTC+8) 07:30 晨報版
-    - cron: '30 23 * * *'
-    # UTC 08:00 -> 台灣時間 (UTC+8) 16:00 晚報版
-    - cron: '0 8 * * *'
+    # GitHub Actions 免費 schedule 在整點/半點極易排隊延遲數小時；
+    # 準點 07:30 與 16:00 改由外部排程器打 workflow_dispatch API 觸發（< 1 分鐘完成），
+    # 以下保留離峰時段作為自動補跑備援（若當日該報別已更新過則自動略過）：
+    # UTC 00:23 -> 台灣時間 (UTC+8) 08:23 晨報備援
+    - cron: '23 0 * * *'
+    # UTC 08:47 -> 台灣時間 (UTC+8) 16:47 晚報備援
+    - cron: '47 8 * * *'
   workflow_dispatch:
     inputs:
       edition:
@@ -40,24 +42,67 @@ jobs:
   update-and-build:
     name: 抓取新聞並構建靜態網站
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.guard.outputs.should_run }}
+      edition_label: ${{ steps.guard.outputs.edition_label }}
     steps:
       - name: 簽出專案原始碼
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      - name: 檢查是否需要執行更新（防重複備援機制）
+        id: guard
+        env:
+          TZ: 'Asia/Taipei'
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          INPUT_EDITION: ${{ github.event.inputs.edition || 'auto' }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          event = os.environ.get("GITHUB_EVENT_NAME", "")
+          inp = os.environ.get("INPUT_EDITION", "auto")
+          now = datetime.now(ZoneInfo("Asia/Taipei"))
+          today = now.strftime("%Y-%m-%d")
+          ed = inp if inp in ("morning", "evening") else ("morning" if 5 <= now.hour < 13 else "evening")
+          ed_label = "晨報版 07:30" if ed == "morning" else "晚報版 16:00"
+
+          should_run = True
+          if event == "schedule":
+              target = f"public/daily_news_{ed}.json"
+              if os.path.exists(target):
+                  try:
+                      data = json.load(open(target, encoding="utf-8"))
+                      updated = str(data.get("updatedAt", ""))
+                      if updated.startswith(today):
+                          should_run = False
+                          print(f"::notice::今日 {today} {ed_label} 已於 {updated} 更新完成，離峰備援排程自動略過。")
+                  except Exception:
+                      should_run = True
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"should_run={'true' if should_run else 'false'}\n")
+              f.write(f"edition_label={ed_label}\n")
+          PY
+
       - name: 設定 Python 3.11 環境
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
       - name: 安裝相依套件
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: 執行新聞抓取、重要性評分與 HTML 同步渲染
+        if: steps.guard.outputs.should_run == 'true'
         env:
           TZ: 'Asia/Taipei'
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -66,6 +111,7 @@ jobs:
           python scripts/fetch_news.py --edition "$EDITION"
 
       - name: 將最新資料與靜態頁面 Commit 並 Push 回儲存庫
+        if: steps.guard.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -78,15 +124,18 @@ jobs:
           fi
 
       - name: 配置 GitHub Pages
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/configure-pages@v5
 
       - name: 上傳 Pages 構件 (public/ 資料夾)
+        if: steps.guard.outputs.should_run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'public'
 
   deploy:
     name: 部署至 GitHub Pages
+    if: needs.update-and-build.outputs.should_deploy == 'true'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -100,11 +149,15 @@ jobs:
       - name: 發送 ntfy 推播通知
         if: success()
         continue-on-error: true
+        env:
+          TZ: 'Asia/Taipei'
+          EDITION_LABEL: ${{ needs.update-and-build.outputs.edition_label }}
         run: |
+          DEPLOY_TIME=$(date '+%H:%M')
           curl -4 -fsS --retry 2 --max-time 10 \
             -H "Title: Dashboard Updated" \
             -H "Priority: default" \
             -H "Tags: white_check_mark,newspaper" \
             -H "Click: https://yikai02.github.io/news-dashboard/" \
-            -d "新聞儀表板已自動抓取更新並部署完畢，點擊直接查看最新頭條！" \
+            -d "新聞儀表板（${EDITION_LABEL}，${DEPLOY_TIME}）已更新並部署完畢，點擊直接查看最新頭條！" \
             "https://ntfy.sh/kyle-anti-0910"
