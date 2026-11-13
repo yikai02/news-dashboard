@@ -120,7 +120,9 @@ jobs:
             echo "無新增變更，跳過 Commit"
           else
             git commit -m "chore(data): auto update daily news and index [skip ci]"
-            git push origin main
+            git fetch origin main
+            git rebase -X theirs origin/main
+            git push origin HEAD:main
           fi
 
       - name: 配置 GitHub Pages
