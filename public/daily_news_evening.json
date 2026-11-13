@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-13T15:36:51+08:00",
-  "updatedAt": "2026-11-13 15:36",
+  "generatedAt": "2026-11-13T15:39:11+08:00",
+  "updatedAt": "2026-11-13 15:39",
   "date": "2026-11-13",
   "weekday": "星期五",
   "dataMode": "live",
@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.159,
-        "change": -0.014,
-        "changePct": -0.01,
+        "value": 103.145,
+        "change": -0.028,
+        "changePct": -0.03,
         "asOf": "2026-11-13",
         "history": [
           101.81,
@@ -80,7 +80,7 @@
           101.653,
           102.231,
           102.908,
-          103.159
+          103.145
         ],
         "source": "CNBC Market Data"
       },
@@ -93,9 +93,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.75,
-        "change": 0.01,
-        "changePct": 0.01,
+        "value": 88.6,
+        "change": -0.14,
+        "changePct": -0.16,
         "asOf": "2026-11-13",
         "history": [
           103.27,
@@ -112,7 +112,7 @@
           86.85,
           86.04,
           86.53,
-          88.75
+          88.6
         ],
         "source": "CNBC Market Data"
       },
@@ -125,11 +125,12 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3899.4,
-        "change": 14.1,
-        "changePct": 0.36,
+        "value": 3899.0,
+        "change": 13.7,
+        "changePct": 0.35,
         "asOf": "2026-11-13",
         "history": [
+          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -143,8 +144,7 @@
           4114.5,
           4030.2,
           4000.5,
-          3885.3,
-          3899.4
+          3899.0
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.159,
-        "change": -0.014,
-        "changePct": -0.01,
+        "value": 103.145,
+        "change": -0.028,
+        "changePct": -0.03,
         "asOf": "2026-11-13",
         "history": [
           101.81,
@@ -238,7 +238,7 @@
           101.653,
           102.231,
           102.908,
-          103.159
+          103.145
         ],
         "source": "CNBC Market Data"
       },
@@ -251,9 +251,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 88.75,
-        "change": 0.01,
-        "changePct": 0.01,
+        "value": 88.6,
+        "change": -0.14,
+        "changePct": -0.16,
         "asOf": "2026-11-13",
         "history": [
           103.27,
@@ -270,7 +270,7 @@
           86.85,
           86.04,
           86.53,
-          88.75
+          88.6
         ],
         "source": "CNBC Market Data"
       },
@@ -283,11 +283,12 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3899.4,
-        "change": 14.1,
-        "changePct": 0.36,
+        "value": 3899.0,
+        "change": 13.7,
+        "changePct": 0.35,
         "asOf": "2026-11-13",
         "history": [
+          4007.9,
           4038.4,
           4074.6,
           4051.6,
@@ -301,8 +302,7 @@
           4114.5,
           4030.2,
           4000.5,
-          3885.3,
-          3899.4
+          3899.0
         ],
         "source": "CNBC Market Data"
       },
@@ -1672,9 +1672,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.159,
-      "change": -0.014,
-      "changePct": -0.01,
+      "value": 103.145,
+      "change": -0.028,
+      "changePct": -0.03,
       "asOf": "2026-11-13",
       "history": [
         101.81,
@@ -1691,7 +1691,7 @@
         101.653,
         102.231,
         102.908,
-        103.159
+        103.145
       ],
       "source": "CNBC Market Data"
     },
@@ -1704,9 +1704,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 88.75,
-      "change": 0.01,
-      "changePct": 0.01,
+      "value": 88.6,
+      "change": -0.14,
+      "changePct": -0.16,
       "asOf": "2026-11-13",
       "history": [
         103.27,
@@ -1723,7 +1723,7 @@
         86.85,
         86.04,
         86.53,
-        88.75
+        88.6
       ],
       "source": "CNBC Market Data"
     },
@@ -1736,11 +1736,12 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3899.4,
-      "change": 14.1,
-      "changePct": 0.36,
+      "value": 3899.0,
+      "change": 13.7,
+      "changePct": 0.35,
       "asOf": "2026-11-13",
       "history": [
+        4007.9,
         4038.4,
         4074.6,
         4051.6,
@@ -1754,8 +1755,7 @@
         4114.5,
         4030.2,
         4000.5,
-        3885.3,
-        3899.4
+        3899.0
       ],
       "source": "CNBC Market Data"
     },
@@ -3199,7 +3199,7 @@
       "summary": "立法院力拚多項民生法案闖關,立法院長韓國瑜今(13)日上午先召開朝野協商,其中國民 年金給付金額修法,政院版提高到5000元,藍白要加碼到6000元,但民進黨團主張再協商,韓國瑜最終裁示各黨團再溝通。至於育兒留職停薪津貼,現行給付標準8成薪,6成已入法、2成政府額外加發,民眾黨團原先堅持2成也要入法,但勞動部建議改用附帶決議處理,朝野達成共識。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835578",
-      "publishedAt": "2026-11-13T15:27:54+08:00",
+      "publishedAt": "2026-11-13T14:36:13+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/301615/conversions/YoP0Qg84MjYqb9uF524cUnT1YCSqkLZCVI3YrVBX-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 86,
@@ -3289,7 +3289,7 @@
       "summary": "美股四大指數全面收黑,台股今(13)日卻「逆勢大反攻」!早盤一度大漲超過千點,站上4萬4000點大關,新台幣也由貶轉升,上演股匯雙漲。黃仁勳閃電卸任輝達執行長,是否成為全球AI產業黑天鵝?專家分析,台灣AI供應鏈短期訂單不受影響,但長期可能面臨成長放緩及股價估值修正壓力。而美國科技巨頭如果縮減AI資本支出,恐怕是台灣真正的隱憂。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835580",
-      "publishedAt": "2026-11-13T15:29:10+08:00",
+      "publishedAt": "2026-11-13T13:20:11+08:00",
       "imageUrl": "https://s.yimg.com/lo/mysterio/api/41273cee603eca7bdda1f73f22cfc3b1a91cc65cac3f1cb72ed90c68eb1c9013/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_pts_org_tw_599%2Fcf8c0642f4d8b07961d37e86352eb413",
       "imageCredit": "工商時報 (Yahoo 聯播)",
       "score": 84,
@@ -3589,109 +3589,6 @@
       "rank": 5
     },
     {
-      "id": "se7a62ce5",
-      "section": "deep",
-      "title": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "AI如何融入教育才能幫助學生思考,而非取代思考?台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。專家指出,教師可以適時引導讓AI退場,讓學生自主探索。教育部也將推動AI學習平台,協助教師掌握學習歷程,培養學生持續思考與創新的能力。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835572",
-      "publishedAt": "2026-11-13T15:30:10+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301620/conversions/eTAaMpDAUysObaQQX8pP1xCUWj3VyWRfYBMqK3pr-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "公共治理與結構轉型"
-      ],
-      "core_facts": [
-        {
-          "text": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "專家指出,教師可以適時引導讓AI退場,讓學生自主探索。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
-          "angle": "產業動態與市場焦點",
-          "focus": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "excerpt": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "url": "https://news.pts.org.tw/article/835572",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "專家指出,教師可以適時引導讓AI退場,讓學生自主探索。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "台師大與中研院今(13)日舉辦研討會,邀集各界探討AI教育應用。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
-          "angle": "產業動態與市場焦點",
-          "focus": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "excerpt": "AI如何融入教育才能幫助學生思考,而非取代思考?",
-          "url": "https://news.pts.org.tw/article/835572",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835572",
-          "headline": "防AI代勞剝奪學生思考力 教育界研討教學進退場機制",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
-    },
-    {
       "id": "s6c0bbdca",
       "section": "business_tech",
       "title": "中傑今年第三季每股虧 0.23 元!休閒鞋狂增 61% 帶動毛利率逆勢攀升",
@@ -3766,7 +3663,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "id": "s9f204087",
@@ -3870,7 +3767,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 7
     },
     {
       "id": "scbc70d3c",
@@ -3946,7 +3843,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 8
     },
     {
       "id": "sbc88d5b6",
@@ -4022,14 +3919,14 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
+      "rank": 9
     }
   ],
   "stats": {
-    "clusters": 283,
-    "passed": 10,
-    "below_threshold": 273,
-    "articlesAnalysed": 323
+    "clusters": 281,
+    "passed": 9,
+    "below_threshold": 272,
+    "articlesAnalysed": 322
   },
   "sourcesStatus": [
     {
@@ -4101,7 +3998,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 18,
+      "count": 17,
       "error": null
     }
   ]
