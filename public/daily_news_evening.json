@@ -6,10 +6,10 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-14T16:00:17+08:00",
-  "updatedAt": "2026-11-14 16:00",
-  "date": "2026-11-14",
-  "weekday": "星期六",
+  "generatedAt": "2026-11-15T14:52:17+08:00",
+  "updatedAt": "2026-11-15 14:52",
+  "date": "2026-11-15",
+  "weekday": "星期日",
   "dataMode": "live",
   "threshold": 80,
   "scoreWeights": {
@@ -3082,529 +3082,387 @@
     }
   },
   "leadIds": [
-    "se9427737",
-    "sebe7bba6"
+    "sb7407393",
+    "sc1af27cb"
   ],
   "stories": [
     {
-      "id": "se9427737",
+      "id": "sb7407393",
       "section": "business_tech",
-      "title": "台積電美國廠獲利爆發 前三季大賺539億、年增逾10倍",
+      "title": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "台積電昨(13)日上傳完整財報電子書檔案。數據顯示,台積電美國新廠(Tsmc Arizona)前三季獲利539.86億元,創新高,相較去年同期獲利47.69億元,年增逾十倍;台積電認列投資利益485.58億元,較去年同期45.21億元也跟著大增。",
+      "summary": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。 技嘉稱AI伺服器訂單能見度已達2027年底,2026、2027年資本支出估28至30億、40億元。 華碩看2027年伺服器業務可雙位數到高雙位數成長;技嘉預期2027年營益增幅將優於營收。",
       "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E7%8D%B2%E5%88%A9%E7%88%86%E7%99%BC-%E5%89%8D%E4%B8%89%E5%AD%A3%E5%A4%A7%E8%B3%BA539%E5%84%84-%E5%B9%B4%E5%A2%9E%E9%80%BE10%E5%80%8D-215419715.html",
-      "publishedAt": "2026-11-14T14:56:00+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/13/35515640.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 86,
+      "url": "https://tw.stock.yahoo.com/news/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%90pc%E5%A4%A7%E5%BB%A02027%E5%B9%B4%E6%88%90%E9%95%B7%E5%8B%95%E8%83%BD-%E8%8F%AF%E7%A2%A9%E6%8B%9A%E9%AB%98%E9%9B%99%E4%BD%8D%E6%95%B8%E5%A2%9E%E9%95%B7-%E6%8A%80%E5%98%89%E6%93%B4%E7%94%A2%E6%90%B6%E5%B8%82-004004792.html",
+      "publishedAt": "2026-11-15T08:40:04+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/4adb2e7e2f1d91b2d4939559c22b0cecc6b0eb1305410627abb30435677a9360/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fcnyes.com.tw%2Fd89ec956a5cc38da20689cb67a59a963.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 87,
       "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 32,
+        "resonance": 26,
+        "impact": 35,
         "data": 20,
-        "durability": 4
+        "durability": 6
       },
-      "mediaCount": 2,
+      "mediaCount": 1,
       "impactCategories": [
         "財報與資本配置",
-        "供應鏈與整併"
+        "供應鏈與整併",
+        "技術與算力突破"
       ],
       "core_facts": [
         {
-          "text": "數據顯示,台積電美國新廠(Tsmc Arizona)前三季獲利539.86億元,創新高,相較去年同期獲利47.69億元,年增逾十倍;台積電認列投資利益485.58億元,較去年同期45.21億元也跟著大增。",
-          "metric": "485.58億元",
+          "text": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "metric": "150%",
           "confirmed_by": [
-            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "根據台積電2026年第三季合併財務報告,旗下美國亞利桑那州子公司TSMC Arizona今年前三季本期損益達539.86億元,獲利規模已相當可觀,日本熊本廠JASM前三季也繳出23.96億元獲利,較去年同期由虧轉盈,不過德國德勒斯登廠ESMC仍處於虧損。",
-          "metric": "539.86億元",
+          "text": "技嘉稱AI伺服器訂單能見度已達2027年底,2026、2027年資本支出估28至30億、40億元。",
+          "metric": "40億元",
           "confirmed_by": [
-            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "metric": "",
+          "text": "華碩看2027年伺服器業務可雙位數到高雙位數成長;技嘉預期2027年營益增幅將優於營收。",
+          "metric": "2027年",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "經濟日報",
-          "headline": "台積電美國廠獲利爆發 前三季大賺539億、年增逾10倍",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "excerpt": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "url": "https://money.udn.com/money/story/5612/9877832",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電美國廠賺翻了!前三季獲利540億元 熊本廠也轉虧為盈",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電全球布局逐步開花結果,海外廠獲利表現也有新進展。",
-          "excerpt": "台積電全球布局逐步開花結果,海外廠獲利表現也有新進展。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E8%B3%BA%E7%BF%BB%E4%BA%86-%E5%89%8D%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9540%E5%84%84%E5%85%83-%E7%86%8A%E6%9C%AC%E5%BB%A0%E4%B9%9F%E8%BD%89%E8%99%A7%E7%82%BA%E7%9B%88-065600966.html",
+          "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
+          "angle": "先進技術與算力規格",
+          "focus": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "excerpt": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "url": "https://tw.stock.yahoo.com/news/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%90pc%E5%A4%A7%E5%BB%A02027%E5%B9%B4%E6%88%90%E9%95%B7%E5%8B%95%E8%83%BD-%E8%8F%AF%E7%A2%A9%E6%8B%9A%E9%AB%98%E9%9B%99%E4%BD%8D%E6%95%B8%E5%A2%9E%E9%95%B7-%E6%8A%80%E5%98%89%E6%93%B4%E7%94%A2%E6%90%B6%E5%B8%82-004004792.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "數據顯示,台積電美國新廠(Tsmc Arizona)前三季獲利539.86億元,創新高,相較去年同期獲利47.69億元,年增逾十倍;台積電認列投資利益485.58億元,較去年同期45.21億元也跟著大增。",
-          "metric": "485.58億元",
+          "text": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "metric": "150%",
           "confirmed_by": [
-            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "根據台積電2026年第三季合併財務報告,旗下美國亞利桑那州子公司TSMC Arizona今年前三季本期損益達539.86億元,獲利規模已相當可觀,日本熊本廠JASM前三季也繳出23.96億元獲利,較去年同期由虧轉盈,不過德國德勒斯登廠ESMC仍處於虧損。",
-          "metric": "539.86億元",
+          "text": "技嘉稱AI伺服器訂單能見度已達2027年底,2026、2027年資本支出估28至30億、40億元。",
+          "metric": "40億元",
           "confirmed_by": [
-            "經濟日報",
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "metric": "",
+          "text": "華碩看2027年伺服器業務可雙位數到高雙位數成長;技嘉預期2027年營益增幅將優於營收。",
+          "metric": "2027年",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "台積電美國廠獲利爆發 前三季大賺539億、年增逾10倍",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "excerpt": "台積電昨(13)日上傳完整財報電子書檔案。",
-          "url": "https://money.udn.com/money/story/5612/9877832",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台積電美國廠賺翻了!前三季獲利540億元 熊本廠也轉虧為盈",
-          "angle": "資本預算與財報配置",
-          "focus": "台積電全球布局逐步開花結果,海外廠獲利表現也有新進展。",
-          "excerpt": "台積電全球布局逐步開花結果,海外廠獲利表現也有新進展。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E8%B3%BA%E7%BF%BB%E4%BA%86-%E5%89%8D%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9540%E5%84%84%E5%85%83-%E7%86%8A%E6%9C%AC%E5%BB%A0%E4%B9%9F%E8%BD%89%E8%99%A7%E7%82%BA%E7%9B%88-065600966.html",
+          "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
+          "angle": "先進技術與算力規格",
+          "focus": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "excerpt": "華碩估2026年Q4伺服器營收季增150%、年增280%,全年伺服器營收拚年增至少150%。",
+          "url": "https://tw.stock.yahoo.com/news/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%90pc%E5%A4%A7%E5%BB%A02027%E5%B9%B4%E6%88%90%E9%95%B7%E5%8B%95%E8%83%BD-%E8%8F%AF%E7%A2%A9%E6%8B%9A%E9%AB%98%E9%9B%99%E4%BD%8D%E6%95%B8%E5%A2%9E%E9%95%B7-%E6%8A%80%E5%98%89%E6%93%B4%E7%94%A2%E6%90%B6%E5%B8%82-004004792.html",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9877832",
-          "headline": "台積電美國廠獲利爆發 前三季大賺539億、年增逾10倍",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E8%B3%BA%E7%BF%BB%E4%BA%86-%E5%89%8D%E4%B8%89%E5%AD%A3%E7%8D%B2%E5%88%A9540%E5%84%84%E5%85%83-%E7%86%8A%E6%9C%AC%E5%BB%A0%E4%B9%9F%E8%BD%89%E8%99%A7%E7%82%BA%E7%9B%88-065600966.html",
-          "headline": "台積電美國廠賺翻了!前三季獲利540億元 熊本廠也轉虧為盈",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E7%8D%B2%E5%88%A9%E7%88%86%E7%99%BC-%E5%89%8D%E4%B8%89%E5%AD%A3%E5%A4%A7%E8%B3%BA539%E5%84%84-%E5%B9%B4%E5%A2%9E%E9%80%BE10%E5%80%8D-215419715.html",
-          "headline": "台積電美國廠獲利爆發 前三季大賺539億、年增逾10倍",
+          "url": "https://tw.stock.yahoo.com/news/ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%88%90pc%E5%A4%A7%E5%BB%A02027%E5%B9%B4%E6%88%90%E9%95%B7%E5%8B%95%E8%83%BD-%E8%8F%AF%E7%A2%A9%E6%8B%9A%E9%AB%98%E9%9B%99%E4%BD%8D%E6%95%B8%E5%A2%9E%E9%95%B7-%E6%8A%80%E5%98%89%E6%93%B4%E7%94%A2%E6%90%B6%E5%B8%82-004004792.html",
+          "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
           "lang": "zh"
         }
       ],
       "rank": 1
     },
     {
-      "id": "sebe7bba6",
+      "id": "sc1af27cb",
       "section": "deep",
-      "title": "政府雙箭救市 台股本周反彈漲幅10%",
+      "title": "黃仁勳請辭效應 專家分析對台AI供應鏈影響有限",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下來市場將關注,在黃仁勳離開輝達後AI產業的動向,有專家認為,台灣相關供應鏈短期影響有限,不過長期可能面臨成長放緩,加上美國不排除加嚴晶片出口管制,以及科技巨頭縮減AI投資,都為台廠增添變數。",
+      "summary": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。加上目前部分AI產業面臨入不敷出、民主黨研擬放緩建置AI資料中心等3大衝擊,是否可能開啟AI產業新局面。專家分析,台廠AI伺服器,佔全球90%,預期影響不大,但因輝達領導階層換人,恐怕會重談合作條件。預期整個AI產業,會從爆發性成長、轉為放緩。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835689",
-      "publishedAt": "2026-11-13T20:31:09+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/94b11b142359ae6b8d760c4d0ec17ef5d5eee5da7756657695cee47f67fcda0f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_pts_org_tw_599%2Fea1ae7f31b1c4c8b7d86622fba82bcae",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 84,
+      "url": "https://news.pts.org.tw/article/835794",
+      "publishedAt": "2026-11-15T13:32:35+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301771/conversions/mZky0gmWqL6ywkNIm3bF9yJbontajDIeAm399lTT-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 86,
       "scoreBreakdown": {
-        "resonance": 32,
-        "impact": 28,
+        "resonance": 30,
+        "impact": 32,
         "data": 14,
         "durability": 10
       },
-      "mediaCount": 2,
+      "mediaCount": 1,
       "impactCategories": [
         "供應鏈與整併",
         "技術與算力突破"
       ],
       "core_facts": [
         {
-          "text": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
+          "text": "專家分析,台廠AI伺服器,佔全球90%,預期影響不大,但因輝達領導階層換人,恐怕會重談合作條件。",
+          "metric": "90%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "預期整個AI產業,會從爆發性成長、轉為放緩。",
           "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
-          "excerpt": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
-          "url": "https://tw.news.yahoo.com/%E6%94%BF%E5%BA%9C%E9%9B%99%E7%AE%AD%E6%95%91%E5%B8%82-%E5%8F%B0%E8%82%A1%E6%9C%AC%E5%91%A8%E5%8F%8D%E5%BD%88%E6%BC%B2%E5%B9%8510-120252851.html",
-          "lang": "zh"
-        },
-        {
           "media": "公視新聞網",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下來市場將關注,在黃仁勳離開輝達後AI產業的動向…",
-          "excerpt": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下來市場將關注,在黃仁勳離開輝達後AI產業的動向…",
-          "url": "https://news.pts.org.tw/article/835689",
+          "headline": "黃仁勳請辭效應 專家分析對台AI供應鏈影響有限",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "excerpt": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "url": "https://news.pts.org.tw/article/835794",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
+          "text": "專家分析,台廠AI伺服器,佔全球90%,預期影響不大,但因輝達領導階層換人,恐怕會重談合作條件。",
+          "metric": "90%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "預期整個AI產業,會從爆發性成長、轉為放緩。",
           "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
-          "excerpt": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下",
-          "url": "https://tw.news.yahoo.com/%E6%94%BF%E5%BA%9C%E9%9B%99%E7%AE%AD%E6%95%91%E5%B8%82-%E5%8F%B0%E8%82%A1%E6%9C%AC%E5%91%A8%E5%8F%8D%E5%BD%88%E6%BC%B2%E5%B9%8510-120252851.html",
-          "lang": "zh"
-        },
-        {
           "media": "公視新聞網",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下來市場將關注,在黃仁勳離開輝達後AI產業的動向…",
-          "excerpt": "黃仁勳請辭後,輝達的股價持續下跌,今(13)日台股反倒強勢反彈,終場上漲583點,外資也終結連11賣,買超288億元,這週在政府祭出國安基金和限空令救市之下,加權指數止跌回升,累計大漲3973點,接下來市場將關注,在黃仁勳離開輝達後AI產業的動向…",
-          "url": "https://news.pts.org.tw/article/835689",
+          "headline": "黃仁勳請辭效應 專家分析對台AI供應鏈影響有限",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "excerpt": "輝達創辦人黃仁勳請辭後,市場擔憂領導人換人,對於台廠供應鏈夥伴帶來的影響。",
+          "url": "https://news.pts.org.tw/article/835794",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E6%94%BF%E5%BA%9C%E9%9B%99%E7%AE%AD%E6%95%91%E5%B8%82-%E5%8F%B0%E8%82%A1%E6%9C%AC%E5%91%A8%E5%8F%8D%E5%BD%88%E6%BC%B2%E5%B9%8510-120252851.html",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
-          "lang": "zh"
-        },
-        {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835689",
-          "headline": "政府雙箭救市 台股本周反彈漲幅10%",
+          "url": "https://news.pts.org.tw/article/835794",
+          "headline": "黃仁勳請辭效應 專家分析對台AI供應鏈影響有限",
           "lang": "zh"
         }
       ],
       "rank": 2
     },
     {
-      "id": "sa25c0d9d",
+      "id": "s4080e2ac",
       "section": "business_tech",
-      "title": "蔡力行喊多買自家股票! 聯發科晶片爆發投顧目標價喊破這價",
+      "title": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台產業鏈不受影響",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。聯發科上修AI加速器貢獻,並克服先進封裝挑戰,法人預估2026至2028年獲利爆發,重申強力買進評等,目標價上修至5980元。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.news.yahoo.com/%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E5%A4%9A%E8%B2%B7%E8%87%AA%E5%AE%B6%E8%82%A1%E7%A5%A8-%E8%81%AF%E7%99%BC%E7%A7%91%E6%99%B6%E7%89%87%E7%88%86%E7%99%BC%E6%8A%95%E9%A1%A7%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A%E7%A0%B4%E9%80%99%E5%83%B9-211200209.html",
-      "publishedAt": "2026-11-14T05:12:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/11775f1e0b1018bf38ec7c08c52c913c82f02305e65f30947952fe588d57b4e7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fsetn.com.tw%2Fc047b5d6a956e4f5a1ff04dc17af1f3f.jpg",
+      "summary": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界…",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5612/9879744",
+      "publishedAt": "2026-11-15T12:00:36+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/d13bb03a0a89060869ff0f73f908de430c76e941667c0face55ec511e74afe7d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fno%2Fcnyes.com.tw%2F744336ddac45ed29ee3d8b0b2758581f.jpg",
       "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 83,
+      "score": 82,
       "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 35,
-        "data": 20,
-        "durability": 2
+        "resonance": 35,
+        "impact": 24,
+        "data": 15,
+        "durability": 8
       },
-      "mediaCount": 1,
+      "mediaCount": 3,
       "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
+        "供應鏈與整併"
       ],
       "core_facts": [
         {
-          "text": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "metric": "550.25億元",
+          "text": "12日美國股市開盤Nvidia股價一度重挫10%,公司市值跌破4兆美元。",
+          "metric": "10%",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "iThome 電腦報"
           ]
         },
         {
-          "text": "聯發科上修AI加速器貢獻,並克服先進封裝挑戰,法人預估2026至2028年獲利爆發,重申強力買進評等,目標價上修至5980元。",
-          "metric": "5980元",
+          "text": "而對手AMD股價則大漲27%。",
+          "metric": "27%",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "iThome 電腦報"
+          ]
+        },
+        {
+          "text": "由現任執行副總裁暨財務長Colette Kress擔任臨時執行長。",
+          "metric": "",
+          "confirmed_by": [
+            "iThome 電腦報"
           ]
         }
       ],
       "media_perspectives": [
         {
+          "media": "經濟日報",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台產業鏈不受影響",
+          "angle": "產業動態與市場焦點",
+          "focus": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界……",
+          "excerpt": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界……",
+          "url": "https://money.udn.com/money/story/5612/9879744",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "蔡力行喊多買自家股票! 聯發科晶片爆發投顧目標價喊破這價",
-          "angle": "先進技術與算力規格",
-          "focus": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "excerpt": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "url": "https://tw.news.yahoo.com/%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E5%A4%9A%E8%B2%B7%E8%87%AA%E5%AE%B6%E8%82%A1%E7%A5%A8-%E8%81%AF%E7%99%BC%E7%A7%91%E6%99%B6%E7%89%87%E7%88%86%E7%99%BC%E6%8A%95%E9%A1%A7%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A%E7%A0%B4%E9%80%99%E5%83%B9-211200209.html",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台灣產業鏈「非紅」優勢不受影響",
+          "angle": "產業動態與市場焦點",
+          "focus": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界,長期研究地緣政治的科技專家表示,美國勢必會加強對中國的出口管制,AI產業未來發展將會循序漸",
+          "excerpt": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界,長期研究地緣政治的科技專家表示,美國勢必會加強對中國的出口管制,AI產業未來發展將會循序漸",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E5%B0%88%E5%AE%B6-ai%E7%99%BC%E5%B1%95%E8%B6%A8%E5%81%A5%E5%BA%B7-%E5%8F%B0%E7%81%A3%E7%94%A2%E6%A5%AD%E9%8F%88-%E9%9D%9E%E7%B4%85-035613823.html",
+          "lang": "zh"
+        },
+        {
+          "media": "iThome 電腦報",
+          "headline": "黃仁勳辭去Nvidia執行長立刻生效,財務長Colette Kress接任臨時執行長、董事會任命首任董事長",
+          "angle": "市場定價與外資籌碼",
+          "focus": "Nvidia董事會11月12日宣布,黃仁勳辭去Nvidia總裁、執行長暨董事職位,立即生效。",
+          "excerpt": "Nvidia董事會11月12日宣布,黃仁勳辭去Nvidia總裁、執行長暨董事職位,立即生效。",
+          "url": "https://www.ithome.com.tw/news/180472",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "metric": "550.25億元",
+          "text": "12日美國股市開盤Nvidia股價一度重挫10%,公司市值跌破4兆美元。",
+          "metric": "10%",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "iThome 電腦報"
           ]
         },
         {
-          "text": "聯發科上修AI加速器貢獻,並克服先進封裝挑戰,法人預估2026至2028年獲利爆發,重申強力買進評等,目標價上修至5980元。",
-          "metric": "5980元",
+          "text": "而對手AMD股價則大漲27%。",
+          "metric": "27%",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "iThome 電腦報"
+          ]
+        },
+        {
+          "text": "由現任執行副總裁暨財務長Colette Kress擔任臨時執行長。",
+          "metric": "",
+          "confirmed_by": [
+            "iThome 電腦報"
           ]
         }
       ],
       "mediaPerspectives": [
         {
+          "media": "經濟日報",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台產業鏈不受影響",
+          "angle": "產業動態與市場焦點",
+          "focus": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界……",
+          "excerpt": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界……",
+          "url": "https://money.udn.com/money/story/5612/9879744",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "蔡力行喊多買自家股票! 聯發科晶片爆發投顧目標價喊破這價",
-          "angle": "先進技術與算力規格",
-          "focus": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "excerpt": "聯發科公布10月營收550.25億元,月減0.7%、年增5.8%,雖達成率引發關注,但法人看好第四季雲端服務供應商客製化晶片晶片大量出貨,營收目標2200億元不變。",
-          "url": "https://tw.news.yahoo.com/%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E5%A4%9A%E8%B2%B7%E8%87%AA%E5%AE%B6%E8%82%A1%E7%A5%A8-%E8%81%AF%E7%99%BC%E7%A7%91%E6%99%B6%E7%89%87%E7%88%86%E7%99%BC%E6%8A%95%E9%A1%A7%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A%E7%A0%B4%E9%80%99%E5%83%B9-211200209.html",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台灣產業鏈「非紅」優勢不受影響",
+          "angle": "產業動態與市場焦點",
+          "focus": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界,長期研究地緣政治的科技專家表示,美國勢必會加強對中國的出口管制,AI產業未來發展將會循序漸",
+          "excerpt": "黃仁勳辭去輝達(Nvidia)執行長等職務震撼全球科技產業界,長期研究地緣政治的科技專家表示,美國勢必會加強對中國的出口管制,AI產業未來發展將會循序漸",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E5%B0%88%E5%AE%B6-ai%E7%99%BC%E5%B1%95%E8%B6%A8%E5%81%A5%E5%BA%B7-%E5%8F%B0%E7%81%A3%E7%94%A2%E6%A5%AD%E9%8F%88-%E9%9D%9E%E7%B4%85-035613823.html",
+          "lang": "zh"
+        },
+        {
+          "media": "iThome 電腦報",
+          "headline": "黃仁勳辭去Nvidia執行長立刻生效,財務長Colette Kress接任臨時執行長、董事會任命首任董事長",
+          "angle": "市場定價與外資籌碼",
+          "focus": "Nvidia董事會11月12日宣布,黃仁勳辭去Nvidia總裁、執行長暨董事職位,立即生效。",
+          "excerpt": "Nvidia董事會11月12日宣布,黃仁勳辭去Nvidia總裁、執行長暨董事職位,立即生效。",
+          "url": "https://www.ithome.com.tw/news/180472",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9879744",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台產業鏈不受影響",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E8%94%A1%E5%8A%9B%E8%A1%8C%E5%96%8A%E5%A4%9A%E8%B2%B7%E8%87%AA%E5%AE%B6%E8%82%A1%E7%A5%A8-%E8%81%AF%E7%99%BC%E7%A7%91%E6%99%B6%E7%89%87%E7%88%86%E7%99%BC%E6%8A%95%E9%A1%A7%E7%9B%AE%E6%A8%99%E5%83%B9%E5%96%8A%E7%A0%B4%E9%80%99%E5%83%B9-211200209.html",
-          "headline": "蔡力行喊多買自家股票! 聯發科晶片爆發投顧目標價喊破這價",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E5%B0%88%E5%AE%B6-ai%E7%99%BC%E5%B1%95%E8%B6%A8%E5%81%A5%E5%BA%B7-%E5%8F%B0%E7%81%A3%E7%94%A2%E6%A5%AD%E9%8F%88-%E9%9D%9E%E7%B4%85-035613823.html",
+          "headline": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台灣產業鏈「非紅」優勢不受影響",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%BE%AD%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-msci%E8%AA%BF%E6%95%B4%E5%8F%B0%E8%82%A1%E5%A2%9E3%E5%88%AA4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%85%A5%E8%82%A1-anthropic%E8%88%87openai-%E6%9C%AC%E5%91%A8%E5%A4%A7%E4%BA%8B%E5%9B%9E%E9%A1%A7-041004310.html",
+          "headline": "黃仁勳辭輝達執行長、MSCI調整台股增3刪4、台積電入股 Anthropic與OpenAI 本周大事回顧",
+          "lang": "zh"
+        },
+        {
+          "media": "iThome 電腦報",
+          "url": "https://www.ithome.com.tw/news/180472",
+          "headline": "黃仁勳辭去Nvidia執行長立刻生效,財務長Colette Kress接任臨時執行長、董事會任命首任董事長",
           "lang": "zh"
         }
       ],
       "rank": 3
     },
     {
-      "id": "s2e8a5854",
+      "id": "sc892065e",
       "section": "deep",
-      "title": "《性工法》修正案三讀 產假自現行8週延至14週",
+      "title": "COP31以赤蠵龜當吉祥物 示警地中海暖化籲正視海洋危機",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。至於國民年金修法要提高給付,因為朝野對於是否要提高到6000元沒有共識,還要繼續溝通。",
+      "summary": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。由於海洋保育和海洋生態系統是這一屆大會的重要焦點之一,主辦單位、特別選了赤蠵龜作為大會吉祥物,藉此為地中海暖化與升溫發出預警,喚起全球對海洋治理與氣候變遷的重視。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835682",
-      "publishedAt": "2026-11-13T20:27:27+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301687/conversions/CGQKvCNtnUiTEUdn3S1wOm1r7Qf2jtnTl3AjkwBF-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "至於國民年金修法要提高給付,因為朝野對於是否要提高到6000元沒有共識,還要繼續溝通。",
-          "metric": "6000元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "《性工法》修正案三讀 產假自現行8週延至14週",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "excerpt": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "url": "https://news.pts.org.tw/article/835682",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "至於國民年金修法要提高給付,因為朝野對於是否要提高到6000元沒有共識,還要繼續溝通。",
-          "metric": "6000元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "《性工法》修正案三讀 產假自現行8週延至14週",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "excerpt": "立法院今(13)日三讀修正通過《性別平等工作法》和《就業保險法》,未來產假從現行8週延長到14週、育兒留職停薪的適用年齡,也放寬到子女滿9歲以前都可以申請,雙親都領滿6個月育兒留職停薪後,可再加領3個月。",
-          "url": "https://news.pts.org.tw/article/835682",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835682",
-          "headline": "《性工法》修正案三讀 產假自現行8週延至14週",
-          "lang": "zh"
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "id": "s108fe0ad",
-      "section": "deep",
-      "title": "涉助中企「宏微」違法挖角 台廠耀迅負責人夫婦遭起訴",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。北檢查出,對岸半導體廠「宏微科技」,涉嫌透過國內的「耀迅國際科技公司」挖角工程師,營運長達16年,還牽線達成與台達電合作,成為宏微的重要客戶,檢方依《兩岸人民關係條例》,起訴在台的馮姓負責人夫妻;另外,被稱作「遙控無人機之王」的亞拓科技,更涉嫌在軍方無人機等採購案,違法混用中國製晶片,中檢今(13)日依《國安法》起訴負責人夫妻,求刑5年以上。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835683",
-      "publishedAt": "2026-11-13T21:09:14+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301686/conversions/QTx8sooIwwPHZ1JFDGwSTFVGDIFzcUlGo6eEGk6L-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "技術與算力突破"
-      ],
-      "core_facts": [
-        {
-          "text": "北檢查出,對岸半導體廠「宏微科技」,涉嫌透過國內的「耀迅國際科技公司」挖角工程師,營運長達16年,還牽線達成與台達電合作,成為宏微的重要客戶,檢方依《兩岸人民關係條例》,起訴在台的馮姓負責人夫妻;另外,被稱作「遙控無人機之王」的亞拓科技,更涉嫌在軍方無人機等採購案,違法混用中國製晶片,中檢今(13)日依《國安法》起訴負責人夫妻,求刑5年以上。",
-          "metric": "16年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "涉助中企「宏微」違法挖角 台廠耀迅負責人夫婦遭起訴",
-          "angle": "先進技術與算力規格",
-          "focus": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "excerpt": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "url": "https://news.pts.org.tw/article/835683",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "北檢查出,對岸半導體廠「宏微科技」,涉嫌透過國內的「耀迅國際科技公司」挖角工程師,營運長達16年,還牽線達成與台達電合作,成為宏微的重要客戶,檢方依《兩岸人民關係條例》,起訴在台的馮姓負責人夫妻;另外,被稱作「遙控無人機之王」的亞拓科技,更涉嫌在軍方無人機等採購案,違法混用中國製晶片,中檢今(13)日依《國安法》起訴負責人夫妻,求刑5年以上。",
-          "metric": "16年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "涉助中企「宏微」違法挖角 台廠耀迅負責人夫婦遭起訴",
-          "angle": "先進技術與算力規格",
-          "focus": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "excerpt": "中國企業頻繁在台違法挖角,今(2026)年已有36件遭到調查。",
-          "url": "https://news.pts.org.tw/article/835683",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835683",
-          "headline": "涉助中企「宏微」違法挖角 台廠耀迅負責人夫婦遭起訴",
-          "lang": "zh"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "id": "sbe8593a8",
-      "section": "deep",
-      "title": "環團訴求化石燃料遊說團體退場 批參加COP31會議恐阻減碳",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。聯合國秘書長古提瑞斯也表示,化石燃料遊說團體,在會議中的影響力過大,恐阻礙減碳進程,必須嚴肅面對。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835730",
-      "publishedAt": "2026-11-14T13:51:42+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301725/conversions/TNWoInD6dEdqynNJ1szBopC3PNbfvFrLxagydQ4I-og_jpg.jpg",
+      "url": "https://news.pts.org.tw/article/835773",
+      "publishedAt": "2026-11-15T11:59:21+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301760/conversions/dhnpG02MdCr58rCrrchy5r4msp38TgqW1ygHWULw-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
       "scoreBreakdown": {
@@ -3619,14 +3477,14 @@
       ],
       "core_facts": [
         {
-          "text": "聯合國秘書長古提瑞斯也表示,化石燃料遊說團體,在會議中的影響力過大,恐阻礙減碳進程,必須嚴肅面對。",
+          "text": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
+          "text": "由於海洋保育和海洋生態系統是這一屆大會的重要焦點之一,主辦單位、特別選了赤蠵龜作為大會吉祥物,藉此為地中海暖化與升溫發出預警,喚起全球對海洋治理與氣候變遷的重視。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -3636,25 +3494,25 @@
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "環團訴求化石燃料遊說團體退場 批參加COP31會議恐阻減碳",
+          "headline": "COP31以赤蠵龜當吉祥物 示警地中海暖化籲正視海洋危機",
           "angle": "產業動態與市場焦點",
-          "focus": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
-          "excerpt": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
-          "url": "https://news.pts.org.tw/article/835730",
+          "focus": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
+          "excerpt": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
+          "url": "https://news.pts.org.tw/article/835773",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "聯合國秘書長古提瑞斯也表示,化石燃料遊說團體,在會議中的影響力過大,恐阻礙減碳進程,必須嚴肅面對。",
+          "text": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
+          "text": "由於海洋保育和海洋生態系統是這一屆大會的重要焦點之一,主辦單位、特別選了赤蠵龜作為大會吉祥物,藉此為地中海暖化與升溫發出預警,喚起全球對海洋治理與氣候變遷的重視。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -3664,11 +3522,11 @@
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "環團訴求化石燃料遊說團體退場 批參加COP31會議恐阻減碳",
+          "headline": "COP31以赤蠵龜當吉祥物 示警地中海暖化籲正視海洋危機",
           "angle": "產業動態與市場焦點",
-          "focus": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
-          "excerpt": "聯合國氣候峰會COP31,正在土耳其舉行,國際環團呼籲、加速淘汰化石燃料,批評石油產業代表不應該介入談判。",
-          "url": "https://news.pts.org.tw/article/835730",
+          "focus": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
+          "excerpt": "今(2026)年的聯合國氣候峰會,在土耳其的沿海城市安塔利亞舉行。",
+          "url": "https://news.pts.org.tw/article/835773",
           "lang": "zh"
         }
       ],
@@ -3676,54 +3534,397 @@
       "sources": [
         {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835730",
-          "headline": "環團訴求化石燃料遊說團體退場 批參加COP31會議恐阻減碳",
+          "url": "https://news.pts.org.tw/article/835773",
+          "headline": "COP31以赤蠵龜當吉祥物 示警地中海暖化籲正視海洋危機",
+          "lang": "zh"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "s2b2c6ad4",
+      "section": "deep",
+      "title": "國道通行費凍漲13年 高公局研擬調漲估年底提報",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835795",
+      "publishedAt": "2026-11-15T13:10:10+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301770/conversions/1OieM9TUnEih0EiTBgks6K9ipqM4XZQf9G871pIn-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策"
+      ],
+      "core_facts": [
+        {
+          "text": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "metric": "13年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "國道通行費凍漲13年 高公局研擬調漲估年底提報",
+          "angle": "政策法規與公共治理",
+          "focus": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "excerpt": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "url": "https://news.pts.org.tw/article/835795",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "metric": "13年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "國道通行費凍漲13年 高公局研擬調漲估年底提報",
+          "angle": "政策法規與公共治理",
+          "focus": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "excerpt": "國道高速公路通行費,已經凍漲13年,這也是國道基金的主要收入來源,不過根據立法院預算中心估算,明年起國道基金待編預算超過4千億元,其中有6成需仰賴舉債;為此,行政院要求交通部研議通行費率調整機制,高公局強調,今(2026)年底會將費率評估報告、提報交通部。",
+          "url": "https://news.pts.org.tw/article/835795",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835795",
+          "headline": "國道通行費凍漲13年 高公局研擬調漲估年底提報",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "id": "s3a0ce386",
+      "section": "deep",
+      "title": "廢非核家園公投/陳中舜稱核電是AI用電救命丸 賴建信:核電與經濟發展無關",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "廢除非核家園公投第2場意見發表會今(14)日登場。正方代表陳中舜強調,在綠能供電尚未到位前,核電是AI產業龐大用電需求的救命丸,且有助政府節省成本,企業也能達到減碳目標。反方代表賴建信則重申,核電不是振興經濟的萬靈丹,且台電與核安會正在進行重啟核電評估與審查,因此此次公投無舉行必要。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835769",
+      "publishedAt": "2026-11-14T20:48:10+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301755/conversions/upJiDFWTIWIfDwvlfKZzw0p2kSLPJ1Nl0hSTGPGz-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策",
+        "公共治理與結構轉型"
+      ],
+      "core_facts": [
+        {
+          "text": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "反方代表賴建信則重申,核電不是振興經濟的萬靈丹,且台電與核安會正在進行重啟核電評估與審查,因此此次公投無舉行必要。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "正方代表陳中舜強調,在綠能供電尚未到位前,核電是AI產業龐大用電需求的救命丸,且有助政府節省成本,企業也能達到減碳目標。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "廢非核家園公投/陳中舜稱核電是AI用電救命丸 賴建信:核電與經濟發展無關",
+          "angle": "政策法規與公共治理",
+          "focus": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "excerpt": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "url": "https://news.pts.org.tw/article/835769",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "反方代表賴建信則重申,核電不是振興經濟的萬靈丹,且台電與核安會正在進行重啟核電評估與審查,因此此次公投無舉行必要。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "正方代表陳中舜強調,在綠能供電尚未到位前,核電是AI產業龐大用電需求的救命丸,且有助政府節省成本,企業也能達到減碳目標。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "廢非核家園公投/陳中舜稱核電是AI用電救命丸 賴建信:核電與經濟發展無關",
+          "angle": "政策法規與公共治理",
+          "focus": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "excerpt": "廢除非核家園公投第2場意見發表會今(14)日登場。",
+          "url": "https://news.pts.org.tw/article/835769",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835769",
+          "headline": "廢非核家園公投/陳中舜稱核電是AI用電救命丸 賴建信:核電與經濟發展無關",
           "lang": "zh"
         }
       ],
       "rank": 6
     },
     {
-      "id": "s3bb10715",
-      "section": "business_tech",
-      "title": "黃仁勳離任衝擊「AI央行」地位!輝達收緊融資恐掀產業洗牌 新雲端首當其衝",
+      "id": "s748d18f0",
+      "section": "deep",
+      "title": "探討AI時代如何守住真實 學者籲平台監管、國際合作",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "輝達被稱「AI央行」,截至7/26股權投資帳面值990億美元,對外承諾與擔保約5,305億美元。 黃仁勳傳離任後,市場憂融資合作放緩;高盛將目標價由300美元降至220美元。 若輝達收緊支持,新雲端業者與資料中心恐融資更難、成本上升,AMD、博通或受惠。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E4%BB%BB%E8%A1%9D%E6%93%8A-ai%E5%A4%AE%E8%A1%8C-%E5%9C%B0%E4%BD%8D-%E8%BC%9D%E9%81%94%E6%94%B6%E7%B7%8A%E8%9E%8D%E8%B3%87%E6%81%90%E6%8E%80%E7%94%A2%E6%A5%AD%E6%B4%97%E7%89%8C-%E6%96%B0%E9%9B%B2%E7%AB%AF%E9%A6%96%E7%95%B6%E5%85%B6%E8%A1%9D-052004713.html",
-      "publishedAt": "2026-11-14T14:35:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/47e80c5cbb6632291711587c8dc4c4abb5ad93a64f48c24a9c91a07112e5c271/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Fftnn_com_tw_939%2F3225e0ee126170bf902ed6642c818c4e.jpg",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "summary": "生成式AI快速發展,錯假影像也層出不窮。台灣事實查核中心14日舉辦論壇,邀集新聞、醫學及科技領域專家,探討如何守住新聞真實性。學者指出,除了媒體加強查證,也應推動AI生成內容溯源標示,也可以借鏡他國立法經驗。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835767",
+      "publishedAt": "2026-11-14T19:51:18+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301743/conversions/ZINy9EvqIrOAd2eRV5HNHx7ccvYJgCLkhymAlcwP-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
       "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策"
+      ],
+      "core_facts": [
+        {
+          "text": "生成式AI快速發展,錯假影像也層出不窮。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "學者指出,除了媒體加強查證,也應推動AI生成內容溯源標示,也可以借鏡他國立法經驗。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "台灣事實查核中心14日舉辦論壇,邀集新聞、醫學及科技領域專家,探討如何守住新聞真實性。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "探討AI時代如何守住真實 學者籲平台監管、國際合作",
+          "angle": "政策法規與公共治理",
+          "focus": "生成式AI快速發展,錯假影像也層出不窮。",
+          "excerpt": "生成式AI快速發展,錯假影像也層出不窮。",
+          "url": "https://news.pts.org.tw/article/835767",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "生成式AI快速發展,錯假影像也層出不窮。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "學者指出,除了媒體加強查證,也應推動AI生成內容溯源標示,也可以借鏡他國立法經驗。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "台灣事實查核中心14日舉辦論壇,邀集新聞、醫學及科技領域專家,探討如何守住新聞真實性。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "探討AI時代如何守住真實 學者籲平台監管、國際合作",
+          "angle": "政策法規與公共治理",
+          "focus": "生成式AI快速發展,錯假影像也層出不窮。",
+          "excerpt": "生成式AI快速發展,錯假影像也層出不窮。",
+          "url": "https://news.pts.org.tw/article/835767",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835767",
+          "headline": "探討AI時代如何守住真實 學者籲平台監管、國際合作",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "id": "s6bdf3026",
+      "section": "deep",
+      "title": "雲林居民抗議設養雞場未獲通知 縣府稱經2階審查、擬居中協調",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835790",
+      "publishedAt": "2026-11-15T13:30:58+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301774/conversions/twRRqtsWSzA4h78f9sllHt28Rmui639JDzmKiSMZ-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策"
+      ],
+      "core_facts": [
+        {
+          "text": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "metric": "2024年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "雲林居民抗議設養雞場未獲通知 縣府稱經2階審查、擬居中協調",
+          "angle": "政策法規與公共治理",
+          "focus": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "excerpt": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "url": "https://news.pts.org.tw/article/835790",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "metric": "2024年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "雲林居民抗議設養雞場未獲通知 縣府稱經2階審查、擬居中協調",
+          "angle": "政策法規與公共治理",
+          "focus": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "excerpt": "雲林縣崙背鄉有養雞業者,要在豐榮村設置養雞場,居民今(15)日集結抗議,認為根本沒有接獲正式通知、召開說明會,卻能順利通過設置,懷疑行政程序有瑕疵,對此雲林縣府農業處表示,該養雞場2024年3月,由崙背鄉公所初審通過,再依相關複審拿到建照,後續會居中協調。",
+          "url": "https://news.pts.org.tw/article/835790",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835790",
+          "headline": "雲林居民抗議設養雞場未獲通知 縣府稱經2階審查、擬居中協調",
+          "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "id": "sf8ed664e",
+      "section": "business_tech",
+      "title": "台股2周上演大怒神!「這檔金融」持獲利利多獲大哥豪砸87.4億奪冠 南亞砸115億擴產玻纖布被上調390元目標價入榜",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點…",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A12%E5%91%A8%E4%B8%8A%E6%BC%94%E5%A4%A7%E6%80%92%E7%A5%9E-%E9%80%99%E6%AA%94%E9%87%91%E8%9E%8D-%E6%8C%81%E7%8D%B2%E5%88%A9%E5%88%A9%E5%A4%9A%E7%8D%B2%E5%A4%A7%E5%93%A5%E8%B1%AA%E7%A0%B887-4%E5%84%84%E5%A5%AA%E5%86%A0-%E5%8D%97%E4%BA%9E%E7%A0%B8115%E5%84%84%E6%93%B4%E7%94%A2%E7%8E%BB%E7%BA%96%E5%B8%83%E8%A2%AB%E4%B8%8A%E8%AA%BF390%E5%85%83%E7%9B%AE%E6%A8%99%E5%83%B9%E5%85%A5%E6%A6%9C-111000348.html",
+      "publishedAt": "2026-11-14T19:10:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/4c7c600ce6d8a6754c99a9969de29fe5240111e5623062d6fd8bb3df267cf9a3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fftnn_com_tw_939%2F6434c02dab177233ec58cbf2804be1cc.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 80,
       "scoreBreakdown": {
         "resonance": 26,
         "impact": 32,
         "data": 20,
-        "durability": 4
+        "durability": 2
       },
       "mediaCount": 1,
       "impactCategories": [
-        "利率與法規政策",
+        "財報與資本配置",
         "供應鏈與整併"
       ],
       "core_facts": [
         {
-          "text": "黃仁勳傳離任後,市場憂融資合作放緩;高盛將目標價由300美元降至220美元。",
-          "metric": "220美元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "輝達被稱「AI央行」,截至7/26股權投資帳面值990億美元,對外承諾與擔保約5,305億美元。",
-          "metric": "5305億美元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "若輝達收緊支持,新雲端業者與資料中心恐融資更難、成本上升,AMD、博通或受惠。",
+          "text": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點…",
           "metric": "",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
@@ -3733,32 +3934,18 @@
       "media_perspectives": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "黃仁勳離開輝達恐衝擊台廠?網憂台股崩回2、3萬點 網反駁:換個CEO而已",
+          "headline": "台股2周上演大怒神!「這檔金融」持獲利利多獲大哥豪砸87.4億奪冠 南亞砸115億擴產玻纖布被上調390元目標價入榜",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "實習記者王保伶/綜合報導輝達(Nvidia)創辦人黃仁勳日前宣布請辭,讓市場擔憂AI產業及台灣供應鏈前景。",
-          "excerpt": "實習記者王保伶/綜合報導輝達(Nvidia)創辦人黃仁勳日前宣布請辭,讓市場擔憂AI產業及台灣供應鏈前景。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E8%BC%9D%E9%81%94%E6%81%90%E8%A1%9D%E6%93%8A%E5%8F%B0%E5%BB%A0-%E7%B6%B2%E6%86%82%E5%8F%B0%E8%82%A1%E5%B4%A9%E5%9B%9E2-3%E8%90%AC%E9%BB%9E-%E7%B6%B2%E5%8F%8D%E9%A7%81-%E6%8F%9B%E5%80%8Bceo%E8%80%8C%E5%B7%B2-063500059.html",
+          "focus": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點……",
+          "excerpt": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點……",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A12%E5%91%A8%E4%B8%8A%E6%BC%94%E5%A4%A7%E6%80%92%E7%A5%9E-%E9%80%99%E6%AA%94%E9%87%91%E8%9E%8D-%E6%8C%81%E7%8D%B2%E5%88%A9%E5%88%A9%E5%A4%9A%E7%8D%B2%E5%A4%A7%E5%93%A5%E8%B1%AA%E7%A0%B887-4%E5%84%84%E5%A5%AA%E5%86%A0-%E5%8D%97%E4%BA%9E%E7%A0%B8115%E5%84%84%E6%93%B4%E7%94%A2%E7%8E%BB%E7%BA%96%E5%B8%83%E8%A2%AB%E4%B8%8A%E8%AA%BF390%E5%85%83%E7%9B%AE%E6%A8%99%E5%83%B9%E5%85%A5%E6%A6%9C-111000348.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "黃仁勳傳離任後,市場憂融資合作放緩;高盛將目標價由300美元降至220美元。",
-          "metric": "220美元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "輝達被稱「AI央行」,截至7/26股權投資帳面值990億美元,對外承諾與擔保約5,305億美元。",
-          "metric": "5305億美元",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "若輝達收緊支持,新雲端業者與資料中心恐融資更難、成本上升,AMD、博通或受惠。",
+          "text": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點…",
           "metric": "",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
@@ -3768,11 +3955,11 @@
       "mediaPerspectives": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "黃仁勳離開輝達恐衝擊台廠?網憂台股崩回2、3萬點 網反駁:換個CEO而已",
+          "headline": "台股2周上演大怒神!「這檔金融」持獲利利多獲大哥豪砸87.4億奪冠 南亞砸115億擴產玻纖布被上調390元目標價入榜",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "實習記者王保伶/綜合報導輝達(Nvidia)創辦人黃仁勳日前宣布請辭,讓市場擔憂AI產業及台灣供應鏈前景。",
-          "excerpt": "實習記者王保伶/綜合報導輝達(Nvidia)創辦人黃仁勳日前宣布請辭,讓市場擔憂AI產業及台灣供應鏈前景。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E8%BC%9D%E9%81%94%E6%81%90%E8%A1%9D%E6%93%8A%E5%8F%B0%E5%BB%A0-%E7%B6%B2%E6%86%82%E5%8F%B0%E8%82%A1%E5%B4%A9%E5%9B%9E2-3%E8%90%AC%E9%BB%9E-%E7%B6%B2%E5%8F%8D%E9%A7%81-%E6%8F%9B%E5%80%8Bceo%E8%80%8C%E5%B7%B2-063500059.html",
+          "focus": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點……",
+          "excerpt": "台股本周(11/09~11/13)收在43,675.12點,較上週的39701.64點上漲3973.48點……",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A12%E5%91%A8%E4%B8%8A%E6%BC%94%E5%A4%A7%E6%80%92%E7%A5%9E-%E9%80%99%E6%AA%94%E9%87%91%E8%9E%8D-%E6%8C%81%E7%8D%B2%E5%88%A9%E5%88%A9%E5%A4%9A%E7%8D%B2%E5%A4%A7%E5%93%A5%E8%B1%AA%E7%A0%B887-4%E5%84%84%E5%A5%AA%E5%86%A0-%E5%8D%97%E4%BA%9E%E7%A0%B8115%E5%84%84%E6%93%B4%E7%94%A2%E7%8E%BB%E7%BA%96%E5%B8%83%E8%A2%AB%E4%B8%8A%E8%AA%BF390%E5%85%83%E7%9B%AE%E6%A8%99%E5%83%B9%E5%85%A5%E6%A6%9C-111000348.html",
           "lang": "zh"
         }
       ],
@@ -3780,25 +3967,19 @@
       "sources": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E9%96%8B%E8%BC%9D%E9%81%94%E6%81%90%E8%A1%9D%E6%93%8A%E5%8F%B0%E5%BB%A0-%E7%B6%B2%E6%86%82%E5%8F%B0%E8%82%A1%E5%B4%A9%E5%9B%9E2-3%E8%90%AC%E9%BB%9E-%E7%B6%B2%E5%8F%8D%E9%A7%81-%E6%8F%9B%E5%80%8Bceo%E8%80%8C%E5%B7%B2-063500059.html",
-          "headline": "黃仁勳離開輝達恐衝擊台廠?網憂台股崩回2、3萬點 網反駁:換個CEO而已",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9B%A2%E4%BB%BB%E8%A1%9D%E6%93%8A-ai%E5%A4%AE%E8%A1%8C-%E5%9C%B0%E4%BD%8D-%E8%BC%9D%E9%81%94%E6%94%B6%E7%B7%8A%E8%9E%8D%E8%B3%87%E6%81%90%E6%8E%80%E7%94%A2%E6%A5%AD%E6%B4%97%E7%89%8C-%E6%96%B0%E9%9B%B2%E7%AB%AF%E9%A6%96%E7%95%B6%E5%85%B6%E8%A1%9D-052004713.html",
-          "headline": "黃仁勳離任衝擊「AI央行」地位!輝達收緊融資恐掀產業洗牌 新雲端首當其衝",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A12%E5%91%A8%E4%B8%8A%E6%BC%94%E5%A4%A7%E6%80%92%E7%A5%9E-%E9%80%99%E6%AA%94%E9%87%91%E8%9E%8D-%E6%8C%81%E7%8D%B2%E5%88%A9%E5%88%A9%E5%A4%9A%E7%8D%B2%E5%A4%A7%E5%93%A5%E8%B1%AA%E7%A0%B887-4%E5%84%84%E5%A5%AA%E5%86%A0-%E5%8D%97%E4%BA%9E%E7%A0%B8115%E5%84%84%E6%93%B4%E7%94%A2%E7%8E%BB%E7%BA%96%E5%B8%83%E8%A2%AB%E4%B8%8A%E8%AA%BF390%E5%85%83%E7%9B%AE%E6%A8%99%E5%83%B9%E5%85%A5%E6%A6%9C-111000348.html",
+          "headline": "台股2周上演大怒神!「這檔金融」持獲利利多獲大哥豪砸87.4億奪冠 南亞砸115億擴產玻纖布被上調390元目標價入榜",
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 9
     }
   ],
   "stats": {
-    "clusters": 310,
-    "passed": 7,
-    "below_threshold": 303,
-    "articlesAnalysed": 349
+    "clusters": 274,
+    "passed": 9,
+    "below_threshold": 265,
+    "articlesAnalysed": 313
   },
   "sourcesStatus": [
     {
@@ -3807,7 +3988,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 52,
+      "count": 53,
       "error": null
     },
     {
@@ -3816,7 +3997,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 90,
+      "count": 82,
       "error": null
     },
     {
@@ -3825,7 +4006,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 100,
+      "count": 77,
       "error": null
     },
     {
@@ -3834,7 +4015,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 33,
+      "count": 31,
       "error": null
     },
     {
@@ -3843,7 +4024,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 37,
+      "count": 40,
       "error": null
     },
     {
@@ -3870,7 +4051,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 20,
+      "count": 16,
       "error": null
     }
   ]
