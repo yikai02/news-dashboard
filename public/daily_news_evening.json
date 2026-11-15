@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-15T14:52:17+08:00",
-  "updatedAt": "2026-11-15 14:52",
+  "generatedAt": "2026-11-15T16:00:26+08:00",
+  "updatedAt": "2026-11-15 16:00",
   "date": "2026-11-15",
   "weekday": "星期日",
   "dataMode": "live",
@@ -3296,6 +3296,83 @@
       "rank": 2
     },
     {
+      "id": "sc0397894",
+      "section": "business_tech",
+      "title": "美時前10月營收年增六成 法人看好全年毛利率表現",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美,以及Enzalutamide在巴西、加拿大、韓國開始出貨,整體來說Alvogen整合及B2B產品銷售帶動營運年增。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5612/9879968",
+      "publishedAt": "2026-11-15T14:56:22+08:00",
+      "imageUrl": null,
+      "imageCredit": null,
+      "score": 83,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 35,
+        "data": 20,
+        "durability": 2
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "core_facts": [
+        {
+          "text": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美,以及Enzalutamide在巴西、加拿大、韓國開始出貨,整體來說Alvogen整合及B2B產品銷售帶動營運年增。",
+          "metric": "22.4%",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "美時前10月營收年增六成 法人看好全年毛利率表現",
+          "angle": "資本預算與財報配置",
+          "focus": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美…",
+          "excerpt": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美…",
+          "url": "https://money.udn.com/money/story/5612/9879968",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美,以及Enzalutamide在巴西、加拿大、韓國開始出貨,整體來說Alvogen整合及B2B產品銷售帶動營運年增。",
+          "metric": "22.4%",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "美時前10月營收年增六成 法人看好全年毛利率表現",
+          "angle": "資本預算與財報配置",
+          "focus": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美…",
+          "excerpt": "美時(1795)10月營收月減22.8%、年減22.4%,累計前10月營收年增58.5%;分析師表示,月減主要係美國血癌藥Lenalidomide受到季節因素影響,以及去年同期集中出貨墊高基期;2026年受惠於Ninte anib在歐洲、北美…",
+          "url": "https://money.udn.com/money/story/5612/9879968",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9879968",
+          "headline": "美時前10月營收年增六成 法人看好全年毛利率表現",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
+    },
+    {
       "id": "s4080e2ac",
       "section": "business_tech",
       "title": "黃仁勳辭輝達執行長 專家:AI發展趨健康、台產業鏈不受影響",
@@ -3450,7 +3527,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "sc892065e",
@@ -3539,7 +3616,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "s2b2c6ad4",
@@ -3614,7 +3691,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "s3a0ce386",
@@ -3718,7 +3795,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "s748d18f0",
@@ -3821,7 +3898,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "s6bdf3026",
@@ -3896,7 +3973,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "sf8ed664e",
@@ -3972,14 +4049,14 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 10
     }
   ],
   "stats": {
-    "clusters": 274,
-    "passed": 9,
-    "below_threshold": 265,
-    "articlesAnalysed": 313
+    "clusters": 273,
+    "passed": 10,
+    "below_threshold": 263,
+    "articlesAnalysed": 309
   },
   "sourcesStatus": [
     {
@@ -3988,7 +4065,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 53,
+      "count": 54,
       "error": null
     },
     {
@@ -3997,7 +4074,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 82,
+      "count": 81,
       "error": null
     },
     {
@@ -4006,7 +4083,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 77,
+      "count": 75,
       "error": null
     },
     {
@@ -4015,7 +4092,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 31,
+      "count": 29,
       "error": null
     },
     {
