@@ -6,8 +6,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-16T14:53:26+08:00",
-  "updatedAt": "2026-11-16 14:53",
+  "generatedAt": "2026-11-16T16:00:20+08:00",
+  "updatedAt": "2026-11-16 16:00",
   "date": "2026-11-16",
   "weekday": "星期一",
   "dataMode": "live",
@@ -29,9 +29,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.139,
-        "change": -0.014,
-        "changePct": -0.27,
+        "value": 5.137,
+        "change": -0.016,
+        "changePct": -0.31,
         "asOf": "2026-11-16",
         "history": [
           4.993,
@@ -48,7 +48,7 @@
           5.0,
           5.103,
           5.153,
-          5.139
+          5.137
         ],
         "source": "CNBC Market Data"
       },
@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.47,
-        "change": 0.058,
-        "changePct": 0.06,
+        "value": 103.447,
+        "change": 0.035,
+        "changePct": 0.03,
         "asOf": "2026-11-16",
         "history": [
           102.194,
@@ -80,7 +80,7 @@
           103.173,
           103.412,
           103.411,
-          103.47
+          103.447
         ],
         "source": "CNBC Market Data"
       },
@@ -93,9 +93,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 89.41,
-        "change": 0.85,
-        "changePct": 0.96,
+        "value": 88.75,
+        "change": 0.19,
+        "changePct": 0.21,
         "asOf": "2026-11-16",
         "history": [
           99.9,
@@ -112,7 +112,7 @@
           86.53,
           88.74,
           88.56,
-          89.41
+          88.75
         ],
         "source": "CNBC Market Data"
       },
@@ -125,9 +125,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3843.4,
-        "change": -42.9,
-        "changePct": -1.1,
+        "value": 3860.9,
+        "change": -25.4,
+        "changePct": -0.65,
         "asOf": "2026-11-16",
         "history": [
           4074.6,
@@ -144,7 +144,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3843.4
+          3860.9
         ],
         "source": "CNBC Market Data"
       },
@@ -187,9 +187,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.139,
-        "change": -0.014,
-        "changePct": -0.27,
+        "value": 5.137,
+        "change": -0.016,
+        "changePct": -0.31,
         "asOf": "2026-11-16",
         "history": [
           4.993,
@@ -206,7 +206,7 @@
           5.0,
           5.103,
           5.153,
-          5.139
+          5.137
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.47,
-        "change": 0.058,
-        "changePct": 0.06,
+        "value": 103.447,
+        "change": 0.035,
+        "changePct": 0.03,
         "asOf": "2026-11-16",
         "history": [
           102.194,
@@ -238,7 +238,7 @@
           103.173,
           103.412,
           103.411,
-          103.47
+          103.447
         ],
         "source": "CNBC Market Data"
       },
@@ -251,9 +251,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 89.41,
-        "change": 0.85,
-        "changePct": 0.96,
+        "value": 88.75,
+        "change": 0.19,
+        "changePct": 0.21,
         "asOf": "2026-11-16",
         "history": [
           99.9,
@@ -270,7 +270,7 @@
           86.53,
           88.74,
           88.56,
-          89.41
+          88.75
         ],
         "source": "CNBC Market Data"
       },
@@ -283,9 +283,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3843.4,
-        "change": -42.9,
-        "changePct": -1.1,
+        "value": 3860.9,
+        "change": -25.4,
+        "changePct": -0.65,
         "asOf": "2026-11-16",
         "history": [
           4074.6,
@@ -302,7 +302,7 @@
           4000.5,
           3885.3,
           3886.3,
-          3843.4
+          3860.9
         ],
         "source": "CNBC Market Data"
       },
@@ -1643,9 +1643,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 5.139,
-      "change": -0.014,
-      "changePct": -0.27,
+      "value": 5.137,
+      "change": -0.016,
+      "changePct": -0.31,
       "asOf": "2026-11-16",
       "history": [
         4.993,
@@ -1662,7 +1662,7 @@
         5.0,
         5.103,
         5.153,
-        5.139
+        5.137
       ],
       "source": "CNBC Market Data"
     },
@@ -1675,9 +1675,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.47,
-      "change": 0.058,
-      "changePct": 0.06,
+      "value": 103.447,
+      "change": 0.035,
+      "changePct": 0.03,
       "asOf": "2026-11-16",
       "history": [
         102.194,
@@ -1694,7 +1694,7 @@
         103.173,
         103.412,
         103.411,
-        103.47
+        103.447
       ],
       "source": "CNBC Market Data"
     },
@@ -1707,9 +1707,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 89.41,
-      "change": 0.85,
-      "changePct": 0.96,
+      "value": 88.75,
+      "change": 0.19,
+      "changePct": 0.21,
       "asOf": "2026-11-16",
       "history": [
         99.9,
@@ -1726,7 +1726,7 @@
         86.53,
         88.74,
         88.56,
-        89.41
+        88.75
       ],
       "source": "CNBC Market Data"
     },
@@ -1739,9 +1739,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3843.4,
-      "change": -42.9,
-      "changePct": -1.1,
+      "value": 3860.9,
+      "change": -25.4,
+      "changePct": -0.65,
       "asOf": "2026-11-16",
       "history": [
         4074.6,
@@ -1758,7 +1758,7 @@
         4000.5,
         3885.3,
         3886.3,
-        3843.4
+        3860.9
       ],
       "source": "CNBC Market Data"
     },
@@ -3088,10 +3088,99 @@
     }
   },
   "leadIds": [
-    "s3018e13f",
-    "s7f040c29"
+    "s67958496",
+    "s3018e13f"
   ],
   "stories": [
+    {
+      "id": "s67958496",
+      "section": "deep",
+      "title": "台東海端鄉普發1萬振興禮金 補貼鄉民風災損失",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。不過台東縣海端鄉這個月由代表會通過「116年度振興禮金」預算,編列4500萬普發全鄉4305人每人1萬元現金,也是明年農曆年前發放,如果再加上行政院普發的1萬元,海端鄉民明年過年會有2萬元紅包,讓隔壁的關山鎮民非常羨慕。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835885",
+      "publishedAt": "2026-11-16T14:56:58+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301850/conversions/hKsCkKckbCoICQAqZSGu062LfKmyHG4nvKQ2wA1h-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策"
+      ],
+      "core_facts": [
+        {
+          "text": "不過台東縣海端鄉這個月由代表會通過「116年度振興禮金」預算,編列4500萬普發全鄉4305人每人1萬元現金,也是明年農曆年前發放,如果再加上行政院普發的1萬元,海端鄉民明年過年會有2萬元紅包,讓隔壁的關山鎮民非常羨慕。",
+          "metric": "4500萬",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "metric": "1萬",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "台東海端鄉普發1萬振興禮金 補貼鄉民風災損失",
+          "angle": "政策法規與公共治理",
+          "focus": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "excerpt": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "url": "https://news.pts.org.tw/article/835885",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "不過台東縣海端鄉這個月由代表會通過「116年度振興禮金」預算,編列4500萬普發全鄉4305人每人1萬元現金,也是明年農曆年前發放,如果再加上行政院普發的1萬元,海端鄉民明年過年會有2萬元紅包,讓隔壁的關山鎮民非常羨慕。",
+          "metric": "4500萬",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "metric": "1萬",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "台東海端鄉普發1萬振興禮金 補貼鄉民風災損失",
+          "angle": "政策法規與公共治理",
+          "focus": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "excerpt": "行政院規畫明(2027)年農曆年前普發全民1萬元現金,但還要等立法院通過明年總預算案才能發放。",
+          "url": "https://news.pts.org.tw/article/835885",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835885",
+          "headline": "台東海端鄉普發1萬振興禮金 補貼鄉民風災損失",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
     {
       "id": "s3018e13f",
       "section": "business_tech",
@@ -3195,7 +3284,124 @@
           "lang": "zh"
         }
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "id": "s3ebded94",
+      "section": "business_tech",
+      "title": "銀行本業持續優化存款結構,王道銀行前三季每股純益 0.8元,年成長逾五成",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中,合併稅後淨利、個體稅後淨利及每股稅後盈餘皆為上市以來同期歷史新高。王道銀行2026年前三季合併總資產為7,410億元,較2025年底成長6%;前三季合併淨收益為97.11億元,較去年同期成長27%;前三季合併稅後淨利38.25億元,較去年同期成長46%。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E6%9C%AC%E6%A5%AD%E6%8C%81%E7%BA%8C%E5%84%AA%E5%8C%96%E5%AD%98%E6%AC%BE%E7%B5%90%E6%A7%8B-%E7%8E%8B%E9%81%93%E9%8A%80%E8%A1%8C%E5%89%8D%E4%B8%89%E5%AD%A3eps-0-8%E5%85%83-%E5%B9%B4%E6%88%90%E9%95%B7%E9%80%BE%E4%BA%94%E6%88%90-074825247.html",
+      "publishedAt": "2026-11-16T15:48:25+08:00",
+      "imageUrl": null,
+      "imageCredit": null,
+      "score": 85,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 35,
+        "data": 20,
+        "durability": 4
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併",
+        "公共治理與結構轉型"
+      ],
+      "core_facts": [
+        {
+          "text": "在個體財報表現方面,王道銀行2026年前三季個體總資產為4,506億元,較2025年底成長8%,淨收益64.64億元,較去年同期成長24%;個體稅後淨利為23.67億元,較去年同期成長49%,每股盈餘(每股純益)為0.8元,較去年同期成長51%。",
+          "metric": "23.67億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "王道銀行2026年前三季合併總資產為7,410億元,較2025年底成長6%;前三季合併淨收益為97.11億元,較去年同期成長27%;前三季合併稅後淨利38.25億元,較去年同期成長46%。",
+          "metric": "38.25億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中,合併稅後淨利、個體稅後淨利及每股稅後盈餘皆為上市以來同期歷史新高。",
+          "metric": "23.67億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "銀行本業持續優化存款結構,王道銀行前三季每股純益 0.8元,年成長逾五成",
+          "angle": "資本預算與財報配置",
+          "focus": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中…",
+          "excerpt": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中…",
+          "url": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E6%9C%AC%E6%A5%AD%E6%8C%81%E7%BA%8C%E5%84%AA%E5%8C%96%E5%AD%98%E6%AC%BE%E7%B5%90%E6%A7%8B-%E7%8E%8B%E9%81%93%E9%8A%80%E8%A1%8C%E5%89%8D%E4%B8%89%E5%AD%A3eps-0-8%E5%85%83-%E5%B9%B4%E6%88%90%E9%95%B7%E9%80%BE%E4%BA%94%E6%88%90-074825247.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "在個體財報表現方面,王道銀行2026年前三季個體總資產為4,506億元,較2025年底成長8%,淨收益64.64億元,較去年同期成長24%;個體稅後淨利為23.67億元,較去年同期成長49%,每股盈餘(每股純益)為0.8元,較去年同期成長51%。",
+          "metric": "23.67億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "王道銀行2026年前三季合併總資產為7,410億元,較2025年底成長6%;前三季合併淨收益為97.11億元,較去年同期成長27%;前三季合併稅後淨利38.25億元,較去年同期成長46%。",
+          "metric": "38.25億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中,合併稅後淨利、個體稅後淨利及每股稅後盈餘皆為上市以來同期歷史新高。",
+          "metric": "23.67億元",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "銀行本業持續優化存款結構,王道銀行前三季每股純益 0.8元,年成長逾五成",
+          "angle": "資本預算與財報配置",
+          "focus": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中…",
+          "excerpt": "王道銀行(2897)今(16)日召開2026年度第三季線上法人說明會,2026年前三季合併淨收益為97.11億元,合併稅後淨利為38.25億元,個體淨收益為64.64億元,個體稅後淨利為23.67億元,每股盈餘(每股純益)為0.8元,較去年同期成長51%;其中…",
+          "url": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E6%9C%AC%E6%A5%AD%E6%8C%81%E7%BA%8C%E5%84%AA%E5%8C%96%E5%AD%98%E6%AC%BE%E7%B5%90%E6%A7%8B-%E7%8E%8B%E9%81%93%E9%8A%80%E8%A1%8C%E5%89%8D%E4%B8%89%E5%AD%A3eps-0-8%E5%85%83-%E5%B9%B4%E6%88%90%E9%95%B7%E9%80%BE%E4%BA%94%E6%88%90-074825247.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E6%9C%AC%E6%A5%AD%E6%8C%81%E7%BA%8C%E5%84%AA%E5%8C%96%E5%AD%98%E6%AC%BE%E7%B5%90%E6%A7%8B-%E7%8E%8B%E9%81%93%E9%8A%80%E8%A1%8C%E5%89%8D%E4%B8%89%E5%AD%A3eps-0-8%E5%85%83-%E5%B9%B4%E6%88%90%E9%95%B7%E9%80%BE%E4%BA%94%E6%88%90-074825247.html",
+          "headline": "銀行本業持續優化存款結構,王道銀行前三季每股純益 0.8元,年成長逾五成",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%A8%81%E5%AE%8F-kyq3%E7%8D%B2%E5%88%A9%E5%8B%95%E8%83%BD%E5%9B%9E%E6%BA%AB-%E5%89%8D%E4%B8%89%E5%AD%A3eps%E9%81%943-09%E5%85%83-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4q1-073734999.html",
+          "headline": "威宏-KYQ3獲利動能回溫,前三季每股純益達3.09元,訂單看到明年Q1",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E7%B4%99%E5%89%8D%E4%B8%89%E5%AD%A3eps-1-04%E5%85%83-q4%E5%B0%87%E8%AA%8D%E5%88%97%E8%A7%80%E9%9F%B3%E5%BB%A0%E5%87%BA%E5%94%AE%E6%8C%B9%E6%B3%A8-070857829.html",
+          "headline": "華紙前三季每股純益-1.04元,Q4將認列觀音廠出售挹注",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
     },
     {
       "id": "s7f040c29",
@@ -3206,7 +3412,7 @@
       "summary": "捷克爆發大規模示威,數十萬人走上街頭,抗議政府計畫改革公共媒體經費制度,擔心政府將藉由掌握財源,進一步影響公共媒體獨立性。主辦單位估計,這場示威吸引約35萬到40萬人參加,成為1989年天鵝絨革命以來,規模最大的示威活動之一。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835890",
-      "publishedAt": "2026-11-16T13:25:39+08:00",
+      "publishedAt": "2026-11-16T14:12:48+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/301820/conversions/jaGdsCl0Sgi5NCdecq4VMOuQ3Jz20H4nBAK7OC70-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 83,
@@ -3284,7 +3490,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "id": "s1eb01e7f",
@@ -3388,110 +3594,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 3
-    },
-    {
-      "id": "s878b4104",
-      "section": "deep",
-      "title": "俄烏和談未解僵局 歐能源危機加深內部分歧",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。但歐洲各國受到能源價格飆漲帶動通膨,持續引發街頭抗爭,讓主張緩和甚至停止制裁俄羅斯的政黨聲勢看漲。凸顯歐洲國家一方面缺乏天然氣取暖過冬,一方面在俄烏問題上愈來愈分歧的困境。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/835588",
-      "publishedAt": "2026-11-16T09:01:08+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/301647/conversions/tjkSID8tVajMN0PueN7FdSIWK4gQ9Xcs9vlXsjR1-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "公共治理與結構轉型"
-      ],
-      "core_facts": [
-        {
-          "text": "凸顯歐洲國家一方面缺乏天然氣取暖過冬,一方面在俄烏問題上愈來愈分歧的困境。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "但歐洲各國受到能源價格飆漲帶動通膨,持續引發街頭抗爭,讓主張緩和甚至停止制裁俄羅斯的政黨聲勢看漲。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "俄烏和談未解僵局 歐能源危機加深內部分歧",
-          "angle": "先進技術與算力規格",
-          "focus": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "excerpt": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "url": "https://news.pts.org.tw/article/835588",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "凸顯歐洲國家一方面缺乏天然氣取暖過冬,一方面在俄烏問題上愈來愈分歧的困境。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "但歐洲各國受到能源價格飆漲帶動通膨,持續引發街頭抗爭,讓主張緩和甚至停止制裁俄羅斯的政黨聲勢看漲。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "俄烏和談未解僵局 歐能源危機加深內部分歧",
-          "angle": "先進技術與算力規格",
-          "focus": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "excerpt": "由美國居間斡旋,在阿拉伯聯合大公國舉行的俄烏會談於當地時間11日結束,但除了擴大交換戰俘,交戰雙方在領土議題、安全架構等關鍵點上仍然沒有共識;另一方面,擔心在和談過程被邊緣化的歐盟,除了重申支持烏克蘭,也準備派兵在停戰後協助安保。",
-          "url": "https://news.pts.org.tw/article/835588",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/835588",
-          "headline": "俄烏和談未解僵局 歐能源危機加深內部分歧",
-          "lang": "zh"
-        }
-      ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "sc89e2c9d",
@@ -3594,7 +3697,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "s5ee81c2b",
@@ -3683,7 +3786,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "s9db68632",
@@ -3694,7 +3797,7 @@
       "summary": "九合一大選倒數2週,國民黨團力推普發現金2萬元,預計明(17)日邀集朝野協商,希望在20日三讀,在選前完成立法。民眾黨則主張應該要先釐清財源、建立法制化機制。而民進黨團質疑藍營是舉債發紅包。行政院祕書長張惇涵今日在立院受訪,引用蔣經國名言回應,不可以拿買醋的錢來買醬油,任何政府預算支出都必須有平衡跟均衡考量。且國民黨團不排除提出再修正動議,將普發現金法制化精神納入特別條例,並將主管機關改為國發會。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835894",
-      "publishedAt": "2026-11-16T13:27:58+08:00",
+      "publishedAt": "2026-11-16T14:13:27+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/301821/conversions/04XKkVGXMcQ8jUPBIVLm6Vh3Ylc1Xd27FSQwtAKk-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
@@ -3786,7 +3889,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "s825b422b",
@@ -3797,7 +3900,7 @@
       "summary": "外媒《彭博》報導,台灣檢方偵辦一起涉及130台輝達AI伺服器的走私案,並起訴一名張姓輝達主管。傳出輝達對此不滿,曾向台灣政府官員表達關切,甚至尋求台積電協助,但遭到婉拒。對此,行政院祕書長張惇涵回應,案件已進入司法程序,不方便評論。專家則認為,這起案件恐怕不是單一員工所為,不排除涉及跨境組織犯罪。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/835896",
-      "publishedAt": "2026-11-16T13:17:56+08:00",
+      "publishedAt": "2026-11-16T14:14:35+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/301818/conversions/cSjtzyo0ZUdkPWVcwNrVoPCBHxFXXS8KCY4FjtxH-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
@@ -3889,19 +3992,108 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
-      "id": "sbbce4003",
-      "section": "business_tech",
-      "title": "沛星Appier連兩季上修全年財測!Agentic AI助毛利率拼上61%,執行長揭台灣獨角獸「AI變現術」",
+      "id": "scd439dc9",
+      "section": "deep",
+      "title": "高雄家長疑拿安全帽打兒童 警方介入調查並通報權責機關",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。受惠AI提升營運效率,公司連兩季上修全年財測,預估營業利益年增97%。 沛星執行長游直翰指出,導入Agentic AI後,員工人均毛利年增45%。不同於傳統訂閱制,沛星採成果導向商模,透過AI改善客戶廣告投資報酬率,帶動雙方營收成長。他更透露,未來也將布局生成式AI服務的廣告投放市場。",
+      "summary": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。警方表示,經檢視影像有違反《兒少法》的疑慮,已要求當事人到案說明;家長解釋是因為當時男童持續奔跑、不聽勸阻,才會拿安全帽作勢揮打管教,已經照規定製作相關紀錄並通報權責機關。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/835883",
+      "publishedAt": "2026-11-16T14:39:17+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/301843/conversions/TTMMz5unovPYa2gCfbypr6O6z3QvoB4NwVOChlpu-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "公共治理與結構轉型"
+      ],
+      "core_facts": [
+        {
+          "text": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "警方表示,經檢視影像有違反《兒少法》的疑慮,已要求當事人到案說明;家長解釋是因為當時男童持續奔跑、不聽勸阻,才會拿安全帽作勢揮打管教,已經照規定製作相關紀錄並通報權責機關。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "高雄家長疑拿安全帽打兒童 警方介入調查並通報權責機關",
+          "angle": "深度調查與結構剖析",
+          "focus": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "excerpt": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "url": "https://news.pts.org.tw/article/835883",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "警方表示,經檢視影像有違反《兒少法》的疑慮,已要求當事人到案說明;家長解釋是因為當時男童持續奔跑、不聽勸阻,才會拿安全帽作勢揮打管教,已經照規定製作相關紀錄並通報權責機關。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "高雄家長疑拿安全帽打兒童 警方介入調查並通報權責機關",
+          "angle": "深度調查與結構剖析",
+          "focus": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "excerpt": "昨(15)日傍晚高雄有民眾行經前鎮區一處集中式住宅,發現有家長拿著安全帽揮打兒童,憂心這名兒童可能需要幫助。",
+          "url": "https://news.pts.org.tw/article/835883",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/835883",
+          "headline": "高雄家長疑拿安全帽打兒童 警方介入調查並通報權責機關",
+          "lang": "zh"
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "id": "s71a04514",
+      "section": "business_tech",
+      "title": "台股重挫2635.04點史上第2大跌點 台積電跌135元",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "黃仁勳辭輝達(Nvidia)執行長後,市場對AI前景產生疑慮,美股費城半導體指數重挫,台股今天跌勢更深,收在最低點,重挫2635.04點,為收盤第2大跌點;不但權值股下殺,載板、印刷電路板、測試介面、散熱股、高價股全面弱勢,跌停家數逾百檔。加權指數終場收在41040.08點,跌2635.04點,跌幅6.03%,成交金額新台幣8450.56億元。權值股台積電(2330)收2215元,重挫135元,為史上第2大,跌幅則達5.74%;聯發科(2454)收3,795元,跌325元,跌幅達7.89%;台達電(2308)收在跌停板1120元;鴻海(2317)收218.5元,跌22.5元,重挫9.34%。",
       "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.news.yahoo.com/%E6%B2%9B%E6%98%9Fappier%E9%80%A3%E5%85%A9%E5%AD%A3%E4%B8%8A%E4%BF%AE%E5%85%A8%E5%B9%B4%E8%B2%A1%E6%B8%AC-agentic-ai%E5%8A%A9%E6%AF%9B%E5%88%A9%E7%8E%87%E6%8B%BC%E4%B8%8A61-%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%8F%AD%E5%8F%B0%E7%81%A3%E7%8D%A8%E8%A7%92%E7%8D%B8-ai%E8%AE%8A%E7%8F%BE%E8%A1%93-060001926.html",
-      "publishedAt": "2026-11-16T14:00:01+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/1383d230b2973c3844c0676815b4da27aa2897b5bd93d8d5b1403169748c4dd6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fbusinesstoday.com.tw%2F07bc305b616f4fdda5acfeb246fe7814.jpg",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2635-04%E9%BB%9E%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C135%E5%85%83-060028028.html",
+      "publishedAt": "2026-11-16T15:08:17+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/a4757393304132cee697f67794e9f8ce0775ea2f04f10b515f7f89a08d92dbb0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Fctwant_com_582%2Fe6203fd083cbe0d0e88385b8891ecad7.jpg",
       "imageCredit": "工商時報 (Yahoo 聯播)",
       "score": 80,
       "scoreBreakdown": {
@@ -3912,27 +4104,27 @@
       },
       "mediaCount": 1,
       "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策"
+        "利率與法規政策",
+        "技術與算力突破"
       ],
       "core_facts": [
         {
-          "text": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "metric": "104.7%",
+          "text": "權值股台積電(2330)收2215元,重挫135元,為史上第2大,跌幅則達5.74%;聯發科(2454)收3,795元,跌325元,跌幅達7.89%;台達電(2308)收在跌停板1120元;鴻海(2317)收218.5元,跌22.5元,重挫9.34%。",
+          "metric": "218.5元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "受惠AI提升營運效率,公司連兩季上修全年財測,預估營業利益年增97%。",
-          "metric": "97%",
+          "text": "代表中小型股的櫃買指數同步重挫23.29點,收在319.12點,跌幅達6.80%,成交金額1727.6億元,上市櫃合計成交金額達1兆178.16億元。",
+          "metric": "1727.6億元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "沛星執行長游直翰指出,導入Agentic AI後,員工人均毛利年增45%。",
-          "metric": "45%",
+          "text": "台積電(2330)今以2,340元開出,終場收在2,215元、大跌135元。",
+          "metric": "2215元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
@@ -3941,33 +4133,33 @@
       "media_perspectives": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "沛星Appier連兩季上修全年財測!Agentic AI助毛利率拼上61%,執行長揭台灣獨角獸「AI變現術」",
-          "angle": "資本預算與財報配置",
-          "focus": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "excerpt": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "url": "https://tw.news.yahoo.com/%E6%B2%9B%E6%98%9Fappier%E9%80%A3%E5%85%A9%E5%AD%A3%E4%B8%8A%E4%BF%AE%E5%85%A8%E5%B9%B4%E8%B2%A1%E6%B8%AC-agentic-ai%E5%8A%A9%E6%AF%9B%E5%88%A9%E7%8E%87%E6%8B%BC%E4%B8%8A61-%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%8F%AD%E5%8F%B0%E7%81%A3%E7%8D%A8%E8%A7%92%E7%8D%B8-ai%E8%AE%8A%E7%8F%BE%E8%A1%93-060001926.html",
+          "headline": "史上第2大跌點!台股重挫2635.04點 台積電暴跌135元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股今日早盤以下跌163點開出,加權指數開低走低,盤中最高來到43512點,最低41040點,終場收在41040.08點,成交值約8451億元,為史上第2大單日跌點,僅次於今年7月單日下殺的2953.",
+          "excerpt": "台股今日早盤以下跌163點開出,加權指數開低走低,盤中最高來到43512點,最低41040點,終場收在41040.08點,成交值約8451億元,為史上第2大單日跌點,僅次於今年7月單日下殺的2953.",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2635-04%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9A%B4%E8%B7%8C135%E5%85%83-070817141.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "metric": "104.7%",
+          "text": "權值股台積電(2330)收2215元,重挫135元,為史上第2大,跌幅則達5.74%;聯發科(2454)收3,795元,跌325元,跌幅達7.89%;台達電(2308)收在跌停板1120元;鴻海(2317)收218.5元,跌22.5元,重挫9.34%。",
+          "metric": "218.5元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "受惠AI提升營運效率,公司連兩季上修全年財測,預估營業利益年增97%。",
-          "metric": "97%",
+          "text": "代表中小型股的櫃買指數同步重挫23.29點,收在319.12點,跌幅達6.80%,成交金額1727.6億元,上市櫃合計成交金額達1兆178.16億元。",
+          "metric": "1727.6億元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "沛星執行長游直翰指出,導入Agentic AI後,員工人均毛利年增45%。",
-          "metric": "45%",
+          "text": "台積電(2330)今以2,340元開出,終場收在2,215元、大跌135元。",
+          "metric": "2215元",
           "confirmed_by": [
             "工商時報 (Yahoo 聯播)"
           ]
@@ -3976,11 +4168,11 @@
       "mediaPerspectives": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "headline": "沛星Appier連兩季上修全年財測!Agentic AI助毛利率拼上61%,執行長揭台灣獨角獸「AI變現術」",
-          "angle": "資本預算與財報配置",
-          "focus": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "excerpt": "AI即服務公司沛星(Appier)週五(11/13)公布第三季財報,營收139億日圓、年增21.8%,毛利率創新高達61.3%;營業利益年增104.7%至21億日圓。",
-          "url": "https://tw.news.yahoo.com/%E6%B2%9B%E6%98%9Fappier%E9%80%A3%E5%85%A9%E5%AD%A3%E4%B8%8A%E4%BF%AE%E5%85%A8%E5%B9%B4%E8%B2%A1%E6%B8%AC-agentic-ai%E5%8A%A9%E6%AF%9B%E5%88%A9%E7%8E%87%E6%8B%BC%E4%B8%8A61-%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%8F%AD%E5%8F%B0%E7%81%A3%E7%8D%A8%E8%A7%92%E7%8D%B8-ai%E8%AE%8A%E7%8F%BE%E8%A1%93-060001926.html",
+          "headline": "史上第2大跌點!台股重挫2635.04點 台積電暴跌135元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股今日早盤以下跌163點開出,加權指數開低走低,盤中最高來到43512點,最低41040點,終場收在41040.08點,成交值約8451億元,為史上第2大單日跌點,僅次於今年7月單日下殺的2953.",
+          "excerpt": "台股今日早盤以下跌163點開出,加權指數開低走低,盤中最高來到43512點,最低41040點,終場收在41040.08點,成交值約8451億元,為史上第2大單日跌點,僅次於今年7月單日下殺的2953.",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2635-04%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9A%B4%E8%B7%8C135%E5%85%83-070817141.html",
           "lang": "zh"
         }
       ],
@@ -3988,19 +4180,55 @@
       "sources": [
         {
           "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E6%B2%9B%E6%98%9Fappier%E9%80%A3%E5%85%A9%E5%AD%A3%E4%B8%8A%E4%BF%AE%E5%85%A8%E5%B9%B4%E8%B2%A1%E6%B8%AC-agentic-ai%E5%8A%A9%E6%AF%9B%E5%88%A9%E7%8E%87%E6%8B%BC%E4%B8%8A61-%E5%9F%B7%E8%A1%8C%E9%95%B7%E6%8F%AD%E5%8F%B0%E7%81%A3%E7%8D%A8%E8%A7%92%E7%8D%B8-ai%E8%AE%8A%E7%8F%BE%E8%A1%93-060001926.html",
-          "headline": "沛星Appier連兩季上修全年財測!Agentic AI助毛利率拼上61%,執行長揭台灣獨角獸「AI變現術」",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2635-04%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9A%B4%E8%B7%8C135%E5%85%83-070817141.html",
+          "headline": "史上第2大跌點!台股重挫2635.04點 台積電暴跌135元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%A4%A7%E8%B7%8C2635%E9%BB%9E%E5%89%B5%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E5%96%AE%E6%97%A5%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%8B%E8%B7%8C135%E5%85%83%E8%87%B32215%E5%85%83-065200416.html",
+          "headline": "台股大跌2635點創史上第2大單日跌點 台積電下跌135元至2215元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9A%B4%E8%B7%8C2635%E9%BB%9E%E5%AF%AB%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%8C%AB%E9%80%BE5-%E5%8F%B0%E9%81%94%E9%9B%BB%E9%8E%96%E8%B7%8C%E5%81%9C-%E4%B8%8A%E5%B8%82%E6%AB%83170%E6%AA%94%E5%80%8B%E8%82%A1%E6%85%98%E4%BA%AE%E7%B6%A0%E7%87%88-060500698.html",
+          "headline": "台股暴跌2635點寫史上第二大跌點!台積電挫逾5%、台達電鎖跌停 上市櫃170檔個股慘亮綠燈",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB2635-04%E9%BB%9E%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C135%E5%85%83-060028028.html",
+          "headline": "台股重挫2635.04點史上第2大跌點 台積電跌135元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%BA%8C%E6%85%98-%E5%8F%B0%E8%82%A1%E7%B5%82%E5%A0%B4%E5%B4%A9%E8%B7%8C2635%E9%BB%9E-%E5%A4%B1%E5%AE%884%E8%90%AC2-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B62215%E5%85%83-060027659.html",
+          "headline": "史上第二慘!台股終場崩跌2635點「失守4萬2」 台積電收2215元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%87%8D%E6%91%94135%E5%85%83-%E5%8F%B0%E8%82%A1%E5%B4%A92635%E9%BB%9E%E5%8F%B2%E4%B8%8A%E7%AC%AC2%E6%85%98-%E8%B3%87%E5%AE%89%E6%A6%82%E5%BF%B5%E5%8A%9B%E6%8A%97%E7%B6%A0%E6%B5%B7-055100308.html",
+          "headline": "台股收盤/台積電重摔135元!台股崩2635點史上第2慘 資安概念力抗綠海",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B2%E4%B8%8A%E7%AC%AC%E4%BA%8C%E6%85%98-%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4%E5%B4%A92635%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%AE%BA135%E5%85%83%E5%8D%8A%E6%A0%B9%E8%B7%8C%E5%81%9C-054510782.html",
+          "headline": "史上第二慘!台股收盤崩2635點 台積電殺135元半根跌停",
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 11
     }
   ],
   "stats": {
-    "clusters": 240,
-    "passed": 9,
-    "below_threshold": 231,
-    "articlesAnalysed": 267
+    "clusters": 235,
+    "passed": 11,
+    "below_threshold": 224,
+    "articlesAnalysed": 268
   },
   "sourcesStatus": [
     {
@@ -4009,7 +4237,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 55,
+      "count": 52,
       "error": null
     },
     {
@@ -4018,7 +4246,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 79,
+      "count": 80,
       "error": null
     },
     {
@@ -4036,7 +4264,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 17,
+      "count": 16,
       "error": null
     },
     {
@@ -4045,7 +4273,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 40,
+      "count": 39,
       "error": null
     },
     {
@@ -4072,7 +4300,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 22,
+      "count": 21,
       "error": null
     }
   ]
