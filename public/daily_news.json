@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "edition": {
-    "key": "evening",
-    "label": "晚報版 16:00",
-    "name": "晚報版",
-    "scheduledTime": "16:00"
+    "key": "morning",
+    "label": "晨報版 07:30",
+    "name": "晨報版",
+    "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-19T01:37:22+08:00",
-  "updatedAt": "2026-11-19 01:37",
+  "generatedAt": "2026-11-19T07:30:18+08:00",
+  "updatedAt": "2026-11-19 07:30",
   "date": "2026-11-19",
   "weekday": "星期四",
   "dataMode": "live",
@@ -29,9 +29,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.066,
-        "change": -0.037,
-        "changePct": -0.73,
+        "value": 5.07,
+        "change": 0.004,
+        "changePct": 0.08,
         "asOf": "2026-11-18",
         "history": [
           4.989,
@@ -48,7 +48,7 @@
           5.153,
           5.123,
           5.103,
-          5.066
+          5.07
         ],
         "source": "CNBC Market Data"
       },
@@ -61,9 +61,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.789,
-        "change": 0.304,
-        "changePct": 0.29,
+        "value": 103.863,
+        "change": 0.0,
+        "changePct": 0.0,
         "asOf": "2026-11-18",
         "history": [
           101.879,
@@ -80,7 +80,7 @@
           103.411,
           103.549,
           103.485,
-          103.789
+          103.863
         ],
         "source": "CNBC Market Data"
       },
@@ -93,9 +93,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 82.48,
-        "change": -3.53,
-        "changePct": -4.1,
+        "value": 82.96,
+        "change": -0.3,
+        "changePct": -0.36,
         "asOf": "2026-11-18",
         "history": [
           102.0,
@@ -112,7 +112,7 @@
           88.56,
           85.72,
           86.01,
-          82.48
+          82.96
         ],
         "source": "CNBC Market Data"
       },
@@ -125,9 +125,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3750.8,
-        "change": -113.4,
-        "changePct": -2.93,
+        "value": 3736.7,
+        "change": -5.2,
+        "changePct": -0.14,
         "asOf": "2026-11-18",
         "history": [
           4031.4,
@@ -144,7 +144,7 @@
           3886.3,
           3853.0,
           3864.2,
-          3750.8
+          3736.7
         ],
         "source": "CNBC Market Data"
       },
@@ -187,9 +187,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 5.066,
-        "change": -0.037,
-        "changePct": -0.73,
+        "value": 5.07,
+        "change": 0.004,
+        "changePct": 0.08,
         "asOf": "2026-11-18",
         "history": [
           4.989,
@@ -206,7 +206,7 @@
           5.153,
           5.123,
           5.103,
-          5.066
+          5.07
         ],
         "source": "CNBC Market Data"
       },
@@ -219,9 +219,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.789,
-        "change": 0.304,
-        "changePct": 0.29,
+        "value": 103.863,
+        "change": 0.0,
+        "changePct": 0.0,
         "asOf": "2026-11-18",
         "history": [
           101.879,
@@ -238,7 +238,7 @@
           103.411,
           103.549,
           103.485,
-          103.789
+          103.863
         ],
         "source": "CNBC Market Data"
       },
@@ -251,9 +251,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 82.48,
-        "change": -3.53,
-        "changePct": -4.1,
+        "value": 82.96,
+        "change": -0.3,
+        "changePct": -0.36,
         "asOf": "2026-11-18",
         "history": [
           102.0,
@@ -270,7 +270,7 @@
           88.56,
           85.72,
           86.01,
-          82.48
+          82.96
         ],
         "source": "CNBC Market Data"
       },
@@ -283,9 +283,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3750.8,
-        "change": -113.4,
-        "changePct": -2.93,
+        "value": 3736.7,
+        "change": -5.2,
+        "changePct": -0.14,
         "asOf": "2026-11-18",
         "history": [
           4031.4,
@@ -302,7 +302,7 @@
           3886.3,
           3853.0,
           3864.2,
-          3750.8
+          3736.7
         ],
         "source": "CNBC Market Data"
       },
@@ -337,258 +337,260 @@
     ],
     "market_focus": [
       {
-        "id": "twii",
-        "label": "加權指數",
-        "symbol": "^TWII",
+        "id": "sp500",
+        "label": "S&P 500",
+        "symbol": "^GSPC",
         "group": "index",
-        "market": "tw",
+        "market": "us",
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 40194.91,
-        "change": 102.8,
-        "changePct": 0.26,
+        "value": 7323.63,
+        "change": -16.9,
+        "changePct": -0.23,
         "asOf": "2026-11-18",
         "history": [
-          46368.33,
-          45211.83,
-          44920.14,
-          43307.54,
-          42948.91,
-          41574.72,
-          39701.64,
-          41661.7,
-          42711.92,
-          44257.15,
-          43091.87,
-          43675.12,
-          41040.08,
-          40092.11,
-          40194.91
+          7720.39,
+          7580.07,
+          7541.4,
+          7568.92,
+          7688.62,
+          7353.73,
+          7376.86,
+          7549.94,
+          7520.93,
+          7619.38,
+          7592.4,
+          7561.67,
+          7416.59,
+          7340.53,
+          7323.63
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
       },
       {
-        "id": "twoii",
-        "label": "櫃買指數",
-        "symbol": "^TWOII",
+        "id": "nasdaq",
+        "label": "那斯達克指數",
+        "symbol": "^IXIC",
         "group": "index",
-        "market": "tw",
+        "market": "us",
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 307.55,
-        "change": 0.94,
-        "changePct": 0.31,
+        "value": 24429.885,
+        "change": 101.502,
+        "changePct": 0.42,
         "asOf": "2026-11-18",
         "history": [
-          369.24,
-          345.52,
-          343.5,
-          321.47,
-          304.02,
-          321.97,
-          332.97,
-          344.11,
-          335.73,
-          342.41,
-          319.12,
-          306.61,
-          307.55
+          26184.724,
+          25436.999,
+          25164.363,
+          25372.009,
+          25736.513,
+          24314.997,
+          24579.425,
+          25253.139,
+          25065.874,
+          25466.189,
+          25366.093,
+          25136.273,
+          24509.758,
+          24328.383,
+          24429.885
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
       },
       {
-        "id": "0050",
-        "label": "元大台灣50",
-        "symbol": "0050.TW",
-        "group": "stock",
-        "market": "tw",
-        "unit": "元",
+        "id": "sox",
+        "label": "費城半導體指數",
+        "symbol": "^SOX",
+        "group": "index",
+        "market": "us",
+        "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 94.1,
-        "change": 0.1,
-        "changePct": 0.11,
+        "value": 9652.797,
+        "change": 9.919,
+        "changePct": 0.1,
         "asOf": "2026-11-18",
         "history": [
-          107.25,
-          104.95,
-          104.1,
-          100.6,
-          99.85,
-          97.15,
-          92.5,
-          97.45,
-          99.7,
-          103.2,
-          100.95,
-          102.5,
-          96.45,
-          94.0,
-          94.1
+          11518.199,
+          10688.8,
+          10328.329,
+          10600.396,
+          10268.654,
+          9011.137,
+          9390.25,
+          10033.933,
+          9998.33,
+          10564.111,
+          10506.674,
+          10146.323,
+          9610.652,
+          9642.878,
+          9652.797
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
       },
       {
-        "id": "006208",
-        "label": "富邦台50",
-        "symbol": "006208.TW",
-        "group": "stock",
-        "market": "tw",
-        "unit": "元",
+        "id": "dji",
+        "label": "道瓊工業指數",
+        "symbol": "^DJI",
+        "group": "index",
+        "market": "us",
+        "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 212.0,
-        "change": 0.1,
-        "changePct": 0.05,
+        "value": 50198.17,
+        "change": -561.25,
+        "changePct": -1.11,
         "asOf": "2026-11-18",
         "history": [
-          245.75,
-          240.75,
-          238.65,
-          230.55,
-          228.55,
-          222.55,
-          210.1,
-          223.6,
-          228.9,
-          236.6,
-          231.95,
-          235.05,
-          220.85,
-          211.9,
-          212.0
+          52342.56,
+          51770.31,
+          51983.98,
+          51786.72,
+          53356.12,
+          51523.06,
+          51285.73,
+          52389.75,
+          52231.89,
+          52486.49,
+          52297.09,
+          52347.55,
+          51608.17,
+          50759.42,
+          50198.17
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
       },
       {
-        "id": "2330",
-        "label": "台積電",
-        "symbol": "2330.TW",
+        "id": "tsm",
+        "label": "台積電 ADR",
+        "symbol": "TSM",
         "group": "stock",
-        "market": "tw",
-        "unit": "元",
-        "digits": 0,
-        "status": "ok",
-        "value": 2175.0,
-        "change": 5.0,
-        "changePct": 0.23,
-        "asOf": "2026-11-18",
-        "history": [
-          2415.0,
-          2370.0,
-          2330.0,
-          2295.0,
-          2260.0,
-          2240.0,
-          2135.0,
-          2235.0,
-          2285.0,
-          2395.0,
-          2340.0,
-          2350.0,
-          2215.0,
-          2170.0,
-          2175.0
-        ],
-        "source": "TWSE / TPEx"
-      },
-      {
-        "id": "2303",
-        "label": "聯電",
-        "symbol": "2303.TW",
-        "group": "stock",
-        "market": "tw",
-        "unit": "元",
+        "market": "us",
+        "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 93.0,
-        "change": 0.6,
-        "changePct": 0.65,
+        "value": 362.62,
+        "change": 2.93,
+        "changePct": 0.81,
         "asOf": "2026-11-18",
         "history": [
-          115.5,
-          111.5,
-          110.0,
-          103.0,
-          105.5,
-          98.4,
-          92.0,
-          96.7,
-          100.5,
-          104.0,
-          101.0,
-          101.5,
-          95.2,
-          92.4,
-          93.0
+          431.81,
+          406.13,
+          398.63,
+          404.8,
+          395.75,
+          353.1,
+          375.44,
+          388.62,
+          396.48,
+          413.35,
+          405.49,
+          398.73,
+          373.45,
+          359.69,
+          362.62
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
       },
       {
-        "id": "2454",
-        "label": "聯發科",
-        "symbol": "2454.TW",
+        "id": "nvda",
+        "label": "輝達 NVIDIA",
+        "symbol": "NVDA",
         "group": "stock",
-        "market": "tw",
-        "unit": "元",
-        "digits": 0,
-        "status": "ok",
-        "value": 3940.0,
-        "change": 100.0,
-        "changePct": 2.6,
-        "asOf": "2026-11-18",
-        "history": [
-          4045.0,
-          3915.0,
-          3970.0,
-          3675.0,
-          3715.0,
-          3460.0,
-          3390.0,
-          3725.0,
-          3830.0,
-          3990.0,
-          3850.0,
-          4120.0,
-          3795.0,
-          3840.0,
-          3940.0
-        ],
-        "source": "TWSE / TPEx"
-      },
-      {
-        "id": "2317",
-        "label": "鴻海",
-        "symbol": "2317.TW",
-        "group": "stock",
-        "market": "tw",
-        "unit": "元",
+        "market": "us",
+        "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 221.0,
-        "change": 2.0,
-        "changePct": 0.91,
+        "value": 150.96,
+        "change": -4.5,
+        "changePct": -2.89,
         "asOf": "2026-11-18",
         "history": [
-          248.0,
-          245.5,
-          251.0,
-          245.5,
-          240.0,
-          235.0,
-          224.5,
-          239.0,
-          241.5,
-          242.0,
-          240.0,
-          241.0,
-          218.5,
-          219.0,
-          221.0
+          213.66,
+          204.64,
+          202.06,
+          206.69,
+          200.13,
+          181.6,
+          186.64,
+          178.67,
+          168.89,
+          173.73,
+          166.19,
+          162.85,
+          156.14,
+          155.46,
+          150.96
         ],
-        "source": "TWSE / TPEx"
+        "source": "CNBC Market Data"
+      },
+      {
+        "id": "aapl",
+        "label": "蘋果 Apple",
+        "symbol": "AAPL",
+        "group": "stock",
+        "market": "us",
+        "unit": "美元",
+        "digits": 2,
+        "status": "ok",
+        "value": 352.45,
+        "change": 0.54,
+        "changePct": 0.15,
+        "asOf": "2026-11-18",
+        "history": [
+          348.91,
+          344.63,
+          338.32,
+          331.9,
+          349.51,
+          344.17,
+          342.37,
+          350.69,
+          348.51,
+          355.63,
+          354.88,
+          356.27,
+          352.78,
+          351.91,
+          352.45
+        ],
+        "source": "CNBC Market Data"
+      },
+      {
+        "id": "tsla",
+        "label": "特斯拉 Tesla",
+        "symbol": "TSLA",
+        "group": "stock",
+        "market": "us",
+        "unit": "美元",
+        "digits": 2,
+        "status": "ok",
+        "value": 383.72,
+        "change": 3.61,
+        "changePct": 0.95,
+        "asOf": "2026-11-18",
+        "history": [
+          403.3,
+          399.81,
+          403.82,
+          398.5,
+          385.19,
+          343.69,
+          358.22,
+          378.05,
+          379.78,
+          390.84,
+          397.45,
+          390.22,
+          379.74,
+          380.11,
+          383.72
+        ],
+        "source": "CNBC Market Data"
       }
     ],
     "edition_markets": {
@@ -607,9 +609,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 7340.98,
-            "change": 0.45,
-            "changePct": 0.01,
+            "value": 7323.63,
+            "change": -16.9,
+            "changePct": -0.23,
             "asOf": "2026-11-18",
             "history": [
               7720.39,
@@ -626,7 +628,7 @@
               7561.67,
               7416.59,
               7340.53,
-              7340.98
+              7323.63
             ],
             "source": "CNBC Market Data"
           },
@@ -639,9 +641,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 24456.371,
-            "change": 127.988,
-            "changePct": 0.53,
+            "value": 24429.885,
+            "change": 101.502,
+            "changePct": 0.42,
             "asOf": "2026-11-18",
             "history": [
               26184.724,
@@ -658,7 +660,7 @@
               25136.273,
               24509.758,
               24328.383,
-              24456.371
+              24429.885
             ],
             "source": "CNBC Market Data"
           },
@@ -671,9 +673,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 9655.116,
-            "change": 12.238,
-            "changePct": 0.13,
+            "value": 9652.797,
+            "change": 9.919,
+            "changePct": 0.1,
             "asOf": "2026-11-18",
             "history": [
               11518.199,
@@ -690,7 +692,7 @@
               10146.323,
               9610.652,
               9642.878,
-              9655.116
+              9652.797
             ],
             "source": "CNBC Market Data"
           },
@@ -703,9 +705,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 50383.98,
-            "change": -375.44,
-            "changePct": -0.74,
+            "value": 50198.17,
+            "change": -561.25,
+            "changePct": -1.11,
             "asOf": "2026-11-18",
             "history": [
               52342.56,
@@ -722,7 +724,7 @@
               52347.55,
               51608.17,
               50759.42,
-              50383.98
+              50198.17
             ],
             "source": "CNBC Market Data"
           }
@@ -737,9 +739,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 361.01,
-            "change": 1.32,
-            "changePct": 0.37,
+            "value": 362.62,
+            "change": 2.93,
+            "changePct": 0.81,
             "asOf": "2026-11-18",
             "history": [
               431.81,
@@ -756,7 +758,7 @@
               398.73,
               373.45,
               359.69,
-              361.01
+              362.62
             ],
             "source": "CNBC Market Data"
           },
@@ -769,9 +771,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 152.24,
-            "change": -3.22,
-            "changePct": -2.07,
+            "value": 150.96,
+            "change": -4.5,
+            "changePct": -2.89,
             "asOf": "2026-11-18",
             "history": [
               213.66,
@@ -788,7 +790,7 @@
               162.85,
               156.14,
               155.46,
-              152.24
+              150.96
             ],
             "source": "CNBC Market Data"
           },
@@ -801,9 +803,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 353.58,
-            "change": 1.67,
-            "changePct": 0.47,
+            "value": 352.45,
+            "change": 0.54,
+            "changePct": 0.15,
             "asOf": "2026-11-18",
             "history": [
               348.91,
@@ -820,7 +822,7 @@
               356.27,
               352.78,
               351.91,
-              353.58
+              352.45
             ],
             "source": "CNBC Market Data"
           },
@@ -833,9 +835,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 384.74,
-            "change": 4.63,
-            "changePct": 1.22,
+            "value": 383.72,
+            "change": 3.61,
+            "changePct": 0.95,
             "asOf": "2026-11-18",
             "history": [
               403.3,
@@ -852,7 +854,7 @@
               390.22,
               379.74,
               380.11,
-              384.74
+              383.72
             ],
             "source": "CNBC Market Data"
           }
@@ -867,9 +869,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 7340.98,
-            "change": 0.45,
-            "changePct": 0.01,
+            "value": 7323.63,
+            "change": -16.9,
+            "changePct": -0.23,
             "asOf": "2026-11-18",
             "history": [
               7720.39,
@@ -886,7 +888,7 @@
               7561.67,
               7416.59,
               7340.53,
-              7340.98
+              7323.63
             ],
             "source": "CNBC Market Data"
           },
@@ -899,9 +901,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 24456.371,
-            "change": 127.988,
-            "changePct": 0.53,
+            "value": 24429.885,
+            "change": 101.502,
+            "changePct": 0.42,
             "asOf": "2026-11-18",
             "history": [
               26184.724,
@@ -918,7 +920,7 @@
               25136.273,
               24509.758,
               24328.383,
-              24456.371
+              24429.885
             ],
             "source": "CNBC Market Data"
           },
@@ -931,9 +933,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 9655.116,
-            "change": 12.238,
-            "changePct": 0.13,
+            "value": 9652.797,
+            "change": 9.919,
+            "changePct": 0.1,
             "asOf": "2026-11-18",
             "history": [
               11518.199,
@@ -950,7 +952,7 @@
               10146.323,
               9610.652,
               9642.878,
-              9655.116
+              9652.797
             ],
             "source": "CNBC Market Data"
           },
@@ -963,9 +965,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 50383.98,
-            "change": -375.44,
-            "changePct": -0.74,
+            "value": 50198.17,
+            "change": -561.25,
+            "changePct": -1.11,
             "asOf": "2026-11-18",
             "history": [
               52342.56,
@@ -982,7 +984,7 @@
               52347.55,
               51608.17,
               50759.42,
-              50383.98
+              50198.17
             ],
             "source": "CNBC Market Data"
           },
@@ -995,9 +997,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 361.01,
-            "change": 1.32,
-            "changePct": 0.37,
+            "value": 362.62,
+            "change": 2.93,
+            "changePct": 0.81,
             "asOf": "2026-11-18",
             "history": [
               431.81,
@@ -1014,7 +1016,7 @@
               398.73,
               373.45,
               359.69,
-              361.01
+              362.62
             ],
             "source": "CNBC Market Data"
           },
@@ -1027,9 +1029,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 152.24,
-            "change": -3.22,
-            "changePct": -2.07,
+            "value": 150.96,
+            "change": -4.5,
+            "changePct": -2.89,
             "asOf": "2026-11-18",
             "history": [
               213.66,
@@ -1046,7 +1048,7 @@
               162.85,
               156.14,
               155.46,
-              152.24
+              150.96
             ],
             "source": "CNBC Market Data"
           },
@@ -1059,9 +1061,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 353.58,
-            "change": 1.67,
-            "changePct": 0.47,
+            "value": 352.45,
+            "change": 0.54,
+            "changePct": 0.15,
             "asOf": "2026-11-18",
             "history": [
               348.91,
@@ -1078,7 +1080,7 @@
               356.27,
               352.78,
               351.91,
-              353.58
+              352.45
             ],
             "source": "CNBC Market Data"
           },
@@ -1091,9 +1093,9 @@
             "unit": "美元",
             "digits": 2,
             "status": "ok",
-            "value": 384.74,
-            "change": 4.63,
-            "changePct": 1.22,
+            "value": 383.72,
+            "change": 3.61,
+            "changePct": 0.95,
             "asOf": "2026-11-18",
             "history": [
               403.3,
@@ -1110,7 +1112,7 @@
               390.22,
               379.74,
               380.11,
-              384.74
+              383.72
             ],
             "source": "CNBC Market Data"
           }
@@ -1637,7 +1639,7 @@
         ]
       }
     },
-    "activeEdition": "evening"
+    "activeEdition": "morning"
   },
   "macro_indicators": [
     {
@@ -1649,9 +1651,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 5.066,
-      "change": -0.037,
-      "changePct": -0.73,
+      "value": 5.07,
+      "change": 0.004,
+      "changePct": 0.08,
       "asOf": "2026-11-18",
       "history": [
         4.989,
@@ -1668,7 +1670,7 @@
         5.153,
         5.123,
         5.103,
-        5.066
+        5.07
       ],
       "source": "CNBC Market Data"
     },
@@ -1681,9 +1683,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.789,
-      "change": 0.304,
-      "changePct": 0.29,
+      "value": 103.863,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-18",
       "history": [
         101.879,
@@ -1700,7 +1702,7 @@
         103.411,
         103.549,
         103.485,
-        103.789
+        103.863
       ],
       "source": "CNBC Market Data"
     },
@@ -1713,9 +1715,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 82.48,
-      "change": -3.53,
-      "changePct": -4.1,
+      "value": 82.96,
+      "change": -0.3,
+      "changePct": -0.36,
       "asOf": "2026-11-18",
       "history": [
         102.0,
@@ -1732,7 +1734,7 @@
         88.56,
         85.72,
         86.01,
-        82.48
+        82.96
       ],
       "source": "CNBC Market Data"
     },
@@ -1745,9 +1747,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3750.8,
-      "change": -113.4,
-      "changePct": -2.93,
+      "value": 3736.7,
+      "change": -5.2,
+      "changePct": -0.14,
       "asOf": "2026-11-18",
       "history": [
         4031.4,
@@ -1764,7 +1766,7 @@
         3886.3,
         3853.0,
         3864.2,
-        3750.8
+        3736.7
       ],
       "source": "CNBC Market Data"
     },
@@ -1799,258 +1801,260 @@
   ],
   "market_focus": [
     {
-      "id": "twii",
-      "label": "加權指數",
-      "symbol": "^TWII",
+      "id": "sp500",
+      "label": "S&P 500",
+      "symbol": "^GSPC",
       "group": "index",
-      "market": "tw",
+      "market": "us",
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 40194.91,
-      "change": 102.8,
-      "changePct": 0.26,
+      "value": 7323.63,
+      "change": -16.9,
+      "changePct": -0.23,
       "asOf": "2026-11-18",
       "history": [
-        46368.33,
-        45211.83,
-        44920.14,
-        43307.54,
-        42948.91,
-        41574.72,
-        39701.64,
-        41661.7,
-        42711.92,
-        44257.15,
-        43091.87,
-        43675.12,
-        41040.08,
-        40092.11,
-        40194.91
+        7720.39,
+        7580.07,
+        7541.4,
+        7568.92,
+        7688.62,
+        7353.73,
+        7376.86,
+        7549.94,
+        7520.93,
+        7619.38,
+        7592.4,
+        7561.67,
+        7416.59,
+        7340.53,
+        7323.63
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
     },
     {
-      "id": "twoii",
-      "label": "櫃買指數",
-      "symbol": "^TWOII",
+      "id": "nasdaq",
+      "label": "那斯達克指數",
+      "symbol": "^IXIC",
       "group": "index",
-      "market": "tw",
+      "market": "us",
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 307.55,
-      "change": 0.94,
-      "changePct": 0.31,
+      "value": 24429.885,
+      "change": 101.502,
+      "changePct": 0.42,
       "asOf": "2026-11-18",
       "history": [
-        369.24,
-        345.52,
-        343.5,
-        321.47,
-        304.02,
-        321.97,
-        332.97,
-        344.11,
-        335.73,
-        342.41,
-        319.12,
-        306.61,
-        307.55
+        26184.724,
+        25436.999,
+        25164.363,
+        25372.009,
+        25736.513,
+        24314.997,
+        24579.425,
+        25253.139,
+        25065.874,
+        25466.189,
+        25366.093,
+        25136.273,
+        24509.758,
+        24328.383,
+        24429.885
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
     },
     {
-      "id": "0050",
-      "label": "元大台灣50",
-      "symbol": "0050.TW",
-      "group": "stock",
-      "market": "tw",
-      "unit": "元",
+      "id": "sox",
+      "label": "費城半導體指數",
+      "symbol": "^SOX",
+      "group": "index",
+      "market": "us",
+      "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 94.1,
-      "change": 0.1,
-      "changePct": 0.11,
+      "value": 9652.797,
+      "change": 9.919,
+      "changePct": 0.1,
       "asOf": "2026-11-18",
       "history": [
-        107.25,
-        104.95,
-        104.1,
-        100.6,
-        99.85,
-        97.15,
-        92.5,
-        97.45,
-        99.7,
-        103.2,
-        100.95,
-        102.5,
-        96.45,
-        94.0,
-        94.1
+        11518.199,
+        10688.8,
+        10328.329,
+        10600.396,
+        10268.654,
+        9011.137,
+        9390.25,
+        10033.933,
+        9998.33,
+        10564.111,
+        10506.674,
+        10146.323,
+        9610.652,
+        9642.878,
+        9652.797
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
     },
     {
-      "id": "006208",
-      "label": "富邦台50",
-      "symbol": "006208.TW",
-      "group": "stock",
-      "market": "tw",
-      "unit": "元",
+      "id": "dji",
+      "label": "道瓊工業指數",
+      "symbol": "^DJI",
+      "group": "index",
+      "market": "us",
+      "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 212.0,
-      "change": 0.1,
-      "changePct": 0.05,
+      "value": 50198.17,
+      "change": -561.25,
+      "changePct": -1.11,
       "asOf": "2026-11-18",
       "history": [
-        245.75,
-        240.75,
-        238.65,
-        230.55,
-        228.55,
-        222.55,
-        210.1,
-        223.6,
-        228.9,
-        236.6,
-        231.95,
-        235.05,
-        220.85,
-        211.9,
-        212.0
+        52342.56,
+        51770.31,
+        51983.98,
+        51786.72,
+        53356.12,
+        51523.06,
+        51285.73,
+        52389.75,
+        52231.89,
+        52486.49,
+        52297.09,
+        52347.55,
+        51608.17,
+        50759.42,
+        50198.17
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
     },
     {
-      "id": "2330",
-      "label": "台積電",
-      "symbol": "2330.TW",
+      "id": "tsm",
+      "label": "台積電 ADR",
+      "symbol": "TSM",
       "group": "stock",
-      "market": "tw",
-      "unit": "元",
-      "digits": 0,
-      "status": "ok",
-      "value": 2175.0,
-      "change": 5.0,
-      "changePct": 0.23,
-      "asOf": "2026-11-18",
-      "history": [
-        2415.0,
-        2370.0,
-        2330.0,
-        2295.0,
-        2260.0,
-        2240.0,
-        2135.0,
-        2235.0,
-        2285.0,
-        2395.0,
-        2340.0,
-        2350.0,
-        2215.0,
-        2170.0,
-        2175.0
-      ],
-      "source": "TWSE / TPEx"
-    },
-    {
-      "id": "2303",
-      "label": "聯電",
-      "symbol": "2303.TW",
-      "group": "stock",
-      "market": "tw",
-      "unit": "元",
+      "market": "us",
+      "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 93.0,
-      "change": 0.6,
-      "changePct": 0.65,
+      "value": 362.62,
+      "change": 2.93,
+      "changePct": 0.81,
       "asOf": "2026-11-18",
       "history": [
-        115.5,
-        111.5,
-        110.0,
-        103.0,
-        105.5,
-        98.4,
-        92.0,
-        96.7,
-        100.5,
-        104.0,
-        101.0,
-        101.5,
-        95.2,
-        92.4,
-        93.0
+        431.81,
+        406.13,
+        398.63,
+        404.8,
+        395.75,
+        353.1,
+        375.44,
+        388.62,
+        396.48,
+        413.35,
+        405.49,
+        398.73,
+        373.45,
+        359.69,
+        362.62
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
     },
     {
-      "id": "2454",
-      "label": "聯發科",
-      "symbol": "2454.TW",
+      "id": "nvda",
+      "label": "輝達 NVIDIA",
+      "symbol": "NVDA",
       "group": "stock",
-      "market": "tw",
-      "unit": "元",
-      "digits": 0,
-      "status": "ok",
-      "value": 3940.0,
-      "change": 100.0,
-      "changePct": 2.6,
-      "asOf": "2026-11-18",
-      "history": [
-        4045.0,
-        3915.0,
-        3970.0,
-        3675.0,
-        3715.0,
-        3460.0,
-        3390.0,
-        3725.0,
-        3830.0,
-        3990.0,
-        3850.0,
-        4120.0,
-        3795.0,
-        3840.0,
-        3940.0
-      ],
-      "source": "TWSE / TPEx"
-    },
-    {
-      "id": "2317",
-      "label": "鴻海",
-      "symbol": "2317.TW",
-      "group": "stock",
-      "market": "tw",
-      "unit": "元",
+      "market": "us",
+      "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 221.0,
-      "change": 2.0,
-      "changePct": 0.91,
+      "value": 150.96,
+      "change": -4.5,
+      "changePct": -2.89,
       "asOf": "2026-11-18",
       "history": [
-        248.0,
-        245.5,
-        251.0,
-        245.5,
-        240.0,
-        235.0,
-        224.5,
-        239.0,
-        241.5,
-        242.0,
-        240.0,
-        241.0,
-        218.5,
-        219.0,
-        221.0
+        213.66,
+        204.64,
+        202.06,
+        206.69,
+        200.13,
+        181.6,
+        186.64,
+        178.67,
+        168.89,
+        173.73,
+        166.19,
+        162.85,
+        156.14,
+        155.46,
+        150.96
       ],
-      "source": "TWSE / TPEx"
+      "source": "CNBC Market Data"
+    },
+    {
+      "id": "aapl",
+      "label": "蘋果 Apple",
+      "symbol": "AAPL",
+      "group": "stock",
+      "market": "us",
+      "unit": "美元",
+      "digits": 2,
+      "status": "ok",
+      "value": 352.45,
+      "change": 0.54,
+      "changePct": 0.15,
+      "asOf": "2026-11-18",
+      "history": [
+        348.91,
+        344.63,
+        338.32,
+        331.9,
+        349.51,
+        344.17,
+        342.37,
+        350.69,
+        348.51,
+        355.63,
+        354.88,
+        356.27,
+        352.78,
+        351.91,
+        352.45
+      ],
+      "source": "CNBC Market Data"
+    },
+    {
+      "id": "tsla",
+      "label": "特斯拉 Tesla",
+      "symbol": "TSLA",
+      "group": "stock",
+      "market": "us",
+      "unit": "美元",
+      "digits": 2,
+      "status": "ok",
+      "value": 383.72,
+      "change": 3.61,
+      "changePct": 0.95,
+      "asOf": "2026-11-18",
+      "history": [
+        403.3,
+        399.81,
+        403.82,
+        398.5,
+        385.19,
+        343.69,
+        358.22,
+        378.05,
+        379.78,
+        390.84,
+        397.45,
+        390.22,
+        379.74,
+        380.11,
+        383.72
+      ],
+      "source": "CNBC Market Data"
     }
   ],
   "edition_markets": {
@@ -2069,9 +2073,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 7340.98,
-          "change": 0.45,
-          "changePct": 0.01,
+          "value": 7323.63,
+          "change": -16.9,
+          "changePct": -0.23,
           "asOf": "2026-11-18",
           "history": [
             7720.39,
@@ -2088,7 +2092,7 @@
             7561.67,
             7416.59,
             7340.53,
-            7340.98
+            7323.63
           ],
           "source": "CNBC Market Data"
         },
@@ -2101,9 +2105,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 24456.371,
-          "change": 127.988,
-          "changePct": 0.53,
+          "value": 24429.885,
+          "change": 101.502,
+          "changePct": 0.42,
           "asOf": "2026-11-18",
           "history": [
             26184.724,
@@ -2120,7 +2124,7 @@
             25136.273,
             24509.758,
             24328.383,
-            24456.371
+            24429.885
           ],
           "source": "CNBC Market Data"
         },
@@ -2133,9 +2137,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 9655.116,
-          "change": 12.238,
-          "changePct": 0.13,
+          "value": 9652.797,
+          "change": 9.919,
+          "changePct": 0.1,
           "asOf": "2026-11-18",
           "history": [
             11518.199,
@@ -2152,7 +2156,7 @@
             10146.323,
             9610.652,
             9642.878,
-            9655.116
+            9652.797
           ],
           "source": "CNBC Market Data"
         },
@@ -2165,9 +2169,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 50383.98,
-          "change": -375.44,
-          "changePct": -0.74,
+          "value": 50198.17,
+          "change": -561.25,
+          "changePct": -1.11,
           "asOf": "2026-11-18",
           "history": [
             52342.56,
@@ -2184,7 +2188,7 @@
             52347.55,
             51608.17,
             50759.42,
-            50383.98
+            50198.17
           ],
           "source": "CNBC Market Data"
         }
@@ -2199,9 +2203,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 361.01,
-          "change": 1.32,
-          "changePct": 0.37,
+          "value": 362.62,
+          "change": 2.93,
+          "changePct": 0.81,
           "asOf": "2026-11-18",
           "history": [
             431.81,
@@ -2218,7 +2222,7 @@
             398.73,
             373.45,
             359.69,
-            361.01
+            362.62
           ],
           "source": "CNBC Market Data"
         },
@@ -2231,9 +2235,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 152.24,
-          "change": -3.22,
-          "changePct": -2.07,
+          "value": 150.96,
+          "change": -4.5,
+          "changePct": -2.89,
           "asOf": "2026-11-18",
           "history": [
             213.66,
@@ -2250,7 +2254,7 @@
             162.85,
             156.14,
             155.46,
-            152.24
+            150.96
           ],
           "source": "CNBC Market Data"
         },
@@ -2263,9 +2267,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 353.58,
-          "change": 1.67,
-          "changePct": 0.47,
+          "value": 352.45,
+          "change": 0.54,
+          "changePct": 0.15,
           "asOf": "2026-11-18",
           "history": [
             348.91,
@@ -2282,7 +2286,7 @@
             356.27,
             352.78,
             351.91,
-            353.58
+            352.45
           ],
           "source": "CNBC Market Data"
         },
@@ -2295,9 +2299,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 384.74,
-          "change": 4.63,
-          "changePct": 1.22,
+          "value": 383.72,
+          "change": 3.61,
+          "changePct": 0.95,
           "asOf": "2026-11-18",
           "history": [
             403.3,
@@ -2314,7 +2318,7 @@
             390.22,
             379.74,
             380.11,
-            384.74
+            383.72
           ],
           "source": "CNBC Market Data"
         }
@@ -2329,9 +2333,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 7340.98,
-          "change": 0.45,
-          "changePct": 0.01,
+          "value": 7323.63,
+          "change": -16.9,
+          "changePct": -0.23,
           "asOf": "2026-11-18",
           "history": [
             7720.39,
@@ -2348,7 +2352,7 @@
             7561.67,
             7416.59,
             7340.53,
-            7340.98
+            7323.63
           ],
           "source": "CNBC Market Data"
         },
@@ -2361,9 +2365,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 24456.371,
-          "change": 127.988,
-          "changePct": 0.53,
+          "value": 24429.885,
+          "change": 101.502,
+          "changePct": 0.42,
           "asOf": "2026-11-18",
           "history": [
             26184.724,
@@ -2380,7 +2384,7 @@
             25136.273,
             24509.758,
             24328.383,
-            24456.371
+            24429.885
           ],
           "source": "CNBC Market Data"
         },
@@ -2393,9 +2397,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 9655.116,
-          "change": 12.238,
-          "changePct": 0.13,
+          "value": 9652.797,
+          "change": 9.919,
+          "changePct": 0.1,
           "asOf": "2026-11-18",
           "history": [
             11518.199,
@@ -2412,7 +2416,7 @@
             10146.323,
             9610.652,
             9642.878,
-            9655.116
+            9652.797
           ],
           "source": "CNBC Market Data"
         },
@@ -2425,9 +2429,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 50383.98,
-          "change": -375.44,
-          "changePct": -0.74,
+          "value": 50198.17,
+          "change": -561.25,
+          "changePct": -1.11,
           "asOf": "2026-11-18",
           "history": [
             52342.56,
@@ -2444,7 +2448,7 @@
             52347.55,
             51608.17,
             50759.42,
-            50383.98
+            50198.17
           ],
           "source": "CNBC Market Data"
         },
@@ -2457,9 +2461,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 361.01,
-          "change": 1.32,
-          "changePct": 0.37,
+          "value": 362.62,
+          "change": 2.93,
+          "changePct": 0.81,
           "asOf": "2026-11-18",
           "history": [
             431.81,
@@ -2476,7 +2480,7 @@
             398.73,
             373.45,
             359.69,
-            361.01
+            362.62
           ],
           "source": "CNBC Market Data"
         },
@@ -2489,9 +2493,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 152.24,
-          "change": -3.22,
-          "changePct": -2.07,
+          "value": 150.96,
+          "change": -4.5,
+          "changePct": -2.89,
           "asOf": "2026-11-18",
           "history": [
             213.66,
@@ -2508,7 +2512,7 @@
             162.85,
             156.14,
             155.46,
-            152.24
+            150.96
           ],
           "source": "CNBC Market Data"
         },
@@ -2521,9 +2525,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 353.58,
-          "change": 1.67,
-          "changePct": 0.47,
+          "value": 352.45,
+          "change": 0.54,
+          "changePct": 0.15,
           "asOf": "2026-11-18",
           "history": [
             348.91,
@@ -2540,7 +2544,7 @@
             356.27,
             352.78,
             351.91,
-            353.58
+            352.45
           ],
           "source": "CNBC Market Data"
         },
@@ -2553,9 +2557,9 @@
           "unit": "美元",
           "digits": 2,
           "status": "ok",
-          "value": 384.74,
-          "change": 4.63,
-          "changePct": 1.22,
+          "value": 383.72,
+          "change": 3.61,
+          "changePct": 0.95,
           "asOf": "2026-11-18",
           "history": [
             403.3,
@@ -2572,7 +2576,7 @@
             390.22,
             379.74,
             380.11,
-            384.74
+            383.72
           ],
           "source": "CNBC Market Data"
         }
@@ -3101,7 +3105,7 @@
   },
   "leadIds": [
     "sbc5fa6ae",
-    "sb3ae3043"
+    "s5676f27c"
   ],
   "stories": [
     {
@@ -3195,6 +3199,124 @@
       "rank": 1
     },
     {
+      "id": "s5676f27c",
+      "section": "business_tech",
+      "title": "輝達財報好仍跌近3%!台指夜盤跌345點 台股4萬點保衛戰再起",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。美股四大指數漲跌互見,道瓊重挫561點,輝達財報亮眼仍下跌2.89%,台指期夜盤跌345點,台股今(19)日開盤恐面臨賣壓,4萬點關卡再受考驗。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%A5%BD%E4%BB%8D%E8%B7%8C%E8%BF%913-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E8%B7%8C345%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E4%BF%9D%E8%A1%9B%E6%88%B0%E5%86%8D%E8%B5%B7-223500880.html",
+      "publishedAt": "2026-11-19T06:35:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/9545563e366dd31ed425c9d219bdff80482d5691a4f66e816a16f5c1b120ad8f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fsetn.com.tw%2F200558e9765ed435cc693ff0269ee88a.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 83,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 35,
+        "data": 20,
+        "durability": 2
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "core_facts": [
+        {
+          "text": "美股四大指數漲跌互見,道瓊重挫561點,輝達財報亮眼仍下跌2.89%,台指期夜盤跌345點,台股今(19)日開盤恐面臨賣壓,4萬點關卡再受考驗。",
+          "metric": "2.89%",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "輝達(Nvidia)上季財報優於預期,但市場的觀望氣氛仍十分濃厚,同時評估聯邦準備理事會(Fed)會議紀要反映的鷹派情緒,道瓊重挫561點。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "輝達財報好仍跌近3%!台指夜盤跌345點 台股4萬點保衛戰再起",
+          "angle": "資本預算與財報配置",
+          "focus": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "excerpt": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%A5%BD%E4%BB%8D%E8%B7%8C%E8%BF%913-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E8%B7%8C345%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E4%BF%9D%E8%A1%9B%E6%88%B0%E5%86%8D%E8%B5%B7-223500880.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "美股四大指數漲跌互見,道瓊重挫561點,輝達財報亮眼仍下跌2.89%,台指期夜盤跌345點,台股今(19)日開盤恐面臨賣壓,4萬點關卡再受考驗。",
+          "metric": "2.89%",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "輝達(Nvidia)上季財報優於預期,但市場的觀望氣氛仍十分濃厚,同時評估聯邦準備理事會(Fed)會議紀要反映的鷹派情緒,道瓊重挫561點。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        },
+        {
+          "text": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "輝達財報好仍跌近3%!台指夜盤跌345點 台股4萬點保衛戰再起",
+          "angle": "資本預算與財報配置",
+          "focus": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "excerpt": "美股週三(18日)漲跌不一,人工智慧(AI)晶片龍頭輝達公布優於市場預期的財報,卻未能化解投資人對AI投資回報、企業領導交接及監管風險的疑慮,拖累科技股表現。",
+          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%A5%BD%E4%BB%8D%E8%B7%8C%E8%BF%913-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E8%B7%8C345%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E4%BF%9D%E8%A1%9B%E6%88%B0%E5%86%8D%E8%B5%B7-223500880.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%A5%BD%E4%BB%8D%E8%B7%8C%E8%BF%913-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E8%B7%8C345%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E4%BF%9D%E8%A1%9B%E6%88%B0%E5%86%8D%E8%B5%B7-223500880.html",
+          "headline": "輝達財報好仍跌近3%!台指夜盤跌345點 台股4萬點保衛戰再起",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC%E4%B9%9F%E9%9B%A3%E6%95%91-%E9%81%93%E7%93%8A%E9%87%8D%E6%8C%AB561%E9%BB%9E-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C345%E9%BB%9E-221419265.html",
+          "headline": "輝達財報亮眼也難救!道瓊重挫561點、台指期夜盤跌345點",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E4%BA%AE%E7%9C%BC%E4%BB%8D%E8%B7%8C%E8%BF%913-ai%E6%8A%95%E8%B3%87%E8%88%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6%E7%AD%89-%E5%9B%9B%E5%A4%A7%E7%96%91%E6%85%AE-%E6%9C%AA%E6%95%A3-221006368.html",
+          "headline": "輝達財報亮眼仍跌近3%!AI投資與出口管制等「四大疑慮」未散",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
       "id": "sb3ae3043",
       "section": "business_tech",
       "title": "009828跌逾三成還能看?法人解析 PCB 修正後投資機會",
@@ -3269,7 +3391,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "id": "s48451984",
@@ -3344,7 +3466,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "id": "sa3900c89",
@@ -3447,7 +3569,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "id": "s487f4b11",
@@ -3550,7 +3672,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "id": "s1d0d770f",
@@ -3639,20 +3761,97 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "sca58a497",
+      "id": "s025d88b9",
       "section": "business_tech",
-      "title": "上品法說會/在手訂單成長至80億元 董座:預期明年營收至少成長四成",
+      "title": "〈美股盤後〉輝達財報難救股價!道瓊挫逾560點 標普連五黑 那指逆勢翻紅",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "上品(4770)18日舉行業績說明會。董事長侯嘉生表示,迄至目前在手訂單提升至80億元,相較於9月時的75億元,再增加5億元,且隨電子化學品業者加速擴廠,他預計「第4季也會很精彩」。展望明年,他更預期,整體營收至少較今年再成長四成。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9887282",
-      "publishedAt": "2026-11-18T19:28:59+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
+      "summary": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強,那指逆漲0.42%",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E9%9B%A3%E6%95%91%E8%82%A1%E5%83%B9-%E9%81%93%E7%93%8A%E6%8C%AB%E9%80%BE560%E9%BB%9E-%E6%A8%99%E6%99%AE%E9%80%A3%E4%BA%94%E9%BB%91-%E9%82%A3%E6%8C%87%E9%80%86%E5%8B%A2%E7%BF%BB%E7%B4%85-221054999.html",
+      "publishedAt": "2026-11-19T06:10:54+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/c972e8734849859fb8a8ec161a7100e4dbfd047dfbc14498c29718f405c818fd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fvi%2Fcnyes.com.tw%2Ff61cb7ac8276b1f526af952fa1ef190f.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 80,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 35,
+        "data": 15,
+        "durability": 4
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "core_facts": [
+        {
+          "text": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強…",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "〈美股盤後〉輝達財報難救股價!道瓊挫逾560點 標普連五黑 那指逆勢翻紅",
+          "angle": "資本預算與財報配置",
+          "focus": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強……",
+          "excerpt": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強……",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E9%9B%A3%E6%95%91%E8%82%A1%E5%83%B9-%E9%81%93%E7%93%8A%E6%8C%AB%E9%80%BE560%E9%BB%9E-%E6%A8%99%E6%99%AE%E9%80%A3%E4%BA%94%E9%BB%91-%E9%82%A3%E6%8C%87%E9%80%86%E5%8B%A2%E7%BF%BB%E7%B4%85-221054999.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強…",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "〈美股盤後〉輝達財報難救股價!道瓊挫逾560點 標普連五黑 那指逆勢翻紅",
+          "angle": "資本預算與財報配置",
+          "focus": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強……",
+          "excerpt": "輝達財報、回購與2028年營收估增75%,仍難化解市場對領導交接與AI投資回報疑慮,股價跌2.89% 聯準會10月紀錄顯示多數官員認為未來幾個月可能再升息,華勒稱12月或需升2碼,市場承壓 Anthropic IPO定價83美元、高於區間,帶動亞馬遜、Alphabet、博通走強……",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E9%9B%A3%E6%95%91%E8%82%A1%E5%83%B9-%E9%81%93%E7%93%8A%E6%8C%AB%E9%80%BE560%E9%BB%9E-%E6%A8%99%E6%99%AE%E9%80%A3%E4%BA%94%E9%BB%91-%E9%82%A3%E6%8C%87%E9%80%86%E5%8B%A2%E7%BF%BB%E7%B4%85-221054999.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E9%9B%A3%E6%95%91%E8%82%A1%E5%83%B9-%E9%81%93%E7%93%8A%E6%8C%AB%E9%80%BE560%E9%BB%9E-%E6%A8%99%E6%99%AE%E9%80%A3%E4%BA%94%E9%BB%91-%E9%82%A3%E6%8C%87%E9%80%86%E5%8B%A2%E7%BF%BB%E7%B4%85-221054999.html",
+          "headline": "〈美股盤後〉輝達財報難救股價!道瓊挫逾560點 標普連五黑 那指逆勢翻紅",
+          "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "id": "s1527142e",
+      "section": "business_tech",
+      "title": "輝達財報利多失靈 投資人開始擔憂黃仁勳接班問題",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。 黃仁勳離任後,市場憂慮出現領導真空;分析師稱其為獨一無二的領導者,難以填補空缺。 股價週三回吐財報後漲幅,終場跌2.89%至150.96美元,顯示投資人對接班安排仍存疑慮。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%88%A9%E5%A4%9A%E5%A4%B1%E9%9D%88-%E6%8A%95%E8%B3%87%E4%BA%BA%E9%96%8B%E5%A7%8B%E6%93%94%E6%86%82%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-222003036.html",
+      "publishedAt": "2026-11-19T06:20:03+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/740b651cfd8766344bb806f90527ba10eeea63f408e89945c0ed5de543b3176a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fcnyes.com.tw%2F120c8fda2409f517d526ccd1bb62299e.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
       "score": 80,
       "scoreBreakdown": {
         "resonance": 26,
@@ -3667,90 +3866,90 @@
       ],
       "core_facts": [
         {
-          "text": "董事長侯嘉生表示,迄至目前在手訂單提升至80億元,相較於9月時的75億元,再增加5億元,且隨電子化學品業者加速擴廠,他預計「第4季也會很精彩」。",
-          "metric": "75億元",
+          "text": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "metric": "1158億美元",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "展望明年,他更預期,整體營收至少較今年再成長四成。",
-          "metric": "",
+          "text": "股價週三回吐財報後漲幅,終場跌2.89%至150.96美元,顯示投資人對接班安排仍存疑慮。",
+          "metric": "150.96美元",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "上品(4770)18日舉行業績說明會。",
+          "text": "黃仁勳離任後,市場憂慮出現領導真空;分析師稱其為獨一無二的領導者,難以填補空缺。",
           "metric": "",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "經濟日報",
-          "headline": "上品法說會/在手訂單成長至80億元 董座:預期明年營收至少成長四成",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "上品(4770)18日舉行業績說明會。",
-          "excerpt": "上品(4770)18日舉行業績說明會。",
-          "url": "https://money.udn.com/money/story/5612/9887282",
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "輝達財報利多失靈 投資人開始擔憂黃仁勳接班問題",
+          "angle": "資本預算與財報配置",
+          "focus": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "excerpt": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%88%A9%E5%A4%9A%E5%A4%B1%E9%9D%88-%E6%8A%95%E8%B3%87%E4%BA%BA%E9%96%8B%E5%A7%8B%E6%93%94%E6%86%82%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-222003036.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "董事長侯嘉生表示,迄至目前在手訂單提升至80億元,相較於9月時的75億元,再增加5億元,且隨電子化學品業者加速擴廠,他預計「第4季也會很精彩」。",
-          "metric": "75億元",
+          "text": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "metric": "1158億美元",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "展望明年,他更預期,整體營收至少較今年再成長四成。",
-          "metric": "",
+          "text": "股價週三回吐財報後漲幅,終場跌2.89%至150.96美元,顯示投資人對接班安排仍存疑慮。",
+          "metric": "150.96美元",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         },
         {
-          "text": "上品(4770)18日舉行業績說明會。",
+          "text": "黃仁勳離任後,市場憂慮出現領導真空;分析師稱其為獨一無二的領導者,難以填補空缺。",
           "metric": "",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 (Yahoo 聯播)"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "上品法說會/在手訂單成長至80億元 董座:預期明年營收至少成長四成",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "上品(4770)18日舉行業績說明會。",
-          "excerpt": "上品(4770)18日舉行業績說明會。",
-          "url": "https://money.udn.com/money/story/5612/9887282",
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "輝達財報利多失靈 投資人開始擔憂黃仁勳接班問題",
+          "angle": "資本預算與財報配置",
+          "focus": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "excerpt": "輝達財報優於預期,Q3調整後每股純益 2.68美元、營收1,158億美元,Q4營收估1,274億至1,326億美元。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%88%A9%E5%A4%9A%E5%A4%B1%E9%9D%88-%E6%8A%95%E8%B3%87%E4%BA%BA%E9%96%8B%E5%A7%8B%E6%93%94%E6%86%82%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-222003036.html",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9887282",
-          "headline": "上品法說會/在手訂單成長至80億元 董座:預期明年營收至少成長四成",
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B2%A1%E5%A0%B1%E5%88%A9%E5%A4%9A%E5%A4%B1%E9%9D%88-%E6%8A%95%E8%B3%87%E4%BA%BA%E9%96%8B%E5%A7%8B%E6%93%94%E6%86%82%E9%BB%83%E4%BB%81%E5%8B%B3%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-222003036.html",
+          "headline": "輝達財報利多失靈 投資人開始擔憂黃仁勳接班問題",
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 9
     }
   ],
   "stats": {
-    "clusters": 328,
-    "passed": 7,
-    "below_threshold": 321,
-    "articlesAnalysed": 364
+    "clusters": 319,
+    "passed": 9,
+    "below_threshold": 310,
+    "articlesAnalysed": 362
   },
   "sourcesStatus": [
     {
@@ -3759,7 +3958,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 58,
+      "count": 59,
       "error": null
     },
     {
@@ -3768,7 +3967,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 87,
+      "count": 96,
       "error": null
     },
     {
@@ -3777,7 +3976,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 101,
+      "count": 99,
       "error": null
     },
     {
@@ -3786,7 +3985,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 41,
+      "count": 38,
       "error": null
     },
     {
