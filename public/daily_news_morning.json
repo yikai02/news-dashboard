@@ -6,10 +6,10 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-21T07:30:18+08:00",
-  "updatedAt": "2026-11-21 07:30",
-  "date": "2026-11-21",
-  "weekday": "星期六",
+  "generatedAt": "2026-11-22T07:30:19+08:00",
+  "updatedAt": "2026-11-22 07:30",
+  "date": "2026-11-22",
+  "weekday": "星期日",
   "dataMode": "live",
   "threshold": 80,
   "scoreWeights": {
@@ -3112,369 +3112,10 @@
     }
   },
   "leadIds": [
-    "s61cd2f5b",
-    "sa7a96699"
+    "s7313216d",
+    "sdc47081c"
   ],
   "stories": [
-    {
-      "id": "s61cd2f5b",
-      "section": "deep",
-      "title": "眾院揭美核准88萬AI晶片銷中 涉中軍事關聯企業引國安疑慮",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。另一方面,美國新一輪晶片出口管制19日上路,擴大限制境外AI算力,更傳出台積電暫停部分中國客戶訂單,涉及16奈米及以下製程的晶片,必須取得美方出口許可。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836684",
-      "publishedAt": "2026-11-20T20:31:45+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302377/conversions/JPD73vfStAio1kVDttnR5rUgmgRbeKo8Aiw60Kbn-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 90,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 35,
-        "data": 15,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "core_facts": [
-        {
-          "text": "另一方面,美國新一輪晶片出口管制19日上路,擴大限制境外AI算力,更傳出台積電暫停部分中國客戶訂單,涉及16奈米及以下製程的晶片,必須取得美方出口許可。",
-          "metric": "16奈米",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "metric": "88萬顆",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "眾院揭美核准88萬AI晶片銷中 涉中軍事關聯企業引國安疑慮",
-          "angle": "先進技術與算力規格",
-          "focus": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "excerpt": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "url": "https://news.pts.org.tw/article/836684",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "公視新聞網報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "coreFacts": [
-        {
-          "text": "另一方面,美國新一輪晶片出口管制19日上路,擴大限制境外AI算力,更傳出台積電暫停部分中國客戶訂單,涉及16奈米及以下製程的晶片,必須取得美方出口許可。",
-          "metric": "16奈米",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "metric": "88萬顆",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "眾院揭美核准88萬AI晶片銷中 涉中軍事關聯企業引國安疑慮",
-          "angle": "先進技術與算力規格",
-          "focus": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "excerpt": "台股連日跌勢,與美中科技角力升溫有密切關聯,美國眾議院外交事務委員會揭露,川普政府半年內核准近88萬顆先進AI晶片出口中國,包括輝達H200及超微同級晶片,買家更涉及疑似與中國軍方有關聯的企業,引發國安疑慮。",
-          "url": "https://news.pts.org.tw/article/836684",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "公視新聞網報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836684",
-          "headline": "眾院揭美核准88萬AI晶片銷中 涉中軍事關聯企業引國安疑慮",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "sa7a96699",
-      "section": "deep",
-      "title": "6076億追加預算案獲全數放行 立院要求2028年1月底前油電凍漲",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。此外立院也同步通過主決議,要求政院承諾2028年1月底以前全面凍漲油價與民生電價。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836636",
-      "publishedAt": "2026-11-20T17:01:16+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302341/conversions/HfeSe3QWBiEpIHb4D0hTylKyP11KD9fWbKdEHFFM-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "metric": "1725億元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "此外立院也同步通過主決議,要求政院承諾2028年1月底以前全面凍漲油價與民生電價。",
-          "metric": "2028年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "6076億追加預算案獲全數放行 立院要求2028年1月底前油電凍漲",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "excerpt": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "url": "https://news.pts.org.tw/article/836636",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "metric": "1725億元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "此外立院也同步通過主決議,要求政院承諾2028年1月底以前全面凍漲油價與民生電價。",
-          "metric": "2028年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "6076億追加預算案獲全數放行 立院要求2028年1月底前油電凍漲",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "excerpt": "立法院今(20)日三讀通過政院提出今(2026)年度追加預算案,總金額共6076億元最終均照列通過,其中包含撥補台電、中油1725億元,以及增資中油公司2338億元等項目。",
-          "url": "https://news.pts.org.tw/article/836636",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836636",
-          "headline": "6076億追加預算案獲全數放行 立院要求2028年1月底前油電凍漲",
-          "lang": "zh"
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "s43d3da37",
-      "section": "deep",
-      "title": "立院三讀老農津貼加碼至1萬5元 行政院宣布不副署",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836655",
-      "publishedAt": "2026-11-20T19:34:48+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302373/conversions/VelHOTi5E2pUdyiWbfT7f9Fa3gEgccvU8LeRXZ7W-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "metric": "5000元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "立院三讀老農津貼加碼至1萬5元 行政院宣布不副署",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "excerpt": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "url": "https://news.pts.org.tw/article/836655",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "metric": "5000元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "立院三讀老農津貼加碼至1萬5元 行政院宣布不副署",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "excerpt": "立法院日前三讀通過老農津貼修法,將老農津貼從每月8110元調高至1萬5000元,行政院今(20)日宣布不副署該法,表示本次修法大幅調增老農津貼發放額度,將排擠其他農業建設及農民支持措施,也違反《憲法》的權力分立原則。",
-          "url": "https://news.pts.org.tw/article/836655",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836655",
-          "headline": "立院三讀老農津貼加碼至1萬5元 行政院宣布不副署",
-          "lang": "zh"
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "id": "sa6d8c175",
-      "section": "deep",
-      "title": "GTA 6預購破紀錄 實體版不再附遊戲光碟",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。不過這次發售也出現新變化,實體盒裝不再附贈遊戲光碟,而是改以下載序號取代。從實體收藏走向數位下載,也讓玩家熟悉的遊戲收藏文化面臨全新轉變。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836604",
-      "publishedAt": "2026-11-20T17:05:07+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302352/conversions/Ms8cEZHjnkcIV9YeROpSmO80t6RBGjeTDx3DXS8b-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 83,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 15,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "技術與算力突破"
-      ],
-      "core_facts": [
-        {
-          "text": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "metric": "1213萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "從實體收藏走向數位下載,也讓玩家熟悉的遊戲收藏文化面臨全新轉變。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "不過這次發售也出現新變化,實體盒裝不再附贈遊戲光碟,而是改以下載序號取代。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "GTA 6預購破紀錄 實體版不再附遊戲光碟",
-          "angle": "資本預算與財報配置",
-          "focus": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "excerpt": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "url": "https://news.pts.org.tw/article/836604",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "metric": "1213萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "從實體收藏走向數位下載,也讓玩家熟悉的遊戲收藏文化面臨全新轉變。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "不過這次發售也出現新變化,實體盒裝不再附贈遊戲光碟,而是改以下載序號取代。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "GTA 6預購破紀錄 實體版不再附遊戲光碟",
-          "angle": "資本預算與財報配置",
-          "focus": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "excerpt": "全球遊戲玩家苦等了13年的殿堂級大作,Rockstar Games的《俠盜獵車手6》上市前就締造驚人銷售紀錄,預購銷量突破1213萬套,創造近12億美元營收,刷新遊戲史紀錄。",
-          "url": "https://news.pts.org.tw/article/836604",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836604",
-          "headline": "GTA 6預購破紀錄 實體版不再附遊戲光碟",
-          "lang": "zh"
-        }
-      ],
-      "rank": 4
-    },
     {
       "id": "s7313216d",
       "section": "deep",
@@ -3485,21 +3126,30 @@
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/836719",
       "publishedAt": "2026-11-20T21:28:52+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302408/conversions/mcIbYqt5110fUzR7AXy7d5uZFjuwrcaDDCkcHSCx-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 83,
+      "imageUrl": "https://www.twreporter.org/images/20261120214321-e501de776413dbf96b5886fdcb117ed0-mobile.jpg",
+      "imageCredit": "報導者",
+      "score": 90,
       "scoreBreakdown": {
-        "resonance": 30,
+        "resonance": 32,
         "impact": 28,
-        "data": 15,
+        "data": 20,
         "durability": 10
       },
-      "mediaCount": 1,
+      "mediaCount": 2,
       "impactCategories": [
+        "財報與資本配置",
         "公共治理與結構轉型"
       ],
       "core_facts": [
         {
+          "text": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "metric": "1年",
+          "confirmed_by": [
+            "報導者",
+            "公視新聞網"
+          ]
+        },
+        {
           "text": "最後一場「廢除非核家園」公投意見發表會今(20)晚登場,正方代表黃士修主張,若繼續非核家園,明年台電要花4900多億元買天然氣,但重啟核電1年可賺2400億元。",
           "metric": "2400億元",
           "confirmed_by": [
@@ -3516,6 +3166,15 @@
       ],
       "media_perspectives": [
         {
+          "media": "報導者",
+          "headline": "8年第4次核能公投:核電振興經濟?6大爭點看「廢除非核家園」公投",
+          "angle": "產業動態與市場焦點",
+          "focus": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "excerpt": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "url": "https://www.twreporter.org/a/2026-local-elections-referendum-to-abolish-the-nuclear-free-policy",
+          "lang": "zh"
+        },
+        {
           "media": "公視新聞網",
           "headline": "廢非核公投意見會/黃士修指核電每年可賺2400億 鄧宇佑指重啟成本更貴",
           "angle": "產業動態與市場焦點",
@@ -3527,6 +3186,14 @@
       ],
       "unverified_notice": "",
       "coreFacts": [
+        {
+          "text": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "metric": "1年",
+          "confirmed_by": [
+            "報導者",
+            "公視新聞網"
+          ]
+        },
         {
           "text": "最後一場「廢除非核家園」公投意見發表會今(20)晚登場,正方代表黃士修主張,若繼續非核家園,明年台電要花4900多億元買天然氣,但重啟核電1年可賺2400億元。",
           "metric": "2400億元",
@@ -3544,6 +3211,15 @@
       ],
       "mediaPerspectives": [
         {
+          "media": "報導者",
+          "headline": "8年第4次核能公投:核電振興經濟?6大爭點看「廢除非核家園」公投",
+          "angle": "產業動態與市場焦點",
+          "focus": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "excerpt": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
+          "url": "https://www.twreporter.org/a/2026-local-elections-referendum-to-abolish-the-nuclear-free-policy",
+          "lang": "zh"
+        },
+        {
           "media": "公視新聞網",
           "headline": "廢非核公投意見會/黃士修指核電每年可賺2400億 鄧宇佑指重啟成本更貴",
           "angle": "產業動態與市場焦點",
@@ -3556,134 +3232,31 @@
       "unverifiedNotice": "",
       "sources": [
         {
+          "media": "報導者",
+          "url": "https://www.twreporter.org/a/2026-local-elections-referendum-to-abolish-the-nuclear-free-policy",
+          "headline": "8年第4次核能公投:核電振興經濟?6大爭點看「廢除非核家園」公投",
+          "lang": "zh"
+        },
+        {
           "media": "公視新聞網",
           "url": "https://news.pts.org.tw/article/836719",
           "headline": "廢非核公投意見會/黃士修指核電每年可賺2400億 鄧宇佑指重啟成本更貴",
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 1
     },
     {
-      "id": "se5107b00",
+      "id": "sdc47081c",
       "section": "deep",
-      "title": "普發兩萬表決罕見「綠白合」 仍不敵藍營人數優勢三讀通過",
+      "title": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。藍營發起甲級動員,讓參與縣市長選舉的藍委緊急調整行程,回到立院投票;儘管民進黨團、民眾黨團罕見上演「綠白合」,都持反對立場,但在多位綠委缺席投票之下,最終以50票贊成、46票反對,三讀通過。至於行政院提出的今年度追加預算案,原本藍白都要刪除其中2338億元的中油增資,不過藍黨團最後宣布「有條件放行」6076億元追加預算,一毛未刪全數通過。",
+      "summary": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836654",
-      "publishedAt": "2026-11-20T20:31:08+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302372/conversions/X6SI7xvMo2CXvsFKGFmlxuLXR4AdCvuzTXt0MZi8-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 83,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 15,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策"
-      ],
-      "core_facts": [
-        {
-          "text": "至於行政院提出的今年度追加預算案,原本藍白都要刪除其中2338億元的中油增資,不過藍黨團最後宣布「有條件放行」6076億元追加預算,一毛未刪全數通過。",
-          "metric": "2338億元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "metric": "2萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院今(20)日審議立法院國民黨團提出的「普發2萬」條例,雖然民眾黨團8席全數投下反對票,但在部分綠委缺席情況下,最終表決結果為50票贊成、46票反對,法案仍順利三讀通過。",
-          "metric": "2萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "普發兩萬表決罕見「綠白合」 仍不敵藍營人數優勢三讀通過",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "excerpt": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "url": "https://news.pts.org.tw/article/836654",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "至於行政院提出的今年度追加預算案,原本藍白都要刪除其中2338億元的中油增資,不過藍黨團最後宣布「有條件放行」6076億元追加預算,一毛未刪全數通過。",
-          "metric": "2338億元",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "metric": "2萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "立法院今(20)日審議立法院國民黨團提出的「普發2萬」條例,雖然民眾黨團8席全數投下反對票,但在部分綠委缺席情況下,最終表決結果為50票贊成、46票反對,法案仍順利三讀通過。",
-          "metric": "2萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "普發兩萬表決罕見「綠白合」 仍不敵藍營人數優勢三讀通過",
-          "angle": "政策法規與公共治理",
-          "focus": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "excerpt": "立法院國民黨團提出「普發2萬元」特別條例草案,今(20)日上演表決大戰。",
-          "url": "https://news.pts.org.tw/article/836654",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836654",
-          "headline": "普發兩萬表決罕見「綠白合」 仍不敵藍營人數優勢三讀通過",
-          "lang": "zh"
-        },
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836610",
-          "headline": "立院三讀普發2萬特別條例 綠白聯手否決仍不敵藍人數優勢",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "id": "se4c6d915",
-      "section": "deep",
-      "title": "戰爭與極端氣候雙威脅 歐洲各國掀全民防災潮",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。從英國、丹麥到俄羅斯邊境的愛沙尼亞,民眾紛紛囤積罐頭、飲用水與緊急避難物資,學習如何在斷水、斷電或缺乏外援的情況下減少傷害,自給自足。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836693",
-      "publishedAt": "2026-11-20T20:27:41+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302380/conversions/eSRsfaMYUlEil4783FsXfSgHrVqYjL49nTKm2YxM-og_jpg.jpg",
+      "url": "https://news.pts.org.tw/article/836751",
+      "publishedAt": "2026-11-21T19:56:16+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302440/conversions/2qNdM7beuSo2f50HwqG9QAdz7SYHIwqAEoBcOdim-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 82,
       "scoreBreakdown": {
@@ -3698,14 +3271,14 @@
       ],
       "core_facts": [
         {
-          "text": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
+          "text": "我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "從英國、丹麥到俄羅斯邊境的愛沙尼亞,民眾紛紛囤積罐頭、飲用水與緊急避難物資,學習如何在斷水、斷電或缺乏外援的情況下減少傷害,自給自足。",
+          "text": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -3715,25 +3288,25 @@
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "戰爭與極端氣候雙威脅 歐洲各國掀全民防災潮",
-          "angle": "產業動態與市場焦點",
-          "focus": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
-          "excerpt": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
-          "url": "https://news.pts.org.tw/article/836693",
+          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
+          "angle": "政策法規與公共治理",
+          "focus": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
+          "excerpt": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
+          "url": "https://news.pts.org.tw/article/836751",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
+          "text": "我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
           ]
         },
         {
-          "text": "從英國、丹麥到俄羅斯邊境的愛沙尼亞,民眾紛紛囤積罐頭、飲用水與緊急避難物資,學習如何在斷水、斷電或缺乏外援的情況下減少傷害,自給自足。",
+          "text": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -3743,11 +3316,11 @@
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "戰爭與極端氣候雙威脅 歐洲各國掀全民防災潮",
-          "angle": "產業動態與市場焦點",
-          "focus": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
-          "excerpt": "面對俄烏戰爭帶來的安全威脅,以及極端氣候日益頻繁的挑戰,歐洲各國正掀起一股「全民防災」浪潮。",
-          "url": "https://news.pts.org.tw/article/836693",
+          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
+          "angle": "政策法規與公共治理",
+          "focus": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
+          "excerpt": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
+          "url": "https://news.pts.org.tw/article/836751",
           "lang": "zh"
         }
       ],
@@ -3755,130 +3328,286 @@
       "sources": [
         {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836693",
-          "headline": "戰爭與極端氣候雙威脅 歐洲各國掀全民防災潮",
+          "url": "https://news.pts.org.tw/article/836751",
+          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 2
     },
     {
-      "id": "s21331ebf",
-      "section": "business_tech",
-      "title": "費半盤中暴跌8% 台積電ADR盤中暴跌30美元 台指期夜盤跌到3萬4千多點",
+      "id": "sdf0baad6",
+      "section": "deep",
+      "title": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C8-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C30%E7%BE%8E%E5%85%83-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C%E5%88%B03%E8%90%AC4%E5%8D%83%E5%A4%9A%E9%BB%9E-180024997.html",
-      "publishedAt": "2026-11-21T02:00:24+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/ed37a26c81c344ee0f93c92e746c556aebc03cc8b7e539d97068f2784f539cc1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fno%2Fcmmedia.com.tw%2F606e8d20147e5caf2955816338f591b8.jpg",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 81,
+      "summary": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/836744",
+      "publishedAt": "2026-11-21T19:56:37+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302416/conversions/X3QayZm25VfeGVkF3QH4Ldffh0aOcHWCTZbdhIQv-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
       "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 33,
-        "data": 20,
-        "durability": 2
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
-        "利率與法規政策",
-        "技術與算力突破",
         "公共治理與結構轉型"
       ],
       "core_facts": [
         {
-          "text": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "metric": "3萬",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "美國參議院通過能源法案,明定資料中心須自付電網升級費用。",
+          "text": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
           "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "市場焦點集中於AI大廠Anthropic上市後的股價表現與產業展望,連帶影響科技股賣壓,而Google擬直接採購AI晶片也受關注。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "公視新聞網"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "費半盤中暴跌8% 台積電ADR盤中暴跌30美元 台指期夜盤跌到3萬4千多點",
-          "angle": "產業動態與市場焦點",
-          "focus": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "excerpt": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C8-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C30%E7%BE%8E%E5%85%83-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C%E5%88%B03%E8%90%AC4%E5%8D%83%E5%A4%9A%E9%BB%9E-180024997.html",
+          "media": "公視新聞網",
+          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
+          "angle": "政策法規與公共治理",
+          "focus": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
+          "excerpt": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
+          "url": "https://news.pts.org.tw/article/836744",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "metric": "3萬",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "美國參議院通過能源法案,明定資料中心須自付電網升級費用。",
+          "text": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
           "metric": "",
           "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        },
-        {
-          "text": "市場焦點集中於AI大廠Anthropic上市後的股價表現與產業展望,連帶影響科技股賣壓,而Google擬直接採購AI晶片也受關注。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
+            "公視新聞網"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "費半盤中暴跌8% 台積電ADR盤中暴跌30美元 台指期夜盤跌到3萬4千多點",
-          "angle": "產業動態與市場焦點",
-          "focus": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "excerpt": "台積電的暴跌也使得台指期盤中大跌1360點,在3萬4千多點震盪。",
-          "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C8-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C30%E7%BE%8E%E5%85%83-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C%E5%88%B03%E8%90%AC4%E5%8D%83%E5%A4%9A%E9%BB%9E-180024997.html",
+          "media": "公視新聞網",
+          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
+          "angle": "政策法規與公共治理",
+          "focus": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
+          "excerpt": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
+          "url": "https://news.pts.org.tw/article/836744",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C8-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C30%E7%BE%8E%E5%85%83-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C%E5%88%B03%E8%90%AC4%E5%8D%83%E5%A4%9A%E9%BB%9E-180024997.html",
-          "headline": "費半盤中暴跌8% 台積電ADR盤中暴跌30美元 台指期夜盤跌到3萬4千多點",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E8%B2%BB%E5%8D%8A-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9A%86%E6%8C%AB%E9%80%BE6-%E5%8F%B0%E6%8C%87%E6%9C%9F%E8%B7%8C642%E9%BB%9E%E6%9A%AB%E5%AE%8835k%E5%A4%A7%E9%97%9C-163100495.html",
-          "headline": "快訊/費半、台積電ADR皆挫逾6%!台指期跌642點暫守35K大關",
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/836744",
+          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 3
+    },
+    {
+      "id": "s5b317b09",
+      "section": "deep",
+      "title": "歐洲多國青年串聯上街示威 反對戰爭、抗議生活費高漲",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。西班牙學生要求增加教育經費,英國倫敦也有人為高等教育發聲。另外,德國柏林的學生擔心恢復徵兵,荷蘭則有示威者呼籲,政府應把更多錢用來解決民生問題。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/836737",
+      "publishedAt": "2026-11-21T16:53:34+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302427/conversions/7aonw5LVwEaqdSbekUJLTWYveFDdJyvwmUJDp9u5-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "公共治理與結構轉型"
+      ],
+      "core_facts": [
+        {
+          "text": "西班牙學生要求增加教育經費,英國倫敦也有人為高等教育發聲。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "另外,德國柏林的學生擔心恢復徵兵,荷蘭則有示威者呼籲,政府應把更多錢用來解決民生問題。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "歐洲多國青年串聯上街示威 反對戰爭、抗議生活費高漲",
+          "angle": "產業動態與市場焦點",
+          "focus": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "excerpt": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "url": "https://news.pts.org.tw/article/836737",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "西班牙學生要求增加教育經費,英國倫敦也有人為高等教育發聲。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "另外,德國柏林的學生擔心恢復徵兵,荷蘭則有示威者呼籲,政府應把更多錢用來解決民生問題。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "歐洲多國青年串聯上街示威 反對戰爭、抗議生活費高漲",
+          "angle": "產業動態與市場焦點",
+          "focus": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "excerpt": "歐洲多國青年20日串聯上街,義大利、羅馬學生表示反戰,也抗議生活費太高,米蘭也有數萬人參與示威。",
+          "url": "https://news.pts.org.tw/article/836737",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/836737",
+          "headline": "歐洲多國青年串聯上街示威 反對戰爭、抗議生活費高漲",
+          "lang": "zh"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "s3329b56c",
+      "section": "deep",
+      "title": "調查:4成中小學生每週用AI 協助解題、理解內容",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。至於中小學老師,這學期有高達97.25%曾與AI協作,近9成是為了教學準備與教材產出。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/836750",
+      "publishedAt": "2026-11-21T19:55:45+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302441/conversions/hGWxcrPE18nYjt57O1v4cyo2MjHDS6f57Dwten0H-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 28,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "公共治理與結構轉型"
+      ],
+      "core_facts": [
+        {
+          "text": "至於中小學老師,這學期有高達97.25%曾與AI協作,近9成是為了教學準備與教材產出。",
+          "metric": "97.25%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "調查:4成中小學生每週用AI 協助解題、理解內容",
+          "angle": "深度調查與結構剖析",
+          "focus": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "excerpt": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "url": "https://news.pts.org.tw/article/836750",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "至於中小學老師,這學期有高達97.25%曾與AI協作,近9成是為了教學準備與教材產出。",
+          "metric": "97.25%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "調查:4成中小學生每週用AI 協助解題、理解內容",
+          "angle": "深度調查與結構剖析",
+          "focus": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "excerpt": "AI正改變學生的學習與教師的教學,台中教育大學團隊今(21)日在國際研討會指出,台灣中小學的學生,有4成每週至少1次以AI協助學習,用在「理解內容」和「產生解題步驟」;5成6的老師認為,難以分辨學生的能力與AI產出。",
+          "url": "https://news.pts.org.tw/article/836750",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/836750",
+          "headline": "調查:4成中小學生每週用AI 協助解題、理解內容",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
     }
   ],
   "stats": {
-    "clusters": 316,
-    "passed": 8,
-    "below_threshold": 308,
-    "articlesAnalysed": 357
+    "clusters": 293,
+    "passed": 5,
+    "below_threshold": 288,
+    "articlesAnalysed": 324
   },
   "sourcesStatus": [
     {
@@ -3887,7 +3616,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 59,
+      "count": 58,
       "error": null
     },
     {
@@ -3896,7 +3625,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 89,
+      "count": 91,
       "error": null
     },
     {
@@ -3905,7 +3634,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 97,
+      "count": 72,
       "error": null
     },
     {
@@ -3914,7 +3643,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 35,
+      "count": 30,
       "error": null
     },
     {
@@ -3923,7 +3652,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 39,
+      "count": 40,
       "error": null
     },
     {
@@ -3950,7 +3679,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 22,
+      "count": 17,
       "error": null
     }
   ]
