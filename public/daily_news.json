@@ -7,8 +7,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-22T13:25:37+08:00",
-  "updatedAt": "2026-11-22 13:25",
+  "generatedAt": "2026-11-22T13:26:16+08:00",
+  "updatedAt": "2026-11-22 13:26",
   "date": "2026-11-22",
   "weekday": "星期日",
   "dataMode": "live",
@@ -4449,6 +4449,111 @@
       "rank": 7
     },
     {
+      "id": "s23c2c503",
+      "section": "deep",
+      "title": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/836799",
+      "publishedAt": "2026-11-22T13:01:15+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302464/conversions/yYdNtOEDq8hls07sdrfZZgX9aAGskCUXdH3pA9qz-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 89,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 15,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。",
+          "metric": "10年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+          "angle": "產業動態與市場焦點",
+          "focus": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "excerpt": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "url": "https://news.pts.org.tw/article/836799",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。",
+          "metric": "10年",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+          "angle": "產業動態與市場焦點",
+          "focus": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "excerpt": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
+          "url": "https://news.pts.org.tw/article/836799",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/836799",
+          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+          "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
       "id": "s7f99af54",
       "section": "business_tech",
       "title": "精準預測黃金跌勢的分析師又發聲了 他警告投資人小心「多頭陷阱」",
@@ -4579,7 +4684,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "sda1ecc3d",
@@ -4657,7 +4762,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "sd0c55a45",
@@ -4796,7 +4901,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "s78c6d99e",
@@ -4888,167 +4993,15 @@
           "lang": "zh"
         }
       ],
-      "rank": 11
-    },
-    {
-      "id": "sc44861a5",
-      "section": "business_tech",
-      "title": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續…",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9894158",
-      "publishedAt": "2026-11-22T10:21:40+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/webphotos/WebOg/600/20261122/2000x1050_56074993351.jpg",
-      "imageCredit": "中央社 CNA",
-      "score": 83,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 28,
-        "data": 12,
-        "durability": 8
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "近期全球駭客攻擊事件頻傳,包括加密貨幣交易所幣安遭竊價值63億美元資產、歐洲超市冷藏設備遭入侵導致食品報廢;日本無印良品、DHC等企業,以及韓國金融機構、大學接連受害;台灣外交部領事事務局、永豐銀行、電商平台91APP及旅遊平台易遊網、鳳凰旅遊等也陸續發生資安事件。",
-          "metric": "63億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "民眾則應即時更新手機系統及APP,並透過檢查「隱私權報告」等設定,降低遭駭風險。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "台灣駭客協會創始成員、TeamT5杜浦數位安全執行長蔡松廷告訴中央社記者,過去就曾預測攻擊者一定會運用AI,但沒想到來得這麼快。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代…",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代…",
-          "url": "https://money.udn.com/money/story/5612/9894158",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "url": "https://tw.stock.yahoo.com/news/ai%E6%94%BB%E6%93%8A%E6%96%B0%E6%99%82%E4%BB%A3-%E6%9C%89%E8%B3%87%E5%AE%89%E6%A5%AD%E8%80%85%E6%A1%88%E9%87%8F%E5%A4%9A%E5%88%B0%E5%A9%89%E6%8B%92%E5%AE%A2%E6%88%B6-%E6%95%99%E6%88%B0%E9%98%B2%E9%A7%AD%E8%87%AA%E4%BF%9D-021407718.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "AI攻擊新時代推升資安需求 業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "url": "https://www.cna.com.tw/news/afe/202611220029.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "近期全球駭客攻擊事件頻傳,包括加密貨幣交易所幣安遭竊價值63億美元資產、歐洲超市冷藏設備遭入侵導致食品報廢;日本無印良品、DHC等企業,以及韓國金融機構、大學接連受害;台灣外交部領事事務局、永豐銀行、電商平台91APP及旅遊平台易遊網、鳳凰旅遊等也陸續發生資安事件。",
-          "metric": "63億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "民眾則應即時更新手機系統及APP,並透過檢查「隱私權報告」等設定,降低遭駭風險。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "台灣駭客協會創始成員、TeamT5杜浦數位安全執行長蔡松廷告訴中央社記者,過去就曾預測攻擊者一定會運用AI,但沒想到來得這麼快。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代…",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代…",
-          "url": "https://money.udn.com/money/story/5612/9894158",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "url": "https://tw.stock.yahoo.com/news/ai%E6%94%BB%E6%93%8A%E6%96%B0%E6%99%82%E4%BB%A3-%E6%9C%89%E8%B3%87%E5%AE%89%E6%A5%AD%E8%80%85%E6%A1%88%E9%87%8F%E5%A4%9A%E5%88%B0%E5%A9%89%E6%8B%92%E5%AE%A2%E6%88%B6-%E6%95%99%E6%88%B0%E9%98%B2%E9%A7%AD%E8%87%AA%E4%BF%9D-021407718.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "AI攻擊新時代推升資安需求 業者案量多到婉拒客戶、教戰防駭自保",
-          "angle": "產業動態與市場焦點",
-          "focus": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "excerpt": "全球爆發多起資安事件,專家觀察,10月起已進入AI自動化攻擊新時代,且這股趨勢將持續,企業既有漏洞修補模式面臨考驗,防禦也不能單靠「AI對抗AI」;若漏洞危急又無法立即修補,可考慮先讓系統暫時下線。",
-          "url": "https://www.cna.com.tw/news/afe/202611220029.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9894158",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/ai%E6%94%BB%E6%93%8A%E6%96%B0%E6%99%82%E4%BB%A3-%E6%9C%89%E8%B3%87%E5%AE%89%E6%A5%AD%E8%80%85%E6%A1%88%E9%87%8F%E5%A4%9A%E5%88%B0%E5%A9%89%E6%8B%92%E5%AE%A2%E6%88%B6-%E6%95%99%E6%88%B0%E9%98%B2%E9%A7%AD%E8%87%AA%E4%BF%9D-021407718.html",
-          "headline": "AI攻擊新時代 有資安業者案量多到婉拒客戶、教戰防駭自保",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611220029.aspx",
-          "headline": "AI攻擊新時代推升資安需求 業者案量多到婉拒客戶、教戰防駭自保",
-          "lang": "zh"
-        }
-      ],
       "rank": 12
     }
   ],
   "stats": {
-    "clusters": 267,
+    "clusters": 268,
     "passed": 12,
-    "totalQualified": 37,
+    "totalQualified": 38,
     "below_threshold": 230,
-    "articlesAnalysed": 311
+    "articlesAnalysed": 312
   },
   "sourcesStatus": [
     {
@@ -5165,7 +5118,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 13,
+      "count": 14,
       "error": null
     }
   ]
