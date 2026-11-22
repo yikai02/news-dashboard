@@ -2219,6 +2219,9 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>現代商業與深度時事新聞儀表板（{esc_attr(payload['edition']['label'])}）</title>
   <meta name="description" content="靜態資料驅動之台灣正體中文高價值商業、科技供應鏈與深度公共議題新聞儀表板，嚴選重要性 80 分以上跨媒體核實報導。" />
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261122" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png?v=20261122" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png?v=20261122" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Noto+Sans+TC:wght@500;700;900&family=Noto+Serif+TC:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap" rel="stylesheet" />
