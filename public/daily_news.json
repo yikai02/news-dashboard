@@ -6,8 +6,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-22T07:30:19+08:00",
-  "updatedAt": "2026-11-22 07:30",
+  "generatedAt": "2026-11-22T12:25:00+08:00",
+  "updatedAt": "2026-11-22 12:25",
   "date": "2026-11-22",
   "weekday": "星期日",
   "dataMode": "live",
@@ -3601,13 +3601,90 @@
         }
       ],
       "rank": 5
+    },
+    {
+      "id": "sda1ecc3d",
+      "section": "business_tech",
+      "title": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+      "source": "工商時報 (Yahoo 聯播)",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
+      "publishedAt": "2026-11-22T08:15:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/e5e89e10d1d7205fad593d92dbf38d55699500e84b1e7c868928f0ceee70e220/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fftnn_com_tw_939%2Fd2d12ccc555c1089f449160cbe4106be.jpg_up.jpg",
+      "imageCredit": "工商時報 (Yahoo 聯播)",
+      "score": 81,
+      "scoreBreakdown": {
+        "resonance": 26,
+        "impact": 35,
+        "data": 20,
+        "durability": 0
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "core_facts": [
+        {
+          "text": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "metric": "10.7%",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
+          "angle": "資本預算與財報配置",
+          "focus": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "excerpt": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "metric": "10.7%",
+          "confirmed_by": [
+            "工商時報 (Yahoo 聯播)"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
+          "angle": "資本預算與財報配置",
+          "focus": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "excerpt": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 (Yahoo 聯播)",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
+          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
     }
   ],
   "stats": {
-    "clusters": 293,
-    "passed": 5,
-    "below_threshold": 288,
-    "articlesAnalysed": 324
+    "clusters": 279,
+    "passed": 6,
+    "below_threshold": 273,
+    "articlesAnalysed": 308
   },
   "sourcesStatus": [
     {
@@ -3616,7 +3693,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 58,
+      "count": 56,
       "error": null
     },
     {
@@ -3625,7 +3702,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 91,
+      "count": 87,
       "error": null
     },
     {
@@ -3634,7 +3711,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 72,
+      "count": 68,
       "error": null
     },
     {
@@ -3643,7 +3720,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 30,
+      "count": 25,
       "error": null
     },
     {
@@ -3679,7 +3756,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 17,
+      "count": 16,
       "error": null
     }
   ]
