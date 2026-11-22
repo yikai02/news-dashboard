@@ -7,8 +7,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-22T13:26:16+08:00",
-  "updatedAt": "2026-11-22 13:26",
+  "generatedAt": "2026-11-22T16:00:24+08:00",
+  "updatedAt": "2026-11-22 16:00",
   "date": "2026-11-22",
   "weekday": "星期日",
   "dataMode": "live",
@@ -3561,170 +3561,10 @@
     ]
   },
   "leadIds": [
-    "s609f051f",
-    "s3718719f"
+    "s3718719f",
+    "s03c3eaed"
   ],
   "stories": [
-    {
-      "id": "s609f051f",
-      "section": "business_tech",
-      "title": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台股大跳水!本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。財政部21日傍晚代國安基金發稿,證實已經進場護盤。對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
-      "publishedAt": "2026-11-22T10:49:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/69abfc6f3a370d378725507f4bbef873234e8b4dad6a48618102f394569109e4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrordaily_390%2F053d939f59b135b2fd4c531c6bf122ce.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 98,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 35,
-        "data": 18,
-        "durability": 10
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "metric": "7600點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
-          "angle": "產業動態與市場焦點",
-          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
-          "angle": "政策法規與公共治理",
-          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
-          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
-          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "國安基金護盤 台股基本面佳",
-          "angle": "資本預算與財報配置",
-          "focus": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
-          "excerpt": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
-          "url": "https://ec.ltn.com.tw/article/paper/1779388",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "metric": "7600點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
-          "angle": "產業動態與市場焦點",
-          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
-          "angle": "政策法規與公共治理",
-          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
-          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
-          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "國安基金護盤 台股基本面佳",
-          "angle": "資本預算與財報配置",
-          "focus": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
-          "excerpt": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
-          "url": "https://ec.ltn.com.tw/article/paper/1779388",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
-          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E8%B7%8C%E5%B9%85%E9%81%9417-5-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91-%E5%B7%B2%E5%AF%A6%E5%BD%88%E8%AD%B7%E7%9B%A4-221840278.html",
-          "headline": "台股單周跌幅達17.5% 國安基金:已實彈護盤",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
-          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1779388",
-          "headline": "國安基金護盤 台股基本面佳",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
     {
       "id": "s3718719f",
       "section": "business_tech",
@@ -3856,138 +3696,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
-    },
-    {
-      "id": "s74131618",
-      "section": "business_tech",
-      "title": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "<p>隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。</p> <p>觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669513",
-      "publishedAt": "2026-11-22T08:40:03+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669513/xl/c728b96c7dbd3cbc142e57ef2abeb7cb.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 95,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
-          "metric": "1.43億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
-          "metric": "7.798億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
-          "metric": "44%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "資本預算與財報配置",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
-          "metric": "1.43億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
-          "metric": "7.798億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
-          "metric": "44%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "資本預算與財報配置",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "lang": "zh"
-        }
-      ],
-      "rank": 3
+      "rank": 1
     },
     {
       "id": "s03c3eaed",
@@ -4161,7 +3870,143 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 2
+    },
+    {
+      "id": "s609f051f",
+      "section": "business_tech",
+      "title": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "台股大跳水!本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。財政部21日傍晚代國安基金發稿,證實已經進場護盤。對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+      "publishedAt": "2026-11-22T10:49:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/69abfc6f3a370d378725507f4bbef873234e8b4dad6a48618102f394569109e4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrordaily_390%2F053d939f59b135b2fd4c531c6bf122ce.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 93,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 18,
+        "durability": 10
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "metric": "7600點",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "angle": "產業動態與市場焦點",
+          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "angle": "政策法規與公共治理",
+          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "metric": "7600點",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "angle": "產業動態與市場焦點",
+          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "angle": "政策法規與公共治理",
+          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E8%B7%8C%E5%B9%85%E9%81%9417-5-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91-%E5%B7%B2%E5%AF%A6%E5%BD%88%E8%AD%B7%E7%9B%A4-221840278.html",
+          "headline": "台股單周跌幅達17.5% 國安基金:已實彈護盤",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
     },
     {
       "id": "s3977355c",
@@ -4263,7 +4108,247 @@
           "lang": "zh"
         }
       ],
+      "rank": 4
+    },
+    {
+      "id": "s3dd76ebb",
+      "section": "business_tech",
+      "title": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。 Fed官員釋鷹派訊號,華勒提及升息50個基點可能,高盛仍估12月升息1碼、2027年3月再升息。 黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669834",
+      "publishedAt": "2026-11-22T13:00:03+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669834/xl/cd86ef7c092151bb96d1ba409d4f64b8.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 92,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
+          "metric": "3600美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
+          "metric": "2027年",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "angle": "利率匯率與總經政策",
+          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "url": "https://news.cnyes.com/news/id/6669834",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "angle": "利率匯率與總經政策",
+          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
+          "metric": "3600美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
+          "metric": "2027年",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "angle": "利率匯率與總經政策",
+          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "url": "https://news.cnyes.com/news/id/6669834",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "angle": "利率匯率與總經政策",
+          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
+          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669834",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
+          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "lang": "zh"
+        }
+      ],
       "rank": 5
+    },
+    {
+      "id": "s74131618",
+      "section": "business_tech",
+      "title": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。</p> <p>觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669513",
+      "publishedAt": "2026-11-22T08:40:03+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669513/xl/c728b96c7dbd3cbc142e57ef2abeb7cb.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 92,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+          "metric": "1.43億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
+          "metric": "7.798億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
+          "metric": "44%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "資本預算與財報配置",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+          "metric": "1.43億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
+          "metric": "7.798億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
+          "metric": "44%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "資本預算與財報配置",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
     },
     {
       "id": "s104d4e6d",
@@ -4341,52 +4426,56 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
-      "id": "s3dd76ebb",
+      "id": "s28405ae0",
       "section": "business_tech",
-      "title": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+      "title": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。 Fed官員釋鷹派訊號,華勒提及升息50個基點可能,高盛仍估12月升息1碼、2027年3月再升息。 黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
+      "summary": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。 他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。 高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
       "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669834",
-      "publishedAt": "2026-11-22T13:00:03+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669834/xl/cd86ef7c092151bb96d1ba409d4f64b8.jpg",
+      "url": "https://news.cnyes.com/news/id/6669844",
+      "publishedAt": "2026-11-22T15:00:05+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669844/xl/eb3b261b865dcd5be6a35ce0739adbaa.jpg",
       "imageCredit": "鉅亨網 Anue",
-      "score": 89,
+      "score": 91,
       "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
+        "resonance": 30,
+        "impact": 33,
         "data": 20,
         "durability": 8
       },
-      "mediaCount": 1,
+      "mediaCount": 2,
       "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併"
+        "財報與資本配置",
+        "技術與算力突破",
+        "公共治理與結構轉型"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
-          "metric": "3600美元",
+          "text": "高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
+          "metric": "6000億美元",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "metric": "",
+          "text": "他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。",
+          "metric": "15gw",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
+          "text": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
           "metric": "2027年",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -4394,34 +4483,46 @@
       "media_perspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://news.cnyes.com/news/id/6669834",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "angle": "資本預算與財報配置",
+          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "url": "https://news.cnyes.com/news/id/6669844",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
-          "metric": "3600美元",
+          "text": "高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
+          "metric": "6000億美元",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "metric": "",
+          "text": "他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。",
+          "metric": "15gw",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
+          "text": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
           "metric": "2027年",
           "confirmed_by": [
+            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -4429,11 +4530,20 @@
       "mediaPerspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://news.cnyes.com/news/id/6669834",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "angle": "資本預算與財報配置",
+          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "url": "https://news.cnyes.com/news/id/6669844",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
           "lang": "zh"
         }
       ],
@@ -4441,12 +4551,18 @@
       "sources": [
         {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669834",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
+          "url": "https://news.cnyes.com/news/id/6669844",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
+          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "s23c2c503",
@@ -4457,7 +4573,7 @@
       "summary": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
       "source": "公視新聞網",
       "url": "https://news.pts.org.tw/article/836799",
-      "publishedAt": "2026-11-22T13:01:15+08:00",
+      "publishedAt": "2026-11-22T13:08:05+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/302464/conversions/yYdNtOEDq8hls07sdrfZZgX9aAGskCUXdH3pA9qz-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 89,
@@ -4551,7 +4667,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "s7f99af54",
@@ -4684,7 +4800,84 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 10
+    },
+    {
+      "id": "s3673a290",
+      "section": "business_tech",
+      "title": "上品在手訂單衝上80億元 法人喊買目標價340元",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+      "source": "自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+      "publishedAt": "2026-11-22T13:51:31+08:00",
+      "imageUrl": "https://img.ltn.com.tw/Upload/business/page/800/2026/11/22/5649408_1.jpg",
+      "imageCredit": "自由財經",
+      "score": 87,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 34,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "自由財經",
+          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "excerpt": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "自由財經",
+          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "excerpt": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
+          "lang": "zh"
+        }
+      ],
+      "rank": 11
     },
     {
       "id": "sda1ecc3d",
@@ -4762,246 +4955,15 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
-    },
-    {
-      "id": "sd0c55a45",
-      "section": "business_tech",
-      "title": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-      "source": "中央社 CNA",
-      "url": "https://www.cna.com.tw/news/aopl/202611220017.aspx",
-      "publishedAt": "2026-11-22T09:12:22+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20261122/1280x961_wmkn_045433030109_0.jpg",
-      "imageCredit": "中央社 CNA",
-      "score": 84,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 30,
-        "data": 20,
-        "durability": 4
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "metric": "9952美元",
-          "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "全球市值最大的加密貨幣比特幣(Bitcoin)今天跌破6萬美元關卡,創2年來新低。",
-          "metric": "2年",
-          "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "投資人憂心人工智慧(AI)類股估值過高,衝擊其他風險資產。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "angle": "市場定價與外資籌碼",
-          "focus": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元",
-          "excerpt": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元",
-          "url": "https://money.udn.com/money/story/5599/9894084",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "angle": "市場定價與外資籌碼",
-          "focus": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "excerpt": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "url": "https://www.cna.com.tw/news/aopl/202611220017.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "metric": "9952美元",
-          "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "全球市值最大的加密貨幣比特幣(Bitcoin)今天跌破6萬美元關卡,創2年來新低。",
-          "metric": "2年",
-          "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "投資人憂心人工智慧(AI)類股估值過高,衝擊其他風險資產。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "angle": "市場定價與外資籌碼",
-          "focus": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元",
-          "excerpt": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元",
-          "url": "https://money.udn.com/money/story/5599/9894084",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "angle": "市場定價與外資籌碼",
-          "focus": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "excerpt": "全球市值最大的加密貨幣比特幣(Bitcoin)今天稍早跌至2年來最低點,隨後反彈逾8%,回升至約5萬9952美元。",
-          "url": "https://www.cna.com.tw/news/aopl/202611220017.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9894084",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611220017.aspx",
-          "headline": "比特幣跌至2年低點後反彈 漲逾8%回升至近6萬美元",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611210188.aspx",
-          "headline": "比特幣跌至2年新低 AI股估值疑慮引發風險資產賣壓",
-          "lang": "zh"
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "id": "s78c6d99e",
-      "section": "business_tech",
-      "title": "金價10個月跌掉2,000美元 底部到了沒?",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。聯準會(Fed)12月升息箭在弦上,加上人工智慧(AI)概念股賣壓不止,促使黃金投資人持續獲利了結,彌補在股市的損失。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/122381/9894225",
-      "publishedAt": "2026-11-22T10:55:25+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/22/35541483.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=822&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 84,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 33,
-        "data": 18,
-        "durability": 6
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "metric": "3513.54美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "聯準會(Fed)12月升息箭在弦上,加上人工智慧(AI)概念股賣壓不止,促使黃金投資人持續獲利了結,彌補在股市的損失。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "金價10個月跌掉2,000美元 底部到了沒?",
-          "angle": "利率匯率與總經政策",
-          "focus": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "excerpt": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "url": "https://money.udn.com/money/story/122381/9894225",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "metric": "3513.54美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "聯準會(Fed)12月升息箭在弦上,加上人工智慧(AI)概念股賣壓不止,促使黃金投資人持續獲利了結,彌補在股市的損失。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "金價10個月跌掉2,000美元 底部到了沒?",
-          "angle": "利率匯率與總經政策",
-          "focus": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "excerpt": "國際金價20日連跌五天,現貨價一度跌到每英兩3,513.54美元,是14個月新低;一周來則重挫約9%,寫今年3月來最大周線跌幅。",
-          "url": "https://money.udn.com/money/story/122381/9894225",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/122381/9894225",
-          "headline": "金價10個月跌掉2,000美元 底部到了沒?",
-          "lang": "zh"
-        }
-      ],
       "rank": 12
     }
   ],
   "stats": {
-    "clusters": 268,
+    "clusters": 260,
     "passed": 12,
-    "totalQualified": 38,
-    "below_threshold": 230,
-    "articlesAnalysed": 312
+    "totalQualified": 40,
+    "below_threshold": 220,
+    "articlesAnalysed": 313
   },
   "sourcesStatus": [
     {
@@ -5037,7 +4999,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 166,
+      "count": 173,
       "error": null
     },
     {
@@ -5046,7 +5008,7 @@
       "group": "business",
       "section": "產經與財經政策",
       "ok": true,
-      "count": 34,
+      "count": 36,
       "error": null
     },
     {
@@ -5082,7 +5044,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null
     },
     {
@@ -5118,7 +5080,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 14,
+      "count": 13,
       "error": null
     }
   ]
