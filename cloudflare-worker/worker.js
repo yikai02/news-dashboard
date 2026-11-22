@@ -1,14 +1,16 @@
 /**
- * Cloudflare Worker Cron Trigger for News Dashboard
- * 準時於台灣時間 07:30 (UTC 23:30) 與 16:00 (UTC 08:00) 透過 GitHub workflow_dispatch API 觸發更新，
- * 繞過 GitHub Actions 免費排程佇列延遲。
+ * Cloudflare Worker Cron Trigger for Kyle's News
+ * 準時於台灣時間 07:30、09:15（財經皓角直播後）、12:30、16:00 與 21:30
+ * 透過 GitHub workflow_dispatch API 觸發更新，繞過 GitHub Actions 免費排程佇列延遲。
  *
  * 所需環境變數／Secret：
  * - GITHUB_PAT: 僅限 `yikai02/news-dashboard` 且僅需 `Actions: Read and write` 權限的 Fine-grained PAT
  */
+const MORNING_CRONS = new Set(["30 23 * * *", "15 1 * * *", "30 4 * * *"]);
+
 export default {
   async scheduled(event, env) {
-    const edition = event.cron === "30 23 * * *" ? "morning" : "evening";
+    const edition = MORNING_CRONS.has(event.cron) ? "morning" : "evening";
     const owner = env.GITHUB_OWNER || "yikai02";
     const repo = env.GITHUB_REPO || "news-dashboard";
     const workflow = env.WORKFLOW_FILE || "update_and_deploy.yml";

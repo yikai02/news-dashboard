@@ -84,23 +84,58 @@ class SourceSpec:
 
 
 SOURCES: list[SourceSpec] = [
-    # 商業與總經（100% 原生直連 RSS，直達原文網址與高清 og:image）
+    # 商業與總經（原生直連 RSS / 官方 JSON API，直達原文網址與高清配圖）
     SourceSpec(
         "udn", "經濟日報", "business", "zh", "https://money.udn.com",
         [
             FeedSpec("https://money.udn.com/rssfeed/news/1001/5591?ch=money", "產業與科技"),
             FeedSpec("https://money.udn.com/rssfeed/news/1001/5588?ch=money", "總經與要聞"),
             FeedSpec("https://money.udn.com/rssfeed/news/1001/5592?ch=money", "證券金融"),
+            FeedSpec("https://money.udn.com/rssfeed/news/1001/5589?ch=money", "全球財經"),
         ],
         priority=1,
     ),
     SourceSpec(
-        "ctee", "工商時報 (Yahoo 聯播)", "business", "zh", "https://tw.stock.yahoo.com",
+        "cnyes", "鉅亨網 Anue", "business", "zh", "https://news.cnyes.com",
+        [
+            FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/headline?limit=25", "頭條要聞"),
+            FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/tw_stock?limit=25", "台股與產業"),
+            FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/wd_macro?limit=25", "全球總經與政策"),
+            FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/us_stock?limit=20", "美股與科技巨頭"),
+        ],
+        max_age_h=72, priority=2,
+    ),
+    SourceSpec(
+        "strategic", "鉅亨網專題追蹤", "business", "zh", "https://news.cnyes.com",
+        [
+            FeedSpec("https://api.cnyes.com/media/api/v1/search?q=%E4%B8%BB%E6%AC%8A%E5%9F%BA%E9%87%91&limit=10", "主權基金與國家資本"),
+            FeedSpec("https://api.cnyes.com/media/api/v1/search?q=%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91&limit=10", "台灣主權與國發基金計劃"),
+            FeedSpec("https://api.cnyes.com/media/api/v1/search?q=Take-Two&limit=10", "GTA 經濟與數位娛樂產業"),
+        ],
+        max_age_h=336, priority=2,
+    ),
+    SourceSpec(
+        "ctee", "工商時報 / Yahoo 財經", "business", "zh", "https://tw.stock.yahoo.com",
         [
             FeedSpec("https://tw.stock.yahoo.com/rss?category=tw-market", "台股市場與總經"),
             FeedSpec("https://tw.stock.yahoo.com/rss?category=headline", "財經焦點要聞"),
+            FeedSpec("https://tw.stock.yahoo.com/rss?category=intl-markets", "國際財經與美股"),
+            FeedSpec("https://tw.stock.yahoo.com/rss?category=tech", "科技與娛樂產業"),
         ],
         priority=2,
+    ),
+    SourceSpec(
+        "cna", "中央社 CNA", "business", "zh", "https://www.cna.com.tw",
+        [
+            FeedSpec("https://feeds.feedburner.com/rsscna/finance", "產經與財經政策"),
+            FeedSpec("https://feeds.feedburner.com/rsscna/intworld", "國際政經"),
+        ],
+        max_age_h=72, priority=2,
+    ),
+    SourceSpec(
+        "ltn", "自由財經", "business", "zh", "https://ec.ltn.com.tw",
+        [FeedSpec("https://news.ltn.com.tw/rss/business.xml", "財經政策與產業")],
+        max_age_h=72, priority=3,
     ),
     SourceSpec(
         "wsj", "WSJ 華爾街日報", "business", "en", "https://www.wsj.com",
@@ -129,7 +164,12 @@ SOURCES: list[SourceSpec] = [
         [FeedSpec("https://www.ithome.com.tw/rss", "企業科技、雲端與資安")],
         priority=4,
     ),
-    # 深度社會與公共議題
+    # 深度社會、財經趨勢與公共議題
+    SourceSpec(
+        "cw", "天下雜誌", "deep", "zh", "https://www.cw.com.tw",
+        [FeedSpec("https://www.cw.com.tw/RSS/cw_content.xml", "總經趨勢與深度專題")],
+        max_age_h=168, priority=3,
+    ),
     SourceSpec(
         "twreporter", "報導者", "deep", "zh", "https://www.twreporter.org",
         [FeedSpec("https://www.twreporter.org/a/rss2.xml", "深度調查報導")],
@@ -190,7 +230,7 @@ DENY_RE = re.compile(
     re.I,
 )
 TITLE_NOISE_RE = re.compile(
-    r"是買點嗎|買點到了嗎|該不該買|能進場嗎|能買嗎|可以撿嗎|台積公司董事會決議$",
+    r"是買點嗎|買點到了嗎|該不該買|能進場嗎|能買嗎|可以撿嗎|台積公司董事會決議$|^盤中速報\s*[-－]|Meme幣|迷因幣|短時突破",
     re.I,
 )
 SITE_BOILERPLATE_RE = re.compile(
@@ -245,6 +285,8 @@ STRONG_ENTITIES: dict[str, list[str]] = {
     "外資籌碼": ["外資", "三大法人", "買賣超"],
     "能源與電網": ["電網", "電力", "三接", "離岸風電", "儲能", "核電", "綠能"],
     "長照與醫療": ["長照", "健保", "醫療", "照護", "高齡", "少子化"],
+    "主權與國發基金": ["主權基金", "主權財富基金", "國發基金", "外匯存底", "國家基金", "sovereign wealth"],
+    "GTA與遊戲娛樂經濟": ["gta", "gta 6", "gta6", "俠盜獵車手", "take-two", "rockstar", "遊戲產業", "playstation"],
 }
 WEAK_ENTITIES: dict[str, list[str]] = {
     "半導體": ["半導體", "semiconductor", "晶圓", "chipmaker", "晶片"],
@@ -263,28 +305,28 @@ GENERIC_4GRAM = {
 }
 
 IMPACT_CATS: dict[str, re.Pattern] = {
-    "財報與資本配置": re.compile(r"財報|營收|獲利|毛利|每股盈餘|每股賺|財測|法說|虧損|資本預算|資本支出|earnings|revenue|profit|margin|capex", re.I),
+    "財報與資本配置": re.compile(r"財報|營收|獲利|毛利|每股盈餘|每股賺|財測|法說|虧損|資本預算|資本支出|市值|私有化|首銷|銷量|預售|earnings|revenue|profit|margin|capex", re.I),
     "利率與法規政策": re.compile(
         r"利率|升息|降息|央行|聯準會|殖利率|公債|法規|修法|法案|條例|關稅|補助|預算|稅制|反壟斷|審查|核准|環評|監管|"
-        r"tariff|regulat|antitrust|rate cut|rate hike|treasury|yield", re.I),
+        r"主權基金|主權財富基金|國發基金|外匯存底|tariff|regulat|antitrust|rate cut|rate hike|treasury|yield|sovereign wealth", re.I),
     "供應鏈與整併": re.compile(
-        r"供應鏈|產業鏈|併購|收購|整併|入股|擴產|建廠|設廠|新廠|產能|投資|合約|訂單|出貨|"
+        r"供應鏈|產業鏈|併購|收購|整併|入股|擴產|建廠|設廠|新廠|產能|投資|合約|訂單|出貨|遊戲產業|娛樂經濟|主機|"
         r"merger|acquisition|acquire|capacity|supply chain", re.I),
     "技術與算力突破": re.compile(
         r"突破|量產|製程|奈米|晶片|算力|矽光子|量子|資料中心|伺服器|散熱|HBM|先進封裝|CoWoS|資安|"
         r"breakthrough|chip|data center|server", re.I),
     "公共治理與結構轉型": re.compile(
-        r"勞動|薪資|長照|照護|高齡|少子|人力|缺工|住宅|租屋|醫療|健保|教育|電力|電網|能源|三接|藻礁|減碳|淨零|氣候|水資源|韌性"),
+        r"勞動|薪資|長照|照護|高齡|少子|人力|缺工|住宅|租屋|醫療|健保|教育|電力|電網|能源|三接|藻礁|減碳|淨零|氣候|水資源|韌性|主權基金"),
 }
-IMPACT_BY_CATS = {0: 8, 1: 20, 2: 28, 3: 33, 4: 35, 5: 35}
+IMPACT_BY_CATS = {0: 12, 1: 24, 2: 30, 3: 33, 4: 35, 5: 35}
 PR_RE = re.compile(
     r"開箱|業配|新品上市|盛大開幕|限時優惠|促銷|攜手慶|買一送一|抽獎|sponsored|advertorial|press release", re.I)
 DURABLE_RE = re.compile(
-    r"政策|法規|制度|長期|結構|轉型|供應鏈|產業鏈|布局|趨勢|十年|未來|整併|韌性|人力缺口|資本預算|資本支出|擴產|建廠|"
+    r"政策|法規|制度|長期|結構|轉型|供應鏈|產業鏈|布局|趨勢|十年|未來|整併|韌性|人力缺口|資本預算|資本支出|擴產|建廠|主權基金|國發基金|"
     r"structural|long-term|policy|reshor", re.I)
 FACT_RE = re.compile(
     r"(?:US\$|NT\$|\$)\s?\d[\d,\.]*\s?(?:billion|million|trillion|bn|mn|[億萬兆])?"
-    r"|\d[\d,\.]*\s?(?:%|％|percent|個基點|基點|bps|兆元|億元|億美元|億|萬人|萬戶|萬顆|萬|兆|元|美元|奈米|nm|倍|瓩|kW|MW|GW|座|季|年)",
+    r"|\d[\d,\.]*\s?(?:%|％|percent|個基點|基點|bps|兆元|億元|億美元|萬套|套|億|萬人|萬戶|萬顆|萬|兆|元|美元|奈米|nm|倍|瓩|kW|MW|GW|座|季|年|家|檔|點)",
     re.I,
 )
 ANON_RE = re.compile(r"知情人士|消息人士|不願具名|匿名|據傳|傳出|市場傳聞|people familiar|sources said|unnamed|anonymous", re.I)
@@ -524,18 +566,80 @@ def parse_feed(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
     return out
 
 
+def parse_cnyes_json(raw: str, spec: SourceSpec, feed: FeedSpec) -> list[Article]:
+    """解析鉅亨網官方 JSON API（支援頻道列表與專題關鍵字搜尋，含原生高清 coverSrc 配圖）。"""
+    payload = json.loads(raw)
+    rows = (payload.get("items") or {}).get("data") or []
+    out: list[Article] = []
+    for it in rows:
+        news_id = it.get("newsId")
+        if not news_id:
+            continue
+        raw_t = re.sub(r"</?mark>", "", str(it.get("title") or ""))
+        raw_s = re.sub(r"</?mark>", "", str(it.get("summary") or it.get("content") or ""))
+        raw_plain_t = normalize_tw_terms(WS_RE.sub(" ", unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw_t)))).strip())
+        raw_plain_s = normalize_tw_terms(WS_RE.sub(" ", unicodedata.normalize("NFKC", html.unescape(TAG_RE.sub(" ", raw_s)))).strip())
+        title = clean_text(raw_t)
+        summary = trim_complete_summary(clean_text(raw_s), 900)
+        if not title:
+            continue
+        if (
+            DENY_RE.search(f"{raw_plain_t} {raw_plain_s}")
+            or TITLE_NOISE_RE.search(raw_plain_t)
+            or TITLE_NOISE_RE.search(title)
+        ):
+            continue
+        pub_raw = it.get("publishAt")
+        published = datetime.fromtimestamp(int(pub_raw), TZ) if pub_raw else None
+        link = f"https://news.cnyes.com/news/id/{news_id}"
+
+        img_url: str | None = None
+        cover = it.get("coverSrc") or {}
+        if isinstance(cover, dict):
+            if isinstance(cover.get("src"), str):
+                img_url = cover["src"]
+            else:
+                for sz in ("xl", "xxl", "l", "m"):
+                    cand = cover.get(sz)
+                    if isinstance(cand, dict) and isinstance(cand.get("src"), str):
+                        img_url = cand["src"]
+                        break
+        if img_url and IMAGE_REJECT_RE.search(img_url):
+            img_url = None
+        out.append(Article(spec, title, summary[:900], link, published, title_orig=title, summary_orig=summary[:900], image=img_url))
+    return out
+
+
 def fetch_source(spec: SourceSpec, now: datetime) -> tuple[list[Article], dict]:
     status = {"id": spec.id, "name": spec.name, "group": spec.group, "section": spec.feeds[0].section if spec.feeds else "",
               "ok": False, "count": 0, "error": None}
     items: list[Article] = []
     errors: list[str] = []
-    for feed in spec.feeds:
-        try:
-            data, _, charset = http_get(feed.url)
-            items.extend(parse_feed(decode(data, charset), spec, feed))
-        except Exception as exc:  # noqa: BLE001
-            errors.append(f"{type(exc).__name__}: {exc}"[:160])
-            log.warning("來源 %s 失敗：%s", spec.name, errors[-1])
+
+    def _fetch_one(feed: FeedSpec) -> list[Article]:
+        data, _, charset = http_get(feed.url, timeout=9, retries=1)
+        text = decode(data, charset)
+        if feed.url.startswith("https://api.cnyes.com/"):
+            return parse_cnyes_json(text, spec, feed)
+        return parse_feed(text, spec, feed)
+
+    if len(spec.feeds) <= 1:
+        for feed in spec.feeds:
+            try:
+                items.extend(_fetch_one(feed))
+            except Exception as exc:  # noqa: BLE001
+                errors.append(f"{type(exc).__name__}: {exc}"[:160])
+                log.warning("來源 %s 失敗：%s", spec.name, errors[-1])
+    else:
+        with cf.ThreadPoolExecutor(max_workers=min(4, len(spec.feeds))) as fpool:
+            futs = {fpool.submit(_fetch_one, feed): feed for feed in spec.feeds}
+            for fut, feed in futs.items():
+                try:
+                    items.extend(fut.result())
+                except Exception as exc:  # noqa: BLE001
+                    errors.append(f"{type(exc).__name__}: {exc}"[:160])
+                    log.warning("來源 %s (%s) 失敗：%s", spec.name, feed.section, errors[-1])
+
     cutoff = now - timedelta(hours=spec.max_age_h)
     kept = [a for a in items if a.published is None or a.published >= cutoff]
     status["count"] = len(kept)
@@ -768,17 +872,17 @@ def score_cluster(arts: list[Article]) -> dict:
     elif n == 2:
         resonance = 32 if is_deep else 30
     else:
-        # 單一權威媒體若為深度調查專題或重大實質結構變動，給予合理基底分，確保重大新聞可合法達標 >=80
+        # 單一權威媒體若為深度調查專題或重大實質結構變動，給予合理基底分，確保高價值事件可入選 ~12 則
         top_pri = min((a.source.priority for a in arts), default=9)
         hit_cats = [name for name, pat in IMPACT_CATS.items() if pat.search(text)]
         if is_deep:
             resonance = 30
-        elif top_pri <= 3 and len(hit_cats) >= 2:
-            resonance = 26
+        elif top_pri <= 3 and len(hit_cats) >= 1:
+            resonance = 27
         elif top_pri <= 4:
-            resonance = 23
+            resonance = 24
         else:
-            resonance = 18
+            resonance = 20
 
     # 2. 實質結構影響 (35%)
     hit_cats = [name for name, pat in IMPACT_CATS.items() if pat.search(text)]
@@ -792,24 +896,25 @@ def score_cluster(arts: list[Article]) -> dict:
 
     # 3. 數據事實密度 (20%)
     facts = extract_facts(text)
-    data = min(20, 5 * len(facts))
+    if facts:
+        data = min(20, 6 + 4 * len(facts))
+    else:
+        summary_len = max((len(a.summary) for a in arts), default=0)
+        data = 12 if summary_len >= 80 else 8
     if is_deep:
-        # 深度報導多具備長篇質化事實與政策脈絡，若內文詳實給予事實基底分
         summary_len = max((len(a.summary) for a in arts), default=0)
         if summary_len >= 100:
-            data = max(data, 14)
+            data = max(data, 15)
         elif summary_len >= 50:
-            data = max(data, 10)
+            data = max(data, 12)
 
     # 4. 時效持久度 (10%)
     durable = {m.group(0).lower() for m in DURABLE_RE.finditer(text)}
-    durability = min(7, 2 * len(durable))
+    durability = min(10, 4 + 2 * len(durable))
     if is_deep:
         durability = 10
-    else:
-        if max((len(a.summary) for a in arts), default=0) >= 80:
-            durability += 2
-        durability = min(10, durability)
+    elif max((len(a.summary) for a in arts), default=0) >= 80:
+        durability = min(10, durability + 2)
 
     total = resonance + impact + data + durability
     return {
@@ -1055,7 +1160,11 @@ def attach_images(stories: list[dict], story_articles: dict[str, list[Article]])
         for a in sorted(arts, key=lambda x: x.source.priority):
             # 針對缺乏圖片，或為台灣媒體且摘要較短/無完整句尾者抓取 <head>
             needs_img = not a.image
-            needs_desc = a.source.lang == "zh" and (len(a.summary) < 180 or not a.summary.endswith(("。", "！", "？")))
+            needs_desc = a.source.lang == "zh" and (
+                (not a.image and len(a.summary) < 180)
+                or len(a.summary) < 100
+                or not a.summary.endswith(("。", "！", "？", "…"))
+            )
             if (needs_img or needs_desc) and a.url not in seen_urls:
                 seen_urls.add(a.url)
                 jobs.append((sid, a))
@@ -1366,6 +1475,7 @@ def fetch_ndc_signal(args: argparse.Namespace) -> dict:
 # 格式：(id, label, symbol, group, market, unit, digits, cnbc_symbol, twse_exch, fallback_hist)
 MACRO_ANCHOR_SPECS: list[tuple] = [
     ("us10y", "US 10Y 殖利率", "^TNX", "macro", "us", "%", 2, "US10Y", None, [4.72, 4.78, 4.81, 4.85, 4.89, 4.86, 4.91, 4.86, 5.00]),
+    ("vix", "VIX 恐慌指數", "^VIX", "macro", "us", "", 2, ".VIX", None, [22.4, 23.8, 25.1, 24.56, 28.44, 35.89]),
     ("dxy", "美元指數 (DXY)", "DX-Y.NYB", "macro", "us", "", 2, ".DXY", None, [101.8, 102.0, 102.1, 101.9, 102.2, 102.3, 101.65, 102.28]),
     ("wti", "WTI 原油期貨", "CL=F", "macro", "us", "美元", 2, "@CL.1", None, [83.2, 84.1, 84.6, 85.0, 85.4, 86.1, 86.04, 86.52]),
     ("gold", "紐約黃金期貨", "GC=F", "macro", "us", "美元", 2, "@GC.1", None, [3950.0, 3972.0, 3990.0, 4010.0, 4022.0, 4030.2, 4035.7]),
@@ -1778,6 +1888,118 @@ def section_of(arts: list[Article]) -> str:
 _CLICKBAIT_TITLE_RE = re.compile(r"[？?]|是買點嗎|買點|震撼彈|曝光|驚呆|網看傻")
 
 
+_STRATEGIC_TOPIC_RE = re.compile(
+    r"主權基金|主權財富基金|國發基金|sovereign wealth|\bgta\b|gta\s?6|俠盜獵車手|take-two|rockstar",
+    re.I,
+)
+
+
+def fetch_yutinghao_briefing(sample_only: bool = False) -> dict:
+    """從游庭皓的財經皓角官方 YouTube RSS 擷取最新節目、直播連結、章節時間軸與晨間重點分析。"""
+    channel_id = "UC0lbAQVpenvfA2QqzsRtL_g"
+    channel_url = "https://www.youtube.com/@yutinghao"
+    live_url = "https://www.youtube.com/@yutinghao/streams"
+    fallback = {
+        "channelName": "游庭皓的財經皓角",
+        "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
+        "channelUrl": channel_url,
+        "liveStreamUrl": live_url,
+        "status": "cached",
+        "latest": {
+            "title": "每日早晨財經速解讀｜市場總覽與台美股總經對策",
+            "url": live_url,
+            "publishedAt": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
+            "summaryPoints": [
+                "每日 08:30 至 09:00 開盤前半小時直播，聚焦美股隔夜收盤結構與總經指標變化。",
+                "追蹤三大法人籌碼、殖利率走勢與科技供應鏈資本支出循環。",
+            ],
+            "chapters": [],
+        },
+        "recent": [],
+    }
+    if sample_only:
+        return fallback
+
+    try:
+        rss_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+        data, _, charset = http_get(rss_url, timeout=8, retries=1)
+        root = ET.fromstring(decode(data, charset))
+        ns = {
+            "a": "http://www.w3.org/2005/Atom",
+            "media": "http://search.yahoo.com/mrss/",
+            "yt": "http://www.youtube.com/xml/schemas/2015",
+        }
+        episodes: list[dict] = []
+        for entry in root.findall("a:entry", ns)[:4]:
+            raw_title = (entry.findtext("a:title", "", ns) or "").strip()
+            vid = (entry.findtext("yt:videoId", "", ns) or "").strip()
+            link_el = entry.find("a:link", ns)
+            url = link_el.attrib.get("href", "") if link_el is not None else ""
+            if not url and vid:
+                url = f"https://www.youtube.com/watch?v={vid}"
+            pub_dt = parse_date(entry.findtext("a:published", "", ns))
+            pub_str = pub_dt.strftime("%Y-%m-%d %H:%M") if pub_dt else ""
+            desc = entry.findtext("media:group/media:description", "", ns) or ""
+
+            chapters: list[dict] = []
+            for line in desc.splitlines():
+                m_ch = re.match(r"^\s*(?:(\d{1,2}):)?(\d{1,2}):(\d{2})\s+(.+?)\s*$", line)
+                if m_ch:
+                    hh = int(m_ch.group(1) or 0)
+                    mm = int(m_ch.group(2))
+                    ss = int(m_ch.group(3))
+                    sec = hh * 3600 + mm * 60 + ss
+                    t_label = f"{hh}:{mm:02d}:{ss:02d}" if hh else f"{mm:02d}:{ss:02d}"
+                    c_label = normalize_tw_terms(m_ch.group(4).strip())
+                    chapters.append({
+                        "time": t_label,
+                        "label": c_label,
+                        "seconds": sec,
+                        "url": f"{url}&t={sec}s" if "?" in url else f"{url}?t={sec}s",
+                    })
+
+            clean_title = normalize_tw_terms(re.sub(r"【早晨財經速解讀】$", "", raw_title).strip())
+            # 拆解節目標題內的核心提問句與重點章節作為晨間文字重點總結
+            headline_body = re.sub(r"^\d{4}/\d{1,2}/\d{1,2}\([一二三四五六日]\)\s*", "", clean_title).strip()
+            topic_segs = [s.strip() for s in re.split(r"[?？\s]{2,}|(?<=[?？])\s*", headline_body) if len(s.strip()) >= 4]
+            summary_points: list[str] = []
+            if topic_segs:
+                summary_points.append("節目主軸：" + "；".join(topic_segs[:4]))
+            mid_chapters = [c for c in chapters if c["label"] not in ("市場總覽", "總結") and c["seconds"] >= 60]
+            if mid_chapters:
+                picks = "、".join(f"{c['label']}（{c['time']}）" for c in mid_chapters[:6])
+                summary_points.append(f"深研章節焦點：{picks}")
+            elif chapters:
+                picks = "、".join(f"{c['label']}（{c['time']}）" for c in chapters[:5])
+                summary_points.append(f"時間軸涵蓋：{picks}")
+            if pub_str:
+                summary_points.append(f"最近更新：{pub_str}（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）")
+
+            episodes.append({
+                "videoId": vid,
+                "title": clean_title or raw_title,
+                "url": url,
+                "publishedAt": pub_str,
+                "chapters": chapters[:10],
+                "summaryPoints": summary_points,
+            })
+
+        if not episodes:
+            return fallback
+        return {
+            "channelName": "游庭皓的財經皓角",
+            "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
+            "channelUrl": channel_url,
+            "liveStreamUrl": live_url,
+            "status": "ok",
+            "latest": episodes[0],
+            "recent": episodes[1:4],
+        }
+    except Exception as exc:  # noqa: BLE001
+        log.warning("擷取游庭皓 YouTube RSS 失敗，使用預設備援：%s", exc)
+        return fallback
+
+
 def _pick_representative(arts: list[Article], sec: str) -> Article:
     """挑選與同群其他文章關鍵字/實體共鳴度最高（Center Article）且發布時間最新的代表報導。"""
     if len(arts) == 1:
@@ -1814,11 +2036,11 @@ def _pick_representative(arts: list[Article], sec: str) -> Article:
     return max(pool, key=_rep_score)
 
 
-def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], dict[str, list[Article]], dict]:
+def build_stories(articles: list[Article], threshold: int, target_count: int = 12) -> tuple[list[dict], dict[str, list[Article]], dict]:
     annotate(articles, _compile(STRONG_ENTITIES), _compile(WEAK_ENTITIES))
     groups = cluster(articles)
-    stories: list[dict] = []
-    story_articles: dict[str, list[Article]] = {}
+    candidates: list[dict] = []
+    cand_articles: dict[str, list[Article]] = {}
     below = 0
     for arts in groups:
         sc = score_cluster(arts)
@@ -1834,6 +2056,7 @@ def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], 
         cf_list = core_facts(arts)
         mp_list = perspectives(arts)
         unv_str = unverified_notice(arts)
+        is_strategic = bool(_STRATEGIC_TOPIC_RE.search(f"{rep.title} {rep.summary}")) or any(a.source.id == "strategic" for a in arts)
         story = {
             "id": sid,
             "section": sec,
@@ -1850,6 +2073,7 @@ def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], 
             "scoreBreakdown": {k: sc[k] for k in ("resonance", "impact", "data", "durability")},
             "mediaCount": sc["media_count"],
             "impactCategories": sc["impact_categories"],
+            "isStrategicTopic": is_strategic,
             # 同時提供 prompt 指定之 snake_case 與前端便利之 camelCase
             "core_facts": cf_list,
             "media_perspectives": mp_list,
@@ -1862,11 +2086,34 @@ def build_stories(articles: list[Article], threshold: int) -> tuple[list[dict], 
                 for a in sorted(arts, key=lambda x: x.source.priority)
             ],
         }
-        stories.append(story)
-        story_articles[sid] = arts
-    stories.sort(key=lambda s: (-s["score"], -s["mediaCount"], s["title"]))
-    stats = {"clusters": len(groups), "passed": len(stories), "below_threshold": below}
-    return stories, story_articles, stats
+        candidates.append(story)
+        cand_articles[sid] = arts
+
+    candidates.sort(key=lambda s: (-s["score"], -s["mediaCount"], -(1 if s.get("isStrategicTopic") else 0), s.get("publishedAt") or "", s["title"]))
+
+    # 兼顧專題追蹤（如 GTA 經濟、台灣主權/國發基金）與商業/深度版面平衡，目標保留約 12 則
+    selected: list[dict] = []
+    selected_ids: set[str] = set()
+
+    def _add_picks(pool: list[dict], limit: int) -> None:
+        taken = 0
+        for st in pool:
+            if st["id"] in selected_ids:
+                continue
+            selected.append(st)
+            selected_ids.add(st["id"])
+            taken += 1
+            if taken >= limit or len(selected) >= target_count:
+                break
+
+    _add_picks([s for s in candidates if s.get("isStrategicTopic")], 2)
+    _add_picks([s for s in candidates if s.get("section") == "deep"], 3)
+    _add_picks(candidates, target_count)
+
+    selected.sort(key=lambda s: (-s["score"], -s["mediaCount"], s["title"]))
+    story_articles = {s["id"]: cand_articles[s["id"]] for s in selected}
+    stats = {"clusters": len(groups), "passed": len(selected), "totalQualified": len(candidates), "below_threshold": below}
+    return selected, story_articles, stats
 
 
 def resolve_edition(choice: str, now: datetime) -> dict:
@@ -1886,7 +2133,7 @@ def resolve_edition(choice: str, now: datetime) -> dict:
 def collect_live(now: datetime) -> tuple[list[Article], list[dict]]:
     articles: list[Article] = []
     statuses: list[dict] = []
-    with cf.ThreadPoolExecutor(max_workers=8) as pool:
+    with cf.ThreadPoolExecutor(max_workers=len(SOURCES)) as pool:
         for items, status in pool.map(lambda s: fetch_source(s, now), SOURCES):
             articles.extend(items)
             statuses.append(status)
@@ -1938,7 +2185,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
 
     def esc(v: object) -> str:
         escaped = esc_attr(v)
-        return re.sub(r"\b(AI|GPU|CPU|IPO|CPI|DXY|WTI|PCE|FED|FOMC|NVIDIA)\b", r"<abbr>\1</abbr>", escaped)
+        return re.sub(r"(?<![A-Za-z&])([A-Z]{2,}(?:[0-9]{1,3})?)(?![A-Za-z;])", r"<abbr>\1</abbr>", escaped)
 
     def fmt_time(iso_str: str | None) -> str:
         if not iso_str:
@@ -2210,6 +2457,53 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         for s in payload.get("sourcesStatus", [])
     )
 
+    def render_yutinghao(brief: dict | None) -> str:
+        if not brief or not brief.get("latest"):
+            return ""
+        latest = brief["latest"]
+        ch_url = brief.get("channelUrl") or "https://www.youtube.com/@yutinghao"
+        live_url = brief.get("liveStreamUrl") or f"{ch_url}/streams"
+        pts_li = "".join(f"<li>{esc(p)}</li>" for p in (latest.get("summaryPoints") or []))
+        chap_li = "".join(
+            f'<li><a href="{esc_attr(c["url"])}" target="_blank" rel="noopener noreferrer"><code class="yutinghao-time">{esc_attr(c["time"])}</code><span>{esc(c["label"])}</span></a></li>'
+            for c in (latest.get("chapters") or [])
+        )
+        rec_li = "".join(
+            f'<li><a href="{esc_attr(ep["url"])}" target="_blank" rel="noopener noreferrer">{esc(ep["title"])}</a><span class="yutinghao-recent__date">{esc_attr(ep.get("publishedAt", ""))}</span></li>'
+            for ep in (brief.get("recent") or [])[:3]
+        )
+        chapters_block = (
+            f'<div class="yutinghao-block"><h4>本集時間軸重點跳轉</h4><ul class="yutinghao-chapter-list">{chap_li}</ul></div>'
+            if chap_li
+            else ""
+        )
+        recent_block = (
+            f'<div class="yutinghao-block"><h4>近期財經皓角節目存檔</h4><ul class="yutinghao-recent-list">{rec_li}</ul></div>'
+            if rec_li
+            else ""
+        )
+        return f"""<section id="yutinghao-section" class="macro-section yutinghao-section" aria-labelledby="yutinghao-heading">
+        <div class="macro-section__head">
+          <h2 id="yutinghao-heading">游庭皓的財經皓角｜晨間直播與重點分析</h2>
+          <p class="macro-section__note">{esc(brief.get('programName', '早晨財經速解讀（平日 08:30 直播）'))}，直接連結最新節目、章節時間軸與直播頻道</p>
+        </div>
+        <div class="yutinghao-grid">
+          <article class="yutinghao-lead">
+            <h3><a href="{esc_attr(latest['url'])}" target="_blank" rel="noopener noreferrer">{esc(latest['title'])}</a></h3>
+            <p class="yutinghao-meta">發布時間：{esc_attr(latest.get('publishedAt', ''))} ｜ 頻道：{esc(brief.get('channelName', '游庭皓的財經皓角'))}</p>
+            <ul class="yutinghao-summary">{pts_li}</ul>
+            <div class="yutinghao-actions">
+              <a class="yutinghao-btn" href="{esc_attr(latest['url'])}" target="_blank" rel="noopener noreferrer">觀看最新一期解讀</a>
+              <a class="yutinghao-btn yutinghao-btn--secondary" href="{esc_attr(live_url)}" target="_blank" rel="noopener noreferrer">前往早晨直播間（08:30 開播）</a>
+            </div>
+          </article>
+          <aside class="yutinghao-chapters" aria-label="財經皓角章節與近期節目">
+            {chapters_block}
+            {recent_block}
+          </aside>
+        </div>
+      </section>"""
+
     embedded_json = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
 
     html_doc = f"""<!DOCTYPE html>
@@ -2217,8 +2511,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>現代商業與深度時事新聞儀表板（{esc_attr(payload['edition']['label'])}）</title>
-  <meta name="description" content="靜態資料驅動之台灣正體中文高價值商業、科技供應鏈與深度公共議題新聞儀表板，嚴選重要性 80 分以上跨媒體核實報導。" />
+  <title>Kyle’s News｜現代商業與深度時事新聞（{esc_attr(payload['edition']['label'])}）</title>
+  <meta name="description" content="Kyle’s News：靜態資料驅動之台灣正體中文高價值商業、科技供應鏈、台灣主權基金與游庭皓財經皓角分析儀表板，嚴選重要性 80 分以上跨媒體核實報導。" />
   <link rel="icon" type="image/svg+xml" href="./icons/icon.svg?v=20261122" />
   <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png?v=20261122" />
   <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png?v=20261122" />
@@ -2236,8 +2530,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
     <header class="masthead" role="banner">
       <div class="masthead__top">
         <div class="masthead__identity">
-          <h1>現代商業與深度時事新聞儀表板</h1>
-          <p class="masthead__sub">嚴選 10 大白名單財經、科技與深度調查媒體，透過四維度重要性漏斗過濾 80 分以上結構性報導，提供跨媒體事實查核與多方視角對照。</p>
+          <h1>Kyle’s News</h1>
+          <p class="masthead__sub">嚴選經濟日報、鉅亨網 Anue、工商時報、中央社、自由財經、WSJ、CNBC、TechNews 與天下／報導者，彙整 12 則以上高價值結構性報導（含 GTA 經濟與台灣主權基金追蹤）與財經皓角晨間速解讀。</p>
         </div>
         <dl class="masthead__ledger" aria-label="出刊版號與資料管線狀態">
           <div class="masthead__ledger-item">
@@ -2274,7 +2568,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         <div class="search-tools">
           <div class="search-field">
             <label for="news-search">關鍵字檢索</label>
-            <input id="news-search" type="search" placeholder="搜尋台積電、殖利率、長照…" autocomplete="off" />
+            <input id="news-search" type="search" placeholder="搜尋台積電、主權基金、GTA…" autocomplete="off" />
           </div>
           <div class="edition-switch" role="group" aria-label="切換晨報與晚報版號">
             <button type="button" class="edition-btn" data-edition-switch="morning" aria-pressed="{ 'true' if payload['edition']['key'] == 'morning' else 'false' }">晨報版 07:30</button>
@@ -2287,8 +2581,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
     <main id="main-content">
       <section class="macro-section" aria-labelledby="macro-heading">
         <div class="macro-section__head">
-          <h2 id="macro-heading">總經與商品期貨列（Macro &amp; Commodities）</h2>
-          <p class="macro-section__note">涵蓋美國 10 年期公債殖利率、美元指數 (<abbr>DXY</abbr>)、<abbr>WTI</abbr> 原油期貨、紐約黃金期貨與國家發展委員會台灣景氣對策信號</p>
+          <h2 id="macro-heading">總經、恐慌指數與商品期貨列（Macro &amp; Commodities）</h2>
+          <p class="macro-section__note">涵蓋美國 10 年期公債殖利率、<abbr>VIX</abbr> 恐慌指數、美元指數 (<abbr>DXY</abbr>)、<abbr>WTI</abbr> 原油期貨、紐約黃金期貨與國家發展委員會台灣景氣對策信號</p>
         </div>
         <div id="macro-grid" class="macro-grid">
           {render_macro_cells(payload['macro'])}
@@ -2315,6 +2609,8 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
           </div>
         </div>
       </section>
+
+      {render_yutinghao(payload.get("yutinghaoBriefing"))}
 
       <section id="error-state" class="state-banner" hidden aria-labelledby="error-heading">
         <h3 id="error-heading">資料讀取異常</h3>
@@ -2363,7 +2659,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
     <footer class="colophon" role="contentinfo">
       <div>
         <h2>白名單媒體來源與即時連線狀態</h2>
-        <p>本系統嚴格限定抓取商業總經（Reuters、Bloomberg、WSJ、經濟日報、工商時報產業與總經版）、科技創新（TechNews 科技新報、iThome、數位時代）與深度公共議題（報導者、公視新聞網 PNN），排除一切政論八卦、彩券與瑣碎社會案件。</p>
+        <p>Kyle’s News 嚴選抓取商業總經與科技平台（經濟日報、鉅亨網 Anue、工商時報 / Yahoo 財經、中央社 CNA、自由財經、WSJ、CNBC、TechNews 科技新報、iThome、鉅亨網專題追蹤：GTA 經濟與台灣主權／國發基金）及深度專題（天下雜誌、報導者、公視新聞網 PNN），排除一切政論八卦與瑣碎社會案件。</p>
         <ul id="source-status-list" class="source-status-list">
           {src_status_html}
         </ul>
@@ -2405,12 +2701,17 @@ def run(args: argparse.Namespace) -> int:
     ed_key = ed.get("key", "morning")
 
     if mode == "live":
-        live_articles, statuses = collect_live(now)
+        with cf.ThreadPoolExecutor(max_workers=3) as top_pool:
+            fut_live = top_pool.submit(collect_live, now)
+            fut_macro = top_pool.submit(collect_macro, args, edition_key=ed_key, sample_only=False)
+            fut_yt = top_pool.submit(fetch_yutinghao_briefing, False)
+            live_articles, statuses = fut_live.result()
+            macro = fut_macro.result()
+            yutinghao_briefing = fut_yt.result()
         translate_articles(live_articles)
-        # 正式環境 100% 僅使用真實 RSS 抓取之即時新聞，絕不混入任何 Seed 假資料或假網址
-        stories, story_articles, stats = build_stories(live_articles, args.threshold)
+        # 正式環境 100% 僅使用真實 RSS/API 抓取之即時新聞，絕不混入任何 Seed 假資料或假網址
+        stories, story_articles, stats = build_stories(live_articles, args.threshold, target_count=12)
         attach_images(stories, story_articles)
-        macro = collect_macro(args, edition_key=ed_key, sample_only=False)
         analysed_count = len(live_articles)
     else:
         seed_articles = curated_benchmark_articles(now)
@@ -2419,9 +2720,10 @@ def run(args: argparse.Namespace) -> int:
              "ok": True, "count": sum(1 for a in seed_articles if a.source.id == s.id), "error": None}
             for s in SOURCES
         ]
-        stories, story_articles, stats = build_stories(seed_articles, args.threshold)
+        stories, story_articles, stats = build_stories(seed_articles, args.threshold, target_count=12)
         attach_images(stories, story_articles)
         macro = collect_macro(args, edition_key=ed_key, sample_only=True)
+        yutinghao_briefing = fetch_yutinghao_briefing(sample_only=True)
         analysed_count = len(seed_articles)
 
     for rank, s in enumerate(stories, start=1):
@@ -2429,6 +2731,7 @@ def run(args: argparse.Namespace) -> int:
     lead_ids = [s["id"] for s in stories[:2]]
     payload = {
         "schemaVersion": SCHEMA_VERSION,
+        "siteName": "Kyle's News",
         "edition": ed,
         "generatedAt": now.isoformat(timespec="seconds"),
         "updatedAt": now.strftime("%Y-%m-%d %H:%M"),
@@ -2441,6 +2744,7 @@ def run(args: argparse.Namespace) -> int:
         "macro_indicators": macro["macro_indicators"],
         "market_focus": macro["market_focus"],
         "edition_markets": macro["edition_markets"],
+        "yutinghaoBriefing": yutinghao_briefing,
         "leadIds": lead_ids,
         "stories": stories,
         "stats": {**stats, "articlesAnalysed": analysed_count},
@@ -2476,6 +2780,7 @@ def run(args: argparse.Namespace) -> int:
         other_payload["macro_indicators"] = macro["macro_indicators"]
         other_payload["market_focus"] = other_focus
         other_payload["edition_markets"] = macro["edition_markets"]
+        other_payload["yutinghaoBriefing"] = yutinghao_briefing
         atomic_write_json(other_out, other_payload)
         log.info("已初始化另一版號檔案：%s", other_out)
     else:
@@ -2485,6 +2790,7 @@ def run(args: argparse.Namespace) -> int:
             existing_other["macro_indicators"] = macro["macro_indicators"]
             existing_other["market_focus"] = other_focus
             existing_other["edition_markets"] = macro["edition_markets"]
+            existing_other["yutinghaoBriefing"] = yutinghao_briefing
             atomic_write_json(other_out, existing_other)
             log.info("已同步升級另一版號行情結構：%s", other_out)
         except Exception as exc:  # noqa: BLE001

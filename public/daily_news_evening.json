@@ -53,6 +53,38 @@
         "source": "CNBC Market Data"
       },
       {
+        "id": "vix",
+        "label": "VIX 恐慌指數",
+        "symbol": "^VIX",
+        "group": "macro",
+        "market": "us",
+        "unit": "",
+        "digits": 2,
+        "status": "ok",
+        "value": 35.89,
+        "change": 7.45,
+        "changePct": 26.2,
+        "asOf": "2026-11-20",
+        "history": [
+          21.15,
+          20.83,
+          16.61,
+          28.18,
+          25.64,
+          19.92,
+          19.46,
+          17.49,
+          18.7,
+          19.3,
+          22.91,
+          25.46,
+          24.56,
+          28.44,
+          35.89
+        ],
+        "source": "CNBC Market Data"
+      },
+      {
         "id": "dxy",
         "label": "美元指數 (DXY)",
         "symbol": "DX-Y.NYB",
@@ -207,6 +239,38 @@
           5.052,
           4.912,
           4.95
+        ],
+        "source": "CNBC Market Data"
+      },
+      {
+        "id": "vix",
+        "label": "VIX 恐慌指數",
+        "symbol": "^VIX",
+        "group": "macro",
+        "market": "us",
+        "unit": "",
+        "digits": 2,
+        "status": "ok",
+        "value": 35.89,
+        "change": 7.45,
+        "changePct": 26.2,
+        "asOf": "2026-11-20",
+        "history": [
+          21.15,
+          20.83,
+          16.61,
+          28.18,
+          25.64,
+          19.92,
+          19.46,
+          17.49,
+          18.7,
+          19.3,
+          22.91,
+          25.46,
+          24.56,
+          28.44,
+          35.89
         ],
         "source": "CNBC Market Data"
       },
@@ -1675,6 +1739,38 @@
         5.052,
         4.912,
         4.95
+      ],
+      "source": "CNBC Market Data"
+    },
+    {
+      "id": "vix",
+      "label": "VIX 恐慌指數",
+      "symbol": "^VIX",
+      "group": "macro",
+      "market": "us",
+      "unit": "",
+      "digits": 2,
+      "status": "ok",
+      "value": 35.89,
+      "change": 7.45,
+      "changePct": 26.2,
+      "asOf": "2026-11-20",
+      "history": [
+        21.15,
+        20.83,
+        16.61,
+        28.18,
+        25.64,
+        19.92,
+        19.46,
+        17.49,
+        18.7,
+        19.3,
+        22.91,
+        25.46,
+        24.56,
+        28.44,
+        35.89
       ],
       "source": "CNBC Market Data"
     },
@@ -3835,5 +3931,306 @@
       "count": 17,
       "error": null
     }
-  ]
+  ],
+  "yutinghaoBriefing": {
+    "channelName": "游庭皓的財經皓角",
+    "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
+    "channelUrl": "https://www.youtube.com/@yutinghao",
+    "liveStreamUrl": "https://www.youtube.com/@yutinghao/streams",
+    "status": "ok",
+    "latest": {
+      "videoId": "vBIWf_ne83Q",
+      "title": "2026/11/20(五)四大指數年線全失守 ANT吃飽 美股全倒?台股禁空令 擋得住賣壓?",
+      "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q",
+      "publishedAt": "2026-11-20 09:08",
+      "chapters": [
+        {
+          "time": "00:00",
+          "label": "市場總覽",
+          "seconds": 0,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=0s"
+        },
+        {
+          "time": "02:10",
+          "label": "美股追蹤",
+          "seconds": 130,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=130s"
+        },
+        {
+          "time": "05:00",
+          "label": "走勢對照",
+          "seconds": 300,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=300s"
+        },
+        {
+          "time": "06:45",
+          "label": "美股基期",
+          "seconds": 405,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=405s"
+        },
+        {
+          "time": "09:30",
+          "label": "下跌三種",
+          "seconds": 570,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=570s"
+        },
+        {
+          "time": "10:15",
+          "label": "ANT上市",
+          "seconds": 615,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=615s"
+        },
+        {
+          "time": "15:30",
+          "label": "台股追蹤",
+          "seconds": 930,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=930s"
+        },
+        {
+          "time": "17:30",
+          "label": "官方護盤",
+          "seconds": 1050,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1050s"
+        },
+        {
+          "time": "19:10",
+          "label": "禁空令",
+          "seconds": 1150,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1150s"
+        },
+        {
+          "time": "23:50",
+          "label": "第二隻腳",
+          "seconds": 1430,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1430s"
+        }
+      ],
+      "summaryPoints": [
+        "節目主軸：四大指數年線全失守 ANT吃飽 美股全倒?；台股禁空令 擋得住賣壓?",
+        "深研章節焦點：美股追蹤（02:10）、走勢對照（05:00）、美股基期（06:45）、下跌三種（09:30）、ANT上市（10:15）、台股追蹤（15:30）",
+        "最近更新：2026-11-20 09:08（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+      ]
+    },
+    "recent": [
+      {
+        "videoId": "1zFM-c93KCY",
+        "title": "2026/11/19(四)AI股災遇上 史上最大IPO?輝達對中政策轉彎 美股這波 夠恐慌了嗎?",
+        "url": "https://www.youtube.com/watch?v=1zFM-c93KCY",
+        "publishedAt": "2026-11-19 09:06",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=0s"
+          },
+          {
+            "time": "02:00",
+            "label": "輝達財報後",
+            "seconds": 120,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=120s"
+          },
+          {
+            "time": "05:00",
+            "label": "ANT上市案",
+            "seconds": 300,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=300s"
+          },
+          {
+            "time": "08:30",
+            "label": "IPO慘案",
+            "seconds": 510,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=510s"
+          },
+          {
+            "time": "11:00",
+            "label": "美銀基金經理人",
+            "seconds": 660,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=660s"
+          },
+          {
+            "time": "14:00",
+            "label": "市場情緒",
+            "seconds": 840,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=840s"
+          },
+          {
+            "time": "16:00",
+            "label": "複虧效應",
+            "seconds": 960,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=960s"
+          },
+          {
+            "time": "18:00",
+            "label": "美股追蹤",
+            "seconds": 1080,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1080s"
+          },
+          {
+            "time": "21:50",
+            "label": "輝達對中轉向",
+            "seconds": 1310,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1310s"
+          },
+          {
+            "time": "23:00",
+            "label": "川習咬耳朵",
+            "seconds": 1380,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1380s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：AI股災遇上 史上最大IPO?；輝達對中政策轉彎 美股這波 夠恐慌了嗎?",
+          "深研章節焦點：輝達財報後（02:00）、ANT上市案（05:00）、IPO慘案（08:30）、美銀基金經理人（11:00）、市場情緒（14:00）、複虧效應（16:00）",
+          "最近更新：2026-11-19 09:06（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      },
+      {
+        "videoId": "Bku5I3LcgSY",
+        "title": "2026/11/18(三)輝達財報炸裂 老黃回鍋夢碎?新CEO如何面對 晶片禁令與融資風暴?",
+        "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY",
+        "publishedAt": "2026-11-18 09:06",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=0s"
+          },
+          {
+            "time": "01:30",
+            "label": "輝達財報",
+            "seconds": 90,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=90s"
+          },
+          {
+            "time": "05:20",
+            "label": "人事變動",
+            "seconds": 320,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=320s"
+          },
+          {
+            "time": "09:00",
+            "label": "國安鷹派角力",
+            "seconds": 540,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=540s"
+          },
+          {
+            "time": "13:30",
+            "label": "補AI漏洞",
+            "seconds": 810,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=810s"
+          },
+          {
+            "time": "18:00",
+            "label": "融資採購承諾",
+            "seconds": 1080,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1080s"
+          },
+          {
+            "time": "22:00",
+            "label": "回歸市場機制",
+            "seconds": 1320,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1320s"
+          },
+          {
+            "time": "25:00",
+            "label": "價格衝擊",
+            "seconds": 1500,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1500s"
+          },
+          {
+            "time": "29:45",
+            "label": "經得起考驗",
+            "seconds": 1785,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1785s"
+          },
+          {
+            "time": "33:20",
+            "label": "總結",
+            "seconds": 2000,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=2000s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：輝達財報炸裂 老黃回鍋夢碎?；新CEO如何面對 晶片禁令與融資風暴?",
+          "深研章節焦點：輝達財報（01:30）、人事變動（05:20）、國安鷹派角力（09:00）、補AI漏洞（13:30）、融資採購承諾（18:00）、回歸市場機制（22:00）",
+          "最近更新：2026-11-18 09:06（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      },
+      {
+        "videoId": "zl_0SAhU3YU",
+        "title": "2026/11/17(二)費半重挫5.2%美股還有 多少壞消息?投信轉賣第四法人鬆了?",
+        "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU",
+        "publishedAt": "2026-11-17 09:03",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=0s"
+          },
+          {
+            "time": "05:00",
+            "label": "壞消息有哪些",
+            "seconds": 300,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=300s"
+          },
+          {
+            "time": "08:00",
+            "label": "巨頭現況",
+            "seconds": 480,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=480s"
+          },
+          {
+            "time": "10:00",
+            "label": "市場不缺利空",
+            "seconds": 600,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=600s"
+          },
+          {
+            "time": "14:00",
+            "label": "股市磨礪路",
+            "seconds": 840,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=840s"
+          },
+          {
+            "time": "17:40",
+            "label": "台股追蹤",
+            "seconds": 1060,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1060s"
+          },
+          {
+            "time": "21:20",
+            "label": "台幣衝擊",
+            "seconds": 1280,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1280s"
+          },
+          {
+            "time": "24:00",
+            "label": "官方態度",
+            "seconds": 1440,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1440s"
+          },
+          {
+            "time": "26:40",
+            "label": "美股追蹤",
+            "seconds": 1600,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1600s"
+          },
+          {
+            "time": "29:00",
+            "label": "總結",
+            "seconds": 1740,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1740s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：費半重挫5.2%美股還有 多少壞消息?；投信轉賣第四法人鬆了?",
+          "深研章節焦點：壞消息有哪些（05:00）、巨頭現況（08:00）、市場不缺利空（10:00）、股市磨礪路（14:00）、台股追蹤（17:40）、台幣衝擊（21:20）",
+          "最近更新：2026-11-17 09:03（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      }
+    ]
+  }
 }

@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
+  "siteName": "Kyle's News",
   "edition": {
     "key": "morning",
     "label": "晨報版 07:30",
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-22T12:25:00+08:00",
-  "updatedAt": "2026-11-22 12:25",
+  "generatedAt": "2026-11-22T12:52:31+08:00",
+  "updatedAt": "2026-11-22 12:52",
   "date": "2026-11-22",
   "weekday": "星期日",
   "dataMode": "live",
@@ -49,6 +50,38 @@
           5.052,
           4.912,
           4.95
+        ],
+        "source": "CNBC Market Data"
+      },
+      {
+        "id": "vix",
+        "label": "VIX 恐慌指數",
+        "symbol": "^VIX",
+        "group": "macro",
+        "market": "us",
+        "unit": "",
+        "digits": 2,
+        "status": "ok",
+        "value": 35.89,
+        "change": 7.45,
+        "changePct": 26.2,
+        "asOf": "2026-11-20",
+        "history": [
+          21.15,
+          20.83,
+          16.61,
+          28.18,
+          25.64,
+          19.92,
+          19.46,
+          17.49,
+          18.7,
+          19.3,
+          22.91,
+          25.46,
+          24.56,
+          28.44,
+          35.89
         ],
         "source": "CNBC Market Data"
       },
@@ -207,6 +240,38 @@
           5.052,
           4.912,
           4.95
+        ],
+        "source": "CNBC Market Data"
+      },
+      {
+        "id": "vix",
+        "label": "VIX 恐慌指數",
+        "symbol": "^VIX",
+        "group": "macro",
+        "market": "us",
+        "unit": "",
+        "digits": 2,
+        "status": "ok",
+        "value": 35.89,
+        "change": 7.45,
+        "changePct": 26.2,
+        "asOf": "2026-11-20",
+        "history": [
+          21.15,
+          20.83,
+          16.61,
+          28.18,
+          25.64,
+          19.92,
+          19.46,
+          17.49,
+          18.7,
+          19.3,
+          22.91,
+          25.46,
+          24.56,
+          28.44,
+          35.89
         ],
         "source": "CNBC Market Data"
       },
@@ -1679,6 +1744,38 @@
       "source": "CNBC Market Data"
     },
     {
+      "id": "vix",
+      "label": "VIX 恐慌指數",
+      "symbol": "^VIX",
+      "group": "macro",
+      "market": "us",
+      "unit": "",
+      "digits": 2,
+      "status": "ok",
+      "value": 35.89,
+      "change": 7.45,
+      "changePct": 26.2,
+      "asOf": "2026-11-20",
+      "history": [
+        21.15,
+        20.83,
+        16.61,
+        28.18,
+        25.64,
+        19.92,
+        19.46,
+        17.49,
+        18.7,
+        19.3,
+        22.91,
+        25.46,
+        24.56,
+        28.44,
+        35.89
+      ],
+      "source": "CNBC Market Data"
+    },
+    {
       "id": "dxy",
       "label": "美元指數 (DXY)",
       "symbol": "DX-Y.NYB",
@@ -3111,11 +3208,1041 @@
       ]
     }
   },
+  "yutinghaoBriefing": {
+    "channelName": "游庭皓的財經皓角",
+    "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
+    "channelUrl": "https://www.youtube.com/@yutinghao",
+    "liveStreamUrl": "https://www.youtube.com/@yutinghao/streams",
+    "status": "ok",
+    "latest": {
+      "videoId": "vBIWf_ne83Q",
+      "title": "2026/11/20(五)四大指數年線全失守 ANT吃飽 美股全倒?台股禁空令 擋得住賣壓?",
+      "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q",
+      "publishedAt": "2026-11-20 09:08",
+      "chapters": [
+        {
+          "time": "00:00",
+          "label": "市場總覽",
+          "seconds": 0,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=0s"
+        },
+        {
+          "time": "02:10",
+          "label": "美股追蹤",
+          "seconds": 130,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=130s"
+        },
+        {
+          "time": "05:00",
+          "label": "走勢對照",
+          "seconds": 300,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=300s"
+        },
+        {
+          "time": "06:45",
+          "label": "美股基期",
+          "seconds": 405,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=405s"
+        },
+        {
+          "time": "09:30",
+          "label": "下跌三種",
+          "seconds": 570,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=570s"
+        },
+        {
+          "time": "10:15",
+          "label": "ANT上市",
+          "seconds": 615,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=615s"
+        },
+        {
+          "time": "15:30",
+          "label": "台股追蹤",
+          "seconds": 930,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=930s"
+        },
+        {
+          "time": "17:30",
+          "label": "官方護盤",
+          "seconds": 1050,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1050s"
+        },
+        {
+          "time": "19:10",
+          "label": "禁空令",
+          "seconds": 1150,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1150s"
+        },
+        {
+          "time": "23:50",
+          "label": "第二隻腳",
+          "seconds": 1430,
+          "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1430s"
+        }
+      ],
+      "summaryPoints": [
+        "節目主軸：四大指數年線全失守 ANT吃飽 美股全倒?；台股禁空令 擋得住賣壓?",
+        "深研章節焦點：美股追蹤（02:10）、走勢對照（05:00）、美股基期（06:45）、下跌三種（09:30）、ANT上市（10:15）、台股追蹤（15:30）",
+        "最近更新：2026-11-20 09:08（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+      ]
+    },
+    "recent": [
+      {
+        "videoId": "1zFM-c93KCY",
+        "title": "2026/11/19(四)AI股災遇上 史上最大IPO?輝達對中政策轉彎 美股這波 夠恐慌了嗎?",
+        "url": "https://www.youtube.com/watch?v=1zFM-c93KCY",
+        "publishedAt": "2026-11-19 09:06",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=0s"
+          },
+          {
+            "time": "02:00",
+            "label": "輝達財報後",
+            "seconds": 120,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=120s"
+          },
+          {
+            "time": "05:00",
+            "label": "ANT上市案",
+            "seconds": 300,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=300s"
+          },
+          {
+            "time": "08:30",
+            "label": "IPO慘案",
+            "seconds": 510,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=510s"
+          },
+          {
+            "time": "11:00",
+            "label": "美銀基金經理人",
+            "seconds": 660,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=660s"
+          },
+          {
+            "time": "14:00",
+            "label": "市場情緒",
+            "seconds": 840,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=840s"
+          },
+          {
+            "time": "16:00",
+            "label": "複虧效應",
+            "seconds": 960,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=960s"
+          },
+          {
+            "time": "18:00",
+            "label": "美股追蹤",
+            "seconds": 1080,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1080s"
+          },
+          {
+            "time": "21:50",
+            "label": "輝達對中轉向",
+            "seconds": 1310,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1310s"
+          },
+          {
+            "time": "23:00",
+            "label": "川習咬耳朵",
+            "seconds": 1380,
+            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1380s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：AI股災遇上 史上最大IPO?；輝達對中政策轉彎 美股這波 夠恐慌了嗎?",
+          "深研章節焦點：輝達財報後（02:00）、ANT上市案（05:00）、IPO慘案（08:30）、美銀基金經理人（11:00）、市場情緒（14:00）、複虧效應（16:00）",
+          "最近更新：2026-11-19 09:06（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      },
+      {
+        "videoId": "Bku5I3LcgSY",
+        "title": "2026/11/18(三)輝達財報炸裂 老黃回鍋夢碎?新CEO如何面對 晶片禁令與融資風暴?",
+        "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY",
+        "publishedAt": "2026-11-18 09:06",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=0s"
+          },
+          {
+            "time": "01:30",
+            "label": "輝達財報",
+            "seconds": 90,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=90s"
+          },
+          {
+            "time": "05:20",
+            "label": "人事變動",
+            "seconds": 320,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=320s"
+          },
+          {
+            "time": "09:00",
+            "label": "國安鷹派角力",
+            "seconds": 540,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=540s"
+          },
+          {
+            "time": "13:30",
+            "label": "補AI漏洞",
+            "seconds": 810,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=810s"
+          },
+          {
+            "time": "18:00",
+            "label": "融資採購承諾",
+            "seconds": 1080,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1080s"
+          },
+          {
+            "time": "22:00",
+            "label": "回歸市場機制",
+            "seconds": 1320,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1320s"
+          },
+          {
+            "time": "25:00",
+            "label": "價格衝擊",
+            "seconds": 1500,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1500s"
+          },
+          {
+            "time": "29:45",
+            "label": "經得起考驗",
+            "seconds": 1785,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=1785s"
+          },
+          {
+            "time": "33:20",
+            "label": "總結",
+            "seconds": 2000,
+            "url": "https://www.youtube.com/watch?v=Bku5I3LcgSY&t=2000s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：輝達財報炸裂 老黃回鍋夢碎?；新CEO如何面對 晶片禁令與融資風暴?",
+          "深研章節焦點：輝達財報（01:30）、人事變動（05:20）、國安鷹派角力（09:00）、補AI漏洞（13:30）、融資採購承諾（18:00）、回歸市場機制（22:00）",
+          "最近更新：2026-11-18 09:06（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      },
+      {
+        "videoId": "zl_0SAhU3YU",
+        "title": "2026/11/17(二)費半重挫5.2%美股還有 多少壞消息?投信轉賣第四法人鬆了?",
+        "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU",
+        "publishedAt": "2026-11-17 09:03",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=0s"
+          },
+          {
+            "time": "05:00",
+            "label": "壞消息有哪些",
+            "seconds": 300,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=300s"
+          },
+          {
+            "time": "08:00",
+            "label": "巨頭現況",
+            "seconds": 480,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=480s"
+          },
+          {
+            "time": "10:00",
+            "label": "市場不缺利空",
+            "seconds": 600,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=600s"
+          },
+          {
+            "time": "14:00",
+            "label": "股市磨礪路",
+            "seconds": 840,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=840s"
+          },
+          {
+            "time": "17:40",
+            "label": "台股追蹤",
+            "seconds": 1060,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1060s"
+          },
+          {
+            "time": "21:20",
+            "label": "台幣衝擊",
+            "seconds": 1280,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1280s"
+          },
+          {
+            "time": "24:00",
+            "label": "官方態度",
+            "seconds": 1440,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1440s"
+          },
+          {
+            "time": "26:40",
+            "label": "美股追蹤",
+            "seconds": 1600,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1600s"
+          },
+          {
+            "time": "29:00",
+            "label": "總結",
+            "seconds": 1740,
+            "url": "https://www.youtube.com/watch?v=zl_0SAhU3YU&t=1740s"
+          }
+        ],
+        "summaryPoints": [
+          "節目主軸：費半重挫5.2%美股還有 多少壞消息?；投信轉賣第四法人鬆了?",
+          "深研章節焦點：壞消息有哪些（05:00）、巨頭現況（08:00）、市場不缺利空（10:00）、股市磨礪路（14:00）、台股追蹤（17:40）、台幣衝擊（21:20）",
+          "最近更新：2026-11-17 09:03（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）"
+        ]
+      }
+    ]
+  },
   "leadIds": [
-    "s7313216d",
-    "sdc47081c"
+    "s609f051f",
+    "s3718719f"
   ],
   "stories": [
+    {
+      "id": "s609f051f",
+      "section": "business_tech",
+      "title": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "台股大跳水!本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。財政部21日傍晚代國安基金發稿,證實已經進場護盤。對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+      "publishedAt": "2026-11-22T10:49:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/69abfc6f3a370d378725507f4bbef873234e8b4dad6a48618102f394569109e4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrordaily_390%2F053d939f59b135b2fd4c531c6bf122ce.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 98,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 35,
+        "data": 18,
+        "durability": 10
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "metric": "7600點",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "angle": "產業動態與市場焦點",
+          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "angle": "政策法規與公共治理",
+          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "國安基金護盤 台股基本面佳",
+          "angle": "資本預算與財報配置",
+          "focus": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
+          "excerpt": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
+          "url": "https://ec.ltn.com.tw/article/paper/1779388",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "metric": "7600點",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "財政部21日傍晚代國安基金發稿,證實已經進場護盤。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "對此,政大商學院教授周冠男表示,國安基金宣布進場護盤,反而更令人擔憂。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "angle": "產業動態與市場焦點",
+          "focus": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "excerpt": "本週跌超過7600點,台指期夜盤也出現大幅下殺,市場面臨斷頭考驗。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "angle": "政策法規與公共治理",
+          "focus": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "excerpt": "美股重挫,連帶衝擊台股及其他亞洲股市,國安基金今天表示,受美國AI監管政策可能趨嚴、龐大資本支出投資效益及企業特殊因素等影響,市場對AI產業營運展望產生疑慮,國安基金已進場護盤,將視市場情況適時採取必要措施,呼籲投資人保持信心,理性看待台股。",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "國安基金護盤 台股基本面佳",
+          "angle": "資本預算與財報配置",
+          "focus": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
+          "excerpt": "〔記者鄭琪芳/台北報導〕國安基金表示,近日受美國AI(人工智慧)監管政策可能趨嚴、龐大資本支出的投資效益變數、特定企業的特殊因素及融資風險等影響,引發市場對AI產業營運展望產生疑慮,導致美股多日重挫,並波及台股及其他亞股;對此,國安基金已進場護盤,維護股市穩定。",
+          "url": "https://ec.ltn.com.tw/article/paper/1779388",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A11%E9%80%B1%E5%B4%A9%E8%B7%8C%E9%80%BE7600%E9%BB%9E-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E9%80%B2%E5%A0%B4%E8%AD%B7%E7%9B%A4-%E5%AD%B8%E8%80%85%E6%8F%AD-%E6%9B%B4%E5%A4%A7%E9%9A%B1%E6%86%82-024900767.html",
+          "headline": "台股1週崩跌逾7600點!國安基金進場護盤 學者揭「更大隱憂」",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E8%B7%8C%E5%B9%85%E9%81%9417-5-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91-%E5%B7%B2%E5%AF%A6%E5%BD%88%E8%AD%B7%E7%9B%A4-221840278.html",
+          "headline": "台股單周跌幅達17.5% 國安基金:已實彈護盤",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611210132.aspx",
+          "headline": "國安基金:已進場護盤 籲投資人保持信心理性看台股",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/paper/1779388",
+          "headline": "國安基金護盤 台股基本面佳",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "s3718719f",
+      "section": "business_tech",
+      "title": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。面對恐慌性賣壓與籌碼快速去槓桿,投資人該如何判斷市場何時止跌,安聯投信台股團隊點出,這波行情正從「題材驅動」轉向「獲利驗證」的關鍵轉折,提醒投資人後市必須緊盯四大止穩訊號,靜待籌碼沉澱後分批布局。</p> <p>若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。安聯投信台股團隊指出,此波急跌是美股修正、AI估值調整、外資調節與融資去槓桿等多重因素交互作用的結果。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669803",
+      "publishedAt": "2026-11-22T09:40:02+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669803/xl/f324493c5c5c262ac0e1c9160a2ff053.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 95,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。",
+          "metric": "43675.12點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "metric": "2400點",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "大型權值股能否止穩: 20日台積電盤中一度跌破2,000元大關、聯發科跌幅近一成,權值股能否率先建立低檔支撐是止跌關鍵。",
+          "metric": "2000元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "url": "https://news.cnyes.com/news/id/6669803",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "url": "https://tw.stock.yahoo.com/news/ai%E9%80%B2%E5%85%A5%E9%87%8D%E6%96%B0%E5%AE%9A%E5%83%B9-%E6%B3%95%E4%BA%BA-%E8%81%9A%E7%84%A6%E5%9B%9B%E5%A4%A7%E6%AD%A2%E7%A9%A9%E8%A8%8A%E8%99%9F-%E9%9D%9C%E5%BE%85%E7%B1%8C%E7%A2%BC%E6%B2%89%E6%BE%B1%E5%BE%8C%E5%88%86%E6%89%B9%E5%B8%83%E5%B1%80-014002888.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。",
+          "metric": "43675.12點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "metric": "2400點",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "大型權值股能否止穩: 20日台積電盤中一度跌破2,000元大關、聯發科跌幅近一成,權值股能否率先建立低檔支撐是止跌關鍵。",
+          "metric": "2000元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "url": "https://news.cnyes.com/news/id/6669803",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "angle": "市場定價與外資籌碼",
+          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
+          "url": "https://tw.stock.yahoo.com/news/ai%E9%80%B2%E5%85%A5%E9%87%8D%E6%96%B0%E5%AE%9A%E5%83%B9-%E6%B3%95%E4%BA%BA-%E8%81%9A%E7%84%A6%E5%9B%9B%E5%A4%A7%E6%AD%A2%E7%A9%A9%E8%A8%8A%E8%99%9F-%E9%9D%9C%E5%BE%85%E7%B1%8C%E7%A2%BC%E6%B2%89%E6%BE%B1%E5%BE%8C%E5%88%86%E6%89%B9%E5%B8%83%E5%B1%80-014002888.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669803",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/ai%E9%80%B2%E5%85%A5%E9%87%8D%E6%96%B0%E5%AE%9A%E5%83%B9-%E6%B3%95%E4%BA%BA-%E8%81%9A%E7%84%A6%E5%9B%9B%E5%A4%A7%E6%AD%A2%E7%A9%A9%E8%A8%8A%E8%99%9F-%E9%9D%9C%E5%BE%85%E7%B1%8C%E7%A2%BC%E6%B2%89%E6%BE%B1%E5%BE%8C%E5%88%86%E6%89%B9%E5%B8%83%E5%B1%80-014002888.html",
+          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "s74131618",
+      "section": "business_tech",
+      "title": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。</p> <p>觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669513",
+      "publishedAt": "2026-11-22T08:40:03+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669513/xl/c728b96c7dbd3cbc142e57ef2abeb7cb.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 95,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+          "metric": "1.43億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
+          "metric": "7.798億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
+          "metric": "44%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "資本預算與財報配置",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+          "metric": "1.43億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
+          "metric": "7.798億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
+          "metric": "44%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "資本預算與財報配置",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669513",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BB%8A%E7%94%A8%E7%85%A7%E6%98%8E%E8%88%87%E6%84%9F%E6%B8%AC%E9%80%90%E6%AD%A5%E6%92%90%E8%85%B0%E5%8F%B0led%E5%BB%A0-%E9%9B%B7%E7%AC%9B%E5%85%8B-%E5%85%89%E9%8B%90%E5%87%BA%E8%B2%A8%E7%B5%90%E6%A7%8B%E5%84%AA%E5%8C%96-004003214.html",
+          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "id": "s03c3eaed",
+      "section": "business_tech",
+      "title": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
+      "publishedAt": "2026-11-22T11:45:15+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/416ef64ad2d52c7161cb01b82244a43b01838fe39177eceea7805287320b92b4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fknews_com_721%2F0f8da87644ea5ff9748fda5609301111",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 94,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 35,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "metric": "6家",
+          "confirmed_by": [
+            "經濟日報",
+            "中央社 CNA",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "metric": "6家",
+          "confirmed_by": [
+            "經濟日報",
+            "中央社 CNA",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "專家指出,輝達已向市場證明技術護城河與供應鏈執行力,具備高度制度化韌性;進入「後黃仁勳時代」,輝達在全球AI算力賽道絕對主導地位,短期仍難以撼動。",
+          "metric": "",
+          "confirmed_by": [
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://money.udn.com/money/story/5612/9894126",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "metric": "6家",
+          "confirmed_by": [
+            "經濟日報",
+            "中央社 CNA",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "metric": "6家",
+          "confirmed_by": [
+            "經濟日報",
+            "中央社 CNA",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "專家指出,輝達已向市場證明技術護城河與供應鏈執行力,具備高度制度化韌性;進入「後黃仁勳時代」,輝達在全球AI算力賽道絕對主導地位,短期仍難以撼動。",
+          "metric": "",
+          "confirmed_by": [
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://money.udn.com/money/story/5612/9894126",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
+          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5612/9894126",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E8%88%87%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%88%E4%BD%9C30%E5%B9%B4%E9%9D%A0-%E6%8F%A1%E6%89%8B%E5%8D%94%E8%AD%B0-%E7%84%A1%E5%90%88%E7%B4%84-%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E9%9D%A2%E8%87%A8%E8%80%83%E9%A9%97-033600850.html",
+          "headline": "與台積電合作30年靠「握手協議」!無合約 後黃仁勳時代輝達面臨考驗",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-015428015.html",
+          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+          "lang": "zh"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "s4700e41d",
+      "section": "business_tech",
+      "title": "資料中心用電|阿拉巴馬州擬降電費1.6億美元,大用戶如何分攤電網成本?",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6669774/o/cd6df282f1fa072b1064e79344923076.jpg\" alt=\"輸電鐵塔與電線資料照,非阿拉巴馬州或喬治亞州專案現場。Reuters/TPG\" /><p>2026年11月21日(優分析/產業資料中心報導)⸺ 美國南方電力Southern Company(SO-US)旗下阿拉巴馬電力公司(Alabama Power)向州監管機關申報,擬自2027年1月帳單起調降用戶費率,全年合計減收1.6億美元。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669774",
+      "publishedAt": "2026-11-21T18:13:36+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 93,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "州監管機關審查一筆3,200MW資料中心供電合約後,公司同意在2029至2031年的費率審議中,把大型用電戶對典型家庭電費的下調效果,由原先每月8.50美元提高至至少15美元。",
+          "metric": "3200mw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "意思是,相較於未納入大型用戶收入分攤的費率基準,帳單可少算至少15美元,並非保證屆時每月帳單會比現在少15美元。",
+          "metric": "15美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "公司估計,每月用電1,000度的家庭一年可省逾50美元,並把這次調降主要歸因於明年預期增加的大型資料中心售電收入。",
+          "metric": "50美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "資料中心用電|阿拉巴馬州擬降電費1.6億美元,大用戶如何分攤電網成本?",
+          "angle": "政策法規與公共治理",
+          "focus": "2026年11月21日(優分析/產業資料中心報導)⸺ 美國南方電力Southern Company(SO-US)旗下阿拉巴馬電力公司(Alabama Power)向州監管機關申報,擬自2027年1月帳單起調降用戶費率,全年合計減收1.6億美元。",
+          "excerpt": "2026年11月21日(優分析/產業資料中心報導)⸺ 美國南方電力Southern Company(SO-US)旗下阿拉巴馬電力公司(Alabama Power)向州監管機關申報,擬自2027年1月帳單起調降用戶費率,全年合計減收1.6億美元。",
+          "url": "https://news.cnyes.com/news/id/6669774",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "headline": "資料中心是美國電網的成長引擎",
+          "angle": "產業動態與市場焦點",
+          "focus": "關於投資、財富管理業務等方面的一些最佳分析和見解。",
+          "excerpt": "關於投資、財富管理業務等方面的一些最佳分析和見解。",
+          "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa?mod=rss_markets_main",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "州監管機關審查一筆3,200MW資料中心供電合約後,公司同意在2029至2031年的費率審議中,把大型用電戶對典型家庭電費的下調效果,由原先每月8.50美元提高至至少15美元。",
+          "metric": "3200mw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "意思是,相較於未納入大型用戶收入分攤的費率基準,帳單可少算至少15美元,並非保證屆時每月帳單會比現在少15美元。",
+          "metric": "15美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "公司估計,每月用電1,000度的家庭一年可省逾50美元,並把這次調降主要歸因於明年預期增加的大型資料中心售電收入。",
+          "metric": "50美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "資料中心用電|阿拉巴馬州擬降電費1.6億美元,大用戶如何分攤電網成本?",
+          "angle": "政策法規與公共治理",
+          "focus": "2026年11月21日(優分析/產業資料中心報導)⸺ 美國南方電力Southern Company(SO-US)旗下阿拉巴馬電力公司(Alabama Power)向州監管機關申報,擬自2027年1月帳單起調降用戶費率,全年合計減收1.6億美元。",
+          "excerpt": "2026年11月21日(優分析/產業資料中心報導)⸺ 美國南方電力Southern Company(SO-US)旗下阿拉巴馬電力公司(Alabama Power)向州監管機關申報,擬自2027年1月帳單起調降用戶費率,全年合計減收1.6億美元。",
+          "url": "https://news.cnyes.com/news/id/6669774",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "headline": "資料中心是美國電網的成長引擎",
+          "angle": "產業動態與市場焦點",
+          "focus": "關於投資、財富管理業務等方面的一些最佳分析和見解。",
+          "excerpt": "關於投資、財富管理業務等方面的一些最佳分析和見解。",
+          "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa?mod=rss_markets_main",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669774",
+          "headline": "資料中心用電|阿拉巴馬州擬降電費1.6億美元,大用戶如何分攤電網成本?",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa?mod=rss_markets_main",
+          "headline": "資料中心是美國電網的成長引擎",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
+    },
     {
       "id": "s7313216d",
       "section": "deep",
@@ -3128,10 +4255,10 @@
       "publishedAt": "2026-11-20T21:28:52+08:00",
       "imageUrl": "https://www.twreporter.org/images/20261120214321-e501de776413dbf96b5886fdcb117ed0-mobile.jpg",
       "imageCredit": "報導者",
-      "score": 90,
+      "score": 92,
       "scoreBreakdown": {
         "resonance": 32,
-        "impact": 28,
+        "impact": 30,
         "data": 20,
         "durability": 10
       },
@@ -3140,6 +4267,7 @@
         "財報與資本配置",
         "公共治理與結構轉型"
       ],
+      "isStrategicTopic": false,
       "core_facts": [
         {
           "text": "「核三重啟」公投才剛結束1年多,下週「廢除非核家園」公投即將登場,這是台灣8年來第4次核能公投。",
@@ -3244,171 +4372,404 @@
           "lang": "zh"
         }
       ],
-      "rank": 1
+      "rank": 6
     },
     {
-      "id": "sdc47081c",
-      "section": "deep",
-      "title": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
+      "id": "s21f1899b",
+      "section": "business_tech",
+      "title": "AI訂單大增也更吃資金!央行:伺服器備料到收款時間長,台廠周轉需求提高",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836751",
-      "publishedAt": "2026-11-21T19:56:16+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302440/conversions/2qNdM7beuSo2f50HwqG9QAdz7SYHIwqAEoBcOdim-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6669420/o/01a6374536868171749fcc46fdee95ad.jpg\" alt=\"Reuters/TPG\" /><p>2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(GDR)。企業保留美元收入,主要是為了營運及自然避險,並非外界所指的出口商惜售外匯。</p> <p>除了擴產投資,AI伺服器訂單成長也提高台廠的資金調度需求。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669420",
+      "publishedAt": "2026-11-20T20:30:07+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 92,
       "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
         "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
-        "公共治理與結構轉型"
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
       ],
+      "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
-          "metric": "",
+          "text": "公司第三季底存貨達3,084億元,較第二季底增加49%;應收帳款增至1,144億元,增加36%。",
+          "metric": "1144億元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "metric": "",
+          "text": "從接單情況來看,經濟部公布的10月外銷訂單達1,238.2億美元,年增78.3%,增幅創紀錄,高於市場預期的64.3%,也比9月的62.4%加快。",
+          "metric": "1238.2億美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "metric": "116億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
-          "angle": "政策法規與公共治理",
-          "focus": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "excerpt": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "url": "https://news.pts.org.tw/article/836751",
+          "media": "鉅亨網 Anue",
+          "headline": "AI訂單大增也更吃資金!央行:伺服器備料到收款時間長,台廠周轉需求提高",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "excerpt": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "url": "https://news.cnyes.com/news/id/6669420",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "我環境部強調,會呼應大會提出的人工智慧承諾,以低碳能源驅動AI產業。",
-          "metric": "",
+          "text": "公司第三季底存貨達3,084億元,較第二季底增加49%;應收帳款增至1,144億元,增加36%。",
+          "metric": "1144億元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "metric": "",
+          "text": "從接單情況來看,經濟部公布的10月外銷訂單達1,238.2億美元,年增78.3%,增幅創紀錄,高於市場預期的64.3%,也比9月的62.4%加快。",
+          "metric": "1238.2億美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "metric": "116億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
-          "angle": "政策法規與公共治理",
-          "focus": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "excerpt": "在土耳其舉行的聯合國氣候峰會COP31,週五晚間並沒有如期完成,會議延長到週末,由於協議文本草案並沒有寫入化石燃料退場目標,遭國際環團批評是史上最爛的一屆,不過主辦國之一的土耳其則樂觀以待,仍認為存在不少共識。",
-          "url": "https://news.pts.org.tw/article/836751",
+          "media": "鉅亨網 Anue",
+          "headline": "AI訂單大增也更吃資金!央行:伺服器備料到收款時間長,台廠周轉需求提高",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "excerpt": "2026年11月20日(優分析/產業資料中心報導)⸺ 央行公布第三季國際收支時指出,台廠因應擴產及資本支出增加,今年前三季新增國內銀行外幣借款超過162億美元,並發行116億美元海外可轉債及77億美元海外存託憑證(Gdr)。",
+          "url": "https://news.cnyes.com/news/id/6669420",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836751",
-          "headline": "COP31草案未列化石燃料退場 國際環團批歷屆最糟氣候峰會",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669420",
+          "headline": "AI訂單大增也更吃資金!央行:伺服器備料到收款時間長,台廠周轉需求提高",
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 7
     },
     {
-      "id": "sdf0baad6",
-      "section": "deep",
-      "title": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
+      "id": "scff9522a",
+      "section": "business_tech",
+      "title": "太陽能供應鏈|特斯拉擬在德州生產多晶矽,美國進口與本土模組價差已縮小",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836744",
-      "publishedAt": "2026-11-21T19:56:37+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302416/conversions/X3QayZm25VfeGVkF3QH4Ldffh0aOcHWCTZbdhIQv-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 82,
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6669776/o/881526a4a8ea4aa9735f0ccd254de063.jpg\" alt=\"太陽能產業資料照。Reuters/TPG\" /><p>2026年11月21日(優分析/產業資料中心報導)⸺ 特斯拉Tesla(Tsla-US)向德州申請租稅優惠,擬在紐埃瑟斯郡投資約31億美元,興建太陽能級多晶矽工廠,目標2030年投產。這是繼福遍郡規劃晶錠、晶圓與太陽能電池廠後,特斯拉再向上游布局。多晶矽是拉製晶錠的原料,晶錠切成晶圓後再製成電池,最後組成太陽能模組。德州稅務優惠是這座上游廠選址的關鍵,計畫不是已確定落地。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669776",
+      "publishedAt": "2026-11-21T18:13:37+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 92,
       "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 14,
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
         "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
-        "公共治理與結構轉型"
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
       ],
+      "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
-          "metric": "",
+          "text": "太陽能採購平台Anza的第四季報告顯示,7月至10月,進口模組中位報價上升43.4%,達每瓦0.380美元;使用美國製電池的模組上漲7.2%,至每瓦0.505美元。",
+          "metric": "0.380美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美國太陽能製造商T1 Energy(TE-US)在第三季財報資料指出,第三季及其後新簽的模組銷售合約超過2.2GW,並已有與Hemlock及Corning的供應合約與選擇權,可支應5GW的G1模組使用美國製多晶矽或晶圓。",
+          "metric": "2.2gw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "一般進口太陽能模組的最低價格為每瓦0.38美元,不等於加計關稅後的最終採購成本。",
+          "metric": "0.38美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
-          "angle": "政策法規與公共治理",
-          "focus": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
-          "excerpt": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
-          "url": "https://news.pts.org.tw/article/836744",
+          "media": "鉅亨網 Anue",
+          "headline": "太陽能供應鏈|特斯拉擬在德州生產多晶矽,美國進口與本土模組價差已縮小",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月21日(優分析/產業資料中心報導)⸺ 特斯拉Tesla(Tsla-US)向德州申請租稅優惠,擬在紐埃瑟斯郡投資約31億美元,興建太陽能級多晶矽工廠,目標2030年投產。",
+          "excerpt": "2026年11月21日(優分析/產業資料中心報導)⸺ 特斯拉Tesla(Tsla-US)向德州申請租稅優惠,擬在紐埃瑟斯郡投資約31億美元,興建太陽能級多晶矽工廠,目標2030年投產。",
+          "url": "https://news.cnyes.com/news/id/6669776",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會,也將持續評估協助家長提起團體訴訟的可行性。",
-          "metric": "",
+          "text": "太陽能採購平台Anza的第四季報告顯示,7月至10月,進口模組中位報價上升43.4%,達每瓦0.380美元;使用美國製電池的模組上漲7.2%,至每瓦0.505美元。",
+          "metric": "0.380美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美國太陽能製造商T1 Energy(TE-US)在第三季財報資料指出,第三季及其後新簽的模組銷售合約超過2.2GW,並已有與Hemlock及Corning的供應合約與選擇權,可支應5GW的G1模組使用美國製多晶矽或晶圓。",
+          "metric": "2.2gw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "一般進口太陽能模組的最低價格為每瓦0.38美元,不等於加計關稅後的最終採購成本。",
+          "metric": "0.38美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
-          "angle": "政策法規與公共治理",
-          "focus": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
-          "excerpt": "北市私立夏莉絲幼兒園爆發虐童案,已被教育局撤照重罰,法務局原訂11月27日召開「學費退款爭議」調解會,業者不願出席、確定延期,令家長無法接受,昨(20)晚在市長蔣萬安的選舉行程下跪陳情,法務局21日上午臨時開記者會表示,充分尊重家長意願,11月27將如期召開調解會…",
-          "url": "https://news.pts.org.tw/article/836744",
+          "media": "鉅亨網 Anue",
+          "headline": "太陽能供應鏈|特斯拉擬在德州生產多晶矽,美國進口與本土模組價差已縮小",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月21日(優分析/產業資料中心報導)⸺ 特斯拉Tesla(Tsla-US)向德州申請租稅優惠,擬在紐埃瑟斯郡投資約31億美元,興建太陽能級多晶矽工廠,目標2030年投產。",
+          "excerpt": "2026年11月21日(優分析/產業資料中心報導)⸺ 特斯拉Tesla(Tsla-US)向德州申請租稅優惠,擬在紐埃瑟斯郡投資約31億美元,興建太陽能級多晶矽工廠,目標2030年投產。",
+          "url": "https://news.cnyes.com/news/id/6669776",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836744",
-          "headline": "夏莉絲虐童案業者拒出席調解會 北市府:尊重家長、如期召開",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669776",
+          "headline": "太陽能供應鏈|特斯拉擬在德州生產多晶矽,美國進口與本土模組價差已縮小",
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "rank": 8
+    },
+    {
+      "id": "s3497377d",
+      "section": "business_tech",
+      "title": "國發基金資產狂飆105倍淨值突破3.27兆!葉俊顯今赴立院報告績效及避險機制",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。截至115年9月底止,國發基金透過直接投資、主題式百億基金及創業天使投資方案等管道,已累計投資1,058家事業,總投資金額達1,068億元,累計總資產破3.27兆。",
+      "source": "鉅亨網專題追蹤",
+      "url": "https://news.cnyes.com/news/id/6658104",
+      "publishedAt": "2026-11-11T09:21:59+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6658104/xl/de32f39ac533705c67b9f8070cb7b0db.jpg",
+      "imageCredit": "鉅亨網專題追蹤",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": true,
+      "core_facts": [
+        {
+          "text": "截至115年9月底止,國發基金透過直接投資、主題式百億基金及創業天使投資方案等管道,已累計投資1,058家事業,總投資金額達1,068億元,累計總資產破3.27兆。",
+          "metric": "1068億元",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        },
+        {
+          "text": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "headline": "國發基金資產狂飆105倍淨值突破3.27兆!葉俊顯今赴立院報告績效及避險機制",
+          "angle": "政策法規與公共治理",
+          "focus": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "excerpt": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "url": "https://news.cnyes.com/news/id/6658104",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "截至115年9月底止,國發基金透過直接投資、主題式百億基金及創業天使投資方案等管道,已累計投資1,058家事業,總投資金額達1,068億元,累計總資產破3.27兆。",
+          "metric": "1068億元",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        },
+        {
+          "text": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "headline": "國發基金資產狂飆105倍淨值突破3.27兆!葉俊顯今赴立院報告績效及避險機制",
+          "angle": "政策法規與公共治理",
+          "focus": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "excerpt": "國發會主委葉俊顯今(11)日前往立法院經濟委員會第6次全體委員會議進行專案報告,針對國發基金各項投資業務執行成效、共同投資機制、投資審議及利益衝突迴避機制進行說明。",
+          "url": "https://news.cnyes.com/news/id/6658104",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "url": "https://news.cnyes.com/news/id/6658104",
+          "headline": "國發基金資產狂飆105倍淨值突破3.27兆!葉俊顯今赴立院報告績效及避險機制",
+          "lang": "zh"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "s035b9df0",
+      "section": "business_tech",
+      "title": "《GTA 6》首銷突破1700萬套!PlayStation橫掃七成五銷量 帶動索尼股價逆勢上漲",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。根據市場研究機構 Sensor Tower 的最新數據,《GTA 6》上市首日全球銷量高達 1,707 萬套。",
+      "source": "鉅亨網專題追蹤",
+      "url": "https://news.cnyes.com/news/id/6667543",
+      "publishedAt": "2026-11-19T16:20:02+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6667543/xl/3c64d879d1dfe2b43a43523738674f71.jpg",
+      "imageCredit": "鉅亨網專題追蹤",
+      "score": 85,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 34,
+        "data": 18,
+        "durability": 6
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": true,
+      "core_facts": [
+        {
+          "text": "根據市場研究機構 Sensor Tower 的最新數據,《GTA 6》上市首日全球銷量高達 1,707 萬套。",
+          "metric": "1707萬套",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        },
+        {
+          "text": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "metric": "3%",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "headline": "《GTA 6》首銷突破1700萬套!PlayStation橫掃七成五銷量 帶動索尼股價逆勢上漲",
+          "angle": "市場定價與外資籌碼",
+          "focus": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "excerpt": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "url": "https://news.cnyes.com/news/id/6667543",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "根據市場研究機構 Sensor Tower 的最新數據,《GTA 6》上市首日全球銷量高達 1,707 萬套。",
+          "metric": "1707萬套",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        },
+        {
+          "text": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "metric": "3%",
+          "confirmed_by": [
+            "鉅亨網專題追蹤"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "headline": "《GTA 6》首銷突破1700萬套!PlayStation橫掃七成五銷量 帶動索尼股價逆勢上漲",
+          "angle": "市場定價與外資籌碼",
+          "focus": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "excerpt": "受遊戲大廠 Take-Two 旗下備受矚目的開放世界動作冒險大作《俠盜獵車手6》(GTA 6)熱銷提振,索尼(Sony)股價於11月19日逆勢上漲近 3% 至 4,363 日元,顯著跑贏大盤與整體日本科技股。",
+          "url": "https://news.cnyes.com/news/id/6667543",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網專題追蹤",
+          "url": "https://news.cnyes.com/news/id/6667543",
+          "headline": "《GTA 6》首銷突破1700萬套!PlayStation橫掃七成五銷量 帶動索尼股價逆勢上漲",
+          "lang": "zh"
+        }
+      ],
+      "rank": 10
     },
     {
       "id": "s5b317b09",
@@ -3422,17 +4783,18 @@
       "publishedAt": "2026-11-21T16:53:34+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/302427/conversions/7aonw5LVwEaqdSbekUJLTWYveFDdJyvwmUJDp9u5-og_jpg.jpg",
       "imageCredit": "公視新聞網",
-      "score": 82,
+      "score": 83,
       "scoreBreakdown": {
         "resonance": 30,
         "impact": 28,
-        "data": 14,
+        "data": 15,
         "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
         "公共治理與結構轉型"
       ],
+      "isStrategicTopic": false,
       "core_facts": [
         {
           "text": "西班牙學生要求增加教育經費,英國倫敦也有人為高等教育發聲。",
@@ -3511,7 +4873,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 11
     },
     {
       "id": "s3329b56c",
@@ -3525,17 +4887,18 @@
       "publishedAt": "2026-11-21T19:55:45+08:00",
       "imageUrl": "https://news-data.pts.org.tw/media/302441/conversions/hGWxcrPE18nYjt57O1v4cyo2MjHDS6f57Dwten0H-og_jpg.jpg",
       "imageCredit": "公視新聞網",
-      "score": 82,
+      "score": 83,
       "scoreBreakdown": {
         "resonance": 30,
         "impact": 28,
-        "data": 14,
+        "data": 15,
         "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
         "公共治理與結構轉型"
       ],
+      "isStrategicTopic": false,
       "core_facts": [
         {
           "text": "至於中小學老師,這學期有高達97.25%曾與AI協作,近9成是為了教學準備與教材產出。",
@@ -3600,91 +4963,15 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
-    },
-    {
-      "id": "sda1ecc3d",
-      "section": "business_tech",
-      "title": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-      "source": "工商時報 (Yahoo 聯播)",
-      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
-      "publishedAt": "2026-11-22T08:15:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/e5e89e10d1d7205fad593d92dbf38d55699500e84b1e7c868928f0ceee70e220/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fftnn_com_tw_939%2Fd2d12ccc555c1089f449160cbe4106be.jpg_up.jpg",
-      "imageCredit": "工商時報 (Yahoo 聯播)",
-      "score": 81,
-      "scoreBreakdown": {
-        "resonance": 26,
-        "impact": 35,
-        "data": 20,
-        "durability": 0
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "core_facts": [
-        {
-          "text": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "metric": "10.7%",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
-          "angle": "資本預算與財報配置",
-          "focus": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "excerpt": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "metric": "10.7%",
-          "confirmed_by": [
-            "工商時報 (Yahoo 聯播)"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
-          "angle": "資本預算與財報配置",
-          "focus": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "excerpt": "「台灣紡織龍頭」儒鴻(1476)10月營收達34億元,月減3.1%、年增10.7%,營收達成率31.8%,符合過往約32%的預期。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 (Yahoo 聯播)",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%85%98%E5%B4%A9-%E9%81%BF%E9%A2%A8%E6%B8%AF%E6%98%AF%E5%AE%83-%E5%8F%B0%E7%81%A3%E7%B4%A1%E7%B9%94%E9%BE%8D%E9%A0%AD-%E8%A8%82%E5%96%AE%E7%9C%8B%E5%88%B0%E6%98%8E%E5%B9%B4-%E7%8F%BE%E9%87%91%E6%AE%96%E5%88%A9%E7%8E%87%E8%BF%915-001500680.html",
-          "headline": "台股慘崩、避風港是它?「台灣紡織龍頭」訂單看到明年、現金殖利率近5% 明年每股純益估26.29元",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
+      "rank": 12
     }
   ],
   "stats": {
-    "clusters": 279,
-    "passed": 6,
-    "below_threshold": 273,
-    "articlesAnalysed": 308
+    "clusters": 439,
+    "passed": 12,
+    "totalQualified": 74,
+    "below_threshold": 365,
+    "articlesAnalysed": 503
   },
   "sourcesStatus": [
     {
@@ -3693,16 +4980,52 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 56,
+      "count": 74,
+      "error": null
+    },
+    {
+      "id": "cnyes",
+      "name": "鉅亨網 Anue",
+      "group": "business",
+      "section": "頭條要聞",
+      "ok": true,
+      "count": 94,
+      "error": null
+    },
+    {
+      "id": "strategic",
+      "name": "鉅亨網專題追蹤",
+      "group": "business",
+      "section": "主權基金與國家資本",
+      "ok": true,
+      "count": 2,
       "error": null
     },
     {
       "id": "ctee",
-      "name": "工商時報 (Yahoo 聯播)",
+      "name": "工商時報 / Yahoo 財經",
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 87,
+      "count": 166,
+      "error": null
+    },
+    {
+      "id": "cna",
+      "name": "中央社 CNA",
+      "group": "business",
+      "section": "產經與財經政策",
+      "ok": true,
+      "count": 37,
+      "error": null
+    },
+    {
+      "id": "ltn",
+      "name": "自由財經",
+      "group": "business",
+      "section": "財經政策與產業",
+      "ok": true,
+      "count": 38,
       "error": null
     },
     {
@@ -3711,7 +5034,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 68,
+      "count": 67,
       "error": null
     },
     {
@@ -3720,7 +5043,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 25,
+      "count": 24,
       "error": null
     },
     {
@@ -3739,6 +5062,15 @@
       "section": "企業科技、雲端與資安",
       "ok": true,
       "count": 29,
+      "error": null
+    },
+    {
+      "id": "cw",
+      "name": "天下雜誌",
+      "group": "deep",
+      "section": "總經趨勢與深度專題",
+      "ok": false,
+      "count": 0,
       "error": null
     },
     {

@@ -262,7 +262,7 @@ abbr {
 
 .macro-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   border-block-start: var(--rule-hair) solid var(--color-rule-2);
   border-block-end: var(--rule-hair) solid var(--color-rule-2);
   background: var(--color-paper-2);
@@ -436,6 +436,170 @@ abbr {
 .market-grid[data-cols="3"] .market-cell:nth-child(3n + 1),
 .market-grid[data-cols="2"] .market-cell:nth-child(2n + 1) {
   border-inline-start: 0;
+}
+
+/* ── 游庭皓財經皓角｜晨間直播與重點分析 ────────────────────── */
+.yutinghao-section {
+  padding-block: var(--space-md);
+  border-block-end: var(--rule-hair) solid var(--color-ink);
+}
+
+.yutinghao-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+.yutinghao-lead h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.yutinghao-lead h3 a {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.yutinghao-lead h3 a:hover,
+.yutinghao-lead h3 a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.yutinghao-meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
+  margin: var(--space-xs) 0 0 0;
+}
+
+.yutinghao-summary {
+  margin: var(--space-sm) 0 0 0;
+  padding-inline-start: var(--space-md);
+  display: grid;
+  gap: var(--space-2xs);
+  color: var(--color-ink-2);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+.yutinghao-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-block-start: var(--space-md);
+}
+
+.yutinghao-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: var(--space-2xs) var(--space-sm);
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-decoration: none;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  border: var(--rule-hair) solid var(--color-ink);
+}
+
+.yutinghao-btn--secondary {
+  background: var(--color-paper-2);
+  color: var(--color-ink-2);
+  border-color: var(--color-rule-2);
+}
+
+.yutinghao-btn:hover,
+.yutinghao-btn:focus-visible {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.yutinghao-chapters {
+  padding-inline-start: var(--space-lg);
+  border-inline-start: var(--rule-hair) solid var(--color-rule);
+  display: grid;
+  gap: var(--space-md);
+}
+
+.yutinghao-block h4 {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-xs) 0;
+  padding-inline-start: var(--space-2xs);
+  border-inline-start: var(--rule-heavy) solid var(--color-accent);
+}
+
+.yutinghao-chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2xs) var(--space-sm);
+}
+
+.yutinghao-chapter-list a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+  font-size: var(--text-xs);
+  color: var(--color-ink-2);
+  text-decoration: none;
+}
+
+.yutinghao-chapter-list a:hover,
+.yutinghao-chapter-list a:focus-visible {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.yutinghao-time {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.yutinghao-recent-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-2xs);
+}
+
+.yutinghao-recent-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-xs);
+  font-size: var(--text-xs);
+}
+
+.yutinghao-recent-list a {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.yutinghao-recent-list a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.yutinghao-recent__date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-muted);
 }
 
 /* ── Section Banner (分欄大標) ──────────────────────────────── */
@@ -1055,6 +1219,20 @@ abbr {
 }
 
 /* ── Responsive Breakpoints (RWD) ──────────────────────────── */
+@media (max-width: 78rem) {
+  .macro-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .macro-grid .macro-cell:nth-child(3n + 1) {
+    border-inline-start: 0;
+  }
+
+  .macro-grid .macro-cell:nth-child(n + 4) {
+    border-block-start: var(--rule-hair) solid var(--color-rule);
+  }
+}
+
 @media (max-width: 64rem) {
   .masthead__top {
     grid-template-columns: minmax(0, 1fr);
@@ -1064,16 +1242,28 @@ abbr {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .macro-cell:nth-child(odd) {
+  .macro-grid .macro-cell:nth-child(n) {
+    border-block-start: var(--rule-hair) solid var(--color-rule);
+    border-inline-start: var(--rule-hair) solid var(--color-rule);
+  }
+
+  .macro-grid .macro-cell:nth-child(-n + 2) {
+    border-block-start: 0;
+  }
+
+  .macro-grid .macro-cell:nth-child(odd) {
     border-inline-start: 0;
   }
 
-  .macro-cell:nth-child(n + 3) {
-    border-block-start: var(--rule-hair) solid var(--color-rule);
+  .yutinghao-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 
-  .macro-cell:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
+  .yutinghao-chapters {
+    padding-inline-start: 0;
+    padding-block-start: var(--space-md);
+    border-inline-start: 0;
+    border-block-start: var(--rule-hair) solid var(--color-rule);
   }
 
   .market-grid[data-cols="4"],

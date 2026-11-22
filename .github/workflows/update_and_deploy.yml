@@ -1,14 +1,8 @@
 name: 每日新聞抓取與 GitHub Pages 自動部署
 
 on:
-  schedule:
-    # GitHub Actions 免費 schedule 在整點/半點極易排隊延遲數小時；
-    # 準點 07:30 與 16:00 改由外部排程器打 workflow_dispatch API 觸發（< 1 分鐘完成），
-    # 以下保留離峰時段作為自動補跑備援（若當日該報別已更新過則自動略過）：
-    # UTC 00:23 -> 台灣時間 (UTC+8) 08:23 晨報備援
-    - cron: '23 0 * * *'
-    # UTC 08:47 -> 台灣時間 (UTC+8) 16:47 晚報備援
-    - cron: '47 8 * * *'
+  # 已全面改由 Cloudflare Workers 準點呼叫 workflow_dispatch API 觸發（每日 5 次，零排隊延遲）；
+  # 移除 GitHub 原生 schedule 以徹底避免 4～8 小時排隊誤時。
   workflow_dispatch:
     inputs:
       edition:
@@ -161,5 +155,5 @@ jobs:
             -H "Priority: default" \
             -H "Tags: white_check_mark,newspaper" \
             -H "Click: https://yikai02.github.io/news-dashboard/" \
-            -d "新聞儀表板（${EDITION_LABEL}，${DEPLOY_TIME}）已更新並部署完畢，點擊直接查看最新頭條！" \
+            -d "Kyle's News（${EDITION_LABEL}，${DEPLOY_TIME}）已更新並部署完畢，點擊直接查看最新 12 則頭條與財經皓角重點！" \
             "https://ntfy.sh/kyle-anti-0910"

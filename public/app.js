@@ -184,6 +184,52 @@
     stkGrid.innerHTML = stocks.map((item) => renderMarketCell(item, "market-cell")).join("");
   }
 
+  function renderYutinghaoBriefing(payload) {
+    const sec = document.getElementById("yutinghao-section");
+    const brief = payload?.yutinghaoBriefing;
+    if (!sec || !brief || !brief.latest) return;
+
+    const latest = brief.latest;
+    const chUrl = brief.channelUrl || "https://www.youtube.com/@yutinghao";
+    const liveUrl = brief.liveStreamUrl || `${chUrl}/streams`;
+    const ptsHtml = (latest.summaryPoints || [])
+      .map((p) => `<li>${escapeHtml(p)}</li>`)
+      .join("");
+    const chapHtml = (latest.chapters || [])
+      .map(
+        (c) =>
+          `<li><a href="${escapeHtml(c.url)}" target="_blank" rel="noopener noreferrer"><code class="yutinghao-time">${escapeHtml(c.time)}</code><span>${escapeHtml(c.label)}</span></a></li>`
+      )
+      .join("");
+    const recHtml = (brief.recent || [])
+      .slice(0, 3)
+      .map(
+        (ep) =>
+          `<li><a href="${escapeHtml(ep.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(ep.title)}</a><span class="yutinghao-recent__date">${escapeHtml(ep.publishedAt || "")}</span></li>`
+      )
+      .join("");
+
+    sec.innerHTML = `<div class="macro-section__head">
+      <h2 id="yutinghao-heading">游庭皓的財經皓角｜晨間直播與重點分析</h2>
+      <p class="macro-section__note">${escapeHtml(brief.programName || "早晨財經速解讀（平日 08:30 直播）")}，直接連結最新節目、章節時間軸與直播頻道</p>
+    </div>
+    <div class="yutinghao-grid">
+      <article class="yutinghao-lead">
+        <h3><a href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(latest.title)}</a></h3>
+        <p class="yutinghao-meta">發布時間：${escapeHtml(latest.publishedAt || "")} ｜ 頻道：${escapeHtml(brief.channelName || "游庭皓的財經皓角")}</p>
+        <ul class="yutinghao-summary">${ptsHtml}</ul>
+        <div class="yutinghao-actions">
+          <a class="yutinghao-btn" href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer">觀看最新一期解讀</a>
+          <a class="yutinghao-btn yutinghao-btn--secondary" href="${escapeHtml(liveUrl)}" target="_blank" rel="noopener noreferrer">前往早晨直播間（08:30 開播）</a>
+        </div>
+      </article>
+      <aside class="yutinghao-chapters" aria-label="財經皓角章節與近期節目">
+        ${chapHtml ? `<div class="yutinghao-block"><h4>本集時間軸重點跳轉</h4><ul class="yutinghao-chapter-list">${chapHtml}</ul></div>` : ""}
+        ${recHtml ? `<div class="yutinghao-block"><h4>近期財經皓角節目存檔</h4><ul class="yutinghao-recent-list">${recHtml}</ul></div>` : ""}
+      </aside>
+    </div>`;
+  }
+
   function renderFactLedgerFigure(story) {
     const facts = Array.isArray(story.core_facts) ? story.core_facts : [];
     const cells = facts.slice(0, 3).map((f, idx) => {
@@ -449,6 +495,7 @@
     const dateNode = document.getElementById("masthead-date");
     const statsNode = document.getElementById("masthead-stats");
     if (edNode) edNode.textContent = ed.label;
+    document.title = `Kyle’s News｜現代商業與深度時事新聞（${ed.label}）`;
     if (dateNode) {
       dateNode.textContent = `${payload.date || ""} ${payload.weekday || ""}（更新：${payload.updatedAt || ""}）`;
     }
@@ -497,6 +544,7 @@
     updateMasthead(payload);
     renderMacroBar(payload);
     renderMarketFocus(payload, activeEditionKey);
+    renderYutinghaoBriefing(payload);
     renderColophon(payload);
 
     const allStories = Array.isArray(payload.stories) ? payload.stories : [];
