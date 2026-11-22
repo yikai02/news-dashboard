@@ -78,13 +78,13 @@ class SourceSpec:
     lang: str
     home: str
     feeds: list[FeedSpec]
-    max_age_h: int = 48
+    max_age_h: int = 24
     aggregator: bool = False
     priority: int = 5
 
 
 SOURCES: list[SourceSpec] = [
-    # 商業與總經（原生直連 RSS / 官方 JSON API，直達原文網址與高清配圖）
+    # 商業與總經（嚴格限定 24 小時內最新新聞，原生直連 RSS / 官方 JSON API）
     SourceSpec(
         "udn", "經濟日報", "business", "zh", "https://money.udn.com",
         [
@@ -93,7 +93,7 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://money.udn.com/rssfeed/news/1001/5592?ch=money", "證券金融"),
             FeedSpec("https://money.udn.com/rssfeed/news/1001/5589?ch=money", "全球財經"),
         ],
-        priority=1,
+        max_age_h=24, priority=1,
     ),
     SourceSpec(
         "cnyes", "鉅亨網 Anue", "business", "zh", "https://news.cnyes.com",
@@ -103,7 +103,7 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/wd_macro?limit=25", "全球總經與政策"),
             FeedSpec("https://api.cnyes.com/media/api/v1/newslist/category/us_stock?limit=20", "美股與科技巨頭"),
         ],
-        max_age_h=72, priority=2,
+        max_age_h=24, priority=2,
     ),
     SourceSpec(
         "strategic", "鉅亨網專題追蹤", "business", "zh", "https://news.cnyes.com",
@@ -112,7 +112,7 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://api.cnyes.com/media/api/v1/search?q=%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91&limit=10", "台灣主權與國發基金計劃"),
             FeedSpec("https://api.cnyes.com/media/api/v1/search?q=Take-Two&limit=10", "GTA 經濟與數位娛樂產業"),
         ],
-        max_age_h=336, priority=2,
+        max_age_h=24, priority=2,
     ),
     SourceSpec(
         "ctee", "工商時報 / Yahoo 財經", "business", "zh", "https://tw.stock.yahoo.com",
@@ -122,7 +122,7 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://tw.stock.yahoo.com/rss?category=intl-markets", "國際財經與美股"),
             FeedSpec("https://tw.stock.yahoo.com/rss?category=tech", "科技與娛樂產業"),
         ],
-        priority=2,
+        max_age_h=24, priority=2,
     ),
     SourceSpec(
         "cna", "中央社 CNA", "business", "zh", "https://www.cna.com.tw",
@@ -130,12 +130,12 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://feeds.feedburner.com/rsscna/finance", "產經與財經政策"),
             FeedSpec("https://feeds.feedburner.com/rsscna/intworld", "國際政經"),
         ],
-        max_age_h=72, priority=2,
+        max_age_h=24, priority=2,
     ),
     SourceSpec(
         "ltn", "自由財經", "business", "zh", "https://ec.ltn.com.tw",
         [FeedSpec("https://news.ltn.com.tw/rss/business.xml", "財經政策與產業")],
-        max_age_h=72, priority=3,
+        max_age_h=24, priority=3,
     ),
     SourceSpec(
         "wsj", "WSJ 華爾街日報", "business", "en", "https://www.wsj.com",
@@ -143,7 +143,7 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://feeds.content.dowjones.io/public/rss/RSSMarketsMain", "Markets"),
             FeedSpec("https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", "Business"),
         ],
-        priority=5,
+        max_age_h=24, priority=5,
     ),
     SourceSpec(
         "cnbc", "CNBC", "business", "en", "https://www.cnbc.com",
@@ -151,34 +151,34 @@ SOURCES: list[SourceSpec] = [
             FeedSpec("https://www.cnbc.com/id/10000664/device/rss/rss.html", "Finance & Markets"),
             FeedSpec("https://www.cnbc.com/id/19854910/device/rss/rss.html", "Tech"),
         ],
-        priority=6,
+        max_age_h=24, priority=6,
     ),
     # 科技與創新
     SourceSpec(
         "technews", "TechNews 科技新報", "tech", "zh", "https://technews.tw",
         [FeedSpec("https://technews.tw/feed/", "科技與半導體供應鏈")],
-        priority=3,
+        max_age_h=24, priority=3,
     ),
     SourceSpec(
         "ithome", "iThome 電腦報", "tech", "zh", "https://www.ithome.com.tw",
         [FeedSpec("https://www.ithome.com.tw/rss", "企業科技、雲端與資安")],
-        priority=4,
+        max_age_h=24, priority=4,
     ),
     # 深度社會、財經趨勢與公共議題
     SourceSpec(
         "cw", "天下雜誌", "deep", "zh", "https://www.cw.com.tw",
         [FeedSpec("https://www.cw.com.tw/RSS/cw_content.xml", "總經趨勢與深度專題")],
-        max_age_h=168, priority=3,
+        max_age_h=24, priority=3,
     ),
     SourceSpec(
         "twreporter", "報導者", "deep", "zh", "https://www.twreporter.org",
         [FeedSpec("https://www.twreporter.org/a/rss2.xml", "深度調查報導")],
-        max_age_h=240, priority=3,
+        max_age_h=24, priority=3,
     ),
     SourceSpec(
         "pts", "公視新聞網", "deep", "zh", "https://news.pts.org.tw",
         [FeedSpec("https://news.pts.org.tw/xml/newsfeed.xml", "PNN 議題中心")],
-        max_age_h=96, priority=4,
+        max_age_h=24, priority=4,
     ),
 ]
 
@@ -220,7 +220,7 @@ TW_TERM_MAP = {
 
 # 排除政論八卦、彩券開獎、個人理財血淚雞湯與瑣碎社會案件（避免誤傷重大地緣戰略、科技政策與司法調查）
 DENY_RE = re.compile(
-    r"命案|殺人|凶殺|車禍|火警|大火|搶劫|竊盜|詐騙集團|酒駕|毒品|性侵|緋聞|婚變|婚外情|外遇|藝人|明星|演唱會|"
+    r"命案|殺人|凶殺|車禍|火警|大火|搶劫|竊盜|詐騙集團|酒駕|毒品|性侵|虐童|虐待|家暴|性騷|幼兒園虐|緋聞|婚變|婚外情|外遇|藝人|明星|演唱會|"
     r"大樂透|今彩539|威力彩|雙贏彩|彩券|開獎|選戰|競選總部|拜票|造勢|民調|黨內初選|立委候選人|議員候選人|政黨派系|政治口水|"
     r"只剩一隻狗|血淚史|小資族|小資女|第一桶金|存錢體質|社畜|心法|心態|散戶痛|達人教|理財達人|翻身祕笈|翻身|心態致勝|"
     r"【公告】|\[公告\]|公告本公司|公開資訊觀測站重大訊息公告|編按\s*[:：]\s*本文首刊於|本文首刊於\d{4}年|"
@@ -640,8 +640,15 @@ def fetch_source(spec: SourceSpec, now: datetime) -> tuple[list[Article], dict]:
                     errors.append(f"{type(exc).__name__}: {exc}"[:160])
                     log.warning("來源 %s (%s) 失敗：%s", spec.name, feed.section, errors[-1])
 
-    cutoff = now - timedelta(hours=spec.max_age_h)
-    kept = [a for a in items if a.published is None or a.published >= cutoff]
+    cutoff = now - timedelta(hours=min(spec.max_age_h, 24))
+    min_date = (now - timedelta(days=1)).date()
+    kept = [
+        a for a in items
+        if a.published is not None
+        and a.published >= cutoff
+        and a.published.astimezone(TZ).date() >= min_date
+        and a.published <= now + timedelta(minutes=15)
+    ]
     status["count"] = len(kept)
     status["ok"] = bool(kept)
     status["error"] = "; ".join(errors) if errors and not kept else None
@@ -1894,24 +1901,86 @@ _STRATEGIC_TOPIC_RE = re.compile(
 )
 
 
+def _build_yutinghao_outline(clean_title: str, chapters: list[dict], desc: str, pub_str: str) -> tuple[str, list[str]]:
+    """依當集標題、時間軸章節與導讀書目，整理具敘事脈絡的直播大綱與三段重點。"""
+    headline_body = re.sub(r"^\d{4}/\d{1,2}/\d{1,2}\([一二三四五六日]\)\s*", "", clean_title).strip()
+    topic_segs = [s.strip() for s in re.split(r"[?？\s]{2,}|(?<=[?？])\s*", headline_body) if len(s.strip()) >= 4]
+    m_book = re.search(r"書名\s*[:：]\s*([^\n\r]+)", desc or "")
+    book_name = m_book.group(1).strip() if m_book else ""
+
+    if len(topic_segs) >= 2:
+        topic_phrase = f"「{topic_segs[0]}」與「{topic_segs[1]}」"
+    elif topic_segs:
+        topic_phrase = f"「{topic_segs[0]}」"
+    else:
+        topic_phrase = "台美股總經盤勢與資金流向"
+
+    book_clause = f"，節目尾聲並結合《{book_name}》導讀地緣供應鏈結構" if book_name else ""
+    outline_intro = (
+        f"本集《早晨財經速解讀》主要聚焦{topic_phrase}。"
+        f"游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構{book_clause}。"
+    )
+
+    summary_points: list[str] = []
+    if len(chapters) >= 4:
+        split1 = max(2, len(chapters) // 3)
+        split2 = max(split1 + 2, (len(chapters) * 2) // 3)
+        early = chapters[:split1]
+        mid = chapters[split1:split2]
+        late = chapters[split2:]
+        if early:
+            summary_points.append(
+                "前半場｜全球總經與美股動向："
+                + "、".join(f"{c['label']}（{c['time']}）" for c in early)
+                + "，檢視美股指數基期與避險情緒變化。"
+            )
+        if mid:
+            summary_points.append(
+                "中半場｜焦點事件與台股籌碼政策："
+                + "、".join(f"{c['label']}（{c['time']}）" for c in mid)
+                + "，拆解關鍵企業動態、法人籌碼與官方政策防線。"
+            )
+        if late:
+            summary_points.append(
+                "後半場｜延續推演與專題總結："
+                + "、".join(f"{c['label']}（{c['time']}）" for c in late)
+                + (f"，並延伸導讀《{book_name}》與結論。" if book_name else "，歸納市場底部訊號與中長線操作紀律。")
+            )
+    elif chapters:
+        summary_points.append(
+            "重點議題流程：" + "、".join(f"{c['label']}（{c['time']}）" for c in chapters)
+        )
+    elif topic_segs:
+        summary_points.append("節目聚焦：" + "；".join(topic_segs))
+
+    if pub_str:
+        summary_points.append(f"更新與播出時段：{pub_str} 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。")
+
+    return outline_intro, summary_points
+
+
 def fetch_yutinghao_briefing(sample_only: bool = False) -> dict:
-    """從游庭皓的財經皓角官方 YouTube RSS 擷取最新節目、直播連結、章節時間軸與晨間重點分析。"""
+    """從游庭皓的財經皓角官方 YouTube RSS 擷取最新節目、正確直播連結、章節時間軸與晨間直播大綱。"""
     channel_id = "UC0lbAQVpenvfA2QqzsRtL_g"
-    channel_url = "https://www.youtube.com/@yutinghao"
-    live_url = "https://www.youtube.com/@yutinghao/streams"
+    channel_url = "https://www.youtube.com/@yutinghaofinance"
+    live_url = "https://www.youtube.com/@yutinghaofinance/streams"
+    podcast_url = "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306"
     fallback = {
         "channelName": "游庭皓的財經皓角",
         "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
         "channelUrl": channel_url,
         "liveStreamUrl": live_url,
+        "podcastUrl": podcast_url,
         "status": "cached",
         "latest": {
             "title": "每日早晨財經速解讀｜市場總覽與台美股總經對策",
             "url": live_url,
             "publishedAt": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
+            "outlineIntro": "本節目於每個交易日開盤前半小時直播，系統性盤點隔夜美股表現、美債殖利率動向、台股外資籌碼與重大總經政策事件。",
             "summaryPoints": [
-                "每日 08:30 至 09:00 開盤前半小時直播，聚焦美股隔夜收盤結構與總經指標變化。",
-                "追蹤三大法人籌碼、殖利率走勢與科技供應鏈資本支出循環。",
+                "前半場｜全球總經與美股動向：整理隔夜美股指數、恐慌情緒與重要企業財報。",
+                "中半場｜台股籌碼與產業政策：解析外資投信流向與半導體供應鏈資本支出趨勢。",
+                "播出時段：平日 08:30 至 09:00 於 @yutinghaofinance YouTube 直播，亦可同步收聽 Podcast。",
             ],
             "chapters": [],
         },
@@ -1959,28 +2028,15 @@ def fetch_yutinghao_briefing(sample_only: bool = False) -> dict:
                     })
 
             clean_title = normalize_tw_terms(re.sub(r"【早晨財經速解讀】$", "", raw_title).strip())
-            # 拆解節目標題內的核心提問句與重點章節作為晨間文字重點總結
-            headline_body = re.sub(r"^\d{4}/\d{1,2}/\d{1,2}\([一二三四五六日]\)\s*", "", clean_title).strip()
-            topic_segs = [s.strip() for s in re.split(r"[?？\s]{2,}|(?<=[?？])\s*", headline_body) if len(s.strip()) >= 4]
-            summary_points: list[str] = []
-            if topic_segs:
-                summary_points.append("節目主軸：" + "；".join(topic_segs[:4]))
-            mid_chapters = [c for c in chapters if c["label"] not in ("市場總覽", "總結") and c["seconds"] >= 60]
-            if mid_chapters:
-                picks = "、".join(f"{c['label']}（{c['time']}）" for c in mid_chapters[:6])
-                summary_points.append(f"深研章節焦點：{picks}")
-            elif chapters:
-                picks = "、".join(f"{c['label']}（{c['time']}）" for c in chapters[:5])
-                summary_points.append(f"時間軸涵蓋：{picks}")
-            if pub_str:
-                summary_points.append(f"最近更新：{pub_str}（平日 08:30 至 09:00 開盤前直播，假日亦可回看最新一集）")
+            outline_intro, summary_points = _build_yutinghao_outline(clean_title, chapters, desc, pub_str)
 
             episodes.append({
                 "videoId": vid,
                 "title": clean_title or raw_title,
                 "url": url,
                 "publishedAt": pub_str,
-                "chapters": chapters[:10],
+                "chapters": chapters[:14],
+                "outlineIntro": outline_intro,
                 "summaryPoints": summary_points,
             })
 
@@ -1991,6 +2047,7 @@ def fetch_yutinghao_briefing(sample_only: bool = False) -> dict:
             "programName": "早晨財經速解讀（平日 08:30 至 09:00 直播）",
             "channelUrl": channel_url,
             "liveStreamUrl": live_url,
+            "podcastUrl": podcast_url,
             "status": "ok",
             "latest": episodes[0],
             "recent": episodes[1:4],
@@ -2091,7 +2148,11 @@ def build_stories(articles: list[Article], threshold: int, target_count: int = 1
 
     candidates.sort(key=lambda s: (-s["score"], -s["mediaCount"], -(1 if s.get("isStrategicTopic") else 0), s.get("publishedAt") or "", s["title"]))
 
-    # 兼顧專題追蹤（如 GTA 經濟、台灣主權/國發基金）與商業/深度版面平衡，目標保留約 12 則
+    today_prefix = datetime.now(TZ).date().isoformat()
+    today_pool = [s for s in candidates if (s.get("publishedAt") or "").startswith(today_prefix)]
+    overnight_pool = [s for s in candidates if not (s.get("publishedAt") or "").startswith(today_prefix)]
+
+    # 嚴格優先挑選當日新聞，不足 12 則才由昨夜 24 小時內隔夜新聞補齊，並保留專題與深度配額
     selected: list[dict] = []
     selected_ids: set[str] = set()
 
@@ -2106,11 +2167,15 @@ def build_stories(articles: list[Article], threshold: int, target_count: int = 1
             if taken >= limit or len(selected) >= target_count:
                 break
 
-    _add_picks([s for s in candidates if s.get("isStrategicTopic")], 2)
-    _add_picks([s for s in candidates if s.get("section") == "deep"], 3)
-    _add_picks(candidates, target_count)
+    _add_picks([s for s in today_pool if s.get("isStrategicTopic")], 2)
+    _add_picks([s for s in today_pool if s.get("section") == "deep"], 2)
+    _add_picks(today_pool, target_count)
+    if len(selected) < target_count:
+        _add_picks([s for s in overnight_pool if s.get("isStrategicTopic")], 1)
+        _add_picks([s for s in overnight_pool if s.get("section") == "deep"], 2)
+        _add_picks(overnight_pool, target_count)
 
-    selected.sort(key=lambda s: (-s["score"], -s["mediaCount"], s["title"]))
+    selected.sort(key=lambda s: (0 if (s.get("publishedAt") or "").startswith(today_prefix) else 1, -s["score"], -s["mediaCount"], s["title"]))
     story_articles = {s["id"]: cand_articles[s["id"]] for s in selected}
     stats = {"clusters": len(groups), "passed": len(selected), "totalQualified": len(candidates), "below_threshold": below}
     return selected, story_articles, stats
@@ -2461,8 +2526,11 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         if not brief or not brief.get("latest"):
             return ""
         latest = brief["latest"]
-        ch_url = brief.get("channelUrl") or "https://www.youtube.com/@yutinghao"
+        ch_url = brief.get("channelUrl") or "https://www.youtube.com/@yutinghaofinance"
         live_url = brief.get("liveStreamUrl") or f"{ch_url}/streams"
+        pod_url = brief.get("podcastUrl") or "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306"
+        outline_intro = latest.get("outlineIntro") or ""
+        outline_html = f'<p class="yutinghao-outline">{esc(outline_intro)}</p>' if outline_intro else ""
         pts_li = "".join(f"<li>{esc(p)}</li>" for p in (latest.get("summaryPoints") or []))
         chap_li = "".join(
             f'<li><a href="{esc_attr(c["url"])}" target="_blank" rel="noopener noreferrer"><code class="yutinghao-time">{esc_attr(c["time"])}</code><span>{esc(c["label"])}</span></a></li>'
@@ -2485,16 +2553,18 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
         return f"""<section id="yutinghao-section" class="macro-section yutinghao-section" aria-labelledby="yutinghao-heading">
         <div class="macro-section__head">
           <h2 id="yutinghao-heading">游庭皓的財經皓角｜晨間直播與重點分析</h2>
-          <p class="macro-section__note">{esc(brief.get('programName', '早晨財經速解讀（平日 08:30 直播）'))}，直接連結最新節目、章節時間軸與直播頻道</p>
+          <p class="macro-section__note">{esc(brief.get('programName', '早晨財經速解讀（平日 08:30 直播）'))}，提供節目直播大綱、章節時間軸與直播頻道直達連結</p>
         </div>
         <div class="yutinghao-grid">
           <article class="yutinghao-lead">
             <h3><a href="{esc_attr(latest['url'])}" target="_blank" rel="noopener noreferrer">{esc(latest['title'])}</a></h3>
             <p class="yutinghao-meta">發布時間：{esc_attr(latest.get('publishedAt', ''))} ｜ 頻道：{esc(brief.get('channelName', '游庭皓的財經皓角'))}</p>
+            {outline_html}
             <ul class="yutinghao-summary">{pts_li}</ul>
             <div class="yutinghao-actions">
-              <a class="yutinghao-btn" href="{esc_attr(latest['url'])}" target="_blank" rel="noopener noreferrer">觀看最新一期解讀</a>
-              <a class="yutinghao-btn yutinghao-btn--secondary" href="{esc_attr(live_url)}" target="_blank" rel="noopener noreferrer">前往早晨直播間（08:30 開播）</a>
+              <a class="yutinghao-btn" href="{esc_attr(latest['url'])}" target="_blank" rel="noopener noreferrer">觀看本集回放</a>
+              <a class="yutinghao-btn yutinghao-btn--secondary" href="{esc_attr(live_url)}" target="_blank" rel="noopener noreferrer">前往頻道直播間</a>
+              <a class="yutinghao-btn yutinghao-btn--secondary" href="{esc_attr(pod_url)}" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
             </div>
           </article>
           <aside class="yutinghao-chapters" aria-label="財經皓角章節與近期節目">
@@ -2531,7 +2601,7 @@ def render_dashboard_html(payload: dict, html_path: Path) -> None:
       <div class="masthead__top">
         <div class="masthead__identity">
           <h1>Kyle’s News</h1>
-          <p class="masthead__sub">嚴選經濟日報、鉅亨網 Anue、工商時報、中央社、自由財經、WSJ、CNBC、TechNews 與天下／報導者，彙整 12 則以上高價值結構性報導（含 GTA 經濟與台灣主權基金追蹤）與財經皓角晨間速解讀。</p>
+          <p class="masthead__sub">嚴選經濟日報、鉅亨網 Anue、工商時報、中央社、自由財經、WSJ、CNBC、TechNews 與天下／報導者，彙整 12 則以上高價值結構性報導</p>
         </div>
         <dl class="masthead__ledger" aria-label="出刊版號與資料管線狀態">
           <div class="masthead__ledger-item">
@@ -2684,12 +2754,17 @@ def validate(payload: dict) -> list[str]:
     for key in ("schemaVersion", "edition", "generatedAt", "updatedAt", "macro", "macro_indicators", "market_focus", "stories", "sourcesStatus"):
         if key not in payload:
             problems.append(f"缺少欄位 {key}")
+    min_allowed_date = (datetime.now(TZ).date() - timedelta(days=1)).isoformat()
+    is_live = payload.get("dataMode") == "live"
     for s in payload.get("stories", []):
         for key in ("id", "title", "section", "score", "core_facts", "media_perspectives", "unverified_notice", "imageUrl", "url"):
             if key not in s:
                 problems.append(f"故事 {s.get('id')} 缺少 {key}")
         if s.get("score", 0) < payload.get("threshold", 0):
             problems.append(f"故事 {s.get('id')} 分數低於門檻")
+        pub_at = s.get("publishedAt") or ""
+        if is_live and (not pub_at or pub_at[:10] < min_allowed_date):
+            problems.append(f"故事 {s.get('id')} 發布時間過舊 ({pub_at})")
     return problems
 
 

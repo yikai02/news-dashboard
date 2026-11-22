@@ -190,8 +190,14 @@
     if (!sec || !brief || !brief.latest) return;
 
     const latest = brief.latest;
-    const chUrl = brief.channelUrl || "https://www.youtube.com/@yutinghao";
+    const chUrl = brief.channelUrl || "https://www.youtube.com/@yutinghaofinance";
     const liveUrl = brief.liveStreamUrl || `${chUrl}/streams`;
+    const podUrl =
+      brief.podcastUrl ||
+      "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306";
+    const outlineHtml = latest.outlineIntro
+      ? `<p class="yutinghao-outline">${escapeHtml(latest.outlineIntro)}</p>`
+      : "";
     const ptsHtml = (latest.summaryPoints || [])
       .map((p) => `<li>${escapeHtml(p)}</li>`)
       .join("");
@@ -211,16 +217,18 @@
 
     sec.innerHTML = `<div class="macro-section__head">
       <h2 id="yutinghao-heading">游庭皓的財經皓角｜晨間直播與重點分析</h2>
-      <p class="macro-section__note">${escapeHtml(brief.programName || "早晨財經速解讀（平日 08:30 直播）")}，直接連結最新節目、章節時間軸與直播頻道</p>
+      <p class="macro-section__note">${escapeHtml(brief.programName || "早晨財經速解讀（平日 08:30 直播）")}，提供節目直播大綱、章節時間軸與直播頻道直達連結</p>
     </div>
     <div class="yutinghao-grid">
       <article class="yutinghao-lead">
         <h3><a href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(latest.title)}</a></h3>
         <p class="yutinghao-meta">發布時間：${escapeHtml(latest.publishedAt || "")} ｜ 頻道：${escapeHtml(brief.channelName || "游庭皓的財經皓角")}</p>
+        ${outlineHtml}
         <ul class="yutinghao-summary">${ptsHtml}</ul>
         <div class="yutinghao-actions">
-          <a class="yutinghao-btn" href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer">觀看最新一期解讀</a>
-          <a class="yutinghao-btn yutinghao-btn--secondary" href="${escapeHtml(liveUrl)}" target="_blank" rel="noopener noreferrer">前往早晨直播間（08:30 開播）</a>
+          <a class="yutinghao-btn" href="${escapeHtml(latest.url)}" target="_blank" rel="noopener noreferrer">觀看本集回放</a>
+          <a class="yutinghao-btn yutinghao-btn--secondary" href="${escapeHtml(liveUrl)}" target="_blank" rel="noopener noreferrer">前往頻道直播間</a>
+          <a class="yutinghao-btn yutinghao-btn--secondary" href="${escapeHtml(podUrl)}" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
         </div>
       </article>
       <aside class="yutinghao-chapters" aria-label="財經皓角章節與近期節目">

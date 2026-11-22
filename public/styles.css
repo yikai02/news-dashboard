@@ -478,6 +478,17 @@ abbr {
   margin: var(--space-xs) 0 0 0;
 }
 
+.yutinghao-outline {
+  margin: var(--space-sm) 0 0 0;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--color-ink);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--color-paper-2);
+  border-inline-start: var(--rule-heavy) solid var(--color-accent);
+}
+
 .yutinghao-summary {
   margin: var(--space-sm) 0 0 0;
   padding-inline-start: var(--space-md);
@@ -498,6 +509,7 @@ abbr {
 .yutinghao-btn {
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
   min-height: 36px;
   padding: var(--space-2xs) var(--space-sm);
   font-family: var(--font-display);
