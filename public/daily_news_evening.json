@@ -7,10 +7,10 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-22T21:31:02+08:00",
-  "updatedAt": "2026-11-22 21:31",
-  "date": "2026-11-22",
-  "weekday": "星期日",
+  "generatedAt": "2026-11-23T16:00:20+08:00",
+  "updatedAt": "2026-11-23 16:00",
+  "date": "2026-11-23",
+  "weekday": "星期一",
   "dataMode": "live",
   "threshold": 80,
   "scoreWeights": {
@@ -30,10 +30,10 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.95,
-        "change": 0.038,
-        "changePct": 0.77,
-        "asOf": "2026-11-22",
+        "value": 4.962,
+        "change": 0.05,
+        "changePct": 1.02,
+        "asOf": "2026-11-23",
         "history": [
           4.95,
           4.892,
@@ -49,7 +49,7 @@
           5.066,
           5.052,
           4.912,
-          4.95
+          4.962
         ],
         "source": "CNBC Market Data"
       },
@@ -63,8 +63,8 @@
         "digits": 2,
         "status": "ok",
         "value": 35.89,
-        "change": 7.45,
-        "changePct": 26.2,
+        "change": 0.0,
+        "changePct": 0.0,
         "asOf": "2026-11-20",
         "history": [
           21.15,
@@ -94,12 +94,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.793,
-        "change": -0.014,
-        "changePct": -0.01,
-        "asOf": "2026-11-22",
+        "value": 103.645,
+        "change": -0.162,
+        "changePct": -0.16,
+        "asOf": "2026-11-23",
         "history": [
-          101.566,
           101.547,
           102.298,
           101.653,
@@ -113,7 +112,8 @@
           103.863,
           103.895,
           103.807,
-          103.793
+          103.84,
+          103.645
         ],
         "source": "CNBC Market Data"
       },
@@ -126,10 +126,10 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.61,
-        "change": 0.2,
-        "changePct": 0.24,
-        "asOf": "2026-11-22",
+        "value": 82.95,
+        "change": -0.46,
+        "changePct": -0.55,
+        "asOf": "2026-11-23",
         "history": [
           96.09,
           88.12,
@@ -145,7 +145,7 @@
           83.26,
           83.21,
           83.98,
-          83.61
+          82.95
         ],
         "source": "CNBC Market Data"
       },
@@ -158,10 +158,10 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3609.3,
-        "change": 93.9,
-        "changePct": 2.67,
-        "asOf": "2026-11-22",
+        "value": 3623.7,
+        "change": 108.3,
+        "changePct": 3.08,
+        "asOf": "2026-11-23",
         "history": [
           3940.4,
           4073.0,
@@ -177,7 +177,7 @@
           3741.9,
           3685.5,
           3515.4,
-          3609.3
+          3623.7
         ],
         "source": "CNBC Market Data"
       },
@@ -220,10 +220,10 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.95,
-        "change": 0.038,
-        "changePct": 0.77,
-        "asOf": "2026-11-22",
+        "value": 4.962,
+        "change": 0.05,
+        "changePct": 1.02,
+        "asOf": "2026-11-23",
         "history": [
           4.95,
           4.892,
@@ -239,7 +239,7 @@
           5.066,
           5.052,
           4.912,
-          4.95
+          4.962
         ],
         "source": "CNBC Market Data"
       },
@@ -253,8 +253,8 @@
         "digits": 2,
         "status": "ok",
         "value": 35.89,
-        "change": 7.45,
-        "changePct": 26.2,
+        "change": 0.0,
+        "changePct": 0.0,
         "asOf": "2026-11-20",
         "history": [
           21.15,
@@ -284,12 +284,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.793,
-        "change": -0.014,
-        "changePct": -0.01,
-        "asOf": "2026-11-22",
+        "value": 103.645,
+        "change": -0.162,
+        "changePct": -0.16,
+        "asOf": "2026-11-23",
         "history": [
-          101.566,
           101.547,
           102.298,
           101.653,
@@ -303,7 +302,8 @@
           103.863,
           103.895,
           103.807,
-          103.793
+          103.84,
+          103.645
         ],
         "source": "CNBC Market Data"
       },
@@ -316,10 +316,10 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.61,
-        "change": 0.2,
-        "changePct": 0.24,
-        "asOf": "2026-11-22",
+        "value": 82.95,
+        "change": -0.46,
+        "changePct": -0.55,
+        "asOf": "2026-11-23",
         "history": [
           96.09,
           88.12,
@@ -335,7 +335,7 @@
           83.26,
           83.21,
           83.98,
-          83.61
+          82.95
         ],
         "source": "CNBC Market Data"
       },
@@ -348,10 +348,10 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3609.3,
-        "change": 93.9,
-        "changePct": 2.67,
-        "asOf": "2026-11-22",
+        "value": 3623.7,
+        "change": 108.3,
+        "changePct": 3.08,
+        "asOf": "2026-11-23",
         "history": [
           3940.4,
           4073.0,
@@ -367,7 +367,7 @@
           3741.9,
           3685.5,
           3515.4,
-          3609.3
+          3623.7
         ],
         "source": "CNBC Market Data"
       },
@@ -410,9 +410,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 36906.32,
-        "change": 873.03,
-        "changePct": 2.42,
+        "value": 36811.89,
+        "change": 778.6,
+        "changePct": 2.16,
         "asOf": "2026-11-23",
         "history": [
           43307.54,
@@ -429,7 +429,7 @@
           40194.91,
           38426.89,
           36033.29,
-          36906.32
+          36811.89
         ],
         "source": "TWSE / TPEx"
       },
@@ -442,9 +442,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 270.58,
-        "change": 7.27,
-        "changePct": 2.76,
+        "value": 270.9,
+        "change": 7.59,
+        "changePct": 2.88,
         "asOf": "2026-11-23",
         "history": [
           345.52,
@@ -461,7 +461,7 @@
           307.55,
           285.33,
           263.31,
-          270.58
+          270.9
         ],
         "source": "TWSE / TPEx"
       },
@@ -474,9 +474,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 86.925,
-        "change": 2.475,
-        "changePct": 2.93,
+        "value": 87.0,
+        "change": 2.55,
+        "changePct": 3.02,
         "asOf": "2026-11-23",
         "history": [
           100.6,
@@ -493,7 +493,7 @@
           94.1,
           90.2,
           84.45,
-          86.925
+          87.0
         ],
         "source": "TWSE / TPEx"
       },
@@ -506,9 +506,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 195.4,
-        "change": 5.6,
-        "changePct": 2.95,
+        "value": 195.55,
+        "change": 5.75,
+        "changePct": 3.03,
         "asOf": "2026-11-23",
         "history": [
           230.55,
@@ -525,7 +525,7 @@
           212.0,
           202.65,
           189.8,
-          195.4
+          195.55
         ],
         "source": "TWSE / TPEx"
       },
@@ -538,9 +538,9 @@
         "unit": "元",
         "digits": 0,
         "status": "ok",
-        "value": 2042.5,
-        "change": 42.5,
-        "changePct": 2.12,
+        "value": 2030.0,
+        "change": 30.0,
+        "changePct": 1.5,
         "asOf": "2026-11-23",
         "history": [
           2295.0,
@@ -557,7 +557,7 @@
           2175.0,
           2100.0,
           2000.0,
-          2042.5
+          2030.0
         ],
         "source": "TWSE / TPEx"
       },
@@ -634,9 +634,9 @@
         "unit": "元",
         "digits": 2,
         "status": "ok",
-        "value": 207.25,
-        "change": -2.75,
-        "changePct": -1.31,
+        "value": 206.0,
+        "change": -4.0,
+        "changePct": -1.9,
         "asOf": "2026-11-23",
         "history": [
           245.5,
@@ -653,7 +653,7 @@
           221.0,
           220.5,
           210.0,
-          207.25
+          206.0
         ],
         "source": "TWSE / TPEx"
       }
@@ -707,8 +707,8 @@
             "digits": 2,
             "status": "ok",
             "value": 22617.733,
-            "change": -1261.466,
-            "changePct": -5.28,
+            "change": 0.0,
+            "changePct": 0.0,
             "asOf": "2026-11-20",
             "history": [
               25164.363,
@@ -739,8 +739,8 @@
             "digits": 2,
             "status": "ok",
             "value": 8408.59,
-            "change": -1011.132,
-            "changePct": -10.73,
+            "change": 0.0,
+            "changePct": 0.0,
             "asOf": "2026-11-20",
             "history": [
               10328.329,
@@ -805,8 +805,8 @@
             "digits": 2,
             "status": "ok",
             "value": 318.71,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -33.38,
+            "changePct": -9.48,
             "asOf": "2026-11-20",
             "history": [
               398.63,
@@ -837,8 +837,8 @@
             "digits": 2,
             "status": "ok",
             "value": 125.53,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -20.45,
+            "changePct": -14.01,
             "asOf": "2026-11-20",
             "history": [
               202.06,
@@ -869,8 +869,8 @@
             "digits": 2,
             "status": "ok",
             "value": 342.56,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -6.65,
+            "changePct": -1.9,
             "asOf": "2026-11-20",
             "history": [
               338.32,
@@ -901,8 +901,8 @@
             "digits": 2,
             "status": "ok",
             "value": 345.82,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -28.59,
+            "changePct": -7.64,
             "asOf": "2026-11-20",
             "history": [
               403.82,
@@ -967,8 +967,8 @@
             "digits": 2,
             "status": "ok",
             "value": 22617.733,
-            "change": -1261.466,
-            "changePct": -5.28,
+            "change": 0.0,
+            "changePct": 0.0,
             "asOf": "2026-11-20",
             "history": [
               25164.363,
@@ -999,8 +999,8 @@
             "digits": 2,
             "status": "ok",
             "value": 8408.59,
-            "change": -1011.132,
-            "changePct": -10.73,
+            "change": 0.0,
+            "changePct": 0.0,
             "asOf": "2026-11-20",
             "history": [
               10328.329,
@@ -1063,8 +1063,8 @@
             "digits": 2,
             "status": "ok",
             "value": 318.71,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -33.38,
+            "changePct": -9.48,
             "asOf": "2026-11-20",
             "history": [
               398.63,
@@ -1095,8 +1095,8 @@
             "digits": 2,
             "status": "ok",
             "value": 125.53,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -20.45,
+            "changePct": -14.01,
             "asOf": "2026-11-20",
             "history": [
               202.06,
@@ -1127,8 +1127,8 @@
             "digits": 2,
             "status": "ok",
             "value": 342.56,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -6.65,
+            "changePct": -1.9,
             "asOf": "2026-11-20",
             "history": [
               338.32,
@@ -1159,8 +1159,8 @@
             "digits": 2,
             "status": "ok",
             "value": 345.82,
-            "change": 0.0,
-            "changePct": 0.0,
+            "change": -28.59,
+            "changePct": -7.64,
             "asOf": "2026-11-20",
             "history": [
               403.82,
@@ -1198,9 +1198,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 36906.32,
-            "change": 873.03,
-            "changePct": 2.42,
+            "value": 36811.89,
+            "change": 778.6,
+            "changePct": 2.16,
             "asOf": "2026-11-23",
             "history": [
               43307.54,
@@ -1217,7 +1217,7 @@
               40194.91,
               38426.89,
               36033.29,
-              36906.32
+              36811.89
             ],
             "source": "TWSE / TPEx"
           },
@@ -1230,9 +1230,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 270.58,
-            "change": 7.27,
-            "changePct": 2.76,
+            "value": 270.9,
+            "change": 7.59,
+            "changePct": 2.88,
             "asOf": "2026-11-23",
             "history": [
               345.52,
@@ -1249,7 +1249,7 @@
               307.55,
               285.33,
               263.31,
-              270.58
+              270.9
             ],
             "source": "TWSE / TPEx"
           }
@@ -1264,9 +1264,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 86.925,
-            "change": 2.475,
-            "changePct": 2.93,
+            "value": 87.0,
+            "change": 2.55,
+            "changePct": 3.02,
             "asOf": "2026-11-23",
             "history": [
               100.6,
@@ -1283,7 +1283,7 @@
               94.1,
               90.2,
               84.45,
-              86.925
+              87.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1296,9 +1296,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 195.4,
-            "change": 5.6,
-            "changePct": 2.95,
+            "value": 195.55,
+            "change": 5.75,
+            "changePct": 3.03,
             "asOf": "2026-11-23",
             "history": [
               230.55,
@@ -1315,7 +1315,7 @@
               212.0,
               202.65,
               189.8,
-              195.4
+              195.55
             ],
             "source": "TWSE / TPEx"
           },
@@ -1328,9 +1328,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2042.5,
-            "change": 42.5,
-            "changePct": 2.12,
+            "value": 2030.0,
+            "change": 30.0,
+            "changePct": 1.5,
             "asOf": "2026-11-23",
             "history": [
               2295.0,
@@ -1347,7 +1347,7 @@
               2175.0,
               2100.0,
               2000.0,
-              2042.5
+              2030.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1424,9 +1424,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 207.25,
-            "change": -2.75,
-            "changePct": -1.31,
+            "value": 206.0,
+            "change": -4.0,
+            "changePct": -1.9,
             "asOf": "2026-11-23",
             "history": [
               245.5,
@@ -1443,7 +1443,7 @@
               221.0,
               220.5,
               210.0,
-              207.25
+              206.0
             ],
             "source": "TWSE / TPEx"
           }
@@ -1458,9 +1458,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 36906.32,
-            "change": 873.03,
-            "changePct": 2.42,
+            "value": 36811.89,
+            "change": 778.6,
+            "changePct": 2.16,
             "asOf": "2026-11-23",
             "history": [
               43307.54,
@@ -1477,7 +1477,7 @@
               40194.91,
               38426.89,
               36033.29,
-              36906.32
+              36811.89
             ],
             "source": "TWSE / TPEx"
           },
@@ -1490,9 +1490,9 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 270.58,
-            "change": 7.27,
-            "changePct": 2.76,
+            "value": 270.9,
+            "change": 7.59,
+            "changePct": 2.88,
             "asOf": "2026-11-23",
             "history": [
               345.52,
@@ -1509,7 +1509,7 @@
               307.55,
               285.33,
               263.31,
-              270.58
+              270.9
             ],
             "source": "TWSE / TPEx"
           },
@@ -1522,9 +1522,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 86.925,
-            "change": 2.475,
-            "changePct": 2.93,
+            "value": 87.0,
+            "change": 2.55,
+            "changePct": 3.02,
             "asOf": "2026-11-23",
             "history": [
               100.6,
@@ -1541,7 +1541,7 @@
               94.1,
               90.2,
               84.45,
-              86.925
+              87.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1554,9 +1554,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 195.4,
-            "change": 5.6,
-            "changePct": 2.95,
+            "value": 195.55,
+            "change": 5.75,
+            "changePct": 3.03,
             "asOf": "2026-11-23",
             "history": [
               230.55,
@@ -1573,7 +1573,7 @@
               212.0,
               202.65,
               189.8,
-              195.4
+              195.55
             ],
             "source": "TWSE / TPEx"
           },
@@ -1586,9 +1586,9 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2042.5,
-            "change": 42.5,
-            "changePct": 2.12,
+            "value": 2030.0,
+            "change": 30.0,
+            "changePct": 1.5,
             "asOf": "2026-11-23",
             "history": [
               2295.0,
@@ -1605,7 +1605,7 @@
               2175.0,
               2100.0,
               2000.0,
-              2042.5
+              2030.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1682,9 +1682,9 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 207.25,
-            "change": -2.75,
-            "changePct": -1.31,
+            "value": 206.0,
+            "change": -4.0,
+            "changePct": -1.9,
             "asOf": "2026-11-23",
             "history": [
               245.5,
@@ -1701,7 +1701,7 @@
               221.0,
               220.5,
               210.0,
-              207.25
+              206.0
             ],
             "source": "TWSE / TPEx"
           }
@@ -1720,10 +1720,10 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 4.95,
-      "change": 0.038,
-      "changePct": 0.77,
-      "asOf": "2026-11-22",
+      "value": 4.962,
+      "change": 0.05,
+      "changePct": 1.02,
+      "asOf": "2026-11-23",
       "history": [
         4.95,
         4.892,
@@ -1739,7 +1739,7 @@
         5.066,
         5.052,
         4.912,
-        4.95
+        4.962
       ],
       "source": "CNBC Market Data"
     },
@@ -1753,8 +1753,8 @@
       "digits": 2,
       "status": "ok",
       "value": 35.89,
-      "change": 7.45,
-      "changePct": 26.2,
+      "change": 0.0,
+      "changePct": 0.0,
       "asOf": "2026-11-20",
       "history": [
         21.15,
@@ -1784,12 +1784,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.793,
-      "change": -0.014,
-      "changePct": -0.01,
-      "asOf": "2026-11-22",
+      "value": 103.645,
+      "change": -0.162,
+      "changePct": -0.16,
+      "asOf": "2026-11-23",
       "history": [
-        101.566,
         101.547,
         102.298,
         101.653,
@@ -1803,7 +1802,8 @@
         103.863,
         103.895,
         103.807,
-        103.793
+        103.84,
+        103.645
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,10 +1816,10 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 83.61,
-      "change": 0.2,
-      "changePct": 0.24,
-      "asOf": "2026-11-22",
+      "value": 82.95,
+      "change": -0.46,
+      "changePct": -0.55,
+      "asOf": "2026-11-23",
       "history": [
         96.09,
         88.12,
@@ -1835,7 +1835,7 @@
         83.26,
         83.21,
         83.98,
-        83.61
+        82.95
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,10 +1848,10 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3609.3,
-      "change": 93.9,
-      "changePct": 2.67,
-      "asOf": "2026-11-22",
+      "value": 3623.7,
+      "change": 108.3,
+      "changePct": 3.08,
+      "asOf": "2026-11-23",
       "history": [
         3940.4,
         4073.0,
@@ -1867,7 +1867,7 @@
         3741.9,
         3685.5,
         3515.4,
-        3609.3
+        3623.7
       ],
       "source": "CNBC Market Data"
     },
@@ -1910,9 +1910,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 36906.32,
-      "change": 873.03,
-      "changePct": 2.42,
+      "value": 36811.89,
+      "change": 778.6,
+      "changePct": 2.16,
       "asOf": "2026-11-23",
       "history": [
         43307.54,
@@ -1929,7 +1929,7 @@
         40194.91,
         38426.89,
         36033.29,
-        36906.32
+        36811.89
       ],
       "source": "TWSE / TPEx"
     },
@@ -1942,9 +1942,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 270.58,
-      "change": 7.27,
-      "changePct": 2.76,
+      "value": 270.9,
+      "change": 7.59,
+      "changePct": 2.88,
       "asOf": "2026-11-23",
       "history": [
         345.52,
@@ -1961,7 +1961,7 @@
         307.55,
         285.33,
         263.31,
-        270.58
+        270.9
       ],
       "source": "TWSE / TPEx"
     },
@@ -1974,9 +1974,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 86.925,
-      "change": 2.475,
-      "changePct": 2.93,
+      "value": 87.0,
+      "change": 2.55,
+      "changePct": 3.02,
       "asOf": "2026-11-23",
       "history": [
         100.6,
@@ -1993,7 +1993,7 @@
         94.1,
         90.2,
         84.45,
-        86.925
+        87.0
       ],
       "source": "TWSE / TPEx"
     },
@@ -2006,9 +2006,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 195.4,
-      "change": 5.6,
-      "changePct": 2.95,
+      "value": 195.55,
+      "change": 5.75,
+      "changePct": 3.03,
       "asOf": "2026-11-23",
       "history": [
         230.55,
@@ -2025,7 +2025,7 @@
         212.0,
         202.65,
         189.8,
-        195.4
+        195.55
       ],
       "source": "TWSE / TPEx"
     },
@@ -2038,9 +2038,9 @@
       "unit": "元",
       "digits": 0,
       "status": "ok",
-      "value": 2042.5,
-      "change": 42.5,
-      "changePct": 2.12,
+      "value": 2030.0,
+      "change": 30.0,
+      "changePct": 1.5,
       "asOf": "2026-11-23",
       "history": [
         2295.0,
@@ -2057,7 +2057,7 @@
         2175.0,
         2100.0,
         2000.0,
-        2042.5
+        2030.0
       ],
       "source": "TWSE / TPEx"
     },
@@ -2134,9 +2134,9 @@
       "unit": "元",
       "digits": 2,
       "status": "ok",
-      "value": 207.25,
-      "change": -2.75,
-      "changePct": -1.31,
+      "value": 206.0,
+      "change": -4.0,
+      "changePct": -1.9,
       "asOf": "2026-11-23",
       "history": [
         245.5,
@@ -2153,7 +2153,7 @@
         221.0,
         220.5,
         210.0,
-        207.25
+        206.0
       ],
       "source": "TWSE / TPEx"
     }
@@ -2207,8 +2207,8 @@
           "digits": 2,
           "status": "ok",
           "value": 22617.733,
-          "change": -1261.466,
-          "changePct": -5.28,
+          "change": 0.0,
+          "changePct": 0.0,
           "asOf": "2026-11-20",
           "history": [
             25164.363,
@@ -2239,8 +2239,8 @@
           "digits": 2,
           "status": "ok",
           "value": 8408.59,
-          "change": -1011.132,
-          "changePct": -10.73,
+          "change": 0.0,
+          "changePct": 0.0,
           "asOf": "2026-11-20",
           "history": [
             10328.329,
@@ -2305,8 +2305,8 @@
           "digits": 2,
           "status": "ok",
           "value": 318.71,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -33.38,
+          "changePct": -9.48,
           "asOf": "2026-11-20",
           "history": [
             398.63,
@@ -2337,8 +2337,8 @@
           "digits": 2,
           "status": "ok",
           "value": 125.53,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -20.45,
+          "changePct": -14.01,
           "asOf": "2026-11-20",
           "history": [
             202.06,
@@ -2369,8 +2369,8 @@
           "digits": 2,
           "status": "ok",
           "value": 342.56,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -6.65,
+          "changePct": -1.9,
           "asOf": "2026-11-20",
           "history": [
             338.32,
@@ -2401,8 +2401,8 @@
           "digits": 2,
           "status": "ok",
           "value": 345.82,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -28.59,
+          "changePct": -7.64,
           "asOf": "2026-11-20",
           "history": [
             403.82,
@@ -2467,8 +2467,8 @@
           "digits": 2,
           "status": "ok",
           "value": 22617.733,
-          "change": -1261.466,
-          "changePct": -5.28,
+          "change": 0.0,
+          "changePct": 0.0,
           "asOf": "2026-11-20",
           "history": [
             25164.363,
@@ -2499,8 +2499,8 @@
           "digits": 2,
           "status": "ok",
           "value": 8408.59,
-          "change": -1011.132,
-          "changePct": -10.73,
+          "change": 0.0,
+          "changePct": 0.0,
           "asOf": "2026-11-20",
           "history": [
             10328.329,
@@ -2563,8 +2563,8 @@
           "digits": 2,
           "status": "ok",
           "value": 318.71,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -33.38,
+          "changePct": -9.48,
           "asOf": "2026-11-20",
           "history": [
             398.63,
@@ -2595,8 +2595,8 @@
           "digits": 2,
           "status": "ok",
           "value": 125.53,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -20.45,
+          "changePct": -14.01,
           "asOf": "2026-11-20",
           "history": [
             202.06,
@@ -2627,8 +2627,8 @@
           "digits": 2,
           "status": "ok",
           "value": 342.56,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -6.65,
+          "changePct": -1.9,
           "asOf": "2026-11-20",
           "history": [
             338.32,
@@ -2659,8 +2659,8 @@
           "digits": 2,
           "status": "ok",
           "value": 345.82,
-          "change": 0.0,
-          "changePct": 0.0,
+          "change": -28.59,
+          "changePct": -7.64,
           "asOf": "2026-11-20",
           "history": [
             403.82,
@@ -2698,9 +2698,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 36906.32,
-          "change": 873.03,
-          "changePct": 2.42,
+          "value": 36811.89,
+          "change": 778.6,
+          "changePct": 2.16,
           "asOf": "2026-11-23",
           "history": [
             43307.54,
@@ -2717,7 +2717,7 @@
             40194.91,
             38426.89,
             36033.29,
-            36906.32
+            36811.89
           ],
           "source": "TWSE / TPEx"
         },
@@ -2730,9 +2730,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 270.58,
-          "change": 7.27,
-          "changePct": 2.76,
+          "value": 270.9,
+          "change": 7.59,
+          "changePct": 2.88,
           "asOf": "2026-11-23",
           "history": [
             345.52,
@@ -2749,7 +2749,7 @@
             307.55,
             285.33,
             263.31,
-            270.58
+            270.9
           ],
           "source": "TWSE / TPEx"
         }
@@ -2764,9 +2764,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 86.925,
-          "change": 2.475,
-          "changePct": 2.93,
+          "value": 87.0,
+          "change": 2.55,
+          "changePct": 3.02,
           "asOf": "2026-11-23",
           "history": [
             100.6,
@@ -2783,7 +2783,7 @@
             94.1,
             90.2,
             84.45,
-            86.925
+            87.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -2796,9 +2796,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 195.4,
-          "change": 5.6,
-          "changePct": 2.95,
+          "value": 195.55,
+          "change": 5.75,
+          "changePct": 3.03,
           "asOf": "2026-11-23",
           "history": [
             230.55,
@@ -2815,7 +2815,7 @@
             212.0,
             202.65,
             189.8,
-            195.4
+            195.55
           ],
           "source": "TWSE / TPEx"
         },
@@ -2828,9 +2828,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2042.5,
-          "change": 42.5,
-          "changePct": 2.12,
+          "value": 2030.0,
+          "change": 30.0,
+          "changePct": 1.5,
           "asOf": "2026-11-23",
           "history": [
             2295.0,
@@ -2847,7 +2847,7 @@
             2175.0,
             2100.0,
             2000.0,
-            2042.5
+            2030.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -2924,9 +2924,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 207.25,
-          "change": -2.75,
-          "changePct": -1.31,
+          "value": 206.0,
+          "change": -4.0,
+          "changePct": -1.9,
           "asOf": "2026-11-23",
           "history": [
             245.5,
@@ -2943,7 +2943,7 @@
             221.0,
             220.5,
             210.0,
-            207.25
+            206.0
           ],
           "source": "TWSE / TPEx"
         }
@@ -2958,9 +2958,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 36906.32,
-          "change": 873.03,
-          "changePct": 2.42,
+          "value": 36811.89,
+          "change": 778.6,
+          "changePct": 2.16,
           "asOf": "2026-11-23",
           "history": [
             43307.54,
@@ -2977,7 +2977,7 @@
             40194.91,
             38426.89,
             36033.29,
-            36906.32
+            36811.89
           ],
           "source": "TWSE / TPEx"
         },
@@ -2990,9 +2990,9 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 270.58,
-          "change": 7.27,
-          "changePct": 2.76,
+          "value": 270.9,
+          "change": 7.59,
+          "changePct": 2.88,
           "asOf": "2026-11-23",
           "history": [
             345.52,
@@ -3009,7 +3009,7 @@
             307.55,
             285.33,
             263.31,
-            270.58
+            270.9
           ],
           "source": "TWSE / TPEx"
         },
@@ -3022,9 +3022,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 86.925,
-          "change": 2.475,
-          "changePct": 2.93,
+          "value": 87.0,
+          "change": 2.55,
+          "changePct": 3.02,
           "asOf": "2026-11-23",
           "history": [
             100.6,
@@ -3041,7 +3041,7 @@
             94.1,
             90.2,
             84.45,
-            86.925
+            87.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -3054,9 +3054,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 195.4,
-          "change": 5.6,
-          "changePct": 2.95,
+          "value": 195.55,
+          "change": 5.75,
+          "changePct": 3.03,
           "asOf": "2026-11-23",
           "history": [
             230.55,
@@ -3073,7 +3073,7 @@
             212.0,
             202.65,
             189.8,
-            195.4
+            195.55
           ],
           "source": "TWSE / TPEx"
         },
@@ -3086,9 +3086,9 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2042.5,
-          "change": 42.5,
-          "changePct": 2.12,
+          "value": 2030.0,
+          "change": 30.0,
+          "changePct": 1.5,
           "asOf": "2026-11-23",
           "history": [
             2295.0,
@@ -3105,7 +3105,7 @@
             2175.0,
             2100.0,
             2000.0,
-            2042.5
+            2030.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -3182,9 +3182,9 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 207.25,
-          "change": -2.75,
-          "changePct": -1.31,
+          "value": 206.0,
+          "change": -4.0,
+          "changePct": -1.9,
           "asOf": "2026-11-23",
           "history": [
             245.5,
@@ -3201,7 +3201,7 @@
             221.0,
             220.5,
             210.0,
-            207.25
+            206.0
           ],
           "source": "TWSE / TPEx"
         }
@@ -3567,31 +3567,474 @@
     ]
   },
   "leadIds": [
-    "s03c3eaed",
-    "s3977355c"
+    "s11fe2e23",
+    "s38df8ded"
   ],
   "stories": [
     {
-      "id": "s03c3eaed",
+      "id": "s11fe2e23",
       "section": "business_tech",
-      "title": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
+      "title": "黃仁勳回鍋輝達現轉機?貝森特「改口」:黃仁勳是外部人士",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
-      "publishedAt": "2026-11-22T11:45:15+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/416ef64ad2d52c7161cb01b82244a43b01838fe39177eceea7805287320b92b4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fknews_com_721%2F0f8da87644ea5ff9748fda5609301111",
+      "summary": "貝森特對黃仁勳回鍋輝達態度轉變,稱先釐清違規責任,未排除其重返執行長。 美財政部要求輝達11月25日前說明是否設空殼公司規避出口管制,至22日仍未收到回覆。 Polymarket顯示黃仁勳重任執行長機率由11月21日11%升至14%,川普支持、董事會反對。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669922",
+      "publishedAt": "2026-11-23T15:50:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/3f42044e7483100fbb5b626749a9e6e29dc61dc8b4fb40e2441b8671866b063a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnownews.com%2F6d5c0aa985958051668a1bb7ba124ba3",
       "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 94,
+      "score": 95,
       "scoreBreakdown": {
         "resonance": 35,
-        "impact": 35,
-        "data": 14,
-        "durability": 10
+        "impact": 34,
+        "data": 20,
+        "durability": 6
       },
       "mediaCount": 3,
       "impactCategories": [
+        "利率與法規政策",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "metric": "134.7美元",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        },
+        {
+          "text": "Polymarket顯示黃仁勳重任執行長機率由11月21日11%升至14%,川普支持、董事會反對。",
+          "metric": "11%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "輝達股價上週五急瀉約14%,週線暴跌。",
+          "metric": "14%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳回鍋輝達有望?胡采蘋曝微軟監督案例",
+          "angle": "產業動態與市場焦點",
+          "focus": "輝達(Nvidia)前執行長黃仁勳是否有機會重返公司,再度引發討論。",
+          "excerpt": "輝達(Nvidia)前執行長黃仁勳是否有機會重返公司,再度引發討論。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94%E6%9C%89%E6%9C%9B-%E8%83%A1%E9%87%87%E8%98%8B%E6%9B%9D%E5%BE%AE%E8%BB%9F%E7%9B%A3%E7%9D%A3%E6%A1%88%E4%BE%8B-072318250.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "黃仁勳回鍋輝達現轉機?貝森特「改口」:黃仁勳是外部人士",
+          "angle": "產業動態與市場焦點",
+          "focus": "貝森特對黃仁勳回鍋輝達態度轉變,稱先釐清違規責任,未排除其重返執行長。",
+          "excerpt": "貝森特對黃仁勳回鍋輝達態度轉變,稱先釐清違規責任,未排除其重返執行長。",
+          "url": "https://news.cnyes.com/news/id/6669922",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "川普隔空要求黃仁勳回鍋 輝達夜盤強彈7.3%",
+          "angle": "市場定價與外資籌碼",
+          "focus": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "excerpt": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5650134",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "metric": "134.7美元",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        },
+        {
+          "text": "Polymarket顯示黃仁勳重任執行長機率由11月21日11%升至14%,川普支持、董事會反對。",
+          "metric": "11%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "輝達股價上週五急瀉約14%,週線暴跌。",
+          "metric": "14%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳回鍋輝達有望?胡采蘋曝微軟監督案例",
+          "angle": "產業動態與市場焦點",
+          "focus": "輝達(Nvidia)前執行長黃仁勳是否有機會重返公司,再度引發討論。",
+          "excerpt": "輝達(Nvidia)前執行長黃仁勳是否有機會重返公司,再度引發討論。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94%E6%9C%89%E6%9C%9B-%E8%83%A1%E9%87%87%E8%98%8B%E6%9B%9D%E5%BE%AE%E8%BB%9F%E7%9B%A3%E7%9D%A3%E6%A1%88%E4%BE%8B-072318250.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "黃仁勳回鍋輝達現轉機?貝森特「改口」:黃仁勳是外部人士",
+          "angle": "產業動態與市場焦點",
+          "focus": "貝森特對黃仁勳回鍋輝達態度轉變,稱先釐清違規責任,未排除其重返執行長。",
+          "excerpt": "貝森特對黃仁勳回鍋輝達態度轉變,稱先釐清違規責任,未排除其重返執行長。",
+          "url": "https://news.cnyes.com/news/id/6669922",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "川普隔空要求黃仁勳回鍋 輝達夜盤強彈7.3%",
+          "angle": "市場定價與外資籌碼",
+          "focus": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "excerpt": "〔財經頻道/綜合報導〕輝達(Nvidia)美國總統川普今日再度公開表態,盼輝達董事會重新聘請黃仁勳,受此消息激勵,台北時間下午3點50分,輝達夜盤股價上漲7.3%,報每股134.7美元。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5650134",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94%E6%9C%89%E6%9C%9B-%E8%83%A1%E9%87%87%E8%98%8B%E6%9B%9D%E5%BE%AE%E8%BB%9F%E7%9B%A3%E7%9D%A3%E6%A1%88%E4%BE%8B-072318250.html",
+          "headline": "黃仁勳回鍋輝達有望?胡采蘋曝微軟監督案例",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E6%9C%89%E8%AD%9C-%E6%94%BF%E9%99%A2%E6%8B%9A%E6%95%91%E5%B8%82%E9%99%90%E7%A9%BA%E4%BB%A4%E7%99%BC%E5%A8%812-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E7%BE%8E%E8%B2%A1%E9%95%B7-%E7%AC%A6%E5%90%88%E8%BC%9D%E9%81%94-050900151.html",
+          "headline": "黃仁勳回歸輝達有譜? 政院拚救市限空令發威2/黃仁勳回鍋? 美財長:符合輝達「外部人士」 黃樂案純屬轉移焦點",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94%E6%99%B6%E7%89%87%E9%9C%80%E6%B1%82-%E5%B9%BE%E4%B9%8E%E7%84%A1%E9%99%90-%E8%B2%9D%E6%A3%AE%E7%89%B9%E9%AC%86%E5%8F%A3%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E5%8F%AF%E8%83%BD-10%E5%A4%A9%E8%AA%BF%E6%9F%A5%E6%9C%9F%E9%99%90%E6%9B%9D%E5%85%89-042222667.html",
+          "headline": "輝達晶片需求「幾乎無限」!貝森特鬆口黃仁勳回鍋可能 10天調查期限曝光",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E8%B2%9D%E6%A3%AE%E7%89%B9%E5%B0%8D%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BB%BB%E8%BC%9D%E9%81%94%E5%8F%A3%E9%A2%A8%E6%94%BE%E8%BB%9F-%E7%9B%B4%E8%A8%80%E8%B2%AC%E4%BB%BB%E6%AD%B8%E5%B1%AC%E4%BB%8D%E5%BE%85%E9%87%90%E6%B8%85-031014558.html",
+          "headline": "貝森特對黃仁勳回任輝達口風放軟,直言責任歸屬仍待釐清",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669922",
+          "headline": "黃仁勳回鍋輝達現轉機?貝森特「改口」:黃仁勳是外部人士",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5650134",
+          "headline": "川普隔空要求黃仁勳回鍋 輝達夜盤強彈7.3%",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "s38df8ded",
+      "section": "business_tech",
+      "title": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>永豐金控(2890-TW)今(23)日舉行第三季法說會,針對台股近期波段重挫28.4%,總經理朱士廷引用價值投資大師班傑明·葛拉漢的「市場先生(Mr. Market)」理論,提醒投資人冷靜,「市場恐慌不等於價值消失」;永豐金證券總經理蘇威嘉則指出,受AI雜音影響,台股要挑戰 5 萬大關的時間點恐延後至明年第一、二季,但目前本益比已修正至相對便宜區間。</p> <p>朱士廷表示,台股已非單一市場的內部運動,而是與美股高度連動。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6670134",
+      "publishedAt": "2026-11-23T15:01:48+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670134/xl/8c00b4912b19be9639d6f19b06cc2222.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 94,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "根據內部統計,2024年至2026年間,台股與費城半導體指數的相關係數,日線為52.97%、週線60.88%、月線85.27%,季線更高達92.8%,遠高於1990年代的37.89%與2000年的70.33%,顯示台灣作為AI與半導體上中下游供應鏈,與費半走勢密不可分。",
+          "metric": "37.89%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "」 從評價面來看,費半2027年預估本益比已跌破15至24倍的歷史區間、降至目前的12倍;台股截至上周五(10/8-11/20)為止,波段累計下跌達 14,230 點、跌幅達 28.4%,以2027年獲利預估的本益比降至13.5倍,處於過去一年的下緣位置。",
+          "metric": "14230點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "原本市場樂觀預期年底台股有望挑戰4.5萬至5萬點大關,如今看來,時間點可能遞延至明年第一季或第二季。",
+          "metric": "4.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "angle": "資本預算與財報配置",
+          "focus": "Market)」理論,提醒投資人冷靜,「市場恐慌不等於價值消失」;永豐金證券總經理蘇威嘉則指出,受AI雜音影響,台股要挑戰 5 萬大關的時間點恐延後至明年第一、二季,但目前本益比已修正至相對便宜區間。",
+          "excerpt": "Market)」理論,提醒投資人冷靜,「市場恐慌不等於價值消失」;永豐金證券總經理蘇威嘉則指出,受AI雜音影響,台股要挑戰 5 萬大關的時間點恐延後至明年第一、二季,但目前本益比已修正至相對便宜區間。",
+          "url": "https://news.cnyes.com/news/id/6670134",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "angle": "產業動態與市場焦點",
+          "focus": "永豐金控(2890-TW)今(23)日舉行第三季法說會,針對台股近期波段重挫28.4%,總經理朱士廷引用價值投資大師班傑明·葛拉漢的「市場先生(Mr.",
+          "excerpt": "永豐金控(2890-TW)今(23)日舉行第三季法說會,針對台股近期波段重挫28.4%,總經理朱士廷引用價值投資大師班傑明·葛拉漢的「市場先生(Mr.",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%B1%90%E9%87%91%E6%B3%95%E8%AA%AA-%E5%8F%B0%E8%82%A1%E6%B3%A2%E6%AE%B5%E9%87%8D%E6%8C%AB28-%E6%9C%B1%E5%A3%AB%E5%BB%B7%E5%BC%95%E8%BA%81%E9%AC%B1%E7%9A%84-%E5%B8%82%E5%A0%B4%E5%85%88%E7%94%9F-%E7%B1%B2%E5%86%B7%E9%9D%9C-070148079.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "根據內部統計,2024年至2026年間,台股與費城半導體指數的相關係數,日線為52.97%、週線60.88%、月線85.27%,季線更高達92.8%,遠高於1990年代的37.89%與2000年的70.33%,顯示台灣作為AI與半導體上中下游供應鏈,與費半走勢密不可分。",
+          "metric": "37.89%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "」 從評價面來看,費半2027年預估本益比已跌破15至24倍的歷史區間、降至目前的12倍;台股截至上周五(10/8-11/20)為止,波段累計下跌達 14,230 點、跌幅達 28.4%,以2027年獲利預估的本益比降至13.5倍,處於過去一年的下緣位置。",
+          "metric": "14230點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "原本市場樂觀預期年底台股有望挑戰4.5萬至5萬點大關,如今看來,時間點可能遞延至明年第一季或第二季。",
+          "metric": "4.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "angle": "資本預算與財報配置",
+          "focus": "Market)」理論,提醒投資人冷靜,「市場恐慌不等於價值消失」;永豐金證券總經理蘇威嘉則指出,受AI雜音影響,台股要挑戰 5 萬大關的時間點恐延後至明年第一、二季,但目前本益比已修正至相對便宜區間。",
+          "excerpt": "Market)」理論,提醒投資人冷靜,「市場恐慌不等於價值消失」;永豐金證券總經理蘇威嘉則指出,受AI雜音影響,台股要挑戰 5 萬大關的時間點恐延後至明年第一、二季,但目前本益比已修正至相對便宜區間。",
+          "url": "https://news.cnyes.com/news/id/6670134",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "angle": "產業動態與市場焦點",
+          "focus": "永豐金控(2890-TW)今(23)日舉行第三季法說會,針對台股近期波段重挫28.4%,總經理朱士廷引用價值投資大師班傑明·葛拉漢的「市場先生(Mr.",
+          "excerpt": "永豐金控(2890-TW)今(23)日舉行第三季法說會,針對台股近期波段重挫28.4%,總經理朱士廷引用價值投資大師班傑明·葛拉漢的「市場先生(Mr.",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%B1%90%E9%87%91%E6%B3%95%E8%AA%AA-%E5%8F%B0%E8%82%A1%E6%B3%A2%E6%AE%B5%E9%87%8D%E6%8C%AB28-%E6%9C%B1%E5%A3%AB%E5%BB%B7%E5%BC%95%E8%BA%81%E9%AC%B1%E7%9A%84-%E5%B8%82%E5%A0%B4%E5%85%88%E7%94%9F-%E7%B1%B2%E5%86%B7%E9%9D%9C-070148079.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670134",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%B1%90%E9%87%91%E6%B3%95%E8%AA%AA-%E5%8F%B0%E8%82%A1%E6%B3%A2%E6%AE%B5%E9%87%8D%E6%8C%AB28-%E6%9C%B1%E5%A3%AB%E5%BB%B7%E5%BC%95%E8%BA%81%E9%AC%B1%E7%9A%84-%E5%B8%82%E5%A0%B4%E5%85%88%E7%94%9F-%E7%B1%B2%E5%86%B7%E9%9D%9C-070148079.html",
+          "headline": "〈永豐金法說〉台股波段重挫28%!朱士廷引躁鬱的「市場先生」籲冷靜 挑戰5萬點再等等",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "sfd422d3c",
+      "section": "business_tech",
+      "title": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。 川普稱那斯達克跌20%,但截至20日僅較10月高點跌約18.1%,未達技術性熊市。 貝森特稱股市下跌是民主黨、聯準會鷹派與金融環境收緊等多重因素交織。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6670129",
+      "publishedAt": "2026-11-23T15:10:05+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670129/xl/aa5ef0ae1e79a513908f6ce1c8dd5944.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 93,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "上周五道瓊跌1.93%、標普500跌3.7%、那指跌5.28%;那指周跌10.02%,晶片股創2001年9月來最差一周。",
+          "metric": "10.02%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "川普稱那斯達克跌20%,但截至20日僅較10月高點跌約18.1%,未達技術性熊市。",
+          "metric": "18.1%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "metric": "6兆",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "angle": "市場定價與外資籌碼",
+          "focus": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "excerpt": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "url": "https://news.cnyes.com/news/id/6670129",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "angle": "政策法規與公共治理",
+          "focus": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "excerpt": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%B0%87%E7%BE%8E%E8%82%A1%E9%87%8D%E6%8C%AB%E6%AD%B8%E5%92%8E%E6%B0%91%E4%B8%BB%E9%BB%A8-%E7%A8%B1%E5%B8%82%E5%80%BC%E8%92%B8%E7%99%BC%E9%80%BE6%E5%85%86%E7%BE%8E%E5%85%83-%E8%B2%9D%E6%A3%AE%E7%89%B9%E9%BB%9E%E5%A4%9A%E9%87%8D%E5%9B%A0%E7%B4%A0-071005752.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "上周五道瓊跌1.93%、標普500跌3.7%、那指跌5.28%;那指周跌10.02%,晶片股創2001年9月來最差一周。",
+          "metric": "10.02%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "川普稱那斯達克跌20%,但截至20日僅較10月高點跌約18.1%,未達技術性熊市。",
+          "metric": "18.1%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "metric": "6兆",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "angle": "市場定價與外資籌碼",
+          "focus": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "excerpt": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "url": "https://news.cnyes.com/news/id/6670129",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "angle": "政策法規與公共治理",
+          "focus": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "excerpt": "川普稱民主黨期中選舉勝出後,美股市值蒸發逾6兆美元,若不改變政策立場市場恐更糟。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%B0%87%E7%BE%8E%E8%82%A1%E9%87%8D%E6%8C%AB%E6%AD%B8%E5%92%8E%E6%B0%91%E4%B8%BB%E9%BB%A8-%E7%A8%B1%E5%B8%82%E5%80%BC%E8%92%B8%E7%99%BC%E9%80%BE6%E5%85%86%E7%BE%8E%E5%85%83-%E8%B2%9D%E6%A3%AE%E7%89%B9%E9%BB%9E%E5%A4%9A%E9%87%8D%E5%9B%A0%E7%B4%A0-071005752.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670129",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%B0%87%E7%BE%8E%E8%82%A1%E9%87%8D%E6%8C%AB%E6%AD%B8%E5%92%8E%E6%B0%91%E4%B8%BB%E9%BB%A8-%E7%A8%B1%E5%B8%82%E5%80%BC%E8%92%B8%E7%99%BC%E9%80%BE6%E5%85%86%E7%BE%8E%E5%85%83-%E8%B2%9D%E6%A3%AE%E7%89%B9%E9%BB%9E%E5%A4%9A%E9%87%8D%E5%9B%A0%E7%B4%A0-071005752.html",
+          "headline": "川普將美股重挫歸咎民主黨!稱市值蒸發逾6兆美元、貝森特點多重因素",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669978",
+          "headline": "川普:美股市值蒸發超過6兆美元 100%怪民主黨",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "id": "sb006d762",
+      "section": "business_tech",
+      "title": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。 AI工程師職缺成長66.12%居首,演算法開發增54.41%、資安增35.47%,企業加速系統建置與防護。 AI需求擴散至傳產,化學製造業AI職缺年增74.32%;台鏈擴大訂單推升人才需求。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6670110",
+      "publishedAt": "2026-11-23T13:19:40+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670110/xl/9365121cc9c5cffb52436d3fb4e295ca.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
         "供應鏈與整併",
         "技術與算力突破",
         "公共治理與結構轉型"
@@ -3599,234 +4042,94 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "metric": "6家",
+          "text": "AI工程師職缺成長66.12%居首,演算法開發增54.41%、資安增35.47%,企業加速系統建置與防護。",
+          "metric": "35.47%",
           "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA"
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "metric": "6家",
+          "text": "AI需求擴散至傳產,化學製造業AI職缺年增74.32%;台鏈擴大訂單推升人才需求。",
+          "metric": "74.32%",
           "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA"
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "專家指出,輝達已向市場證明技術護城河與供應鏈執行力,具備高度制度化韌性;進入「後黃仁勳時代」,輝達在全球AI算力賽道絕對主導地位,短期仍難以撼動。",
-          "metric": "",
+          "text": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "metric": "350%",
           "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://money.udn.com/money/story/5612/9894126",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "metric": "6家",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "metric": "6家",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "專家指出,輝達已向市場證明技術護城河與供應鏈執行力,具備高度制度化韌性;進入「後黃仁勳時代」,輝達在全球AI算力賽道絕對主導地位,短期仍難以撼動。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://money.udn.com/money/story/5612/9894126",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電(2330)等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "excerpt": "輝達(Nvidia)共同創辦人黃仁勳辭任執行長後,輝達與台積電等6家台廠擴大結盟,頗有穩定供應鏈軍心意味。",
-          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9894126",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-034515475.html",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E8%88%87%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%88%E4%BD%9C30%E5%B9%B4%E9%9D%A0-%E6%8F%A1%E6%89%8B%E5%8D%94%E8%AD%B0-%E7%84%A1%E5%90%88%E7%B4%84-%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E9%9D%A2%E8%87%A8%E8%80%83%E9%A9%97-033600850.html",
-          "headline": "與台積電合作30年靠「握手協議」!無合約 後黃仁勳時代輝達面臨考驗",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%BE%8C%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%82%E4%BB%A3%E8%BC%9D%E9%81%94%E7%B5%90%E7%9B%9F%E4%BE%9B%E6%87%89%E9%8F%88-%E7%A9%A9%E4%B8%BB%E5%B0%8E%E5%9C%B0%E4%BD%8D%E5%AE%A3%E7%A4%BAai%E8%A8%82%E5%96%AE%E7%84%A1%E8%99%9E-015428015.html",
-          "headline": "後黃仁勳時代輝達結盟供應鏈 穩主導地位宣示AI訂單無虞",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "s3977355c",
-      "section": "business_tech",
-      "title": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669832",
-      "publishedAt": "2026-11-22T12:10:09+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669832/xl/8af753c12099471da27578399b5188e6.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 93,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 33,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-          "angle": "市場定價與外資籌碼",
-          "focus": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "excerpt": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "url": "https://news.cnyes.com/news/id/6669832",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "excerpt": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "url": "https://news.cnyes.com/news/id/6670110",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮A",
-          "excerpt": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮A",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E6%85%98%E5%B4%A9-ai%E7%94%A2%E6%A5%AD%E6%98%AF%E6%B3%A1%E6%B2%AB%E7%A0%B4%E8%A3%82%E9%82%84%E6%98%AF%E5%83%B9%E6%A0%BC%E9%87%8D%E4%BC%B0-041009714.html",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
+          "angle": "資本預算與財報配置",
+          "focus": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "excerpt": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%9C%80%E6%90%B6%E6%89%8Bai%E8%81%B7%E7%BC%BA%E5%87%BA%E7%88%90-%E8%BC%9D%E9%81%94q4%E7%87%9F%E6%94%B6%E8%A1%9D1300%E5%84%84%E7%BE%8E%E5%85%83-%E5%B8%B6%E5%8B%95%E5%8F%B0%E7%A9%8D%E9%9B%BB6%E5%8F%B0%E5%BB%A0%E4%BA%BA%E5%8A%9B%E9%9C%80%E6%B1%82%E7%88%86%E5%A2%9E-051940880.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "metric": "",
+          "text": "AI工程師職缺成長66.12%居首,演算法開發增54.41%、資安增35.47%,企業加速系統建置與防護。",
+          "metric": "35.47%",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "AI需求擴散至傳產,化學製造業AI職缺年增74.32%;台鏈擴大訂單推升人才需求。",
+          "metric": "74.32%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "metric": "350%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-          "angle": "市場定價與外資籌碼",
-          "focus": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "excerpt": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮AI高額資本支出難轉化回報,升息與融資成本上升加劇估值重估",
-          "url": "https://news.cnyes.com/news/id/6669832",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "excerpt": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "url": "https://news.cnyes.com/news/id/6670110",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮A",
-          "excerpt": "那斯達克本周重挫10%,自高點回撤約18%,標普500與道瓊也進入技術性修正區間 輝達單周跌約23%、市值蒸發2.7兆美元;CoreWeave、AMD、Alphabet等AI供應鏈同步受壓 市場憂慮A",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E6%85%98%E5%B4%A9-ai%E7%94%A2%E6%A5%AD%E6%98%AF%E6%B3%A1%E6%B2%AB%E7%A0%B4%E8%A3%82%E9%82%84%E6%98%AF%E5%83%B9%E6%A0%BC%E9%87%8D%E4%BC%B0-041009714.html",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
+          "angle": "資本預算與財報配置",
+          "focus": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "excerpt": "1111人力銀行與資策會白皮書指,2026年前三季AI職缺大增,AI Agent技能需求較Q1暴增350%。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%9C%80%E6%90%B6%E6%89%8Bai%E8%81%B7%E7%BC%BA%E5%87%BA%E7%88%90-%E8%BC%9D%E9%81%94q4%E7%87%9F%E6%94%B6%E8%A1%9D1300%E5%84%84%E7%BE%8E%E5%85%83-%E5%B8%B6%E5%8B%95%E5%8F%B0%E7%A9%8D%E9%9B%BB6%E5%8F%B0%E5%BB%A0%E4%BA%BA%E5%8A%9B%E9%9C%80%E6%B1%82%E7%88%86%E5%A2%9E-051940880.html",
           "lang": "zh"
         }
       ],
@@ -3834,455 +4137,30 @@
       "sources": [
         {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669832",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
+          "url": "https://news.cnyes.com/news/id/6670110",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E6%85%98%E5%B4%A9-ai%E7%94%A2%E6%A5%AD%E6%98%AF%E6%B3%A1%E6%B2%AB%E7%A0%B4%E8%A3%82%E9%82%84%E6%98%AF%E5%83%B9%E6%A0%BC%E9%87%8D%E4%BC%B0-041009714.html",
-          "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估?",
-          "lang": "zh"
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "s3dd76ebb",
-      "section": "business_tech",
-      "title": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。 Fed官員釋鷹派訊號,華勒提及升息50個基點可能,高盛仍估12月升息1碼、2027年3月再升息。 黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669834",
-      "publishedAt": "2026-11-22T13:00:03+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669834/xl/cd86ef7c092151bb96d1ba409d4f64b8.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 20,
-        "durability": 8
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
-          "metric": "3600美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://news.cnyes.com/news/id/6669834",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "黃金跌破每盎司3600美元、銅價單日跌約5%;高盛稱股金同跌顯示流動性收縮,債市偏多短天期公債。",
-          "metric": "3600美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "Fed官員釋鷹派訊號,華勒提及升息50個個基點可能,高盛仍估12月升息1碼、2027年3月再升息。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://news.cnyes.com/news/id/6669834",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "excerpt": "美股連跌6日、標普500跌破200日線,高盛稱賣壓屬「全面清倉式變現」,金融條件急速緊縮。",
-          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669834",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/2018%E5%B9%B4%E5%8A%87%E6%9C%AC%E9%87%8D%E6%BC%94-%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C-%E6%8A%95%E8%B3%87%E4%BA%BA%E8%B3%AA%E7%96%91%E8%81%AF%E6%BA%96%E6%9C%83%E7%B7%8A%E7%B8%AE%E6%94%BF%E7%AD%96-050003562.html",
-          "headline": "2018年劇本重演?美股暴跌 投資人質疑聯準會緊縮政策",
-          "lang": "zh"
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "id": "s3718719f",
-      "section": "business_tech",
-      "title": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "<p>台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。面對恐慌性賣壓與籌碼快速去槓桿,投資人該如何判斷市場何時止跌,安聯投信台股團隊點出,這波行情正從「題材驅動」轉向「獲利驗證」的關鍵轉折,提醒投資人後市必須緊盯四大止穩訊號,靜待籌碼沉澱後分批布局。</p> <p>若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。安聯投信台股團隊指出,此波急跌是美股修正、AI估值調整、外資調節與融資去槓桿等多重因素交互作用的結果。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669803",
-      "publishedAt": "2026-11-22T09:40:02+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669803/xl/f324493c5c5c262ac0e1c9160a2ff053.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。",
-          "metric": "43675.12點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "metric": "2400點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "大型權值股能否止穩: 20日台積電盤中一度跌破2,000元大關、聯發科跌幅近一成,權值股能否率先建立低檔支撐是止跌關鍵。",
-          "metric": "2000元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "url": "https://news.cnyes.com/news/id/6669803",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "若從台股11月13日高點43,675.12點計算,短短一周內大盤跌幅已超過17%,市場風險偏好快速降溫。",
-          "metric": "43675.12點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "metric": "2400點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "大型權值股能否止穩: 20日台積電盤中一度跌破2,000元大關、聯發科跌幅近一成,權值股能否率先建立低檔支撐是止跌關鍵。",
-          "metric": "2000元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "excerpt": "台股近期遭遇劇烈修正,加權指數20日重挫近2400點,短短一周內累計跌幅超過17%,不僅跌破年線關卡,更引發市場對AI泡沫與高估值的擔憂。",
-          "url": "https://news.cnyes.com/news/id/6669803",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669803",
-          "headline": "AI進入重新定價 法人:聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+          "url": "https://tw.stock.yahoo.com/news/%E6%9C%80%E6%90%B6%E6%89%8Bai%E8%81%B7%E7%BC%BA%E5%87%BA%E7%88%90-%E8%BC%9D%E9%81%94q4%E7%87%9F%E6%94%B6%E8%A1%9D1300%E5%84%84%E7%BE%8E%E5%85%83-%E5%B8%B6%E5%8B%95%E5%8F%B0%E7%A9%8D%E9%9B%BB6%E5%8F%B0%E5%BB%A0%E4%BA%BA%E5%8A%9B%E9%9C%80%E6%B1%82%E7%88%86%E5%A2%9E-051940880.html",
+          "headline": "最搶手AI職缺出爐!輝達Q4營收衝1300億美元 帶動台積電6台廠人力需求爆增",
           "lang": "zh"
         }
       ],
       "rank": 4
     },
     {
-      "id": "s74131618",
+      "id": "s48a336b6",
       "section": "business_tech",
-      "title": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+      "title": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "<p>隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。</p> <p>觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
+      "summary": "<p>美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。公司並指出,在股東支持下,已獲得過渡性借款額度,有助公司以更有利條件完成再融資計畫,預計2027年初完成,預期屆時利息費用將下降,帶動每股純益提升。 </p> <p>美時雖受惠收購Alvogen及B2B業務帶動,前三季營收達248.18億元,年增超過7成,創歷史新高,但受到利息費用影響,獲利表現承壓,第三季轉虧1.08億元,每股虧損0.47元,上周五(20日)公告自結財務數字,10月單月虧損3.99億元,每股虧損1.51元。 </p> <p>美時強調,大股東對業務及前景具信心,基本面穩健,且產品線可望持續帶動營運。",
       "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669513",
-      "publishedAt": "2026-11-22T08:40:03+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669513/xl/c728b96c7dbd3cbc142e57ef2abeb7cb.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
-          "metric": "1.43億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
-          "metric": "7.798億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
-          "metric": "44%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "資本預算與財報配置",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "觀察雷笛克近期營運表現,受惠於頭燈應用占比提升與人工智慧伺服器精密結構件出貨增溫,第三季合併營收達4.05億元、每股純益0.34元創近16季新高,10月合併營收更進一步攀升至1.43億元續寫單月歷史紀錄。",
-          "metric": "1.43億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "同樣受惠於車用出貨成長的LED大廠艾笛森(3591-TW),第三季合併營收達新台幣7.798億元、季增約一成三,單季毛利率也由第二季的平均兩成左右提升至約二成二。",
-          "metric": "7.798億元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "其中光學透鏡廠雷笛克(5230-TW)受惠於多款車用照明新專案步入放量階段,第三季車用領域銷售創下歷年單季新高,占整體營收比重達44%,帶動單季毛利率重返三成大關並較去年同期轉虧為盈。",
-          "metric": "44%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "angle": "資本預算與財報配置",
-          "focus": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "excerpt": "隨著傳統消費性電子需求走弱,台灣LED產業近年積極調整產品結構並淡出低毛利市場,目前車用照明與顯示應用已逐步成為支撐台廠業績的核心支柱。",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669513",
-          "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
-          "lang": "zh"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "id": "s104d4e6d",
-      "section": "business_tech",
-      "title": "需求成長 這兩大LEO供應鏈廠還將進行市場籌資200億元擴充",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB,受惠衛星部署擴大",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669835",
-      "publishedAt": "2026-11-22T10:03:03+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669835/xl/777ba3ee4ffeee3521afcc7e701eb51f.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB…",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "需求成長 這兩大LEO供應鏈廠還將進行市場籌資200億元擴充",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB……",
-          "excerpt": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB……",
-          "url": "https://news.cnyes.com/news/id/6669835",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB…",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "需求成長 這兩大LEO供應鏈廠還將進行市場籌資200億元擴充",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB……",
-          "excerpt": "華通前3季稅後純益51.83億元、每股純益 4.31元;董事會決議發行無擔保CB籌資180億元 華通因應AI資料中心與低軌衛星需求,規劃2026-2028年資本支出皆逾200億元 昇達科前9月稅後純益8.12億元、每股純益 11.86元;決議發行20億元無擔保CB……",
-          "url": "https://news.cnyes.com/news/id/6669835",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669835",
-          "headline": "需求成長 這兩大LEO供應鏈廠還將進行市場籌資200億元擴充",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "id": "s28405ae0",
-      "section": "business_tech",
-      "title": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。 他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。 高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669844",
-      "publishedAt": "2026-11-22T15:00:05+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669844/xl/eb3b261b865dcd5be6a35ce0739adbaa.jpg",
+      "url": "https://news.cnyes.com/news/id/6670141",
+      "publishedAt": "2026-11-23T15:01:46+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670141/xl/c0c3056a249715a74b4c5686586bb4fa.jpg",
       "imageCredit": "鉅亨網 Anue",
       "score": 91,
       "scoreBreakdown": {
@@ -4294,32 +4172,162 @@
       "mediaCount": 2,
       "impactCategories": [
         "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "美時雖受惠收購Alvogen及B2B業務帶動,前三季營收達248.18億元,年增超過7成,創歷史新高,但受到利息費用影響,獲利表現承壓,第三季轉虧1.08億元,每股虧損0.47元,上周五(20日)公告自結財務數字,10月單月虧損3.99億元,每股虧損1.51元。",
+          "metric": "248.18億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美時近期股價表現黯淡,今天跌2.2元或2.17%,終場收99.3元,失守百元關卡,為4年多來以來低點。",
+          "metric": "2.17%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "不過外資連續2個交易日買超,上周外資合計買超2339張。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "excerpt": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "url": "https://news.cnyes.com/news/id/6670141",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "angle": "產業動態與市場焦點",
+          "focus": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "excerpt": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%99%82%E6%8E%A8%E5%8B%95%E5%82%B5%E5%8B%99%E5%86%8D%E8%9E%8D%E8%B3%87%E8%A8%88%E7%95%AB%E9%99%8D%E4%BD%8E%E8%B2%A1%E5%8B%99%E6%88%90%E6%9C%AC-%E9%A0%90%E8%A8%88%E6%98%8E%E5%B9%B4%E5%88%9D%E5%AE%8C%E6%88%90-070146418.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "美時雖受惠收購Alvogen及B2B業務帶動,前三季營收達248.18億元,年增超過7成,創歷史新高,但受到利息費用影響,獲利表現承壓,第三季轉虧1.08億元,每股虧損0.47元,上周五(20日)公告自結財務數字,10月單月虧損3.99億元,每股虧損1.51元。",
+          "metric": "248.18億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美時近期股價表現黯淡,今天跌2.2元或2.17%,終場收99.3元,失守百元關卡,為4年多來以來低點。",
+          "metric": "2.17%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "不過外資連續2個交易日買超,上周外資合計買超2339張。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "excerpt": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "url": "https://news.cnyes.com/news/id/6670141",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "angle": "產業動態與市場焦點",
+          "focus": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "excerpt": "美時(1795-TW)今(23)日表示,目前公司推動集團整體債務再融資計畫,以優化資本結構,並降低財務成本。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%99%82%E6%8E%A8%E5%8B%95%E5%82%B5%E5%8B%99%E5%86%8D%E8%9E%8D%E8%B3%87%E8%A8%88%E7%95%AB%E9%99%8D%E4%BD%8E%E8%B2%A1%E5%8B%99%E6%88%90%E6%9C%AC-%E9%A0%90%E8%A8%88%E6%98%8E%E5%B9%B4%E5%88%9D%E5%AE%8C%E6%88%90-070146418.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670141",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%99%82%E6%8E%A8%E5%8B%95%E5%82%B5%E5%8B%99%E5%86%8D%E8%9E%8D%E8%B3%87%E8%A8%88%E7%95%AB%E9%99%8D%E4%BD%8E%E8%B2%A1%E5%8B%99%E6%88%90%E6%9C%AC-%E9%A0%90%E8%A8%88%E6%98%8E%E5%B9%B4%E5%88%9D%E5%AE%8C%E6%88%90-070146418.html",
+          "headline": "美時推動債務再融資計畫降低財務成本 預計明年初完成",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "id": "sb4b9cdd8",
+      "section": "business_tech",
+      "title": "聯發科有望受惠!Google砍博通TPU訂單百萬顆、2027年出貨量下修20%",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "Google在電力與晶片產能受限下,調整AI晶片採購,縮減博通TPU訂單、增購聯發科TPU。 郭明錤指Google下修博通TPU 8i系列2027年出貨約100萬顆,約占全年預估20%,其中8i Max受創最明顯。 此舉恐壓抑博通客製化晶片營收,聯發科則可望提高在Google AI供應鏈比重。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669825",
+      "publishedAt": "2026-11-23T12:45:58+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669825/xl/de35aba40dcbd787bb3770e3236927c0.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 18,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併",
         "技術與算力突破",
         "公共治理與結構轉型"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
-          "metric": "6000億美元",
+          "text": "郭明錤指Google下修博通TPU 8i系列2027年出貨約100萬顆,約占全年預估20%,其中8i Max受創最明顯。",
+          "metric": "100萬顆",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         },
         {
-          "text": "他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。",
-          "metric": "15gw",
+          "text": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "metric": "100萬顆",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         },
         {
-          "text": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "metric": "2027年",
+          "text": "此舉恐壓抑博通客製化晶片營收,聯發科則可望提高在Google AI供應鏈比重。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -4327,46 +4335,45 @@
       "media_perspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
-          "angle": "資本預算與財報配置",
-          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "url": "https://news.cnyes.com/news/id/6669844",
+          "headline": "聯發科有望受惠!Google砍博通TPU訂單百萬顆、2027年出貨量下修20%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "Google在電力與晶片產能受限下,調整AI晶片採購,縮減博通TPU訂單、增購聯發科TPU。",
+          "excerpt": "Google在電力與晶片產能受限下,調整AI晶片採購,縮減博通TPU訂單、增購聯發科TPU。",
+          "url": "https://news.cnyes.com/news/id/6669825",
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
+          "media": "TechNews 科技新報",
+          "headline": "郭明錤爆 Google 砍博通百萬顆 TPU 聯發科受惠?",
+          "angle": "先進技術與算力規格",
+          "focus": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "excerpt": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "url": "https://technews.tw/2026/11/23/ming-chi-kuo-google-cuts-millions-broadcom-tpus-mediatek-benefit/",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "高盛估2026年AI資本支出近1兆美元、債務約6,000億美元。",
-          "metric": "6000億美元",
+          "text": "郭明錤指Google下修博通TPU 8i系列2027年出貨約100萬顆,約占全年預估20%,其中8i Max受創最明顯。",
+          "metric": "100萬顆",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         },
         {
-          "text": "他稱GPU、Hbm、DRAM供不應求,且資料中心、電力與冷卻建置拖慢部署,2027年AI晶片至少缺15 GW電力。",
-          "metric": "15gw",
+          "text": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "metric": "100萬顆",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         },
         {
-          "text": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "metric": "2027年",
+          "text": "此舉恐壓抑博通客製化晶片營收,聯發科則可望提高在Google AI供應鏈比重。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -4374,20 +4381,20 @@
       "mediaPerspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
-          "angle": "資本預算與財報配置",
-          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "url": "https://news.cnyes.com/news/id/6669844",
+          "headline": "聯發科有望受惠!Google砍博通TPU訂單百萬顆、2027年出貨量下修20%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "Google在電力與晶片產能受限下,調整AI晶片採購,縮減博通TPU訂單、增購聯發科TPU。",
+          "excerpt": "Google在電力與晶片產能受限下,調整AI晶片採購,縮減博通TPU訂單、增購聯發科TPU。",
+          "url": "https://news.cnyes.com/news/id/6669825",
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "excerpt": "馬斯克警告,全球AI產業2027年恐出現數千億美元資金短缺,主因是硬體採購與獲利變現有時間差。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
+          "media": "TechNews 科技新報",
+          "headline": "郭明錤爆 Google 砍博通百萬顆 TPU 聯發科受惠?",
+          "angle": "先進技術與算力規格",
+          "focus": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "excerpt": "天風國際證券分析師郭明錤(Ming-Chi Kuo)在最新供應鏈調查指出,Google 已下修 2027 年由博通(Broadcom)設計的第 8 代張量處理器(TPU)8i 系列出貨計畫,減少約 100 萬顆、幅度達 20%,其中以高單價的 8i Max 晶片為主。",
+          "url": "https://technews.tw/2026/11/23/ming-chi-kuo-google-cuts-millions-broadcom-tpus-mediatek-benefit/",
           "lang": "zh"
         }
       ],
@@ -4395,200 +4402,356 @@
       "sources": [
         {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669844",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "url": "https://news.cnyes.com/news/id/6669825",
+          "headline": "聯發科有望受惠!Google砍博通TPU訂單百萬顆、2027年出貨量下修20%",
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E8%AD%A6%E5%91%8A-ai%E7%94%A2%E6%A5%AD2027%E5%B9%B4%E5%B0%87%E9%9D%A2%E8%87%A8%E6%95%B8%E5%8D%83%E5%84%84%E7%BE%8E%E5%85%83%E8%B3%87%E9%87%91%E7%9F%AD%E7%BC%BA%E5%8D%B1%E6%A9%9F-070005169.html",
-          "headline": "馬斯克警告:AI產業2027年將面臨數千億美元資金短缺危機",
+          "media": "TechNews 科技新報",
+          "url": "https://technews.tw/2026/11/23/ming-chi-kuo-google-cuts-millions-broadcom-tpus-mediatek-benefit/",
+          "headline": "郭明錤爆 Google 砍博通百萬顆 TPU 聯發科受惠?",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "id": "sc965fbe9",
+      "section": "business_tech",
+      "title": "〈永豐金法說〉現金股利為主、配發率65%至70% 雙重槓桿比明年拚降至110%",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>永豐金控(2890-TW)今(23)日舉行2026年第三季法人說明會,總經理朱士廷表示,今年前3季淨收益與稅後純益雙雙創下同期歷史新高,年化股東權益報酬率(ROE)達18.32%,高於全體金控平均的14%,排名全體金控第二。針對股利政策展望,財務長許如玫表示,配發率將維持在65%至70%區間,以現金股利為主;隨現增資金到位,雙重槓桿比率預計明年可降至110%左右的穩健水準。</p> <p>永豐金前3季稅後淨利達368.58億元,年增79%,創下公司歷史新高,每股純益(每股純益)2.49元;前三季淨收益達838.24億元,同樣刷新歷史紀錄。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6670131",
+      "publishedAt": "2026-11-23T15:38:47+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670131/xl/1cd7ac3ad63e37db569e7aed0c25ba79.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 34,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "朱士廷表示,永豐金已於11月16日完成225億元現金增資案,其中預計125億元用於增資永豐金證券、75億元償還負債、25億元充實營運資金。",
+          "metric": "125億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "永豐金前3季稅後淨利達368.58億元,年增79%,創下公司歷史新高,每股純益(每股純益)2.49元;前三季淨收益達838.24億元,同樣刷新歷史紀錄。",
+          "metric": "368.58億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "針對股利政策展望,財務長許如玫表示,配發率將維持在65%至70%區間,以現金股利為主;隨現增資金到位,雙重槓桿比率預計明年可降至110%左右的穩健水準。",
+          "metric": "110%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈永豐金法說〉現金股利為主、配發率65%至70% 雙重槓桿比明年拚降至110%",
+          "angle": "資本預算與財報配置",
+          "focus": "永豐金控(2890-TW)今(23)日舉行2026年第三季法人說明會,總經理朱士廷表示,今年前3季淨收益與稅後純益雙雙創下同期歷史新高,年化股東權益報酬率(ROE)達18.32%,高於全體金控平均的14%,排名全體金控第二。",
+          "excerpt": "永豐金控(2890-TW)今(23)日舉行2026年第三季法人說明會,總經理朱士廷表示,今年前3季淨收益與稅後純益雙雙創下同期歷史新高,年化股東權益報酬率(ROE)達18.32%,高於全體金控平均的14%,排名全體金控第二。",
+          "url": "https://news.cnyes.com/news/id/6670131",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "朱士廷表示,永豐金已於11月16日完成225億元現金增資案,其中預計125億元用於增資永豐金證券、75億元償還負債、25億元充實營運資金。",
+          "metric": "125億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "永豐金前3季稅後淨利達368.58億元,年增79%,創下公司歷史新高,每股純益(每股純益)2.49元;前三季淨收益達838.24億元,同樣刷新歷史紀錄。",
+          "metric": "368.58億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "針對股利政策展望,財務長許如玫表示,配發率將維持在65%至70%區間,以現金股利為主;隨現增資金到位,雙重槓桿比率預計明年可降至110%左右的穩健水準。",
+          "metric": "110%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈永豐金法說〉現金股利為主、配發率65%至70% 雙重槓桿比明年拚降至110%",
+          "angle": "資本預算與財報配置",
+          "focus": "永豐金控(2890-TW)今(23)日舉行2026年第三季法人說明會,總經理朱士廷表示,今年前3季淨收益與稅後純益雙雙創下同期歷史新高,年化股東權益報酬率(ROE)達18.32%,高於全體金控平均的14%,排名全體金控第二。",
+          "excerpt": "永豐金控(2890-TW)今(23)日舉行2026年第三季法人說明會,總經理朱士廷表示,今年前3季淨收益與稅後純益雙雙創下同期歷史新高,年化股東權益報酬率(ROE)達18.32%,高於全體金控平均的14%,排名全體金控第二。",
+          "url": "https://news.cnyes.com/news/id/6670131",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670131",
+          "headline": "〈永豐金法說〉現金股利為主、配發率65%至70% 雙重槓桿比明年拚降至110%",
           "lang": "zh"
         }
       ],
       "rank": 7
     },
     {
-      "id": "s8a32d83c",
+      "id": "sb2b17ade",
       "section": "business_tech",
-      "title": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
+      "title": "漢測自結10月獲利年增逾5倍 每股賺5.46元",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。金管會統計顯示,受惠於放款成長,利息及手續費淨收益增加,加上呆帳費用減少,本國銀行前3季海外分支機構(含分、子行)獲利為811.8億元,創歷年同期新高,較去年同期增加98.5億元或13.81%。進一步觀察獲利前5大地區,依序為香港、美國、新加坡、中國與日本,跟今年上半年相比,美國擠下新加坡成為第2名,日本則超車越南居第5名。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E9%8A%80%E6%B5%B7%E5%A4%96%E6%93%9A%E9%BB%9E%E5%89%8D3%E5%AD%A3%E7%8D%B2%E5%88%A9811%E5%84%84-%E7%BE%8E%E5%9C%8B%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%97%A5%E6%9C%AC%E5%AF%AB%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-080538708.html",
-      "publishedAt": "2026-11-22T16:12:28+08:00",
+      "summary": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+      "source": "中央社 CNA",
+      "url": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+      "publishedAt": "2026-11-23T15:44:08+08:00",
       "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
       "imageCredit": "中央社 CNA",
-      "score": 89,
+      "score": 90,
       "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 28,
+        "resonance": 30,
+        "impact": 34,
         "data": 20,
         "durability": 6
       },
-      "mediaCount": 4,
+      "mediaCount": 2,
       "impactCategories": [
-        "財報與資本配置"
+        "財報與資本配置",
+        "利率與法規政策"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "國銀海外獲利最多據點為香港的347.3億元,創下歷年同期次高,年增45.3億元或15%,為增額最多的地區,主要因呆帳費用減少、利息及手續費淨收益增加;第2名的美國據點獲利105億元,創歷年同期新高,年增9.7億元或10.18%,主要因利息及手續費淨收益增加。",
-          "metric": "347.3億元",
+          "text": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "metric": "1.8億元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "金管會統計顯示,受惠於放款成長,利息及手續費淨收益增加,加上呆帳費用減少,本國銀行前3季海外分支機構(含分、子行)獲利為811.8億元,創歷年同期新高,較去年同期增加98.5億元或13.81%。",
-          "metric": "811.8億元",
+          "text": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "metric": "20.1%",
           "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA",
-            "自由財經"
-          ]
-        },
-        {
-          "text": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "metric": "811.8億元",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA",
-            "自由財經"
+            "TechNews 科技新報"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "經濟日報",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元………",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元………",
-          "url": "https://money.udn.com/money/story/5612/9894675",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E9%8A%80%E6%B5%B7%E5%A4%96%E6%93%9A%E9%BB%9E%E5%89%8D3%E5%AD%A3%E7%8D%B2%E5%88%A9811%E5%84%84-%E7%BE%8E%E5%9C%8B%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%97%A5%E6%9C%AC%E5%AF%AB%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-080538708.html",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
+          "headline": "漢測自結10月獲利年增逾5倍 每股賺5.46元",
           "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "url": "https://www.cna.com.tw/news/afe/202611220110.aspx",
+          "focus": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "excerpt": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "url": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "南電 10 月獲利年增 389%,大摩喊加碼、目標價上看 2,000 元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "excerpt": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "url": "https://technews.tw/2026/11/23/morgan-stanley-2026-nan-ya-pcb/",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "國銀海外獲利最多據點為香港的347.3億元,創下歷年同期次高,年增45.3億元或15%,為增額最多的地區,主要因呆帳費用減少、利息及手續費淨收益增加;第2名的美國據點獲利105億元,創歷年同期新高,年增9.7億元或10.18%,主要因利息及手續費淨收益增加。",
-          "metric": "347.3億元",
+          "text": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "metric": "1.8億元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "金管會統計顯示,受惠於放款成長,利息及手續費淨收益增加,加上呆帳費用減少,本國銀行前3季海外分支機構(含分、子行)獲利為811.8億元,創歷年同期新高,較去年同期增加98.5億元或13.81%。",
-          "metric": "811.8億元",
+          "text": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "metric": "20.1%",
           "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA",
-            "自由財經"
-          ]
-        },
-        {
-          "text": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "metric": "811.8億元",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經",
-            "中央社 CNA",
-            "自由財經"
+            "TechNews 科技新報"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元………",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元………",
-          "url": "https://money.udn.com/money/story/5612/9894675",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E9%8A%80%E6%B5%B7%E5%A4%96%E6%93%9A%E9%BB%9E%E5%89%8D3%E5%AD%A3%E7%8D%B2%E5%88%A9811%E5%84%84-%E7%BE%8E%E5%9C%8B%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%97%A5%E6%9C%AC%E5%AF%AB%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-080538708.html",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
+          "headline": "漢測自結10月獲利年增逾5倍 每股賺5.46元",
           "angle": "資本預算與財報配置",
-          "focus": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "excerpt": "國銀持續拓展海外業務,金管會統計顯示,本國銀行今年前3季海外分支機構(含分、子行)獲利為新台幣811.8億元,創歷年同期新高,年增13.81%;海外獲利前5大地區中,香港穩居海外「金雞母」寶座,美國、新加坡與日本據點獲利皆創歷年同期新高。",
-          "url": "https://www.cna.com.tw/news/afe/202611220110.aspx",
+          "focus": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "excerpt": "半導體晶圓測試供應商漢民測試系統因近期股價波動劇烈,下午公告10月自結獲利新台幣1.8億元,較2025年同期3000萬元大增503%,單月自結每股純益5.46元,優於去年同期每股純益 1.1元。",
+          "url": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "南電 10 月獲利年增 389%,大摩喊加碼、目標價上看 2,000 元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "excerpt": "美系外資摩根士丹利(大摩)出具最新報告指出,南電 10 月稅後淨利率升至 23.4%,高於第三季的 20.1%,顯示 ABF、BT 載板在報價、產品組合及產能利用率改善下,毛利與獲利表現持續提升,評級南電「加碼」(Overweight)評級、目標價 2,000 元。",
+          "url": "https://technews.tw/2026/11/23/morgan-stanley-2026-nan-ya-pcb/",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9894675",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E9%8A%80%E6%B5%B7%E5%A4%96%E6%93%9A%E9%BB%9E%E5%89%8D3%E5%AD%A3%E7%8D%B2%E5%88%A9811%E5%84%84-%E7%BE%8E%E5%9C%8B%E6%96%B0%E5%8A%A0%E5%9D%A1%E6%97%A5%E6%9C%AC%E5%AF%AB%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-080538708.html",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611220110.aspx",
-          "headline": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
+          "url": "https://www.cna.com.tw/news/afe/202611230154.aspx",
+          "headline": "漢測自結10月獲利年增逾5倍 每股賺5.46元",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5649507",
-          "headline": "國銀海外很會賺!前3季獲利811.8億 創歷年新高",
+          "media": "TechNews 科技新報",
+          "url": "https://technews.tw/2026/11/23/morgan-stanley-2026-nan-ya-pcb/",
+          "headline": "南電 10 月獲利年增 389%,大摩喊加碼、目標價上看 2,000 元",
           "lang": "zh"
         }
       ],
       "rank": 8
     },
     {
-      "id": "s23c2c503",
-      "section": "deep",
-      "title": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+      "id": "se45cd6a1",
+      "section": "business_tech",
+      "title": "〈焦點股〉華新業外收益帶動前三季獲利、同步攻AI商機 價量齊揚",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+      "summary": "<p>華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。 </p> <p>華新今天早盤以26.95元開高,盤中最高漲至28.3元,大漲逾半根停板,截至11點30分,股價暫報28.2元,漲幅約5.03%,成交爆量超過1.6萬張。不過三大法人近日持續減碼華新,連續14個交易日買超,大賣10.5萬張。 </p> <p>華新指出,AI帶動水冷散熱需求,公司在不銹鋼事業中聚焦冷精棒產品,相關事業明年有望成長2至3成,進一步彌補中國市況不佳所產生的缺口。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6670074",
+      "publishedAt": "2026-11-23T11:43:50+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670074/xl/534f2f68f710d15e1e53937b7aa37574.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "華新今天早盤以26.95元開高,盤中最高漲至28.3元,大漲逾半根停板,截至11點30分,股價暫報28.2元,漲幅約5.03%,成交爆量超過1.6萬張。",
+          "metric": "26.95元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "此外,華新近日也以3000萬美元(約新台幣9.74億元)於越南設立子公司,將供應水冷應用材料及精密製造相關產品,目標於1年內完成建廠與設備進駐。",
+          "metric": "9.74億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "metric": "205.36億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈焦點股〉華新業外收益帶動前三季獲利、同步攻AI商機 價量齊揚",
+          "angle": "市場定價與外資籌碼",
+          "focus": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "excerpt": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "url": "https://news.cnyes.com/news/id/6670074",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "華新今天早盤以26.95元開高,盤中最高漲至28.3元,大漲逾半根停板,截至11點30分,股價暫報28.2元,漲幅約5.03%,成交爆量超過1.6萬張。",
+          "metric": "26.95元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "此外,華新近日也以3000萬美元(約新台幣9.74億元)於越南設立子公司,將供應水冷應用材料及精密製造相關產品,目標於1年內完成建廠與設備進駐。",
+          "metric": "9.74億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "metric": "205.36億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈焦點股〉華新業外收益帶動前三季獲利、同步攻AI商機 價量齊揚",
+          "angle": "市場定價與外資籌碼",
+          "focus": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "excerpt": "華新(1605-TW)受惠業外收益帶動,前三季稅後純益達205.36億元,年增逾8倍,每股純益4.63元,本業上,華新積極搶攻AI商機,不銹鋼事業聚焦冷精棒業務,明年有望成長,激勵華新今(23)日價量齊揚,大漲逾半根停板。",
+          "url": "https://news.cnyes.com/news/id/6670074",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670074",
+          "headline": "〈焦點股〉華新業外收益帶動前三季獲利、同步攻AI商機 價量齊揚",
+          "lang": "zh"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "s99feb7c3",
+      "section": "deep",
+      "title": "臉塗藻礁淤泥赴總統府旁陳情 環團籲停建三接南防波堤",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
       "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836799",
-      "publishedAt": "2026-11-22T13:08:05+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302464/conversions/yYdNtOEDq8hls07sdrfZZgX9aAGskCUXdH3pA9qz-og_jpg.jpg",
+      "url": "https://news.pts.org.tw/article/836892",
+      "publishedAt": "2026-11-23T14:44:56+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302524/conversions/XxDL4tUpXI4hKWVrSxW1vSETYuL1FuHkvB1QIF7l-og_jpg.jpg",
       "imageCredit": "公視新聞網",
       "score": 89,
       "scoreBreakdown": {
@@ -4605,21 +4768,7 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。",
-          "metric": "10年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+          "text": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -4629,32 +4778,18 @@
       "media_perspectives": [
         {
           "media": "公視新聞網",
-          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+          "headline": "臉塗藻礁淤泥赴總統府旁陳情 環團籲停建三接南防波堤",
           "angle": "產業動態與市場焦點",
-          "focus": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "excerpt": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "url": "https://news.pts.org.tw/article/836799",
+          "focus": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
+          "excerpt": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
+          "url": "https://news.pts.org.tw/article/836892",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "法務部統計,近10年違反《公職人員選罷法》的案件,9500多件中,超過7成5都跟賄選有關。",
-          "metric": "10年",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "而選舉犯罪的年齡層還有高齡化的趨勢,50歲以上佔整體8成3,其中有超過一半還是60歲以上。",
+          "text": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
           "metric": "",
           "confirmed_by": [
             "公視新聞網"
@@ -4664,11 +4799,11 @@
       "mediaPerspectives": [
         {
           "media": "公視新聞網",
-          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
+          "headline": "臉塗藻礁淤泥赴總統府旁陳情 環團籲停建三接南防波堤",
           "angle": "產業動態與市場焦點",
-          "focus": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "excerpt": "大選即將到來,選舉不法還是層出不窮,台南與宜蘭都陸續發生疑似境外勢力介選以及賄選的案件。",
-          "url": "https://news.pts.org.tw/article/836799",
+          "focus": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
+          "excerpt": "關心桃園大潭藻礁的生態狀況,搶救大潭藻礁行動聯盟聯合多個團體,上午到總統府旁陳情,指控中油第3天然氣接收站工程導致藻礁嚴重淤積,呼籲政府正視生態衝擊、停止南防波堤開發並履行保育承諾,不過中油日前對此發聲明強調,三接建站以來,都有依環評承諾進行生態監測。",
+          "url": "https://news.pts.org.tw/article/836892",
           "lang": "zh"
         }
       ],
@@ -4676,294 +4811,216 @@
       "sources": [
         {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836799",
-          "headline": "法務部統計違反選罷法案件 犯罪年齡有高齡化趨勢",
-          "lang": "zh"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "id": "s7bd1bf91",
-      "section": "business_tech",
-      "title": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。 擬課徵 3% 科技數位稅,歐盟計畫向符合營收門檻的大型科技企業課稅,藉此開闢自主財源。 成員國面臨極大分歧,德國等國要求加大削減支出,法國則強烈反對砍減農業補貼。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6669853",
-      "publishedAt": "2026-11-22T19:00:02+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669853/xl/59d1d200ee229354cd88a27151e83648.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 18,
-        "durability": 6
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "擬課徵 3% 科技數位稅,歐盟計畫向符合營收門檻的大型科技企業課稅,藉此開闢自主財源。",
-          "metric": "3%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "metric": "2040億",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "成員國面臨極大分歧,德國等國要求加大削減支出,法國則強烈反對砍減農業補貼。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-          "angle": "資本預算與財報配置",
-          "focus": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "excerpt": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "url": "https://news.cnyes.com/news/id/6669853",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-          "angle": "資本預算與財報配置",
-          "focus": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "excerpt": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%90%91%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E8%AA%B2%E5%BE%B53-%E6%95%B8%E4%BD%8D%E7%A8%85-2-04%E5%85%86%E6%AD%90%E5%85%83%E9%A0%90%E7%AE%97%E4%BF%AE%E8%A8%82%E6%A1%88%E5%BC%95%E7%99%BC%E6%B3%95%E5%BE%B7%E5%88%86%E6%AD%A7-110002777.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "擬課徵 3% 科技數位稅,歐盟計畫向符合營收門檻的大型科技企業課稅,藉此開闢自主財源。",
-          "metric": "3%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "metric": "2040億",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "成員國面臨極大分歧,德國等國要求加大削減支出,法國則強烈反對砍減農業補貼。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-          "angle": "資本預算與財報配置",
-          "focus": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "excerpt": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "url": "https://news.cnyes.com/news/id/6669853",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-          "angle": "資本預算與財報配置",
-          "focus": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "excerpt": "科斯塔提出預算修訂案,歐洲理事會主席提案削減 2,040 億歐元預算,力爭於年底前達成協議。",
-          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%90%91%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E8%AA%B2%E5%BE%B53-%E6%95%B8%E4%BD%8D%E7%A8%85-2-04%E5%85%86%E6%AD%90%E5%85%83%E9%A0%90%E7%AE%97%E4%BF%AE%E8%A8%82%E6%A1%88%E5%BC%95%E7%99%BC%E6%B3%95%E5%BE%B7%E5%88%86%E6%AD%A7-110002777.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6669853",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E5%90%91%E7%A7%91%E6%8A%80%E5%B7%A8%E9%A0%AD%E8%AA%B2%E5%BE%B53-%E6%95%B8%E4%BD%8D%E7%A8%85-2-04%E5%85%86%E6%AD%90%E5%85%83%E9%A0%90%E7%AE%97%E4%BF%AE%E8%A8%82%E6%A1%88%E5%BC%95%E7%99%BC%E6%B3%95%E5%BE%B7%E5%88%86%E6%AD%A7-110002777.html",
-          "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
+          "url": "https://news.pts.org.tw/article/836892",
+          "headline": "臉塗藻礁淤泥赴總統府旁陳情 環團籲停建三接南防波堤",
           "lang": "zh"
         }
       ],
       "rank": 10
     },
     {
-      "id": "s3673a290",
-      "section": "business_tech",
-      "title": "上品在手訂單衝上80億元 法人喊買目標價340元",
+      "id": "sbd7e5aaf",
+      "section": "deep",
+      "title": "COP31延會逾48小時創紀錄 協議草案未提化石燃料多國拒簽",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
-      "publishedAt": "2026-11-22T13:51:31+08:00",
-      "imageUrl": "https://img.ltn.com.tw/Upload/business/page/800/2026/11/22/5649408_1.jpg",
-      "imageCredit": "自由財經",
-      "score": 87,
+      "summary": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。由於最終協議草案,隻字未提引發全球暖化的主因化石燃料,引發歐盟、英國及馬紹爾群島等多國強烈不滿,並拒絕簽署。我國環境部對此回應,雖然COP31未達共識,但台灣不會等待,將持續加速落實減碳行動。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/836873",
+      "publishedAt": "2026-11-23T09:24:00+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302503/conversions/Hz9tiGB3hyvAdDjGSu3JYDyd5E5pG1cL2eZzQCua-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 83,
       "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
-        "data": 20,
-        "durability": 6
+        "resonance": 30,
+        "impact": 28,
+        "data": 15,
+        "durability": 10
       },
       "mediaCount": 1,
       "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併"
+        "公共治理與結構轉型"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "text": "我國環境部對此回應,雖然COP31未達共識,但台灣不會等待,將持續加速落實減碳行動。",
           "metric": "",
           "confirmed_by": [
-            "自由財經"
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "由於最終協議草案,隻字未提引發全球暖化的主因化石燃料,引發歐盟、英國及馬紹爾群島等多國強烈不滿,並拒絕簽署。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "自由財經",
-          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
-          "excerpt": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+          "media": "公視新聞網",
+          "headline": "COP31延會逾48小時創紀錄 協議草案未提化石燃料多國拒簽",
+          "angle": "政策法規與公共治理",
+          "focus": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "excerpt": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "url": "https://news.pts.org.tw/article/836873",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
+          "text": "我國環境部對此回應,雖然COP31未達共識,但台灣不會等待,將持續加速落實減碳行動。",
           "metric": "",
           "confirmed_by": [
-            "自由財經"
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "由於最終協議草案,隻字未提引發全球暖化的主因化石燃料,引發歐盟、英國及馬紹爾群島等多國強烈不滿,並拒絕簽署。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "自由財經",
-          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
-          "excerpt": "〔記者張慧雯/台北報導〕特化股上品(4770)日前公告第三季營收16億元,優於市場預期,其中台灣市場、中國市場營收分別季增18%、32%,反映半導體及化學品供應鏈擴廠需求延續,第三季每股稅後盈餘",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
+          "media": "公視新聞網",
+          "headline": "COP31延會逾48小時創紀錄 協議草案未提化石燃料多國拒簽",
+          "angle": "政策法規與公共治理",
+          "focus": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "excerpt": "在土耳其舉行的COP31聯合國氣候大會,在延會超過48小時,創下史上最長會議紀錄後,22日宣告談判破局。",
+          "url": "https://news.pts.org.tw/article/836873",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5649408",
-          "headline": "上品在手訂單衝上80億元 法人喊買目標價340元",
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/836873",
+          "headline": "COP31延會逾48小時創紀錄 協議草案未提化石燃料多國拒簽",
           "lang": "zh"
         }
       ],
       "rank": 11
     },
     {
-      "id": "s271c85a3",
-      "section": "deep",
-      "title": "一週大事/普發2萬三讀通過 美中俄元首會晤(2026.11.16-11.22)",
+      "id": "sea6236df",
+      "section": "business_tech",
+      "title": "《GTA 6》首日締造37.9億美元銷售紀錄 給蘋果投資人的警訊",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/836808",
-      "publishedAt": "2026-11-22T16:24:27+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302473/conversions/5lM9YRX4AgfWB7jXErs4tyQe41aZQAfXt3Yw4lCp-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 80,
+      "summary": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。 Strauss Zelnick預期Take-Two 2027會計年度淨預訂額將達80億至82億美元新高。 分析稱GTA 6帶動平均售價近97美元,凸顯高溢價需求。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6669847",
+      "publishedAt": "2026-11-23T13:40:06+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6669847/xl/34fee50d972ca4b9eb2d662f72e7e1e2.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 81,
       "scoreBreakdown": {
-        "resonance": 30,
+        "resonance": 27,
         "impact": 28,
-        "data": 12,
-        "durability": 10
+        "data": 20,
+        "durability": 6
       },
       "mediaCount": 1,
       "impactCategories": [
-        "利率與法規政策"
+        "供應鏈與整併"
       ],
-      "isStrategicTopic": false,
+      "isStrategicTopic": true,
       "core_facts": [
         {
-          "text": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "metric": "2萬",
+          "text": "Strauss Zelnick預期Take-Two 2027會計年度淨預訂額將達80億至82億美元新高。",
+          "metric": "82億美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "分析稱GTA 6帶動平均售價近97美元,凸顯高溢價需求。",
+          "metric": "97美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "metric": "37.9億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "一週大事/普發2萬三讀通過 美中俄元首會晤(2026.11.16-11.22)",
-          "angle": "政策法規與公共治理",
-          "focus": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "excerpt": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "url": "https://news.pts.org.tw/article/836808",
+          "media": "鉅亨網 Anue",
+          "headline": "《GTA 6》首日締造37.9億美元銷售紀錄 給蘋果投資人的警訊",
+          "angle": "產業動態與市場焦點",
+          "focus": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "excerpt": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "url": "https://news.cnyes.com/news/id/6669847",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "metric": "2萬",
+          "text": "Strauss Zelnick預期Take-Two 2027會計年度淨預訂額將達80億至82億美元新高。",
+          "metric": "82億美元",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "分析稱GTA 6帶動平均售價近97美元,凸顯高溢價需求。",
+          "metric": "97美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "metric": "37.9億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "一週大事/普發2萬三讀通過 美中俄元首會晤(2026.11.16-11.22)",
-          "angle": "政策法規與公共治理",
-          "focus": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "excerpt": "《公視新聞網》為您精選一週國內外大事,關注焦點包括:普發2萬三讀通過、老農津貼不副署、金管會祭限空令3.0、APEC峰會、育兒職場3大補助、美中俄元首會晤、COP31延長談判。",
-          "url": "https://news.pts.org.tw/article/836808",
+          "media": "鉅亨網 Anue",
+          "headline": "《GTA 6》首日締造37.9億美元銷售紀錄 給蘋果投資人的警訊",
+          "angle": "產業動態與市場焦點",
+          "focus": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "excerpt": "GTA 6首發首日全球零售銷售額37.9億美元,刷新娛樂史上最高發行紀錄,Metacritic獲99分。",
+          "url": "https://news.cnyes.com/news/id/6669847",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/836808",
-          "headline": "一週大事/普發2萬三讀通過 美中俄元首會晤(2026.11.16-11.22)",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6669847",
+          "headline": "《GTA 6》首日締造37.9億美元銷售紀錄 給蘋果投資人的警訊",
           "lang": "zh"
         }
       ],
@@ -4971,11 +5028,11 @@
     }
   ],
   "stats": {
-    "clusters": 244,
+    "clusters": 281,
     "passed": 12,
-    "totalQualified": 27,
-    "below_threshold": 217,
-    "articlesAnalysed": 299
+    "totalQualified": 48,
+    "below_threshold": 233,
+    "articlesAnalysed": 380
   },
   "sourcesStatus": [
     {
@@ -4984,7 +5041,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 66,
+      "count": 70,
       "error": null
     },
     {
@@ -4993,7 +5050,7 @@
       "group": "business",
       "section": "頭條要聞",
       "ok": true,
-      "count": 39,
+      "count": 74,
       "error": null
     },
     {
@@ -5011,7 +5068,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 169,
+      "count": 162,
       "error": null
     },
     {
@@ -5020,7 +5077,7 @@
       "group": "business",
       "section": "產經與財經政策",
       "ok": true,
-      "count": 28,
+      "count": 35,
       "error": null
     },
     {
@@ -5029,7 +5086,7 @@
       "group": "business",
       "section": "財經政策與產業",
       "ok": true,
-      "count": 38,
+      "count": 39,
       "error": null
     },
     {
@@ -5038,7 +5095,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 8,
+      "count": 24,
       "error": null
     },
     {
@@ -5047,7 +5104,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 3,
+      "count": 5,
       "error": null
     },
     {
@@ -5056,7 +5113,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 21,
+      "count": 37,
       "error": null
     },
     {
@@ -5082,8 +5139,8 @@
       "name": "報導者",
       "group": "deep",
       "section": "深度調查報導",
-      "ok": true,
-      "count": 1,
+      "ok": false,
+      "count": 0,
       "error": null
     },
     {
@@ -5092,7 +5149,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 12,
+      "count": 18,
       "error": null
     }
   ]
