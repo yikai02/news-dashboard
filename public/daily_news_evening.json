@@ -7,8 +7,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-25T16:00:21+08:00",
-  "updatedAt": "2026-11-25 16:00",
+  "generatedAt": "2026-11-25T21:31:03+08:00",
+  "updatedAt": "2026-11-25 21:31",
   "date": "2026-11-25",
   "weekday": "星期三",
   "dataMode": "live",
@@ -30,9 +30,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.862,
-        "change": -0.04,
-        "changePct": -0.82,
+        "value": 4.85,
+        "change": -0.052,
+        "changePct": -1.06,
         "asOf": "2026-11-25",
         "history": [
           4.837,
@@ -49,7 +49,7 @@
           4.912,
           4.92,
           4.902,
-          4.862
+          4.85
         ],
         "source": "CNBC Market Data"
       },
@@ -62,12 +62,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 26.36,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-24",
+        "value": 31.24,
+        "change": 4.88,
+        "changePct": 18.51,
+        "asOf": "2026-11-25",
         "history": [
-          16.61,
           28.18,
           25.64,
           19.92,
@@ -81,7 +80,8 @@
           28.44,
           35.89,
           26.62,
-          26.36
+          26.36,
+          31.24
         ],
         "source": "CNBC Market Data"
       },
@@ -94,9 +94,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 104.065,
-        "change": 0.251,
-        "changePct": 0.24,
+        "value": 103.945,
+        "change": 0.131,
+        "changePct": 0.13,
         "asOf": "2026-11-25",
         "history": [
           101.653,
@@ -113,7 +113,7 @@
           103.84,
           104.318,
           103.814,
-          104.065
+          103.945
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 80.3,
-        "change": -1.75,
-        "changePct": -2.13,
+        "value": 82.51,
+        "change": 0.46,
+        "changePct": 0.56,
         "asOf": "2026-11-25",
         "history": [
           90.52,
@@ -145,7 +145,7 @@
           83.98,
           80.17,
           82.05,
-          80.3
+          82.51
         ],
         "source": "CNBC Market Data"
       },
@@ -158,12 +158,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3526.9,
-        "change": -35.0,
-        "changePct": -0.98,
+        "value": 3498.0,
+        "change": -63.9,
+        "changePct": -1.79,
         "asOf": "2026-11-25",
         "history": [
-          4073.0,
           4113.5,
           4074.9,
           4114.5,
@@ -177,7 +176,8 @@
           3685.5,
           3515.4,
           3651.4,
-          3526.9
+          3561.9,
+          3498.0
         ],
         "source": "CNBC Market Data"
       },
@@ -220,9 +220,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.862,
-        "change": -0.04,
-        "changePct": -0.82,
+        "value": 4.85,
+        "change": -0.052,
+        "changePct": -1.06,
         "asOf": "2026-11-25",
         "history": [
           4.837,
@@ -239,7 +239,7 @@
           4.912,
           4.92,
           4.902,
-          4.862
+          4.85
         ],
         "source": "CNBC Market Data"
       },
@@ -252,12 +252,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 26.36,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-24",
+        "value": 31.24,
+        "change": 4.88,
+        "changePct": 18.51,
+        "asOf": "2026-11-25",
         "history": [
-          16.61,
           28.18,
           25.64,
           19.92,
@@ -271,7 +270,8 @@
           28.44,
           35.89,
           26.62,
-          26.36
+          26.36,
+          31.24
         ],
         "source": "CNBC Market Data"
       },
@@ -284,9 +284,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 104.065,
-        "change": 0.251,
-        "changePct": 0.24,
+        "value": 103.945,
+        "change": 0.131,
+        "changePct": 0.13,
         "asOf": "2026-11-25",
         "history": [
           101.653,
@@ -303,7 +303,7 @@
           103.84,
           104.318,
           103.814,
-          104.065
+          103.945
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 80.3,
-        "change": -1.75,
-        "changePct": -2.13,
+        "value": 82.51,
+        "change": 0.46,
+        "changePct": 0.56,
         "asOf": "2026-11-25",
         "history": [
           90.52,
@@ -335,7 +335,7 @@
           83.98,
           80.17,
           82.05,
-          80.3
+          82.51
         ],
         "source": "CNBC Market Data"
       },
@@ -348,12 +348,11 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3526.9,
-        "change": -35.0,
-        "changePct": -0.98,
+        "value": 3498.0,
+        "change": -63.9,
+        "changePct": -1.79,
         "asOf": "2026-11-25",
         "history": [
-          4073.0,
           4113.5,
           4074.9,
           4114.5,
@@ -367,7 +366,8 @@
           3685.5,
           3515.4,
           3651.4,
-          3526.9
+          3561.9,
+          3498.0
         ],
         "source": "CNBC Market Data"
       },
@@ -1720,9 +1720,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 4.862,
-      "change": -0.04,
-      "changePct": -0.82,
+      "value": 4.85,
+      "change": -0.052,
+      "changePct": -1.06,
       "asOf": "2026-11-25",
       "history": [
         4.837,
@@ -1739,7 +1739,7 @@
         4.912,
         4.92,
         4.902,
-        4.862
+        4.85
       ],
       "source": "CNBC Market Data"
     },
@@ -1752,12 +1752,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 26.36,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-24",
+      "value": 31.24,
+      "change": 4.88,
+      "changePct": 18.51,
+      "asOf": "2026-11-25",
       "history": [
-        16.61,
         28.18,
         25.64,
         19.92,
@@ -1771,7 +1770,8 @@
         28.44,
         35.89,
         26.62,
-        26.36
+        26.36,
+        31.24
       ],
       "source": "CNBC Market Data"
     },
@@ -1784,9 +1784,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 104.065,
-      "change": 0.251,
-      "changePct": 0.24,
+      "value": 103.945,
+      "change": 0.131,
+      "changePct": 0.13,
       "asOf": "2026-11-25",
       "history": [
         101.653,
@@ -1803,7 +1803,7 @@
         103.84,
         104.318,
         103.814,
-        104.065
+        103.945
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 80.3,
-      "change": -1.75,
-      "changePct": -2.13,
+      "value": 82.51,
+      "change": 0.46,
+      "changePct": 0.56,
       "asOf": "2026-11-25",
       "history": [
         90.52,
@@ -1835,7 +1835,7 @@
         83.98,
         80.17,
         82.05,
-        80.3
+        82.51
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,12 +1848,11 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3526.9,
-      "change": -35.0,
-      "changePct": -0.98,
+      "value": 3498.0,
+      "change": -63.9,
+      "changePct": -1.79,
       "asOf": "2026-11-25",
       "history": [
-        4073.0,
         4113.5,
         4074.9,
         4114.5,
@@ -1867,7 +1866,8 @@
         3685.5,
         3515.4,
         3651.4,
-        3526.9
+        3561.9,
+        3498.0
       ],
       "source": "CNBC Market Data"
     },
@@ -3561,205 +3561,22 @@
     ]
   },
   "leadIds": [
-    "s25b61a40",
-    "s0828132f"
+    "s974c06fc",
+    "s17c9c5f4"
   ],
   "stories": [
     {
-      "id": "s25b61a40",
+      "id": "s974c06fc",
       "section": "business_tech",
-      "title": "黃仁勳回鍋也救不了!輝達暴漲隔天急殺5.86% 台股重挫逾2500點背後藏隱憂",
+      "title": "黃仁勳重掌輝達力拚穩定市場信心!新經營挑戰浮現:AI晶片競爭、客戶分散供應鏈成考驗",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "台股今(25)日再度遭遇重挫,加權指數開盤報39,983.91點,盤中最低下探36,681.90點,截至上午11時12分報37…",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86-%E8%BC%9D%E9%81%94%E6%9A%B4%E6%BC%B2%E9%9A%94%E5%A4%A9%E6%80%A5%E6%AE%BA5-86-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB%E9%80%BE2500%E9%BB%9E%E8%83%8C%E5%BE%8C%E8%97%8F%E9%9A%B1%E6%86%82-041000686.html",
-      "publishedAt": "2026-11-25T15:48:00+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/24/35548861.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "summary": "黃仁勳復職後向員工致歉並稱輝達不需接班人計畫,董事會同時續查其個人行為。 輝達高層向雲端合作夥伴安撫營運如常,但客戶分散晶片供應、AI客製化晶片競爭升溫。 市場關注輝達是否續供資金與供應鏈承諾;股價周一大漲、周二回跌約6%。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671651",
+      "publishedAt": "2026-11-25T19:00:50+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/23/35545331.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
-      "score": 99,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 34,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 4,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "metric": "1600億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "metric": "40122點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳回鍋激勵股價狂飆逾31%,《大賣空》原型人物貝瑞展現神操作,在暴漲前夕火速出脫75%輝達賣權並買進長天期買權避險,成功躲過軋空重擊。",
-          "metric": "31%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "輝達財報亮眼股價卻震盪!黃仁勳回歸能救估值?AI資金鏈藏隱憂",
-          "angle": "資本預算與財報配置",
-          "focus": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "excerpt": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "url": "https://money.udn.com/money/story/12040/9899844",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回歸輝達也難擋?台股僅飆1天 前美女主播驚喊:瑟瑟發抖",
-          "angle": "市場定價與外資籌碼",
-          "focus": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "excerpt": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E4%B9%9F%E9%9B%A3%E6%93%8B-%E5%8F%B0%E8%82%A1%E5%83%85%E9%A3%861%E5%A4%A9-%E5%89%8D%E7%BE%8E%E5%A5%B3%E4%B8%BB%E6%92%AD%E9%A9%9A%E5%96%8A-%E7%91%9F%E7%91%9F%E7%99%BC%E6%8A%96-074800015.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回歸輝達後首批「清算名單」曝!臨時CEO、《紐時》、Anthropic創辦人恐受波及",
-          "angle": "深度調查與結構剖析",
-          "focus": "黃仁勳辭職11天後重返輝達執行長,帶動市場情緒與股價反彈。",
-          "excerpt": "黃仁勳辭職11天後重返輝達執行長,帶動市場情緒與股價反彈。",
-          "url": "https://news.cnyes.com/news/id/6671610",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "metric": "1600億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "metric": "40122點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳回鍋激勵股價狂飆逾31%,《大賣空》原型人物貝瑞展現神操作,在暴漲前夕火速出脫75%輝達賣權並買進長天期買權避險,成功躲過軋空重擊。",
-          "metric": "31%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "輝達財報亮眼股價卻震盪!黃仁勳回歸能救估值?AI資金鏈藏隱憂",
-          "angle": "資本預算與財報配置",
-          "focus": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "excerpt": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
-          "url": "https://money.udn.com/money/story/12040/9899844",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回歸輝達也難擋?台股僅飆1天 前美女主播驚喊:瑟瑟發抖",
-          "angle": "市場定價與外資籌碼",
-          "focus": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "excerpt": "輝達執行長黃仁勳回歸激勵台股24日大漲,加權指數收在40122點,但夜盤卻風雲變色重挫1842點,市場宛如雲霄飛車劇烈震盪。",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E4%B9%9F%E9%9B%A3%E6%93%8B-%E5%8F%B0%E8%82%A1%E5%83%85%E9%A3%861%E5%A4%A9-%E5%89%8D%E7%BE%8E%E5%A5%B3%E4%B8%BB%E6%92%AD%E9%A9%9A%E5%96%8A-%E7%91%9F%E7%91%9F%E7%99%BC%E6%8A%96-074800015.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回歸輝達後首批「清算名單」曝!臨時CEO、《紐時》、Anthropic創辦人恐受波及",
-          "angle": "深度調查與結構剖析",
-          "focus": "黃仁勳辭職11天後重返輝達執行長,帶動市場情緒與股價反彈。",
-          "excerpt": "黃仁勳辭職11天後重返輝達執行長,帶動市場情緒與股價反彈。",
-          "url": "https://news.cnyes.com/news/id/6671610",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/12040/9899844",
-          "headline": "輝達財報亮眼股價卻震盪!黃仁勳回歸能救估值?AI資金鏈藏隱憂",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E4%B9%9F%E9%9B%A3%E6%93%8B-%E5%8F%B0%E8%82%A1%E5%83%85%E9%A3%861%E5%A4%A9-%E5%89%8D%E7%BE%8E%E5%A5%B3%E4%B8%BB%E6%92%AD%E9%A9%9A%E5%96%8A-%E7%91%9F%E7%91%9F%E7%99%BC%E6%8A%96-074800015.html",
-          "headline": "黃仁勳回歸輝達也難擋?台股僅飆1天 前美女主播驚喊:瑟瑟發抖",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671610",
-          "headline": "黃仁勳回歸輝達後首批「清算名單」曝!臨時CEO、《紐時》、Anthropic創辦人恐受波及",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94%E7%8B%82%E5%99%B431-%E5%A4%A7%E8%B3%A3%E7%A9%BA-%E8%B2%9D%E7%91%9E%E6%97%A9%E8%90%BD%E8%B7%91-%E5%8F%8D%E6%89%8B%E5%8A%A0%E7%A2%BC2%E4%B8%AD%E6%A6%82%E8%82%A1-053400483.html",
-          "headline": "黃仁勳回鍋輝達狂噴31%!《大賣空》貝瑞早落跑 反手加碼2中概股",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E8%BC%9D%E9%81%94-%E8%97%8D%E8%A1%A3%E5%A4%A7%E5%A7%90%E4%B8%8A%E5%89%8D%E7%B7%8A%E6%8A%B115%E7%A7%92-%E7%B6%B2%E6%8F%AD%E7%96%AB%E6%83%85%E6%9C%9F%E9%96%93%E6%9A%96%E5%BF%83%E5%BE%80%E4%BA%8B-045700407.html",
-          "headline": "黃仁勳回鍋輝達!藍衣大姐上前緊抱15秒 網揭疫情期間暖心往事",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E8%BC%9D%E9%81%94%E4%B8%AD%E5%9C%8B%E5%AE%98%E5%AA%92%E5%A4%A7%E5%96%9C-%E8%AD%A6%E5%91%8A%E7%BE%8E%E5%9C%8B%E5%88%A5%E5%86%8D-%E6%94%BF%E6%B2%BB%E7%8D%B5%E5%B7%AB-041500916.html",
-          "headline": "黃仁勳回輝達中國官媒大喜!警告美國別再「政治獵巫」",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86-%E8%BC%9D%E9%81%94%E6%9A%B4%E6%BC%B2%E9%9A%94%E5%A4%A9%E6%80%A5%E6%AE%BA5-86-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB%E9%80%BE2500%E9%BB%9E%E8%83%8C%E5%BE%8C%E8%97%8F%E9%9A%B1%E6%86%82-041000686.html",
-          "headline": "黃仁勳回鍋也救不了!輝達暴漲隔天急殺5.86% 台股重挫逾2500點背後藏隱憂",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5652956",
-          "headline": "黃仁勳回鍋掀更大風暴!輝達董事會恐大換血 3名老將岌岌可危",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "s0828132f",
-      "section": "business_tech",
-      "title": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301條款調查結果最快本週公布。台經院院長張建一推測,加計先前的強迫勞動關稅後,不會超過先前對等貿易協定(ART)的關稅稅率15%,相對競爭力沒改變,大家不用太擔心。外媒報導,美國近期將公布依據「1974年貿易法」第301條款進行的調查結果,內容包括建議關稅稅率。美國對等關稅稅率法源失效後,改採「1974年貿易法」第122條,暫時對全球統一徵收10%關稅且疊加既有最惠國(MFN)稅率,最長為期150天至7月24日為止,並透過301條款調查重建法律基礎。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/301%E9%97%9C%E7%A8%85%E5%8F%88%E4%BE%86%E4%BA%86-%E5%8F%B0%E7%B6%93%E9%99%A2-%E4%BC%B0%E7%A8%85%E7%8E%87%E4%B8%8D%E8%B6%85%E9%81%8E15-%E4%B8%8D%E7%94%A8%E5%A4%AA%E6%93%94%E5%BF%83-051118332.html",
-      "publishedAt": "2026-11-25T15:28:04+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/7c38b1bd0dccd26ec5b0afffc0bfeea6319f564174e752f82f67ccf4bb73c067/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftaisounds_com_380%2F286420c314239e97f30b913b7a18a96d.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
       "score": 98,
       "scoreBreakdown": {
         "resonance": 35,
@@ -3767,9 +3584,364 @@
         "data": 20,
         "durability": 8
       },
-      "mediaCount": 3,
+      "mediaCount": 5,
       "impactCategories": [
-        "利率與法規政策",
+        "財報與資本配置",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "metric": "9500億美元",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "在東京上市交易的軟銀今天收盤重挫14.83%,11月迄今累計跌幅達36.75%,可能寫下2000年網路泡沫(dot-com bubble)以來最大單月跌幅。",
+          "metric": "14.83%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "市場關注輝達是否續供資金與供應鏈承諾;股價周一大漲、周二回跌約6%。",
+          "metric": "6%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "url": "https://money.udn.com/money/story/5618/9899795",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳重掌輝達…友人爆上周才透露失業計畫 親揭私下對話:他是認真的",
+          "angle": "產業動態與市場焦點",
+          "focus": "輝達(Nvidia)創辦人黃仁勳日前回歸執行長職位,距離宣布請辭僅過11天,戲劇性發展引發全球關注。",
+          "excerpt": "輝達(Nvidia)創辦人黃仁勳日前回歸執行長職位,距離宣布請辭僅過11天,戲劇性發展引發全球關注。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E5%8F%8B%E4%BA%BA%E7%88%86%E4%B8%8A%E5%91%A8%E6%89%8D%E9%80%8F%E9%9C%B2%E5%A4%B1%E6%A5%AD%E8%A8%88%E7%95%AB-%E8%A6%AA%E6%8F%AD%E7%A7%81%E4%B8%8B%E5%B0%8D%E8%A9%B1-%E4%BB%96%E6%98%AF%E8%AA%8D%E7%9C%9F%E7%9A%84-110050242.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "路透:黃仁勳重掌輝達對AI信用市場減壓有限",
+          "angle": "先進技術與算力規格",
+          "focus": "路透社報導,AI晶片巨頭輝達董事會23日決議通過前執行長黃仁勳復職,使近來走疲的股市反彈,不過,防範科技公司債務違約的投保成本近日急升,顯示市場仍擔憂AI支出熱潮。",
+          "excerpt": "路透社報導,AI晶片巨頭輝達董事會23日決議通過前執行長黃仁勳復職,使近來走疲的股市反彈,不過,防範科技公司債務違約的投保成本近日急升,顯示市場仍擔憂AI支出熱潮。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250271.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "metric": "9500億美元",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "在東京上市交易的軟銀今天收盤重挫14.83%,11月迄今累計跌幅達36.75%,可能寫下2000年網路泡沫(dot-com bubble)以來最大單月跌幅。",
+          "metric": "14.83%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "市場關注輝達是否續供資金與供應鏈承諾;股價周一大漲、周二回跌約6%。",
+          "metric": "6%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "url": "https://money.udn.com/money/story/5618/9899795",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳重掌輝達…友人爆上周才透露失業計畫 親揭私下對話:他是認真的",
+          "angle": "產業動態與市場焦點",
+          "focus": "輝達(Nvidia)創辦人黃仁勳日前回歸執行長職位,距離宣布請辭僅過11天,戲劇性發展引發全球關注。",
+          "excerpt": "輝達(Nvidia)創辦人黃仁勳日前回歸執行長職位,距離宣布請辭僅過11天,戲劇性發展引發全球關注。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E5%8F%8B%E4%BA%BA%E7%88%86%E4%B8%8A%E5%91%A8%E6%89%8D%E9%80%8F%E9%9C%B2%E5%A4%B1%E6%A5%AD%E8%A8%88%E7%95%AB-%E8%A6%AA%E6%8F%AD%E7%A7%81%E4%B8%8B%E5%B0%8D%E8%A9%B1-%E4%BB%96%E6%98%AF%E8%AA%8D%E7%9C%9F%E7%9A%84-110050242.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "路透:黃仁勳重掌輝達對AI信用市場減壓有限",
+          "angle": "先進技術與算力規格",
+          "focus": "路透社報導,AI晶片巨頭輝達董事會23日決議通過前執行長黃仁勳復職,使近來走疲的股市反彈,不過,防範科技公司債務違約的投保成本近日急升,顯示市場仍擔憂AI支出熱潮。",
+          "excerpt": "路透社報導,AI晶片巨頭輝達董事會23日決議通過前執行長黃仁勳復職,使近來走疲的股市反彈,不過,防範科技公司債務違約的投保成本近日急升,顯示市場仍擔憂AI支出熱潮。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250271.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5618/9899795",
+          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E5%8F%8B%E4%BA%BA%E7%88%86%E4%B8%8A%E5%91%A8%E6%89%8D%E9%80%8F%E9%9C%B2%E5%A4%B1%E6%A5%AD%E8%A8%88%E7%95%AB-%E8%A6%AA%E6%8F%AD%E7%A7%81%E4%B8%8B%E5%B0%8D%E8%A9%B1-%E4%BB%96%E6%98%AF%E8%AA%8D%E7%9C%9F%E7%9A%84-110050242.html",
+          "headline": "黃仁勳重掌輝達…友人爆上周才透露失業計畫 親揭私下對話:他是認真的",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E8%B7%AF%E9%80%8F-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%B0%8Dai%E4%BF%A1%E7%94%A8%E5%B8%82%E5%A0%B4%E6%B8%9B%E5%A3%93%E6%9C%89%E9%99%90-103529476.html",
+          "headline": "路透:黃仁勳重掌輝達對AI信用市場減壓有限",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E8%B7%AF%E9%80%8F-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%B0%8Dai%E4%BF%A1%E7%94%A8%E5%B8%82%E5%A0%B4%E6%B8%9B%E5%A3%93%E6%9C%89%E9%99%90-101350347.html",
+          "headline": "路透:黃仁勳重掌輝達對AI信用市場減壓有限",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611250271.aspx",
+          "headline": "路透:黃仁勳重掌輝達對AI信用市場減壓有限",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E6%82%A3%E9%9B%A3%E8%A6%8B%E7%9C%9F%E6%83%85-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E9%9A%94%E6%97%A5-%E9%A6%AC%E6%96%AF%E5%85%8B%E7%81%AB%E9%80%9F%E6%94%9C2%E5%AD%90%E8%B5%B4%E7%9F%BD%E8%B0%B7%E7%B8%BD%E9%83%A8%E5%8A%9B%E6%8C%BA-095600237.html",
+          "headline": "患難見真情!黃仁勳重掌輝達隔日 馬斯克火速攜2子赴矽谷總部力挺",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671651",
+          "headline": "黃仁勳重掌輝達力拚穩定市場信心!新經營挑戰浮現:AI晶片競爭、客戶分散供應鏈成考驗",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%8A%9B%E6%8B%9A%E7%A9%A9%E5%AE%9A%E5%B8%82%E5%A0%B4%E4%BF%A1%E5%BF%83-%E6%96%B0%E7%B6%93%E7%87%9F%E6%8C%91%E6%88%B0%E6%B5%AE%E7%8F%BE-ai%E6%99%B6%E7%89%87%E7%AB%B6%E7%88%AD-%E5%AE%A2%E6%88%B6%E5%88%86%E6%95%A3%E4%BE%9B%E6%87%89%E9%8F%88%E6%88%90%E8%80%83%E9%A9%97-084009606.html",
+          "headline": "黃仁勳重掌輝達力拚穩定市場信心!新經營挑戰浮現:AI晶片競爭、客戶分散供應鏈成考驗",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653184",
+          "headline": "黃仁勳重掌輝達、北京先別高興太早!外媒揭背後藏更大危機",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "s17c9c5f4",
+      "section": "business_tech",
+      "title": "卸下代理CEO的意外收穫?黃仁勳回鍋救活家族信託 輝達財務長子女可望免稅繼承逾1,800萬美元",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。 輝達股價周一因黃仁勳回鍋狂飆,若維持現價,兩信託下月到期可移轉約12萬股、逾1,800萬美元給繼承人。 克雷斯今年初另設兩個GRAT,投入約230萬股;若股價未回升,仍可能失敗。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671685",
+      "publishedAt": "2026-11-25T20:25:58+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/52e98539d0cc6d889ee5b770a90bd872ff5948e23a628481e0687d975b274189/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fstormmediagroup.com%2F2cf8f92a53f41f0f0b52d7cc6b20f084_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 92,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "輝達股價北美時間11月24日收盤下跌5.86%,報155.38美元。",
+          "metric": "155.38美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "metric": "147萬",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "輝達股價周一因黃仁勳回鍋狂飆,若維持現價,兩信託下月到期可移轉約12萬股、逾1,800萬美元給繼承人。",
+          "metric": "1800萬",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳回鍋卻只有一日行情?郭正亮曝「輝達新限制」:他已被綁手綁腳",
+          "angle": "政策法規與公共治理",
+          "focus": "輝達(Nvidia)創辦人黃仁勳日前回鍋,重新擔任總裁、執行長及董事,引發市場關注,股市慶祝行情卻僅維持一天。",
+          "excerpt": "輝達(Nvidia)創辦人黃仁勳日前回鍋,重新擔任總裁、執行長及董事,引發市場關注,股市慶祝行情卻僅維持一天。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E5%8D%BB%E5%8F%AA%E6%9C%89-%E6%97%A5%E8%A1%8C%E6%83%85-%E9%83%AD%E6%AD%A3%E4%BA%AE%E6%9B%9D-%E8%BC%9D%E9%81%94%E6%96%B0%E9%99%90%E5%88%B6-%E4%BB%96%E5%B7%B2%E8%A2%AB%E7%B6%81%E6%89%8B%E7%B6%81%E8%85%B3-122558294.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "卸下代理CEO的意外收穫?黃仁勳回鍋救活家族信託 輝達財務長子女可望免稅繼承逾1,800萬美元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "excerpt": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "url": "https://news.cnyes.com/news/id/6671685",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "輝達股價北美時間11月24日收盤下跌5.86%,報155.38美元。",
+          "metric": "155.38美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "metric": "147萬",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "輝達股價周一因黃仁勳回鍋狂飆,若維持現價,兩信託下月到期可移轉約12萬股、逾1,800萬美元給繼承人。",
+          "metric": "1800萬",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "黃仁勳回鍋卻只有一日行情?郭正亮曝「輝達新限制」:他已被綁手綁腳",
+          "angle": "政策法規與公共治理",
+          "focus": "輝達(Nvidia)創辦人黃仁勳日前回鍋,重新擔任總裁、執行長及董事,引發市場關注,股市慶祝行情卻僅維持一天。",
+          "excerpt": "輝達(Nvidia)創辦人黃仁勳日前回鍋,重新擔任總裁、執行長及董事,引發市場關注,股市慶祝行情卻僅維持一天。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E5%8D%BB%E5%8F%AA%E6%9C%89-%E6%97%A5%E8%A1%8C%E6%83%85-%E9%83%AD%E6%AD%A3%E4%BA%AE%E6%9B%9D-%E8%BC%9D%E9%81%94%E6%96%B0%E9%99%90%E5%88%B6-%E4%BB%96%E5%B7%B2%E8%A2%AB%E7%B6%81%E6%89%8B%E7%B6%81%E8%85%B3-122558294.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "卸下代理CEO的意外收穫?黃仁勳回鍋救活家族信託 輝達財務長子女可望免稅繼承逾1,800萬美元",
+          "angle": "市場定價與外資籌碼",
+          "focus": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "excerpt": "克雷斯2024年12月設兩個兩年GRAT,投入近147萬股輝達、價值約2億美元,原本一度面臨失敗。",
+          "url": "https://news.cnyes.com/news/id/6671685",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E5%8D%BB%E5%8F%AA%E6%9C%89-%E6%97%A5%E8%A1%8C%E6%83%85-%E9%83%AD%E6%AD%A3%E4%BA%AE%E6%9B%9D-%E8%BC%9D%E9%81%94%E6%96%B0%E9%99%90%E5%88%B6-%E4%BB%96%E5%B7%B2%E8%A2%AB%E7%B6%81%E6%89%8B%E7%B6%81%E8%85%B3-122558294.html",
+          "headline": "黃仁勳回鍋卻只有一日行情?郭正亮曝「輝達新限制」:他已被綁手綁腳",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BF%8E%E6%88%B0%E9%A2%A8%E6%9A%B4-%E7%BE%8E%E6%94%BF%E5%BA%9C%E6%93%AC%E5%85%A5%E8%82%A1%E8%BC%9D%E9%81%941-%E5%B7%9D%E6%99%AE%E7%A8%B1%E8%80%83%E6%85%AE-%E7%89%B9%E8%B5%A6-%E9%BB%83%E4%BB%81%E5%8B%B3-110700880.html",
+          "headline": "黃仁勳回歸迎戰風暴 美政府擬入股輝達1/川普稱考慮「特赦」黃仁勳 盼下週國會作證說實話",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671685",
+          "headline": "卸下代理CEO的意外收穫?黃仁勳回鍋救活家族信託 輝達財務長子女可望免稅繼承逾1,800萬美元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%B8%E4%B8%8B%E4%BB%A3%E7%90%86ceo%E7%9A%84%E6%84%8F%E5%A4%96%E6%94%B6%E7%A9%AB-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E6%95%91%E6%B4%BB%E5%AE%B6%E6%97%8F%E4%BF%A1%E8%A8%97-%E8%BC%9D%E9%81%94%E8%B2%A1%E5%8B%99%E9%95%B7%E5%AD%90%E5%A5%B3%E5%8F%AF%E6%9C%9B%E5%85%8D%E7%A8%85%E7%B9%BC%E6%89%BF%E9%80%BE1-800%E8%90%AC%E7%BE%8E%E5%85%83-110020203.html",
+          "headline": "卸下代理CEO的意外收穫?黃仁勳回鍋救活家族信託 輝達財務長子女可望免稅繼承逾1,800萬美元",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E9%A6%AC%E6%96%AF%E5%85%8B%E7%A7%92%E5%A5%94%E8%BC%9D%E9%81%94%E7%B8%BD%E9%83%A8%E7%85%A7%E7%89%87%E6%9B%9D%E5%85%89-103018543.html",
+          "headline": "黃仁勳回鍋!馬斯克秒奔輝達總部照片曝光",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E5%BE%8C%E8%82%A1%E7%A5%A8%E5%8F%AA%E6%BC%B2-%E5%A4%A9-%E6%96%87%E7%9C%8B%E6%87%82%E8%BC%9D%E9%81%94%E9%82%84%E6%9C%89%E5%A4%9A%E5%B0%91%E6%9C%AA%E7%88%86%E5%BD%88-083540612.html",
+          "headline": "黃仁勳回歸後股票只漲一天 一文看懂輝達還有多少未爆彈",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671610",
+          "headline": "黃仁勳回歸輝達後首批「清算名單」曝!臨時CEO、《紐時》、Anthropic創辦人恐受波及",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "s0c01530c",
+      "section": "business_tech",
+      "title": "長榮航:客貨運雙引擎抗油價、AI空運明年續旺",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。總經理孫嘉明表示,預估明年長程線票價穩健,第4季貨運收入有望再創高峰,AI伺服器供應鏈維持高出貨量,明年客貨運持續樂觀。",
+      "source": "中央社 CNA",
+      "url": "https://www.cna.com.tw/news/afe/202611250268.aspx",
+      "publishedAt": "2026-11-25T18:04:43+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
+      "imageCredit": "中央社 CNA",
+      "score": 92,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
         "供應鏈與整併",
         "技術與算力突破",
         "公共治理與結構轉型"
@@ -3777,921 +3949,69 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "對此,張建一指出,台美先前議定的對等貿易協定中,對等關稅定為15%,且採取「不疊加」原有最惠國(MFN)稅率的原則;以此基準推算,美方極可能將台灣適用的兩項301關稅合併計算,也就是強迫勞動10%加上結構性產能過剩5%,總計控制在15%以內,但最終稅率與課徵細節仍須待美方正式公告為準。",
-          "metric": "10%",
+          "text": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "metric": "189.2億元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "台灣經濟研究院院長張建一今(25)日在景氣動向記者會上分析,參照先前台美簽署的對等貿易協定(ART)條件推估,美方此次針對結構性產能過剩可能對台灣課徵5%關稅,加計先前強迫勞動項目的10%,兩項301關稅合計上限應不超過15%;考量日、韓及東南亞等主要競爭對手同樣面臨關稅壓力,台灣廠商的相對競爭力仍可望維持。",
-          "metric": "10%",
+          "text": "總經理孫嘉明表示,預估明年長程線票價穩健,第4季貨運收入有望再創高峰,AI伺服器供應鏈維持高出貨量,明年客貨運持續樂觀。",
+          "metric": "4季",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "鎖定台灣等16個經濟體,美股費半重挫近8%,輝達股價也跌近6%。",
-          "metric": "6%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "川普喊晶片關稅200%嚇崩台股 台經院估關稅不逾15%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國本週將公布301調查結果,川普再揮關稅大刀震驚市場,揚言晶片稅恐達200%。",
-          "excerpt": "美國本週將公布301調查結果,川普再揮關稅大刀震驚市場,揚言晶片稅恐達200%。",
-          "url": "https://tw.news.yahoo.com/%E5%8B%95%E7%95%AB%E8%AA%AA%E6%99%82%E4%BA%8B-%E5%B7%9D%E6%99%AE%E5%96%8A%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85200-%E5%9A%87%E5%B4%A9%E5%8F%B0%E8%82%A1-%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E9%97%9C%E7%A8%85%E4%B8%8D%E9%80%BE15-072804180.html",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "headline": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
+          "headline": "長榮航:客貨運雙引擎抗油價、AI空運明年續旺",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301條款調查結果最快本週公布。",
-          "excerpt": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301條款調查結果最快本週公布。",
-          "url": "https://www.cna.com.tw/news/afe/202611250123.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "301 關稅又來了?台經院:估稅率不超過 15% 不用太擔心",
-          "angle": "政策法規與公共治理",
-          "focus": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301 條款調查結果最快本週公布。",
-          "excerpt": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301 條款調查結果最快本週公布。",
-          "url": "https://technews.tw/2026/11/25/section-301-tariffs-returning-tier-estimates-rate-under-15-percent/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "coreFacts": [
-        {
-          "text": "對此,張建一指出,台美先前議定的對等貿易協定中,對等關稅定為15%,且採取「不疊加」原有最惠國(MFN)稅率的原則;以此基準推算,美方極可能將台灣適用的兩項301關稅合併計算,也就是強迫勞動10%加上結構性產能過剩5%,總計控制在15%以內,但最終稅率與課徵細節仍須待美方正式公告為準。",
-          "metric": "10%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "台灣經濟研究院院長張建一今(25)日在景氣動向記者會上分析,參照先前台美簽署的對等貿易協定(ART)條件推估,美方此次針對結構性產能過剩可能對台灣課徵5%關稅,加計先前強迫勞動項目的10%,兩項301關稅合計上限應不超過15%;考量日、韓及東南亞等主要競爭對手同樣面臨關稅壓力,台灣廠商的相對競爭力仍可望維持。",
-          "metric": "10%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "鎖定台灣等16個經濟體,美股費半重挫近8%,輝達股價也跌近6%。",
-          "metric": "6%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "川普喊晶片關稅200%嚇崩台股 台經院估關稅不逾15%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國本週將公布301調查結果,川普再揮關稅大刀震驚市場,揚言晶片稅恐達200%。",
-          "excerpt": "美國本週將公布301調查結果,川普再揮關稅大刀震驚市場,揚言晶片稅恐達200%。",
-          "url": "https://tw.news.yahoo.com/%E5%8B%95%E7%95%AB%E8%AA%AA%E6%99%82%E4%BA%8B-%E5%B7%9D%E6%99%AE%E5%96%8A%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85200-%E5%9A%87%E5%B4%A9%E5%8F%B0%E8%82%A1-%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E9%97%9C%E7%A8%85%E4%B8%8D%E9%80%BE15-072804180.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301條款調查結果最快本週公布。",
-          "excerpt": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301條款調查結果最快本週公布。",
-          "url": "https://www.cna.com.tw/news/afe/202611250123.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "301 關稅又來了?台經院:估稅率不超過 15% 不用太擔心",
-          "angle": "政策法規與公共治理",
-          "focus": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301 條款調查結果最快本週公布。",
-          "excerpt": "外電報導,美國貿易代表署(Ustr)針對「製造業結構性產能過剩」301 條款調查結果最快本週公布。",
-          "url": "https://technews.tw/2026/11/25/section-301-tariffs-returning-tier-estimates-rate-under-15-percent/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8B%95%E7%95%AB%E8%AA%AA%E6%99%82%E4%BA%8B-%E5%B7%9D%E6%99%AE%E5%96%8A%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85200-%E5%9A%87%E5%B4%A9%E5%8F%B0%E8%82%A1-%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E9%97%9C%E7%A8%85%E4%B8%8D%E9%80%BE15-072804180.html",
-          "headline": "川普喊晶片關稅200%嚇崩台股 台經院估關稅不逾15%",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%96%B0%E9%97%9C%E7%A8%85%E6%81%90%E8%A1%9D%E6%93%8A%E5%8F%B0%E7%81%A3%EF%BC%9F%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E3%80%8C%E6%9C%80%E9%AB%98%E4%B8%8D%E8%B6%85%E9%81%8E15%E3%80%8D%EF%BC%9A%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%A2%A8%E5%A4%A7%E6%B5%AA%E9%83%BD%E8%A6%8B%E9%81%8E-072056157.html",
-          "headline": "川普新關稅恐衝擊台灣?台經院估「最高不超過15%」:台灣大風大浪都見過",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%A4%A7%E5%88%80%E5%8F%88%E8%A6%81%E4%BE%86%E4%BA%86-%E5%8F%B0%E7%B6%93%E9%99%A2%E4%BC%B0%E7%A8%85%E7%8E%87%E4%B8%8D%E8%B6%85%E9%81%8E15-%E5%8F%B0%E8%82%A1-%E5%BA%A6%E7%8B%82%E7%80%893400%E9%BB%9E-%E5%8F%B2%E4%B8%8A%E7%9B%A4%E4%B8%AD%E7%AC%AC2%E6%85%98-061900276.html",
-          "headline": "川普關稅大刀又要來了!台經院估稅率不超過15% 台股一度狂瀉3400點「史上盤中第2慘」",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611250123.aspx",
-          "headline": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E5%8F%88%E4%BE%86%E4%BA%86-%E5%8F%B0%E7%B6%93%E9%99%A2-%E4%BC%B0%E7%A8%85%E7%8E%87%E4%B8%8D%E8%B6%85%E9%81%8E15-%E4%B8%8D%E7%94%A8%E5%A4%AA%E6%93%94%E5%BF%83-051228240.html",
-          "headline": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/301%E9%97%9C%E7%A8%85%E5%8F%88%E4%BE%86%E4%BA%86-%E5%8F%B0%E7%B6%93%E9%99%A2-%E4%BC%B0%E7%A8%85%E7%8E%87%E4%B8%8D%E8%B6%85%E9%81%8E15-%E4%B8%8D%E7%94%A8%E5%A4%AA%E6%93%94%E5%BF%83-051118332.html",
-          "headline": "301關稅又來了?台經院:估稅率不超過15%不用太擔心",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/25/section-301-tariffs-returning-tier-estimates-rate-under-15-percent/",
-          "headline": "301 關稅又來了?台經院:估稅率不超過 15% 不用太擔心",
-          "lang": "zh"
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "s3d8865a2",
-      "section": "business_tech",
-      "title": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-      "source": "中央社 CNA",
-      "url": "https://www.cna.com.tw/news/afe/202611250164.aspx",
-      "publishedAt": "2026-11-25T15:08:22+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
-      "imageCredit": "中央社 CNA",
-      "score": 95,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 34,
-        "data": 20,
-        "durability": 6
-      },
-      "mediaCount": 5,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "metric": "10億元",
-          "confirmed_by": [
-            "經濟日報",
-            "鉅亨網 Anue",
-            "中央社 CNA",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "metric": "10億元",
-          "confirmed_by": [
-            "經濟日報",
-            "鉅亨網 Anue",
-            "中央社 CNA",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "本次建廠支出預估約,新廠將做為營運總部及主要生產據點,重點擴充矽光子晶圓級量產線檢測設備產能,並且將增加 50% 的員工人力。",
-          "metric": "50%",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "angle": "產業動態與市場焦點",
-          "focus": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮…",
-          "excerpt": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮…",
-          "url": "https://money.udn.com/money/story/5612/9901285",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "angle": "產業動態與市場焦點",
-          "focus": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "excerpt": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "url": "https://www.cna.com.tw/news/afe/202611250164.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "光焱砸10億元建路竹新廠 擴充矽光子檢測產能2028年Q1投產",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "excerpt": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "url": "https://news.cnyes.com/news/id/6671631",
+          "focus": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "excerpt": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "url": "https://www.cna.com.tw/news/afe/202611250268.aspx",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "metric": "10億元",
+          "text": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "metric": "189.2億元",
           "confirmed_by": [
-            "經濟日報",
-            "鉅亨網 Anue",
-            "中央社 CNA",
-            "TechNews 科技新報"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "metric": "10億元",
+          "text": "總經理孫嘉明表示,預估明年長程線票價穩健,第4季貨運收入有望再創高峰,AI伺服器供應鏈維持高出貨量,明年客貨運持續樂觀。",
+          "metric": "4季",
           "confirmed_by": [
-            "經濟日報",
-            "鉅亨網 Anue",
-            "中央社 CNA",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "本次建廠支出預估約,新廠將做為營運總部及主要生產據點,重點擴充矽光子晶圓級量產線檢測設備產能,並且將增加 50% 的員工人力。",
-          "metric": "50%",
-          "confirmed_by": [
-            "TechNews 科技新報"
+            "中央社 CNA"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "angle": "產業動態與市場焦點",
-          "focus": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮…",
-          "excerpt": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮…",
-          "url": "https://money.udn.com/money/story/5612/9901285",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "angle": "產業動態與市場焦點",
-          "focus": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "excerpt": "半導體光電檢測設備供應商光焱科技今天舉行路竹新廠動土典禮,光焱科技表示,新廠估計支出約新台幣10億元,預計2028年第1季投產。",
-          "url": "https://www.cna.com.tw/news/afe/202611250164.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "光焱砸10億元建路竹新廠 擴充矽光子檢測產能2028年Q1投產",
+          "headline": "長榮航:客貨運雙引擎抗油價、AI空運明年續旺",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "excerpt": "光焱今在南科高雄園區為路竹新廠動土,將投資約10億元,預計2027年Q4完工、2028年Q1投產。",
-          "url": "https://news.cnyes.com/news/id/6671631",
+          "focus": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "excerpt": "今年油價飆漲侵蝕航空業獲利,長榮航客貨雙旺、展現營運韌性,前3季稅後淨利189.2億元、年增2.3%。",
+          "url": "https://www.cna.com.tw/news/afe/202611250268.aspx",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9901285",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611250164.aspx",
-          "headline": "光焱投資10億元路竹新廠動土 2028年第1季投產",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671631",
-          "headline": "光焱砸10億元建路竹新廠 擴充矽光子檢測產能2028年Q1投產",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/25/increase-production-capacity-for-wafer-level-inspection-equipment-for-silicon-photonics/",
-          "headline": "增加矽光子晶圓級檢測設備產能,光焱科技斥資 10 億元路竹新廠動土",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5652674",
-          "headline": "光焱砸10億建路竹新廠 2028年投產搶攻矽光子檢測商機",
+          "url": "https://www.cna.com.tw/news/afe/202611250268.aspx",
+          "headline": "長榮航:客貨運雙引擎抗油價、AI空運明年續旺",
           "lang": "zh"
         }
       ],
       "rank": 3
-    },
-    {
-      "id": "saef4486d",
-      "section": "business_tech",
-      "title": "黃仁勳重返輝達 產業人士:美中AI競賽出現人才爭奪戰",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "〔財經頻道/綜合報導〕輝達董事會本週宣佈黃仁勳重返公司,恢復執行長等職務,產業人士表示,這凸顯出美中AI競賽不僅攸關晶片,更關乎科技人才流向。",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5652427",
-      "publishedAt": "2026-11-25T15:56:00+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/23/35545331.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 94,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 35,
-        "data": 18,
-        "durability": 6
-      },
-      "mediaCount": 4,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "metric": "9500億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "執行長黃仁勳已成為華府最積極倡議美國發展這項技術的聲音之一,而目前這項領域由中國企業占據主導地位。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
-          "angle": "市場定價與外資籌碼",
-          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "url": "https://money.udn.com/money/story/5618/9899795",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳重返輝達被緊抱15秒!藍衣女子疑是「餐廳外包人員」 曾經共患難關係曝光",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)創辦人黃仁勳於11月12日辭去公司職務,經歷11天後,23日正式重返輝達,恢復總裁、執行長及董事會成員身分。",
-          "excerpt": "輝達(Nvidia)創辦人黃仁勳於11月12日辭去公司職務,經歷11天後,23日正式重返輝達,恢復總裁、執行長及董事會成員身分。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94%E8%A2%AB%E7%B7%8A%E6%8A%B115%E7%A7%92-%E8%97%8D%E8%A1%A3%E5%A5%B3%E5%AD%90%E7%96%91%E6%98%AF-%E9%A4%90%E5%BB%B3%E5%A4%96%E5%8C%85%E4%BA%BA%E5%93%A1-%E6%9B%BE%E7%B6%93%E5%85%B1%E6%82%A3%E9%9B%A3%E9%97%9C%E4%BF%82%E6%9B%9D%E5%85%89-075600507.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "黃仁勳重掌輝達 開放權重AI模型之爭再成華府焦點",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "excerpt": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250091.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "metric": "9500億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "執行長黃仁勳已成為華府最積極倡議美國發展這項技術的聲音之一,而目前這項領域由中國企業占據主導地位。",
-          "metric": "",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
-          "angle": "市場定價與外資籌碼",
-          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
-          "url": "https://money.udn.com/money/story/5618/9899795",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳重返輝達被緊抱15秒!藍衣女子疑是「餐廳外包人員」 曾經共患難關係曝光",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)創辦人黃仁勳於11月12日辭去公司職務,經歷11天後,23日正式重返輝達,恢復總裁、執行長及董事會成員身分。",
-          "excerpt": "輝達(Nvidia)創辦人黃仁勳於11月12日辭去公司職務,經歷11天後,23日正式重返輝達,恢復總裁、執行長及董事會成員身分。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94%E8%A2%AB%E7%B7%8A%E6%8A%B115%E7%A7%92-%E8%97%8D%E8%A1%A3%E5%A5%B3%E5%AD%90%E7%96%91%E6%98%AF-%E9%A4%90%E5%BB%B3%E5%A4%96%E5%8C%85%E4%BA%BA%E5%93%A1-%E6%9B%BE%E7%B6%93%E5%85%B1%E6%82%A3%E9%9B%A3%E9%97%9C%E4%BF%82%E6%9B%9D%E5%85%89-075600507.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "黃仁勳重掌輝達 開放權重AI模型之爭再成華府焦點",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "excerpt": "輝達(Nvidia)高層人事危機,讓科技業對開放權重人工智慧(AI)模型的爭論再度受到關注。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250091.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5618/9899795",
-          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E8%BF%94%E8%BC%9D%E9%81%94%E8%A2%AB%E7%B7%8A%E6%8A%B115%E7%A7%92-%E8%97%8D%E8%A1%A3%E5%A5%B3%E5%AD%90%E7%96%91%E6%98%AF-%E9%A4%90%E5%BB%B3%E5%A4%96%E5%8C%85%E4%BA%BA%E5%93%A1-%E6%9B%BE%E7%B6%93%E5%85%B1%E6%82%A3%E9%9B%A3%E9%97%9C%E4%BF%82%E6%9B%9D%E5%85%89-075600507.html",
-          "headline": "黃仁勳重返輝達被緊抱15秒!藍衣女子疑是「餐廳外包人員」 曾經共患難關係曝光",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611250091.aspx",
-          "headline": "黃仁勳重掌輝達 開放權重AI模型之爭再成華府焦點",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5652427",
-          "headline": "黃仁勳重返輝達 產業人士:美中AI競賽出現人才爭奪戰",
-          "lang": "zh"
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "id": "se5576bf5",
-      "section": "business_tech",
-      "title": "川普再批台灣「偷走」美國晶片產業!預告2年後課200%關稅",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。 他預告兩年後將對進口晶片課徵200%關稅,藉此逼半導體業者赴美設廠。 川普指台積電已在亞利桑那州投入數千億美元,並評估德州226億美元投資案。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671603",
-      "publishedAt": "2026-11-25T14:06:24+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/175422e6b748636577c5e7e5c99cc3cbf40ac294c7b6b4ec280213fb5fd6ee4f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fstormmediagroup.com%2F13148d0e250733a203a546ee6a3412f6_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 93,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 35,
-        "data": 20,
-        "durability": 8
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "他預告兩年後將對進口晶片課徵200%關稅,藉此逼半導體業者赴美設廠。",
-          "metric": "200%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "川普指台積電已在亞利桑那州投入數千億美元,並評估德州226億美元投資案。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "metric": "100%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台股更抖了?川普喊200%晶片關稅,台灣又列調查恐加稅 他驚呼:勳妃、關稅帝君齊回宮?",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國總統川普(Donald Trump)才公開力挺輝達(Nvidia)創辦人黃仁勳回鍋執行長職位,隨即又傳出準備對全球主要貿易夥伴祭出新一波關稅;事實上,川普近日才公開放話,未來兩年內,外國晶片進口美國可能面臨高達200%的關稅,談話更直接觸及台灣在全球晶片供應鏈的主導地位。",
-          "excerpt": "美國總統川普(Donald Trump)才公開力挺輝達(Nvidia)創辦人黃仁勳回鍋執行長職位,隨即又傳出準備對全球主要貿易夥伴祭出新一波關稅;事實上,川普近日才公開放話,未來兩年內,外國晶片進口美國可能面臨高達200%的關稅,談話更直接觸及台灣在全球晶片供應鏈的主導地位。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9B%B4%E6%8A%96%E4%BA%86-%E5%B7%9D%E6%99%AE%E5%96%8A200-%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E5%8F%B0%E7%81%A3%E5%8F%88%E5%88%97%E8%AA%BF%E6%9F%A5%E6%81%90%E5%8A%A0%E7%A8%85-%E4%BB%96%E9%A9%9A%E5%91%BC-060624899.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "川普再批台灣「偷走」美國晶片產業!預告2年後課200%關稅",
-          "angle": "先進技術與算力規格",
-          "focus": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "excerpt": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "url": "https://news.cnyes.com/news/id/6671603",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "coreFacts": [
-        {
-          "text": "他預告兩年後將對進口晶片課徵200%關稅,藉此逼半導體業者赴美設廠。",
-          "metric": "200%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "川普指台積電已在亞利桑那州投入數千億美元,並評估德州226億美元投資案。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "metric": "100%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台股更抖了?川普喊200%晶片關稅,台灣又列調查恐加稅 他驚呼:勳妃、關稅帝君齊回宮?",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國總統川普(Donald Trump)才公開力挺輝達(Nvidia)創辦人黃仁勳回鍋執行長職位,隨即又傳出準備對全球主要貿易夥伴祭出新一波關稅;事實上,川普近日才公開放話,未來兩年內,外國晶片進口美國可能面臨高達200%的關稅,談話更直接觸及台灣在全球晶片供應鏈的主導地位。",
-          "excerpt": "美國總統川普(Donald Trump)才公開力挺輝達(Nvidia)創辦人黃仁勳回鍋執行長職位,隨即又傳出準備對全球主要貿易夥伴祭出新一波關稅;事實上,川普近日才公開放話,未來兩年內,外國晶片進口美國可能面臨高達200%的關稅,談話更直接觸及台灣在全球晶片供應鏈的主導地位。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9B%B4%E6%8A%96%E4%BA%86-%E5%B7%9D%E6%99%AE%E5%96%8A200-%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E5%8F%B0%E7%81%A3%E5%8F%88%E5%88%97%E8%AA%BF%E6%9F%A5%E6%81%90%E5%8A%A0%E7%A8%85-%E4%BB%96%E9%A9%9A%E5%91%BC-060624899.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "川普再批台灣「偷走」美國晶片產業!預告2年後課200%關稅",
-          "angle": "先進技術與算力規格",
-          "focus": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "excerpt": "川普稱台灣過去幾乎拿走美國100%晶片產業,並再度點名台積電董事長魏哲家。",
-          "url": "https://news.cnyes.com/news/id/6671603",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%9B%B4%E6%8A%96%E4%BA%86-%E5%B7%9D%E6%99%AE%E5%96%8A200-%E6%99%B6%E7%89%87%E9%97%9C%E7%A8%85-%E5%8F%B0%E7%81%A3%E5%8F%88%E5%88%97%E8%AA%BF%E6%9F%A5%E6%81%90%E5%8A%A0%E7%A8%85-%E4%BB%96%E9%A9%9A%E5%91%BC-060624899.html",
-          "headline": "台股更抖了?川普喊200%晶片關稅,台灣又列調查恐加稅 他驚呼:勳妃、關稅帝君齊回宮?",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671603",
-          "headline": "川普再批台灣「偷走」美國晶片產業!預告2年後課200%關稅",
-          "lang": "zh"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "id": "s3115d76d",
-      "section": "business_tech",
-      "title": "史上最大IPO不到一週就破發!Anthropic光環失色 AI投資熱潮警報響起",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮,Anthropic疲弱上市也拖累OpenAI等IPO前景",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671224",
-      "publishedAt": "2026-11-25T10:30:04+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671224/xl/cb5bd35d9254bd23246acb20a6493d07.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮…",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "史上最大IPO不到一週就破發!Anthropic光環失色 AI投資熱潮警報響起",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮……",
-          "excerpt": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮……",
-          "url": "https://news.cnyes.com/news/id/6671224",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮…",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "史上最大IPO不到一週就破發!Anthropic光環失色 AI投資熱潮警報響起",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮……",
-          "excerpt": "Anthropic週二重挫6.5%至81.91美元,首次收盤跌破83美元IPO發行價,上市後漲幅已全數回吐 其IPO加上私募配售募得逾1,000億美元創紀錄,但提高發行價與規模後,投資人對成長期待升高 分析師指AI建置、競爭與利率上升加劇疑慮……",
-          "url": "https://news.cnyes.com/news/id/6671224",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671224",
-          "headline": "史上最大IPO不到一週就破發!Anthropic光環失色 AI投資熱潮警報響起",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671263",
-          "headline": "Anthropic創史上最大IPO紀錄!募資1073億美元 AI估值邏輯轉向獲利與現金流",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "id": "s55d40988",
-      "section": "business_tech",
-      "title": "巴西石油拍板1220億美元投資計畫 大增傳統油氣產能並撥款轉型",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "商傳媒|方承業/綜合外電報導巴西國營能源巨頭巴西石油(Petrobras)於週二(24日)正式發布 2027 年至 2031 年的五年策略投資計畫,預計整體資本支出(Capex)將達 1,220 億美元。這項中長期規劃顯示,這家能源大廠在應對能源轉型壓力的同時,仍將核心資源牢牢鎖定在傳統油氣的勘探與生產(E&P)業務。 根據外媒取得的公司公告細節,巴西石油在該計畫中將上游勘探與生產列為優先項目,並訂下明確的產能擴張目標:預計在 2028 年至 2031 年期間,達成每日 320 萬桶油當量(boed,將各類油氣產量換算為原油的統計單位)的商業產量。 在巨額資本支出的支撐下,巴西石油也給出相當強勁的現金流預測。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E5%B7%B4%E8%A5%BF%E7%9F%B3%E6%B2%B9%E6%8B%8D%E6%9D%BF1220%E5%84%84%E7%BE%8E%E5%85%83%E6%8A%95%E8%B3%87%E8%A8%88%E7%95%AB-%E5%A4%A7%E5%A2%9E%E5%82%B3%E7%B5%B1%E6%B2%B9%E6%B0%A3%E7%94%A2%E8%83%BD%E4%B8%A6%E6%92%A5%E6%AC%BE%E8%BD%89%E5%9E%8B-070614574.html",
-      "publishedAt": "2026-11-25T15:06:14+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/432615ca0fa17525834ef192950c464c8820918c68b11a77741d2c814d27092f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fsunmedia_664%2F37277ebd5fd867fbe24902429561aab9.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "受惠於充裕的現金流支撐,普通股股息預計發放 550 億至 600 億美元,直接向關注配息的股東釋出利多。",
-          "metric": "600億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "該公司估計,在 2027 至 2031 年計畫執行期間,累計營運現金流將落在 2,300 億至 2,500 億美元之間。",
-          "metric": "2500億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "至於各界關注的綠能轉型布局,巴西石油在此次 1,220 億美元的資本支出中,提撥了 135 億美元專門用於資助能源轉型相關項目。",
-          "metric": "1220億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "巴西石油拍板1220億美元投資計畫 大增傳統油氣產能並撥款轉型",
-          "angle": "資本預算與財報配置",
-          "focus": "商傳媒|方承業/綜合外電報導巴西國營能源巨頭巴西石油(Petrobras)於週二(24日)正式發布 2027 年至 2031 年的五年策略投資計畫,預計整體資本支出(Capex)將達 1,220 億美元。",
-          "excerpt": "商傳媒|方承業/綜合外電報導巴西國營能源巨頭巴西石油(Petrobras)於週二(24日)正式發布 2027 年至 2031 年的五年策略投資計畫,預計整體資本支出(Capex)將達 1,220 億美元。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%B4%E8%A5%BF%E7%9F%B3%E6%B2%B9%E6%8B%8D%E6%9D%BF1220%E5%84%84%E7%BE%8E%E5%85%83%E6%8A%95%E8%B3%87%E8%A8%88%E7%95%AB-%E5%A4%A7%E5%A2%9E%E5%82%B3%E7%B5%B1%E6%B2%B9%E6%B0%A3%E7%94%A2%E8%83%BD%E4%B8%A6%E6%92%A5%E6%AC%BE%E8%BD%89%E5%9E%8B-070614574.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "受惠於充裕的現金流支撐,普通股股息預計發放 550 億至 600 億美元,直接向關注配息的股東釋出利多。",
-          "metric": "600億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "該公司估計,在 2027 至 2031 年計畫執行期間,累計營運現金流將落在 2,300 億至 2,500 億美元之間。",
-          "metric": "2500億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "至於各界關注的綠能轉型布局,巴西石油在此次 1,220 億美元的資本支出中,提撥了 135 億美元專門用於資助能源轉型相關項目。",
-          "metric": "1220億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "巴西石油拍板1220億美元投資計畫 大增傳統油氣產能並撥款轉型",
-          "angle": "資本預算與財報配置",
-          "focus": "商傳媒|方承業/綜合外電報導巴西國營能源巨頭巴西石油(Petrobras)於週二(24日)正式發布 2027 年至 2031 年的五年策略投資計畫,預計整體資本支出(Capex)將達 1,220 億美元。",
-          "excerpt": "商傳媒|方承業/綜合外電報導巴西國營能源巨頭巴西石油(Petrobras)於週二(24日)正式發布 2027 年至 2031 年的五年策略投資計畫,預計整體資本支出(Capex)將達 1,220 億美元。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%B4%E8%A5%BF%E7%9F%B3%E6%B2%B9%E6%8B%8D%E6%9D%BF1220%E5%84%84%E7%BE%8E%E5%85%83%E6%8A%95%E8%B3%87%E8%A8%88%E7%95%AB-%E5%A4%A7%E5%A2%9E%E5%82%B3%E7%B5%B1%E6%B2%B9%E6%B0%A3%E7%94%A2%E8%83%BD%E4%B8%A6%E6%92%A5%E6%AC%BE%E8%BD%89%E5%9E%8B-070614574.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%B4%E8%A5%BF%E7%9F%B3%E6%B2%B9%E6%8B%8D%E6%9D%BF1220%E5%84%84%E7%BE%8E%E5%85%83%E6%8A%95%E8%B3%87%E8%A8%88%E7%95%AB-%E5%A4%A7%E5%A2%9E%E5%82%B3%E7%B5%B1%E6%B2%B9%E6%B0%A3%E7%94%A2%E8%83%BD%E4%B8%A6%E6%92%A5%E6%AC%BE%E8%BD%89%E5%9E%8B-070614574.html",
-          "headline": "巴西石油拍板1220億美元投資計畫 大增傳統油氣產能並撥款轉型",
-          "lang": "zh"
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "id": "s94d63d87",
-      "section": "business_tech",
-      "title": "惠民旗下惠連接獲高科技廠RO薄膜清洗訂單 估2027年效益顯",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。 惠連薄膜11月已單月損益平衡,明年RO清洗量估近4萬支,較2.5萬支損平門檻成長逾5成。 惠民持股51%,將鎖定再生水廠與高科技廠房,擴大水資源循環布局並優化獲利結構。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671654",
-      "publishedAt": "2026-11-25T14:12:26+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671654/xl/ceb447d2592fe08a5b5e18011d5b265c.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "惠連薄膜11月已單月損益平衡,明年RO清洗量估近4萬支,較2.5萬支損平門檻成長逾5成。",
-          "metric": "2.5萬",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "惠民持股51%,將鎖定再生水廠與高科技廠房,擴大水資源循環布局並優化獲利結構。",
-          "metric": "51%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "惠民旗下惠連接獲高科技廠RO薄膜清洗訂單 估2027年效益顯",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "excerpt": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "url": "https://news.cnyes.com/news/id/6671654",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "惠連薄膜11月已單月損益平衡,明年RO清洗量估近4萬支,較2.5萬支損平門檻成長逾5成。",
-          "metric": "2.5萬",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "惠民持股51%,將鎖定再生水廠與高科技廠房,擴大水資源循環布局並優化獲利結構。",
-          "metric": "51%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "惠民旗下惠連接獲高科技廠RO薄膜清洗訂單 估2027年效益顯",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "excerpt": "惠民子公司惠連薄膜第四季接獲高科技廠外包RO薄膜清洗訂單,正式承接外部客戶業務。",
-          "url": "https://news.cnyes.com/news/id/6671654",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671654",
-          "headline": "惠民旗下惠連接獲高科技廠RO薄膜清洗訂單 估2027年效益顯",
-          "lang": "zh"
-        }
-      ],
-      "rank": 8
     },
     {
       "id": "sb272b0c5",
@@ -4797,28 +4117,343 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 4
     },
     {
-      "id": "sfd8891ff",
+      "id": "s451df239",
       "section": "business_tech",
-      "title": "日股終場重挫1633點 AI股賣壓再現",
+      "title": "印度子公司傳欠款遭供應商聲請破產 鴻海:雙方履約情形存在歧見",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。受到美國科技股走弱影響,AI及半導體類股再度遭到拋售,包括日本電線大廠藤倉、軟銀集團等多檔個股,股價較歷史高點已下跌超過7成。「日本經濟新聞」報導,輝達(Nvidia)執行長黃仁勳閃電回鍋帶動的市場樂觀情緒僅維持一天。美國費城半導體指數24日重挫近8%,拖累日本、韓國及台灣股市今天同步走低。美國總統川普公開承認介入輝達人事安排,加上黃仁勳仍認為沒有必要制定接班人培育計畫,引發市場對企業治理及經營風險的疑慮。AI投資過剩、科技企業資金周轉惡化等問題,也持續打擊投資人信心。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E8%82%A1%E7%B5%82%E5%A0%B4%E9%87%8D%E6%8C%AB1633%E9%BB%9E-ai%E8%82%A1%E8%B3%A3%E5%A3%93%E5%86%8D%E7%8F%BE-072537752.html",
-      "publishedAt": "2026-11-25T15:30:57+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
-      "imageCredit": "中央社 CNA",
+      "summary": "<p>鴻海(2317-TW)印度子公司傳與供應商爆發款項爭議,甚至遭聲請破產。對此,鴻海發出聲明指出,本案主要涉及供應商提供的服務未符合雙方契約約定及品質要求,雙方目前已進入司法程序。</p> <p>綜合外電報導,鴻海印度子公司傳出有約六家供應商款項延遲未支付,其中一家提供員工宿舍租賃服務的業者,已向法院聲請對該公司啟動破產程序,追討約1,530萬美元(約新台幣5億元)。</p> <p>對此,鴻海說明,本案主要涉及供應商提供的服務未符合雙方契約約定及品質要求,公司基於維護自身合法權益,多次要求供應商改善,惟相關問題未獲妥善解決,雙方對於履約情形及相關款項請求存在歧見。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671719",
+      "publishedAt": "2026-11-25T20:57:55+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/e58ff709c29b9e819400b6df4ac00c9c0b8e432c44224381cee3854e6dda709f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrormedia.mg%2Fa28aaed2ba9f0fc20e8084e46ce056e9.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
       "score": 91,
       "scoreBreakdown": {
         "resonance": 35,
-        "impact": 30,
+        "impact": 28,
         "data": 20,
-        "durability": 6
+        "durability": 8
+      },
+      "mediaCount": 4,
+      "impactCategories": [
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "台灣電子代工大廠鴻海的印度子公司傳出拖欠約 6 家供應商款項,其中一家出租員工宿舍的業者向法院聲請啟動破產程序,以追討 1,500 萬美元(約新台幣 5 億元)欠款。",
+          "metric": "1500萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "今(25)日上午,外媒報導指出,鴻海印度子公司拖欠6家供應商款項,其中1家供應商更因此提起破產程序要追款到底。",
+          "metric": "1家",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "自由財經"
+          ]
+        },
+        {
+          "text": "綜合外電報導,鴻海印度子公司傳出有約六家供應商款項延遲未支付,其中一家提供員工宿舍租賃服務的業者,已向法院聲請對該公司啟動破產程序,追討約1,530萬美元(約新台幣5億元)。",
+          "metric": "1530萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "印度子公司遭供應商控拖欠款項 鴻海:雙方履約請款歧見",
+          "angle": "產業動態與市場焦點",
+          "focus": "外媒報導鴻海印度子公司拖欠款項,傳遭供應商聲請破產。",
+          "excerpt": "外媒報導鴻海印度子公司拖欠款項,傳遭供應商聲請破產。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%B0%E5%BA%A6%E5%AD%90%E5%85%AC%E5%8F%B8%E9%81%AD%E4%BE%9B%E6%87%89%E5%95%86%E6%8E%A7%E6%8B%96%E6%AC%A0%E6%AC%BE%E9%A0%85-%E9%B4%BB%E6%B5%B7-%E9%9B%99%E6%96%B9%E5%B1%A5%E7%B4%84%E8%AB%8B%E6%AC%BE%E6%AD%A7%E8%A6%8B-125755976.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "印度子公司傳欠款遭供應商聲請破產 鴻海:雙方履約情形存在歧見",
+          "angle": "產業動態與市場焦點",
+          "focus": "鴻海(2317-TW)印度子公司傳與供應商爆發款項爭議,甚至遭聲請破產。",
+          "excerpt": "鴻海(2317-TW)印度子公司傳與供應商爆發款項爭議,甚至遭聲請破產。",
+          "url": "https://news.cnyes.com/news/id/6671719",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "印度子公司遭控拖欠供應商款項 鴻海:服務未符要求",
+          "angle": "產業動態與市場焦點",
+          "focus": "〔記者方韋傑/台北報導〕外傳鴻海(2317)旗下印度子公司拖欠約6家供應商款項,其中1家業者已提起司法程序;鴻海今日發布聲明,本案主要涉及供應商所提供的服務未符合雙方契約約定及品質要求,公司多次",
+          "excerpt": "〔記者方韋傑/台北報導〕外傳鴻海(2317)旗下印度子公司拖欠約6家供應商款項,其中1家業者已提起司法程序;鴻海今日發布聲明,本案主要涉及供應商所提供的服務未符合雙方契約約定及品質要求,公司多次",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653200",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "多家媒體（鉅亨網 Anue、TechNews 科技新報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
+      "coreFacts": [
+        {
+          "text": "台灣電子代工大廠鴻海的印度子公司傳出拖欠約 6 家供應商款項,其中一家出租員工宿舍的業者向法院聲請啟動破產程序,以追討 1,500 萬美元(約新台幣 5 億元)欠款。",
+          "metric": "1500萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "今(25)日上午,外媒報導指出,鴻海印度子公司拖欠6家供應商款項,其中1家供應商更因此提起破產程序要追款到底。",
+          "metric": "1家",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "自由財經"
+          ]
+        },
+        {
+          "text": "綜合外電報導,鴻海印度子公司傳出有約六家供應商款項延遲未支付,其中一家提供員工宿舍租賃服務的業者,已向法院聲請對該公司啟動破產程序,追討約1,530萬美元(約新台幣5億元)。",
+          "metric": "1530萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "印度子公司遭供應商控拖欠款項 鴻海:雙方履約請款歧見",
+          "angle": "產業動態與市場焦點",
+          "focus": "外媒報導鴻海印度子公司拖欠款項,傳遭供應商聲請破產。",
+          "excerpt": "外媒報導鴻海印度子公司拖欠款項,傳遭供應商聲請破產。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%B0%E5%BA%A6%E5%AD%90%E5%85%AC%E5%8F%B8%E9%81%AD%E4%BE%9B%E6%87%89%E5%95%86%E6%8E%A7%E6%8B%96%E6%AC%A0%E6%AC%BE%E9%A0%85-%E9%B4%BB%E6%B5%B7-%E9%9B%99%E6%96%B9%E5%B1%A5%E7%B4%84%E8%AB%8B%E6%AC%BE%E6%AD%A7%E8%A6%8B-125755976.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "印度子公司傳欠款遭供應商聲請破產 鴻海:雙方履約情形存在歧見",
+          "angle": "產業動態與市場焦點",
+          "focus": "鴻海(2317-TW)印度子公司傳與供應商爆發款項爭議,甚至遭聲請破產。",
+          "excerpt": "鴻海(2317-TW)印度子公司傳與供應商爆發款項爭議,甚至遭聲請破產。",
+          "url": "https://news.cnyes.com/news/id/6671719",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "印度子公司遭控拖欠供應商款項 鴻海:服務未符要求",
+          "angle": "產業動態與市場焦點",
+          "focus": "〔記者方韋傑/台北報導〕外傳鴻海(2317)旗下印度子公司拖欠約6家供應商款項,其中1家業者已提起司法程序;鴻海今日發布聲明,本案主要涉及供應商所提供的服務未符合雙方契約約定及品質要求,公司多次",
+          "excerpt": "〔記者方韋傑/台北報導〕外傳鴻海(2317)旗下印度子公司拖欠約6家供應商款項,其中1家業者已提起司法程序;鴻海今日發布聲明,本案主要涉及供應商所提供的服務未符合雙方契約約定及品質要求,公司多次",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653200",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "多家媒體（鉅亨網 Anue、TechNews 科技新報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%B0%E5%BA%A6%E5%AD%90%E5%85%AC%E5%8F%B8%E9%81%AD%E4%BE%9B%E6%87%89%E5%95%86%E6%8E%A7%E6%8B%96%E6%AC%A0%E6%AC%BE%E9%A0%85-%E9%B4%BB%E6%B5%B7-%E9%9B%99%E6%96%B9%E5%B1%A5%E7%B4%84%E8%AB%8B%E6%AC%BE%E6%AD%A7%E8%A6%8B-125755976.html",
+          "headline": "印度子公司遭供應商控拖欠款項 鴻海:雙方履約請款歧見",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%B4%BB%E6%B5%B7%E5%8D%B0%E5%BA%A6%E5%AD%90%E5%85%AC%E5%8F%B8%E5%82%B3%E6%8B%96%E6%AC%A0%E6%AC%BE%E9%A0%85-%E5%AE%98%E6%96%B9%E5%9B%9E%E6%87%89-%E6%9C%AA%E7%AC%A6%E5%90%88%E7%B4%84%E5%AE%9A%E8%88%87%E5%93%81%E8%B3%AA%E8%A6%81%E6%B1%82-103900614.html",
+          "headline": "鴻海印度子公司傳拖欠款項? 官方回應:未符合約定與品質要求!",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671719",
+          "headline": "印度子公司傳欠款遭供應商聲請破產 鴻海:雙方履約情形存在歧見",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%B0%E5%BA%A6%E5%AD%90%E5%85%AC%E5%8F%B8%E5%82%B3%E6%AC%A0%E6%AC%BE%E9%81%AD%E4%BE%9B%E6%87%89%E5%95%86%E8%81%B2%E8%AB%8B%E7%A0%B4%E7%94%A2-%E9%B4%BB%E6%B5%B7-%E9%9B%99%E6%96%B9%E5%B1%A5%E7%B4%84%E6%83%85%E5%BD%A2%E5%AD%98%E5%9C%A8%E6%AD%A7%E8%A6%8B-102531193.html",
+          "headline": "印度子公司傳欠款遭供應商聲請破產 鴻海:雙方履約情形存在歧見",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653200",
+          "headline": "印度子公司遭控拖欠供應商款項 鴻海:服務未符要求",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "url": "https://technews.tw/2026/11/25/foxconn-faces-india-insolvency-lawsuit-over-unpaid-vendor-dues/",
+          "headline": "彭博:鴻海印度子公司拖欠款項,傳遭供應商聲請破產",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "id": "s440cc4a7",
+      "section": "business_tech",
+      "title": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。 台泥海外事業成獲利支柱,土耳其及歐洲貢獻47%營收、59%毛利。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671738",
+      "publishedAt": "2026-11-25T19:42:39+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671738/xl/e7d057c209989ab40ffb9dee9ffc547c.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 34,
+        "data": 14,
+        "durability": 8
       },
       "mediaCount": 3,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "台泥海外事業成獲利支柱,土耳其及歐洲貢獻47%營收、59%毛利。",
+          "metric": "47%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "angle": "資本預算與財報配置",
+          "focus": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "excerpt": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "url": "https://news.cnyes.com/news/id/6671738",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "angle": "資本預算與財報配置",
+          "focus": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "excerpt": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E6%B3%A5%E6%B3%95%E8%AA%AA-%E5%BC%B5%E5%AE%89%E5%B9%B3-%E6%AD%90%E6%B4%B2%E6%B0%B4%E6%B3%A5%E4%BA%8B%E6%A5%AD%E5%9C%A8%E8%8B%B1%E5%9C%8B%E6%8E%9B%E7%89%8C%E5%8F%AF%E8%83%BD%E6%80%A7%E8%BC%83%E9%AB%98-%E6%96%B0%E7%9A%84%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B3%87%E6%9C%AA%E4%BE%86%E5%8D%8A%E5%B9%B4%E5%8F%AF%E6%9C%9B%E6%9C%89%E9%80%B2%E5%B1%95-114239953.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "台泥虧轉盈 董座張安平:海外2個水泥投資點半年內可望明朗",
+          "angle": "產業動態與市場焦點",
+          "focus": "台泥(1101)今天舉行法人說明會,台泥董事長張安平表示,幾年前就看到中國水泥市場需求會往下走,而且跌得很兇,台泥必須要離開,目前轉投資的葡萄牙和土耳其水泥事業量價齊揚………",
+          "excerpt": "台泥(1101)今天舉行法人說明會,台泥董事長張安平表示,幾年前就看到中國水泥市場需求會往下走,而且跌得很兇,台泥必須要離開,目前轉投資的葡萄牙和土耳其水泥事業量價齊揚………",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653314",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "台泥海外事業成獲利支柱,土耳其及歐洲貢獻47%營收、59%毛利。",
+          "metric": "47%",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "angle": "資本預算與財報配置",
+          "focus": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "excerpt": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "url": "https://news.cnyes.com/news/id/6671738",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "angle": "資本預算與財報配置",
+          "focus": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "excerpt": "台泥法說透露,歐洲水泥事業規劃上市,英國掛牌可能性較高,未來6個月可能有進一步進展。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E6%B3%A5%E6%B3%95%E8%AA%AA-%E5%BC%B5%E5%AE%89%E5%B9%B3-%E6%AD%90%E6%B4%B2%E6%B0%B4%E6%B3%A5%E4%BA%8B%E6%A5%AD%E5%9C%A8%E8%8B%B1%E5%9C%8B%E6%8E%9B%E7%89%8C%E5%8F%AF%E8%83%BD%E6%80%A7%E8%BC%83%E9%AB%98-%E6%96%B0%E7%9A%84%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B3%87%E6%9C%AA%E4%BE%86%E5%8D%8A%E5%B9%B4%E5%8F%AF%E6%9C%9B%E6%9C%89%E9%80%B2%E5%B1%95-114239953.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "台泥虧轉盈 董座張安平:海外2個水泥投資點半年內可望明朗",
+          "angle": "產業動態與市場焦點",
+          "focus": "台泥(1101)今天舉行法人說明會,台泥董事長張安平表示,幾年前就看到中國水泥市場需求會往下走,而且跌得很兇,台泥必須要離開,目前轉投資的葡萄牙和土耳其水泥事業量價齊揚………",
+          "excerpt": "台泥(1101)今天舉行法人說明會,台泥董事長張安平表示,幾年前就看到中國水泥市場需求會往下走,而且跌得很兇,台泥必須要離開,目前轉投資的葡萄牙和土耳其水泥事業量價齊揚………",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653314",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671738",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E6%B3%A5%E6%B3%95%E8%AA%AA-%E5%BC%B5%E5%AE%89%E5%B9%B3-%E6%AD%90%E6%B4%B2%E6%B0%B4%E6%B3%A5%E4%BA%8B%E6%A5%AD%E5%9C%A8%E8%8B%B1%E5%9C%8B%E6%8E%9B%E7%89%8C%E5%8F%AF%E8%83%BD%E6%80%A7%E8%BC%83%E9%AB%98-%E6%96%B0%E7%9A%84%E6%B5%B7%E5%A4%96%E6%8A%95%E8%B3%87%E6%9C%AA%E4%BE%86%E5%8D%8A%E5%B9%B4%E5%8F%AF%E6%9C%9B%E6%9C%89%E9%80%B2%E5%B1%95-114239953.html",
+          "headline": "〈台泥法說〉張安平:歐洲水泥事業在英國掛牌可能性較高 新的海外投資半年內可望有進展",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653314",
+          "headline": "台泥虧轉盈 董座張安平:海外2個水泥投資點半年內可望明朗",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "id": "s74cbb985",
+      "section": "deep",
+      "title": "美援引301條款牽動台美關稅 政院:對台美談判結果有信心",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。行政院表示,與美方保持密切聯繫,對調查結果有信心,外交部長林佳龍則說,調查報告將作為美方參考依據,並非最終稅率結果。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/837331",
+      "publishedAt": "2026-11-25T20:30:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/3bfe27da89fd52b35c411075ea2ef7e08b9327220de4afe11e246ad0fd6b0dd3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Ftaiwanhot.net.tw%2F772c03bf06679acfd137c20b918bab4e.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 32,
+        "impact": 34,
+        "data": 15,
+        "durability": 10
+      },
+      "mediaCount": 2,
       "impactCategories": [
         "利率與法規政策",
         "供應鏈與整併"
@@ -4826,110 +4461,191 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "台積電(2330)盤中低點2020元,大跌210元,創第2大下跌金額,收在2150元,跌80元;聯發科(2454)鎖住跌停價3645元至收盤;台達電(2308)盤中一度跌破千元關卡,收在1055元,下挫30元;鴻海(2317)打開跌停,收206.5元,跌20元。",
-          "metric": "206.5元",
+          "text": "行政院表示,與美方保持密切聯繫,對調查結果有信心,外交部長林佳龍則說,調查報告將作為美方參考依據,並非最終稅率結果。",
+          "metric": "",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "加權指數終場收在38195.43點,下跌1926.92點,跌幅4.80%,成交金額放大至新台幣1兆1881.99億元。",
-          "metric": "1881.99億元",
+          "text": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "metric": "",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "metric": "57011.62點",
+          "text": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "metric": "",
           "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA",
             "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "經濟日報",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "產業動態與市場焦點",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點…",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點…",
-          "url": "https://money.udn.com/money/story/5599/9901342",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "市場定價與外資籌碼",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E8%82%A1%E7%B5%82%E5%A0%B4%E9%87%8D%E6%8C%AB1633%E9%BB%9E-ai%E8%82%A1%E8%B3%A3%E5%A3%93%E5%86%8D%E7%8F%BE-072537752.html",
+          "headline": "傳美將對台調高關稅 政院:有信心反映先前談判成果",
+          "angle": "利率匯率與總經政策",
+          "focus": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "excerpt": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "url": "https://tw.news.yahoo.com/%E5%82%B3%E7%BE%8E%E5%B0%87%E5%B0%8D%E5%8F%B0%E8%AA%BF%E9%AB%98%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A2-%E6%9C%89%E4%BF%A1%E5%BF%83%E5%8F%8D%E6%98%A0%E5%85%88%E5%89%8D%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-123000406.html",
           "lang": "zh"
         },
         {
-          "media": "中央社 CNA",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "市場定價與外資籌碼",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "url": "https://www.cna.com.tw/news/afe/202611250177.aspx",
+          "media": "公視新聞網",
+          "headline": "美援引301條款牽動台美關稅 政院:對台美談判結果有信心",
+          "angle": "深度調查與結構剖析",
+          "focus": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "excerpt": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "url": "https://news.pts.org.tw/article/837331",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "台積電(2330)盤中低點2020元,大跌210元,創第2大下跌金額,收在2150元,跌80元;聯發科(2454)鎖住跌停價3645元至收盤;台達電(2308)盤中一度跌破千元關卡,收在1055元,下挫30元;鴻海(2317)打開跌停,收206.5元,跌20元。",
-          "metric": "206.5元",
+          "text": "行政院表示,與美方保持密切聯繫,對調查結果有信心,外交部長林佳龍則說,調查報告將作為美方參考依據,並非最終稅率結果。",
+          "metric": "",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "加權指數終場收在38195.43點,下跌1926.92點,跌幅4.80%,成交金額放大至新台幣1兆1881.99億元。",
-          "metric": "1881.99億元",
+          "text": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "metric": "",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "metric": "57011.62點",
+          "text": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "metric": "",
           "confirmed_by": [
-            "經濟日報",
-            "中央社 CNA",
             "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "產業動態與市場焦點",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點…",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點…",
-          "url": "https://money.udn.com/money/story/5599/9901342",
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "傳美將對台調高關稅 政院:有信心反映先前談判成果",
+          "angle": "利率匯率與總經政策",
+          "focus": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "excerpt": "近日外媒報導指出,美國近期擬公布《貿易法》第301條款「結構性產能過剩」調查結果,台灣與中國、歐盟、日本、南韓等多國都在調查之列,台灣恐將面臨新一輪關稅。",
+          "url": "https://tw.news.yahoo.com/%E5%82%B3%E7%BE%8E%E5%B0%87%E5%B0%8D%E5%8F%B0%E8%AA%BF%E9%AB%98%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A2-%E6%9C%89%E4%BF%A1%E5%BF%83%E5%8F%8D%E6%98%A0%E5%85%88%E5%89%8D%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-123000406.html",
+          "lang": "zh"
+        },
+        {
+          "media": "公視新聞網",
+          "headline": "美援引301條款牽動台美關稅 政院:對台美談判結果有信心",
+          "angle": "深度調查與結構剖析",
+          "focus": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "excerpt": "對於美國可能祭出的新關稅,其實並不是全新的關稅政策,而是先前川普政府對等關稅措施遭到最高法院推翻,而採取替代方案,美國貿易代表署援引貿易法301條款,鎖定16大主要貿易夥伴是否「產能過剩」,再製訂稅率。",
+          "url": "https://news.pts.org.tw/article/837331",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%82%B3%E7%BE%8E%E5%B0%87%E5%B0%8D%E5%8F%B0%E8%AA%BF%E9%AB%98%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A2-%E6%9C%89%E4%BF%A1%E5%BF%83%E5%8F%8D%E6%98%A0%E5%85%88%E5%89%8D%E8%AB%87%E5%88%A4%E6%88%90%E6%9E%9C-123000406.html",
+          "headline": "傳美將對台調高關稅 政院:有信心反映先前談判成果",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "市場定價與外資籌碼",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E8%82%A1%E7%B5%82%E5%A0%B4%E9%87%8D%E6%8C%AB1633%E9%BB%9E-ai%E8%82%A1%E8%B3%A3%E5%A3%93%E5%86%8D%E7%8F%BE-072537752.html",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%8F%B4%E5%BC%95301%E6%A2%9D%E6%AC%BE%E7%89%BD%E5%8B%95%E5%8F%B0%E7%BE%8E%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A2-%E5%B0%8D%E5%8F%B0%E7%BE%8E%E8%AB%87%E5%88%A4%E7%B5%90%E6%9E%9C%E6%9C%89%E4%BF%A1%E5%BF%83-113208124.html",
+          "headline": "美援引301條款牽動台美關稅 政院:對台美談判結果有信心",
           "lang": "zh"
         },
         {
-          "media": "中央社 CNA",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "angle": "市場定價與外資籌碼",
-          "focus": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "excerpt": "日本東京股市今天重挫,日經225指數終場下跌1633.01點,跌幅2.78%,收在57011.62點,盤中一度大跌逾2100點。",
-          "url": "https://www.cna.com.tw/news/afe/202611250177.aspx",
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/837331",
+          "headline": "美援引301條款牽動台美關稅 政院:對台美談判結果有信心",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "id": "sb0ef8c84",
+      "section": "business_tech",
+      "title": "希音第3季財報獲利成長26.8%",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。全球活躍客戶總數達到2.91億,與此前持平。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5604/9901999",
+      "publishedAt": "2026-11-25T20:20:14+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35553691.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "imageCredit": "經濟日報",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 34,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "metric": "102.7億美元",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "全球活躍客戶總數達到2.91億,與此前持平。",
+          "metric": "2.91億",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "希音第3季財報獲利成長26.8%",
+          "angle": "資本預算與財報配置",
+          "focus": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "excerpt": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "url": "https://money.udn.com/money/story/5604/9901999",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "metric": "102.7億美元",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "全球活躍客戶總數達到2.91億,與此前持平。",
+          "metric": "2.91億",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "希音第3季財報獲利成長26.8%",
+          "angle": "資本預算與財報配置",
+          "focus": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "excerpt": "希音25日公布上市後首份第3季財報,營收102.7億美元,年減5.9%,經調整淨利潤達到7.9億美元,年增26.8%,主因透過供應鏈提高效率、成本轉嫁、業務結構升級等,帶動獲利走高。",
+          "url": "https://money.udn.com/money/story/5604/9901999",
           "lang": "zh"
         }
       ],
@@ -4937,55 +4653,243 @@
       "sources": [
         {
           "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9901342",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
+          "url": "https://money.udn.com/money/story/5604/9901999",
+          "headline": "希音第3季財報獲利成長26.8%",
           "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "id": "s5239038a",
+      "section": "business_tech",
+      "title": "國泰金獲台灣企業永續獎14項肯定 將永續融入核心職能",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>第19屆「台灣企業永續獎」(Tcsa)今(25)日舉行頒獎典禮,國泰金控及旗下子公司一舉囊括14項大獎,獲獎範疇涵蓋永續綜合績效、永續報告、資訊安全、人才發展及幸福職場等面向。其中,國泰金控獲選「台灣十大永續典範企業獎(服務業)」,國泰產險成為歷年首家榮獲「年度最佳報告書」的金融業者,展現國泰金控將永續融入核心職能的成果備受肯定。</p> <p>國泰金控今(2026)年囊括「台灣十大永續典範企業獎(服務業)」、「永續報告獎-白金級」、「幸福職場領袖獎」及「資訊安全領袖獎」4項大獎。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671731",
+      "publishedAt": "2026-11-25T19:18:41+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671731/xl/bc6c3ce1213302d8905445fadd22f406.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 18,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "國泰人壽榮獲「永續報告獎-白金級」與「資訊安全領袖獎」雙項肯定。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E8%82%A1%E7%B5%82%E5%A0%B4%E9%87%8D%E6%8C%AB1633%E9%BB%9E-ai%E8%82%A1%E8%B3%A3%E5%A3%93%E5%86%8D%E7%8F%BE-072537752.html",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
-          "lang": "zh"
+          "text": "此外,以「治理扎根資安,韌性成就永續」主軸,提升資安風險辨識與應變能力。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
         },
         {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611250177.aspx",
-          "headline": "日股終場重挫1633點 AI股賣壓再現",
+          "text": "國泰世華銀行獲「資訊安全領袖獎」、「人才發展領袖獎」及「永續報告獎-金級」3項殊榮。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "國泰金獲台灣企業永續獎14項肯定 將永續融入核心職能",
+          "angle": "政策法規與公共治理",
+          "focus": "第19屆「台灣企業永續獎」(Tcsa)今(25)日舉行頒獎典禮,國泰金控及旗下子公司一舉囊括14項大獎,獲獎範疇涵蓋永續綜合績效、永續報告、資訊安全、人才發展及幸福職場等面向。",
+          "excerpt": "第19屆「台灣企業永續獎」(Tcsa)今(25)日舉行頒獎典禮,國泰金控及旗下子公司一舉囊括14項大獎,獲獎範疇涵蓋永續綜合績效、永續報告、資訊安全、人才發展及幸福職場等面向。",
+          "url": "https://news.cnyes.com/news/id/6671731",
           "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "國泰人壽榮獲「永續報告獎-白金級」與「資訊安全領袖獎」雙項肯定。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%B5%82%E5%A0%B4%E9%87%8D%E6%8C%AB1926%E9%BB%9E%E5%8F%B2%E4%B8%8A%E7%AC%AC6%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%B8%8B%E8%B7%8C80%E5%85%83-055736999.html",
-          "headline": "台股終場重挫1926點史上第6大跌點 台積電下跌80元",
-          "lang": "zh"
+          "text": "此外,以「治理扎根資安,韌性成就永續」主軸,提升資安風險辨識與應變能力。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
         },
         {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/afe/202611250138.aspx",
-          "headline": "台股終場重挫1926點史上第6大跌點 台積電下跌80元",
+          "text": "國泰世華銀行獲「資訊安全領袖獎」、「人才發展領袖獎」及「永續報告獎-金級」3項殊榮。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "國泰金獲台灣企業永續獎14項肯定 將永續融入核心職能",
+          "angle": "政策法規與公共治理",
+          "focus": "第19屆「台灣企業永續獎」(Tcsa)今(25)日舉行頒獎典禮,國泰金控及旗下子公司一舉囊括14項大獎,獲獎範疇涵蓋永續綜合績效、永續報告、資訊安全、人才發展及幸福職場等面向。",
+          "excerpt": "第19屆「台灣企業永續獎」(Tcsa)今(25)日舉行頒獎典禮,國泰金控及旗下子公司一舉囊括14項大獎,獲獎範疇涵蓋永續綜合績效、永續報告、資訊安全、人才發展及幸福職場等面向。",
+          "url": "https://news.cnyes.com/news/id/6671731",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671731",
+          "headline": "國泰金獲台灣企業永續獎14項肯定 將永續融入核心職能",
+          "lang": "zh"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "s332b343c",
+      "section": "deep",
+      "title": "受少子化衝擊日偏鄉鐵道陷虧損 部分路段擬廢線改公車接駁",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "受到少子化與人口外移衝擊,鐵路營運面臨危機。日本JR偏遠鄉鎮路線有30%以上,平均每日每公里載運不到2000人,已經難以維持營運。日本政府近日在岡山縣提出最新架構草案,建議部分虧損路段轉型改由公車接駁,但居民與觀光業者有不同看法。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/837407",
+      "publishedAt": "2026-11-25T20:27:43+08:00",
+      "imageUrl": "https://news-data.pts.org.tw/media/302826/conversions/RccKi8Pd9jZkfhDXCqPtX4Ub3CPfT8H2bh5GGUDQ-og_jpg.jpg",
+      "imageCredit": "公視新聞網",
+      "score": 89,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 15,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "日本JR偏遠鄉鎮路線有30%以上,平均每日每公里載運不到2000人,已經難以維持營運。",
+          "metric": "30%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "日本政府近日在岡山縣提出最新架構草案,建議部分虧損路段轉型改由公車接駁,但居民與觀光業者有不同看法。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "受少子化衝擊日偏鄉鐵道陷虧損 部分路段擬廢線改公車接駁",
+          "angle": "先進技術與算力規格",
+          "focus": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "excerpt": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "url": "https://news.pts.org.tw/article/837407",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "日本JR偏遠鄉鎮路線有30%以上,平均每日每公里載運不到2000人,已經難以維持營運。",
+          "metric": "30%",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "日本政府近日在岡山縣提出最新架構草案,建議部分虧損路段轉型改由公車接駁,但居民與觀光業者有不同看法。",
+          "metric": "",
+          "confirmed_by": [
+            "公視新聞網"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "公視新聞網",
+          "headline": "受少子化衝擊日偏鄉鐵道陷虧損 部分路段擬廢線改公車接駁",
+          "angle": "先進技術與算力規格",
+          "focus": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "excerpt": "受到少子化與人口外移衝擊,鐵路營運面臨危機。",
+          "url": "https://news.pts.org.tw/article/837407",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/837407",
+          "headline": "受少子化衝擊日偏鄉鐵道陷虧損 部分路段擬廢線改公車接駁",
           "lang": "zh"
         }
       ],
       "rank": 10
     },
     {
-      "id": "sfa6fcfc8",
-      "section": "deep",
-      "title": "在野籲謹慎應對美301調查報告 政院:有新進度將說明",
+      "id": "sb4ccd54c",
+      "section": "business_tech",
+      "title": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。立法院國民黨團、民眾黨團都提醒,台灣經濟不能因為選舉而被耽誤,呼籲政府小心應對、盡快提出因應對策。民進黨團則認為,台美雙方已經簽訂對等貿易協定ART以及MOU,確立對等關稅為15%且不疊加,樂觀看待這回美方調查。而行政院回應,我方持續與美方保持密切聯繫,若有新進度將對外說明。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/837271",
-      "publishedAt": "2026-11-25T14:31:30+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302754/conversions/og9aYSOYpOKzdsvvMR5594HYEwFKgrrK4CAcdKuP-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 85,
+      "summary": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。 美方稱將依各貿易夥伴分別訂稅率,原則不與現有關稅疊加;中國例外,擬加徵20%並疊加2018年25%關稅。 新措施依《1974年貿易法》第301條提出,美方指控補貼造成「結構性產能過剩」。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671770",
+      "publishedAt": "2026-11-25T21:18:54+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671770/xl/1310e022f8b10a1af593964505549a0d.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 89,
       "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 30,
-        "data": 15,
-        "durability": 10
+        "resonance": 27,
+        "impact": 34,
+        "data": 20,
+        "durability": 8
       },
       "mediaCount": 1,
       "impactCategories": [
@@ -4995,169 +4899,195 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "民進黨團則認為,台美雙方已經簽訂對等貿易協定ART以及MOU,確立對等關稅為15%且不疊加,樂觀看待這回美方調查。",
-          "metric": "15%",
+          "text": "美方稱將依各貿易夥伴分別訂稅率,原則不與現有關稅疊加;中國例外,擬加徵20%並疊加2018年25%關稅。",
+          "metric": "20%",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "而行政院回應,我方持續與美方保持密切聯繫,若有新進度將對外說明。",
-          "metric": "",
+          "text": "新措施依《1974年貿易法》第301條提出,美方指控補貼造成「結構性產能過剩」。",
+          "metric": "1974年",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
+          "text": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
           "metric": "",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "在野籲謹慎應對美301調查報告 政院:有新進度將說明",
-          "angle": "深度調查與結構剖析",
-          "focus": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
-          "excerpt": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
-          "url": "https://news.pts.org.tw/article/837271",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "公視新聞網報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "coreFacts": [
-        {
-          "text": "民進黨團則認為,台美雙方已經簽訂對等貿易協定ART以及MOU,確立對等關稅為15%且不疊加,樂觀看待這回美方調查。",
-          "metric": "15%",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "而行政院回應,我方持續與美方保持密切聯繫,若有新進度將對外說明。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "在野籲謹慎應對美301調查報告 政院:有新進度將說明",
-          "angle": "深度調查與結構剖析",
-          "focus": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
-          "excerpt": "傳出川普政府近期將公布產能過剩301調查報告,可能對台灣在內的數十個國家加徵新關稅,引發朝野關注。",
-          "url": "https://news.pts.org.tw/article/837271",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "公視新聞網報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/837271",
-          "headline": "在野籲謹慎應對美301調查報告 政院:有新進度將說明",
-          "lang": "zh"
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "id": "s50b373f7",
-      "section": "deep",
-      "title": "苗栗破獲人口販運及性剝削案 用釣蝦場掩護、23外籍女受害",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。遭拘提的5名集團成員涉嫌透過境外仲介,以高薪吸引外籍女子來台,強迫從事性交易,還以扣薪和羞辱等手段控制被害人,近一年非法營收初估高達新台幣4000萬元。",
-      "source": "公視新聞網",
-      "url": "https://news.pts.org.tw/article/837263",
-      "publishedAt": "2026-11-25T14:30:17+08:00",
-      "imageUrl": "https://news-data.pts.org.tw/media/302758/conversions/179GtNxEprRtzRMGKaHOiIkplxz1QRWp0GJYF9Q1-og_jpg.jpg",
-      "imageCredit": "公視新聞網",
-      "score": 83,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 28,
-        "data": 15,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "遭拘提的5名集團成員涉嫌透過境外仲介,以高薪吸引外籍女子來台,強迫從事性交易,還以扣薪和羞辱等手段控制被害人,近一年非法營收初估高達新台幣4000萬元。",
-          "metric": "4000萬",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
-          "metric": "",
-          "confirmed_by": [
-            "公視新聞網"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "公視新聞網",
-          "headline": "苗栗破獲人口販運及性剝削案 用釣蝦場掩護、23外籍女受害",
-          "angle": "資本預算與財報配置",
-          "focus": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
-          "excerpt": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
-          "url": "https://news.pts.org.tw/article/837263",
+          "media": "鉅亨網 Anue",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
+          "excerpt": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
+          "url": "https://news.cnyes.com/news/id/6671770",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "遭拘提的5名集團成員涉嫌透過境外仲介,以高薪吸引外籍女子來台,強迫從事性交易,還以扣薪和羞辱等手段控制被害人,近一年非法營收初估高達新台幣4000萬元。",
-          "metric": "4000萬",
+          "text": "美方稱將依各貿易夥伴分別訂稅率,原則不與現有關稅疊加;中國例外,擬加徵20%並疊加2018年25%關稅。",
+          "metric": "20%",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
+          "text": "新措施依《1974年貿易法》第301條提出,美方指控補貼造成「結構性產能過剩」。",
+          "metric": "1974年",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
           "metric": "",
           "confirmed_by": [
-            "公視新聞網"
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "公視新聞網",
-          "headline": "苗栗破獲人口販運及性剝削案 用釣蝦場掩護、23外籍女受害",
-          "angle": "資本預算與財報配置",
-          "focus": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
-          "excerpt": "移民署新北市專勤隊歷經一年多蒐證追查,10月中旬在苗栗竹南一處可疑釣蝦場,破獲跨國人口販運及性剝削案件,查獲23名外籍女子,其中1人確認為人口販運被害人。",
-          "url": "https://news.pts.org.tw/article/837263",
+          "media": "鉅亨網 Anue",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
+          "excerpt": "美國提議對中國、歐盟、日本、印度等14個貿易夥伴課徵新關稅,台灣也在涵蓋範圍內,尚無明確實施時間表。",
+          "url": "https://news.cnyes.com/news/id/6671770",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671770",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "lang": "zh"
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "id": "s999484e2",
+      "section": "deep",
+      "title": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。對此台積電表示,相關計畫仍未定案,提交相關文件是為確保在評估過程中,可以與當地保持透明的溝通。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/837329",
+      "publishedAt": "2026-11-25T18:04:01+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/7e225954bb8fa989421f8e13163bafeb75408731434f40ced9a3f5698269e990/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_pts_org_tw_599%2F7c8a35d662b93af39cb658d608ff1c93_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 32,
+        "impact": 28,
+        "data": 18,
+        "durability": 10
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "metric": "226億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "對此台積電表示,相關計畫仍未定案,提交相關文件是為確保在評估過程中,可以與當地保持透明的溝通。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "excerpt": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%91%E5%BE%B7%E5%B7%9E%E9%81%9E%E7%A7%9F%E7%A8%85%E5%84%AA%E6%83%A0%E7%94%B3%E8%AB%8B-%E6%93%AC%E6%8A%95%E8%B3%877100%E5%84%84%E8%A8%AD%E6%96%B0%E6%99%B6%E5%9C%93%E5%BB%A0-100100374.html",
+          "lang": "zh"
+        },
+        {
           "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/837263",
-          "headline": "苗栗破獲人口販運及性剝削案 用釣蝦場掩護、23外籍女受害",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "excerpt": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "url": "https://news.pts.org.tw/article/837329",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "metric": "226億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "公視新聞網"
+          ]
+        },
+        {
+          "text": "對此台積電表示,相關計畫仍未定案,提交相關文件是為確保在評估過程中,可以與當地保持透明的溝通。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "excerpt": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%91%E5%BE%B7%E5%B7%9E%E9%81%9E%E7%A7%9F%E7%A8%85%E5%84%AA%E6%83%A0%E7%94%B3%E8%AB%8B-%E6%93%AC%E6%8A%95%E8%B3%877100%E5%84%84%E8%A8%AD%E6%96%B0%E6%99%B6%E5%9C%93%E5%BB%A0-100100374.html",
+          "lang": "zh"
+        },
+        {
+          "media": "公視新聞網",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "excerpt": "外媒報導,台積電正評估投資226億美元、約相當於台幣7100億元,在美國德州布拉索斯郡興建佔地超過3200英畝的半導體園區,並已於23日向德州政府遞交租稅優惠申請書。",
+          "url": "https://news.pts.org.tw/article/837329",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%90%91%E5%BE%B7%E5%B7%9E%E9%81%9E%E7%A7%9F%E7%A8%85%E5%84%AA%E6%83%A0%E7%94%B3%E8%AB%8B-%E6%93%AC%E6%8A%95%E8%B3%877100%E5%84%84%E8%A8%AD%E6%96%B0%E6%99%B6%E5%9C%93%E5%BB%A0-100100374.html",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
+          "lang": "zh"
+        },
+        {
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/837329",
+          "headline": "台積電向德州遞租稅優惠申請 擬投資7100億設新晶圓廠",
           "lang": "zh"
         }
       ],
@@ -5165,10 +5095,10 @@
     }
   ],
   "stats": {
-    "clusters": 361,
+    "clusters": 375,
     "passed": 12,
-    "totalQualified": 56,
-    "below_threshold": 305,
+    "totalQualified": 65,
+    "below_threshold": 310,
     "articlesAnalysed": 462
   },
   "sourcesStatus": [
@@ -5178,7 +5108,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 74,
+      "count": 77,
       "error": null
     },
     {
@@ -5187,7 +5117,7 @@
       "group": "business",
       "section": "頭條要聞",
       "ok": true,
-      "count": 84,
+      "count": 81,
       "error": null
     },
     {
@@ -5195,8 +5125,8 @@
       "name": "鉅亨網專題追蹤",
       "group": "business",
       "section": "主權基金與國家資本",
-      "ok": true,
-      "count": 1,
+      "ok": false,
+      "count": 0,
       "error": null
     },
     {
@@ -5205,7 +5135,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 161,
+      "count": 171,
       "error": null
     },
     {
@@ -5214,7 +5144,7 @@
       "group": "business",
       "section": "產經與財經政策",
       "ok": true,
-      "count": 37,
+      "count": 34,
       "error": null
     },
     {
@@ -5232,7 +5162,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 65,
+      "count": 67,
       "error": null
     },
     {
@@ -5276,8 +5206,8 @@
       "name": "報導者",
       "group": "deep",
       "section": "深度調查報導",
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 5,
       "error": null
     },
     {
@@ -5286,7 +5216,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 23,
+      "count": 22,
       "error": null
     }
   ]
