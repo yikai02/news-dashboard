@@ -7,8 +7,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-25T07:30:25+08:00",
-  "updatedAt": "2026-11-25 07:30",
+  "generatedAt": "2026-11-25T09:15:14+08:00",
+  "updatedAt": "2026-11-25 09:15",
   "date": "2026-11-25",
   "weekday": "星期三",
   "dataMode": "live",
@@ -30,11 +30,12 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.928,
-        "change": 0.026,
-        "changePct": 0.53,
+        "value": 4.92,
+        "change": 0.018,
+        "changePct": 0.37,
         "asOf": "2026-11-24",
         "history": [
+          4.95,
           4.892,
           4.837,
           4.859,
@@ -48,8 +49,7 @@
           5.066,
           5.052,
           4.912,
-          4.92,
-          4.928
+          4.92
         ],
         "source": "CNBC Market Data"
       },
@@ -94,9 +94,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.814,
-        "change": 0.0,
-        "changePct": 0.0,
+        "value": 103.881,
+        "change": 0.067,
+        "changePct": 0.06,
         "asOf": "2026-11-24",
         "history": [
           102.298,
@@ -113,7 +113,7 @@
           103.807,
           103.84,
           104.318,
-          103.814
+          103.881
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 81.62,
-        "change": -0.43,
-        "changePct": -0.52,
+        "value": 81.67,
+        "change": -0.38,
+        "changePct": -0.46,
         "asOf": "2026-11-24",
         "history": [
           88.12,
@@ -145,7 +145,7 @@
           83.21,
           83.98,
           80.17,
-          81.62
+          81.67
         ],
         "source": "CNBC Market Data"
       },
@@ -158,9 +158,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3556.7,
-        "change": -5.2,
-        "changePct": -0.15,
+        "value": 3544.3,
+        "change": -17.6,
+        "changePct": -0.49,
         "asOf": "2026-11-24",
         "history": [
           4073.0,
@@ -177,7 +177,7 @@
           3685.5,
           3515.4,
           3651.4,
-          3556.7
+          3544.3
         ],
         "source": "CNBC Market Data"
       },
@@ -220,11 +220,12 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.928,
-        "change": 0.026,
-        "changePct": 0.53,
+        "value": 4.92,
+        "change": 0.018,
+        "changePct": 0.37,
         "asOf": "2026-11-24",
         "history": [
+          4.95,
           4.892,
           4.837,
           4.859,
@@ -238,8 +239,7 @@
           5.066,
           5.052,
           4.912,
-          4.92,
-          4.928
+          4.92
         ],
         "source": "CNBC Market Data"
       },
@@ -284,9 +284,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.814,
-        "change": 0.0,
-        "changePct": 0.0,
+        "value": 103.881,
+        "change": 0.067,
+        "changePct": 0.06,
         "asOf": "2026-11-24",
         "history": [
           102.298,
@@ -303,7 +303,7 @@
           103.807,
           103.84,
           104.318,
-          103.814
+          103.881
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 81.62,
-        "change": -0.43,
-        "changePct": -0.52,
+        "value": 81.67,
+        "change": -0.38,
+        "changePct": -0.46,
         "asOf": "2026-11-24",
         "history": [
           88.12,
@@ -335,7 +335,7 @@
           83.21,
           83.98,
           80.17,
-          81.62
+          81.67
         ],
         "source": "CNBC Market Data"
       },
@@ -348,9 +348,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3556.7,
-        "change": -5.2,
-        "changePct": -0.15,
+        "value": 3544.3,
+        "change": -17.6,
+        "changePct": -0.49,
         "asOf": "2026-11-24",
         "history": [
           4073.0,
@@ -367,7 +367,7 @@
           3685.5,
           3515.4,
           3651.4,
-          3556.7
+          3544.3
         ],
         "source": "CNBC Market Data"
       },
@@ -1198,12 +1198,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 40122.35,
-            "change": 3310.46,
-            "changePct": 8.99,
-            "asOf": "2026-11-24",
+            "value": 38795.58,
+            "change": -1326.77,
+            "changePct": -3.31,
+            "asOf": "2026-11-25",
             "history": [
-              42948.91,
               41574.72,
               39701.64,
               41661.7,
@@ -1217,7 +1216,8 @@
               38426.89,
               36033.29,
               36811.89,
-              40122.35
+              40122.35,
+              38795.58
             ],
             "source": "TWSE / TPEx"
           },
@@ -1230,12 +1230,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 293.23,
-            "change": 22.33,
-            "changePct": 8.24,
-            "asOf": "2026-11-24",
+            "value": 288.91,
+            "change": -4.32,
+            "changePct": -1.47,
+            "asOf": "2026-11-25",
             "history": [
-              343.5,
               321.47,
               304.02,
               321.97,
@@ -1249,7 +1248,8 @@
               285.33,
               263.31,
               270.9,
-              293.23
+              293.23,
+              288.91
             ],
             "source": "TWSE / TPEx"
           }
@@ -1264,12 +1264,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 95.7,
-            "change": 8.7,
-            "changePct": 10.0,
-            "asOf": "2026-11-24",
+            "value": 91.325,
+            "change": -4.375,
+            "changePct": -4.57,
+            "asOf": "2026-11-25",
             "history": [
-              99.85,
               97.15,
               92.5,
               97.45,
@@ -1283,7 +1282,8 @@
               90.2,
               84.45,
               87.0,
-              95.7
+              95.7,
+              91.325
             ],
             "source": "TWSE / TPEx"
           },
@@ -1296,12 +1296,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 215.1,
-            "change": 19.55,
-            "changePct": 10.0,
-            "asOf": "2026-11-24",
+            "value": 205.3,
+            "change": -9.8,
+            "changePct": -4.56,
+            "asOf": "2026-11-25",
             "history": [
-              228.55,
               222.55,
               210.1,
               223.6,
@@ -1315,7 +1314,8 @@
               202.65,
               189.8,
               195.55,
-              215.1
+              215.1,
+              205.3
             ],
             "source": "TWSE / TPEx"
           },
@@ -1328,12 +1328,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2230.0,
-            "change": 200.0,
-            "changePct": 9.85,
-            "asOf": "2026-11-24",
+            "value": 2135.0,
+            "change": -95.0,
+            "changePct": -4.26,
+            "asOf": "2026-11-25",
             "history": [
-              2260.0,
               2240.0,
               2135.0,
               2235.0,
@@ -1347,7 +1346,8 @@
               2100.0,
               2000.0,
               2030.0,
-              2230.0
+              2230.0,
+              2135.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1360,12 +1360,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 97.1,
-            "change": 8.8,
-            "changePct": 9.97,
-            "asOf": "2026-11-24",
+            "value": 89.45,
+            "change": -7.65,
+            "changePct": -7.88,
+            "asOf": "2026-11-25",
             "history": [
-              105.5,
               98.4,
               92.0,
               96.7,
@@ -1379,7 +1378,8 @@
               88.2,
               80.3,
               88.3,
-              97.1
+              97.1,
+              89.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1392,12 +1392,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 4050.0,
-            "change": 365.0,
-            "changePct": 9.91,
-            "asOf": "2026-11-24",
+            "value": 3882.5,
+            "change": -167.5,
+            "changePct": -4.14,
+            "asOf": "2026-11-25",
             "history": [
-              3715.0,
               3460.0,
               3390.0,
               3725.0,
@@ -1411,7 +1410,8 @@
               3720.0,
               3350.0,
               3685.0,
-              4050.0
+              4050.0,
+              3882.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1424,12 +1424,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 226.5,
-            "change": 20.5,
-            "changePct": 9.95,
-            "asOf": "2026-11-24",
+            "value": 210.75,
+            "change": -15.75,
+            "changePct": -6.95,
+            "asOf": "2026-11-25",
             "history": [
-              240.0,
               235.0,
               224.5,
               239.0,
@@ -1443,7 +1442,8 @@
               220.5,
               210.0,
               206.0,
-              226.5
+              226.5,
+              210.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -1458,12 +1458,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 40122.35,
-            "change": 3310.46,
-            "changePct": 8.99,
-            "asOf": "2026-11-24",
+            "value": 38795.58,
+            "change": -1326.77,
+            "changePct": -3.31,
+            "asOf": "2026-11-25",
             "history": [
-              42948.91,
               41574.72,
               39701.64,
               41661.7,
@@ -1477,7 +1476,8 @@
               38426.89,
               36033.29,
               36811.89,
-              40122.35
+              40122.35,
+              38795.58
             ],
             "source": "TWSE / TPEx"
           },
@@ -1490,12 +1490,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 293.23,
-            "change": 22.33,
-            "changePct": 8.24,
-            "asOf": "2026-11-24",
+            "value": 288.91,
+            "change": -4.32,
+            "changePct": -1.47,
+            "asOf": "2026-11-25",
             "history": [
-              343.5,
               321.47,
               304.02,
               321.97,
@@ -1509,7 +1508,8 @@
               285.33,
               263.31,
               270.9,
-              293.23
+              293.23,
+              288.91
             ],
             "source": "TWSE / TPEx"
           },
@@ -1522,12 +1522,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 95.7,
-            "change": 8.7,
-            "changePct": 10.0,
-            "asOf": "2026-11-24",
+            "value": 91.325,
+            "change": -4.375,
+            "changePct": -4.57,
+            "asOf": "2026-11-25",
             "history": [
-              99.85,
               97.15,
               92.5,
               97.45,
@@ -1541,7 +1540,8 @@
               90.2,
               84.45,
               87.0,
-              95.7
+              95.7,
+              91.325
             ],
             "source": "TWSE / TPEx"
           },
@@ -1554,12 +1554,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 215.1,
-            "change": 19.55,
-            "changePct": 10.0,
-            "asOf": "2026-11-24",
+            "value": 205.3,
+            "change": -9.8,
+            "changePct": -4.56,
+            "asOf": "2026-11-25",
             "history": [
-              228.55,
               222.55,
               210.1,
               223.6,
@@ -1573,7 +1572,8 @@
               202.65,
               189.8,
               195.55,
-              215.1
+              215.1,
+              205.3
             ],
             "source": "TWSE / TPEx"
           },
@@ -1586,12 +1586,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2230.0,
-            "change": 200.0,
-            "changePct": 9.85,
-            "asOf": "2026-11-24",
+            "value": 2135.0,
+            "change": -95.0,
+            "changePct": -4.26,
+            "asOf": "2026-11-25",
             "history": [
-              2260.0,
               2240.0,
               2135.0,
               2235.0,
@@ -1605,7 +1604,8 @@
               2100.0,
               2000.0,
               2030.0,
-              2230.0
+              2230.0,
+              2135.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1618,12 +1618,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 97.1,
-            "change": 8.8,
-            "changePct": 9.97,
-            "asOf": "2026-11-24",
+            "value": 89.45,
+            "change": -7.65,
+            "changePct": -7.88,
+            "asOf": "2026-11-25",
             "history": [
-              105.5,
               98.4,
               92.0,
               96.7,
@@ -1637,7 +1636,8 @@
               88.2,
               80.3,
               88.3,
-              97.1
+              97.1,
+              89.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1650,12 +1650,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 4050.0,
-            "change": 365.0,
-            "changePct": 9.91,
-            "asOf": "2026-11-24",
+            "value": 3882.5,
+            "change": -167.5,
+            "changePct": -4.14,
+            "asOf": "2026-11-25",
             "history": [
-              3715.0,
               3460.0,
               3390.0,
               3725.0,
@@ -1669,7 +1668,8 @@
               3720.0,
               3350.0,
               3685.0,
-              4050.0
+              4050.0,
+              3882.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1682,12 +1682,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 226.5,
-            "change": 20.5,
-            "changePct": 9.95,
-            "asOf": "2026-11-24",
+            "value": 210.75,
+            "change": -15.75,
+            "changePct": -6.95,
+            "asOf": "2026-11-25",
             "history": [
-              240.0,
               235.0,
               224.5,
               239.0,
@@ -1701,7 +1700,8 @@
               220.5,
               210.0,
               206.0,
-              226.5
+              226.5,
+              210.75
             ],
             "source": "TWSE / TPEx"
           }
@@ -1720,11 +1720,12 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 4.928,
-      "change": 0.026,
-      "changePct": 0.53,
+      "value": 4.92,
+      "change": 0.018,
+      "changePct": 0.37,
       "asOf": "2026-11-24",
       "history": [
+        4.95,
         4.892,
         4.837,
         4.859,
@@ -1738,8 +1739,7 @@
         5.066,
         5.052,
         4.912,
-        4.92,
-        4.928
+        4.92
       ],
       "source": "CNBC Market Data"
     },
@@ -1784,9 +1784,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.814,
-      "change": 0.0,
-      "changePct": 0.0,
+      "value": 103.881,
+      "change": 0.067,
+      "changePct": 0.06,
       "asOf": "2026-11-24",
       "history": [
         102.298,
@@ -1803,7 +1803,7 @@
         103.807,
         103.84,
         104.318,
-        103.814
+        103.881
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 81.62,
-      "change": -0.43,
-      "changePct": -0.52,
+      "value": 81.67,
+      "change": -0.38,
+      "changePct": -0.46,
       "asOf": "2026-11-24",
       "history": [
         88.12,
@@ -1835,7 +1835,7 @@
         83.21,
         83.98,
         80.17,
-        81.62
+        81.67
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,9 +1848,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3556.7,
-      "change": -5.2,
-      "changePct": -0.15,
+      "value": 3544.3,
+      "change": -17.6,
+      "changePct": -0.49,
       "asOf": "2026-11-24",
       "history": [
         4073.0,
@@ -1867,7 +1867,7 @@
         3685.5,
         3515.4,
         3651.4,
-        3556.7
+        3544.3
       ],
       "source": "CNBC Market Data"
     },
@@ -2698,12 +2698,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 40122.35,
-          "change": 3310.46,
-          "changePct": 8.99,
-          "asOf": "2026-11-24",
+          "value": 38795.58,
+          "change": -1326.77,
+          "changePct": -3.31,
+          "asOf": "2026-11-25",
           "history": [
-            42948.91,
             41574.72,
             39701.64,
             41661.7,
@@ -2717,7 +2716,8 @@
             38426.89,
             36033.29,
             36811.89,
-            40122.35
+            40122.35,
+            38795.58
           ],
           "source": "TWSE / TPEx"
         },
@@ -2730,12 +2730,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 293.23,
-          "change": 22.33,
-          "changePct": 8.24,
-          "asOf": "2026-11-24",
+          "value": 288.91,
+          "change": -4.32,
+          "changePct": -1.47,
+          "asOf": "2026-11-25",
           "history": [
-            343.5,
             321.47,
             304.02,
             321.97,
@@ -2749,7 +2748,8 @@
             285.33,
             263.31,
             270.9,
-            293.23
+            293.23,
+            288.91
           ],
           "source": "TWSE / TPEx"
         }
@@ -2764,12 +2764,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 95.7,
-          "change": 8.7,
-          "changePct": 10.0,
-          "asOf": "2026-11-24",
+          "value": 91.325,
+          "change": -4.375,
+          "changePct": -4.57,
+          "asOf": "2026-11-25",
           "history": [
-            99.85,
             97.15,
             92.5,
             97.45,
@@ -2783,7 +2782,8 @@
             90.2,
             84.45,
             87.0,
-            95.7
+            95.7,
+            91.325
           ],
           "source": "TWSE / TPEx"
         },
@@ -2796,12 +2796,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 215.1,
-          "change": 19.55,
-          "changePct": 10.0,
-          "asOf": "2026-11-24",
+          "value": 205.3,
+          "change": -9.8,
+          "changePct": -4.56,
+          "asOf": "2026-11-25",
           "history": [
-            228.55,
             222.55,
             210.1,
             223.6,
@@ -2815,7 +2814,8 @@
             202.65,
             189.8,
             195.55,
-            215.1
+            215.1,
+            205.3
           ],
           "source": "TWSE / TPEx"
         },
@@ -2828,12 +2828,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2230.0,
-          "change": 200.0,
-          "changePct": 9.85,
-          "asOf": "2026-11-24",
+          "value": 2135.0,
+          "change": -95.0,
+          "changePct": -4.26,
+          "asOf": "2026-11-25",
           "history": [
-            2260.0,
             2240.0,
             2135.0,
             2235.0,
@@ -2847,7 +2846,8 @@
             2100.0,
             2000.0,
             2030.0,
-            2230.0
+            2230.0,
+            2135.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -2860,12 +2860,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 97.1,
-          "change": 8.8,
-          "changePct": 9.97,
-          "asOf": "2026-11-24",
+          "value": 89.45,
+          "change": -7.65,
+          "changePct": -7.88,
+          "asOf": "2026-11-25",
           "history": [
-            105.5,
             98.4,
             92.0,
             96.7,
@@ -2879,7 +2878,8 @@
             88.2,
             80.3,
             88.3,
-            97.1
+            97.1,
+            89.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -2892,12 +2892,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 4050.0,
-          "change": 365.0,
-          "changePct": 9.91,
-          "asOf": "2026-11-24",
+          "value": 3882.5,
+          "change": -167.5,
+          "changePct": -4.14,
+          "asOf": "2026-11-25",
           "history": [
-            3715.0,
             3460.0,
             3390.0,
             3725.0,
@@ -2911,7 +2910,8 @@
             3720.0,
             3350.0,
             3685.0,
-            4050.0
+            4050.0,
+            3882.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2924,12 +2924,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 226.5,
-          "change": 20.5,
-          "changePct": 9.95,
-          "asOf": "2026-11-24",
+          "value": 210.75,
+          "change": -15.75,
+          "changePct": -6.95,
+          "asOf": "2026-11-25",
           "history": [
-            240.0,
             235.0,
             224.5,
             239.0,
@@ -2943,7 +2942,8 @@
             220.5,
             210.0,
             206.0,
-            226.5
+            226.5,
+            210.75
           ],
           "source": "TWSE / TPEx"
         }
@@ -2958,12 +2958,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 40122.35,
-          "change": 3310.46,
-          "changePct": 8.99,
-          "asOf": "2026-11-24",
+          "value": 38795.58,
+          "change": -1326.77,
+          "changePct": -3.31,
+          "asOf": "2026-11-25",
           "history": [
-            42948.91,
             41574.72,
             39701.64,
             41661.7,
@@ -2977,7 +2976,8 @@
             38426.89,
             36033.29,
             36811.89,
-            40122.35
+            40122.35,
+            38795.58
           ],
           "source": "TWSE / TPEx"
         },
@@ -2990,12 +2990,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 293.23,
-          "change": 22.33,
-          "changePct": 8.24,
-          "asOf": "2026-11-24",
+          "value": 288.91,
+          "change": -4.32,
+          "changePct": -1.47,
+          "asOf": "2026-11-25",
           "history": [
-            343.5,
             321.47,
             304.02,
             321.97,
@@ -3009,7 +3008,8 @@
             285.33,
             263.31,
             270.9,
-            293.23
+            293.23,
+            288.91
           ],
           "source": "TWSE / TPEx"
         },
@@ -3022,12 +3022,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 95.7,
-          "change": 8.7,
-          "changePct": 10.0,
-          "asOf": "2026-11-24",
+          "value": 91.325,
+          "change": -4.375,
+          "changePct": -4.57,
+          "asOf": "2026-11-25",
           "history": [
-            99.85,
             97.15,
             92.5,
             97.45,
@@ -3041,7 +3040,8 @@
             90.2,
             84.45,
             87.0,
-            95.7
+            95.7,
+            91.325
           ],
           "source": "TWSE / TPEx"
         },
@@ -3054,12 +3054,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 215.1,
-          "change": 19.55,
-          "changePct": 10.0,
-          "asOf": "2026-11-24",
+          "value": 205.3,
+          "change": -9.8,
+          "changePct": -4.56,
+          "asOf": "2026-11-25",
           "history": [
-            228.55,
             222.55,
             210.1,
             223.6,
@@ -3073,7 +3072,8 @@
             202.65,
             189.8,
             195.55,
-            215.1
+            215.1,
+            205.3
           ],
           "source": "TWSE / TPEx"
         },
@@ -3086,12 +3086,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2230.0,
-          "change": 200.0,
-          "changePct": 9.85,
-          "asOf": "2026-11-24",
+          "value": 2135.0,
+          "change": -95.0,
+          "changePct": -4.26,
+          "asOf": "2026-11-25",
           "history": [
-            2260.0,
             2240.0,
             2135.0,
             2235.0,
@@ -3105,7 +3104,8 @@
             2100.0,
             2000.0,
             2030.0,
-            2230.0
+            2230.0,
+            2135.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -3118,12 +3118,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 97.1,
-          "change": 8.8,
-          "changePct": 9.97,
-          "asOf": "2026-11-24",
+          "value": 89.45,
+          "change": -7.65,
+          "changePct": -7.88,
+          "asOf": "2026-11-25",
           "history": [
-            105.5,
             98.4,
             92.0,
             96.7,
@@ -3137,7 +3136,8 @@
             88.2,
             80.3,
             88.3,
-            97.1
+            97.1,
+            89.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -3150,12 +3150,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 4050.0,
-          "change": 365.0,
-          "changePct": 9.91,
-          "asOf": "2026-11-24",
+          "value": 3882.5,
+          "change": -167.5,
+          "changePct": -4.14,
+          "asOf": "2026-11-25",
           "history": [
-            3715.0,
             3460.0,
             3390.0,
             3725.0,
@@ -3169,7 +3168,8 @@
             3720.0,
             3350.0,
             3685.0,
-            4050.0
+            4050.0,
+            3882.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -3182,12 +3182,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 226.5,
-          "change": 20.5,
-          "changePct": 9.95,
-          "asOf": "2026-11-24",
+          "value": 210.75,
+          "change": -15.75,
+          "changePct": -6.95,
+          "asOf": "2026-11-25",
           "history": [
-            240.0,
             235.0,
             224.5,
             239.0,
@@ -3201,7 +3200,8 @@
             220.5,
             210.0,
             206.0,
-            226.5
+            226.5,
+            210.75
           ],
           "source": "TWSE / TPEx"
         }
@@ -3216,93 +3216,105 @@
     "podcastUrl": "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306",
     "status": "ok",
     "latest": {
-      "videoId": "BoizSUJ-z-s",
-      "title": "2026/11/24(二)黃仁勳閃電回鍋!輝達狂飆31% 現在買股 還來得及嗎?",
-      "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s",
-      "publishedAt": "2026-11-24 09:05",
-      "chapters": [
-        {
-          "time": "00:00",
-          "label": "王者歸來",
-          "seconds": 0,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=0s"
-        },
-        {
-          "time": "01:45",
-          "label": "市場總覽",
-          "seconds": 105,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=105s"
-        },
-        {
-          "time": "05:30",
-          "label": "市場反應",
-          "seconds": 330,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=330s"
-        },
-        {
-          "time": "08:50",
-          "label": "川普表態",
-          "seconds": 530,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=530s"
-        },
-        {
-          "time": "11:30",
-          "label": "Jensen的好朋友",
-          "seconds": 690,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=690s"
-        },
-        {
-          "time": "15:35",
-          "label": "輝達後續",
-          "seconds": 935,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=935s"
-        },
-        {
-          "time": "18:10",
-          "label": "對中政策論調",
-          "seconds": 1090,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1090s"
-        },
-        {
-          "time": "21:10",
-          "label": "融資循環問題",
-          "seconds": 1270,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1270s"
-        },
-        {
-          "time": "22:48",
-          "label": "美股追蹤",
-          "seconds": 1368,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1368s"
-        },
-        {
-          "time": "24:50",
-          "label": "資產績效",
-          "seconds": 1490,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1490s"
-        },
-        {
-          "time": "27:00",
-          "label": "多空行情",
-          "seconds": 1620,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1620s"
-        },
-        {
-          "time": "29:45",
-          "label": "開盤",
-          "seconds": 1785,
-          "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1785s"
-        }
-      ],
-      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「黃仁勳閃電回鍋!輝達狂飆31% 現在買股 還來得及嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+      "videoId": "BdGySn52EHU",
+      "title": "2026/11/25(三)反彈乏力 關稅帝君回來了?股市暴漲暴跌時代!牛市修正還是泡沫破裂？",
+      "url": "https://www.youtube.com/watch?v=BdGySn52EHU",
+      "publishedAt": "2026-11-25 09:08",
+      "chapters": [],
+      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「反彈乏力 關稅帝君回來了?」與「股市暴漲暴跌時代!牛市修正還是泡沫破裂？」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
       "summaryPoints": [
-        "前半場｜全球總經與美股動向：王者歸來（00:00）、市場總覽（01:45）、市場反應（05:30）、川普表態（08:50），檢視美股指數基期與避險情緒變化。",
-        "中半場｜焦點事件與台股籌碼政策：Jensen的好朋友（11:30）、輝達後續（15:35）、對中政策論調（18:10）、融資循環問題（21:10），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-        "後半場｜延續推演與專題總結：美股追蹤（22:48）、資產績效（24:50）、多空行情（27:00）、開盤（29:45），歸納市場底部訊號與中長線操作紀律。",
-        "更新與播出時段：2026-11-24 09:05 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        "節目聚焦：反彈乏力 關稅帝君回來了?；股市暴漲暴跌時代!牛市修正還是泡沫破裂？",
+        "更新與播出時段：2026-11-25 09:08 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
       ]
     },
     "recent": [
+      {
+        "videoId": "BoizSUJ-z-s",
+        "title": "2026/11/24(二)黃仁勳閃電回鍋!輝達狂飆31% 現在買股 還來得及嗎?",
+        "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s",
+        "publishedAt": "2026-11-24 09:05",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "王者歸來",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=0s"
+          },
+          {
+            "time": "01:45",
+            "label": "市場總覽",
+            "seconds": 105,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=105s"
+          },
+          {
+            "time": "05:30",
+            "label": "市場反應",
+            "seconds": 330,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=330s"
+          },
+          {
+            "time": "08:50",
+            "label": "川普表態",
+            "seconds": 530,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=530s"
+          },
+          {
+            "time": "11:30",
+            "label": "Jensen的好朋友",
+            "seconds": 690,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=690s"
+          },
+          {
+            "time": "15:35",
+            "label": "輝達後續",
+            "seconds": 935,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=935s"
+          },
+          {
+            "time": "18:10",
+            "label": "對中政策論調",
+            "seconds": 1090,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1090s"
+          },
+          {
+            "time": "21:10",
+            "label": "融資循環問題",
+            "seconds": 1270,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1270s"
+          },
+          {
+            "time": "22:48",
+            "label": "美股追蹤",
+            "seconds": 1368,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1368s"
+          },
+          {
+            "time": "24:50",
+            "label": "資產績效",
+            "seconds": 1490,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1490s"
+          },
+          {
+            "time": "27:00",
+            "label": "多空行情",
+            "seconds": 1620,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1620s"
+          },
+          {
+            "time": "29:45",
+            "label": "開盤",
+            "seconds": 1785,
+            "url": "https://www.youtube.com/watch?v=BoizSUJ-z-s&t=1785s"
+          }
+        ],
+        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「黃仁勳閃電回鍋!輝達狂飆31% 現在買股 還來得及嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+        "summaryPoints": [
+          "前半場｜全球總經與美股動向：王者歸來（00:00）、市場總覽（01:45）、市場反應（05:30）、川普表態（08:50），檢視美股指數基期與避險情緒變化。",
+          "中半場｜焦點事件與台股籌碼政策：Jensen的好朋友（11:30）、輝達後續（15:35）、對中政策論調（18:10）、融資循環問題（21:10），拆解關鍵企業動態、法人籌碼與官方政策防線。",
+          "後半場｜延續推演與專題總結：美股追蹤（22:48）、資產績效（24:50）、多空行情（27:00）、開盤（29:45），歸納市場底部訊號與中長線操作紀律。",
+          "更新與播出時段：2026-11-24 09:05 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        ]
+      },
       {
         "videoId": "wUTABzLMekc",
         "title": "2026/11/23(一)融資斷頭大逃殺 政府全面救市!誰能解決 流動性問題?",
@@ -3476,124 +3488,25 @@
           "後半場｜延續推演與專題總結：禁空令（19:10）、第二隻腳（23:50）、出口管制風暴（25:30）、稀土金屬霸權的騙局（30:10）、總結（32:30），並延伸導讀《稀土金屬霸權的騙局》與結論。",
           "更新與播出時段：2026-11-20 09:08 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
         ]
-      },
-      {
-        "videoId": "1zFM-c93KCY",
-        "title": "2026/11/19(四)AI股災遇上 史上最大IPO?輝達對中政策轉彎 美股這波 夠恐慌了嗎?",
-        "url": "https://www.youtube.com/watch?v=1zFM-c93KCY",
-        "publishedAt": "2026-11-19 09:06",
-        "chapters": [
-          {
-            "time": "00:00",
-            "label": "市場總覽",
-            "seconds": 0,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=0s"
-          },
-          {
-            "time": "02:00",
-            "label": "輝達財報後",
-            "seconds": 120,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=120s"
-          },
-          {
-            "time": "05:00",
-            "label": "ANT上市案",
-            "seconds": 300,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=300s"
-          },
-          {
-            "time": "08:30",
-            "label": "IPO慘案",
-            "seconds": 510,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=510s"
-          },
-          {
-            "time": "11:00",
-            "label": "美銀基金經理人",
-            "seconds": 660,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=660s"
-          },
-          {
-            "time": "14:00",
-            "label": "市場情緒",
-            "seconds": 840,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=840s"
-          },
-          {
-            "time": "16:00",
-            "label": "複虧效應",
-            "seconds": 960,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=960s"
-          },
-          {
-            "time": "18:00",
-            "label": "美股追蹤",
-            "seconds": 1080,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1080s"
-          },
-          {
-            "time": "21:50",
-            "label": "輝達對中轉向",
-            "seconds": 1310,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1310s"
-          },
-          {
-            "time": "23:00",
-            "label": "川習咬耳朵",
-            "seconds": 1380,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1380s"
-          },
-          {
-            "time": "24:10",
-            "label": "美中博弈",
-            "seconds": 1450,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1450s"
-          },
-          {
-            "time": "26:00",
-            "label": "東南亞破口",
-            "seconds": 1560,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1560s"
-          },
-          {
-            "time": "29:00",
-            "label": "大管制時代",
-            "seconds": 1740,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1740s"
-          },
-          {
-            "time": "30:30",
-            "label": "我這一生如履薄冰",
-            "seconds": 1830,
-            "url": "https://www.youtube.com/watch?v=1zFM-c93KCY&t=1830s"
-          }
-        ],
-        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「AI股災遇上 史上最大IPO?」與「輝達對中政策轉彎 美股這波 夠恐慌了嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
-        "summaryPoints": [
-          "前半場｜全球總經與美股動向：市場總覽（00:00）、輝達財報後（02:00）、ANT上市案（05:00）、IPO慘案（08:30），檢視美股指數基期與避險情緒變化。",
-          "中半場｜焦點事件與台股籌碼政策：美銀基金經理人（11:00）、市場情緒（14:00）、複虧效應（16:00）、美股追蹤（18:00）、輝達對中轉向（21:50），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-          "後半場｜延續推演與專題總結：川習咬耳朵（23:00）、美中博弈（24:10）、東南亞破口（26:00）、大管制時代（29:00）、我這一生如履薄冰（30:30），歸納市場底部訊號與中長線操作紀律。",
-          "更新與播出時段：2026-11-19 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
-        ]
       }
     ]
   },
   "leadIds": [
-    "s1799dfdd",
-    "s2185cb94"
+    "s3f99856b",
+    "sc3991dbd"
   ],
   "stories": [
     {
-      "id": "s1799dfdd",
+      "id": "s3f99856b",
       "section": "business_tech",
-      "title": "黃仁勳回歸首場員工大會致歉 稱輝達不需要傳統接班計畫",
+      "title": "輝達股價回吐近6%,黃仁勳回歸首場全員會議致歉,重申不認同傳統接班計畫",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "黃仁勳復職後首場員工大會表示,輝達各部門已有多位能幹領導人,傳統接班計畫反而會增加不必要管理層級 他向員工坦承自己讓大家失望並道歉,還說正接受心理治療;11月12日辭職後,代理執行長由財務長克瑞斯接手11天 董事會週一讓黃仁勳回任,並稱已就國安風險諮詢美國官員;消息帶動股價週一大漲逾30%,週二再跌",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671179",
-      "publishedAt": "2026-11-25T06:52:59+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/24/35548225.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "summary": "AI晶片巨擘輝達(Nvidia,美股代碼NVDA)股價繼上日狂飆31.48%創下23年半單日最旺後,週二回吐9.67美元或5.86%,收在155.38美元,投資人獲利了結之際,重新審視黃仁勳回歸後的公司治理及接班風險。黃仁勳週二召開復職後首場全員會議,就導致自己一度離職的個人行為向員工致歉,並感謝過去11天代掌公司營運的財務長克瑞絲(Colette Kress),同時重申不認同傳統的接班計畫。引述知情人士透露,黃仁勳在輝達總部舉行的全員會議伊始,便向克瑞絲表達謝意,並坦言這是自己歷來最艱難的一場公司會議。據《紐約時報》等媒體報導,黃仁勳承認個人行為違反公司行為準則,辜負員工的信任,目前正接受心理治療。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E5%9B%9E%E5%90%90%E8%BF%916-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E9%A6%96%E5%A0%B4%E5%85%A8%E5%93%A1%E6%9C%83%E8%AD%B0%E8%87%B4%E6%AD%89-%E9%87%8D%E7%94%B3%E4%B8%8D%E8%AA%8D%E5%90%8C%E5%82%B3%E7%B5%B1%E6%8E%A5%E7%8F%AD%E8%A8%88%E7%95%AB-233710603.html",
+      "publishedAt": "2026-11-25T08:39:00+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/24/35548861.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
       "score": 100,
       "scoreBreakdown": {
@@ -3602,7 +3515,7 @@
         "data": 20,
         "durability": 10
       },
-      "mediaCount": 4,
+      "mediaCount": 3,
       "impactCategories": [
         "財報與資本配置",
         "供應鏈與整併",
@@ -3611,8 +3524,8 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "受美股震盪影響,台指期夜盤今(25)日下跌1842點、4.57%,收38,482點,台積電期貨盤後跌89點。",
-          "metric": "38482點",
+          "text": "AI晶片巨擘輝達(Nvidia,美股代碼NVDA)股價繼上日狂飆31.48%創下23年半單日最旺後,週二回吐9.67美元或5.86%,收在155.38美元,投資人獲利了結之際,重新審視黃仁勳回歸後的公司治理及接班風險。",
+          "metric": "155.38美元",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
@@ -3635,37 +3548,37 @@
       "media_perspectives": [
         {
           "media": "經濟日報",
-          "headline": "黃仁勳回任輝達執行長 美國管制晶片 七企業列貿易黑名單",
-          "angle": "先進技術與算力規格",
-          "focus": "黃仁勳風光回任輝達執行長後,美國商務部23日把這波風暴核心業者Megaspeed,及阿里巴巴旗下新加坡子公司等七家企業列入貿易黑名單,限制取得先進人工智慧(AI)晶片,顯示美國對晶片流向中國大陸的調查及國會究責,並未停歇。",
-          "excerpt": "黃仁勳風光回任輝達執行長後,美國商務部23日把這波風暴核心業者Megaspeed,及阿里巴巴旗下新加坡子公司等七家企業列入貿易黑名單,限制取得先進人工智慧(AI)晶片,顯示美國對晶片流向中國大陸的調查及國會究責,並未停歇。",
-          "url": "https://money.udn.com/money/story/5599/9899815",
+          "headline": "輝達財報亮眼股價卻震盪!黃仁勳回歸能救估值?AI資金鏈藏隱憂",
+          "angle": "資本預算與財報配置",
+          "focus": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
+          "excerpt": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
+          "url": "https://money.udn.com/money/story/12040/9899844",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回歸輝達首日!台指期夜盤竟暴跌1842點 台積電期貨下殺",
+          "headline": "黃仁勳回鍋首開員工大會致歉 談接班問題:輝達不需要傳統計畫",
           "angle": "產業動態與市場焦點",
-          "focus": "黃仁勳重掌輝達執行長第一天,美股先是強勁反彈後,但週二(24日)走勢卻呈現漲跌互見。",
-          "excerpt": "黃仁勳重掌輝達執行長第一天,美股先是強勁反彈後,但週二(24日)走勢卻呈現漲跌互見。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E9%A6%96%E6%97%A5-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E7%AB%9F%E6%9A%B4%E8%B7%8C1842%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E4%B8%8B%E6%AE%BA-225259495.html",
+          "focus": "輝達執行長黃仁勳復職後首度主持全體員工大會,坦承自身行為讓員工失望,並為違反公司行為準則道歉,「我傷害了你們所有人」。",
+          "excerpt": "輝達執行長黃仁勳復職後首度主持全體員工大會,坦承自身行為讓員工失望,並為違反公司行為準則道歉,「我傷害了你們所有人」。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E9%A6%96%E9%96%8B%E5%93%A1%E5%B7%A5%E5%A4%A7%E6%9C%83%E8%87%B4%E6%AD%89-%E8%AB%87%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-%E8%BC%9D%E9%81%94%E4%B8%8D%E9%9C%80%E8%A6%81%E5%82%B3%E7%B5%B1%E8%A8%88%E7%95%AB-003900549.html",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回歸首場員工大會致歉 稱輝達不需要傳統接班計畫",
+          "media": "TechNews 科技新報",
+          "headline": "才剛拋售輝達!女股神扼腕,錯失黃仁勳回歸「32% 慶祝行情」",
           "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳復職後首場員工大會表示,輝達各部門已有多位能幹領導人,傳統接班計畫反而會增加不必要管理層級 他向員工坦承自己讓大家失望並道歉,還說正接受心理治療;11月12日辭職後,代理執行長由財務長克瑞斯接手11天 董事會週一讓黃仁勳回任…",
-          "excerpt": "黃仁勳復職後首場員工大會表示,輝達各部門已有多位能幹領導人,傳統接班計畫反而會增加不必要管理層級 他向員工坦承自己讓大家失望並道歉,還說正接受心理治療;11月12日辭職後,代理執行長由財務長克瑞斯接手11天 董事會週一讓黃仁勳回任…",
-          "url": "https://news.cnyes.com/news/id/6671179",
+          "focus": "女股神 Cathie Wood 因擔憂黃仁勳離開後輝達的領導問題,決定賣出近 1.07 億美元的輝達股票,想不到黃仁勳於 23 日宣告回歸,帶動公司股價創下多年來最大單日漲幅,Wood 也因此錯失這波強勁反彈。",
+          "excerpt": "女股神 Cathie Wood 因擔憂黃仁勳離開後輝達的領導問題,決定賣出近 1.07 億美元的輝達股票,想不到黃仁勳於 23 日宣告回歸,帶動公司股價創下多年來最大單日漲幅,Wood 也因此錯失這波強勁反彈。",
+          "url": "https://finance.technews.tw/2026/11/24/cathie-wood-miss-nvidia-stock/",
           "lang": "zh"
         }
       ],
-      "unverified_notice": "",
+      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "coreFacts": [
         {
-          "text": "受美股震盪影響,台指期夜盤今(25)日下跌1842點、4.57%,收38,482點,台積電期貨盤後跌89點。",
-          "metric": "38482點",
+          "text": "AI晶片巨擘輝達(Nvidia,美股代碼NVDA)股價繼上日狂飆31.48%創下23年半單日最旺後,週二回吐9.67美元或5.86%,收在155.38美元,投資人獲利了結之際,重新審視黃仁勳回歸後的公司治理及接班風險。",
+          "metric": "155.38美元",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
@@ -3688,40 +3601,34 @@
       "mediaPerspectives": [
         {
           "media": "經濟日報",
-          "headline": "黃仁勳回任輝達執行長 美國管制晶片 七企業列貿易黑名單",
-          "angle": "先進技術與算力規格",
-          "focus": "黃仁勳風光回任輝達執行長後,美國商務部23日把這波風暴核心業者Megaspeed,及阿里巴巴旗下新加坡子公司等七家企業列入貿易黑名單,限制取得先進人工智慧(AI)晶片,顯示美國對晶片流向中國大陸的調查及國會究責,並未停歇。",
-          "excerpt": "黃仁勳風光回任輝達執行長後,美國商務部23日把這波風暴核心業者Megaspeed,及阿里巴巴旗下新加坡子公司等七家企業列入貿易黑名單,限制取得先進人工智慧(AI)晶片,顯示美國對晶片流向中國大陸的調查及國會究責,並未停歇。",
-          "url": "https://money.udn.com/money/story/5599/9899815",
+          "headline": "輝達財報亮眼股價卻震盪!黃仁勳回歸能救估值?AI資金鏈藏隱憂",
+          "angle": "資本預算與財報配置",
+          "focus": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
+          "excerpt": "黃仁勳閃離又回歸的戲碼,輝達預估本益比一度急殺到12倍的14年新低;因為1600億美元表外擔保只有黃仁勳最清楚,二線雲端廠是否爆發斷鏈危機,財長貝森特從原本的鷹派姿態到讓黃仁勳回歸,凸顯輝達是大到不能倒的企業,黃仁勳被川普稱為國寶的內涵。",
+          "url": "https://money.udn.com/money/story/12040/9899844",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回歸輝達首日!台指期夜盤竟暴跌1842點 台積電期貨下殺",
+          "headline": "黃仁勳回鍋首開員工大會致歉 談接班問題:輝達不需要傳統計畫",
           "angle": "產業動態與市場焦點",
-          "focus": "黃仁勳重掌輝達執行長第一天,美股先是強勁反彈後,但週二(24日)走勢卻呈現漲跌互見。",
-          "excerpt": "黃仁勳重掌輝達執行長第一天,美股先是強勁反彈後,但週二(24日)走勢卻呈現漲跌互見。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E9%A6%96%E6%97%A5-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E7%AB%9F%E6%9A%B4%E8%B7%8C1842%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E4%B8%8B%E6%AE%BA-225259495.html",
+          "focus": "輝達執行長黃仁勳復職後首度主持全體員工大會,坦承自身行為讓員工失望,並為違反公司行為準則道歉,「我傷害了你們所有人」。",
+          "excerpt": "輝達執行長黃仁勳復職後首度主持全體員工大會,坦承自身行為讓員工失望,並為違反公司行為準則道歉,「我傷害了你們所有人」。",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E9%A6%96%E9%96%8B%E5%93%A1%E5%B7%A5%E5%A4%A7%E6%9C%83%E8%87%B4%E6%AD%89-%E8%AB%87%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-%E8%BC%9D%E9%81%94%E4%B8%8D%E9%9C%80%E8%A6%81%E5%82%B3%E7%B5%B1%E8%A8%88%E7%95%AB-003900549.html",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回歸首場員工大會致歉 稱輝達不需要傳統接班計畫",
+          "media": "TechNews 科技新報",
+          "headline": "才剛拋售輝達!女股神扼腕,錯失黃仁勳回歸「32% 慶祝行情」",
           "angle": "市場定價與外資籌碼",
-          "focus": "黃仁勳復職後首場員工大會表示,輝達各部門已有多位能幹領導人,傳統接班計畫反而會增加不必要管理層級 他向員工坦承自己讓大家失望並道歉,還說正接受心理治療;11月12日辭職後,代理執行長由財務長克瑞斯接手11天 董事會週一讓黃仁勳回任…",
-          "excerpt": "黃仁勳復職後首場員工大會表示,輝達各部門已有多位能幹領導人,傳統接班計畫反而會增加不必要管理層級 他向員工坦承自己讓大家失望並道歉,還說正接受心理治療;11月12日辭職後,代理執行長由財務長克瑞斯接手11天 董事會週一讓黃仁勳回任…",
-          "url": "https://news.cnyes.com/news/id/6671179",
+          "focus": "女股神 Cathie Wood 因擔憂黃仁勳離開後輝達的領導問題,決定賣出近 1.07 億美元的輝達股票,想不到黃仁勳於 23 日宣告回歸,帶動公司股價創下多年來最大單日漲幅,Wood 也因此錯失這波強勁反彈。",
+          "excerpt": "女股神 Cathie Wood 因擔憂黃仁勳離開後輝達的領導問題,決定賣出近 1.07 億美元的輝達股票,想不到黃仁勳於 23 日宣告回歸,帶動公司股價創下多年來最大單日漲幅,Wood 也因此錯失這波強勁反彈。",
+          "url": "https://finance.technews.tw/2026/11/24/cathie-wood-miss-nvidia-stock/",
           "lang": "zh"
         }
       ],
-      "unverifiedNotice": "",
+      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9899815",
-          "headline": "黃仁勳回任輝達執行長 美國管制晶片 七企業列貿易黑名單",
-          "lang": "zh"
-        },
         {
           "media": "經濟日報",
           "url": "https://money.udn.com/money/story/12040/9899844",
@@ -3730,32 +3637,14 @@
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E9%A6%96%E6%97%A5-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E7%AB%9F%E6%9A%B4%E8%B7%8C1842%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9C%9F%E8%B2%A8%E4%B8%8B%E6%AE%BA-225259495.html",
-          "headline": "黃仁勳回歸輝達首日!台指期夜盤竟暴跌1842點 台積電期貨下殺",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671179",
-          "headline": "黃仁勳回歸首場員工大會致歉 稱輝達不需要傳統接班計畫",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E9%A6%96%E9%96%8B%E5%93%A1%E5%B7%A5%E5%A4%A7%E6%9C%83%E8%87%B4%E6%AD%89-%E8%AB%87%E6%8E%A5%E7%8F%AD%E5%95%8F%E9%A1%8C-%E8%BC%9D%E9%81%94%E4%B8%8D%E9%9C%80%E8%A6%81%E5%82%B3%E7%B5%B1%E8%A8%88%E7%95%AB-003900549.html",
+          "headline": "黃仁勳回鍋首開員工大會致歉 談接班問題:輝達不需要傳統計畫",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E9%A6%96%E5%A0%B4%E5%93%A1%E5%B7%A5%E5%A4%A7%E6%9C%83%E8%87%B4%E6%AD%89-%E7%A8%B1%E8%BC%9D%E9%81%94%E4%B8%8D%E9%9C%80%E8%A6%81%E5%82%B3%E7%B5%B1%E6%8E%A5%E7%8F%AD%E8%A8%88%E7%95%AB-211942252.html",
-          "headline": "黃仁勳回歸首場員工大會致歉 稱輝達不需要傳統接班計畫",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%97%9C%E9%8D%B548%E5%B0%8F%E6%99%82-%E8%8C%83%E6%96%AF%E9%80%81%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E8%BC%9D%E9%81%94-201000458.html",
-          "headline": "關鍵48小時 范斯送黃仁勳回輝達",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94gtc%E6%96%B0%E5%93%81%E7%99%BC%E8%A1%A8%E6%92%9E%E6%9C%9F%E5%9C%8B%E6%9C%83%E5%95%8F%E8%A9%B1-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B%E5%BE%8C%E7%A1%AC%E4%BB%97%E6%8E%A5%E9%80%A3%E4%BE%86-173012228.html",
-          "headline": "輝達GTC新品發表撞期國會問話!黃仁勳回鍋後硬仗接連來",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E5%9B%9E%E5%90%90%E8%BF%916-%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E9%A6%96%E5%A0%B4%E5%85%A8%E5%93%A1%E6%9C%83%E8%AD%B0%E8%87%B4%E6%AD%89-%E9%87%8D%E7%94%B3%E4%B8%8D%E8%AA%8D%E5%90%8C%E5%82%B3%E7%B5%B1%E6%8E%A5%E7%8F%AD%E8%A8%88%E7%95%AB-233710603.html",
+          "headline": "輝達股價回吐近6%,黃仁勳回歸首場全員會議致歉,重申不認同傳統接班計畫",
           "lang": "zh"
         },
         {
@@ -3774,22 +3663,22 @@
       "rank": 1
     },
     {
-      "id": "s2185cb94",
+      "id": "sc3991dbd",
       "section": "business_tech",
-      "title": "黃仁勳重掌輝達執行長 三股神力翻轉不可能任務",
+      "title": "黃仁勳重掌輝達,與Anthropic AI模型路線之爭升溫",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。綜合Axios等外媒報導,背後推動的是產業、資本市場與政治三股力量。",
+      "summary": "輝達(Nvidia,美股代碼NVDA)執行長黃仁勳週一(11月23日)復職,讓開放權重與專有模型之爭重回華府政策議程。黃仁勳主張美國應加快發展開放權重模型,避免過早設限,以因應中國業者在這一領域的競爭。以專有模型Claude為核心的Anthropic(美股代碼ANT),其共同創辦人兼執行長阿莫迪(Dario Amodei)則對高能力模型開放後的安全風險提出警告。開放權重模型允許企業下載模型權重、依業務需求調整,並自行部署。這類模式若進一步普及,輝達的晶片與運算設備客戶可從少數大型模型開發商擴及更多自行部署AI的企業。",
       "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E4%B8%89%E8%82%A1%E7%A5%9E%E5%8A%9B%E7%BF%BB%E8%BD%89%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%BB%BB%E5%8B%99-220243352.html",
-      "publishedAt": "2026-11-25T06:02:43+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/24/35550076.jpg&M=1&s=Y&x=0&y=680&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E8%88%87anthropic-ai%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%B7%9A%E4%B9%8B%E7%88%AD%E5%8D%87%E6%BA%AB-001433373.html",
+      "publishedAt": "2026-11-25T08:14:33+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/23/35545331.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
       "imageCredit": "經濟日報",
-      "score": 100,
+      "score": 98,
       "scoreBreakdown": {
         "resonance": 35,
         "impact": 35,
-        "data": 20,
+        "data": 18,
         "durability": 10
       },
       "mediaCount": 3,
@@ -3809,37 +3698,37 @@
           ]
         },
         {
-          "text": "英國《金融時報》報導,隨著黃仁勳今天意外重返輝達擔任執行長、帶動股價狂飆,美國總統川普持有的輝達股票市值隨之大增,帳面獲利最高達 1,500 萬美元(約新台幣 4.9 億元)。",
-          "metric": "1500萬",
+          "text": "輝達執行長黃仁勳重返崗位激勵全球科技股與台股強彈。",
+          "metric": "",
           "confirmed_by": [
-            "TechNews 科技新報"
+            "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
+          "text": "開放權重模型允許企業下載模型權重、依業務需求調整,並自行部署。",
           "metric": "",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "經濟日報",
-          "headline": "黃仁勳重返輝達 川普扮要角坦承直接勸說董事會 要求 AI 教父回鍋",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)執行長黃仁勳復職後,23日重返公司,受到員工熱烈歡迎。",
-          "excerpt": "輝達(Nvidia)執行長黃仁勳復職後,23日重返公司,受到員工熱烈歡迎。",
-          "url": "https://money.udn.com/money/story/5599/9899824",
+          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "url": "https://money.udn.com/money/story/5618/9899795",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳重掌輝達執行長 三股神力翻轉不可能任務",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
-          "excerpt": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E4%B8%89%E8%82%A1%E7%A5%9E%E5%8A%9B%E7%BF%BB%E8%BD%89%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%BB%BB%E5%8B%99-220243352.html",
+          "headline": "黃仁勳重掌輝達,與Anthropic AI模型路線之爭升溫",
+          "angle": "政策法規與公共治理",
+          "focus": "輝達(Nvidia,美股代碼NVDA)執行長黃仁勳週一(11月23日)復職,讓開放權重與專有模型之爭重回華府政策議程。",
+          "excerpt": "輝達(Nvidia,美股代碼NVDA)執行長黃仁勳週一(11月23日)復職,讓開放權重與專有模型之爭重回華府政策議程。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E8%88%87anthropic-ai%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%B7%9A%E4%B9%8B%E7%88%AD%E5%8D%87%E6%BA%AB-001433373.html",
           "lang": "zh"
         },
         {
@@ -3852,7 +3741,7 @@
           "lang": "zh"
         }
       ],
-      "unverified_notice": "",
+      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "coreFacts": [
         {
           "text": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
@@ -3862,37 +3751,37 @@
           ]
         },
         {
-          "text": "英國《金融時報》報導,隨著黃仁勳今天意外重返輝達擔任執行長、帶動股價狂飆,美國總統川普持有的輝達股票市值隨之大增,帳面獲利最高達 1,500 萬美元(約新台幣 4.9 億元)。",
-          "metric": "1500萬",
+          "text": "輝達執行長黃仁勳重返崗位激勵全球科技股與台股強彈。",
+          "metric": "",
           "confirmed_by": [
-            "TechNews 科技新報"
+            "工商時報 / Yahoo 財經"
           ]
         },
         {
-          "text": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
+          "text": "開放權重模型允許企業下載模型權重、依業務需求調整,並自行部署。",
           "metric": "",
           "confirmed_by": [
-            "經濟日報"
+            "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "經濟日報",
-          "headline": "黃仁勳重返輝達 川普扮要角坦承直接勸說董事會 要求 AI 教父回鍋",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達(Nvidia)執行長黃仁勳復職後,23日重返公司,受到員工熱烈歡迎。",
-          "excerpt": "輝達(Nvidia)執行長黃仁勳復職後,23日重返公司,受到員工熱烈歡迎。",
-          "url": "https://money.udn.com/money/story/5599/9899824",
+          "headline": "黃仁勳重掌輝達 AI 投資信心大振 海外科技 ETF 搶風頭",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "excerpt": "在輝達(Nvidia)宣布黃仁勳回任執行長後,市場樂觀情緒迅速升溫,全球AI投資信心大振,輝達股價23日飆漲31.4%,市值大增近9,500億美元,帶動NASDAQ-100指數漲6.9%,AI相關類股強勢反攻,也讓海外科技型ETF成為市場關注焦點。",
+          "url": "https://money.udn.com/money/story/5618/9899795",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳重掌輝達執行長 三股神力翻轉不可能任務",
-          "angle": "產業動態與市場焦點",
-          "focus": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
-          "excerpt": "輝達董事會23日大轉彎,讓辭職11天的黃仁勳重掌輝達執行長。",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E4%B8%89%E8%82%A1%E7%A5%9E%E5%8A%9B%E7%BF%BB%E8%BD%89%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%BB%BB%E5%8B%99-220243352.html",
+          "headline": "黃仁勳重掌輝達,與Anthropic AI模型路線之爭升溫",
+          "angle": "政策法規與公共治理",
+          "focus": "輝達(Nvidia,美股代碼NVDA)執行長黃仁勳週一(11月23日)復職,讓開放權重與專有模型之爭重回華府政策議程。",
+          "excerpt": "輝達(Nvidia,美股代碼NVDA)執行長黃仁勳週一(11月23日)復職,讓開放權重與專有模型之爭重回華府政策議程。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E8%88%87anthropic-ai%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%B7%9A%E4%B9%8B%E7%88%AD%E5%8D%87%E6%BA%AB-001433373.html",
           "lang": "zh"
         },
         {
@@ -3905,20 +3794,8 @@
           "lang": "zh"
         }
       ],
-      "unverifiedNotice": "",
+      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9899824",
-          "headline": "黃仁勳重返輝達 川普扮要角坦承直接勸說董事會 要求 AI 教父回鍋",
-          "lang": "zh"
-        },
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9899807",
-          "headline": "黃仁勳重掌輝達執行長 三股神力翻轉不可能任務",
-          "lang": "zh"
-        },
         {
           "media": "經濟日報",
           "url": "https://money.udn.com/money/story/5618/9899795",
@@ -3927,14 +3804,8 @@
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E4%B8%89%E8%82%A1%E7%A5%9E%E5%8A%9B%E7%BF%BB%E8%BD%89%E4%B8%8D%E5%8F%AF%E8%83%BD%E4%BB%BB%E5%8B%99-220243352.html",
-          "headline": "黃仁勳重掌輝達執行長 三股神力翻轉不可能任務",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E7%82%BA%E4%BD%95%E5%8A%9B%E6%8C%BA%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-220000258.html",
-          "headline": "川普為何力挺黃仁勳重掌輝達",
+          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%87%8D%E6%8E%8C%E8%BC%9D%E9%81%94-%E8%88%87anthropic-ai%E6%A8%A1%E5%9E%8B%E8%B7%AF%E7%B7%9A%E4%B9%8B%E7%88%AD%E5%8D%87%E6%BA%AB-001433373.html",
+          "headline": "黃仁勳重掌輝達,與Anthropic AI模型路線之爭升溫",
           "lang": "zh"
         },
         {
@@ -3948,201 +3819,19 @@
           "url": "https://technews.tw/2026/11/24/jensen-return-and-its-impact-on-taiwan-ai-supply-chain/",
           "headline": "黃仁勳重掌輝達股市狂飆,台廠 AI 供應鏈影響一次看",
           "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/24/jensen-huang-comeback-nvidia-stock-surge-trump-profit-490-million/",
-          "headline": "黃仁勳重返輝達股價狂飆,川普帳面獲利最高達 4.9 億元",
-          "lang": "zh"
         }
       ],
       "rank": 2
     },
     {
-      "id": "sa8b60b5f",
+      "id": "s048e83f6",
       "section": "business_tech",
-      "title": "〈美股盤後〉川普關稅風暴恐再起!費半慘跌近8% 輝達摔超5% Anthropic跌破發行價",
+      "title": "減稅成落腳德州關鍵? 台積電回應:提交申報資訊、與當地維持良好溝通",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。 川普政府擬提高中國、歐盟等進口關稅,市場並聚焦週三Fed偏好的通膨指標,以評估12月升息風險。 美國11月消費者信心指數升至103.3、近兩年高點;道瓊逆勢漲423.39點,收復5萬點。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671173",
-      "publishedAt": "2026-11-25T07:16:42+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35550410.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 96,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 35,
-        "data": 20,
-        "durability": 6
-      },
-      "mediaCount": 4,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "metric": "10.97%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "AI晶片大廠輝達(Nvidia)共同創辦人黃仁勳回任執行長帶動的AI股反彈未能延續,輝達股價下跌5.86%,收在155.38美元;台積電ADR下跌3.91%,收在349.20美元。",
-          "metric": "155.38美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "綜合外媒報導,黃仁勳23日重磅回歸任輝達執行長,不過前一天因此消息帶動的AI股反彈,於24日未能延續,Anthropic跌破首次公開發行(IPO)價格,費城半導體族群全面下跌,其中輝達跌5.86%、美光重挫10.97%,AMD重挫 8.86%;博通下跌 3.98%。",
-          "metric": "10.97%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美股收盤/費半又暴跌8%、輝達跌6% 晶片股慘摔 川普新關稅加重賣壓",
-          "angle": "先進技術與算力規格",
-          "focus": "美股標普500指數周二(24日)收低,那斯達克指數挫跌逾1%,費城半導體指數更重挫7.8%,晶片股拋售再度拖累市場,輝達與其他AI相關股票回吐前一日部分漲幅,且投資者正為美國可能推出的新關稅措施做準備。",
-          "excerpt": "美股標普500指數周二(24日)收低,那斯達克指數挫跌逾1%,費城半導體指數更重挫7.8%,晶片股拋售再度拖累市場,輝達與其他AI相關股票回吐前一日部分漲幅,且投資者正為美國可能推出的新關稅措施做準備。",
-          "url": "https://money.udn.com/money/story/123398/9900086",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
-          "angle": "利率匯率與總經政策",
-          "focus": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "〈美股盤後〉川普關稅風暴恐再起!費半慘跌近8% 輝達摔超5% Anthropic跌破發行價",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "excerpt": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "url": "https://news.cnyes.com/news/id/6671173",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "coreFacts": [
-        {
-          "text": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "metric": "10.97%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "AI晶片大廠輝達(Nvidia)共同創辦人黃仁勳回任執行長帶動的AI股反彈未能延續,輝達股價下跌5.86%,收在155.38美元;台積電ADR下跌3.91%,收在349.20美元。",
-          "metric": "155.38美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "綜合外媒報導,黃仁勳23日重磅回歸任輝達執行長,不過前一天因此消息帶動的AI股反彈,於24日未能延續,Anthropic跌破首次公開發行(IPO)價格,費城半導體族群全面下跌,其中輝達跌5.86%、美光重挫10.97%,AMD重挫 8.86%;博通下跌 3.98%。",
-          "metric": "10.97%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美股收盤/費半又暴跌8%、輝達跌6% 晶片股慘摔 川普新關稅加重賣壓",
-          "angle": "先進技術與算力規格",
-          "focus": "美股標普500指數周二(24日)收低,那斯達克指數挫跌逾1%,費城半導體指數更重挫7.8%,晶片股拋售再度拖累市場,輝達與其他AI相關股票回吐前一日部分漲幅,且投資者正為美國可能推出的新關稅措施做準備。",
-          "excerpt": "美股標普500指數周二(24日)收低,那斯達克指數挫跌逾1%,費城半導體指數更重挫7.8%,晶片股拋售再度拖累市場,輝達與其他AI相關股票回吐前一日部分漲幅,且投資者正為美國可能推出的新關稅措施做準備。",
-          "url": "https://money.udn.com/money/story/123398/9900086",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
-          "angle": "利率匯率與總經政策",
-          "focus": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "〈美股盤後〉川普關稅風暴恐再起!費半慘跌近8% 輝達摔超5% Anthropic跌破發行價",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "excerpt": "美股週二漲跌互見,輝達跌5.86%、美光重挫10.97%,那指跌1.48%,費半暴跌7.88%。",
-          "url": "https://news.cnyes.com/news/id/6671173",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/123398/9900086",
-          "headline": "美股收盤/費半又暴跌8%、輝達跌6% 晶片股慘摔 川普新關稅加重賣壓",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
-          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%96%B0%E9%97%9C%E7%A8%85%E5%8F%88%E4%BE%86%E8%A5%B2-%E7%BE%8E%E8%82%A13%E5%A4%A7%E6%8C%87%E6%95%B8%E6%94%B6%E9%BB%91-%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-8-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%8C%AB%E8%BF%916-220800791.html",
-          "headline": "川普新關稅又來襲?美股3大指數收黑 費半重挫7.8%、輝達下挫近6%",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671173",
-          "headline": "〈美股盤後〉川普關稅風暴恐再起!費半慘跌近8% 輝達摔超5% Anthropic跌破發行價",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E9%A2%A8%E6%9A%B4%E6%81%90%E5%86%8D%E8%B5%B7-%E8%B2%BB%E5%8D%8A%E6%85%98%E8%B7%8C%E8%BF%918-%E8%BC%9D%E9%81%94%E6%91%94%E8%B6%855-anthropic%E8%B7%8C%E7%A0%B4%E7%99%BC%E8%A1%8C%E5%83%B9-220522005.html",
-          "headline": "〈美股盤後〉川普關稅風暴恐再起!費半慘跌近8% 輝達摔超5% Anthropic跌破發行價",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5652311",
-          "headline": "美股收盤》川普擬加徵關稅 輝達回跌、費半慘摔 台積電ADR挫3.91%",
-          "lang": "zh"
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "id": "sfea04495",
-      "section": "business_tech",
-      "title": "減稅成落腳德州關鍵?台積電:提申報資訊為透明良好溝通",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "路透社報導,台積電(2330)向德州政府提出申請,有意在德州布拉左斯郡投資興建晶片製造設施,能否獲得房產稅減免是決定性因素。台積電表示,提交申報資訊是為確保持續評估該地區潛在投資的過程中,與當地維持透明且良好溝通。路透社報導指出,台積電有意在德州布拉左斯郡(Brazos County)投資226億美元興建晶片製造設施,擬採用2奈米或更先進製程技術,生產用於人工智慧(AI)、高效能運算及行動裝置晶片。台積電對此表示,提交申報資訊,以確保在持續評估該地區潛在投資的過程中,與當地維持透明且良好的溝通。",
+      "summary": "外媒報導,台積電有意在美國德州布拉索斯郡(Brazos County)投資226億美元興建晶圓廠,但台積電旗下事業單位已告知德州官員,能否獲得房產稅減免將是決定性因素。台積電24日晚間回應表示,公司提交此申報資訊,以確保在持續評估該地區潛在投資的過程中,與當地維持透明且良好的溝通。",
       "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E6%B8%9B%E7%A8%85%E6%88%90%E8%90%BD%E8%85%B3%E5%BE%B7%E5%B7%9E%E9%97%9C%E9%8D%B5-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%8F%90%E7%94%B3%E5%A0%B1%E8%B3%87%E8%A8%8A%E7%82%BA%E9%80%8F%E6%98%8E%E8%89%AF%E5%A5%BD%E6%BA%9D%E9%80%9A-121708957.html",
+      "url": "https://tw.news.yahoo.com/%E6%B8%9B%E7%A8%85%E6%88%90%E8%90%BD%E8%85%B3%E5%BE%B7%E5%B7%9E%E9%97%9C%E9%8D%B5-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%9B%9E%E6%87%89-%E6%8F%90%E4%BA%A4%E7%94%B3%E5%A0%B1%E8%B3%87%E8%A8%8A-%E8%88%87%E7%95%B6%E5%9C%B0%E7%B6%AD%E6%8C%81%E8%89%AF%E5%A5%BD%E6%BA%9D%E9%80%9A-144228719.html",
       "publishedAt": "2026-11-25T07:21:01+08:00",
       "imageUrl": "https://s.yimg.com/lo/mysterio/api/47c49ecc7a20f3f715b57f77a60d1643ff3be6fe551f2c72840e53725b37c800/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Ftaisounds_com_380%2F133a9681adab6eef79da5c93e943bca4.jpg_up.jpg",
       "imageCredit": "工商時報 / Yahoo 財經",
@@ -4161,14 +3850,6 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "路透社報導指出,台積電有意在德州布拉左斯郡(Brazos County)投資226億美元興建晶片製造設施,擬採用2奈米或更先進製程技術,生產用於人工智慧(AI)、高效能運算及行動裝置晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
           "text": "能否獲財產稅減免是關鍵,計畫估未來40年直創至少2,099個工作機會。",
           "metric": "40年",
           "confirmed_by": [
@@ -4179,8 +3860,15 @@
           "text": "台積電子公司評估在德州布拉索斯郡斥資226億美元建先進晶片廠,選址尚未定案。",
           "metric": "226億美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "規劃占地逾3,200英畝,採2奈米或更先進製程,供AI、HPC及行動裝置晶片。",
+          "metric": "2奈米",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
@@ -4216,14 +3904,6 @@
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "路透社報導指出,台積電有意在德州布拉左斯郡(Brazos County)投資226億美元興建晶片製造設施,擬採用2奈米或更先進製程技術,生產用於人工智慧(AI)、高效能運算及行動裝置晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
           "text": "能否獲財產稅減免是關鍵,計畫估未來40年直創至少2,099個工作機會。",
           "metric": "40年",
           "confirmed_by": [
@@ -4234,8 +3914,15 @@
           "text": "台積電子公司評估在德州布拉索斯郡斥資226億美元建先進晶片廠,選址尚未定案。",
           "metric": "226億美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "規劃占地逾3,200英畝,採2奈米或更先進製程,供AI、HPC及行動裝置晶片。",
+          "metric": "2奈米",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
@@ -4274,12 +3961,6 @@
           "media": "工商時報 / Yahoo 財經",
           "url": "https://tw.news.yahoo.com/%E6%B8%9B%E7%A8%85%E6%88%90%E8%90%BD%E8%85%B3%E5%BE%B7%E5%B7%9E%E9%97%9C%E9%8D%B5-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%9B%9E%E6%87%89-%E6%8F%90%E4%BA%A4%E7%94%B3%E5%A0%B1%E8%B3%87%E8%A8%8A-%E8%88%87%E7%95%B6%E5%9C%B0%E7%B6%AD%E6%8C%81%E8%89%AF%E5%A5%BD%E6%BA%9D%E9%80%9A-144228719.html",
           "headline": "減稅成落腳德州關鍵? 台積電回應:提交申報資訊、與當地維持良好溝通",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E6%B8%9B%E7%A8%85%E6%88%90%E8%90%BD%E8%85%B3%E5%BE%B7%E5%B7%9E%E9%97%9C%E9%8D%B5-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%8F%90%E7%94%B3%E5%A0%B1%E8%B3%87%E8%A8%8A%E7%82%BA%E9%80%8F%E6%98%8E%E8%89%AF%E5%A5%BD%E6%BA%9D%E9%80%9A-121708957.html",
-          "headline": "減稅成落腳德州關鍵?台積電:提申報資訊為透明良好溝通",
           "lang": "zh"
         },
         {
@@ -4301,18 +3982,18 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 3
     },
     {
-      "id": "sf3d6683a",
+      "id": "sfa9f0267",
       "section": "business_tech",
-      "title": "Anthropic跌破IPO發行價 敲響AI新創公司警鐘",
+      "title": "Anthropic 上市不到一週跌破發行價,盤前下挫逾 6%",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。 Anthropic上市首日股價為111.50美元,距離那斯達克掛牌不到一週即大幅回落。 市場關注其股價作為AI產業指標,若續弱恐壓抑未上市新創估值與其他AI公司IPO前景。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671187",
-      "publishedAt": "2026-11-25T07:20:05+08:00",
+      "summary": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行( […]",
+      "source": "TechNews 科技新報",
+      "url": "https://finance.technews.tw/2026/11/25/anthropic-shares-tumble-below-83-ipo-price/",
+      "publishedAt": "2026-11-25T08:25:52+08:00",
       "imageUrl": "https://cimg.cnyes.cool/prod/news/6671175/xl/362f68bbd2d26c1e320649369d87ea97.jpg",
       "imageCredit": "鉅亨網 Anue",
       "score": 94,
@@ -4334,25 +4015,23 @@
           "text": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
           "metric": "81.90美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
           "text": "Anthropic上市首日股價為111.50美元,距離那斯達克掛牌不到一週即大幅回落。",
           "metric": "111.50美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
           "text": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "metric": "83美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
             "中央社 CNA",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         }
       ],
@@ -4367,21 +4046,21 @@
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "Anthropic跌破IPO發行價 敲響AI新創公司警鐘",
-          "angle": "市場定價與外資籌碼",
-          "focus": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
-          "excerpt": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
-          "url": "https://tw.stock.yahoo.com/news/anthropic%E8%B7%8C%E7%A0%B4ipo%E7%99%BC%E8%A1%8C%E5%83%B9-%E6%95%B2%E9%9F%BFai%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8%E8%AD%A6%E9%90%98-223006333.html",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
           "headline": "Anthropic上市不到一週跌破發行價 盤前下挫逾6%",
           "angle": "市場定價與外資籌碼",
           "focus": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "excerpt": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "url": "https://www.cna.com.tw/news/afe/202611240295.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "Anthropic 上市不到一週跌破發行價,盤前下挫逾 6%",
+          "angle": "市場定價與外資籌碼",
+          "focus": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行( […]",
+          "excerpt": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行( […]",
+          "url": "https://finance.technews.tw/2026/11/25/anthropic-shares-tumble-below-83-ipo-price/",
           "lang": "zh"
         }
       ],
@@ -4391,25 +4070,23 @@
           "text": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
           "metric": "81.90美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
           "text": "Anthropic上市首日股價為111.50美元,距離那斯達克掛牌不到一週即大幅回落。",
           "metric": "111.50美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
           "text": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "metric": "83美元",
           "confirmed_by": [
-            "鉅亨網 Anue",
             "中央社 CNA",
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
           ]
         }
       ],
@@ -4424,21 +4101,21 @@
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "Anthropic跌破IPO發行價 敲響AI新創公司警鐘",
-          "angle": "市場定價與外資籌碼",
-          "focus": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
-          "excerpt": "Anthropic股價跌破每股83美元IPO發行價,週二午盤一度跌至76美元,終場收81.90美元。",
-          "url": "https://tw.stock.yahoo.com/news/anthropic%E8%B7%8C%E7%A0%B4ipo%E7%99%BC%E8%A1%8C%E5%83%B9-%E6%95%B2%E9%9F%BFai%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8%E8%AD%A6%E9%90%98-223006333.html",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
           "headline": "Anthropic上市不到一週跌破發行價 盤前下挫逾6%",
           "angle": "市場定價與外資籌碼",
           "focus": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "excerpt": "聊天機器人Claude開發商Anthropic的股價今天盤前跌破每股83美元的首次公開發行(IPO)價格,與幾天前在那斯達克創紀錄的上市表現形成戲劇性反差。",
           "url": "https://www.cna.com.tw/news/afe/202611240295.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "Anthropic 上市不到一週跌破發行價,盤前下挫逾 6%",
+          "angle": "市場定價與外資籌碼",
+          "focus": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行( […]",
+          "excerpt": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行( […]",
+          "url": "https://finance.technews.tw/2026/11/25/anthropic-shares-tumble-below-83-ipo-price/",
           "lang": "zh"
         }
       ],
@@ -4457,41 +4134,540 @@
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/anthropic%E8%B7%8C%E7%A0%B4ipo%E7%99%BC%E8%A1%8C%E5%83%B9-%E6%95%B2%E9%9F%BFai%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8%E8%AD%A6%E9%90%98-223006333.html",
-          "headline": "Anthropic跌破IPO發行價 敲響AI新創公司警鐘",
-          "lang": "zh"
-        },
-        {
           "media": "中央社 CNA",
           "url": "https://www.cna.com.tw/news/afe/202611240295.aspx",
           "headline": "Anthropic上市不到一週跌破發行價 盤前下挫逾6%",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "url": "https://finance.technews.tw/2026/11/25/anthropic-shares-tumble-below-83-ipo-price/",
+          "headline": "Anthropic 上市不到一週跌破發行價,盤前下挫逾 6%",
+          "lang": "zh"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "s8a092d54",
+      "section": "business_tech",
+      "title": "全球生醫IPO募資逆勢成長62%,台灣生技迎資本與國際合作新契機",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。台灣生物產業發展協會24日舉辦會員大會暨專題論壇,與會專家認為,台灣生技業具備資本市場估值與交易活絡優勢,若能強化臨床價值、國際合作及商業化能力,可望迎來新一波發展契機。''台灣生物產業發展協會24日舉辦會員大會暨專題論壇,由生物產協主辦、資誠聯合會計師事務所協辦,以「生技新時代:AI浪潮下的創新與投資」為題,解析全球新藥投資與資本市場趨勢;晚間並舉辦晚宴,邀請國家發展委員會副主委詹方冠以「布局國家競爭力-當前台灣重要產業發展策略」為題發表專題演講。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E7%94%9F%E9%86%ABipo%E5%8B%9F%E8%B3%87%E9%80%86%E5%8B%A2%E6%88%90%E9%95%B762-%E5%8F%B0%E7%81%A3%E7%94%9F%E6%8A%80%E8%BF%8E%E8%B3%87%E6%9C%AC%E8%88%87%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%96%B0%E5%A5%91%E6%A9%9F-000831208.html",
+      "publishedAt": "2026-11-25T08:08:31+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671003/xl/4a7c2e7803716d579643c52b6436c18a.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 33,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "詹方冠指出,台灣生技醫藥產業2025年營業額達新台幣8,301億元,上市櫃生技公司總市值達1.58兆元。",
+          "metric": "1.58兆元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "metric": "99億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "台灣生物產業發展協會24日舉辦會員大會暨專題論壇,與會專家認為,台灣生技業具備資本市場估值與交易活絡優勢,若能強化臨床價值、國際合作及商業化能力,可望迎來新一波發展契機。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "全球生醫IPO募資逆勢成長62%,台灣生技迎資本與國際合作新契機",
+          "angle": "深度調查與結構剖析",
+          "focus": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "excerpt": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E7%94%9F%E9%86%ABipo%E5%8B%9F%E8%B3%87%E9%80%86%E5%8B%A2%E6%88%90%E9%95%B762-%E5%8F%B0%E7%81%A3%E7%94%9F%E6%8A%80%E8%BF%8E%E8%B3%87%E6%9C%AC%E8%88%87%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%96%B0%E5%A5%91%E6%A9%9F-000831208.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "全球生醫IPO募資年增62% 台灣生技迎資本新契機",
+          "angle": "市場定價與外資籌碼",
+          "focus": "生技醫療募資今年99億元、年增62%,全球生物製藥併購與授權交易也升溫,台灣生技業迎發展契機 台灣生技醫藥2025年營收8,301億元、上市櫃市值1.58兆元,政府推智慧醫療、在宅醫療與關鍵藥國產 台灣今年前10月生醫IPO募資59億元、SPO56.8億元……",
+          "excerpt": "生技醫療募資今年99億元、年增62%,全球生物製藥併購與授權交易也升溫,台灣生技業迎發展契機 台灣生技醫藥2025年營收8,301億元、上市櫃市值1.58兆元,政府推智慧醫療、在宅醫療與關鍵藥國產 台灣今年前10月生醫IPO募資59億元、SPO56.8億元……",
+          "url": "https://news.cnyes.com/news/id/6671003",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "詹方冠指出,台灣生技醫藥產業2025年營業額達新台幣8,301億元,上市櫃生技公司總市值達1.58兆元。",
+          "metric": "1.58兆元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "metric": "99億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "台灣生物產業發展協會24日舉辦會員大會暨專題論壇,與會專家認為,台灣生技業具備資本市場估值與交易活絡優勢,若能強化臨床價值、國際合作及商業化能力,可望迎來新一波發展契機。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "全球生醫IPO募資逆勢成長62%,台灣生技迎資本與國際合作新契機",
+          "angle": "深度調查與結構剖析",
+          "focus": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "excerpt": "全球股市近期受AI政策轉向及獲利前景疑慮影響而震盪,然而,全球製藥產業併購與授權交易持續升溫,生醫IPO市場亦同步回暖,2026年上半年全球生技醫療IPO募資達99億美元,年增62%。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E7%94%9F%E9%86%ABipo%E5%8B%9F%E8%B3%87%E9%80%86%E5%8B%A2%E6%88%90%E9%95%B762-%E5%8F%B0%E7%81%A3%E7%94%9F%E6%8A%80%E8%BF%8E%E8%B3%87%E6%9C%AC%E8%88%87%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%96%B0%E5%A5%91%E6%A9%9F-000831208.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "全球生醫IPO募資年增62% 台灣生技迎資本新契機",
+          "angle": "市場定價與外資籌碼",
+          "focus": "生技醫療募資今年99億元、年增62%,全球生物製藥併購與授權交易也升溫,台灣生技業迎發展契機 台灣生技醫藥2025年營收8,301億元、上市櫃市值1.58兆元,政府推智慧醫療、在宅醫療與關鍵藥國產 台灣今年前10月生醫IPO募資59億元、SPO56.8億元……",
+          "excerpt": "生技醫療募資今年99億元、年增62%,全球生物製藥併購與授權交易也升溫,台灣生技業迎發展契機 台灣生技醫藥2025年營收8,301億元、上市櫃市值1.58兆元,政府推智慧醫療、在宅醫療與關鍵藥國產 台灣今年前10月生醫IPO募資59億元、SPO56.8億元……",
+          "url": "https://news.cnyes.com/news/id/6671003",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%85%A8%E7%90%83%E7%94%9F%E9%86%ABipo%E5%8B%9F%E8%B3%87%E9%80%86%E5%8B%A2%E6%88%90%E9%95%B762-%E5%8F%B0%E7%81%A3%E7%94%9F%E6%8A%80%E8%BF%8E%E8%B3%87%E6%9C%AC%E8%88%87%E5%9C%8B%E9%9A%9B%E5%90%88%E4%BD%9C%E6%96%B0%E5%A5%91%E6%A9%9F-000831208.html",
+          "headline": "全球生醫IPO募資逆勢成長62%,台灣生技迎資本與國際合作新契機",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671003",
+          "headline": "全球生醫IPO募資年增62% 台灣生技迎資本新契機",
           "lang": "zh"
         }
       ],
       "rank": 5
     },
     {
-      "id": "s9bf92689",
+      "id": "sc7343ad0",
       "section": "business_tech",
-      "title": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
+      "title": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售…",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/123398/9900069",
-      "publishedAt": "2026-11-25T06:21:20+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/webphotos/WebCover/800/20261125/1777x1333_168947383227.jpg",
-      "imageCredit": "中央社 CNA",
+      "summary": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。AI晶片大廠輝達(Nvidia)共同創辦人黃仁勳回任執行長帶動的AI股反彈未能延續,輝達股價下跌5.86%,收在155.38美元;台積電ADR下跌3.91%,收在349.20美元。 綜合外媒報導,黃仁勳23日重磅回歸任輝達執行長,不過前一天因此消息帶動的AI股反彈,於24日未能延續,Anthropic跌破首次公開發行(IPO)價格,費城半導體族群全面下跌,其中輝達跌5.86%、美光重挫10.97%,AMD重挫 8.86%;博通下跌 3.98%。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
+      "publishedAt": "2026-11-25T07:13:48+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/094f872ecd6d489bc05e6a2648b859bc3edc6e04baa2691fc15dfca7fbdd0c47/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnewtalk.tw%2Fc649b3a4cc5cc69efecd656fb2d36898.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "AI晶片大廠輝達(Nvidia)共同創辦人黃仁勳回任執行長帶動的AI股反彈未能延續,輝達股價下跌5.86%,收在155.38美元;台積電ADR下跌3.91%,收在349.20美元。",
+          "metric": "155.38美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "綜合外媒報導,黃仁勳23日重磅回歸任輝達執行長,不過前一天因此消息帶動的AI股反彈,於24日未能延續,Anthropic跌破首次公開發行(IPO)價格,費城半導體族群全面下跌,其中輝達跌5.86%、美光重挫10.97%,AMD重挫 8.86%;博通下跌 3.98%。",
+          "metric": "10.97%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "metric": "1.48%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
+          "angle": "利率匯率與總經政策",
+          "focus": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "excerpt": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "美股收盤》川普擬加徵關稅 輝達回跌、費半慘摔 台積電ADR挫3.91%",
+          "angle": "利率匯率與總經政策",
+          "focus": "黃仁勳回任輝達執行長帶動的AI股反彈未能延續,輝達回跌近6%,美光重挫逾10%,加上市場關注美國新一輪關稅計畫及聯準會(Fed)升息風險……",
+          "excerpt": "黃仁勳回任輝達執行長帶動的AI股反彈未能延續,輝達回跌近6%,美光重挫逾10%,加上市場關注美國新一輪關稅計畫及聯準會(Fed)升息風險……",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652311",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "AI晶片大廠輝達(Nvidia)共同創辦人黃仁勳回任執行長帶動的AI股反彈未能延續,輝達股價下跌5.86%,收在155.38美元;台積電ADR下跌3.91%,收在349.20美元。",
+          "metric": "155.38美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "綜合外媒報導,黃仁勳23日重磅回歸任輝達執行長,不過前一天因此消息帶動的AI股反彈,於24日未能延續,Anthropic跌破首次公開發行(IPO)價格,費城半導體族群全面下跌,其中輝達跌5.86%、美光重挫10.97%,AMD重挫 8.86%;博通下跌 3.98%。",
+          "metric": "10.97%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "metric": "1.48%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
+          "angle": "利率匯率與總經政策",
+          "focus": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "excerpt": "由於人工智慧(AI)熱潮前景不明,加上市場關注美國新一輪關稅計畫及升息風險,科技類股再遭投資人拋售,美國股市主要指數24日大多收跌,費半指數重挫7.88%,那斯達克指數下跌1.48%。",
+          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "美股收盤》川普擬加徵關稅 輝達回跌、費半慘摔 台積電ADR挫3.91%",
+          "angle": "利率匯率與總經政策",
+          "focus": "黃仁勳回任輝達執行長帶動的AI股反彈未能延續,輝達回跌近6%,美光重挫逾10%,加上市場關注美國新一輪關稅計畫及聯準會(Fed)升息風險……",
+          "excerpt": "黃仁勳回任輝達執行長帶動的AI股反彈未能延續,輝達回跌近6%,美光重挫逾10%,加上市場關注美國新一輪關稅計畫及聯準會(Fed)升息風險……",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652311",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E8%BC%9D%E9%81%94%E4%B8%8B%E6%BB%91%E8%BF%916-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%BF%914-231348967.html",
+          "headline": "AI熱潮前景不明!美股費半重挫7.88% 輝達下滑近6%、台積電ADR跌近4%",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652311",
+          "headline": "美股收盤》川普擬加徵關稅 輝達回跌、費半慘摔 台積電ADR挫3.91%",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "id": "sd6389caf",
+      "section": "business_tech",
+      "title": "日月光765元修正41%後「強攻漲停」!吃下台積電CoWoS外溢大單、每股純益估衝35元 投顧喊出目標價:還有18%空間",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元,給予「買進」評等,目標價設定626元,以昨(24日)收漲停530元計算,還有約18%的潛在上漲空間。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%88%E5%85%89765%E5%85%83%E4%BF%AE%E6%AD%A341-%E5%BE%8C-%E5%BC%B7%E6%94%BB%E6%BC%B2%E5%81%9C-%E5%90%83%E4%B8%8B%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E5%A4%96%E6%BA%A2%E5%A4%A7%E5%96%AE-eps%E4%BC%B0%E8%A1%9D35%E5%85%83-224130139.html",
+      "publishedAt": "2026-11-25T06:41:30+08:00",
+      "imageUrl": null,
+      "imageCredit": null,
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元…",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "日月光765元修正41%後「強攻漲停」!吃下台積電CoWoS外溢大單、每股純益估衝35元 投顧喊出目標價:還有18%空間",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元……",
+          "excerpt": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元……",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%88%E5%85%89765%E5%85%83%E4%BF%AE%E6%AD%A341-%E5%BE%8C-%E5%BC%B7%E6%94%BB%E6%BC%B2%E5%81%9C-%E5%90%83%E4%B8%8B%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E5%A4%96%E6%BA%A2%E5%A4%A7%E5%96%AE-eps%E4%BC%B0%E8%A1%9D35%E5%85%83-224130139.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元…",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "日月光765元修正41%後「強攻漲停」!吃下台積電CoWoS外溢大單、每股純益估衝35元 投顧喊出目標價:還有18%空間",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元……",
+          "excerpt": "受惠AI和高效能運算(HPC)晶片需求持續爆發,本土投顧研究認為,半導體封測龍頭日月光投控(3711)資本支出翻倍調高至115億美元,毛利率也逐年成長,加上直接吃下台積電(2330)先進封裝CoWoS外溢訂單,每股純益將由今年的21.05元至2028年邁向35.22元……",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%88%E5%85%89765%E5%85%83%E4%BF%AE%E6%AD%A341-%E5%BE%8C-%E5%BC%B7%E6%94%BB%E6%BC%B2%E5%81%9C-%E5%90%83%E4%B8%8B%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E5%A4%96%E6%BA%A2%E5%A4%A7%E5%96%AE-eps%E4%BC%B0%E8%A1%9D35%E5%85%83-224130139.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%88%E5%85%89765%E5%85%83%E4%BF%AE%E6%AD%A341-%E5%BE%8C-%E5%BC%B7%E6%94%BB%E6%BC%B2%E5%81%9C-%E5%90%83%E4%B8%8B%E5%8F%B0%E7%A9%8D%E9%9B%BBcowos%E5%A4%96%E6%BA%A2%E5%A4%A7%E5%96%AE-eps%E4%BC%B0%E8%A1%9D35%E5%85%83-224130139.html",
+          "headline": "日月光765元修正41%後「強攻漲停」!吃下台積電CoWoS外溢大單、每股純益估衝35元 投顧喊出目標價:還有18%空間",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "id": "s02e779fd",
+      "section": "business_tech",
+      "title": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "首次上稿 00:30更新時間 06:24 「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業…………",
+      "source": "自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5652284",
+      "publishedAt": "2026-11-25T08:21:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/e8ce9bde7760e0a0e282e4bde881e99a921dc08d0709b71b3ce5686f51eba2f7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Febc__387%2F5508a77652823e0e3d97ad87af20c5ba.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
       "score": 89,
       "scoreBreakdown": {
         "resonance": 35,
-        "impact": 30,
-        "data": 18,
-        "durability": 6
+        "impact": 34,
+        "data": 12,
+        "durability": 8
       },
       "mediaCount": 3,
       "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "美國總統川普準備再度祭出新一波關稅措施!",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "美國貿易代表葛里爾快將於本週公布一項歷時數月的「301條款」關稅調查結果,鎖定中國、歐盟及其他14個國家的產業補貼政策。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "鬼故事又來? 川普恐再祭新關稅 最快本週公告",
+          "angle": "利率匯率與總經政策",
+          "focus": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "excerpt": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%AC%BC%E6%95%85%E4%BA%8B%E5%8F%88%E4%BE%86-%E5%B7%9D%E6%99%AE%E6%81%90%E5%86%8D%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85-%E6%9C%80%E5%BF%AB%E6%9C%AC%E9%80%B1%E5%85%AC%E5%91%8A-002100096.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "angle": "深度調查與結構剖析",
+          "focus": "「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業補貼措施,但公布時間仍可能變動。",
+          "excerpt": "「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業補貼措施,但公布時間仍可能變動。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "angle": "利率匯率與總經政策",
+          "focus": "首次上稿 00:30更新時間 06:24 「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業……………",
+          "excerpt": "首次上稿 00:30更新時間 06:24 「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業……………",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652284",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "多家媒體（中央社 CNA、工商時報 / Yahoo 財經、自由財經）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
+      "coreFacts": [
+        {
+          "text": "美國總統川普準備再度祭出新一波關稅措施!",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "美國貿易代表葛里爾快將於本週公布一項歷時數月的「301條款」關稅調查結果,鎖定中國、歐盟及其他14個國家的產業補貼政策。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "鬼故事又來? 川普恐再祭新關稅 最快本週公告",
+          "angle": "利率匯率與總經政策",
+          "focus": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "excerpt": "根據《華爾街日報》引述知情人士報導,美國政府正準備對數十個國家提高關稅。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%AC%BC%E6%95%85%E4%BA%8B%E5%8F%88%E4%BE%86-%E5%B7%9D%E6%99%AE%E6%81%90%E5%86%8D%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85-%E6%9C%80%E5%BF%AB%E6%9C%AC%E9%80%B1%E5%85%AC%E5%91%8A-002100096.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "angle": "深度調查與結構剖析",
+          "focus": "「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業補貼措施,但公布時間仍可能變動。",
+          "excerpt": "「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業補貼措施,但公布時間仍可能變動。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "angle": "利率匯率與總經政策",
+          "focus": "首次上稿 00:30更新時間 06:24 「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業……………",
+          "excerpt": "首次上稿 00:30更新時間 06:24 「華爾街日報」獨家報導,知情人士表示,美國貿易代表葛里爾預計最快本週公布一項歷時數月的關稅調查結果,調查對象為中國、歐盟及其他14國的產業……………",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652284",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "多家媒體（中央社 CNA、工商時報 / Yahoo 財經、自由財經）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E9%AC%BC%E6%95%85%E4%BA%8B%E5%8F%88%E4%BE%86-%E5%B7%9D%E6%99%AE%E6%81%90%E5%86%8D%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85-%E6%9C%80%E5%BF%AB%E6%9C%AC%E9%80%B1%E5%85%AC%E5%91%8A-002100096.html",
+          "headline": "鬼故事又來? 川普恐再祭新關稅 最快本週公告",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E6%9C%80%E5%BF%AB%E6%9C%AC%E9%80%B1%E6%8F%AD%E6%9B%89-%E5%8F%B0%E7%81%A3%E7%AD%8916%E7%B6%93%E6%BF%9F%E9%AB%94%E5%85%A5%E5%88%97-000946744.html",
+          "headline": "川普關稅最快本週揭曉 台灣等16經濟體入列",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611250002.aspx",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5652284",
+          "headline": "傳美國準備調高對中國與其他國家關稅 最快本週公布",
+          "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "id": "s403828af",
+      "section": "business_tech",
+      "title": "AI疑慮重燃、美祭新關稅威脅 美股走低、輝達股價挫6%",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.news.yahoo.com/ai%E7%96%91%E6%85%AE%E9%87%8D%E7%87%83-%E7%BE%8E%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85%E5%A8%81%E8%84%85-%E7%BE%8E%E8%82%A1%E8%B5%B0%E4%BD%8E-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E6%8C%AB6-232003162.html",
+      "publishedAt": "2026-11-25T07:20:03+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/2dc4ddfe57feda55c05512f0a6419ab9501d653829b5501a2e46253da6c36fc0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Ftaisounds_com_380%2Fd295cfb9b8865939d63ecab3035b1ff1.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 89,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 18,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
         "供應鏈與整併",
         "技術與算力突破"
       ],
@@ -4501,28 +4677,25 @@
           "text": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
           "metric": "155.38美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "中央社 CNA"
+          ]
+        },
+        {
+          "text": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "經濟日報",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售…",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售…",
-          "url": "https://money.udn.com/money/story/123398/9900069",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
-          "angle": "先進技術與算力規格",
-          "focus": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E5%A4%9A%E6%94%B6%E8%B7%8C-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E4%B8%8B%E6%8C%AB%E8%BF%916-220918680.html",
+          "headline": "AI疑慮重燃、美祭新關稅威脅 美股走低、輝達股價挫6%",
+          "angle": "利率匯率與總經政策",
+          "focus": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "excerpt": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "url": "https://tw.news.yahoo.com/ai%E7%96%91%E6%85%AE%E9%87%8D%E7%87%83-%E7%BE%8E%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85%E5%A8%81%E8%84%85-%E7%BE%8E%E8%82%A1%E8%B5%B0%E4%BD%8E-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E6%8C%AB6-232003162.html",
           "lang": "zh"
         },
         {
@@ -4535,34 +4708,31 @@
           "lang": "zh"
         }
       ],
-      "unverified_notice": "",
+      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "coreFacts": [
         {
           "text": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
           "metric": "155.38美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "中央社 CNA"
           ]
+        },
+        {
+          "text": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "經濟日報",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
-          "angle": "市場定價與外資籌碼",
-          "focus": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售…",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售…",
-          "url": "https://money.udn.com/money/story/123398/9900069",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
-          "angle": "先進技術與算力規格",
-          "focus": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
-          "excerpt": "由於人工智慧(AI)熱潮前景不明,科技類股再次遭投資人拋售,美國股市4大指數今天多收低,其中晶片巨擘輝達公司(Nvidia)股價下滑5.86%,來到155.38美元。",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E5%A4%9A%E6%94%B6%E8%B7%8C-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E4%B8%8B%E6%8C%AB%E8%BF%916-220918680.html",
+          "headline": "AI疑慮重燃、美祭新關稅威脅 美股走低、輝達股價挫6%",
+          "angle": "利率匯率與總經政策",
+          "focus": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "excerpt": "輝達執行長黃仁勳回歸帶動的股市回漲行情僅維持一天,投資人對AI的發展疑慮重燃,再加上美國川普政府傳出可能祭出新關稅,美股週二(11/24)收盤多為收跌。",
+          "url": "https://tw.news.yahoo.com/ai%E7%96%91%E6%85%AE%E9%87%8D%E7%87%83-%E7%BE%8E%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85%E5%A8%81%E8%84%85-%E7%BE%8E%E8%82%A1%E8%B5%B0%E4%BD%8E-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E6%8C%AB6-232003162.html",
           "lang": "zh"
         },
         {
@@ -4575,18 +4745,12 @@
           "lang": "zh"
         }
       ],
-      "unverifiedNotice": "",
+      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
       "sources": [
         {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/123398/9900069",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
-          "lang": "zh"
-        },
-        {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/ai%E7%86%B1%E6%BD%AE%E5%89%8D%E6%99%AF%E4%B8%8D%E6%98%8E-%E7%BE%8E%E8%82%A1%E5%A4%9A%E6%94%B6%E8%B7%8C-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E4%B8%8B%E6%8C%AB%E8%BF%916-220918680.html",
-          "headline": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
+          "url": "https://tw.news.yahoo.com/ai%E7%96%91%E6%85%AE%E9%87%8D%E7%87%83-%E7%BE%8E%E7%A5%AD%E6%96%B0%E9%97%9C%E7%A8%85%E5%A8%81%E8%84%85-%E7%BE%8E%E8%82%A1%E8%B5%B0%E4%BD%8E-%E8%BC%9D%E9%81%94%E8%82%A1%E5%83%B9%E6%8C%AB6-232003162.html",
+          "headline": "AI疑慮重燃、美祭新關稅威脅 美股走低、輝達股價挫6%",
           "lang": "zh"
         },
         {
@@ -4596,143 +4760,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
-    },
-    {
-      "id": "sd3331ed7",
-      "section": "business_tech",
-      "title": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。 高盛稱信用市場落後股市,投資級公司債利差僅擴大約13個個基點,2年期通膨交換利率降至2.09%。 花旗拿2026年對照2018年,稱景氣循環股、科技股與醫療保健轉弱,市場壓力恐持續擴散。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671180",
-      "publishedAt": "2026-11-25T05:50:05+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671180/xl/1deefa4ba2324f55ba9a453e963ea468.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 89,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 33,
-        "data": 20,
-        "durability": 6
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "高盛稱信用市場落後股市,投資級公司債利差僅擴大約13個個個基點,2年期通膨交換利率降至2.09%。",
-          "metric": "2.09%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "metric": "7%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "花旗拿2026年對照2018年,稱景氣循環股、科技股與醫療保健轉弱,市場壓力恐持續擴散。",
-          "metric": "2018年",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "excerpt": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "url": "https://news.cnyes.com/news/id/6671180",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "excerpt": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BE%86%E4%BA%86-2018%E4%B9%9F%E5%9B%9E%E4%BE%86%E4%BA%86-%E9%AB%98%E7%9B%9B%E8%AD%A6%E5%91%8A-%E7%BE%8E%E8%82%A1%E6%9A%B4%E6%BC%B2%E5%8F%AA%E6%98%AF%E7%86%8A%E5%B8%82%E5%8F%8D%E5%BD%88-215005208.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "高盛稱信用市場落後股市,投資級公司債利差僅擴大約13個個個基點,2年期通膨交換利率降至2.09%。",
-          "metric": "2.09%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "metric": "7%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "花旗拿2026年對照2018年,稱景氣循環股、科技股與醫療保健轉弱,市場壓力恐持續擴散。",
-          "metric": "2018年",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "excerpt": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "url": "https://news.cnyes.com/news/id/6671180",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "excerpt": "黃仁勳回任輝達執行長帶動美股強彈、那指100漲約7%,但高盛指這波更像空頭回補的熊市反彈。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BE%86%E4%BA%86-2018%E4%B9%9F%E5%9B%9E%E4%BE%86%E4%BA%86-%E9%AB%98%E7%9B%9B%E8%AD%A6%E5%91%8A-%E7%BE%8E%E8%82%A1%E6%9A%B4%E6%BC%B2%E5%8F%AA%E6%98%AF%E7%86%8A%E5%B8%82%E5%8F%8D%E5%BD%88-215005208.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671180",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BE%86%E4%BA%86-2018%E4%B9%9F%E5%9B%9E%E4%BE%86%E4%BA%86-%E9%AB%98%E7%9B%9B%E8%AD%A6%E5%91%8A-%E7%BE%8E%E8%82%A1%E6%9A%B4%E6%BC%B2%E5%8F%AA%E6%98%AF%E7%86%8A%E5%B8%82%E5%8F%8D%E5%BD%88-215005208.html",
-          "headline": "黃仁勳回來了 2018也回來了!高盛警告:美股暴漲只是熊市反彈",
-          "lang": "zh"
-        }
-      ],
-      "rank": 7
+      "rank": 9
     },
     {
       "id": "se6aca4f7",
@@ -4823,213 +4851,6 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
-    },
-    {
-      "id": "sccfd0de1",
-      "section": "business_tech",
-      "title": "黃仁勳回鍋 高人氣台股ETF買氣暴衝",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台股10月創49968.92點歷史新高後,11月遇黃仁勳事件暴擊,股價一路狂跌至11/23止,跌幅近41%,儘管台股ETF股價同步遭殃,同期間卻有12檔台股原型ETF受益人數逆勢",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E9%AB%98%E4%BA%BA%E6%B0%A3%E5%8F%B0%E8%82%A1etf%E8%B2%B7%E6%B0%A3%E6%9A%B4%E8%A1%9D-190838871.html",
-      "publishedAt": "2026-11-25T03:08:38+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/24/35550069.jpg&M=1&s=Y&x=0&y=0&sw=1257&sh=837&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 18,
-        "durability": 6
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳回鍋振奮投資人信心 但三個麻煩待解",
-          "angle": "先進技術與算力規格",
-          "focus": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "excerpt": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "url": "https://money.udn.com/money/story/5599/9899803",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回鍋 高人氣台股ETF買氣暴衝",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台股10月創49968.92點歷史新高後,11月遇黃仁勳事件暴擊,股價一路狂跌至11/23止,跌幅近41%,儘管台股ETF股價同步遭殃,同期間卻有12檔台股原型ETF受益人數逆勢",
-          "excerpt": "台股10月創49968.92點歷史新高後,11月遇黃仁勳事件暴擊,股價一路狂跌至11/23止,跌幅近41%,儘管台股ETF股價同步遭殃,同期間卻有12檔台股原型ETF受益人數逆勢",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E9%AB%98%E4%BA%BA%E6%B0%A3%E5%8F%B0%E8%82%A1etf%E8%B2%B7%E6%B0%A3%E6%9A%B4%E8%A1%9D-190838871.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳回鍋振奮投資人信心 但三個麻煩待解",
-          "angle": "先進技術與算力規格",
-          "focus": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "excerpt": "輝達(Nvidia)執行長黃仁勳回歸後,雖然消除了領導真空疑慮,也一度振奮投資人信心,但麻煩還沒結束,依然面臨國安、資訊揭露、晶片出口、美中角力等問題。",
-          "url": "https://money.udn.com/money/story/5599/9899803",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "黃仁勳回鍋 高人氣台股ETF買氣暴衝",
-          "angle": "市場定價與外資籌碼",
-          "focus": "台股10月創49968.92點歷史新高後,11月遇黃仁勳事件暴擊,股價一路狂跌至11/23止,跌幅近41%,儘管台股ETF股價同步遭殃,同期間卻有12檔台股原型ETF受益人數逆勢",
-          "excerpt": "台股10月創49968.92點歷史新高後,11月遇黃仁勳事件暴擊,股價一路狂跌至11/23止,跌幅近41%,儘管台股ETF股價同步遭殃,同期間卻有12檔台股原型ETF受益人數逆勢",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E9%AB%98%E4%BA%BA%E6%B0%A3%E5%8F%B0%E8%82%A1etf%E8%B2%B7%E6%B0%A3%E6%9A%B4%E8%A1%9D-190838871.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9899803",
-          "headline": "黃仁勳回鍋振奮投資人信心 但三個麻煩待解",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E9%8D%8B-%E9%AB%98%E4%BA%BA%E6%B0%A3%E5%8F%B0%E8%82%A1etf%E8%B2%B7%E6%B0%A3%E6%9A%B4%E8%A1%9D-190838871.html",
-          "headline": "黃仁勳回鍋 高人氣台股ETF買氣暴衝",
-          "lang": "zh"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "id": "s1e55e4ea",
-      "section": "business_tech",
-      "title": "〈財報〉AI伺服器需求強大 戴爾今年第三度上修全年營收展望 盤後彈逾4%",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。 全年營收展望第3度上修至2020億美元,AI伺服器營收估780億美元。 AI資料中心需求推升訂單,季末AI伺服器未完成訂單達1323億美元,董事會授權250億美元庫藏股回購。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671191",
-      "publishedAt": "2026-11-25T07:21:20+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671191/xl/c771ae891fe9cf7c510090768b6bab27.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 6
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "metric": "549.4億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "全年營收展望第3度上修至2020億美元,AI伺服器營收估780億美元。",
-          "metric": "2020億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "AI資料中心需求推升訂單,季末AI伺服器未完成訂單達1323億美元,董事會授權250億美元庫藏股回購。",
-          "metric": "1323億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "〈財報〉AI伺服器需求強大 戴爾今年第三度上修全年營收展望 盤後彈逾4%",
-          "angle": "資本預算與財報配置",
-          "focus": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "excerpt": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "url": "https://news.cnyes.com/news/id/6671191",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "metric": "549.4億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "全年營收展望第3度上修至2020億美元,AI伺服器營收估780億美元。",
-          "metric": "2020億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "AI資料中心需求推升訂單,季末AI伺服器未完成訂單達1323億美元,董事會授權250億美元庫藏股回購。",
-          "metric": "1323億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "〈財報〉AI伺服器需求強大 戴爾今年第三度上修全年營收展望 盤後彈逾4%",
-          "angle": "資本預算與財報配置",
-          "focus": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "excerpt": "戴爾第3季每股純益 9.45美元、營收549.4億美元皆優於預期,AI最佳化伺服器營收220億美元,年增291%。",
-          "url": "https://news.cnyes.com/news/id/6671191",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671191",
-          "headline": "〈財報〉AI伺服器需求強大 戴爾今年第三度上修全年營收展望 盤後彈逾4%",
-          "lang": "zh"
-        }
-      ],
       "rank": 10
     },
     {
@@ -5072,13 +4893,6 @@
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
-        },
-        {
-          "text": "美國貿易代表格里爾(Jamieson Greer)最快本周公布針對16個國家和地區的關稅調查結果,《華爾街日報》報導,川普政府將在本周對中國、歐盟及另外10幾個經濟體,實施全面的新關稅,川普政府認為,這些國家透過支持本國工業生產的措施,損害了美國企業的利益。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
         }
       ],
       "media_perspectives": [
@@ -5107,13 +4921,6 @@
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
-        },
-        {
-          "text": "美國貿易代表格里爾(Jamieson Greer)最快本周公布針對16個國家和地區的關稅調查結果,《華爾街日報》報導,川普政府將在本周對中國、歐盟及另外10幾個經濟體,實施全面的新關稅,川普政府認為,這些國家透過支持本國工業生產的措施,損害了美國企業的利益。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
         }
       ],
       "mediaPerspectives": [
@@ -5134,59 +4941,55 @@
           "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E5%86%8D%E5%97%86%E5%8F%B0%E7%81%A3-%E5%81%B7%E8%B5%B0%E7%BE%8E%E5%9C%8B%E8%BF%91100-%E6%99%B6%E7%89%87%E7%94%9F%E6%84%8F-%E6%94%BE%E8%A9%B12%E5%B9%B4%E5%BE%8C%E9%97%9C%E7%A8%85%E4%B8%8A%E7%9C%8B200-222900499.html",
           "headline": "川普再嗆台灣:偷走美國近100%晶片生意!放話2年後關稅上看200%",
           "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%B0%8D%E5%8F%B0%E7%81%A3%E7%AD%8916%E7%B6%93%E6%BF%9F%E9%AB%94-%E5%B7%9D%E6%99%AE%E5%86%8D%E6%8E%A8%E6%96%B0%E9%97%9C%E7%A8%85-201000605.html",
-          "headline": "對台灣等16經濟體 川普再推新關稅",
-          "lang": "zh"
         }
       ],
       "rank": 11
     },
     {
-      "id": "s3e32b660",
+      "id": "s3633dcb6",
       "section": "business_tech",
-      "title": "川普關稅再起費半崩近8%!台指夜盤殺1842點 台股4萬點告急",
+      "title": "國發基金首投歐洲生技基金!AdBio Partners拓亞洲佈局在台北設辦公室",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "美股週二(24日)主要指數漲跌互見,前一交易日由黃仁勳回任輝達執行長帶動的AI股反彈行情未能延續,加上美國總統川普新一輪關稅計畫及聯準會(Fed)升息疑慮,科技股再度遭遇沉重賣壓,半導體及記憶體族群成為重災區。費半重挫7.88%,台指期夜盤大跌1842點,台股今(25)日開盤恐面臨4萬點保衛戰。",
+      "summary": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。AdBio Partners表示,基金鎖定早期新藥開發標的,未來將等額投注於台灣或與台灣相關的新藥產業,藉由跨國資金、人才與藥廠資源整合,協助台灣新藥團隊走向國際。AdBio Partners成立於2016年,長期專注於新藥早期投資,透過前兩期基金已在歐洲建立涵蓋30家企業的投資組合,並吸引多家國際知名創投機構及製藥公司參與後續投資與策略合作。",
       "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%86%8D%E8%B5%B7%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%918-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%AE%BA1842%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E5%91%8A%E6%80%A5-222800418.html",
-      "publishedAt": "2026-11-25T06:28:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/0252792ae0a0e251b974c3a531d7ac763a96882fe7a2e52704f742dbf2256a7c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fsetn.com.tw%2F934d24768f898d5ad511b0235c610fc4.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 87,
+      "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91%E9%A6%96%E6%8A%95%E6%AD%90%E6%B4%B2%E7%94%9F%E6%8A%80%E5%9F%BA%E9%87%91-adbio-partners%E6%8B%93%E4%BA%9E%E6%B4%B2%E4%BD%88%E5%B1%80%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A8%AD%E8%BE%A6%E5%85%AC%E5%AE%A4-002730862.html",
+      "publishedAt": "2026-11-25T08:27:30+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6670990/xl/7f549dd2ec93c1c7b6d46e42d94a10ed.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 86,
       "scoreBreakdown": {
-        "resonance": 27,
+        "resonance": 30,
         "impact": 34,
-        "data": 20,
-        "durability": 6
+        "data": 14,
+        "durability": 8
       },
-      "mediaCount": 1,
+      "mediaCount": 2,
       "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策"
+        "利率與法規政策",
+        "供應鏈與整併"
       ],
-      "isStrategicTopic": false,
+      "isStrategicTopic": true,
       "core_facts": [
         {
-          "text": "費半重挫7.88%,台指期夜盤大跌1842點,台股今(25)日開盤恐面臨4萬點保衛戰。",
-          "metric": "1842點",
+          "text": "AdBio第三期基金上限1億歐元,國發基金投資約1500萬歐元,並獲EIF、Bpifrance等機構參與。",
+          "metric": "1500萬",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "與台股連動最密切的費城半導體指數重挫755.55點,跌幅近8%。",
-          "metric": "755.55點",
+          "text": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "metric": "1500萬",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "台積電ADR今天收黑,下跌3.96%,台指期夜盤大跌1842點。",
-          "metric": "1842點",
+          "text": "AdBio Partners成立於2016年,長期專注於新藥早期投資,透過前兩期基金已在歐洲建立涵蓋30家企業的投資組合,並吸引多家國際知名創投機構及製藥公司參與後續投資與策略合作。",
+          "metric": "30家",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
@@ -5195,33 +4998,44 @@
       "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "川普關稅再起費半崩近8%!台指夜盤殺1842點 台股4萬點告急",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股週二(24日)主要指數漲跌互見,前一交易日由黃仁勳回任輝達執行長帶動的AI股反彈行情未能延續,加上美國總統川普新一輪關稅計畫及聯準會(Fed)升息疑慮,科技股再度遭遇沉重賣壓,半導體及記憶體族群成為重災區。",
-          "excerpt": "美股週二(24日)主要指數漲跌互見,前一交易日由黃仁勳回任輝達執行長帶動的AI股反彈行情未能延續,加上美國總統川普新一輪關稅計畫及聯準會(Fed)升息疑慮,科技股再度遭遇沉重賣壓,半導體及記憶體族群成為重災區。",
-          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%86%8D%E8%B5%B7%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%918-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%AE%BA1842%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E5%91%8A%E6%80%A5-222800418.html",
+          "headline": "國發基金首投歐洲生技基金!AdBio Partners拓亞洲佈局在台北設辦公室",
+          "angle": "產業動態與市場焦點",
+          "focus": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "excerpt": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91%E9%A6%96%E6%8A%95%E6%AD%90%E6%B4%B2%E7%94%9F%E6%8A%80%E5%9F%BA%E9%87%91-adbio-partners%E6%8B%93%E4%BA%9E%E6%B4%B2%E4%BD%88%E5%B1%80%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A8%AD%E8%BE%A6%E5%85%AC%E5%AE%A4-002730862.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "AdBio Partners拓展亞洲 同獲國發基金投資支持",
+          "angle": "產業動態與市場焦點",
+          "focus": "AdBio Partners今宣布設立台北辦公室,拓展亞洲市場,台北成為繼歐洲與加拿大後的重要據點。",
+          "excerpt": "AdBio Partners今宣布設立台北辦公室,拓展亞洲市場,台北成為繼歐洲與加拿大後的重要據點。",
+          "url": "https://news.cnyes.com/news/id/6670990",
           "lang": "zh"
         }
       ],
-      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
+      "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "費半重挫7.88%,台指期夜盤大跌1842點,台股今(25)日開盤恐面臨4萬點保衛戰。",
-          "metric": "1842點",
+          "text": "AdBio第三期基金上限1億歐元,國發基金投資約1500萬歐元,並獲EIF、Bpifrance等機構參與。",
+          "metric": "1500萬",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "與台股連動最密切的費城半導體指數重挫755.55點,跌幅近8%。",
-          "metric": "755.55點",
+          "text": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "metric": "1500萬",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "台積電ADR今天收黑,下跌3.96%,台指期夜盤大跌1842點。",
-          "metric": "1842點",
+          "text": "AdBio Partners成立於2016年,長期專注於新藥早期投資,透過前兩期基金已在歐洲建立涵蓋30家企業的投資組合,並吸引多家國際知名創投機構及製藥公司參與後續投資與策略合作。",
+          "metric": "30家",
           "confirmed_by": [
             "工商時報 / Yahoo 財經"
           ]
@@ -5230,26 +5044,35 @@
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "川普關稅再起費半崩近8%!台指夜盤殺1842點 台股4萬點告急",
-          "angle": "利率匯率與總經政策",
-          "focus": "美股週二(24日)主要指數漲跌互見,前一交易日由黃仁勳回任輝達執行長帶動的AI股反彈行情未能延續,加上美國總統川普新一輪關稅計畫及聯準會(Fed)升息疑慮,科技股再度遭遇沉重賣壓,半導體及記憶體族群成為重災區。",
-          "excerpt": "美股週二(24日)主要指數漲跌互見,前一交易日由黃仁勳回任輝達執行長帶動的AI股反彈行情未能延續,加上美國總統川普新一輪關稅計畫及聯準會(Fed)升息疑慮,科技股再度遭遇沉重賣壓,半導體及記憶體族群成為重災區。",
-          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%86%8D%E8%B5%B7%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%918-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%AE%BA1842%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E5%91%8A%E6%80%A5-222800418.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%9B%A4%E5%89%8D-%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E5%86%8D%E8%B5%B7%E8%B2%BB%E5%8D%8A%E5%B4%A9%E8%BF%918-%E5%8F%B0%E6%8C%87%E5%A4%9C%E7%9B%A4%E6%AE%BA1842%E9%BB%9E-%E5%8F%B0%E8%82%A14%E8%90%AC%E9%BB%9E%E5%91%8A%E6%80%A5-222800418.html",
-          "headline": "川普關稅再起費半崩近8%!台指夜盤殺1842點 台股4萬點告急",
+          "headline": "國發基金首投歐洲生技基金!AdBio Partners拓亞洲佈局在台北設辦公室",
+          "angle": "產業動態與市場焦點",
+          "focus": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "excerpt": "專注新藥早期投資的歐洲創投機構AdBio Partners 24日宣布正式設立台北辦公室,進一步拓展亞洲市場;其第三期基金規模上限1億歐元,已獲行政院國家發展基金投資1,500萬歐元,這也是國發基金首度投資歐洲生技基金。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91%E9%A6%96%E6%8A%95%E6%AD%90%E6%B4%B2%E7%94%9F%E6%8A%80%E5%9F%BA%E9%87%91-adbio-partners%E6%8B%93%E4%BA%9E%E6%B4%B2%E4%BD%88%E5%B1%80%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A8%AD%E8%BE%A6%E5%85%AC%E5%AE%A4-002730862.html",
           "lang": "zh"
         },
         {
+          "media": "鉅亨網 Anue",
+          "headline": "AdBio Partners拓展亞洲 同獲國發基金投資支持",
+          "angle": "產業動態與市場焦點",
+          "focus": "AdBio Partners今宣布設立台北辦公室,拓展亞洲市場,台北成為繼歐洲與加拿大後的重要據點。",
+          "excerpt": "AdBio Partners今宣布設立台北辦公室,拓展亞洲市場,台北成為繼歐洲與加拿大後的重要據點。",
+          "url": "https://news.cnyes.com/news/id/6670990",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E8%A1%8C%E6%83%85%E5%83%85-%E6%97%A5-%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB7-88-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%A4%A7%E8%B7%8C-221707861.html",
-          "headline": "黃仁勳行情熄火 關稅風暴再起!費半重挫7.88%、台指期夜盤大跌",
+          "url": "https://tw.stock.yahoo.com/news/%E5%9C%8B%E7%99%BC%E5%9F%BA%E9%87%91%E9%A6%96%E6%8A%95%E6%AD%90%E6%B4%B2%E7%94%9F%E6%8A%80%E5%9F%BA%E9%87%91-adbio-partners%E6%8B%93%E4%BA%9E%E6%B4%B2%E4%BD%88%E5%B1%80%E5%9C%A8%E5%8F%B0%E5%8C%97%E8%A8%AD%E8%BE%A6%E5%85%AC%E5%AE%A4-002730862.html",
+          "headline": "國發基金首投歐洲生技基金!AdBio Partners拓亞洲佈局在台北設辦公室",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6670990",
+          "headline": "AdBio Partners拓展亞洲 同獲國發基金投資支持",
           "lang": "zh"
         }
       ],
@@ -5257,11 +5080,11 @@
     }
   ],
   "stats": {
-    "clusters": 351,
+    "clusters": 366,
     "passed": 12,
-    "totalQualified": 48,
-    "below_threshold": 303,
-    "articlesAnalysed": 461
+    "totalQualified": 59,
+    "below_threshold": 307,
+    "articlesAnalysed": 447
   },
   "sourcesStatus": [
     {
@@ -5270,7 +5093,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 77,
+      "count": 75,
       "error": null
     },
     {
@@ -5279,7 +5102,7 @@
       "group": "business",
       "section": "頭條要聞",
       "ok": true,
-      "count": 80,
+      "count": 76,
       "error": null
     },
     {
@@ -5297,7 +5120,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 192,
+      "count": 187,
       "error": null
     },
     {
@@ -5306,7 +5129,7 @@
       "group": "business",
       "section": "產經與財經政策",
       "ok": true,
-      "count": 35,
+      "count": 34,
       "error": null
     },
     {
@@ -5324,7 +5147,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 59,
+      "count": 61,
       "error": null
     },
     {
@@ -5333,7 +5156,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 24,
+      "count": 23,
       "error": null
     },
     {
@@ -5342,7 +5165,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 40,
+      "count": 39,
       "error": null
     },
     {
