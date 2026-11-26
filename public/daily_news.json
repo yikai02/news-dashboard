@@ -7,8 +7,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-26T07:30:18+08:00",
-  "updatedAt": "2026-11-26 07:30",
+  "generatedAt": "2026-11-26T09:15:12+08:00",
+  "updatedAt": "2026-11-26 09:15",
   "date": "2026-11-26",
   "weekday": "星期四",
   "dataMode": "live",
@@ -94,9 +94,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.665,
-        "change": 0.0,
-        "changePct": 0.0,
+        "value": 103.718,
+        "change": 0.053,
+        "changePct": 0.05,
         "asOf": "2026-11-25",
         "history": [
           101.653,
@@ -113,7 +113,7 @@
           103.84,
           104.318,
           103.814,
-          103.665
+          103.718
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.91,
-        "change": 0.23,
-        "changePct": 0.27,
+        "value": 84.22,
+        "change": 0.54,
+        "changePct": 0.65,
         "asOf": "2026-11-25",
         "history": [
           90.52,
@@ -145,7 +145,7 @@
           83.98,
           80.17,
           82.05,
-          83.91
+          84.22
         ],
         "source": "CNBC Market Data"
       },
@@ -158,9 +158,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3575.6,
-        "change": 39.8,
-        "changePct": 1.13,
+        "value": 3562.6,
+        "change": 26.8,
+        "changePct": 0.76,
         "asOf": "2026-11-25",
         "history": [
           4113.5,
@@ -177,7 +177,7 @@
           3515.4,
           3651.4,
           3561.9,
-          3575.6
+          3562.6
         ],
         "source": "CNBC Market Data"
       },
@@ -284,9 +284,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.665,
-        "change": 0.0,
-        "changePct": 0.0,
+        "value": 103.718,
+        "change": 0.053,
+        "changePct": 0.05,
         "asOf": "2026-11-25",
         "history": [
           101.653,
@@ -303,7 +303,7 @@
           103.84,
           104.318,
           103.814,
-          103.665
+          103.718
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.91,
-        "change": 0.23,
-        "changePct": 0.27,
+        "value": 84.22,
+        "change": 0.54,
+        "changePct": 0.65,
         "asOf": "2026-11-25",
         "history": [
           90.52,
@@ -335,7 +335,7 @@
           83.98,
           80.17,
           82.05,
-          83.91
+          84.22
         ],
         "source": "CNBC Market Data"
       },
@@ -348,9 +348,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3575.6,
-        "change": 39.8,
-        "changePct": 1.13,
+        "value": 3562.6,
+        "change": 26.8,
+        "changePct": 0.76,
         "asOf": "2026-11-25",
         "history": [
           4113.5,
@@ -367,7 +367,7 @@
           3515.4,
           3651.4,
           3561.9,
-          3575.6
+          3562.6
         ],
         "source": "CNBC Market Data"
       },
@@ -1198,12 +1198,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 38195.43,
-            "change": -1926.92,
-            "changePct": -4.8,
-            "asOf": "2026-11-25",
+            "value": 39148.48,
+            "change": 953.05,
+            "changePct": 2.5,
+            "asOf": "2026-11-26",
             "history": [
-              41574.72,
               39701.64,
               41661.7,
               42711.92,
@@ -1217,7 +1216,8 @@
               36033.29,
               36811.89,
               40122.35,
-              38195.43
+              38195.43,
+              39148.48
             ],
             "source": "TWSE / TPEx"
           },
@@ -1230,12 +1230,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 275.97,
-            "change": -17.26,
-            "changePct": -5.89,
-            "asOf": "2026-11-25",
+            "value": 289.09,
+            "change": 13.12,
+            "changePct": 4.75,
+            "asOf": "2026-11-26",
             "history": [
-              321.47,
               304.02,
               321.97,
               332.97,
@@ -1249,7 +1248,8 @@
               263.31,
               270.9,
               293.23,
-              275.97
+              275.97,
+              289.09
             ],
             "source": "TWSE / TPEx"
           }
@@ -1264,13 +1264,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 90.3,
-            "change": -5.4,
-            "changePct": -5.64,
-            "asOf": "2026-11-25",
+            "value": 92.2,
+            "change": 1.9,
+            "changePct": 2.1,
+            "asOf": "2026-11-26",
             "history": [
+              92.5,
+              97.45,
+              99.7,
+              103.2,
+              100.95,
+              102.5,
+              96.45,
+              94.0,
+              94.1,
+              90.2,
+              84.45,
+              87.0,
               95.7,
-              90.3
+              90.3,
+              92.2
             ],
             "source": "TWSE / TPEx"
           },
@@ -1283,13 +1296,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 203.15,
-            "change": -11.95,
-            "changePct": -5.56,
-            "asOf": "2026-11-25",
+            "value": 207.65,
+            "change": 4.5,
+            "changePct": 2.22,
+            "asOf": "2026-11-26",
             "history": [
+              210.1,
+              223.6,
+              228.9,
+              236.6,
+              231.95,
+              235.05,
+              220.85,
+              211.9,
+              212.0,
+              202.65,
+              189.8,
+              195.55,
               215.1,
-              203.15
+              203.15,
+              207.65
             ],
             "source": "TWSE / TPEx"
           },
@@ -1302,12 +1328,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2150.0,
-            "change": -80.0,
-            "changePct": -3.59,
-            "asOf": "2026-11-25",
+            "value": 2147.5,
+            "change": -2.5,
+            "changePct": -0.12,
+            "asOf": "2026-11-26",
             "history": [
-              2240.0,
               2135.0,
               2235.0,
               2285.0,
@@ -1321,7 +1346,8 @@
               2000.0,
               2030.0,
               2230.0,
-              2150.0
+              2150.0,
+              2147.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1334,13 +1360,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 87.4,
-            "change": -9.7,
-            "changePct": -9.99,
-            "asOf": "2026-11-25",
+            "value": 90.45,
+            "change": 3.05,
+            "changePct": 3.49,
+            "asOf": "2026-11-26",
             "history": [
+              92.0,
+              96.7,
+              100.5,
+              104.0,
+              101.0,
+              101.5,
+              95.2,
+              92.4,
+              93.0,
+              88.2,
+              80.3,
+              88.3,
               97.1,
-              87.4
+              87.4,
+              90.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1353,12 +1392,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3645.0,
-            "change": -405.0,
-            "changePct": -10.0,
-            "asOf": "2026-11-25",
+            "value": 3837.5,
+            "change": 192.5,
+            "changePct": 5.28,
+            "asOf": "2026-11-26",
             "history": [
-              3460.0,
               3390.0,
               3725.0,
               3830.0,
@@ -1372,7 +1410,8 @@
               3350.0,
               3685.0,
               4050.0,
-              3645.0
+              3645.0,
+              3837.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1385,12 +1424,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 206.5,
-            "change": -20.0,
-            "changePct": -8.83,
-            "asOf": "2026-11-25",
+            "value": 213.25,
+            "change": 6.75,
+            "changePct": 3.27,
+            "asOf": "2026-11-26",
             "history": [
-              235.0,
               224.5,
               239.0,
               241.5,
@@ -1404,7 +1442,8 @@
               210.0,
               206.0,
               226.5,
-              206.5
+              206.5,
+              213.25
             ],
             "source": "TWSE / TPEx"
           }
@@ -1419,12 +1458,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 38195.43,
-            "change": -1926.92,
-            "changePct": -4.8,
-            "asOf": "2026-11-25",
+            "value": 39148.48,
+            "change": 953.05,
+            "changePct": 2.5,
+            "asOf": "2026-11-26",
             "history": [
-              41574.72,
               39701.64,
               41661.7,
               42711.92,
@@ -1438,7 +1476,8 @@
               36033.29,
               36811.89,
               40122.35,
-              38195.43
+              38195.43,
+              39148.48
             ],
             "source": "TWSE / TPEx"
           },
@@ -1451,12 +1490,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 275.97,
-            "change": -17.26,
-            "changePct": -5.89,
-            "asOf": "2026-11-25",
+            "value": 289.09,
+            "change": 13.12,
+            "changePct": 4.75,
+            "asOf": "2026-11-26",
             "history": [
-              321.47,
               304.02,
               321.97,
               332.97,
@@ -1470,7 +1508,8 @@
               263.31,
               270.9,
               293.23,
-              275.97
+              275.97,
+              289.09
             ],
             "source": "TWSE / TPEx"
           },
@@ -1483,13 +1522,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 90.3,
-            "change": -5.4,
-            "changePct": -5.64,
-            "asOf": "2026-11-25",
+            "value": 92.2,
+            "change": 1.9,
+            "changePct": 2.1,
+            "asOf": "2026-11-26",
             "history": [
+              92.5,
+              97.45,
+              99.7,
+              103.2,
+              100.95,
+              102.5,
+              96.45,
+              94.0,
+              94.1,
+              90.2,
+              84.45,
+              87.0,
               95.7,
-              90.3
+              90.3,
+              92.2
             ],
             "source": "TWSE / TPEx"
           },
@@ -1502,13 +1554,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 203.15,
-            "change": -11.95,
-            "changePct": -5.56,
-            "asOf": "2026-11-25",
+            "value": 207.65,
+            "change": 4.5,
+            "changePct": 2.22,
+            "asOf": "2026-11-26",
             "history": [
+              210.1,
+              223.6,
+              228.9,
+              236.6,
+              231.95,
+              235.05,
+              220.85,
+              211.9,
+              212.0,
+              202.65,
+              189.8,
+              195.55,
               215.1,
-              203.15
+              203.15,
+              207.65
             ],
             "source": "TWSE / TPEx"
           },
@@ -1521,12 +1586,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2150.0,
-            "change": -80.0,
-            "changePct": -3.59,
-            "asOf": "2026-11-25",
+            "value": 2147.5,
+            "change": -2.5,
+            "changePct": -0.12,
+            "asOf": "2026-11-26",
             "history": [
-              2240.0,
               2135.0,
               2235.0,
               2285.0,
@@ -1540,7 +1604,8 @@
               2000.0,
               2030.0,
               2230.0,
-              2150.0
+              2150.0,
+              2147.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1553,13 +1618,26 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 87.4,
-            "change": -9.7,
-            "changePct": -9.99,
-            "asOf": "2026-11-25",
+            "value": 90.45,
+            "change": 3.05,
+            "changePct": 3.49,
+            "asOf": "2026-11-26",
             "history": [
+              92.0,
+              96.7,
+              100.5,
+              104.0,
+              101.0,
+              101.5,
+              95.2,
+              92.4,
+              93.0,
+              88.2,
+              80.3,
+              88.3,
               97.1,
-              87.4
+              87.4,
+              90.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1572,12 +1650,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3645.0,
-            "change": -405.0,
-            "changePct": -10.0,
-            "asOf": "2026-11-25",
+            "value": 3837.5,
+            "change": 192.5,
+            "changePct": 5.28,
+            "asOf": "2026-11-26",
             "history": [
-              3460.0,
               3390.0,
               3725.0,
               3830.0,
@@ -1591,7 +1668,8 @@
               3350.0,
               3685.0,
               4050.0,
-              3645.0
+              3645.0,
+              3837.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1604,12 +1682,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 206.5,
-            "change": -20.0,
-            "changePct": -8.83,
-            "asOf": "2026-11-25",
+            "value": 213.25,
+            "change": 6.75,
+            "changePct": 3.27,
+            "asOf": "2026-11-26",
             "history": [
-              235.0,
               224.5,
               239.0,
               241.5,
@@ -1623,7 +1700,8 @@
               210.0,
               206.0,
               226.5,
-              206.5
+              206.5,
+              213.25
             ],
             "source": "TWSE / TPEx"
           }
@@ -1706,9 +1784,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.665,
-      "change": 0.0,
-      "changePct": 0.0,
+      "value": 103.718,
+      "change": 0.053,
+      "changePct": 0.05,
       "asOf": "2026-11-25",
       "history": [
         101.653,
@@ -1725,7 +1803,7 @@
         103.84,
         104.318,
         103.814,
-        103.665
+        103.718
       ],
       "source": "CNBC Market Data"
     },
@@ -1738,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 83.91,
-      "change": 0.23,
-      "changePct": 0.27,
+      "value": 84.22,
+      "change": 0.54,
+      "changePct": 0.65,
       "asOf": "2026-11-25",
       "history": [
         90.52,
@@ -1757,7 +1835,7 @@
         83.98,
         80.17,
         82.05,
-        83.91
+        84.22
       ],
       "source": "CNBC Market Data"
     },
@@ -1770,9 +1848,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3575.6,
-      "change": 39.8,
-      "changePct": 1.13,
+      "value": 3562.6,
+      "change": 26.8,
+      "changePct": 0.76,
       "asOf": "2026-11-25",
       "history": [
         4113.5,
@@ -1789,7 +1867,7 @@
         3515.4,
         3651.4,
         3561.9,
-        3575.6
+        3562.6
       ],
       "source": "CNBC Market Data"
     },
@@ -2620,12 +2698,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 38195.43,
-          "change": -1926.92,
-          "changePct": -4.8,
-          "asOf": "2026-11-25",
+          "value": 39148.48,
+          "change": 953.05,
+          "changePct": 2.5,
+          "asOf": "2026-11-26",
           "history": [
-            41574.72,
             39701.64,
             41661.7,
             42711.92,
@@ -2639,7 +2716,8 @@
             36033.29,
             36811.89,
             40122.35,
-            38195.43
+            38195.43,
+            39148.48
           ],
           "source": "TWSE / TPEx"
         },
@@ -2652,12 +2730,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 275.97,
-          "change": -17.26,
-          "changePct": -5.89,
-          "asOf": "2026-11-25",
+          "value": 289.09,
+          "change": 13.12,
+          "changePct": 4.75,
+          "asOf": "2026-11-26",
           "history": [
-            321.47,
             304.02,
             321.97,
             332.97,
@@ -2671,7 +2748,8 @@
             263.31,
             270.9,
             293.23,
-            275.97
+            275.97,
+            289.09
           ],
           "source": "TWSE / TPEx"
         }
@@ -2686,13 +2764,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 90.3,
-          "change": -5.4,
-          "changePct": -5.64,
-          "asOf": "2026-11-25",
+          "value": 92.2,
+          "change": 1.9,
+          "changePct": 2.1,
+          "asOf": "2026-11-26",
           "history": [
+            92.5,
+            97.45,
+            99.7,
+            103.2,
+            100.95,
+            102.5,
+            96.45,
+            94.0,
+            94.1,
+            90.2,
+            84.45,
+            87.0,
             95.7,
-            90.3
+            90.3,
+            92.2
           ],
           "source": "TWSE / TPEx"
         },
@@ -2705,13 +2796,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 203.15,
-          "change": -11.95,
-          "changePct": -5.56,
-          "asOf": "2026-11-25",
+          "value": 207.65,
+          "change": 4.5,
+          "changePct": 2.22,
+          "asOf": "2026-11-26",
           "history": [
+            210.1,
+            223.6,
+            228.9,
+            236.6,
+            231.95,
+            235.05,
+            220.85,
+            211.9,
+            212.0,
+            202.65,
+            189.8,
+            195.55,
             215.1,
-            203.15
+            203.15,
+            207.65
           ],
           "source": "TWSE / TPEx"
         },
@@ -2724,12 +2828,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2150.0,
-          "change": -80.0,
-          "changePct": -3.59,
-          "asOf": "2026-11-25",
+          "value": 2147.5,
+          "change": -2.5,
+          "changePct": -0.12,
+          "asOf": "2026-11-26",
           "history": [
-            2240.0,
             2135.0,
             2235.0,
             2285.0,
@@ -2743,7 +2846,8 @@
             2000.0,
             2030.0,
             2230.0,
-            2150.0
+            2150.0,
+            2147.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2756,13 +2860,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 87.4,
-          "change": -9.7,
-          "changePct": -9.99,
-          "asOf": "2026-11-25",
+          "value": 90.45,
+          "change": 3.05,
+          "changePct": 3.49,
+          "asOf": "2026-11-26",
           "history": [
+            92.0,
+            96.7,
+            100.5,
+            104.0,
+            101.0,
+            101.5,
+            95.2,
+            92.4,
+            93.0,
+            88.2,
+            80.3,
+            88.3,
             97.1,
-            87.4
+            87.4,
+            90.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -2775,12 +2892,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3645.0,
-          "change": -405.0,
-          "changePct": -10.0,
-          "asOf": "2026-11-25",
+          "value": 3837.5,
+          "change": 192.5,
+          "changePct": 5.28,
+          "asOf": "2026-11-26",
           "history": [
-            3460.0,
             3390.0,
             3725.0,
             3830.0,
@@ -2794,7 +2910,8 @@
             3350.0,
             3685.0,
             4050.0,
-            3645.0
+            3645.0,
+            3837.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2807,12 +2924,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 206.5,
-          "change": -20.0,
-          "changePct": -8.83,
-          "asOf": "2026-11-25",
+          "value": 213.25,
+          "change": 6.75,
+          "changePct": 3.27,
+          "asOf": "2026-11-26",
           "history": [
-            235.0,
             224.5,
             239.0,
             241.5,
@@ -2826,7 +2942,8 @@
             210.0,
             206.0,
             226.5,
-            206.5
+            206.5,
+            213.25
           ],
           "source": "TWSE / TPEx"
         }
@@ -2841,12 +2958,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 38195.43,
-          "change": -1926.92,
-          "changePct": -4.8,
-          "asOf": "2026-11-25",
+          "value": 39148.48,
+          "change": 953.05,
+          "changePct": 2.5,
+          "asOf": "2026-11-26",
           "history": [
-            41574.72,
             39701.64,
             41661.7,
             42711.92,
@@ -2860,7 +2976,8 @@
             36033.29,
             36811.89,
             40122.35,
-            38195.43
+            38195.43,
+            39148.48
           ],
           "source": "TWSE / TPEx"
         },
@@ -2873,12 +2990,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 275.97,
-          "change": -17.26,
-          "changePct": -5.89,
-          "asOf": "2026-11-25",
+          "value": 289.09,
+          "change": 13.12,
+          "changePct": 4.75,
+          "asOf": "2026-11-26",
           "history": [
-            321.47,
             304.02,
             321.97,
             332.97,
@@ -2892,7 +3008,8 @@
             263.31,
             270.9,
             293.23,
-            275.97
+            275.97,
+            289.09
           ],
           "source": "TWSE / TPEx"
         },
@@ -2905,13 +3022,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 90.3,
-          "change": -5.4,
-          "changePct": -5.64,
-          "asOf": "2026-11-25",
+          "value": 92.2,
+          "change": 1.9,
+          "changePct": 2.1,
+          "asOf": "2026-11-26",
           "history": [
+            92.5,
+            97.45,
+            99.7,
+            103.2,
+            100.95,
+            102.5,
+            96.45,
+            94.0,
+            94.1,
+            90.2,
+            84.45,
+            87.0,
             95.7,
-            90.3
+            90.3,
+            92.2
           ],
           "source": "TWSE / TPEx"
         },
@@ -2924,13 +3054,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 203.15,
-          "change": -11.95,
-          "changePct": -5.56,
-          "asOf": "2026-11-25",
+          "value": 207.65,
+          "change": 4.5,
+          "changePct": 2.22,
+          "asOf": "2026-11-26",
           "history": [
+            210.1,
+            223.6,
+            228.9,
+            236.6,
+            231.95,
+            235.05,
+            220.85,
+            211.9,
+            212.0,
+            202.65,
+            189.8,
+            195.55,
             215.1,
-            203.15
+            203.15,
+            207.65
           ],
           "source": "TWSE / TPEx"
         },
@@ -2943,12 +3086,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2150.0,
-          "change": -80.0,
-          "changePct": -3.59,
-          "asOf": "2026-11-25",
+          "value": 2147.5,
+          "change": -2.5,
+          "changePct": -0.12,
+          "asOf": "2026-11-26",
           "history": [
-            2240.0,
             2135.0,
             2235.0,
             2285.0,
@@ -2962,7 +3104,8 @@
             2000.0,
             2030.0,
             2230.0,
-            2150.0
+            2150.0,
+            2147.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2975,13 +3118,26 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 87.4,
-          "change": -9.7,
-          "changePct": -9.99,
-          "asOf": "2026-11-25",
+          "value": 90.45,
+          "change": 3.05,
+          "changePct": 3.49,
+          "asOf": "2026-11-26",
           "history": [
+            92.0,
+            96.7,
+            100.5,
+            104.0,
+            101.0,
+            101.5,
+            95.2,
+            92.4,
+            93.0,
+            88.2,
+            80.3,
+            88.3,
             97.1,
-            87.4
+            87.4,
+            90.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -2994,12 +3150,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3645.0,
-          "change": -405.0,
-          "changePct": -10.0,
-          "asOf": "2026-11-25",
+          "value": 3837.5,
+          "change": 192.5,
+          "changePct": 5.28,
+          "asOf": "2026-11-26",
           "history": [
-            3460.0,
             3390.0,
             3725.0,
             3830.0,
@@ -3013,7 +3168,8 @@
             3350.0,
             3685.0,
             4050.0,
-            3645.0
+            3645.0,
+            3837.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -3026,12 +3182,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 206.5,
-          "change": -20.0,
-          "changePct": -8.83,
-          "asOf": "2026-11-25",
+          "value": 213.25,
+          "change": 6.75,
+          "changePct": 3.27,
+          "asOf": "2026-11-26",
           "history": [
-            235.0,
             224.5,
             239.0,
             241.5,
@@ -3045,7 +3200,8 @@
             210.0,
             206.0,
             226.5,
-            206.5
+            206.5,
+            213.25
           ],
           "source": "TWSE / TPEx"
         }
@@ -3060,87 +3216,99 @@
     "podcastUrl": "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306",
     "status": "ok",
     "latest": {
-      "videoId": "BdGySn52EHU",
-      "title": "2026/11/25(三)反彈乏力 關稅帝君回來了?股市暴漲暴跌時代!牛市修正還是泡沫破裂？",
-      "url": "https://www.youtube.com/watch?v=BdGySn52EHU",
-      "publishedAt": "2026-11-25 09:08",
-      "chapters": [
-        {
-          "time": "00:00",
-          "label": "市場總覽",
-          "seconds": 0,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=0s"
-        },
-        {
-          "time": "03:15",
-          "label": "關稅帝君",
-          "seconds": 195,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=195s"
-        },
-        {
-          "time": "07:30",
-          "label": "市場情緒",
-          "seconds": 450,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=450s"
-        },
-        {
-          "time": "09:10",
-          "label": "美股追蹤",
-          "seconds": 550,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=550s"
-        },
-        {
-          "time": "12:20",
-          "label": "輝達買盤",
-          "seconds": 740,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=740s"
-        },
-        {
-          "time": "15:30",
-          "label": "台股追蹤",
-          "seconds": 930,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=930s"
-        },
-        {
-          "time": "18:45",
-          "label": "日韓追蹤",
-          "seconds": 1125,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1125s"
-        },
-        {
-          "time": "23:40",
-          "label": "情境對照",
-          "seconds": 1420,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1420s"
-        },
-        {
-          "time": "28:40",
-          "label": "繼續過日子",
-          "seconds": 1720,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1720s"
-        },
-        {
-          "time": "30:30",
-          "label": "十年後回看2026",
-          "seconds": 1830,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1830s"
-        },
-        {
-          "time": "32:00",
-          "label": "過度驗證",
-          "seconds": 1920,
-          "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1920s"
-        }
-      ],
-      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「反彈乏力 關稅帝君回來了?」與「股市暴漲暴跌時代!牛市修正還是泡沫破裂？」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+      "videoId": "7-V-NWQpF7I",
+      "title": "2026/11/26(四)急漲急跌!多空大屠殺?外資提款無底洞 國家隊能守住台股嗎?",
+      "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I",
+      "publishedAt": "2026-11-26 09:06",
+      "chapters": [],
+      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「急漲急跌!多空大屠殺?」與「外資提款無底洞 國家隊能守住台股嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
       "summaryPoints": [
-        "前半場｜全球總經與美股動向：市場總覽（00:00）、關稅帝君（03:15）、市場情緒（07:30），檢視美股指數基期與避險情緒變化。",
-        "中半場｜焦點事件與台股籌碼政策：美股追蹤（09:10）、輝達買盤（12:20）、台股追蹤（15:30）、日韓追蹤（18:45），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-        "後半場｜延續推演與專題總結：情境對照（23:40）、繼續過日子（28:40）、十年後回看2026（30:30）、過度驗證（32:00），歸納市場底部訊號與中長線操作紀律。",
-        "更新與播出時段：2026-11-25 09:08 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        "節目聚焦：急漲急跌!多空大屠殺?；外資提款無底洞 國家隊能守住台股嗎?",
+        "更新與播出時段：2026-11-26 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
       ]
     },
     "recent": [
+      {
+        "videoId": "BdGySn52EHU",
+        "title": "2026/11/25(三)反彈乏力 關稅帝君回來了?股市暴漲暴跌時代!牛市修正還是泡沫破裂？",
+        "url": "https://www.youtube.com/watch?v=BdGySn52EHU",
+        "publishedAt": "2026-11-25 09:08",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=0s"
+          },
+          {
+            "time": "03:15",
+            "label": "關稅帝君",
+            "seconds": 195,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=195s"
+          },
+          {
+            "time": "07:30",
+            "label": "市場情緒",
+            "seconds": 450,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=450s"
+          },
+          {
+            "time": "09:10",
+            "label": "美股追蹤",
+            "seconds": 550,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=550s"
+          },
+          {
+            "time": "12:20",
+            "label": "輝達買盤",
+            "seconds": 740,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=740s"
+          },
+          {
+            "time": "15:30",
+            "label": "台股追蹤",
+            "seconds": 930,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=930s"
+          },
+          {
+            "time": "18:45",
+            "label": "日韓追蹤",
+            "seconds": 1125,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1125s"
+          },
+          {
+            "time": "23:40",
+            "label": "情境對照",
+            "seconds": 1420,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1420s"
+          },
+          {
+            "time": "28:40",
+            "label": "繼續過日子",
+            "seconds": 1720,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1720s"
+          },
+          {
+            "time": "30:30",
+            "label": "十年後回看2026",
+            "seconds": 1830,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1830s"
+          },
+          {
+            "time": "32:00",
+            "label": "過度驗證",
+            "seconds": 1920,
+            "url": "https://www.youtube.com/watch?v=BdGySn52EHU&t=1920s"
+          }
+        ],
+        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「反彈乏力 關稅帝君回來了?」與「股市暴漲暴跌時代!牛市修正還是泡沫破裂？」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+        "summaryPoints": [
+          "前半場｜全球總經與美股動向：市場總覽（00:00）、關稅帝君（03:15）、市場情緒（07:30），檢視美股指數基期與避險情緒變化。",
+          "中半場｜焦點事件與台股籌碼政策：美股追蹤（09:10）、輝達買盤（12:20）、台股追蹤（15:30）、日韓追蹤（18:45），拆解關鍵企業動態、法人籌碼與官方政策防線。",
+          "後半場｜延續推演與專題總結：情境對照（23:40）、繼續過日子（28:40）、十年後回看2026（30:30）、過度驗證（32:00），歸納市場底部訊號與中長線操作紀律。",
+          "更新與播出時段：2026-11-25 09:08 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        ]
+      },
       {
         "videoId": "BoizSUJ-z-s",
         "title": "2026/11/24(二)黃仁勳閃電回鍋!輝達狂飆31% 現在買股 還來得及嗎?",
@@ -3308,452 +3476,31 @@
           "後半場｜延續推演與專題總結：金管會出招（22:00）、流動性問題（24:00）、國安基金（28:25）、長多與長空（30:10），歸納市場底部訊號與中長線操作紀律。",
           "更新與播出時段：2026-11-23 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
         ]
-      },
-      {
-        "videoId": "vBIWf_ne83Q",
-        "title": "2026/11/20(五)四大指數年線全失守 ANT吃飽 美股全倒?台股禁空令 擋得住賣壓?",
-        "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q",
-        "publishedAt": "2026-11-20 09:08",
-        "chapters": [
-          {
-            "time": "00:00",
-            "label": "市場總覽",
-            "seconds": 0,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=0s"
-          },
-          {
-            "time": "02:10",
-            "label": "美股追蹤",
-            "seconds": 130,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=130s"
-          },
-          {
-            "time": "05:00",
-            "label": "走勢對照",
-            "seconds": 300,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=300s"
-          },
-          {
-            "time": "06:45",
-            "label": "美股基期",
-            "seconds": 405,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=405s"
-          },
-          {
-            "time": "09:30",
-            "label": "下跌三種",
-            "seconds": 570,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=570s"
-          },
-          {
-            "time": "10:15",
-            "label": "ANT上市",
-            "seconds": 615,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=615s"
-          },
-          {
-            "time": "15:30",
-            "label": "台股追蹤",
-            "seconds": 930,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=930s"
-          },
-          {
-            "time": "17:30",
-            "label": "官方護盤",
-            "seconds": 1050,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1050s"
-          },
-          {
-            "time": "19:10",
-            "label": "禁空令",
-            "seconds": 1150,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1150s"
-          },
-          {
-            "time": "23:50",
-            "label": "第二隻腳",
-            "seconds": 1430,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1430s"
-          },
-          {
-            "time": "25:30",
-            "label": "出口管制風暴",
-            "seconds": 1530,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1530s"
-          },
-          {
-            "time": "30:10",
-            "label": "稀土金屬霸權的騙局",
-            "seconds": 1810,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1810s"
-          },
-          {
-            "time": "32:30",
-            "label": "總結",
-            "seconds": 1950,
-            "url": "https://www.youtube.com/watch?v=vBIWf_ne83Q&t=1950s"
-          }
-        ],
-        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「四大指數年線全失守 ANT吃飽 美股全倒?」與「台股禁空令 擋得住賣壓?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構，節目尾聲並結合《稀土金屬霸權的騙局》導讀地緣供應鏈結構。",
-        "summaryPoints": [
-          "前半場｜全球總經與美股動向：市場總覽（00:00）、美股追蹤（02:10）、走勢對照（05:00）、美股基期（06:45），檢視美股指數基期與避險情緒變化。",
-          "中半場｜焦點事件與台股籌碼政策：下跌三種（09:30）、ANT上市（10:15）、台股追蹤（15:30）、官方護盤（17:30），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-          "後半場｜延續推演與專題總結：禁空令（19:10）、第二隻腳（23:50）、出口管制風暴（25:30）、稀土金屬霸權的騙局（30:10）、總結（32:30），並延伸導讀《稀土金屬霸權的騙局》與結論。",
-          "更新與播出時段：2026-11-20 09:08 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
-        ]
       }
     ]
   },
   "leadIds": [
-    "s06a688ec",
-    "s2c88d60e"
+    "sd4d4bbf7",
+    "s590ffb00"
   ],
   "stories": [
     {
-      "id": "s06a688ec",
+      "id": "sd4d4bbf7",
       "section": "business_tech",
-      "title": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
+      "title": "美擬對越南課徵最高35%關稅,河內盼儘速達成貿易協定將關稅降至20%",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。 野村策略師稱「黃仁勳保護傘」未解利率上升、信用利差擴大與波動加劇等金融壓力。 輝達近一個月跌約30%、今年跌約21%;美光跌約50%,SanDisk較6月高點跌約70%。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671877",
-      "publishedAt": "2026-11-26T06:20:05+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35553991.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 100,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "輝達近一個月跌約30%、今年跌約21%;美光跌約50%,SanDisk較6月高點跌約70%。",
-          "metric": "21%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳閃電請辭又火速回鍋掀起市場熱議,知名媒體分析指出,雖然輝達基本面強勁且本益比降至17.7倍,營收年增率高達103%,未來有望重返歷史高點,但仍面臨地緣政治、AI泡沫與關鍵人物等風險,現階段建議投資人持續抱持觀望並審慎評估,尚未到盲目搶進的超級買點。",
-          "metric": "17.7倍",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "metric": "4%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
-          "angle": "先進技術與算力規格",
-          "focus": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
-          "excerpt": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
-          "url": "https://money.udn.com/money/story/5604/9902162",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "url": "https://news.cnyes.com/news/id/6671877",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B7%8C%E8%BF%914-%E7%82%BA%E4%BD%95%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86ai%E4%BA%A4%E6%98%93-222005712.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "輝達近一個月跌約30%、今年跌約21%;美光跌約50%,SanDisk較6月高點跌約70%。",
-          "metric": "21%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "輝達執行長黃仁勳閃電請辭又火速回鍋掀起市場熱議,知名媒體分析指出,雖然輝達基本面強勁且本益比降至17.7倍,營收年增率高達103%,未來有望重返歷史高點,但仍面臨地緣政治、AI泡沫與關鍵人物等風險,現階段建議投資人持續抱持觀望並審慎評估,尚未到盲目搶進的超級買點。",
-          "metric": "17.7倍",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "metric": "4%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
-          "angle": "先進技術與算力規格",
-          "focus": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
-          "excerpt": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
-          "url": "https://money.udn.com/money/story/5604/9902162",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "url": "https://news.cnyes.com/news/id/6671877",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "angle": "利率匯率與總經政策",
-          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B7%8C%E8%BF%914-%E7%82%BA%E4%BD%95%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86ai%E4%BA%A4%E6%98%93-222005712.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5604/9902162",
-          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671877",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E8%B7%8C%E8%BF%914-%E7%82%BA%E4%BD%95%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E4%B9%9F%E6%95%91%E4%B8%8D%E4%BA%86ai%E4%BA%A4%E6%98%93-222005712.html",
-          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E8%BC%9D%E9%81%94%E6%98%AF%E7%A6%8F-%E6%98%AF%E7%A6%8D-%E5%A4%9A%E7%A9%BA%E7%90%86%E7%94%B1-%E6%AC%A1%E7%9C%8B-191500870.html",
-          "headline": "黃仁勳回輝達是福、是禍?多空理由一次看",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "s2c88d60e",
-      "section": "business_tech",
-      "title": "美國擬對 14 個經濟體祭出新關稅,台灣課徵 15% 中國關稅恐升至約 45%",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國政府正研擬針對包括中國、歐盟、日本及印度在內的 14 個經濟體祭出新一輪關稅措施,以因應其製造業結構性產能過剩問題。美國貿易代表葛里爾 (Jamieson Greer) 於週三 (25 日) 表示,相關新增關稅稅率多落在 15% 至 20%,但政策仍處於規劃階段,預計數個月內不會正式實施。",
-      "source": "TechNews 科技新報",
-      "url": "https://finance.technews.tw/2026/11/26/us-plans-new-tariffs-on-14-economies/",
-      "publishedAt": "2026-11-26T07:10:27+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/d8182b18c63656c25005f594a34f419b950c52ed2a76f3d0704a2d69491a886e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrordaily_390%2F0cb420261ce946d3292568193c659016.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 97,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 34,
-        "data": 20,
-        "durability": 8
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "路透報導,適用20%稅率且原已被課徵約25%關稅的商品,兩項稅率合計可達45%;若預定明年1月10日到期的美中貿易休戰協議破局,這一輪對中擬議稅率可能升至40%。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "越南擬議稅率最高35%,印度最高25%,新加坡最高20%。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "若越南、印度及新加坡分別與美方達成符合調查要求的協議或談判成果,稅率可望降至20%、17%及10%。",
-          "metric": "10%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美國新關稅鎖定14個經濟體,越南最高35%,台日韓歐暫維持15%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,因應美方認定的製造業結構性產能過剩。",
-          "excerpt": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,因應美方認定的製造業結構性產能過剩。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E9%8E%96%E5%AE%9A14%E5%80%8B%E7%B6%93%E6%BF%9F%E9%AB%94-%E8%B6%8A%E5%8D%97%E6%9C%80%E9%AB%9835-%E5%8F%B0%E6%97%A5%E9%9F%93%E6%AD%90%E6%9A%AB%E7%B6%AD%E6%8C%8115-231027987.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
-          "angle": "深度調查與結構剖析",
-          "focus": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
-          "excerpt": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "美國擬對 14 個經濟體祭出新關稅,台灣課徵 15% 中國關稅恐升至約 45%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國政府正研擬針對包括中國、歐盟、日本及印度在內的 14 個經濟體祭出新一輪關稅措施,以因應其製造業結構性產能過剩問題。",
-          "excerpt": "美國政府正研擬針對包括中國、歐盟、日本及印度在內的 14 個經濟體祭出新一輪關稅措施,以因應其製造業結構性產能過剩問題。",
-          "url": "https://finance.technews.tw/2026/11/26/us-plans-new-tariffs-on-14-economies/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "路透報導,適用20%稅率且原已被課徵約25%關稅的商品,兩項稅率合計可達45%;若預定明年1月10日到期的美中貿易休戰協議破局,這一輪對中擬議稅率可能升至40%。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "越南擬議稅率最高35%,印度最高25%,新加坡最高20%。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "若越南、印度及新加坡分別與美方達成符合調查要求的協議或談判成果,稅率可望降至20%、17%及10%。",
-          "metric": "10%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美國新關稅鎖定14個經濟體,越南最高35%,台日韓歐暫維持15%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,因應美方認定的製造業結構性產能過剩。",
-          "excerpt": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,因應美方認定的製造業結構性產能過剩。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E9%8E%96%E5%AE%9A14%E5%80%8B%E7%B6%93%E6%BF%9F%E9%AB%94-%E8%B6%8A%E5%8D%97%E6%9C%80%E9%AB%9835-%E5%8F%B0%E6%97%A5%E9%9F%93%E6%AD%90%E6%9A%AB%E7%B6%AD%E6%8C%8115-231027987.html",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
-          "angle": "深度調查與結構剖析",
-          "focus": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
-          "excerpt": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "美國擬對 14 個經濟體祭出新關稅,台灣課徵 15% 中國關稅恐升至約 45%",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國政府正研擬針對包括中國、歐盟、日本及印度在內的 14 個經濟體祭出新一輪關稅措施,以因應其製造業結構性產能過剩問題。",
-          "excerpt": "美國政府正研擬針對包括中國、歐盟、日本及印度在內的 14 個經濟體祭出新一輪關稅措施,以因應其製造業結構性產能過剩問題。",
-          "url": "https://finance.technews.tw/2026/11/26/us-plans-new-tariffs-on-14-economies/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E9%8E%96%E5%AE%9A14%E5%80%8B%E7%B6%93%E6%BF%9F%E9%AB%94-%E8%B6%8A%E5%8D%97%E6%9C%80%E9%AB%9835-%E5%8F%B0%E6%97%A5%E9%9F%93%E6%AD%90%E6%9A%AB%E7%B6%AD%E6%8C%8115-231027987.html",
-          "headline": "美國新關稅鎖定14個經濟體,越南最高35%,台日韓歐暫維持15%",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E8%A6%81%E4%BE%86%E4%BA%86-%E5%8F%B0%E7%81%A3%E5%B1%AC%E6%9C%80%E4%BD%8E%E7%A8%85%E7%8E%87%E7%B4%9A%E5%88%A5-%E5%8F%B0%E7%BE%8E%E7%B6%93%E8%B2%BF%E5%B0%8F%E7%B5%84-%E7%A2%BA%E4%BF%A1%E7%B6%AD%E6%8C%81%E8%AD%B0%E5%AE%9A%E7%9A%84-15-191100496.html",
-          "headline": "美國新關稅要來了!台灣屬最低稅率級別 台美經貿小組:確信維持議定的「15%不疊加」",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
-          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/26/us-plans-new-tariffs-on-14-economies/",
-          "headline": "美國擬對 14 個經濟體祭出新關稅,台灣課徵 15% 中國關稅恐升至約 45%",
-          "lang": "zh"
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "sb4afbb19",
-      "section": "business_tech",
-      "title": "美國產能過剩301報告 台灣關稅稅率15%不疊加 政院上午8:30記者會說明",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國貿易代表署(Ustr)於美東時間11月25日公布「結構性產能過剩」301調查報告,提出對全球14個經濟體的建議關稅,其中對台灣、日本、韓國、歐盟、瑞士等國的建議稅率為「15%不疊加MFN,且不再疊加強迫勞動301關稅」,同屬最低稅率級別。",
+      "summary": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,越南面臨最高35%的擬議稅率。越南工貿部隨後發表最新聲明表示,正與美方合作,力求儘速達成貿易協定。若雙方達成符合美方調查要求的互惠貿易協定,稅率有望降至20%。越南工貿部表示,將與美方相關機構協調,參與美國貿易代表署(Ustr)下一階段的調查程序,包括登記出席公聽會、陳述越方立場,並在會上回應美方提問。越方也正準備提交書面意見,反駁美方初步調查結果,並回應相關利害關係方提交、越方認為不實的資料與指控。越南工貿部表示,將持續與美方主管機關磋商。USTR依《1974年貿易法》第301條提出這輪措施,理由是美方認定相關貿易夥伴的製造業存在結構性產能過剩。",
       "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9301%E5%A0%B1%E5%91%8A-%E5%8F%B0%E7%81%A3%E9%97%9C%E7%A8%85%E7%A8%85%E7%8E%8715-%E4%B8%8D%E7%96%8A%E5%8A%A0-%E6%94%BF%E9%99%A2%E4%B8%8A%E5%8D%888-30%E8%A8%98%E8%80%85%E6%9C%83%E8%AA%AA%E6%98%8E-222802232.html",
-      "publishedAt": "2026-11-26T07:11:15+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/aa6d14ec346c51cd0d760c2b59578b52516bca57c62bf71d56e64d9c9a9fc6c7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fchinatimes_money_465%2F83df2c77633e74a89e6fc0ab4a5fddb9.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 96,
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E8%B6%8A%E5%8D%97%E8%AA%B2%E5%BE%B5%E6%9C%80%E9%AB%9835-%E9%97%9C%E7%A8%85-%E6%B2%B3%E5%85%A7%E7%9B%BC%E5%84%98%E9%80%9F%E9%81%94%E6%88%90%E8%B2%BF%E6%98%93%E5%8D%94%E5%AE%9A%E5%B0%87%E9%97%9C%E7%A8%85%E9%99%8D%E8%87%B320-005348096.html",
+      "publishedAt": "2026-11-26T08:53:48+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/webphotos/WebCover/800/20261126/910x682_340552822433.jpg",
+      "imageCredit": "中央社 CNA",
+      "score": 98,
       "scoreBreakdown": {
         "resonance": 35,
         "impact": 35,
-        "data": 18,
+        "data": 20,
         "durability": 8
       },
       "mediaCount": 3,
@@ -3765,114 +3512,118 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "根據美方最新方案,中國商品面臨20%的相關關稅,但若雙方貿易休戰協議失效,稅率恐倍增至40%。",
+          "text": "路透報導,適用20%稅率且原已被課徵約25%關稅的商品,兩項稅率合計可達45%;若預定明年1月10日到期的美中貿易休戰協議破局,這一輪對中擬議稅率可能升至40%。",
           "metric": "20%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
           ]
         },
         {
-          "text": "台灣建議為15%不疊加MFN、且不再疊加強迫勞動301關稅。",
-          "metric": "15%",
+          "text": "越南擬議稅率最高35%,印度最高25%,新加坡最高20%。",
+          "metric": "20%",
           "confirmed_by": [
             "工商時報 / Yahoo 財經",
             "鉅亨網 Anue",
-            "自由財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "瑞士經濟部則表示,期盼美國遵守去年11月達成的15%關稅上限協議。",
-          "metric": "15%",
+          "text": "中國擬另加20%,部分商品合計45%;若談判破裂,新增稅率可能升至40%。",
+          "metric": "20%",
           "confirmed_by": [
             "工商時報 / Yahoo 財經",
             "鉅亨網 Anue",
-            "自由財經"
+            "中央社 CNA"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "美國新關稅掀波,中國、歐盟及瑞士齊聲駁斥產能過剩指控",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "美國川普政府週三以製造業結構性產能過剩為由,公布針對14個貿易夥伴的新一輪關稅方案,中國、歐盟及瑞士相繼公開表態,反駁華府有關產能過剩的指控。",
-          "excerpt": "美國川普政府週三以製造業結構性產能過剩為由,公布針對14個貿易夥伴的新一輪關稅方案,中國、歐盟及瑞士相繼公開表態,反駁華府有關產能過剩的指控。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E6%8E%80%E6%B3%A2-%E4%B8%AD%E5%9C%8B-%E6%AD%90%E7%9B%9F%E5%8F%8A%E7%91%9E%E5%A3%AB%E9%BD%8A%E8%81%B2%E9%A7%81%E6%96%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E6%8C%87%E6%8E%A7-231115791.html",
+          "headline": "美擬對越南課徵最高35%關稅,河內盼儘速達成貿易協定將關稅降至20%",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,越南面臨最高35%的擬議稅率。",
+          "excerpt": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,越南面臨最高35%的擬議稅率。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E8%B6%8A%E5%8D%97%E8%AA%B2%E5%BE%B5%E6%9C%80%E9%AB%9835-%E9%97%9C%E7%A8%85-%E6%B2%B3%E5%85%A7%E7%9B%BC%E5%84%98%E9%80%9F%E9%81%94%E6%88%90%E8%B2%BF%E6%98%93%E5%8D%94%E5%AE%9A%E5%B0%87%E9%97%9C%E7%A8%85%E9%99%8D%E8%87%B320-005348096.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美擬對14經濟體加徵關稅 中國20%最高、台韓日歐盟15%",
+          "angle": "利率匯率與總經政策",
+          "focus": "總統川普宣布對美國主要貿易夥伴加徵新關稅。",
+          "excerpt": "總統川普宣布對美國主要貿易夥伴加徵新關稅。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
           "lang": "zh"
         },
         {
           "media": "鉅亨網 Anue",
-          "headline": "美擬對14國課產能過剩關稅 台灣建議稅率15%不疊加",
-          "angle": "利率匯率與總經政策",
-          "focus": "Ustr 公布製造業「結構性產能過剩」301 調查結果,擬對台灣等14個經濟體加徵關稅,台灣列最低稅率級別。",
-          "excerpt": "Ustr 公布製造業「結構性產能過剩」301 調查結果,擬對台灣等14個經濟體加徵關稅,台灣列最低稅率級別。",
-          "url": "https://news.cnyes.com/news/id/6671882",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "美產能過剩關稅 中國恐面臨最高稅率40%",
-          "angle": "深度調查與結構剖析",
-          "focus": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
-          "excerpt": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
-          "url": "https://ec.ltn.com.tw/article/paper/1779881",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "angle": "政策法規與公共治理",
+          "focus": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
+          "excerpt": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
+          "url": "https://news.cnyes.com/news/id/6671770",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "根據美方最新方案,中國商品面臨20%的相關關稅,但若雙方貿易休戰協議失效,稅率恐倍增至40%。",
+          "text": "路透報導,適用20%稅率且原已被課徵約25%關稅的商品,兩項稅率合計可達45%;若預定明年1月10日到期的美中貿易休戰協議破局,這一輪對中擬議稅率可能升至40%。",
           "metric": "20%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
           ]
         },
         {
-          "text": "台灣建議為15%不疊加MFN、且不再疊加強迫勞動301關稅。",
-          "metric": "15%",
+          "text": "越南擬議稅率最高35%,印度最高25%,新加坡最高20%。",
+          "metric": "20%",
           "confirmed_by": [
             "工商時報 / Yahoo 財經",
             "鉅亨網 Anue",
-            "自由財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "瑞士經濟部則表示,期盼美國遵守去年11月達成的15%關稅上限協議。",
-          "metric": "15%",
+          "text": "中國擬另加20%,部分商品合計45%;若談判破裂,新增稅率可能升至40%。",
+          "metric": "20%",
           "confirmed_by": [
             "工商時報 / Yahoo 財經",
             "鉅亨網 Anue",
-            "自由財經"
+            "中央社 CNA"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "美國新關稅掀波,中國、歐盟及瑞士齊聲駁斥產能過剩指控",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "美國川普政府週三以製造業結構性產能過剩為由,公布針對14個貿易夥伴的新一輪關稅方案,中國、歐盟及瑞士相繼公開表態,反駁華府有關產能過剩的指控。",
-          "excerpt": "美國川普政府週三以製造業結構性產能過剩為由,公布針對14個貿易夥伴的新一輪關稅方案,中國、歐盟及瑞士相繼公開表態,反駁華府有關產能過剩的指控。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E6%8E%80%E6%B3%A2-%E4%B8%AD%E5%9C%8B-%E6%AD%90%E7%9B%9F%E5%8F%8A%E7%91%9E%E5%A3%AB%E9%BD%8A%E8%81%B2%E9%A7%81%E6%96%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E6%8C%87%E6%8E%A7-231115791.html",
+          "headline": "美擬對越南課徵最高35%關稅,河內盼儘速達成貿易協定將關稅降至20%",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,越南面臨最高35%的擬議稅率。",
+          "excerpt": "美國川普政府週三(11月25日)公布針對14個貿易夥伴的新一輪關稅提案,越南面臨最高35%的擬議稅率。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E8%B6%8A%E5%8D%97%E8%AA%B2%E5%BE%B5%E6%9C%80%E9%AB%9835-%E9%97%9C%E7%A8%85-%E6%B2%B3%E5%85%A7%E7%9B%BC%E5%84%98%E9%80%9F%E9%81%94%E6%88%90%E8%B2%BF%E6%98%93%E5%8D%94%E5%AE%9A%E5%B0%87%E9%97%9C%E7%A8%85%E9%99%8D%E8%87%B320-005348096.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美擬對14經濟體加徵關稅 中國20%最高、台韓日歐盟15%",
+          "angle": "利率匯率與總經政策",
+          "focus": "總統川普宣布對美國主要貿易夥伴加徵新關稅。",
+          "excerpt": "總統川普宣布對美國主要貿易夥伴加徵新關稅。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
           "lang": "zh"
         },
         {
           "media": "鉅亨網 Anue",
-          "headline": "美擬對14國課產能過剩關稅 台灣建議稅率15%不疊加",
-          "angle": "利率匯率與總經政策",
-          "focus": "Ustr 公布製造業「結構性產能過剩」301 調查結果,擬對台灣等14個經濟體加徵關稅,台灣列最低稅率級別。",
-          "excerpt": "Ustr 公布製造業「結構性產能過剩」301 調查結果,擬對台灣等14個經濟體加徵關稅,台灣列最低稅率級別。",
-          "url": "https://news.cnyes.com/news/id/6671882",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "美產能過剩關稅 中國恐面臨最高稅率40%",
-          "angle": "深度調查與結構剖析",
-          "focus": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
-          "excerpt": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
-          "url": "https://ec.ltn.com.tw/article/paper/1779881",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "angle": "政策法規與公共治理",
+          "focus": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
+          "excerpt": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
+          "url": "https://news.cnyes.com/news/id/6671770",
           "lang": "zh"
         }
       ],
@@ -3880,14 +3631,505 @@
       "sources": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E6%8E%80%E6%B3%A2-%E4%B8%AD%E5%9C%8B-%E6%AD%90%E7%9B%9F%E5%8F%8A%E7%91%9E%E5%A3%AB%E9%BD%8A%E8%81%B2%E9%A7%81%E6%96%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E6%8C%87%E6%8E%A7-231115791.html",
-          "headline": "美國新關稅掀波,中國、歐盟及瑞士齊聲駁斥產能過剩指控",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E8%B6%8A%E5%8D%97%E8%AA%B2%E5%BE%B5%E6%9C%80%E9%AB%9835-%E9%97%9C%E7%A8%85-%E6%B2%B3%E5%85%A7%E7%9B%BC%E5%84%98%E9%80%9F%E9%81%94%E6%88%90%E8%B2%BF%E6%98%93%E5%8D%94%E5%AE%9A%E5%B0%87%E9%97%9C%E7%A8%85%E9%99%8D%E8%87%B320-005348096.html",
+          "headline": "美擬對越南課徵最高35%關稅,河內盼儘速達成貿易協定將關稅降至20%",
           "lang": "zh"
         },
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9301%E5%A0%B1%E5%91%8A-%E5%8F%B0%E7%81%A3%E9%97%9C%E7%A8%85%E7%A8%85%E7%8E%8715-%E4%B8%8D%E7%96%8A%E5%8A%A0-%E6%94%BF%E9%99%A2%E4%B8%8A%E5%8D%888-30%E8%A8%98%E8%80%85%E6%9C%83%E8%AA%AA%E6%98%8E-222802232.html",
-          "headline": "美國產能過剩301報告 台灣關稅稅率15%不疊加 政院上午8:30記者會說明",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E5%9C%8B%E6%96%B0%E9%97%9C%E7%A8%85%E9%8E%96%E5%AE%9A14%E5%80%8B%E7%B6%93%E6%BF%9F%E9%AB%94-%E8%B6%8A%E5%8D%97%E6%9C%80%E9%AB%9835-%E5%8F%B0%E6%97%A5%E9%9F%93%E6%AD%90%E6%9A%AB%E7%B6%AD%E6%8C%8115-231027987.html",
+          "headline": "美國新關稅鎖定14個經濟體,越南最高35%,台日韓歐暫維持15%",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+          "headline": "美擬對14經濟體加徵關稅 中國20%最高、台韓日歐盟15%",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671770",
+          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "s590ffb00",
+      "section": "business_tech",
+      "title": "黃仁勳回鍋難消疑慮!標普啟動90天評估 輝達信用評等恐遭調降",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美國財經媒體披露,輝達(Nvidia)近幾週歷經風波,使其遭美國主要信用評等機構列入可能調降信評的觀察名單。",
+      "source": "自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5653627",
+      "publishedAt": "2026-11-26T08:34:19+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35553991.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "imageCredit": "經濟日報",
+      "score": 98,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "輝達近一個月跌約30%、今年跌約21%;美光跌約50%,SanDisk較6月高點跌約70%。",
+          "metric": "21%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "metric": "4%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
+          "angle": "先進技術與算力規格",
+          "focus": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "excerpt": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "url": "https://money.udn.com/money/story/5604/9902162",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
+          "angle": "利率匯率與總經政策",
+          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "url": "https://news.cnyes.com/news/id/6671877",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "黃仁勳回鍋難消疑慮!標普啟動90天評估 輝達信用評等恐遭調降",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國財經媒體披露,輝達(Nvidia)近幾週歷經風波,使其遭美國主要信用評等機構列入可能調降信評的觀察名單。",
+          "excerpt": "美國財經媒體披露,輝達(Nvidia)近幾週歷經風波,使其遭美國主要信用評等機構列入可能調降信評的觀察名單。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653627",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "輝達近一個月跌約30%、今年跌約21%;美光跌約50%,SanDisk較6月高點跌約70%。",
+          "metric": "21%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "metric": "4%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
+          "angle": "先進技術與算力規格",
+          "focus": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "excerpt": "輝達前執行長黃仁勳在離開輝達11日之後火速回歸,這關乎全球科技發展,對中國大陸而言,將會帶來何種影響?",
+          "url": "https://money.udn.com/money/story/5604/9902162",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
+          "angle": "利率匯率與總經政策",
+          "focus": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "excerpt": "黃仁勳週一復任輝達執行長後,AI交易一度獲支撐,但華爾街週三再度不安,輝達跌近4%。",
+          "url": "https://news.cnyes.com/news/id/6671877",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "黃仁勳回鍋難消疑慮!標普啟動90天評估 輝達信用評等恐遭調降",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國財經媒體披露,輝達(Nvidia)近幾週歷經風波,使其遭美國主要信用評等機構列入可能調降信評的觀察名單。",
+          "excerpt": "美國財經媒體披露,輝達(Nvidia)近幾週歷經風波,使其遭美國主要信用評等機構列入可能調降信評的觀察名單。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653627",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5604/9902162",
+          "headline": "黃仁勳回歸輝達 大陸 AI 晶片股該高興還是擔心?",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671877",
+          "headline": "輝達跌近4% 為何黃仁勳回歸也救不了AI交易?",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653627",
+          "headline": "黃仁勳回鍋難消疑慮!標普啟動90天評估 輝達信用評等恐遭調降",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "sc030a235",
+      "section": "business_tech",
+      "title": "歐盟擬設立500億歐元主權科技股權基金,力追美中AI及量子科技發展",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。路透報導,這項基金是歐盟推動《量子法案》(Quantum Act)及強化科技自主戰略的重要環節,目標是在2030年前使歐洲躋身全球量子科技領導者之列,並透過調整公共採購規則,扶植歐洲本土科技企業。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E8%A8%AD%E7%AB%8B500%E5%84%84%E6%AD%90%E5%85%83%E4%B8%BB%E6%AC%8A%E7%A7%91%E6%8A%80%E8%82%A1%E6%AC%8A%E5%9F%BA%E9%87%91-%E5%8A%9B%E8%BF%BD%E7%BE%8E%E4%B8%ADai%E5%8F%8A%E9%87%8F%E5%AD%90%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95-232137660.html",
+      "publishedAt": "2026-11-26T07:21:37+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671658/xl/4c3b9f8544cf7abe476f88d8cbbd9cf5.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 95,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 34,
+        "data": 18,
+        "durability": 8
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "此基金計畫投資金額高達 500 億歐元(約 548.4 億美元),旨在擴大布魯塞爾支援關鍵創新領域的能力,並降低歐洲對美國與中國科技供應商的依賴。",
+          "metric": "548.4億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "歐盟執委會數據顯示,全球約三分之一的量子科技企業位於歐盟境內,但歐洲量子新創企業去年獲得的民間資金僅11億歐元,遠低於美國的70億歐元,凸顯歐洲在科技研發成果商業化及企業規模擴張方面仍面臨融資瓶頸。",
+          "metric": "11億",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "metric": "547億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "歐盟擬設立500億歐元主權科技股權基金,力追美中AI及量子科技發展",
+          "angle": "先進技術與算力規格",
+          "focus": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "excerpt": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E8%A8%AD%E7%AB%8B500%E5%84%84%E6%AD%90%E5%85%83%E4%B8%BB%E6%AC%8A%E7%A7%91%E6%8A%80%E8%82%A1%E6%AC%8A%E5%9F%BA%E9%87%91-%E5%8A%9B%E8%BF%BD%E7%BE%8E%E4%B8%ADai%E5%8F%8A%E9%87%8F%E5%AD%90%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95-232137660.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "報導:歐盟擬籌設500億歐元主權科技基金 在科技領域挑戰美中",
+          "angle": "資本預算與財報配置",
+          "focus": "根據《金融時報》等媒體引述知情官員的消息,歐盟內部正在研議成立一項名為「主權科技股權基金」的全新投資計畫。",
+          "excerpt": "根據《金融時報》等媒體引述知情官員的消息,歐盟內部正在研議成立一項名為「主權科技股權基金」的全新投資計畫。",
+          "url": "https://news.cnyes.com/news/id/6671658",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "歐盟擬設立 500 億歐元科技基金,設法縮小與美中差距",
+          "angle": "先進技術與算力規格",
+          "focus": "英國金融時報披露,歐盟(EU)擬投入最高 500 億歐元成立一檔基金,對歐洲人工智慧(AI)與量子運算企業進行長期、高風險投資,設法降低歐洲對美國與中國科技的依賴。",
+          "excerpt": "英國金融時報披露,歐盟(EU)擬投入最高 500 億歐元成立一檔基金,對歐洲人工智慧(AI)與量子運算企業進行長期、高風險投資,設法降低歐洲對美國與中國科技的依賴。",
+          "url": "https://finance.technews.tw/2026/11/25/eu-plans-e50-billion-technology-fund/",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "此基金計畫投資金額高達 500 億歐元(約 548.4 億美元),旨在擴大布魯塞爾支援關鍵創新領域的能力,並降低歐洲對美國與中國科技供應商的依賴。",
+          "metric": "548.4億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "歐盟執委會數據顯示,全球約三分之一的量子科技企業位於歐盟境內,但歐洲量子新創企業去年獲得的民間資金僅11億歐元,遠低於美國的70億歐元,凸顯歐洲在科技研發成果商業化及企業規模擴張方面仍面臨融資瓶頸。",
+          "metric": "11億",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "metric": "547億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "歐盟擬設立500億歐元主權科技股權基金,力追美中AI及量子科技發展",
+          "angle": "先進技術與算力規格",
+          "focus": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "excerpt": "歐盟執委會週三提出設立規模高達500億歐元(約547億美元)的主權科技股權基金(Sovereign Tech Equity Fund,Stef),藉由結合公共與民間資本,加大對人工智慧(AI)及量子運算等關鍵科技領域的投資,縮小與美國及中國的差距,降低對外國科技的依賴。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E8%A8%AD%E7%AB%8B500%E5%84%84%E6%AD%90%E5%85%83%E4%B8%BB%E6%AC%8A%E7%A7%91%E6%8A%80%E8%82%A1%E6%AC%8A%E5%9F%BA%E9%87%91-%E5%8A%9B%E8%BF%BD%E7%BE%8E%E4%B8%ADai%E5%8F%8A%E9%87%8F%E5%AD%90%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95-232137660.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "報導:歐盟擬籌設500億歐元主權科技基金 在科技領域挑戰美中",
+          "angle": "資本預算與財報配置",
+          "focus": "根據《金融時報》等媒體引述知情官員的消息,歐盟內部正在研議成立一項名為「主權科技股權基金」的全新投資計畫。",
+          "excerpt": "根據《金融時報》等媒體引述知情官員的消息,歐盟內部正在研議成立一項名為「主權科技股權基金」的全新投資計畫。",
+          "url": "https://news.cnyes.com/news/id/6671658",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "歐盟擬設立 500 億歐元科技基金,設法縮小與美中差距",
+          "angle": "先進技術與算力規格",
+          "focus": "英國金融時報披露,歐盟(EU)擬投入最高 500 億歐元成立一檔基金,對歐洲人工智慧(AI)與量子運算企業進行長期、高風險投資,設法降低歐洲對美國與中國科技的依賴。",
+          "excerpt": "英國金融時報披露,歐盟(EU)擬投入最高 500 億歐元成立一檔基金,對歐洲人工智慧(AI)與量子運算企業進行長期、高風險投資,設法降低歐洲對美國與中國科技的依賴。",
+          "url": "https://finance.technews.tw/2026/11/25/eu-plans-e50-billion-technology-fund/",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E6%AD%90%E7%9B%9F%E6%93%AC%E8%A8%AD%E7%AB%8B500%E5%84%84%E6%AD%90%E5%85%83%E4%B8%BB%E6%AC%8A%E7%A7%91%E6%8A%80%E8%82%A1%E6%AC%8A%E5%9F%BA%E9%87%91-%E5%8A%9B%E8%BF%BD%E7%BE%8E%E4%B8%ADai%E5%8F%8A%E9%87%8F%E5%AD%90%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95-232137660.html",
+          "headline": "歐盟擬設立500億歐元主權科技股權基金,力追美中AI及量子科技發展",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671658",
+          "headline": "報導:歐盟擬籌設500億歐元主權科技基金 在科技領域挑戰美中",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "url": "https://finance.technews.tw/2026/11/25/eu-plans-e50-billion-technology-fund/",
+          "headline": "歐盟擬設立 500 億歐元科技基金,設法縮小與美中差距",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "id": "s15a17c3f",
+      "section": "business_tech",
+      "title": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。巴西政府強烈反彈,指控美方企圖藉關稅施壓巴西調整國內政策,強調不會向此類威脅讓步,巴西將持續尋求協商,也不排除採取反制措施。CNN巴西新聞網等媒體報導,根據美國貿易代表署(Ustr)公布的方案,美方認為巴西未充分回應華府對若干經貿議題的關切,因此建議修改先前依據「301條款」所採取的措施,將原本獲得豁免的巴西飛機納入課稅範圍,並調整部分糖品進口待遇。市場關注的是巴西航空工業公司(Embraer)。若新措施正式實施,該公司出口至美國的整架飛機將面臨10%額外關稅壓力。航空產品長期是巴西重要出口項目,美國更是其主要市場之一。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%B7%B4%E8%A5%BF%E9%A3%9B%E6%A9%9F%E5%8F%8A%E7%B3%96%E5%93%81%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-%E9%AD%AF%E6%8B%89%E6%94%BF%E5%BA%9C%E5%BC%B7%E7%83%88%E5%8F%8D%E5%BD%88-001212337.html",
+      "publishedAt": "2026-11-26T08:21:27+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
+      "imageCredit": "中央社 CNA",
+      "score": 94,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 35,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 4,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "metric": "10%",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        },
+        {
+          "text": "台灣建議為15%不疊加MFN、且不再疊加強迫勞動301關稅。",
+          "metric": "15%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "若新措施正式實施,該公司出口至美國的整架飛機將面臨10%額外關稅壓力。",
+          "metric": "10%",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://money.udn.com/money/story/5599/9902621",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "政策法規與公共治理",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%B7%B4%E8%A5%BF%E9%A3%9B%E6%A9%9F%E5%8F%8A%E7%B3%96%E5%93%81%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-%E9%AD%AF%E6%8B%89%E6%94%BF%E5%BA%9C%E5%BC%B7%E7%83%88%E5%8F%8D%E5%BD%88-001212337.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://www.cna.com.tw/news/aopl/202611260019.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "metric": "10%",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        },
+        {
+          "text": "台灣建議為15%不疊加MFN、且不再疊加強迫勞動301關稅。",
+          "metric": "15%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "若新措施正式實施,該公司出口至美國的整架飛機將面臨10%額外關稅壓力。",
+          "metric": "10%",
+          "confirmed_by": [
+            "經濟日報",
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://money.udn.com/money/story/5599/9902621",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "政策法規與公共治理",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%B7%B4%E8%A5%BF%E9%A3%9B%E6%A9%9F%E5%8F%8A%E7%B3%96%E5%93%81%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-%E9%AD%AF%E6%8B%89%E6%94%BF%E5%BA%9C%E5%BC%B7%E7%83%88%E5%8F%8D%E5%BD%88-001212337.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "excerpt": "美國政府今天提議對巴西製飛機加徵10%關稅,並提高部分配額外進口糖品的關稅。",
+          "url": "https://www.cna.com.tw/news/aopl/202611260019.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5599/9902621",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%B7%B4%E8%A5%BF%E9%A3%9B%E6%A9%9F%E5%8F%8A%E7%B3%96%E5%93%81%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-%E9%AD%AF%E6%8B%89%E6%94%BF%E5%BA%9C%E5%BC%B7%E7%83%88%E5%8F%8D%E5%BD%88-001212337.html",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611260019.aspx",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%B7%B4%E8%A5%BF%E9%A3%9B%E6%A9%9F%E5%8F%8A%E7%B3%96%E5%93%81%E5%8A%A0%E5%BE%B5%E9%97%9C%E7%A8%85-%E9%AD%AF%E6%8B%89%E6%94%BF%E5%BA%9C%E5%BC%B7%E7%83%88%E5%8F%8D%E5%BD%88-000928771.html",
+          "headline": "美擬對巴西飛機及糖品加徵關稅 魯拉政府強烈反彈",
           "lang": "zh"
         },
         {
@@ -3895,39 +4137,198 @@
           "url": "https://news.cnyes.com/news/id/6671882",
           "headline": "美擬對14國課產能過剩關稅 台灣建議稅率15%不疊加",
           "lang": "zh"
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "id": "s7d7997b3",
+      "section": "business_tech",
+      "title": "美301調查擬對台徵15%關稅!政院08:30記者會 鄭麗君親自說明",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "首次上稿:11/26 08:09更新時間:11/26 08:34即時中心/顏一軒報導美國貿易代表署(Ustr)於美東時間25日公布「結構性產能過剩301調查報告」,川普政府建議對全球14個經濟體加徵關稅,其中台灣的建議稅率為15%。對此,行政院今(26)日上午8時30分將召開記者會,由行政院副院長鄭麗君率經濟部長龔明鑫、財政部長莊翠雲及農業部長陳駿季親上火線,對外說明美方最新調查結果及政府相關因應措施。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E6%93%AC%E5%B0%8D%E5%8F%B0%E5%BE%B515-%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A208-30%E8%A8%98%E8%80%85%E6%9C%83-%E9%84%AD%E9%BA%97%E5%90%9B%E8%A6%AA%E8%87%AA%E8%AA%AA%E6%98%8E-001556106.html",
+      "publishedAt": "2026-11-26T08:43:56+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/0fe14d316447a73738f99873b8d0c58867e60d5b88f223829622fc56e7c622ca/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Flibertytimes_786%2F93a7e5846532d65be7c9263865308c34.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 93,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 34,
+        "data": 14,
+        "durability": 10
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "彭博報導,美方提議對台灣徵收至少15%的「協議稅率」關稅。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
         },
+        {
+          "text": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        },
+        {
+          "text": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%8F%B0%E5%8A%A0%E5%BE%B5301%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A2%E6%A8%82%E8%A7%80%E5%9B%9E%E6%87%89-190713879.html",
-          "headline": "美擬對台加徵301產能過剩關稅 政院樂觀回應",
+          "headline": "美301調查擬對台課15%關稅 黃國昌批執政黨:不要只想選舉",
+          "angle": "深度調查與結構剖析",
+          "focus": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "excerpt": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E6%93%AC%E5%B0%8D%E5%8F%B0%E8%AA%B215-%E9%97%9C%E7%A8%85-%E9%BB%83%E5%9C%8B%E6%98%8C%E6%89%B9%E5%9F%B7%E6%94%BF%E9%BB%A8-%E4%B8%8D%E8%A6%81%E5%8F%AA%E6%83%B3%E9%81%B8%E8%88%89-004356135.html",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1779881",
-          "headline": "美產能過剩關稅 中國恐面臨最高稅率40%",
+          "media": "鉅亨網 Anue",
+          "headline": "美國為何擬對台加關稅?USTR列9項理由 半導體、電子業遭點名",
+          "angle": "利率匯率與總經政策",
+          "focus": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "excerpt": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "url": "https://news.cnyes.com/news/id/6671863",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5653486",
-          "headline": "美國提議對14國課徵產能過剩關稅 台灣上限15% 中國恐跳升至40%",
+          "media": "中央社 CNA",
+          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
+          "excerpt": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "彭博報導,美方提議對台灣徵收至少15%的「協議稅率」關稅。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        },
+        {
+          "text": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        },
+        {
+          "text": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "metric": "15%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue",
+            "中央社 CNA"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美301調查擬對台課15%關稅 黃國昌批執政黨:不要只想選舉",
+          "angle": "深度調查與結構剖析",
+          "focus": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "excerpt": "美國針對主要貿易夥伴的製造業「結構性產能過剩」301調查,昨日公布調查結果,其中美方擬對台灣徵收15%的協議關稅稅率。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E6%93%AC%E5%B0%8D%E5%8F%B0%E8%AA%B215-%E9%97%9C%E7%A8%85-%E9%BB%83%E5%9C%8B%E6%98%8C%E6%89%B9%E5%9F%B7%E6%94%BF%E9%BB%A8-%E4%B8%8D%E8%A6%81%E5%8F%AA%E6%83%B3%E9%81%B8%E8%88%89-004356135.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美國為何擬對台加關稅?USTR列9項理由 半導體、電子業遭點名",
+          "angle": "利率匯率與總經政策",
+          "focus": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "excerpt": "USTR擬對台灣商品採取最高15%關稅措施,須扣除MFN稅率及既有301關稅,部分產品豁免。",
+          "url": "https://news.cnyes.com/news/id/6671863",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
+          "excerpt": "美國歷經數月調查工業產能過剩問題後,今天公布對歐盟、中國及印度等14個經濟體加徵關稅的提案。",
+          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E6%93%AC%E5%B0%8D%E5%8F%B0%E8%AA%B215-%E9%97%9C%E7%A8%85-%E9%BB%83%E5%9C%8B%E6%98%8C%E6%89%B9%E5%9F%B7%E6%94%BF%E9%BB%A8-%E4%B8%8D%E8%A6%81%E5%8F%AA%E6%83%B3%E9%81%B8%E8%88%89-004356135.html",
+          "headline": "美301調查擬對台課15%關稅 黃國昌批執政黨:不要只想選舉",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E8%AA%BF%E6%9F%A5%E6%93%AC%E5%B0%8D%E5%8F%B0%E5%BE%B515-%E9%97%9C%E7%A8%85-%E6%94%BF%E9%99%A208-30%E8%A8%98%E8%80%85%E6%9C%83-%E9%84%AD%E9%BA%97%E5%90%9B%E8%A6%AA%E8%87%AA%E8%AA%AA%E6%98%8E-001556106.html",
+          "headline": "美301調查擬對台徵15%關稅!政院08:30記者會 鄭麗君親自說明",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/live-%E7%BE%8E%E6%93%AC%E5%B0%8D%E5%8F%B0%E8%AA%B2%E5%BE%B515-%E9%97%9C%E7%A8%85-%E9%84%AD%E9%BA%97%E5%90%9B-%E9%BE%94%E6%98%8E%E9%91%AB-003410883.html",
+          "headline": "Live/美擬對台課徵15%關稅 鄭麗君、龔明鑫、莊翠雲親上火線說明",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671863",
+          "headline": "美國為何擬對台加關稅?USTR列9項理由 半導體、電子業遭點名",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+          "headline": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
     },
     {
-      "id": "s607bbb90",
+      "id": "s6703a15c",
       "section": "business_tech",
-      "title": "川普新關稅 台灣課15%",
+      "title": "台韓晶片可望獲得AI豁免!最高法院與期中選舉受挫後,川普用301調查與「關稅網」鎖死貿易戰",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "美國川普政府25日以製造業「結構性產能過剩」為由,宣布擬對台灣、中國、日本及歐盟等14個經濟體加徵關稅,中國加徵稅率最高達20%,台灣則維持先前貿易協議商定的15%上限。美國貿易代表署(Ustr)更列舉台灣9項「不合理」的政策及措施,損害到美國商業利益。",
+      "summary": "美國貿易代表署在感恩節前夕丟出新一波301關稅提案,將台灣、中國、歐盟等14個貿易夥伴全數納入「製造業結構性產能過剩」名單,看似又一場全面開火的貿易戰。但攤開細則,最關鍵的反差藏在豁免條款裡:美方報告雖點名台灣電子、半導體與電信產業,提案中同時建議豁免台灣與南韓的半導體及其他高科技產品,因為這些零組件對美國人工智慧基礎建設至關重要。",
       "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%96%B0%E9%97%9C%E7%A8%85-%E5%8F%B0%E7%81%A3%E8%AA%B215-201000763.html",
-      "publishedAt": "2026-11-26T05:32:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/3ae3392b76bafde16f352abd7d1dbdad4a198ee2073647d5d16d0b72edab05bd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fmirrordaily_390%2F959a4b098e590966e2b0dc883d27107c.jpg",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E9%9F%93%E6%99%B6%E7%89%87%E5%8F%AF%E6%9C%9B%E7%8D%B2%E5%BE%97ai%E8%B1%81%E5%85%8D-%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E8%88%87%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%8F%97%E6%8C%AB%E5%BE%8C-%E5%B7%9D%E6%99%AE%E7%94%A8301%E8%AA%BF%E6%9F%A5%E8%88%87-%E9%97%9C%E7%A8%85%E7%B6%B2-%E9%8E%96%E6%AD%BB%E8%B2%BF%E6%98%93%E6%88%B0-005133991.html",
+      "publishedAt": "2026-11-26T08:51:33+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/e71ec58b8d1a1570fee00e189173dd79ea5d4cbefcb48a98243794f41dfed0cb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fstormmediagroup.com%2F5f16d7cc26fdcb8fb3b949040188193f_up.jpg",
       "imageCredit": "工商時報 / Yahoo 財經",
       "score": 93,
       "scoreBreakdown": {
@@ -3940,31 +4341,28 @@
       "impactCategories": [
         "利率與法規政策",
         "供應鏈與整併",
-        "公共治理與結構轉型"
+        "技術與算力突破"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "中國擬另加20%,部分商品合計45%;若談判破裂,新增稅率可能升至40%。",
+          "text": "服飾、電子產品、家電受衝擊最大;中國基本協議稅率20%,若談判破局恐升至40%。",
           "metric": "20%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美國川普政府25日以製造業「結構性產能過剩」為由,宣布擬對台灣、中國、日本及歐盟等14個經濟體加徵關稅,中國加徵稅率最高達20%,台灣則維持先前貿易協議商定的15%上限。",
-          "metric": "15%",
+          "text": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "metric": "13.8%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "metric": "15%",
+          "text": "多數國家僅小幅調整且有豁免,分析師稱實際衝擊或低於表面,核心商品通膨明年仍可能偏高。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -3972,46 +4370,43 @@
       "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "川普不赦免關稅!提議對14國課徵稅率一次看 台灣上限15%",
+          "headline": "台韓晶片可望獲得AI豁免!最高法院與期中選舉受挫後,川普用301調查與「關稅網」鎖死貿易戰",
           "angle": "利率匯率與總經政策",
-          "focus": "美國貿易代表辦公室(Ustr)在本月25日,公佈了一項針對中國、台灣、歐盟等美國14個主要貿易夥伴產能過剩的調查結果。",
-          "excerpt": "美國貿易代表辦公室(Ustr)在本月25日,公佈了一項針對中國、台灣、歐盟等美國14個主要貿易夥伴產能過剩的調查結果。",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E4%B8%8D%E8%B5%A6%E5%85%8D%E9%97%9C%E7%A8%85-%E6%8F%90%E8%AD%B0%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E5%BE%B5%E7%A8%85%E7%8E%87-%E6%AC%A1%E7%9C%8B-%E5%8F%B0%E7%81%A3%E4%B8%8A%E9%99%9015-213200561.html",
+          "focus": "美國貿易代表署在感恩節前夕丟出新一波301關稅提案,將台灣、中國、歐盟等14個貿易夥伴全數納入「製造業結構性產能過剩」名單,看似又一場全面開火的貿易戰。",
+          "excerpt": "美國貿易代表署在感恩節前夕丟出新一波301關稅提案,將台灣、中國、歐盟等14個貿易夥伴全數納入「製造業結構性產能過剩」名單,看似又一場全面開火的貿易戰。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E9%9F%93%E6%99%B6%E7%89%87%E5%8F%AF%E6%9C%9B%E7%8D%B2%E5%BE%97ai%E8%B1%81%E5%85%8D-%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E8%88%87%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%8F%97%E6%8C%AB%E5%BE%8C-%E5%B7%9D%E6%99%AE%E7%94%A8301%E8%AA%BF%E6%9F%A5%E8%88%87-%E9%97%9C%E7%A8%85%E7%B6%B2-%E9%8E%96%E6%AD%BB%E8%B2%BF%E6%98%93%E6%88%B0-005133991.html",
           "lang": "zh"
         },
         {
           "media": "鉅亨網 Anue",
-          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
-          "angle": "政策法規與公共治理",
-          "focus": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "excerpt": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "url": "https://news.cnyes.com/news/id/6671770",
+          "headline": "川普新關稅恐讓美國稅率回到最高法院推翻前水準!耶魯估整體平均稅率升至13.9%",
+          "angle": "利率匯率與總經政策",
+          "focus": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "excerpt": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "url": "https://news.cnyes.com/news/id/6671891",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "中國擬另加20%,部分商品合計45%;若談判破裂,新增稅率可能升至40%。",
+          "text": "服飾、電子產品、家電受衝擊最大;中國基本協議稅率20%,若談判破局恐升至40%。",
           "metric": "20%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美國川普政府25日以製造業「結構性產能過剩」為由,宣布擬對台灣、中國、日本及歐盟等14個經濟體加徵關稅,中國加徵稅率最高達20%,台灣則維持先前貿易協議商定的15%上限。",
-          "metric": "15%",
+          "text": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "metric": "13.8%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "metric": "15%",
+          "text": "多數國家僅小幅調整且有豁免,分析師稱實際衝擊或低於表面,核心商品通膨明年仍可能偏高。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "鉅亨網 Anue"
           ]
         }
@@ -4019,20 +4414,20 @@
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "川普不赦免關稅!提議對14國課徵稅率一次看 台灣上限15%",
+          "headline": "台韓晶片可望獲得AI豁免!最高法院與期中選舉受挫後,川普用301調查與「關稅網」鎖死貿易戰",
           "angle": "利率匯率與總經政策",
-          "focus": "美國貿易代表辦公室(Ustr)在本月25日,公佈了一項針對中國、台灣、歐盟等美國14個主要貿易夥伴產能過剩的調查結果。",
-          "excerpt": "美國貿易代表辦公室(Ustr)在本月25日,公佈了一項針對中國、台灣、歐盟等美國14個主要貿易夥伴產能過剩的調查結果。",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E4%B8%8D%E8%B5%A6%E5%85%8D%E9%97%9C%E7%A8%85-%E6%8F%90%E8%AD%B0%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E5%BE%B5%E7%A8%85%E7%8E%87-%E6%AC%A1%E7%9C%8B-%E5%8F%B0%E7%81%A3%E4%B8%8A%E9%99%9015-213200561.html",
+          "focus": "美國貿易代表署在感恩節前夕丟出新一波301關稅提案,將台灣、中國、歐盟等14個貿易夥伴全數納入「製造業結構性產能過剩」名單,看似又一場全面開火的貿易戰。",
+          "excerpt": "美國貿易代表署在感恩節前夕丟出新一波301關稅提案,將台灣、中國、歐盟等14個貿易夥伴全數納入「製造業結構性產能過剩」名單,看似又一場全面開火的貿易戰。",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E9%9F%93%E6%99%B6%E7%89%87%E5%8F%AF%E6%9C%9B%E7%8D%B2%E5%BE%97ai%E8%B1%81%E5%85%8D-%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E8%88%87%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%8F%97%E6%8C%AB%E5%BE%8C-%E5%B7%9D%E6%99%AE%E7%94%A8301%E8%AA%BF%E6%9F%A5%E8%88%87-%E9%97%9C%E7%A8%85%E7%B6%B2-%E9%8E%96%E6%AD%BB%E8%B2%BF%E6%98%93%E6%88%B0-005133991.html",
           "lang": "zh"
         },
         {
           "media": "鉅亨網 Anue",
-          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
-          "angle": "政策法規與公共治理",
-          "focus": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "excerpt": "美擬對台灣等14個貿易夥伴課新稅,官員稱將遵守台灣、歐盟及日韓15%協議上限。",
-          "url": "https://news.cnyes.com/news/id/6671770",
+          "headline": "川普新關稅恐讓美國稅率回到最高法院推翻前水準!耶魯估整體平均稅率升至13.9%",
+          "angle": "利率匯率與總經政策",
+          "focus": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "excerpt": "耶魯大學預算實驗室估新關稅若實施,美國平均法定關稅率明年初升至13.9%,接近今年2月最高法院推翻川普IEEPA關稅前的13.8%。",
+          "url": "https://news.cnyes.com/news/id/6671891",
           "lang": "zh"
         }
       ],
@@ -4040,24 +4435,138 @@
       "sources": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E4%B8%8D%E8%B5%A6%E5%85%8D%E9%97%9C%E7%A8%85-%E6%8F%90%E8%AD%B0%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E5%BE%B5%E7%A8%85%E7%8E%87-%E6%AC%A1%E7%9C%8B-%E5%8F%B0%E7%81%A3%E4%B8%8A%E9%99%9015-213200561.html",
-          "headline": "川普不赦免關稅!提議對14國課徵稅率一次看 台灣上限15%",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E6%96%B0%E9%97%9C%E7%A8%85-%E5%8F%B0%E7%81%A3%E8%AA%B215-201000763.html",
-          "headline": "川普新關稅 台灣課15%",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E9%9F%93%E6%99%B6%E7%89%87%E5%8F%AF%E6%9C%9B%E7%8D%B2%E5%BE%97ai%E8%B1%81%E5%85%8D-%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E8%88%87%E6%9C%9F%E4%B8%AD%E9%81%B8%E8%88%89%E5%8F%97%E6%8C%AB%E5%BE%8C-%E5%B7%9D%E6%99%AE%E7%94%A8301%E8%AA%BF%E6%9F%A5%E8%88%87-%E9%97%9C%E7%A8%85%E7%B6%B2-%E9%8E%96%E6%AD%BB%E8%B2%BF%E6%98%93%E6%88%B0-005133991.html",
+          "headline": "台韓晶片可望獲得AI豁免!最高法院與期中選舉受挫後,川普用301調查與「關稅網」鎖死貿易戰",
           "lang": "zh"
         },
         {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671770",
-          "headline": "川普關稅再出招!美擬對14貿易夥伴課新稅 台灣也在列",
+          "url": "https://news.cnyes.com/news/id/6671891",
+          "headline": "川普新關稅恐讓美國稅率回到最高法院推翻前水準!耶魯估整體平均稅率升至13.9%",
           "lang": "zh"
         }
       ],
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "id": "s5b14adc9",
+      "section": "business_tech",
+      "title": "〈ESG狂潮〉尖點科技連續11年獲TCSA台灣企業永續獎肯定並獲雙項殊榮",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>台灣永續能源研究基金會(Taise)主辦的「2026第十九屆TCSA台灣企業永續獎」於25日在圓山大飯店舉行頒獎典禮。全球PCB精密微型鑽針領導廠商尖點科技(8021-TW),憑藉在環境保護(E)、社會責任(S)及公司治理(G)三大面向的長期投入與持續精進,連續11年獲TCSA肯定。</p> <p>尖點科技在「2026第十九屆TCSA台灣企業永續獎」獲「永續綜合績效-台灣永續績優企業」及「永續報告書-白金級」雙項殊榮,更為本屆PCB/PCBA產業第二類組(營收未達新台幣150億元)唯一獲得永續報告書白金級之企業。頒獎典禮由尖點科技總經理林若萍代表出席領獎。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671914",
+      "publishedAt": "2026-11-26T09:02:06+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671914/xl/617e30bbb1ccf9d0d8119c6682e72961.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 92,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 10
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "尖點自2016年起連11年參與TCSA,林若萍稱將續深化永續治理、碳管理與資源效率。",
+          "metric": "11年",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "本屆TCSA共773家參與,首度依營收規模分組;尖點永續報告書由2025年金級升至最高等級白金級。",
+          "metric": "773家",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "尖點科技自2016年起連續11年參與TCSA評選,年年均獲獎項肯定,歷年來曾多次榮獲永續報告書白金級與金級殊榮。",
+          "metric": "11年",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈ESG狂潮〉尖點科技連續11年獲TCSA台灣企業永續獎肯定並獲雙項殊榮",
+          "angle": "資本預算與財報配置",
+          "focus": "台灣永續能源研究基金會(Taise)主辦的「2026第十九屆TCSA台灣企業永續獎」於25日在圓山大飯店舉行頒獎典禮。",
+          "excerpt": "台灣永續能源研究基金會(Taise)主辦的「2026第十九屆TCSA台灣企業永續獎」於25日在圓山大飯店舉行頒獎典禮。",
+          "url": "https://news.cnyes.com/news/id/6671914",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "尖點自2016年起連11年參與TCSA,林若萍稱將續深化永續治理、碳管理與資源效率。",
+          "metric": "11年",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "本屆TCSA共773家參與,首度依營收規模分組;尖點永續報告書由2025年金級升至最高等級白金級。",
+          "metric": "773家",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "尖點科技自2016年起連續11年參與TCSA評選,年年均獲獎項肯定,歷年來曾多次榮獲永續報告書白金級與金級殊榮。",
+          "metric": "11年",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈ESG狂潮〉尖點科技連續11年獲TCSA台灣企業永續獎肯定並獲雙項殊榮",
+          "angle": "資本預算與財報配置",
+          "focus": "台灣永續能源研究基金會(Taise)主辦的「2026第十九屆TCSA台灣企業永續獎」於25日在圓山大飯店舉行頒獎典禮。",
+          "excerpt": "台灣永續能源研究基金會(Taise)主辦的「2026第十九屆TCSA台灣企業永續獎」於25日在圓山大飯店舉行頒獎典禮。",
+          "url": "https://news.cnyes.com/news/id/6671914",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671914",
+          "headline": "〈ESG狂潮〉尖點科技連續11年獲TCSA台灣企業永續獎肯定並獲雙項殊榮",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671910",
+          "headline": "〈ESG狂潮〉尖點科技連續11年獲TCSA台灣企業永續獎肯定並獲雙項殊榮",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671731",
+          "headline": "國泰金獲台灣企業永續獎14項肯定 將永續融入核心職能",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
     },
     {
       "id": "scf00e55d",
@@ -4186,112 +4695,300 @@
           "lang": "zh"
         }
       ],
-      "rank": 5
+      "rank": 8
     },
     {
-      "id": "sb13db909",
+      "id": "s8a098357",
       "section": "business_tech",
-      "title": "中國外企薪資十年翻倍 與日本差距急遽縮小至1.2倍",
+      "title": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "圖/示意圖商傳媒|吳承岳/台北報導根據亞洲專業新聞媒體《NNA Asia》報導,2025年中國外商投資企業的平均薪資達到16萬4,956元人民幣,較前一年成長4.4%。若與2015年的7萬6,302元相比,外企薪資在十年間大幅增加至2.2倍,顯示外資在當地的用人成本顯著攀升。 薪資快速成長的同時,中國外企與日本本土的薪資差距正急遽縮小。統計顯示,日本2025年平均年薪為487萬日圓,年增1.9%,但十年間的整體增幅僅有15%。在2015年時,日本平均年薪仍是中國外企薪資的2.3倍;到了2020年差距降至1.6倍,2025年更進一步拉近至僅剩1.2倍。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E5%A4%96%E4%BC%81%E8%96%AA%E8%B3%87%E5%8D%81%E5%B9%B4%E7%BF%BB%E5%80%8D-%E8%88%87%E6%97%A5%E6%9C%AC%E5%B7%AE%E8%B7%9D%E6%80%A5%E9%81%BD%E7%B8%AE%E5%B0%8F%E8%87%B31-2%E5%80%8D-222118858.html",
-      "publishedAt": "2026-11-26T06:21:18+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/c4078f079993a88d54d24df969aac3e77ae16ff32839fcb2e54c51dfb0808fa4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fzh-tw%2Fsunmedia_664%2Fef458e96c342d153d76f095322b5dbc8.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 89,
+      "summary": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。 伺服器、手機、PC、晶片及多數半導體設備列豁免,蘋果、美光、輝達、台積電等科技股受惠。 未豁免品項含AirPods、印表機、基地台等;美方明年1月徵詢、3月11日前定案。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671885",
+      "publishedAt": "2026-11-26T09:05:13+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/26/35554657.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "imageCredit": "經濟日報",
+      "score": 90,
       "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
-        "data": 20,
-        "durability": 8
+        "resonance": 35,
+        "impact": 35,
+        "data": 14,
+        "durability": 6
       },
-      "mediaCount": 1,
+      "mediaCount": 3,
       "impactCategories": [
+        "利率與法規政策",
         "供應鏈與整併",
-        "公共治理與結構轉型"
+        "技術與算力突破"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "以職位層級區分,中國外企的「中級以上管理職」平均年薪年增3.5%至43萬7,539元人民幣,換算已相當於千萬日圓級別;「專業技術職」平均年薪則年增4.7%,達到23萬6,972元。",
-          "metric": "6972元",
+          "text": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "從城市分布來看,北京的外商企業薪資最高,2025年平均薪資年增10.3%至31萬1,200元人民幣,成為中國首個突破30萬元大關的城市。",
-          "metric": "10.3%",
+          "text": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         },
         {
-          "text": "上海則以年增9.8%、平均29萬5,972元緊追在後。",
-          "metric": "5972元",
+          "text": "伺服器、智慧手機、個人電腦、儲存裝置、晶片及大部分半導體製造設備可望免於加稅;但耳機、鋰離子電池、基地台、印表機、電視及電玩主機並未列入豁免名單。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         }
       ],
       "media_perspectives": [
         {
+          "media": "經濟日報",
+          "headline": "川普新關稅誰躲得過?晶片、伺服器將豁免 AirPods 恐挨35%",
+          "angle": "先進技術與算力規格",
+          "focus": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "excerpt": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "url": "https://money.udn.com/money/story/5599/9902687",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "angle": "利率匯率與總經政策",
+          "focus": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "excerpt": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "url": "https://news.cnyes.com/news/id/6671885",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "中國外企薪資十年翻倍 與日本差距急遽縮小至1.2倍",
-          "angle": "市場定價與外資籌碼",
-          "focus": "圖/示意圖商傳媒|吳承岳/台北報導根據亞洲專業新聞媒體《NNA Asia》報導,2025年中國外商投資企業的平均薪資達到16萬4,956元人民幣,較前一年成長4.4%。",
-          "excerpt": "圖/示意圖商傳媒|吳承岳/台北報導根據亞洲專業新聞媒體《NNA Asia》報導,2025年中國外商投資企業的平均薪資達到16萬4,956元人民幣,較前一年成長4.4%。",
-          "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E5%A4%96%E4%BC%81%E8%96%AA%E8%B3%87%E5%8D%81%E5%B9%B4%E7%BF%BB%E5%80%8D-%E8%88%87%E6%97%A5%E6%9C%AC%E5%B7%AE%E8%B7%9D%E6%80%A5%E9%81%BD%E7%B8%AE%E5%B0%8F%E8%87%B31-2%E5%80%8D-222118858.html",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "angle": "深度調查與結構剖析",
+          "focus": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "excerpt": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "url": "https://tw.stock.yahoo.com/news/iphone-%E6%99%B6%E7%89%87%E6%9A%AB%E5%88%97%E7%BE%8E301%E9%97%9C%E7%A8%85%E8%B1%81%E5%85%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%BC%9D%E9%81%94%E9%AC%86%E5%8F%A3%E6%B0%A3-%E8%B6%8A%E5%8D%97%E8%A3%BDairpods%E6%81%90%E9%81%AD%E8%AA%B2%E6%9C%80%E9%AB%9835-235005994.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "以職位層級區分,中國外企的「中級以上管理職」平均年薪年增3.5%至43萬7,539元人民幣,換算已相當於千萬日圓級別;「專業技術職」平均年薪則年增4.7%,達到23萬6,972元。",
-          "metric": "6972元",
+          "text": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "從城市分布來看,北京的外商企業薪資最高,2025年平均薪資年增10.3%至31萬1,200元人民幣,成為中國首個突破30萬元大關的城市。",
-          "metric": "10.3%",
+          "text": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         },
         {
-          "text": "上海則以年增9.8%、平均29萬5,972元緊追在後。",
-          "metric": "5972元",
+          "text": "伺服器、智慧手機、個人電腦、儲存裝置、晶片及大部分半導體製造設備可望免於加稅;但耳機、鋰離子電池、基地台、印表機、電視及電玩主機並未列入豁免名單。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         }
       ],
       "mediaPerspectives": [
         {
+          "media": "經濟日報",
+          "headline": "川普新關稅誰躲得過?晶片、伺服器將豁免 AirPods 恐挨35%",
+          "angle": "先進技術與算力規格",
+          "focus": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "excerpt": "川普政府周三提出新一輪關稅方案,涵蓋台灣、中國大陸、歐盟等14個經濟體,服飾、家具、冷凍蝦等產品都在加徵之列,不過科技產品仍享廣泛豁免。",
+          "url": "https://money.udn.com/money/story/5599/9902687",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "angle": "利率匯率與總經政策",
+          "focus": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "excerpt": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "url": "https://news.cnyes.com/news/id/6671885",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "中國外企薪資十年翻倍 與日本差距急遽縮小至1.2倍",
-          "angle": "市場定價與外資籌碼",
-          "focus": "圖/示意圖商傳媒|吳承岳/台北報導根據亞洲專業新聞媒體《NNA Asia》報導,2025年中國外商投資企業的平均薪資達到16萬4,956元人民幣,較前一年成長4.4%。",
-          "excerpt": "圖/示意圖商傳媒|吳承岳/台北報導根據亞洲專業新聞媒體《NNA Asia》報導,2025年中國外商投資企業的平均薪資達到16萬4,956元人民幣,較前一年成長4.4%。",
-          "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E5%A4%96%E4%BC%81%E8%96%AA%E8%B3%87%E5%8D%81%E5%B9%B4%E7%BF%BB%E5%80%8D-%E8%88%87%E6%97%A5%E6%9C%AC%E5%B7%AE%E8%B7%9D%E6%80%A5%E9%81%BD%E7%B8%AE%E5%B0%8F%E8%87%B31-2%E5%80%8D-222118858.html",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "angle": "深度調查與結構剖析",
+          "focus": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "excerpt": "川普政府公布301條款調查結果,擬對14個經濟體加徵關稅,台日韓瑞最高15%、越南35%。",
+          "url": "https://tw.stock.yahoo.com/news/iphone-%E6%99%B6%E7%89%87%E6%9A%AB%E5%88%97%E7%BE%8E301%E9%97%9C%E7%A8%85%E8%B1%81%E5%85%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%BC%9D%E9%81%94%E9%AC%86%E5%8F%A3%E6%B0%A3-%E8%B6%8A%E5%8D%97%E8%A3%BDairpods%E6%81%90%E9%81%AD%E8%AA%B2%E6%9C%80%E9%AB%9835-235005994.html",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5599/9902687",
+          "headline": "川普新關稅誰躲得過?晶片、伺服器將豁免 AirPods 恐挨35%",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671885",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "lang": "zh"
+        },
+        {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E5%A4%96%E4%BC%81%E8%96%AA%E8%B3%87%E5%8D%81%E5%B9%B4%E7%BF%BB%E5%80%8D-%E8%88%87%E6%97%A5%E6%9C%AC%E5%B7%AE%E8%B7%9D%E6%80%A5%E9%81%BD%E7%B8%AE%E5%B0%8F%E8%87%B31-2%E5%80%8D-222118858.html",
-          "headline": "中國外企薪資十年翻倍 與日本差距急遽縮小至1.2倍",
+          "url": "https://tw.stock.yahoo.com/news/iphone-%E6%99%B6%E7%89%87%E6%9A%AB%E5%88%97%E7%BE%8E301%E9%97%9C%E7%A8%85%E8%B1%81%E5%85%8D-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%BC%9D%E9%81%94%E9%AC%86%E5%8F%A3%E6%B0%A3-%E8%B6%8A%E5%8D%97%E8%A3%BDairpods%E6%81%90%E9%81%AD%E8%AA%B2%E6%9C%80%E9%AB%9835-235005994.html",
+          "headline": "iPhone、晶片暫列美301關稅豁免!台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "id": "sca0050f8",
+      "section": "business_tech",
+      "title": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。 台積電7月宣布再投資1,000億美元擴大美國產能,總投資達2,650億美元。 白宮稱擴建案可創1萬個直接、1.1萬個間接就業,現已提供逾1.2萬個營建工作。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6671912",
+      "publishedAt": "2026-11-26T09:14:03+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671912/xl/d5180469944e8244c9298cd60a591ca9.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "白宮稱擴建案可創1萬個直接、1.1萬個間接就業,現已提供逾1.2萬個營建工作。",
+          "metric": "1.1萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台積電7月宣布再投資1,000億美元擴大美國產能,總投資達2,650億美元。",
+          "metric": "1000億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "metric": "2650億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
+          "excerpt": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
+          "url": "https://news.cnyes.com/news/id/6671912",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "川普再嗆台灣「偷走晶片產業」白宮證實:他將赴台積電美國廠主持動土",
+          "angle": "先進技術與算力規格",
+          "focus": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "excerpt": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E5%86%8D%E5%97%86%E5%8F%B0%E7%81%A3-%E5%81%B7%E8%B5%B0%E6%99%B6%E7%89%87%E7%94%A2%E6%A5%AD-%E7%99%BD%E5%AE%AE%E8%AD%89%E5%AF%A6-%E4%BB%96%E5%B0%87%E8%B5%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E4%B8%BB%E6%8C%81%E5%8B%95%E5%9C%9F-225800534.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "白宮稱擴建案可創1萬個直接、1.1萬個間接就業,現已提供逾1.2萬個營建工作。",
+          "metric": "1.1萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台積電7月宣布再投資1,000億美元擴大美國產能,總投資達2,650億美元。",
+          "metric": "1000億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "metric": "2650億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
+          "excerpt": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
+          "url": "https://news.cnyes.com/news/id/6671912",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "川普再嗆台灣「偷走晶片產業」白宮證實:他將赴台積電美國廠主持動土",
+          "angle": "先進技術與算力規格",
+          "focus": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "excerpt": "台積電承諾在美國投入2650億美元(約新台幣8.4兆元),擴大先進晶片製造產能。",
+          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E5%86%8D%E5%97%86%E5%8F%B0%E7%81%A3-%E5%81%B7%E8%B5%B0%E6%99%B6%E7%89%87%E7%94%A2%E6%A5%AD-%E7%99%BD%E5%AE%AE%E8%AD%89%E5%AF%A6-%E4%BB%96%E5%B0%87%E8%B5%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E4%B8%BB%E6%8C%81%E5%8B%95%E5%9C%9F-225800534.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671912",
+          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%B7%9D%E6%99%AE%E5%86%8D%E5%97%86%E5%8F%B0%E7%81%A3-%E5%81%B7%E8%B5%B0%E6%99%B6%E7%89%87%E7%94%A2%E6%A5%AD-%E7%99%BD%E5%AE%AE%E8%AD%89%E5%AF%A6-%E4%BB%96%E5%B0%87%E8%B5%B4%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E5%BB%A0%E4%B8%BB%E6%8C%81%E5%8B%95%E5%9C%9F-225800534.html",
+          "headline": "川普再嗆台灣「偷走晶片產業」白宮證實:他將赴台積電美國廠主持動土",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6671735",
+          "headline": "救回黃仁勳後再出招!川普擬親赴台積電美廠動土",
+          "lang": "zh"
+        }
+      ],
+      "rank": 10
     },
     {
       "id": "s9f13fee2",
@@ -4398,167 +5095,26 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 11
     },
     {
-      "id": "sf7ac83bd",
+      "id": "s7e22ec49",
       "section": "business_tech",
-      "title": "台積電美國擴廠典禮川普要來 凸顯AI鏈關鍵戰略地位",
+      "title": "美國提議對14國課徵產能過剩關稅 台灣上限15% 中國恐跳升至40%",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。據了解,台積電董事長暨總裁魏哲家將率領兩位共同營運長及兩位副共同營運長出席,政府則由身兼台積電董事的國發會主委葉俊顯代表與會。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE%E5%B7%9D%E6%99%AE%E8%A6%81%E4%BE%86-%E5%87%B8%E9%A1%AFai%E9%8F%88%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9C%B0%E4%BD%8D-224504725.html",
-      "publishedAt": "2026-11-26T06:45:04+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35554158.jpg&M=1&s=Y&x=0&y=27&sw=1280&sh=854&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
+      "summary": "首次上稿 11-25 22:48更新時間 11-26 08:01 美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等14個貿易夥伴提出新關稅。",
+      "source": "自由財經",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5653486",
+      "publishedAt": "2026-11-26T08:36:24+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/b484615fe6737fe333bccdc55ccb0e9935be19b3126e2a5d1f7d72c5efc56eb2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fftvn.com.tw%2F7d827d19f0c6c8c915848e38a3c586e0.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
       "score": 86,
       "scoreBreakdown": {
         "resonance": 30,
         "impact": 34,
-        "data": 12,
-        "durability": 10
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "美媒25日披露,川普計畫12月4日前往鳳凰城,主持台積電一項大型半導體擴建工程動土;台積電在當地投資規模已達2650億美元,白宮也將擴建計畫列為川普力推製造業回流的成果。",
-          "metric": "2650億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "據了解,台積電董事長暨總裁魏哲家將率領兩位共同營運長及兩位副共同營運長出席,政府則由身兼台積電董事的國發會主委葉俊顯代表與會。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台積電美國擴廠典禮 川普要來 凸顯 AI 鏈關鍵戰略地位",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://money.udn.com/money/story/5612/9902330",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台積電美國擴廠典禮川普要來 凸顯AI鏈關鍵戰略地位",
-          "angle": "政策法規與公共治理",
-          "focus": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE%E5%B7%9D%E6%99%AE%E8%A6%81%E4%BE%86-%E5%87%B8%E9%A1%AFai%E9%8F%88%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9C%B0%E4%BD%8D-224504725.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "美媒25日披露,川普計畫12月4日前往鳳凰城,主持台積電一項大型半導體擴建工程動土;台積電在當地投資規模已達2650億美元,白宮也將擴建計畫列為川普力推製造業回流的成果。",
-          "metric": "2650億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "據了解,台積電董事長暨總裁魏哲家將率領兩位共同營運長及兩位副共同營運長出席,政府則由身兼台積電董事的國發會主委葉俊顯代表與會。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "台積電美國擴廠典禮 川普要來 凸顯 AI 鏈關鍵戰略地位",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://money.udn.com/money/story/5612/9902330",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台積電美國擴廠典禮川普要來 凸顯AI鏈關鍵戰略地位",
-          "angle": "政策法規與公共治理",
-          "focus": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": "彭博資訊25日報導,美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE%E5%B7%9D%E6%99%AE%E8%A6%81%E4%BE%86-%E5%87%B8%E9%A1%AFai%E9%8F%88%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9C%B0%E4%BD%8D-224504725.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9902330",
-          "headline": "台積電美國擴廠典禮 川普要來 凸顯 AI 鏈關鍵戰略地位",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE%E5%B7%9D%E6%99%AE%E8%A6%81%E4%BE%86-%E5%87%B8%E9%A1%AFai%E9%8F%88%E9%97%9C%E9%8D%B5%E6%88%B0%E7%95%A5%E5%9C%B0%E4%BD%8D-224504725.html",
-          "headline": "台積電美國擴廠典禮川普要來 凸顯AI鏈關鍵戰略地位",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB12%E6%9C%884%E6%97%A5%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE-%E5%B7%9D%E6%99%AE%E5%B0%87%E4%B8%BB%E6%8C%81-201000666.html",
-          "headline": "台積電12月4日擴廠典禮 川普將主持",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E5%8A%A9%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BB%BB%E5%BE%8C%E5%86%8D%E6%8C%BA%E6%99%B6%E7%89%87%E6%A5%AD-%E5%B7%9D%E6%99%AE%E5%B0%87%E4%B8%BB%E6%8C%81%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E6%93%B4%E5%BB%A0%E5%85%B8%E7%A6%AE-142000974.html",
-          "headline": "助黃仁勳回任後再挺晶片業 川普將主持台積電亞利桑那擴廠典禮",
-          "lang": "zh"
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "id": "s7bf66929",
-      "section": "business_tech",
-      "title": "美10月 PCE 續揚 升息幾成定局",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5599/9902275",
-      "publishedAt": "2026-11-26T03:08:02+08:00",
-      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
-      "imageCredit": "中央社 CNA",
-      "score": 86,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 18,
-        "durability": 4
+        "data": 14,
+        "durability": 8
       },
       "mediaCount": 2,
       "impactCategories": [
@@ -4568,444 +5124,121 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "與此同時,聯準會最關注的通膨指標PCE物價指數10月則觸及3年來的高點。",
-          "metric": "3年",
+          "text": "美國貿易代表署剛剛表示,提議與南韓、台灣、歐盟、日本及瑞士達成的貿易協議中,關稅稅率上限為15%,且不疊加最惠國(MFN)關稅待遇。",
+          "metric": "15%",
           "confirmed_by": [
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "metric": "3季",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美10月 PCE 續揚 升息幾成定局",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "excerpt": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "url": "https://money.udn.com/money/story/5599/9902275",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "美國第3季GDP大幅上修 10月PCE續揚強化升息預期",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "excerpt": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250343.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "與此同時,聯準會最關注的通膨指標PCE物價指數10月則觸及3年來的高點。",
-          "metric": "3年",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        },
-        {
-          "text": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "metric": "3季",
-          "confirmed_by": [
-            "中央社 CNA"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美10月 PCE 續揚 升息幾成定局",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "excerpt": "美國10月通膨進一步偏離聯準會(Fed)的目標,12月升息幾乎成定局,也引發外界質疑,Fed在2027年還需採取多少緊縮措施。",
-          "url": "https://money.udn.com/money/story/5599/9902275",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "headline": "美國第3季GDP大幅上修 10月PCE續揚強化升息預期",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "excerpt": "美國商務部今天大幅上修第3季國內生產毛額(Gdp)成長率,原因為投資與消費支出強勁。",
-          "url": "https://www.cna.com.tw/news/aopl/202611250343.aspx",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9902275",
-          "headline": "美10月 PCE 續揚 升息幾成定局",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611250343.aspx",
-          "headline": "美國第3季GDP大幅上修 10月PCE續揚強化升息預期",
-          "lang": "zh"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "id": "s50b9a181",
-      "section": "business_tech",
-      "title": "歐盟拚降低對美中依賴 擬設546億美元主權基金 投資 AI、量子運算",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5599/9902274",
-      "publishedAt": "2026-11-26T03:06:08+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/25/35554112.jpg&M=1&s=Y&x=64&y=0&sw=1213&sh=809&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 86,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 14,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": true,
-      "core_facts": [
-        {
-          "text": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "metric": "546億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "歐盟拚降低對美中依賴 擬設546億美元主權基金 投資 AI、量子運算",
-          "angle": "先進技術與算力規格",
-          "focus": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "excerpt": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "url": "https://money.udn.com/money/story/5599/9902274",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "metric": "546億美元",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "歐盟拚降低對美中依賴 擬設546億美元主權基金 投資 AI、量子運算",
-          "angle": "先進技術與算力規格",
-          "focus": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "excerpt": "歐盟當局已提案,將籌備一檔規模多達500億歐元(約546億美元)的「主權科技股權基金」(Stef),對歐洲AI及量子運算企業進行長期、有較高風險的投資,希望藉此降低歐洲對美國、中國大陸科技的依賴。",
-          "url": "https://money.udn.com/money/story/5599/9902274",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9902274",
-          "headline": "歐盟拚降低對美中依賴 擬設546億美元主權基金 投資 AI、量子運算",
-          "lang": "zh"
-        }
-      ],
-      "rank": 10
-    },
-    {
-      "id": "sd74e5979",
-      "section": "business_tech",
-      "title": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。 SpaceX 主張利用太陽能及輻射散熱,有望打造成本更低、更環保的資料中心。 科學界憂心衛星碰撞及天文觀測受干擾,藍色起源也已提出類似申請。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671857",
-      "publishedAt": "2026-11-26T05:36:22+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/20/35537222.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 85,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 34,
-        "data": 10,
-        "durability": 6
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "利率與法規政策",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "metric": "100萬顆",
-          "confirmed_by": [
-            "經濟日報",
             "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "自由財經"
           ]
         },
         {
-          "text": "科學界憂心衛星碰撞及天文觀測受干擾,藍色起源也已提出類似申請。",
-          "metric": "",
+          "text": "美方提議對台灣徵收15%的協議關稅稅率,部分商品則取得豁免,而擬議的關稅措施將經過公開徵求意見期,並在生效前安排聽證會,實施時間可能延後到2027年1月。",
+          "metric": "15%",
           "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "SpaceX 主張利用太陽能及輻射散熱,有望打造成本更低、更環保的資料中心。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美批准 SpaceX 部署100萬顆衛星 建太空資料中心",
-          "angle": "政策法規與公共治理",
-          "focus": "美國聯邦傳播委員會(FCC)今天表示,已授權億萬富豪馬斯克(Elon Musk)旗下的太空探索科技公司(SpaceX)部…………",
-          "excerpt": "美國聯邦傳播委員會(FCC)今天表示,已授權億萬富豪馬斯克(Elon Musk)旗下的太空探索科技公司(SpaceX)部…………",
-          "url": "https://money.udn.com/money/story/123398/9902518",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "angle": "產業動態與市場焦點",
-          "focus": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "excerpt": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "url": "https://news.cnyes.com/news/id/6671857",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "angle": "產業動態與市場焦點",
-          "focus": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "excerpt": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E5%A4%A2%E9%82%81%E5%87%BA-%E5%A4%A7%E6%AD%A5-spacex%E7%8D%B2%E6%9C%89%E6%A2%9D%E4%BB%B6%E6%A0%B8%E5%87%86%E7%99%BC%E5%B0%84%E6%9C%80%E5%A4%9A100%E8%90%AC%E9%A1%86%E8%A1%9B%E6%98%9F-185511676.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "metric": "100萬顆",
-          "confirmed_by": [
-            "經濟日報",
             "工商時報 / Yahoo 財經",
-            "鉅亨網 Anue"
+            "自由財經"
           ]
         },
         {
-          "text": "科學界憂心衛星碰撞及天文觀測受干擾,藍色起源也已提出類似申請。",
-          "metric": "",
+          "text": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
+          "metric": "15%",
           "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "SpaceX 主張利用太陽能及輻射散熱,有望打造成本更低、更環保的資料中心。",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美批准 SpaceX 部署100萬顆衛星 建太空資料中心",
-          "angle": "政策法規與公共治理",
-          "focus": "美國聯邦傳播委員會(FCC)今天表示,已授權億萬富豪馬斯克(Elon Musk)旗下的太空探索科技公司(SpaceX)部…………",
-          "excerpt": "美國聯邦傳播委員會(FCC)今天表示,已授權億萬富豪馬斯克(Elon Musk)旗下的太空探索科技公司(SpaceX)部…………",
-          "url": "https://money.udn.com/money/story/123398/9902518",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "angle": "產業動態與市場焦點",
-          "focus": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "excerpt": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "url": "https://news.cnyes.com/news/id/6671857",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "angle": "產業動態與市場焦點",
-          "focus": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "excerpt": "FCC 有條件核准 SpaceX 發射最多 100 萬顆衛星,是馬斯克打造太空資料中心野心的一大邁步。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E5%A4%A2%E9%82%81%E5%87%BA-%E5%A4%A7%E6%AD%A5-spacex%E7%8D%B2%E6%9C%89%E6%A2%9D%E4%BB%B6%E6%A0%B8%E5%87%86%E7%99%BC%E5%B0%84%E6%9C%80%E5%A4%9A100%E8%90%AC%E9%A1%86%E8%A1%9B%E6%98%9F-185511676.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/123398/9902518",
-          "headline": "美批准 SpaceX 部署100萬顆衛星 建太空資料中心",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671857",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E5%A4%A2%E9%82%81%E5%87%BA-%E5%A4%A7%E6%AD%A5-spacex%E7%8D%B2%E6%9C%89%E6%A2%9D%E4%BB%B6%E6%A0%B8%E5%87%86%E7%99%BC%E5%B0%84%E6%9C%80%E5%A4%9A100%E8%90%AC%E9%A1%86%E8%A1%9B%E6%98%9F-185511676.html",
-          "headline": "馬斯克太空AI夢邁出一大步!SpaceX獲有條件核准發射最多100萬顆衛星",
-          "lang": "zh"
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "id": "sc0b640a3",
-      "section": "business_tech",
-      "title": "AI泡沫越晚破越危險?美國25%經濟成長靠AI 專家憂2兆美元貸款損失",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。 目前股票占美國家庭淨資產 35%,高於網路泡沫頂峰時期的 26%。 哥倫比亞大學經濟學家估計,若未來數年資料中心借貸快速擴張,屆時泡沫破裂造成的貸款損失恐達 2 兆美元。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671829",
-      "publishedAt": "2026-11-26T04:36:25+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671829/xl/0f0e2d1dfbbe75b4e694e855c85dc4d8.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 85,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 30,
-        "data": 20,
-        "durability": 8
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "目前股票占美國家庭淨資產 35%,高於網路泡沫頂峰時期的 26%。",
-          "metric": "26%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "metric": "25%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "哥倫比亞大學經濟學家估計,若未來數年資料中心借貸快速擴張,屆時泡沫破裂造成的貸款損失恐達 2 兆美元。",
-          "metric": "2兆",
-          "confirmed_by": [
-            "鉅亨網 Anue"
+            "工商時報 / Yahoo 財經",
+            "自由財經"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "鉅亨網 Anue",
-          "headline": "AI泡沫越晚破越危險?美國25%經濟成長靠AI 專家憂2兆美元貸款損失",
-          "angle": "產業動態與市場焦點",
-          "focus": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "excerpt": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "url": "https://news.cnyes.com/news/id/6671829",
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "1分鐘讀財經》301產能過剩關稅!台擬課15%、遭點名9大不合理 14國稅率誰最慘",
+          "angle": "利率匯率與總經政策",
+          "focus": "小編今天(26日)精選5件國內外重要財經大事。",
+          "excerpt": "小編今天(26日)精選5件國內外重要財經大事。",
+          "url": "https://tw.stock.yahoo.com/news/1%E5%88%86%E9%90%98%E8%AE%80%E8%B2%A1%E7%B6%93-301%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E5%8F%B0%E6%93%AC%E8%AA%B215-%E9%81%AD%E9%BB%9E%E5%90%8D9%E5%A4%A7%E4%B8%8D%E5%90%88%E7%90%86-14%E5%9C%8B%E7%A8%85%E7%8E%87%E8%AA%B0%E6%9C%80%E6%85%98-003624354.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "美國提議對14國課徵產能過剩關稅 台灣上限15% 中國恐跳升至40%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "首次上稿 11-25 22:48更新時間 11-26 08:01 美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等14個貿易夥伴提出新關稅。",
+          "excerpt": "首次上稿 11-25 22:48更新時間 11-26 08:01 美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等14個貿易夥伴提出新關稅。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653486",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "目前股票占美國家庭淨資產 35%,高於網路泡沫頂峰時期的 26%。",
-          "metric": "26%",
+          "text": "美國貿易代表署剛剛表示,提議與南韓、台灣、歐盟、日本及瑞士達成的貿易協議中,關稅稅率上限為15%,且不疊加最惠國(MFN)關稅待遇。",
+          "metric": "15%",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "工商時報 / Yahoo 財經",
+            "自由財經"
           ]
         },
         {
-          "text": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "metric": "25%",
+          "text": "美方提議對台灣徵收15%的協議關稅稅率,部分商品則取得豁免,而擬議的關稅措施將經過公開徵求意見期,並在生效前安排聽證會,實施時間可能延後到2027年1月。",
+          "metric": "15%",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "工商時報 / Yahoo 財經",
+            "自由財經"
           ]
         },
         {
-          "text": "哥倫比亞大學經濟學家估計,若未來數年資料中心借貸快速擴張,屆時泡沫破裂造成的貸款損失恐達 2 兆美元。",
-          "metric": "2兆",
+          "text": "301調查第二波 14個貿易夥伴增新關稅 台日韓歐稅率約15% 〔編譯魏國金/綜合報導〕美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等十四個貿易夥伴提出新關稅。",
+          "metric": "15%",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "工商時報 / Yahoo 財經",
+            "自由財經"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "鉅亨網 Anue",
-          "headline": "AI泡沫越晚破越危險?美國25%經濟成長靠AI 專家憂2兆美元貸款損失",
-          "angle": "產業動態與市場焦點",
-          "focus": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "excerpt": "巴克萊估過去一年美國經濟成長 25% 來自 AI 投資,若 AI 泡沫破裂,衝擊恐超越網路泡沫。",
-          "url": "https://news.cnyes.com/news/id/6671829",
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "1分鐘讀財經》301產能過剩關稅!台擬課15%、遭點名9大不合理 14國稅率誰最慘",
+          "angle": "利率匯率與總經政策",
+          "focus": "小編今天(26日)精選5件國內外重要財經大事。",
+          "excerpt": "小編今天(26日)精選5件國內外重要財經大事。",
+          "url": "https://tw.stock.yahoo.com/news/1%E5%88%86%E9%90%98%E8%AE%80%E8%B2%A1%E7%B6%93-301%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E5%8F%B0%E6%93%AC%E8%AA%B215-%E9%81%AD%E9%BB%9E%E5%90%8D9%E5%A4%A7%E4%B8%8D%E5%90%88%E7%90%86-14%E5%9C%8B%E7%A8%85%E7%8E%87%E8%AA%B0%E6%9C%80%E6%85%98-003624354.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "美國提議對14國課徵產能過剩關稅 台灣上限15% 中國恐跳升至40%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "首次上稿 11-25 22:48更新時間 11-26 08:01 美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等14個貿易夥伴提出新關稅。",
+          "excerpt": "首次上稿 11-25 22:48更新時間 11-26 08:01 美國媒體CNBC報導,美國已提議對包括中國、歐盟、日本與印度等14個貿易夥伴提出新關稅。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653486",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671829",
-          "headline": "AI泡沫越晚破越危險?美國25%經濟成長靠AI 專家憂2兆美元貸款損失",
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/1%E5%88%86%E9%90%98%E8%AE%80%E8%B2%A1%E7%B6%93-301%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E5%8F%B0%E6%93%AC%E8%AA%B215-%E9%81%AD%E9%BB%9E%E5%90%8D9%E5%A4%A7%E4%B8%8D%E5%90%88%E7%90%86-14%E5%9C%8B%E7%A8%85%E7%8E%87%E8%AA%B0%E6%9C%80%E6%85%98-003624354.html",
+          "headline": "1分鐘讀財經》301產能過剩關稅!台擬課15%、遭點名9大不合理 14國稅率誰最慘",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E9%97%9C%E7%A8%85%E5%B8%9D%E5%90%9B%E4%BE%86%E8%A5%B2-%E7%BE%8E%E5%9C%8B%E6%8F%90%E8%AD%B0%E5%B0%8D%E5%8F%B0%E7%A8%85%E7%8E%87%E4%B8%8A%E9%99%9015-%E4%B8%AD%E5%9C%8B%E7%A8%85%E7%8E%87%E6%9C%89%E5%A4%A0%E9%87%8D-140501069.html",
+          "headline": "關稅帝君來襲!美國提議對台稅率上限15% 中國稅率有夠重",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5653486",
+          "headline": "美國提議對14國課徵產能過剩關稅 台灣上限15% 中國恐跳升至40%",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/paper/1779881",
+          "headline": "美產能過剩關稅 中國恐面臨最高稅率40%",
           "lang": "zh"
         }
       ],
@@ -5013,11 +5246,11 @@
     }
   ],
   "stats": {
-    "clusters": 359,
+    "clusters": 358,
     "passed": 12,
-    "totalQualified": 54,
-    "below_threshold": 305,
-    "articlesAnalysed": 447
+    "totalQualified": 46,
+    "below_threshold": 312,
+    "articlesAnalysed": 443
   },
   "sourcesStatus": [
     {
@@ -5026,7 +5259,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 78,
+      "count": 76,
       "error": null
     },
     {
@@ -5053,7 +5286,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 195,
+      "count": 194,
       "error": null
     },
     {
@@ -5062,7 +5295,7 @@
       "group": "business",
       "section": "產經與財經政策",
       "ok": true,
-      "count": 36,
+      "count": 35,
       "error": null
     },
     {
@@ -5071,7 +5304,7 @@
       "group": "business",
       "section": "財經政策與產業",
       "ok": true,
-      "count": 36,
+      "count": 37,
       "error": null
     },
     {
@@ -5080,7 +5313,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 61,
+      "count": 59,
       "error": null
     },
     {
@@ -5089,7 +5322,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     {
