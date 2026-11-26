@@ -7,8 +7,8 @@
     "name": "晚報版",
     "scheduledTime": "16:00"
   },
-  "generatedAt": "2026-11-26T16:00:19+08:00",
-  "updatedAt": "2026-11-26 16:00",
+  "generatedAt": "2026-11-26T21:31:03+08:00",
+  "updatedAt": "2026-11-26 21:31",
   "date": "2026-11-26",
   "weekday": "星期四",
   "dataMode": "live",
@@ -62,12 +62,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 28.29,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-25",
+        "value": 26.95,
+        "change": -1.34,
+        "changePct": -4.74,
+        "asOf": "2026-11-26",
         "history": [
-          28.18,
           25.64,
           19.92,
           19.46,
@@ -81,7 +80,8 @@
           35.89,
           26.62,
           26.36,
-          28.29
+          28.29,
+          26.95
         ],
         "source": "CNBC Market Data"
       },
@@ -94,9 +94,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.747,
-        "change": 0.082,
-        "changePct": 0.08,
+        "value": 103.707,
+        "change": 0.042,
+        "changePct": 0.04,
         "asOf": "2026-11-26",
         "history": [
           102.231,
@@ -113,7 +113,7 @@
           104.318,
           103.814,
           103.665,
-          103.747
+          103.707
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.85,
-        "change": 0.17,
-        "changePct": 0.2,
+        "value": 84.48,
+        "change": 0.8,
+        "changePct": 0.96,
         "asOf": "2026-11-26",
         "history": [
           90.83,
@@ -145,7 +145,7 @@
           80.17,
           82.05,
           83.68,
-          83.85
+          84.48
         ],
         "source": "CNBC Market Data"
       },
@@ -158,9 +158,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3563.6,
-        "change": 27.8,
-        "changePct": 0.79,
+        "value": 3563.1,
+        "change": 27.3,
+        "changePct": 0.77,
         "asOf": "2026-11-26",
         "history": [
           4074.9,
@@ -177,7 +177,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3563.6
+          3563.1
         ],
         "source": "CNBC Market Data"
       },
@@ -252,12 +252,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 28.29,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-25",
+        "value": 26.95,
+        "change": -1.34,
+        "changePct": -4.74,
+        "asOf": "2026-11-26",
         "history": [
-          28.18,
           25.64,
           19.92,
           19.46,
@@ -271,7 +270,8 @@
           35.89,
           26.62,
           26.36,
-          28.29
+          28.29,
+          26.95
         ],
         "source": "CNBC Market Data"
       },
@@ -284,9 +284,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.747,
-        "change": 0.082,
-        "changePct": 0.08,
+        "value": 103.707,
+        "change": 0.042,
+        "changePct": 0.04,
         "asOf": "2026-11-26",
         "history": [
           102.231,
@@ -303,7 +303,7 @@
           104.318,
           103.814,
           103.665,
-          103.747
+          103.707
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 83.85,
-        "change": 0.17,
-        "changePct": 0.2,
+        "value": 84.48,
+        "change": 0.8,
+        "changePct": 0.96,
         "asOf": "2026-11-26",
         "history": [
           90.83,
@@ -335,7 +335,7 @@
           80.17,
           82.05,
           83.68,
-          83.85
+          84.48
         ],
         "source": "CNBC Market Data"
       },
@@ -348,9 +348,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3563.6,
-        "change": 27.8,
-        "changePct": 0.79,
+        "value": 3563.1,
+        "change": 27.3,
+        "changePct": 0.77,
         "asOf": "2026-11-26",
         "history": [
           4074.9,
@@ -367,7 +367,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3563.6
+          3563.1
         ],
         "source": "CNBC Market Data"
       },
@@ -1752,12 +1752,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 28.29,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-25",
+      "value": 26.95,
+      "change": -1.34,
+      "changePct": -4.74,
+      "asOf": "2026-11-26",
       "history": [
-        28.18,
         25.64,
         19.92,
         19.46,
@@ -1771,7 +1770,8 @@
         35.89,
         26.62,
         26.36,
-        28.29
+        28.29,
+        26.95
       ],
       "source": "CNBC Market Data"
     },
@@ -1784,9 +1784,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.747,
-      "change": 0.082,
-      "changePct": 0.08,
+      "value": 103.707,
+      "change": 0.042,
+      "changePct": 0.04,
       "asOf": "2026-11-26",
       "history": [
         102.231,
@@ -1803,7 +1803,7 @@
         104.318,
         103.814,
         103.665,
-        103.747
+        103.707
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 83.85,
-      "change": 0.17,
-      "changePct": 0.2,
+      "value": 84.48,
+      "change": 0.8,
+      "changePct": 0.96,
       "asOf": "2026-11-26",
       "history": [
         90.83,
@@ -1835,7 +1835,7 @@
         80.17,
         82.05,
         83.68,
-        83.85
+        84.48
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,9 +1848,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3563.6,
-      "change": 27.8,
-      "changePct": 0.79,
+      "value": 3563.1,
+      "change": 27.3,
+      "changePct": 0.77,
       "asOf": "2026-11-26",
       "history": [
         4074.9,
@@ -1867,7 +1867,7 @@
         3651.4,
         3561.9,
         3535.8,
-        3563.6
+        3563.1
       ],
       "source": "CNBC Market Data"
     },
@@ -3543,214 +3543,22 @@
     ]
   },
   "leadIds": [
-    "sa10122a0",
-    "sb06f314e"
+    "sa4b7453c",
+    "s3680c8a5"
   ],
   "stories": [
     {
-      "id": "sa10122a0",
-      "section": "deep",
-      "title": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "日本今天表示,美國擬對日本出口商品加徵新關稅「令人遺憾」,並否認日本製造業存在結構性產能過剩的問題。法新社報導,日本內閣官房長官木原稔(MinoruKihara)表示:「日本並無任何非市場政策措施,也不存在結構性產能過剩問題…儘管如此,美國仍宣布擬採取針對日本的措施,令人遺憾。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E6%97%A5%E7%A8%B1-%E4%BB%A4%E4%BA%BA%E9%81%BA%E6%86%BE-%E5%90%A6%E8%AA%8D%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9-054933794.html",
-      "publishedAt": "2026-11-26T14:30:09+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6672124/xl/053f1687e0826d4f055cedd54eeff58f.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 100,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 5,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "日美協議框架含東京5500億美元對美投資;日本已公布3輪投資案、總額1300億美元,換取關稅天花板15%。",
-          "metric": "1300億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "metric": "15%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經",
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "USTR對巴西成品飛機加徵10%從價稅、原糖另設新稅率;巴西批美方單方面決定,稱不向威脅低頭。",
-          "metric": "10%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "日本今天表示,美國擬對日本出口商品加徵新關稅「令人遺憾」,並否認日本製造業存在結構性產能過剩的問題",
-          "excerpt": "日本今天表示,美國擬對日本出口商品加徵新關稅「令人遺憾」,並否認日本製造業存在結構性產能過剩的問題",
-          "url": "https://money.udn.com/money/story/5599/9903499",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "angle": "利率匯率與總經政策",
-          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "url": "https://news.cnyes.com/news/id/6672124",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "angle": "利率匯率與總經政策",
-          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%95%9F%E5%8B%95%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E6%97%A5%E6%9C%AC%E6%8A%97%E8%AD%B0-%E5%B7%B4%E8%A5%BF%E5%8F%8D%E5%97%86-%E4%B8%8D%E5%90%88%E6%B3%95-%E5%B0%87%E5%B0%8D%E7%AD%89%E5%9B%9E%E6%93%8A-063009739.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "日美協議框架含東京5500億美元對美投資;日本已公布3輪投資案、總額1300億美元,換取關稅天花板15%。",
-          "metric": "1300億美元",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "metric": "15%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經",
-            "公視新聞網"
-          ]
-        },
-        {
-          "text": "USTR對巴西成品飛機加徵10%從價稅、原糖另設新稅率;巴西批美方單方面決定,稱不向威脅低頭。",
-          "metric": "10%",
-          "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "日本今天表示,美國擬對日本出口商品加徵新關稅「令人遺憾」,並否認日本製造業存在結構性產能過剩的問題",
-          "excerpt": "日本今天表示,美國擬對日本出口商品加徵新關稅「令人遺憾」,並否認日本製造業存在結構性產能過剩的問題",
-          "url": "https://money.udn.com/money/story/5599/9903499",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "angle": "利率匯率與總經政策",
-          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "url": "https://news.cnyes.com/news/id/6672124",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "angle": "利率匯率與總經政策",
-          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%95%9F%E5%8B%95%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E6%97%A5%E6%9C%AC%E6%8A%97%E8%AD%B0-%E5%B7%B4%E8%A5%BF%E5%8F%8D%E5%97%86-%E4%B8%8D%E5%90%88%E6%B3%95-%E5%B0%87%E5%B0%8D%E7%AD%89%E5%9B%9E%E6%93%8A-063009739.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9903499",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "lang": "zh"
-        },
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6672124",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E5%95%9F%E5%8B%95%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E6%97%A5%E6%9C%AC%E6%8A%97%E8%AD%B0-%E5%B7%B4%E8%A5%BF%E5%8F%8D%E5%97%86-%E4%B8%8D%E5%90%88%E6%B3%95-%E5%B0%87%E5%B0%8D%E7%AD%89%E5%9B%9E%E6%93%8A-063009739.html",
-          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E6%97%A5%E7%A8%B1-%E4%BB%A4%E4%BA%BA%E9%81%BA%E6%86%BE-%E5%90%A6%E8%AA%8D%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9-054933794.html",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E6%97%A5%E7%A8%B1-%E4%BB%A4%E4%BA%BA%E9%81%BA%E6%86%BE-%E5%90%A6%E8%AA%8D%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9-053532254.html",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611260130.aspx",
-          "headline": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E6%93%AC%E5%B0%8D%E4%B8%AD%E5%9C%8B%E7%AD%89%E8%B2%BF%E6%98%93%E5%A4%A5%E4%BC%B4%E5%8A%A0%E5%BE%81%E9%97%9C%E7%A8%85-%E5%8C%97%E4%BA%AC-%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9-%E6%98%AF%E5%81%BD%E5%91%BD%E9%A1%8C-140400381.html",
-          "headline": "美擬施加新關稅 歐盟:歐洲也是產能過剩受害者",
-          "lang": "zh"
-        },
-        {
-          "media": "公視新聞網",
-          "url": "https://news.pts.org.tw/article/837443",
-          "headline": "美擬對台課15%產能過剩關稅 鄭麗君:有信心續享2232項產品豁免",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "id": "sb06f314e",
+      "id": "sa4b7453c",
       "section": "business_tech",
-      "title": "AI推升晶片投資布局 川普將出席台積電亞利桑那州新廠動土典禮",
+      "title": "國科會「創新創業計畫」累計民間投資達135億元 已培養600家新創公司",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "白宮與台積電雙雙證實,將經濟政策寄望於人工智慧(AI)產業成長的美國總統川普,將於12月4日前往亞利桑那州,在台積電新晶圓廠的動土典禮發表演說。",
-      "source": "中央社 CNA",
-      "url": "https://www.cna.com.tw/news/aopl/202611260094.aspx",
-      "publishedAt": "2026-11-26T14:21:07+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/6cc2c56031dbf2b15d4721e6b46bf4ae9a706c7516b178cf391135c07e0ab303/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2F__873%2Fcf9399b5a0ac8482ac6a5fac21a052da.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
+      "summary": "<p>由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。</p> <p>國研院表示,「創新創業激勵計畫」自2013年推動至今,持續協助學研團隊將科研成果轉化為創業構想,累計輔導上千組學研新創團隊,成功培育近600家新創公司,促成民間投資金額逾135億元,也透過長期培育與資源鏈結,逐步建立從科研創新、創業培育到產業發展的支持機制。</p> <p>「創新創業激勵計畫」藉由6個月的系統化培訓,協助學研團隊逐步建立創業所需的能力。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673221",
+      "publishedAt": "2026-11-26T20:22:59+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6673221/xl/de473965ce3d985c99088bc15ec53deb.jpg",
+      "imageCredit": "鉅亨網 Anue",
       "score": 99,
       "scoreBreakdown": {
         "resonance": 35,
@@ -3761,27 +3569,29 @@
       "mediaCount": 3,
       "impactCategories": [
         "供應鏈與整併",
-        "技術與算力突破"
+        "公共治理與結構轉型"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "白宮稱擴建案可創1萬個直接、1.1萬個間接就業,現已提供逾1.2萬個營建工作。",
-          "metric": "1.1萬",
+          "text": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "metric": "135億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "台積電7月宣布再投資1,000億美元擴大美國產能,總投資達2,650億美元。",
-          "metric": "1000億美元",
+          "text": "國研院表示,「創新創業激勵計畫」自2013年推動至今,持續協助學研團隊將科研成果轉化為創業構想,累計輔導上千組學研新創團隊,成功培育近600家新創公司,促成民間投資金額逾135億元,也透過長期培育與資源鏈結,逐步建立從科研創新、創業培育到產業發展的支持機制。",
+          "metric": "135億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "metric": "",
+          "text": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "metric": "100萬",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
@@ -3789,52 +3599,54 @@
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "魏哲家領軍台積電AZ廠擴建典禮 川普將出席!",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": ",美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,顯示台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": ",美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,顯示台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%AD%8F%E5%93%B2%E5%AE%B6%E9%A0%98%E8%BB%8D%E5%8F%B0%E7%A9%8D%E9%9B%BBaz%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-%E5%B7%9D%E6%99%AE%E5%B0%87%E5%87%BA%E5%B8%AD-062107151.html",
+          "media": "鉅亨網 Anue",
+          "headline": "國科會「創新創業計畫」累計民間投資達135億元 已培養600家新創公司",
+          "angle": "先進技術與算力規格",
+          "focus": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "excerpt": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "url": "https://news.cnyes.com/news/id/6673221",
           "lang": "zh"
         },
         {
           "media": "中央社 CNA",
-          "headline": "AI推升晶片投資布局 川普將出席台積電亞利桑那州新廠動土典禮",
-          "angle": "先進技術與算力規格",
-          "focus": "白宮與台積電雙雙證實,將經濟政策寄望於人工智慧(AI)產業成長的美國總統川普,將於12月4日前往亞利桑那州,在台積電新晶圓廠的動土典禮發表演說。",
-          "excerpt": "白宮與台積電雙雙證實,將經濟政策寄望於人工智慧(AI)產業成長的美國總統川普,將於12月4日前往亞利桑那州,在台積電新晶圓廠的動土典禮發表演說。",
-          "url": "https://www.cna.com.tw/news/aopl/202611260094.aspx",
+          "headline": "科研成果轉商機 創新創業激勵計畫促成民間投資逾135億元",
+          "angle": "政策法規與公共治理",
+          "focus": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "excerpt": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "url": "https://www.cna.com.tw/news/afe/202611260260.aspx",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "excerpt": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "url": "https://news.cnyes.com/news/id/6671912",
+          "media": "自由財經",
+          "headline": "國科會創新創業激勵計畫 中科搶下4席「創業潛力獎」",
+          "angle": "產業動態與市場焦點",
+          "focus": "〔記者蘇金鳳/台中報導〕國科會2026年第二梯次「創新創業激勵(Fiti)計畫」總決賽今(26)日於台北文創盛大舉行,中科管理局輔導團隊在競爭激烈的7強中一舉搶下4席「創業潛力獎」,分別為「偵脈",
+          "excerpt": "〔記者蘇金鳳/台中報導〕國科會2026年第二梯次「創新創業激勵(Fiti)計畫」總決賽今(26)日於台北文創盛大舉行,中科管理局輔導團隊在競爭激烈的7強中一舉搶下4席「創業潛力獎」,分別為「偵脈",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654640",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "白宮稱擴建案可創1萬個直接、1.1萬個間接就業,現已提供逾1.2萬個營建工作。",
-          "metric": "1.1萬",
+          "text": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "metric": "135億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "台積電7月宣布再投資1,000億美元擴大美國產能,總投資達2,650億美元。",
-          "metric": "1000億美元",
+          "text": "國研院表示,「創新創業激勵計畫」自2013年推動至今,持續協助學研團隊將科研成果轉化為創業構想,累計輔導上千組學研新創團隊,成功培育近600家新創公司,促成民間投資金額逾135億元,也透過長期培育與資源鏈結,逐步建立從科研創新、創業培育到產業發展的支持機制。",
+          "metric": "135億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "metric": "",
+          "text": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "metric": "100萬",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
@@ -3842,198 +3654,361 @@
       ],
       "mediaPerspectives": [
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "魏哲家領軍台積電AZ廠擴建典禮 川普將出席!",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": ",美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,顯示台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "excerpt": ",美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮,顯示台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。",
-          "url": "https://tw.stock.yahoo.com/news/%E9%AD%8F%E5%93%B2%E5%AE%B6%E9%A0%98%E8%BB%8D%E5%8F%B0%E7%A9%8D%E9%9B%BBaz%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-%E5%B7%9D%E6%99%AE%E5%B0%87%E5%87%BA%E5%B8%AD-062107151.html",
+          "media": "鉅亨網 Anue",
+          "headline": "國科會「創新創業計畫」累計民間投資達135億元 已培養600家新創公司",
+          "angle": "先進技術與算力規格",
+          "focus": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "excerpt": "由國科會指導、國研院科政中心執行之「創新創業激勵計畫」(Fiti),今(26)日舉辦2026年第2梯次決選暨頒獎典禮,典禮揭曉本梯次「創業傑出獎」得主,將獲得由企業贊助的100萬元創業基金。",
+          "url": "https://news.cnyes.com/news/id/6673221",
           "lang": "zh"
         },
         {
           "media": "中央社 CNA",
-          "headline": "AI推升晶片投資布局 川普將出席台積電亞利桑那州新廠動土典禮",
-          "angle": "先進技術與算力規格",
-          "focus": "白宮與台積電雙雙證實,將經濟政策寄望於人工智慧(AI)產業成長的美國總統川普,將於12月4日前往亞利桑那州,在台積電新晶圓廠的動土典禮發表演說。",
-          "excerpt": "白宮與台積電雙雙證實,將經濟政策寄望於人工智慧(AI)產業成長的美國總統川普,將於12月4日前往亞利桑那州,在台積電新晶圓廠的動土典禮發表演說。",
-          "url": "https://www.cna.com.tw/news/aopl/202611260094.aspx",
+          "headline": "科研成果轉商機 創新創業激勵計畫促成民間投資逾135億元",
+          "angle": "政策法規與公共治理",
+          "focus": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "excerpt": "國家實驗研究院科技政策研究與資訊中心今天表示,「創新創業激勵計畫」自2013年推動至今,協助學研團隊將科研成果轉化為創業構想,已成功培育近600家新創公司,促成民間投資金額逾新台幣135億元。",
+          "url": "https://www.cna.com.tw/news/afe/202611260260.aspx",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "excerpt": "川普將於12月4日赴亞利桑那州,出席台積電新晶圓廠動土典禮。",
-          "url": "https://news.cnyes.com/news/id/6671912",
+          "media": "自由財經",
+          "headline": "國科會創新創業激勵計畫 中科搶下4席「創業潛力獎」",
+          "angle": "產業動態與市場焦點",
+          "focus": "〔記者蘇金鳳/台中報導〕國科會2026年第二梯次「創新創業激勵(Fiti)計畫」總決賽今(26)日於台北文創盛大舉行,中科管理局輔導團隊在競爭激烈的7強中一舉搶下4席「創業潛力獎」,分別為「偵脈",
+          "excerpt": "〔記者蘇金鳳/台中報導〕國科會2026年第二梯次「創新創業激勵(Fiti)計畫」總決賽今(26)日於台北文創盛大舉行,中科管理局輔導團隊在競爭激烈的7強中一舉搶下4席「創業潛力獎」,分別為「偵脈",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654640",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E9%AD%8F%E5%93%B2%E5%AE%B6%E9%A0%98%E8%BB%8D%E5%8F%B0%E7%A9%8D%E9%9B%BBaz%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-%E5%B7%9D%E6%99%AE%E5%B0%87%E5%87%BA%E5%B8%AD-062107151.html",
-          "headline": "魏哲家領軍台積電AZ廠擴建典禮 川普將出席!",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673221",
+          "headline": "國科會「創新創業計畫」累計民間投資達135億元 已培養600家新創公司",
           "lang": "zh"
         },
         {
           "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611260094.aspx",
-          "headline": "AI推升晶片投資布局 川普將出席台積電亞利桑那州新廠動土典禮",
+          "url": "https://www.cna.com.tw/news/afe/202611260260.aspx",
+          "headline": "科研成果轉商機 創新創業激勵計畫促成民間投資逾135億元",
           "lang": "zh"
         },
         {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654640",
+          "headline": "國科會創新創業激勵計畫 中科搶下4席「創業潛力獎」",
+          "lang": "zh"
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "id": "s3680c8a5",
+      "section": "business_tech",
+      "title": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。 蕭玉美指美國聯準會今年底至明年第1季仍有升息空間,台灣央行年底前亦不排除升息。 台幣料區間震盪偏升;華南銀台債3600億、外債4600億,利率風險可控。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673210",
+      "publishedAt": "2026-11-26T20:21:51+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6673210/l/af32345efe46a8a743bb8dad47f3258f.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 96,
+      "scoreBreakdown": {
+        "resonance": 35,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 3,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "台幣料區間震盪偏升;華南銀台債3600億、外債4600億,利率風險可控。",
+          "metric": "3600億",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "metric": "5.82%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "蕭玉美指美國聯準會今年底至明年第1季仍有升息空間,台灣央行年底前亦不排除升息。",
+          "metric": "1季",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671912",
-          "headline": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "excerpt": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "url": "https://news.cnyes.com/news/id/6673210",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "excerpt": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E5%8D%97%E9%87%91%E6%B3%95%E8%AA%AA-%E5%A4%AE%E8%A1%8C%E4%B8%8D%E6%8E%92%E9%99%A4%E5%B9%B4%E5%BA%95%E5%89%8D%E5%8D%87%E6%81%AF-%E8%95%AD%E7%8E%89%E7%BE%8E%E7%9C%8Bai%E8%88%87%E5%87%BA%E5%8F%A3%E6%94%AF%E6%92%90%E5%8B%95%E8%83%BD-%E5%8F%B0%E5%B9%A3%E9%9C%87%E7%9B%AA%E5%81%8F%E5%8D%87-122151688.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "華南金看央行12月可能預防性升息半碼、新台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金控(2880)今(26)日召開第三季法人說明會,總經理蕭玉美針對 2027 年全球景氣與美台利率、匯率走勢提出最新看法。",
+          "excerpt": "華南金控(2880)今(26)日召開第三季法人說明會,總經理蕭玉美針對 2027 年全球景氣與美台利率、匯率走勢提出最新看法。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654411",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "台幣料區間震盪偏升;華南銀台債3600億、外債4600億,利率風險可控。",
+          "metric": "3600億",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "metric": "5.82%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "蕭玉美指美國聯準會今年底至明年第1季仍有升息空間,台灣央行年底前亦不排除升息。",
+          "metric": "1季",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "excerpt": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "url": "https://news.cnyes.com/news/id/6673210",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "excerpt": "華南金估明年台灣經濟成長率5.82%,受AI產業、出口與投資需求續強帶動。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E5%8D%97%E9%87%91%E6%B3%95%E8%AA%AA-%E5%A4%AE%E8%A1%8C%E4%B8%8D%E6%8E%92%E9%99%A4%E5%B9%B4%E5%BA%95%E5%89%8D%E5%8D%87%E6%81%AF-%E8%95%AD%E7%8E%89%E7%BE%8E%E7%9C%8Bai%E8%88%87%E5%87%BA%E5%8F%A3%E6%94%AF%E6%92%90%E5%8B%95%E8%83%BD-%E5%8F%B0%E5%B9%A3%E9%9C%87%E7%9B%AA%E5%81%8F%E5%8D%87-122151688.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "華南金看央行12月可能預防性升息半碼、新台幣震盪偏升",
+          "angle": "利率匯率與總經政策",
+          "focus": "華南金控(2880)今(26)日召開第三季法人說明會,總經理蕭玉美針對 2027 年全球景氣與美台利率、匯率走勢提出最新看法。",
+          "excerpt": "華南金控(2880)今(26)日召開第三季法人說明會,總經理蕭玉美針對 2027 年全球景氣與美台利率、匯率走勢提出最新看法。",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654411",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673210",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E5%8D%97%E9%87%91%E6%B3%95%E8%AA%AA-%E5%A4%AE%E8%A1%8C%E4%B8%8D%E6%8E%92%E9%99%A4%E5%B9%B4%E5%BA%95%E5%89%8D%E5%8D%87%E6%81%AF-%E8%95%AD%E7%8E%89%E7%BE%8E%E7%9C%8Bai%E8%88%87%E5%87%BA%E5%8F%A3%E6%94%AF%E6%92%90%E5%8B%95%E8%83%BD-%E5%8F%B0%E5%B9%A3%E9%9C%87%E7%9B%AA%E5%81%8F%E5%8D%87-122151688.html",
+          "headline": "〈華南金法說〉央行不排除年底前升息!蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5654411",
+          "headline": "華南金看央行12月可能預防性升息半碼、新台幣震盪偏升",
           "lang": "zh"
         }
       ],
       "rank": 2
     },
     {
-      "id": "s8ee8c41d",
+      "id": "sad9f30e6",
       "section": "business_tech",
-      "title": "台汽電搶AI資料中心3商機 看核電重啟影響有限",
+      "title": "亞泥中國睽違12年啟新窯 置換熟料產能減1/3",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "AI資料中心(Aidc)熱潮推升用電需求,汽電共生大廠台汽電(8926)持續搶攻相關商機,從投資電廠、承攬電廠工程到供應鏈布局,盼擴大集團在AI電力基礎建設的參與程度。",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5654275",
-      "publishedAt": "2026-11-26T15:12:50+08:00",
-      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 95,
+      "summary": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+      "source": "中央社 CNA",
+      "url": "https://www.cna.com.tw/news/afe/202611260257.aspx",
+      "publishedAt": "2026-11-26T18:22:09+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20261126/1152x768_wmkn_0_C20261126000181.jpg",
+      "imageCredit": "中央社 CNA",
+      "score": 94,
       "scoreBreakdown": {
         "resonance": 30,
-        "impact": 35,
+        "impact": 34,
         "data": 20,
         "durability": 10
       },
       "mediaCount": 2,
       "impactCategories": [
         "供應鏈與整併",
-        "技術與算力突破",
-        "公共治理與結構轉型"
+        "技術與算力突破"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "約450MW是電網供電規模,360MW則是機房IT設備可用的規劃容量。",
-          "metric": "360mw",
+          "text": "亞泥中國稱中國水泥未來5年產量恐減29%,將靠產能整併、設備升級、綠色轉型與航運布局提升競爭力。",
+          "metric": "29%",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "現有PLN系統的發電容量約80GW;30GW是開發商排隊等候接電的需求,與已簽約或已開始用電的容量不同。",
-          "metric": "30gw",
+          "text": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "metric": "10億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "DayOne的上市申報文件顯示,Kabil園區規劃供伺服器等IT設備使用的容量為360MW,其中240MW已與客戶簽約。",
-          "metric": "240mw",
+          "text": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "metric": "10億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "鉅亨網 Anue",
-          "headline": "印尼資料中心用電排隊達30GWPLN籲大型園區共同投資電力",
-          "angle": "先進技術與算力規格",
-          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 印尼國營電力公司PLN總裁Suroso Isnandar表示,資料中心等待接電的需求已達30GW。",
-          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 印尼國營電力公司PLN總裁Suroso Isnandar表示,資料中心等待接電的需求已達30GW。",
-          "url": "https://news.cnyes.com/news/id/6672723",
+          "media": "中央社 CNA",
+          "headline": "亞泥中國睽違12年啟新窯 置換熟料產能減1/3",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "excerpt": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "url": "https://www.cna.com.tw/news/afe/202611260257.aspx",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "headline": "台汽電搶AI資料中心3商機 看核電重啟影響有限",
+          "media": "鉅亨網 Anue",
+          "headline": "亞泥中國暌違12年再啟新窯 黃岡亞東第二條熟料生產線明年Q1量產",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "AI資料中心(Aidc)熱潮推升用電需求,汽電共生大廠台汽電(8926)持續搶攻相關商機,從投資電廠、承攬電廠工程到供應鏈布局,盼擴大集團在AI電力基礎建設的參與程度。",
-          "excerpt": "AI資料中心(Aidc)熱潮推升用電需求,汽電共生大廠台汽電(8926)持續搶攻相關商機,從投資電廠、承攬電廠工程到供應鏈布局,盼擴大集團在AI電力基礎建設的參與程度。",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654275",
+          "focus": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "excerpt": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "url": "https://news.cnyes.com/news/id/6672988",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "約450MW是電網供電規模,360MW則是機房IT設備可用的規劃容量。",
-          "metric": "360mw",
+          "text": "亞泥中國稱中國水泥未來5年產量恐減29%,將靠產能整併、設備升級、綠色轉型與航運布局提升競爭力。",
+          "metric": "29%",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "現有PLN系統的發電容量約80GW;30GW是開發商排隊等候接電的需求,與已簽約或已開始用電的容量不同。",
-          "metric": "30gw",
+          "text": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "metric": "10億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "DayOne的上市申報文件顯示,Kabil園區規劃供伺服器等IT設備使用的容量為360MW,其中240MW已與客戶簽約。",
-          "metric": "240mw",
+          "text": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "metric": "10億元",
           "confirmed_by": [
+            "中央社 CNA",
             "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
-          "media": "鉅亨網 Anue",
-          "headline": "印尼資料中心用電排隊達30GWPLN籲大型園區共同投資電力",
-          "angle": "先進技術與算力規格",
-          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 印尼國營電力公司PLN總裁Suroso Isnandar表示,資料中心等待接電的需求已達30GW。",
-          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 印尼國營電力公司PLN總裁Suroso Isnandar表示,資料中心等待接電的需求已達30GW。",
-          "url": "https://news.cnyes.com/news/id/6672723",
+          "media": "中央社 CNA",
+          "headline": "亞泥中國睽違12年啟新窯 置換熟料產能減1/3",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "excerpt": "亞洲水泥旗下亞泥中國睽違12年再啟新窯,湖北黃岡亞東第2條熟料生產線25日點火試產,預計2027年1月量產,量產後年產值估達人民幣10億元;此為亞泥中國以3條舊窯置換1條新窯,置換後熟料日產能減少約1/3,並布局低鹼水泥及鐵路工程用特種水泥市場。",
+          "url": "https://www.cna.com.tw/news/afe/202611260257.aspx",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "headline": "台汽電搶AI資料中心3商機 看核電重啟影響有限",
+          "media": "鉅亨網 Anue",
+          "headline": "亞泥中國暌違12年再啟新窯 黃岡亞東第二條熟料生產線明年Q1量產",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "AI資料中心(Aidc)熱潮推升用電需求,汽電共生大廠台汽電(8926)持續搶攻相關商機,從投資電廠、承攬電廠工程到供應鏈布局,盼擴大集團在AI電力基礎建設的參與程度。",
-          "excerpt": "AI資料中心(Aidc)熱潮推升用電需求,汽電共生大廠台汽電(8926)持續搶攻相關商機,從投資電廠、承攬電廠工程到供應鏈布局,盼擴大集團在AI電力基礎建設的參與程度。",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654275",
+          "focus": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "excerpt": "亞泥中國黃岡亞東第二條熟料線25日點火試產,預計2027年1月量產,年產水泥270萬噸、產值估人民幣10億元。",
+          "url": "https://news.cnyes.com/news/id/6672988",
           "lang": "zh"
         }
       ],
       "unverifiedNotice": "",
       "sources": [
         {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6672723",
-          "headline": "印尼資料中心用電排隊達30GWPLN籲大型園區共同投資電力",
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611260257.aspx",
+          "headline": "亞泥中國睽違12年啟新窯 置換熟料產能減1/3",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654275",
-          "headline": "台汽電搶AI資料中心3商機 看核電重啟影響有限",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6672988",
+          "headline": "亞泥中國暌違12年再啟新窯 黃岡亞東第二條熟料生產線明年Q1量產",
           "lang": "zh"
         }
       ],
       "rank": 3
     },
     {
-      "id": "s40503539",
+      "id": "s3f11d25c",
       "section": "business_tech",
-      "title": "美擬對 14 經濟體加徵新關稅,主要貿易夥伴紛表不滿",
+      "title": "美擬加徵301關稅 中國商務部:嚴重破壞國際經濟秩序",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅,這可能使美國與盟友及競爭對手之間的貿易緊張關係進入新階段。 法新社報導,在美國最高法院裁定推翻總統川普先前實施的關稅措施後,當局隨即於數天後啟動調查,並祭出這波最高達20%的新關稅。",
-      "source": "TechNews 科技新報",
-      "url": "https://technews.tw/2026/11/26/us-plans-new-tariffs-14-economies-major-trade-partners-discontent/",
-      "publishedAt": "2026-11-26T15:29:46+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6672859/xl/d43d04fba8bdb5243b67b2434dea02f1.jpg",
-      "imageCredit": "鉅亨網 Anue",
+      "summary": "美國貿易代表署日前宣布「產能過剩」301調查結果並公布擬議措施,提出對包括中國在內的14個經濟體加徵301關稅。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5603/9904001",
+      "publishedAt": "2026-11-26T19:59:23+08:00",
+      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/26/35556979.png&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
+      "imageCredit": "經濟日報",
       "score": 92,
       "scoreBreakdown": {
         "resonance": 35,
@@ -4041,7 +4016,7 @@
         "data": 12,
         "durability": 10
       },
-      "mediaCount": 5,
+      "mediaCount": 3,
       "impactCategories": [
         "利率與法規政策",
         "供應鏈與整併",
@@ -4050,37 +4025,44 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "法新社報導,在美國最高法院裁定推翻總統川普先前實施的關稅措施後,當局隨即於數天後啟動調查,並祭出這波最高達20%的新關稅。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "」● 中國中國也是面臨20%關稅的國家之一,但美國貿易代表葛里爾(Jamieson Greer)表示,這波新關稅仍在美中現有貿易談判的範圍內。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "中國商務部表示,美方301調查是典型單邊主義行徑。",
+          "text": "大陸商務部對此表示堅決反對,並敦促美國糾正錯誤做法,通過對話協商解決問題。",
           "metric": "",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "美國貿易代表署日前宣布「產能過剩」301調查結果並公布擬議措施,提出對包括中國在內的14個經濟體加徵301關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "經濟日報",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
+          "headline": "美擬加徵關稅 中國商務部反對並促協商解決",
           "angle": "利率匯率與總經政策",
-          "focus": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅………",
-          "excerpt": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅………",
-          "url": "https://money.udn.com/money/story/5599/9903687",
+          "focus": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "excerpt": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "url": "https://money.udn.com/money/story/5603/9904033",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "以產能過剩為由 美擬加徵中、歐盟等經濟體新關稅",
+          "angle": "利率匯率與總經政策",
+          "focus": "根據英國航運相關網站引述,美國政府宣布,擬對中國大陸、歐盟及十多個經濟體進口商品加徵新一波關稅,作為美國總統川普重建全面性全球進口關稅政策一環。",
+          "excerpt": "根據英國航運相關網站引述,美國政府宣布,擬對中國大陸、歐盟及十多個經濟體進口商品加徵新一波關稅,作為美國總統川普重建全面性全球進口關稅政策一環。",
+          "url": "https://tw.news.yahoo.com/%E4%BB%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E7%82%BA%E7%94%B1-%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E4%B8%AD-%E6%AD%90%E7%9B%9F%E7%AD%89%E7%B6%93%E6%BF%9F%E9%AB%94%E6%96%B0%E9%97%9C%E7%A8%85-115923853.html",
           "lang": "zh"
         },
         {
@@ -4090,52 +4072,50 @@
           "focus": "美國貿易代表署公布製造業「結構性產能過剩」301 條款調查結果,提出對台灣、中國等 14 個經濟體加徵關稅的方案。",
           "excerpt": "美國貿易代表署公布製造業「結構性產能過剩」301 條款調查結果,提出對台灣、中國等 14 個經濟體加徵關稅的方案。",
           "url": "https://news.cnyes.com/news/id/6672859",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
-          "angle": "利率匯率與總經政策",
-          "focus": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅,這可能使美國與盟友及競爭對手之間的貿易緊張關係進入新階段。",
-          "excerpt": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅,這可能使美國與盟友及競爭對手之間的貿易緊張關係進入新階段。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D14%E7%B6%93%E6%BF%9F%E9%AB%94%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E4%B8%BB%E8%A6%81%E8%B2%BF%E6%98%93%E5%A4%A5%E4%BC%B4%E7%B4%9B%E8%A1%A8%E4%B8%8D%E6%BB%BF-065616448.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "法新社報導,在美國最高法院裁定推翻總統川普先前實施的關稅措施後,當局隨即於數天後啟動調查,並祭出這波最高達20%的新關稅。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "」● 中國中國也是面臨20%關稅的國家之一,但美國貿易代表葛里爾(Jamieson Greer)表示,這波新關稅仍在美中現有貿易談判的範圍內。",
-          "metric": "20%",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "中國商務部表示,美方301調查是典型單邊主義行徑。",
+          "text": "大陸商務部對此表示堅決反對,並敦促美國糾正錯誤做法,通過對話協商解決問題。",
           "metric": "",
           "confirmed_by": [
-            "鉅亨網 Anue"
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
+          ]
+        },
+        {
+          "text": "美國貿易代表署日前宣布「產能過剩」301調查結果並公布擬議措施,提出對包括中國在內的14個經濟體加徵301關稅。",
+          "metric": "",
+          "confirmed_by": [
+            "經濟日報"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "經濟日報",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
+          "headline": "美擬加徵關稅 中國商務部反對並促協商解決",
           "angle": "利率匯率與總經政策",
-          "focus": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅………",
-          "excerpt": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅………",
-          "url": "https://money.udn.com/money/story/5599/9903687",
+          "focus": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "excerpt": "美國公佈針對結構性產能過剩的301調查報告,擬對中國等14個主要貿易伙伴加徵關稅。",
+          "url": "https://money.udn.com/money/story/5603/9904033",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "以產能過剩為由 美擬加徵中、歐盟等經濟體新關稅",
+          "angle": "利率匯率與總經政策",
+          "focus": "根據英國航運相關網站引述,美國政府宣布,擬對中國大陸、歐盟及十多個經濟體進口商品加徵新一波關稅,作為美國總統川普重建全面性全球進口關稅政策一環。",
+          "excerpt": "根據英國航運相關網站引述,美國政府宣布,擬對中國大陸、歐盟及十多個經濟體進口商品加徵新一波關稅,作為美國總統川普重建全面性全球進口關稅政策一環。",
+          "url": "https://tw.news.yahoo.com/%E4%BB%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E7%82%BA%E7%94%B1-%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E4%B8%AD-%E6%AD%90%E7%9B%9F%E7%AD%89%E7%B6%93%E6%BF%9F%E9%AB%94%E6%96%B0%E9%97%9C%E7%A8%85-115923853.html",
           "lang": "zh"
         },
         {
@@ -4145,15 +4125,6 @@
           "focus": "美國貿易代表署公布製造業「結構性產能過剩」301 條款調查結果,提出對台灣、中國等 14 個經濟體加徵關稅的方案。",
           "excerpt": "美國貿易代表署公布製造業「結構性產能過剩」301 條款調查結果,提出對台灣、中國等 14 個經濟體加徵關稅的方案。",
           "url": "https://news.cnyes.com/news/id/6672859",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
-          "angle": "利率匯率與總經政策",
-          "focus": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅,這可能使美國與盟友及競爭對手之間的貿易緊張關係進入新階段。",
-          "excerpt": "在華府結束為期數月、針對所謂產能過剩的調查後,從中國到歐盟等主要經濟體紛紛抨擊美國擬議加徵的新關稅,這可能使美國與盟友及競爭對手之間的貿易緊張關係進入新階段。",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D14%E7%B6%93%E6%BF%9F%E9%AB%94%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E4%B8%BB%E8%A6%81%E8%B2%BF%E6%98%93%E5%A4%A5%E4%BC%B4%E7%B4%9B%E8%A1%A8%E4%B8%8D%E6%BB%BF-065616448.html",
           "lang": "zh"
         }
       ],
@@ -4161,8 +4132,32 @@
       "sources": [
         {
           "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5599/9903687",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
+          "url": "https://money.udn.com/money/story/5603/9904033",
+          "headline": "美擬加徵關稅 中國商務部反對並促協商解決",
+          "lang": "zh"
+        },
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5603/9904001",
+          "headline": "美擬加徵301關稅 中國商務部:嚴重破壞國際經濟秩序",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E4%BB%A5%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E7%82%BA%E7%94%B1-%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5%E4%B8%AD-%E6%AD%90%E7%9B%9F%E7%AD%89%E7%B6%93%E6%BF%9F%E9%AB%94%E6%96%B0%E9%97%9C%E7%A8%85-115923853.html",
+          "headline": "以產能過剩為由 美擬加徵中、歐盟等經濟體新關稅",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5301%E9%97%9C%E7%A8%85-%E4%B8%AD%E5%9C%8B%E5%95%86%E5%8B%99%E9%83%A8-%E5%9A%B4%E9%87%8D%E7%A0%B4%E5%A3%9E%E5%9C%8B%E9%9A%9B%E7%B6%93%E6%BF%9F%E7%A7%A9%E5%BA%8F-091126160.html",
+          "headline": "美擬加徵301關稅 中國商務部:嚴重破壞國際經濟秩序",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%93%AC%E5%8A%A0%E5%BE%B5301%E9%97%9C%E7%A8%85-%E4%B8%AD%E5%9C%8B%E5%95%86%E5%8B%99%E9%83%A8-%E5%9A%B4%E9%87%8D%E7%A0%B4%E5%A3%9E%E5%9C%8B%E9%9A%9B%E7%B6%93%E6%BF%9F%E7%A7%A9%E5%BA%8F-084858636.html",
+          "headline": "美擬加徵301關稅 中國商務部:嚴重破壞國際經濟秩序",
           "lang": "zh"
         },
         {
@@ -4170,45 +4165,21 @@
           "url": "https://news.cnyes.com/news/id/6672859",
           "headline": "美國擬對中國等經濟體加徵301關稅 中國商務部、外交部回應!",
           "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E6%93%AC%E5%B0%8D14%E7%B6%93%E6%BF%9F%E9%AB%94%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E4%B8%BB%E8%A6%81%E8%B2%BF%E6%98%93%E5%A4%A5%E4%BC%B4%E7%B4%9B%E8%A1%A8%E4%B8%8D%E6%BB%BF-065616448.html",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E6%93%AC%E5%B0%8D14%E7%B6%93%E6%BF%9F%E9%AB%94%E5%8A%A0%E5%BE%B5%E6%96%B0%E9%97%9C%E7%A8%85-%E4%B8%BB%E8%A6%81%E8%B2%BF%E6%98%93%E5%A4%A5%E4%BC%B4%E7%B4%9B%E8%A1%A8%E4%B8%8D%E6%BB%BF-064022821.html",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
-          "lang": "zh"
-        },
-        {
-          "media": "中央社 CNA",
-          "url": "https://www.cna.com.tw/news/aopl/202611260153.aspx",
-          "headline": "美擬對14經濟體加徵新關稅 主要貿易夥伴紛表不滿",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/26/us-plans-new-tariffs-14-economies-major-trade-partners-discontent/",
-          "headline": "美擬對 14 經濟體加徵新關稅,主要貿易夥伴紛表不滿",
-          "lang": "zh"
         }
       ],
       "rank": 4
     },
     {
-      "id": "sb9f19237",
+      "id": "s16e71fe5",
       "section": "business_tech",
-      "title": "美301關稅15%不疊加 龔明鑫:企業鬆口氣",
+      "title": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5654172",
-      "publishedAt": "2026-11-26T14:11:47+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/304b7e6dc438d86a64b4a90b747516097e2d516825c354cf00fc044d31ecb4db/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Ftaisounds_com_380%2F6e636469c58cdd27b600cc95950af860.jpg_up.jpg",
+      "summary": "中國股市A股三大指數26日收盤漲跌互見。 美國貿易代表署25日公布製造業「結構性產能過剩」301 條款調查結果,提出對台灣、中國、印度、歐盟等 14 個經濟體加徵關稅的方案。 中國商務部表示,美方301調查是典型單邊主義行徑,嚴重破壞國際經濟秩序,嚴重違反世貿組織規則,中方對此堅決反對。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E9%99%B8%E8%82%A1%E7%9B%A4%E5%BE%8C-%E7%BE%8E%E6%93%AC%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-083002299.html",
+      "publishedAt": "2026-11-26T16:30:02+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/d674860188d4e4b04dbeea4b22ebeec73e9b0ab72512da9b1bdaf2d3dc63e37c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fcnyes.com.tw%2F0de7ade9e311a1ddf740b1a3c774f145.jpg",
       "imageCredit": "工商時報 / Yahoo 財經",
       "score": 92,
       "scoreBreakdown": {
@@ -4225,90 +4196,88 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "針對美國貿易代表署(Ustr)日前公布「結構性產能過剩」301調查結果,台灣建議關稅稅率將從現行的10%調升至「15%不疊加」。",
-          "metric": "10%",
+          "text": "日美協議框架含東京5500億美元對美投資;日本已公布3輪投資案、總額1300億美元,換取關稅天花板15%。",
+          "metric": "1300億美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "經濟部長龔明鑫直言企業界對此結果「非常興奮」,台灣產業與主要競爭國站在平等立足點,優勢依然存在;消息一出更激勵台股展開跌深反彈,加權指數盤中大漲逾1,200點,一舉收復39,000點大關。",
-          "metric": "39000點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
+          "text": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
           "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "自由財經"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "USTR對巴西成品飛機加徵10%從價稅、原糖另設新稅率;巴西批美方單方面決定,稱不向威脅低頭。",
+          "metric": "10%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "301關稅台灣鬆口氣 台股上揚956點站上39K 台積電收黑",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國感恩節假期前夕前,宣布對貿易夥伴301產能過剩調查報告,台灣獲最優惠稅率「15%不疊加MFN」,關稅不利影響鈍化;加上美股感恩節假期受美股影響相對減弱,台股今(26)日開高走高,早盤就一度大漲1200點,盤中漲勢雖稍歇,但午後再次拉抬…",
-          "excerpt": "美國感恩節假期前夕前,宣布對貿易夥伴301產能過剩調查報告,台灣獲最優惠稅率「15%不疊加MFN」,關稅不利影響鈍化;加上美股感恩節假期受美股影響相對減弱,台股今(26)日開高走高,早盤就一度大漲1200點,盤中漲勢雖稍歇,但午後再次拉抬…",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E5%8F%B0%E7%81%A3%E9%AC%86%E5%8F%A3%E6%B0%A3-%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%8F%9A956%E9%BB%9E%E7%AB%99%E4%B8%8A39k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E9%BB%91-053933362.html",
+          "headline": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "中國股市A股三大指數26日收盤漲跌互見。",
+          "excerpt": "中國股市A股三大指數26日收盤漲跌互見。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%99%B8%E8%82%A1%E7%9B%A4%E5%BE%8C-%E7%BE%8E%E6%93%AC%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-083002299.html",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "headline": "美301關稅15%不疊加 龔明鑫:企業鬆口氣",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
-          "excerpt": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654172",
+          "media": "鉅亨網 Anue",
+          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
+          "angle": "利率匯率與總經政策",
+          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
+          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
+          "url": "https://news.cnyes.com/news/id/6672124",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "針對美國貿易代表署(Ustr)日前公布「結構性產能過剩」301調查結果,台灣建議關稅稅率將從現行的10%調升至「15%不疊加」。",
-          "metric": "10%",
+          "text": "日美協議框架含東京5500億美元對美投資;日本已公布3輪投資案、總額1300億美元,換取關稅天花板15%。",
+          "metric": "1300億美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "鉅亨網 Anue"
           ]
         },
         {
-          "text": "經濟部長龔明鑫直言企業界對此結果「非常興奮」,台灣產業與主要競爭國站在平等立足點,優勢依然存在;消息一出更激勵台股展開跌深反彈,加權指數盤中大漲逾1,200點,一舉收復39,000點大關。",
-          "metric": "39000點",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
+          "text": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
           "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "自由財經"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "USTR對巴西成品飛機加徵10%從價稅、原糖另設新稅率;巴西批美方單方面決定,稱不向威脅低頭。",
+          "metric": "10%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "301關稅台灣鬆口氣 台股上揚956點站上39K 台積電收黑",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國感恩節假期前夕前,宣布對貿易夥伴301產能過剩調查報告,台灣獲最優惠稅率「15%不疊加MFN」,關稅不利影響鈍化;加上美股感恩節假期受美股影響相對減弱,台股今(26)日開高走高,早盤就一度大漲1200點,盤中漲勢雖稍歇,但午後再次拉抬…",
-          "excerpt": "美國感恩節假期前夕前,宣布對貿易夥伴301產能過剩調查報告,台灣獲最優惠稅率「15%不疊加MFN」,關稅不利影響鈍化;加上美股感恩節假期受美股影響相對減弱,台股今(26)日開高走高,早盤就一度大漲1200點,盤中漲勢雖稍歇,但午後再次拉抬…",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E5%8F%B0%E7%81%A3%E9%AC%86%E5%8F%A3%E6%B0%A3-%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%8F%9A956%E9%BB%9E%E7%AB%99%E4%B8%8A39k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E9%BB%91-053933362.html",
+          "headline": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "中國股市A股三大指數26日收盤漲跌互見。",
+          "excerpt": "中國股市A股三大指數26日收盤漲跌互見。",
+          "url": "https://tw.stock.yahoo.com/news/%E9%99%B8%E8%82%A1%E7%9B%A4%E5%BE%8C-%E7%BE%8E%E6%93%AC%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-083002299.html",
           "lang": "zh"
         },
         {
-          "media": "自由財經",
-          "headline": "美301關稅15%不疊加 龔明鑫:企業鬆口氣",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
-          "excerpt": "美國公布產能過剩301調查建議稅率,台灣取得最高15%不疊加最惠國待遇(MFN)。",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654172",
+          "media": "鉅亨網 Anue",
+          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
+          "angle": "利率匯率與總經政策",
+          "focus": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
+          "excerpt": "USTR擬對日本進口商品課15%關稅、上調空間至20%;日本否認「產能過剩」指控,稱美方遺憾。",
+          "url": "https://news.cnyes.com/news/id/6672124",
           "lang": "zh"
         }
       ],
@@ -4316,137 +4285,18 @@
       "sources": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E5%8F%B0%E7%81%A3%E9%AC%86%E5%8F%A3%E6%B0%A3-%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%8F%9A956%E9%BB%9E%E7%AB%99%E4%B8%8A39k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E9%BB%91-053933362.html",
-          "headline": "301關稅台灣鬆口氣 台股上揚956點站上39K 台積電收黑",
+          "url": "https://tw.stock.yahoo.com/news/%E9%99%B8%E8%82%A1%E7%9B%A4%E5%BE%8C-%E7%BE%8E%E6%93%AC%E5%B0%8D14%E5%9C%8B%E8%AA%B2%E7%94%A2%E8%83%BD%E9%81%8E%E5%89%A9%E9%97%9C%E7%A8%85-%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B8%E6%BC%B2%E8%B7%8C%E4%BA%92%E8%A6%8B-083002299.html",
+          "headline": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E9%97%9C%E7%A8%8515-%E4%B8%8D%E7%96%8A%E5%8A%A0-%E9%BE%94%E6%98%8E%E9%91%AB-%E4%BC%81%E6%A5%AD%E9%AC%86%E5%8F%A3%E6%B0%A3-053036243.html",
-          "headline": "美301關稅15%不疊加 龔明鑫:企業鬆口氣",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E9%97%9C%E7%A8%85%E5%AE%9A%E8%AA%BF15-%E4%B8%8D%E7%96%8A%E5%8A%A0-%E5%8F%B0%E8%82%A1%E6%9A%B4%E5%8A%9B%E5%8F%8D%E5%BD%88%E5%8D%83%E9%BB%9E%E5%A4%AA%E6%97%A9%E4%BA%86-%E5%A0%B1%E5%91%8A%E5%81%B7%E5%A1%9E-25-050621111.html",
-          "headline": "美關稅定調15%不疊加?台股暴力反彈千點太早了!報告偷塞「25%未爆彈」台灣還卡這3關沒過",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/breakingnews/5654172",
-          "headline": "美301關稅15%不疊加 龔明鑫:企業鬆口氣",
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6672124",
+          "headline": "川普啟動產能過剩關稅:日本抗議、巴西反嗆「不合法、將對等回擊」",
           "lang": "zh"
         }
       ],
       "rank": 5
-    },
-    {
-      "id": "s1409253b",
-      "section": "business_tech",
-      "title": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "<p>隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。在行情戲劇性反轉之際,大象也會跳舞,規模前十大ETF中有六檔股價漲幅跑贏大盤,其中,主動統一台股增長(00981A-TW)強彈近18%,展現超強彈跳力。</p> <p>統計本周以來,台股加權指數累計反彈8.7%,觀察目前市場規模前十大台股ETF的股價表現,上演「主動式全面反攻、科技市值型緊追、高股息溫和跟漲」的鮮明格局。主動統一台股增長(00981A-TW)以17.81%拔得頭籌,漲幅更是大盤的兩倍;主動中信台灣收益(00406A-TW)漲逾14%居第二名。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6672858",
-      "publishedAt": "2026-11-26T15:30:06+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6672858/xl/971cdb32d42319b91f5faa3130ddf536.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 92,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "metric": "39000點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "主動統一台股增長(00981A-TW)以17.81%拔得頭籌,漲幅更是大盤的兩倍;主動中信台灣收益(00406A-TW)漲逾14%居第二名。",
-          "metric": "17.81%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "富邦科技(0052-TW)本周上漲10.43%,同樣繳出雙位數漲幅。",
-          "metric": "10.43%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
-          "angle": "市場定價與外資籌碼",
-          "focus": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "excerpt": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "url": "https://news.cnyes.com/news/id/6672858",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "metric": "39000點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "主動統一台股增長(00981A-TW)以17.81%拔得頭籌,漲幅更是大盤的兩倍;主動中信台灣收益(00406A-TW)漲逾14%居第二名。",
-          "metric": "17.81%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "富邦科技(0052-TW)本周上漲10.43%,同樣繳出雙位數漲幅。",
-          "metric": "10.43%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
-          "angle": "市場定價與外資籌碼",
-          "focus": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "excerpt": "隨著權值股回神與美國301調查台灣稅率維持15%不疊加的消息激勵,台股今(26-TW)日展開跌深反彈,指數重新站回39000點大關。",
-          "url": "https://news.cnyes.com/news/id/6672858",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6672858",
-          "headline": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
     },
     {
       "id": "sd47cd24a",
@@ -4552,28 +4402,28 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
-      "id": "s15e00745",
+      "id": "s3033b1bf",
       "section": "business_tech",
-      "title": "美光勞資協商陷僵局 謝金河憂1.6兆元加碼投資生變、最壞恐關桃園廠",
+      "title": "主動統一台股增長ETF爆1.03億元違約交割",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "<p>美光桃園廠勞資爭議升溫!謝金河示警:1.6兆元投資恐生變</p> <p>美光(Micron)台灣勞資爭議持續升溫,恐牽動後續在台投資布局。財信傳媒集團董事長謝金河今(26)日在臉書發文指出,美光高層近日拜訪時透露,美國總公司董事會可能針對台灣勞資爭議做出重大決策,包括暫停後續高達1.6兆元的投資,甚至不排除關閉桃園廠、資遣約3000名員工。他示警,若相關情況成真,不僅桃園將蒙受損失,對台灣半導體產業及整體投資環境也將帶來衝擊。</p> <p>謝金河表示,美光是台灣重要的外商投資企業,2015年趁記憶體產業低潮收購華亞科,建立桃園廠,後續又在台中后里設立生產基地,近年持續擴大南科布局,並收購力積電位於苗栗銅鑼科學園區的廠房。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6672056",
-      "publishedAt": "2026-11-26T11:43:32+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6672056/xl/ac9b13cbf7b1219a6c276e9123a8e664.jpg",
-      "imageCredit": "鉅亨網 Anue",
+      "summary": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。此為今年第2檔上市ETF出現鉅額違約交割,在此之前,元大台灣50反1(00632R)24日也發生鉅額違約交割。根據台股「T+2」交割制度,證交所今天公告違約交割,為本週二的交易違約。當天台股大漲3310.46點,創史上最大收盤漲點紀錄。00981A一開盤就跳空漲停。此為今年上市公司第26起鉅額違約交割案。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E4%B8%BB%E5%8B%95%E7%B5%B1-%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7etf%E7%88%861-03%E5%84%84%E5%85%83%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-114838794.html",
+      "publishedAt": "2026-11-26T19:48:38+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/images/pic_fb.jpg",
+      "imageCredit": "中央社 CNA",
       "score": 91,
       "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
+        "resonance": 35,
+        "impact": 30,
         "data": 20,
-        "durability": 10
+        "durability": 6
       },
-      "mediaCount": 1,
+      "mediaCount": 3,
       "impactCategories": [
         "財報與資本配置",
         "供應鏈與整併"
@@ -4581,22 +4431,177 @@
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "謝金河指出,這項比例高於三星的10.5%、SK海力士的10%,也高於台積電以稅後純益4.7%作為員工酬勞的比例。",
-          "metric": "10.5%",
+          "text": "近兩日反向型 Etf「元大台灣50反1( 00632R-TW )」才爆出違約交割高達 3,946萬9,000元,這次則是擁有百萬受益人的00981A 爆出鉅額違約,且金額破億元、達 1 億 380 萬 9,227 萬元,引發市場高度關注。",
+          "metric": "3946萬",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "桃園廠產能約占美光整體產能15%至20%,若關閉,部分產能可由銅鑼新廠補上。",
-          "metric": "15%",
+          "text": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "metric": "380萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "中央社 CNA",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "證交所公告,主動統一台股增長(00981A)今天遭華南中正、國泰敦南兩家券商申報違約交割,金額合計達1億380萬元,再度引發市場關注。",
+          "metric": "380萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "中央社 CNA",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "angle": "產業動態與市場焦點",
+          "focus": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "excerpt": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "url": "https://tw.stock.yahoo.com/news/%E4%B8%BB%E5%8B%95%E7%B5%B1-%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7etf%E7%88%861-03%E5%84%84%E5%85%83%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-114838794.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "angle": "產業動態與市場焦點",
+          "focus": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "excerpt": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "url": "https://www.cna.com.tw/news/afe/202611260276.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "狂歡變調!00981A驚爆1.03億元鉅額違約交割 創主動式ETF首例",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達創辦人黃仁勳回鍋執行長的重大利多激勵下,台股於11月24日上演強勁慶祝行情,超過50檔ETF罕見同步亮燈漲停。",
+          "excerpt": "在輝達創辦人黃仁勳回鍋執行長的重大利多激勵下,台股於11月24日上演強勁慶祝行情,超過50檔ETF罕見同步亮燈漲停。",
+          "url": "https://news.cnyes.com/news/id/6673126",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
+      "coreFacts": [
+        {
+          "text": "近兩日反向型 Etf「元大台灣50反1( 00632R-TW )」才爆出違約交割高達 3,946萬9,000元,這次則是擁有百萬受益人的00981A 爆出鉅額違約,且金額破億元、達 1 億 380 萬 9,227 萬元,引發市場高度關注。",
+          "metric": "3946萬",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
         },
         {
-          "text": "其中,員工要求將營業利益的15%作為分潤,是本次協商的重要爭議之一。",
-          "metric": "15%",
+          "text": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "metric": "380萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "中央社 CNA",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "證交所公告,主動統一台股增長(00981A)今天遭華南中正、國泰敦南兩家券商申報違約交割,金額合計達1億380萬元,再度引發市場關注。",
+          "metric": "380萬",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "中央社 CNA",
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "angle": "產業動態與市場焦點",
+          "focus": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "excerpt": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "url": "https://tw.stock.yahoo.com/news/%E4%B8%BB%E5%8B%95%E7%B5%B1-%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7etf%E7%88%861-03%E5%84%84%E5%85%83%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-114838794.html",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "angle": "產業動態與市場焦點",
+          "focus": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "excerpt": "台灣證券交易所今天公告,華南中正、國泰敦南2家證券商通報,熱門主動式ETF主動統一台股增長(00981A)出現鉅額違約交割,金額新台幣約1億380萬元。",
+          "url": "https://www.cna.com.tw/news/afe/202611260276.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "狂歡變調!00981A驚爆1.03億元鉅額違約交割 創主動式ETF首例",
+          "angle": "市場定價與外資籌碼",
+          "focus": "在輝達創辦人黃仁勳回鍋執行長的重大利多激勵下,台股於11月24日上演強勁慶祝行情,超過50檔ETF罕見同步亮燈漲停。",
+          "excerpt": "在輝達創辦人黃仁勳回鍋執行長的重大利多激勵下,台股於11月24日上演強勁慶祝行情,超過50檔ETF罕見同步亮燈漲停。",
+          "url": "https://news.cnyes.com/news/id/6673126",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "工商時報 / Yahoo 財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E4%B8%BB%E5%8B%95%E7%B5%B1-%E5%8F%B0%E8%82%A1%E5%A2%9E%E9%95%B7etf%E7%88%861-03%E5%84%84%E5%85%83%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-114838794.html",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611260276.aspx",
+          "headline": "主動統一台股增長ETF爆1.03億元違約交割",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673126",
+          "headline": "狂歡變調!00981A驚爆1.03億元鉅額違約交割 創主動式ETF首例",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%B7%A8%E9%9C%87%E6%B3%A2%E5%8F%8A-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D-00981a%E7%88%86%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2-%E8%8F%AF%E5%8D%97-%E5%9C%8B%E6%B3%B0%E5%85%A9%E5%88%B8%E5%95%86%E7%94%B3%E5%A0%B1%E9%80%BE1%E5%84%84%E5%85%83-111956968.html",
+          "headline": "台股巨震波及「瑤池金母」 00981A爆違約交割!華南、國泰兩券商申報逾1億元",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "id": "s05642171",
+      "section": "business_tech",
+      "title": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673139",
+      "publishedAt": "2026-11-26T19:45:12+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6673139/l/e9381402c33190978f7bec67ef24a99d.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "metric": "",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
@@ -4605,33 +4610,28 @@
       "media_perspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "美光勞資協商陷僵局 謝金河憂1.6兆元加碼投資生變、最壞恐關桃園廠",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
+          "angle": "資本預算與財報配置",
+          "focus": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "excerpt": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "url": "https://news.cnyes.com/news/id/6673139",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "美光桃園廠勞資爭議升溫!",
-          "excerpt": "美光桃園廠勞資爭議升溫!",
-          "url": "https://news.cnyes.com/news/id/6672056",
+          "focus": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "excerpt": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%A3%95%E6%B3%95%E8%AA%AA-%E9%AB%98%E8%B3%AA%E5%8C%96-%E9%AB%98%E6%AF%9B%E5%88%A9%E7%94%A2%E5%93%81%E6%8E%A8%E5%8D%87%E6%A5%AD%E7%B8%BE%E5%B9%B4%E5%A2%9E2778-%E5%8A%9B%E6%8B%BC%E6%98%8E%E5%B9%B4%E6%8C%81%E7%BA%8C%E7%8D%B2%E5%88%A9%E5%A2%9E%E9%95%B7-114512697.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "謝金河指出,這項比例高於三星的10.5%、SK海力士的10%,也高於台積電以稅後純益4.7%作為員工酬勞的比例。",
-          "metric": "10.5%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "桃園廠產能約占美光整體產能15%至20%,若關閉,部分產能可由銅鑼新廠補上。",
-          "metric": "15%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "其中,員工要求將營業利益的15%作為分潤,是本次協商的重要爭議之一。",
-          "metric": "15%",
+          "text": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "metric": "",
           "confirmed_by": [
             "鉅亨網 Anue"
           ]
@@ -4640,11 +4640,20 @@
       "mediaPerspectives": [
         {
           "media": "鉅亨網 Anue",
-          "headline": "美光勞資協商陷僵局 謝金河憂1.6兆元加碼投資生變、最壞恐關桃園廠",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
+          "angle": "資本預算與財報配置",
+          "focus": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "excerpt": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "url": "https://news.cnyes.com/news/id/6673139",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
           "angle": "供應鏈產能與建廠動向",
-          "focus": "美光桃園廠勞資爭議升溫!",
-          "excerpt": "美光桃園廠勞資爭議升溫!",
-          "url": "https://news.cnyes.com/news/id/6672056",
+          "focus": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "excerpt": "永裕前3季稅後純益1.52億元、年增2778%,每股純益 1.67元;合併營收16.73億元,毛利率20.69% 高值化、高環保、高毛利訂單比重拉升,ESG環保材質出貨占30%以上,帶動營收與獲利 受惠高階化妝品、永續包裝認證及醫療包裝供貨;明年第1季受春節工作天數減少影響偏低",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%A3%95%E6%B3%95%E8%AA%AA-%E9%AB%98%E8%B3%AA%E5%8C%96-%E9%AB%98%E6%AF%9B%E5%88%A9%E7%94%A2%E5%93%81%E6%8E%A8%E5%8D%87%E6%A5%AD%E7%B8%BE%E5%B9%B4%E5%A2%9E2778-%E5%8A%9B%E6%8B%BC%E6%98%8E%E5%B9%B4%E6%8C%81%E7%BA%8C%E7%8D%B2%E5%88%A9%E5%A2%9E%E9%95%B7-114512697.html",
           "lang": "zh"
         }
       ],
@@ -4652,59 +4661,57 @@
       "sources": [
         {
           "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6672056",
-          "headline": "美光勞資協商陷僵局 謝金河憂1.6兆元加碼投資生變、最壞恐關桃園廠",
+          "url": "https://news.cnyes.com/news/id/6673139",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%A3%95%E6%B3%95%E8%AA%AA-%E9%AB%98%E8%B3%AA%E5%8C%96-%E9%AB%98%E6%AF%9B%E5%88%A9%E7%94%A2%E5%93%81%E6%8E%A8%E5%8D%87%E6%A5%AD%E7%B8%BE%E5%B9%B4%E5%A2%9E2778-%E5%8A%9B%E6%8B%BC%E6%98%8E%E5%B9%B4%E6%8C%81%E7%BA%8C%E7%8D%B2%E5%88%A9%E5%A2%9E%E9%95%B7-114512697.html",
+          "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778% 力拼明年持續獲利增長",
           "lang": "zh"
         }
       ],
       "rank": 8
     },
     {
-      "id": "sd34abaf5",
-      "section": "business_tech",
-      "title": "小鵬人形機器人明年Q2開賣,售價估與電動車相當",
+      "id": "sa7858318",
+      "section": "deep",
+      "title": "美301產能調查出爐 對台關稅適用15%不疊加",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "外電報導指出,小鵬集團的人形機器人將於明年第二季度向公眾發售,售價將與一輛電動汽車相當。小鵬副董事長顧宏地週四接受電視媒體採訪時表示,這款IRON機器人將在第一季度接受作為零售助理的相關訓練,然後再向市場投放。顧宏地表示,其售價可能接近電動汽車的中位售價,但未予詳述。小鵬車型的零售價格約在11.98萬元至30.98萬元人民幣之間。小鵬的目標是2027年售出數萬台人形機器人。顧宏地聲稱,2027年將是該業務擴張和商業化的關鍵一年。除銷售硬體外,小鵬還看到從軟體升級、訓練以及支持機器人運行的數據基礎設施方面獲取持續收入的機會。隨著中國電動汽車銷售停滯,出口前景又受到海外市場保護主義政策的阻力,小鵬正寄望於機器人業務推動成長。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/%E5%B0%8F%E9%B5%AC%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%98%8E%E5%B9%B4q2%E9%96%8B%E8%B3%A3-%E5%94%AE%E5%83%B9%E4%BC%B0%E8%88%87%E9%9B%BB%E5%8B%95%E8%BB%8A%E7%9B%B8%E7%95%B6-074733187.html",
-      "publishedAt": "2026-11-26T15:47:33+08:00",
-      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 90,
+      "summary": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。行政院副院長鄭麗君表示,最終稅率估計要到明(2027)年初才會確認,不過政府有信心能鞏固既有談判成果,享有2232項產品豁免,確保產業競爭優勢。",
+      "source": "公視新聞網",
+      "url": "https://news.pts.org.tw/article/837567",
+      "publishedAt": "2026-11-26T20:31:50+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/1c8e552d3f25b404fd7465235dd3a6fccbd5510c6cac381595c3e8d4af51dc73/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fnews_pts_org_tw_599%2Fe2e04cf0d50486084bc9ea1f18605a0c_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 91,
       "scoreBreakdown": {
-        "resonance": 30,
+        "resonance": 32,
         "impact": 34,
-        "data": 20,
-        "durability": 6
+        "data": 15,
+        "durability": 10
       },
       "mediaCount": 2,
       "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
+        "利率與法規政策",
+        "供應鏈與整併"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "小鵬車型的零售價格約在11.98萬元至30.98萬元人民幣之間。",
-          "metric": "11.98萬",
+          "text": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "公視新聞網"
           ]
         },
         {
-          "text": "小鵬的目標是2027年售出數萬台人形機器人。",
-          "metric": "2027年",
+          "text": "行政院副院長鄭麗君表示,最終稅率估計要到明(2027)年初才會確認,不過政府有信心能鞏固既有談判成果,享有2232項產品豁免,確保產業競爭優勢。",
+          "metric": "",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "顧宏地聲稱,2027年將是該業務擴張和商業化的關鍵一年。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "鉅亨網 Anue",
             "工商時報 / Yahoo 財經"
           ]
         }
@@ -4712,45 +4719,37 @@
       "media_perspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "小鵬人形機器人明年Q2開賣,售價估與電動車相當",
-          "angle": "政策法規與公共治理",
-          "focus": "外電報導指出,小鵬集團的人形機器人將於明年第二季度向公眾發售,售價將與一輛電動汽車相當。",
-          "excerpt": "外電報導指出,小鵬集團的人形機器人將於明年第二季度向公眾發售,售價將與一輛電動汽車相當。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B0%8F%E9%B5%AC%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%98%8E%E5%B9%B4q2%E9%96%8B%E8%B3%A3-%E5%94%AE%E5%83%B9%E4%BC%B0%E8%88%87%E9%9B%BB%E5%8B%95%E8%BB%8A%E7%9B%B8%E7%95%B6-074733187.html",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "excerpt": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E7%94%A2%E8%83%BD%E8%AA%BF%E6%9F%A5%E5%87%BA%E7%88%90-%E5%B0%8D%E5%8F%B0%E9%97%9C%E7%A8%85%E9%81%A9%E7%94%A815-%E4%B8%8D%E7%96%8A%E5%8A%A0-121000874.html",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "小鵬人形機器人IRON明年1月拚量產首季先進自家門市",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 小鵬汽車XPENG(9868-HK)在11月25日AI Day發表新一代人形機器人IRON,將硬體量產目標從原先的2026年底調整至2027年1月。",
-          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 小鵬汽車XPENG(9868-HK)在11月25日AI Day發表新一代人形機器人IRON,將硬體量產目標從原先的2026年底調整至2027年1月。",
-          "url": "https://news.cnyes.com/news/id/6672738",
+          "media": "公視新聞網",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "excerpt": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "url": "https://news.pts.org.tw/article/837567",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "小鵬車型的零售價格約在11.98萬元至30.98萬元人民幣之間。",
-          "metric": "11.98萬",
+          "text": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "metric": "15%",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "公視新聞網"
           ]
         },
         {
-          "text": "小鵬的目標是2027年售出數萬台人形機器人。",
-          "metric": "2027年",
+          "text": "行政院副院長鄭麗君表示,最終稅率估計要到明(2027)年初才會確認,不過政府有信心能鞏固既有談判成果,享有2232項產品豁免,確保產業競爭優勢。",
+          "metric": "",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "顧宏地聲稱,2027年將是該業務擴張和商業化的關鍵一年。",
-          "metric": "2027年",
-          "confirmed_by": [
-            "鉅亨網 Anue",
             "工商時報 / Yahoo 財經"
           ]
         }
@@ -4758,20 +4757,20 @@
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "小鵬人形機器人明年Q2開賣,售價估與電動車相當",
-          "angle": "政策法規與公共治理",
-          "focus": "外電報導指出,小鵬集團的人形機器人將於明年第二季度向公眾發售,售價將與一輛電動汽車相當。",
-          "excerpt": "外電報導指出,小鵬集團的人形機器人將於明年第二季度向公眾發售,售價將與一輛電動汽車相當。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B0%8F%E9%B5%AC%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%98%8E%E5%B9%B4q2%E9%96%8B%E8%B3%A3-%E5%94%AE%E5%83%B9%E4%BC%B0%E8%88%87%E9%9B%BB%E5%8B%95%E8%BB%8A%E7%9B%B8%E7%95%B6-074733187.html",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "excerpt": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E7%94%A2%E8%83%BD%E8%AA%BF%E6%9F%A5%E5%87%BA%E7%88%90-%E5%B0%8D%E5%8F%B0%E9%97%9C%E7%A8%85%E9%81%A9%E7%94%A815-%E4%B8%8D%E7%96%8A%E5%8A%A0-121000874.html",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "headline": "小鵬人形機器人IRON明年1月拚量產首季先進自家門市",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 小鵬汽車XPENG(9868-HK)在11月25日AI Day發表新一代人形機器人IRON,將硬體量產目標從原先的2026年底調整至2027年1月。",
-          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 小鵬汽車XPENG(9868-HK)在11月25日AI Day發表新一代人形機器人IRON,將硬體量產目標從原先的2026年底調整至2027年1月。",
-          "url": "https://news.cnyes.com/news/id/6672738",
+          "media": "公視新聞網",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
+          "angle": "利率匯率與總經政策",
+          "focus": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "excerpt": "美國結構性產能過剩301調查結果出爐,針對台灣部分,建議適用15%協議關稅稅率、不疊加,和日本、韓國等國家列為最低級別。",
+          "url": "https://news.pts.org.tw/article/837567",
           "lang": "zh"
         }
       ],
@@ -4779,18 +4778,147 @@
       "sources": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%B0%8F%E9%B5%AC%E4%BA%BA%E5%BD%A2%E6%A9%9F%E5%99%A8%E4%BA%BA%E6%98%8E%E5%B9%B4q2%E9%96%8B%E8%B3%A3-%E5%94%AE%E5%83%B9%E4%BC%B0%E8%88%87%E9%9B%BB%E5%8B%95%E8%BB%8A%E7%9B%B8%E7%95%B6-074733187.html",
-          "headline": "小鵬人形機器人明年Q2開賣,售價估與電動車相當",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E301%E7%94%A2%E8%83%BD%E8%AA%BF%E6%9F%A5%E5%87%BA%E7%88%90-%E5%B0%8D%E5%8F%B0%E9%97%9C%E7%A8%85%E9%81%A9%E7%94%A815-%E4%B8%8D%E7%96%8A%E5%8A%A0-121000874.html",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
           "lang": "zh"
         },
         {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6672738",
-          "headline": "小鵬人形機器人IRON明年1月拚量產首季先進自家門市",
+          "media": "公視新聞網",
+          "url": "https://news.pts.org.tw/article/837567",
+          "headline": "美301產能調查出爐 對台關稅適用15%不疊加",
           "lang": "zh"
         }
       ],
       "rank": 9
+    },
+    {
+      "id": "s914c6521",
+      "section": "business_tech",
+      "title": "美政府也分利!博利財團簽百億美元換股協議 買盧克石油海外資產",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。 標的涵蓋約40國、11國油田日產35萬桶及歐亞煉廠與加油站網,估值約160億美元。 DFC將入股並取得董事席次,凸顯美國政府直接掌握關鍵能源資產的政策。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6672015",
+      "publishedAt": "2026-11-26T10:40:03+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6672015/xl/a75b45a77e2e7684e5f1d9f8d06004fb.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 18,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "標的涵蓋約40國、11國油田日產35萬桶及歐亞煉廠與加油站網,估值約160億美元。",
+          "metric": "160億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "metric": "100億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "DFC將入股並取得董事席次,凸顯美國政府直接掌握關鍵能源資產的政策。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美政府也分利!博利財團簽百億美元換股協議 買盧克石油海外資產",
+          "angle": "資本預算與財報配置",
+          "focus": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "excerpt": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "url": "https://news.cnyes.com/news/id/6672015",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "headline": "道奇隊老闆托德·博利敲定收購俄羅斯盧克石油公司海外資產的交易",
+          "angle": "市場定價與外資籌碼",
+          "focus": "這項出售最初是在川普政府對盧克石油公司資產實施制裁,以在烏克蘭戰爭談判中向莫斯科施壓後引發的。",
+          "excerpt": "這項出售最初是在川普政府對盧克石油公司資產實施制裁,以在烏克蘭戰爭談判中向莫斯科施壓後引發的。",
+          "url": "https://www.wsj.com/business/deals/dodgers-owner-todd-boehly-clinches-deal-for-overseas-assets-of-russias-lukoil-9679356a?mod=pls_whats_news_us_business_f",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "標的涵蓋約40國、11國油田日產35萬桶及歐亞煉廠與加油站網,估值約160億美元。",
+          "metric": "160億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "metric": "100億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "DFC將入股並取得董事席次,凸顯美國政府直接掌握關鍵能源資產的政策。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美政府也分利!博利財團簽百億美元換股協議 買盧克石油海外資產",
+          "angle": "資本預算與財報配置",
+          "focus": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "excerpt": "博利財團將以100億美元盧克石油證券換股,收購其海外能源資產,交易仍待OFAC批准。",
+          "url": "https://news.cnyes.com/news/id/6672015",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "headline": "道奇隊老闆托德·博利敲定收購俄羅斯盧克石油公司海外資產的交易",
+          "angle": "市場定價與外資籌碼",
+          "focus": "這項出售最初是在川普政府對盧克石油公司資產實施制裁,以在烏克蘭戰爭談判中向莫斯科施壓後引發的。",
+          "excerpt": "這項出售最初是在川普政府對盧克石油公司資產實施制裁,以在烏克蘭戰爭談判中向莫斯科施壓後引發的。",
+          "url": "https://www.wsj.com/business/deals/dodgers-owner-todd-boehly-clinches-deal-for-overseas-assets-of-russias-lukoil-9679356a?mod=pls_whats_news_us_business_f",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6672015",
+          "headline": "美政府也分利!博利財團簽百億美元換股協議 買盧克石油海外資產",
+          "lang": "zh"
+        },
+        {
+          "media": "WSJ 華爾街日報",
+          "url": "https://www.wsj.com/business/deals/dodgers-owner-todd-boehly-clinches-deal-for-overseas-assets-of-russias-lukoil-9679356a?mod=pls_whats_news_us_business_f",
+          "headline": "道奇隊老闆托德·博利敲定收購俄羅斯盧克石油公司海外資產的交易",
+          "lang": "zh"
+        }
+      ],
+      "rank": 10
     },
     {
       "id": "sd1189d01",
@@ -4882,84 +5010,6 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
-    },
-    {
-      "id": "s7a398924",
-      "section": "business_tech",
-      "title": "美銀2027年展望:AI投資成美國經濟最大變數 Fed料再升息三次",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6671881",
-      "publishedAt": "2026-11-26T10:00:09+08:00",
-      "imageUrl": "https://cimg.cnyes.cool/prod/news/6671881/xl/3cd85c20fc204439eb6694a8d22be5d6.jpg",
-      "imageCredit": "鉅亨網 Anue",
-      "score": 90,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 8
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "美銀2027年展望:AI投資成美國經濟最大變數 Fed料再升息三次",
-          "angle": "利率匯率與總經政策",
-          "focus": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "excerpt": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "url": "https://news.cnyes.com/news/id/6671881",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "metric": "",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "美銀2027年展望:AI投資成美國經濟最大變數 Fed料再升息三次",
-          "angle": "利率匯率與總經政策",
-          "focus": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "excerpt": "美銀估美國2027、2028年GDP增2.3%、2.1%,但通膨仍高於Fed目標 美銀預期Fed今年12月、明年1月與3月各升息25個基點,終點利率4.50%至4.75% AI資本支出年增約26%,若轉折將衝擊投資、就業與利率路徑",
-          "url": "https://news.cnyes.com/news/id/6671881",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6671881",
-          "headline": "美銀2027年展望:AI投資成美國經濟最大變數 Fed料再升息三次",
-          "lang": "zh"
-        }
-      ],
       "rank": 11
     },
     {
@@ -5042,11 +5092,11 @@
     }
   ],
   "stats": {
-    "clusters": 359,
+    "clusters": 346,
     "passed": 12,
-    "totalQualified": 77,
-    "below_threshold": 282,
-    "articlesAnalysed": 459
+    "totalQualified": 76,
+    "below_threshold": 270,
+    "articlesAnalysed": 448
   },
   "sourcesStatus": [
     {
@@ -5055,7 +5105,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 76,
+      "count": 74,
       "error": null
     },
     {
@@ -5064,7 +5114,7 @@
       "group": "business",
       "section": "頭條要聞",
       "ok": true,
-      "count": 90,
+      "count": 91,
       "error": null
     },
     {
@@ -5072,8 +5122,8 @@
       "name": "鉅亨網專題追蹤",
       "group": "business",
       "section": "主權基金與國家資本",
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 1,
       "error": null
     },
     {
@@ -5082,7 +5132,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 167,
+      "count": 166,
       "error": null
     },
     {
@@ -5100,7 +5150,7 @@
       "group": "business",
       "section": "財經政策與產業",
       "ok": true,
-      "count": 37,
+      "count": 40,
       "error": null
     },
     {
@@ -5109,7 +5159,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 54,
+      "count": 45,
       "error": null
     },
     {
@@ -5118,7 +5168,7 @@
       "group": "business",
       "section": "Finance & Markets",
       "ok": true,
-      "count": 22,
+      "count": 21,
       "error": null
     },
     {
@@ -5127,7 +5177,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 39,
+      "count": 38,
       "error": null
     },
     {
@@ -5153,8 +5203,8 @@
       "name": "報導者",
       "group": "deep",
       "section": "深度調查報導",
-      "ok": false,
-      "count": 0,
+      "ok": true,
+      "count": 2,
       "error": null
     },
     {
@@ -5163,7 +5213,7 @@
       "group": "deep",
       "section": "PNN 議題中心",
       "ok": true,
-      "count": 19,
+      "count": 18,
       "error": null
     }
   ]
