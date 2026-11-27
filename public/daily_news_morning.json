@@ -30,9 +30,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.91,
-        "change": 0.062,
-        "changePct": 1.28,
+        "value": 4.9,
+        "change": 0.052,
+        "changePct": 1.07,
         "asOf": "2026-11-27",
         "history": [
           4.864,
@@ -49,7 +49,7 @@
           4.902,
           4.846,
           4.864,
-          4.91
+          4.9
         ],
         "source": "CNBC Market Data"
       },
@@ -62,12 +62,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 26.8,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-26",
+        "value": 25.44,
+        "change": -1.36,
+        "changePct": -5.07,
+        "asOf": "2026-11-27",
         "history": [
-          25.64,
           19.92,
           19.46,
           17.49,
@@ -81,7 +80,8 @@
           26.62,
           26.36,
           28.29,
-          26.8
+          26.8,
+          25.44
         ],
         "source": "CNBC Market Data"
       },
@@ -94,9 +94,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.729,
-        "change": 0.064,
-        "changePct": 0.06,
+        "value": 103.975,
+        "change": 0.31,
+        "changePct": 0.3,
         "asOf": "2026-11-27",
         "history": [
           102.908,
@@ -113,7 +113,7 @@
           103.814,
           103.665,
           103.665,
-          103.729
+          103.975
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.23,
-        "change": 2.55,
-        "changePct": 3.05,
+        "value": 84.79,
+        "change": 1.11,
+        "changePct": 1.33,
         "asOf": "2026-11-27",
         "history": [
           90.83,
@@ -145,7 +145,7 @@
           80.17,
           82.05,
           83.68,
-          86.23
+          84.79
         ],
         "source": "CNBC Market Data"
       },
@@ -158,9 +158,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3657.9,
-        "change": 122.1,
-        "changePct": 3.45,
+        "value": 3643.8,
+        "change": 108.0,
+        "changePct": 3.05,
         "asOf": "2026-11-27",
         "history": [
           4074.9,
@@ -177,7 +177,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3657.9
+          3643.8
         ],
         "source": "CNBC Market Data"
       },
@@ -205,7 +205,7 @@
         "changePct": 5.13,
         "source": "國家發展委員會",
         "status": "ok",
-        "value": 41,
+        "value": 40,
         "light": "紅燈（連10紅）",
         "asOf": "2026-09"
       }
@@ -220,9 +220,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.91,
-        "change": 0.062,
-        "changePct": 1.28,
+        "value": 4.9,
+        "change": 0.052,
+        "changePct": 1.07,
         "asOf": "2026-11-27",
         "history": [
           4.864,
@@ -239,7 +239,7 @@
           4.902,
           4.846,
           4.864,
-          4.91
+          4.9
         ],
         "source": "CNBC Market Data"
       },
@@ -252,12 +252,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 26.8,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-26",
+        "value": 25.44,
+        "change": -1.36,
+        "changePct": -5.07,
+        "asOf": "2026-11-27",
         "history": [
-          25.64,
           19.92,
           19.46,
           17.49,
@@ -271,7 +270,8 @@
           26.62,
           26.36,
           28.29,
-          26.8
+          26.8,
+          25.44
         ],
         "source": "CNBC Market Data"
       },
@@ -284,9 +284,9 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.729,
-        "change": 0.064,
-        "changePct": 0.06,
+        "value": 103.975,
+        "change": 0.31,
+        "changePct": 0.3,
         "asOf": "2026-11-27",
         "history": [
           102.908,
@@ -303,7 +303,7 @@
           103.814,
           103.665,
           103.665,
-          103.729
+          103.975
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 86.23,
-        "change": 2.55,
-        "changePct": 3.05,
+        "value": 84.79,
+        "change": 1.11,
+        "changePct": 1.33,
         "asOf": "2026-11-27",
         "history": [
           90.83,
@@ -335,7 +335,7 @@
           80.17,
           82.05,
           83.68,
-          86.23
+          84.79
         ],
         "source": "CNBC Market Data"
       },
@@ -348,9 +348,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3657.9,
-        "change": 122.1,
-        "changePct": 3.45,
+        "value": 3643.8,
+        "change": 108.0,
+        "changePct": 3.05,
         "asOf": "2026-11-27",
         "history": [
           4074.9,
@@ -367,7 +367,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3657.9
+          3643.8
         ],
         "source": "CNBC Market Data"
       },
@@ -395,7 +395,7 @@
         "changePct": 5.13,
         "source": "國家發展委員會",
         "status": "ok",
-        "value": 41,
+        "value": 40,
         "light": "紅燈（連10紅）",
         "asOf": "2026-09"
       }
@@ -1720,9 +1720,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 4.91,
-      "change": 0.062,
-      "changePct": 1.28,
+      "value": 4.9,
+      "change": 0.052,
+      "changePct": 1.07,
       "asOf": "2026-11-27",
       "history": [
         4.864,
@@ -1739,7 +1739,7 @@
         4.902,
         4.846,
         4.864,
-        4.91
+        4.9
       ],
       "source": "CNBC Market Data"
     },
@@ -1752,12 +1752,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 26.8,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-26",
+      "value": 25.44,
+      "change": -1.36,
+      "changePct": -5.07,
+      "asOf": "2026-11-27",
       "history": [
-        25.64,
         19.92,
         19.46,
         17.49,
@@ -1771,7 +1770,8 @@
         26.62,
         26.36,
         28.29,
-        26.8
+        26.8,
+        25.44
       ],
       "source": "CNBC Market Data"
     },
@@ -1784,9 +1784,9 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.729,
-      "change": 0.064,
-      "changePct": 0.06,
+      "value": 103.975,
+      "change": 0.31,
+      "changePct": 0.3,
       "asOf": "2026-11-27",
       "history": [
         102.908,
@@ -1803,7 +1803,7 @@
         103.814,
         103.665,
         103.665,
-        103.729
+        103.975
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 86.23,
-      "change": 2.55,
-      "changePct": 3.05,
+      "value": 84.79,
+      "change": 1.11,
+      "changePct": 1.33,
       "asOf": "2026-11-27",
       "history": [
         90.83,
@@ -1835,7 +1835,7 @@
         80.17,
         82.05,
         83.68,
-        86.23
+        84.79
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,9 +1848,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3657.9,
-      "change": 122.1,
-      "changePct": 3.45,
+      "value": 3643.8,
+      "change": 108.0,
+      "changePct": 3.05,
       "asOf": "2026-11-27",
       "history": [
         4074.9,
@@ -1867,7 +1867,7 @@
         3651.4,
         3561.9,
         3535.8,
-        3657.9
+        3643.8
       ],
       "source": "CNBC Market Data"
     },
@@ -1895,7 +1895,7 @@
       "changePct": 5.13,
       "source": "國家發展委員會",
       "status": "ok",
-      "value": 41,
+      "value": 40,
       "light": "紅燈（連10紅）",
       "asOf": "2026-09"
     }
