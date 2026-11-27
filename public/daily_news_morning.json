@@ -7,8 +7,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-27T07:30:16+08:00",
-  "updatedAt": "2026-11-27 07:30",
+  "generatedAt": "2026-11-27T09:15:15+08:00",
+  "updatedAt": "2026-11-27 09:15",
   "date": "2026-11-27",
   "weekday": "星期五",
   "dataMode": "live",
@@ -30,9 +30,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.864,
-        "change": 0.016,
-        "changePct": 0.33,
+        "value": 4.898,
+        "change": 0.05,
+        "changePct": 1.03,
         "asOf": "2026-11-26",
         "history": [
           4.859,
@@ -49,7 +49,7 @@
           4.92,
           4.902,
           4.846,
-          4.864
+          4.898
         ],
         "source": "CNBC Market Data"
       },
@@ -94,12 +94,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.665,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-25",
+        "value": 103.81,
+        "change": 0.145,
+        "changePct": 0.14,
+        "asOf": "2026-11-26",
         "history": [
-          101.653,
           102.231,
           102.908,
           103.173,
@@ -113,7 +112,8 @@
           103.84,
           104.318,
           103.814,
-          103.665
+          103.665,
+          103.81
         ],
         "source": "CNBC Market Data"
       },
@@ -126,9 +126,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 84.81,
-        "change": 1.13,
-        "changePct": 1.35,
+        "value": 85.32,
+        "change": 1.64,
+        "changePct": 1.96,
         "asOf": "2026-11-26",
         "history": [
           90.83,
@@ -145,7 +145,7 @@
           80.17,
           82.05,
           83.68,
-          84.81
+          85.32
         ],
         "source": "CNBC Market Data"
       },
@@ -158,9 +158,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3563.0,
-        "change": 27.2,
-        "changePct": 0.77,
+        "value": 3564.9,
+        "change": 29.1,
+        "changePct": 0.82,
         "asOf": "2026-11-26",
         "history": [
           4074.9,
@@ -177,7 +177,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3563.0
+          3564.9
         ],
         "source": "CNBC Market Data"
       },
@@ -220,9 +220,9 @@
         "unit": "%",
         "digits": 2,
         "status": "ok",
-        "value": 4.864,
-        "change": 0.016,
-        "changePct": 0.33,
+        "value": 4.898,
+        "change": 0.05,
+        "changePct": 1.03,
         "asOf": "2026-11-26",
         "history": [
           4.859,
@@ -239,7 +239,7 @@
           4.92,
           4.902,
           4.846,
-          4.864
+          4.898
         ],
         "source": "CNBC Market Data"
       },
@@ -284,12 +284,11 @@
         "unit": "",
         "digits": 2,
         "status": "ok",
-        "value": 103.665,
-        "change": 0.0,
-        "changePct": 0.0,
-        "asOf": "2026-11-25",
+        "value": 103.81,
+        "change": 0.145,
+        "changePct": 0.14,
+        "asOf": "2026-11-26",
         "history": [
-          101.653,
           102.231,
           102.908,
           103.173,
@@ -303,7 +302,8 @@
           103.84,
           104.318,
           103.814,
-          103.665
+          103.665,
+          103.81
         ],
         "source": "CNBC Market Data"
       },
@@ -316,9 +316,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 84.81,
-        "change": 1.13,
-        "changePct": 1.35,
+        "value": 85.32,
+        "change": 1.64,
+        "changePct": 1.96,
         "asOf": "2026-11-26",
         "history": [
           90.83,
@@ -335,7 +335,7 @@
           80.17,
           82.05,
           83.68,
-          84.81
+          85.32
         ],
         "source": "CNBC Market Data"
       },
@@ -348,9 +348,9 @@
         "unit": "美元",
         "digits": 2,
         "status": "ok",
-        "value": 3563.0,
-        "change": 27.2,
-        "changePct": 0.77,
+        "value": 3564.9,
+        "change": 29.1,
+        "changePct": 0.82,
         "asOf": "2026-11-26",
         "history": [
           4074.9,
@@ -367,7 +367,7 @@
           3651.4,
           3561.9,
           3535.8,
-          3563.0
+          3564.9
         ],
         "source": "CNBC Market Data"
       },
@@ -1198,12 +1198,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 39151.81,
-            "change": 956.38,
-            "changePct": 2.5,
-            "asOf": "2026-11-26",
+            "value": 39206.94,
+            "change": 55.13,
+            "changePct": 0.14,
+            "asOf": "2026-11-27",
             "history": [
-              39701.64,
               41661.7,
               42711.92,
               44257.15,
@@ -1217,7 +1216,8 @@
               36811.89,
               40122.35,
               38195.43,
-              39151.81
+              39151.81,
+              39206.94
             ],
             "source": "TWSE / TPEx"
           },
@@ -1230,12 +1230,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 289.84,
-            "change": 13.87,
-            "changePct": 5.03,
-            "asOf": "2026-11-26",
+            "value": 290.39,
+            "change": 0.55,
+            "changePct": 0.19,
+            "asOf": "2026-11-27",
             "history": [
-              304.02,
               321.97,
               332.97,
               344.11,
@@ -1249,7 +1248,8 @@
               270.9,
               293.23,
               275.97,
-              289.84
+              289.84,
+              290.39
             ],
             "source": "TWSE / TPEx"
           }
@@ -1264,12 +1264,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 92.85,
-            "change": 2.55,
-            "changePct": 2.82,
-            "asOf": "2026-11-26",
+            "value": 92.125,
+            "change": -0.725,
+            "changePct": -0.78,
+            "asOf": "2026-11-27",
             "history": [
-              92.5,
               97.45,
               99.7,
               103.2,
@@ -1283,7 +1282,8 @@
               87.0,
               95.7,
               90.3,
-              92.85
+              92.85,
+              92.125
             ],
             "source": "TWSE / TPEx"
           },
@@ -1296,12 +1296,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 208.75,
-            "change": 5.6,
-            "changePct": 2.76,
-            "asOf": "2026-11-26",
+            "value": 207.675,
+            "change": -1.075,
+            "changePct": -0.51,
+            "asOf": "2026-11-27",
             "history": [
-              210.1,
               223.6,
               228.9,
               236.6,
@@ -1315,7 +1314,8 @@
               195.55,
               215.1,
               203.15,
-              208.75
+              208.75,
+              207.675
             ],
             "source": "TWSE / TPEx"
           },
@@ -1328,12 +1328,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2145.0,
-            "change": -5.0,
-            "changePct": -0.23,
-            "asOf": "2026-11-26",
+            "value": 2147.5,
+            "change": 2.5,
+            "changePct": 0.12,
+            "asOf": "2026-11-27",
             "history": [
-              2135.0,
               2235.0,
               2285.0,
               2395.0,
@@ -1347,7 +1346,8 @@
               2030.0,
               2230.0,
               2150.0,
-              2145.0
+              2145.0,
+              2147.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1360,12 +1360,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 88.8,
-            "change": 1.4,
-            "changePct": 1.6,
-            "asOf": "2026-11-26",
+            "value": 89.45,
+            "change": 0.65,
+            "changePct": 0.73,
+            "asOf": "2026-11-27",
             "history": [
-              92.0,
               96.7,
               100.5,
               104.0,
@@ -1379,7 +1378,8 @@
               88.3,
               97.1,
               87.4,
-              88.8
+              88.8,
+              89.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1392,12 +1392,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3705.0,
-            "change": 60.0,
-            "changePct": 1.65,
-            "asOf": "2026-11-26",
+            "value": 3655.0,
+            "change": -50.0,
+            "changePct": -1.35,
+            "asOf": "2026-11-27",
             "history": [
-              3390.0,
               3725.0,
               3830.0,
               3990.0,
@@ -1411,7 +1410,8 @@
               3685.0,
               4050.0,
               3645.0,
-              3705.0
+              3705.0,
+              3655.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1424,12 +1424,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 216.5,
-            "change": 10.0,
-            "changePct": 4.84,
-            "asOf": "2026-11-26",
+            "value": 217.25,
+            "change": 0.75,
+            "changePct": 0.35,
+            "asOf": "2026-11-27",
             "history": [
-              224.5,
               239.0,
               241.5,
               242.0,
@@ -1443,7 +1442,8 @@
               206.0,
               226.5,
               206.5,
-              216.5
+              216.5,
+              217.25
             ],
             "source": "TWSE / TPEx"
           }
@@ -1458,12 +1458,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 39151.81,
-            "change": 956.38,
-            "changePct": 2.5,
-            "asOf": "2026-11-26",
+            "value": 39206.94,
+            "change": 55.13,
+            "changePct": 0.14,
+            "asOf": "2026-11-27",
             "history": [
-              39701.64,
               41661.7,
               42711.92,
               44257.15,
@@ -1477,7 +1476,8 @@
               36811.89,
               40122.35,
               38195.43,
-              39151.81
+              39151.81,
+              39206.94
             ],
             "source": "TWSE / TPEx"
           },
@@ -1490,12 +1490,11 @@
             "unit": "",
             "digits": 2,
             "status": "ok",
-            "value": 289.84,
-            "change": 13.87,
-            "changePct": 5.03,
-            "asOf": "2026-11-26",
+            "value": 290.39,
+            "change": 0.55,
+            "changePct": 0.19,
+            "asOf": "2026-11-27",
             "history": [
-              304.02,
               321.97,
               332.97,
               344.11,
@@ -1509,7 +1508,8 @@
               270.9,
               293.23,
               275.97,
-              289.84
+              289.84,
+              290.39
             ],
             "source": "TWSE / TPEx"
           },
@@ -1522,12 +1522,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 92.85,
-            "change": 2.55,
-            "changePct": 2.82,
-            "asOf": "2026-11-26",
+            "value": 92.125,
+            "change": -0.725,
+            "changePct": -0.78,
+            "asOf": "2026-11-27",
             "history": [
-              92.5,
               97.45,
               99.7,
               103.2,
@@ -1541,7 +1540,8 @@
               87.0,
               95.7,
               90.3,
-              92.85
+              92.85,
+              92.125
             ],
             "source": "TWSE / TPEx"
           },
@@ -1554,12 +1554,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 208.75,
-            "change": 5.6,
-            "changePct": 2.76,
-            "asOf": "2026-11-26",
+            "value": 207.675,
+            "change": -1.075,
+            "changePct": -0.51,
+            "asOf": "2026-11-27",
             "history": [
-              210.1,
               223.6,
               228.9,
               236.6,
@@ -1573,7 +1572,8 @@
               195.55,
               215.1,
               203.15,
-              208.75
+              208.75,
+              207.675
             ],
             "source": "TWSE / TPEx"
           },
@@ -1586,12 +1586,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 2145.0,
-            "change": -5.0,
-            "changePct": -0.23,
-            "asOf": "2026-11-26",
+            "value": 2147.5,
+            "change": 2.5,
+            "changePct": 0.12,
+            "asOf": "2026-11-27",
             "history": [
-              2135.0,
               2235.0,
               2285.0,
               2395.0,
@@ -1605,7 +1604,8 @@
               2030.0,
               2230.0,
               2150.0,
-              2145.0
+              2145.0,
+              2147.5
             ],
             "source": "TWSE / TPEx"
           },
@@ -1618,12 +1618,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 88.8,
-            "change": 1.4,
-            "changePct": 1.6,
-            "asOf": "2026-11-26",
+            "value": 89.45,
+            "change": 0.65,
+            "changePct": 0.73,
+            "asOf": "2026-11-27",
             "history": [
-              92.0,
               96.7,
               100.5,
               104.0,
@@ -1637,7 +1636,8 @@
               88.3,
               97.1,
               87.4,
-              88.8
+              88.8,
+              89.45
             ],
             "source": "TWSE / TPEx"
           },
@@ -1650,12 +1650,11 @@
             "unit": "元",
             "digits": 0,
             "status": "ok",
-            "value": 3705.0,
-            "change": 60.0,
-            "changePct": 1.65,
-            "asOf": "2026-11-26",
+            "value": 3655.0,
+            "change": -50.0,
+            "changePct": -1.35,
+            "asOf": "2026-11-27",
             "history": [
-              3390.0,
               3725.0,
               3830.0,
               3990.0,
@@ -1669,7 +1668,8 @@
               3685.0,
               4050.0,
               3645.0,
-              3705.0
+              3705.0,
+              3655.0
             ],
             "source": "TWSE / TPEx"
           },
@@ -1682,12 +1682,11 @@
             "unit": "元",
             "digits": 2,
             "status": "ok",
-            "value": 216.5,
-            "change": 10.0,
-            "changePct": 4.84,
-            "asOf": "2026-11-26",
+            "value": 217.25,
+            "change": 0.75,
+            "changePct": 0.35,
+            "asOf": "2026-11-27",
             "history": [
-              224.5,
               239.0,
               241.5,
               242.0,
@@ -1701,7 +1700,8 @@
               206.0,
               226.5,
               206.5,
-              216.5
+              216.5,
+              217.25
             ],
             "source": "TWSE / TPEx"
           }
@@ -1720,9 +1720,9 @@
       "unit": "%",
       "digits": 2,
       "status": "ok",
-      "value": 4.864,
-      "change": 0.016,
-      "changePct": 0.33,
+      "value": 4.898,
+      "change": 0.05,
+      "changePct": 1.03,
       "asOf": "2026-11-26",
       "history": [
         4.859,
@@ -1739,7 +1739,7 @@
         4.92,
         4.902,
         4.846,
-        4.864
+        4.898
       ],
       "source": "CNBC Market Data"
     },
@@ -1784,12 +1784,11 @@
       "unit": "",
       "digits": 2,
       "status": "ok",
-      "value": 103.665,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-25",
+      "value": 103.81,
+      "change": 0.145,
+      "changePct": 0.14,
+      "asOf": "2026-11-26",
       "history": [
-        101.653,
         102.231,
         102.908,
         103.173,
@@ -1803,7 +1802,8 @@
         103.84,
         104.318,
         103.814,
-        103.665
+        103.665,
+        103.81
       ],
       "source": "CNBC Market Data"
     },
@@ -1816,9 +1816,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 84.81,
-      "change": 1.13,
-      "changePct": 1.35,
+      "value": 85.32,
+      "change": 1.64,
+      "changePct": 1.96,
       "asOf": "2026-11-26",
       "history": [
         90.83,
@@ -1835,7 +1835,7 @@
         80.17,
         82.05,
         83.68,
-        84.81
+        85.32
       ],
       "source": "CNBC Market Data"
     },
@@ -1848,9 +1848,9 @@
       "unit": "美元",
       "digits": 2,
       "status": "ok",
-      "value": 3563.0,
-      "change": 27.2,
-      "changePct": 0.77,
+      "value": 3564.9,
+      "change": 29.1,
+      "changePct": 0.82,
       "asOf": "2026-11-26",
       "history": [
         4074.9,
@@ -1867,7 +1867,7 @@
         3651.4,
         3561.9,
         3535.8,
-        3563.0
+        3564.9
       ],
       "source": "CNBC Market Data"
     },
@@ -2698,12 +2698,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 39151.81,
-          "change": 956.38,
-          "changePct": 2.5,
-          "asOf": "2026-11-26",
+          "value": 39206.94,
+          "change": 55.13,
+          "changePct": 0.14,
+          "asOf": "2026-11-27",
           "history": [
-            39701.64,
             41661.7,
             42711.92,
             44257.15,
@@ -2717,7 +2716,8 @@
             36811.89,
             40122.35,
             38195.43,
-            39151.81
+            39151.81,
+            39206.94
           ],
           "source": "TWSE / TPEx"
         },
@@ -2730,12 +2730,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 289.84,
-          "change": 13.87,
-          "changePct": 5.03,
-          "asOf": "2026-11-26",
+          "value": 290.39,
+          "change": 0.55,
+          "changePct": 0.19,
+          "asOf": "2026-11-27",
           "history": [
-            304.02,
             321.97,
             332.97,
             344.11,
@@ -2749,7 +2748,8 @@
             270.9,
             293.23,
             275.97,
-            289.84
+            289.84,
+            290.39
           ],
           "source": "TWSE / TPEx"
         }
@@ -2764,12 +2764,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 92.85,
-          "change": 2.55,
-          "changePct": 2.82,
-          "asOf": "2026-11-26",
+          "value": 92.125,
+          "change": -0.725,
+          "changePct": -0.78,
+          "asOf": "2026-11-27",
           "history": [
-            92.5,
             97.45,
             99.7,
             103.2,
@@ -2783,7 +2782,8 @@
             87.0,
             95.7,
             90.3,
-            92.85
+            92.85,
+            92.125
           ],
           "source": "TWSE / TPEx"
         },
@@ -2796,12 +2796,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 208.75,
-          "change": 5.6,
-          "changePct": 2.76,
-          "asOf": "2026-11-26",
+          "value": 207.675,
+          "change": -1.075,
+          "changePct": -0.51,
+          "asOf": "2026-11-27",
           "history": [
-            210.1,
             223.6,
             228.9,
             236.6,
@@ -2815,7 +2814,8 @@
             195.55,
             215.1,
             203.15,
-            208.75
+            208.75,
+            207.675
           ],
           "source": "TWSE / TPEx"
         },
@@ -2828,12 +2828,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2145.0,
-          "change": -5.0,
-          "changePct": -0.23,
-          "asOf": "2026-11-26",
+          "value": 2147.5,
+          "change": 2.5,
+          "changePct": 0.12,
+          "asOf": "2026-11-27",
           "history": [
-            2135.0,
             2235.0,
             2285.0,
             2395.0,
@@ -2847,7 +2846,8 @@
             2030.0,
             2230.0,
             2150.0,
-            2145.0
+            2145.0,
+            2147.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -2860,12 +2860,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 88.8,
-          "change": 1.4,
-          "changePct": 1.6,
-          "asOf": "2026-11-26",
+          "value": 89.45,
+          "change": 0.65,
+          "changePct": 0.73,
+          "asOf": "2026-11-27",
           "history": [
-            92.0,
             96.7,
             100.5,
             104.0,
@@ -2879,7 +2878,8 @@
             88.3,
             97.1,
             87.4,
-            88.8
+            88.8,
+            89.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -2892,12 +2892,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3705.0,
-          "change": 60.0,
-          "changePct": 1.65,
-          "asOf": "2026-11-26",
+          "value": 3655.0,
+          "change": -50.0,
+          "changePct": -1.35,
+          "asOf": "2026-11-27",
           "history": [
-            3390.0,
             3725.0,
             3830.0,
             3990.0,
@@ -2911,7 +2910,8 @@
             3685.0,
             4050.0,
             3645.0,
-            3705.0
+            3705.0,
+            3655.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -2924,12 +2924,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 216.5,
-          "change": 10.0,
-          "changePct": 4.84,
-          "asOf": "2026-11-26",
+          "value": 217.25,
+          "change": 0.75,
+          "changePct": 0.35,
+          "asOf": "2026-11-27",
           "history": [
-            224.5,
             239.0,
             241.5,
             242.0,
@@ -2943,7 +2942,8 @@
             206.0,
             226.5,
             206.5,
-            216.5
+            216.5,
+            217.25
           ],
           "source": "TWSE / TPEx"
         }
@@ -2958,12 +2958,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 39151.81,
-          "change": 956.38,
-          "changePct": 2.5,
-          "asOf": "2026-11-26",
+          "value": 39206.94,
+          "change": 55.13,
+          "changePct": 0.14,
+          "asOf": "2026-11-27",
           "history": [
-            39701.64,
             41661.7,
             42711.92,
             44257.15,
@@ -2977,7 +2976,8 @@
             36811.89,
             40122.35,
             38195.43,
-            39151.81
+            39151.81,
+            39206.94
           ],
           "source": "TWSE / TPEx"
         },
@@ -2990,12 +2990,11 @@
           "unit": "",
           "digits": 2,
           "status": "ok",
-          "value": 289.84,
-          "change": 13.87,
-          "changePct": 5.03,
-          "asOf": "2026-11-26",
+          "value": 290.39,
+          "change": 0.55,
+          "changePct": 0.19,
+          "asOf": "2026-11-27",
           "history": [
-            304.02,
             321.97,
             332.97,
             344.11,
@@ -3009,7 +3008,8 @@
             270.9,
             293.23,
             275.97,
-            289.84
+            289.84,
+            290.39
           ],
           "source": "TWSE / TPEx"
         },
@@ -3022,12 +3022,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 92.85,
-          "change": 2.55,
-          "changePct": 2.82,
-          "asOf": "2026-11-26",
+          "value": 92.125,
+          "change": -0.725,
+          "changePct": -0.78,
+          "asOf": "2026-11-27",
           "history": [
-            92.5,
             97.45,
             99.7,
             103.2,
@@ -3041,7 +3040,8 @@
             87.0,
             95.7,
             90.3,
-            92.85
+            92.85,
+            92.125
           ],
           "source": "TWSE / TPEx"
         },
@@ -3054,12 +3054,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 208.75,
-          "change": 5.6,
-          "changePct": 2.76,
-          "asOf": "2026-11-26",
+          "value": 207.675,
+          "change": -1.075,
+          "changePct": -0.51,
+          "asOf": "2026-11-27",
           "history": [
-            210.1,
             223.6,
             228.9,
             236.6,
@@ -3073,7 +3072,8 @@
             195.55,
             215.1,
             203.15,
-            208.75
+            208.75,
+            207.675
           ],
           "source": "TWSE / TPEx"
         },
@@ -3086,12 +3086,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 2145.0,
-          "change": -5.0,
-          "changePct": -0.23,
-          "asOf": "2026-11-26",
+          "value": 2147.5,
+          "change": 2.5,
+          "changePct": 0.12,
+          "asOf": "2026-11-27",
           "history": [
-            2135.0,
             2235.0,
             2285.0,
             2395.0,
@@ -3105,7 +3104,8 @@
             2030.0,
             2230.0,
             2150.0,
-            2145.0
+            2145.0,
+            2147.5
           ],
           "source": "TWSE / TPEx"
         },
@@ -3118,12 +3118,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 88.8,
-          "change": 1.4,
-          "changePct": 1.6,
-          "asOf": "2026-11-26",
+          "value": 89.45,
+          "change": 0.65,
+          "changePct": 0.73,
+          "asOf": "2026-11-27",
           "history": [
-            92.0,
             96.7,
             100.5,
             104.0,
@@ -3137,7 +3136,8 @@
             88.3,
             97.1,
             87.4,
-            88.8
+            88.8,
+            89.45
           ],
           "source": "TWSE / TPEx"
         },
@@ -3150,12 +3150,11 @@
           "unit": "元",
           "digits": 0,
           "status": "ok",
-          "value": 3705.0,
-          "change": 60.0,
-          "changePct": 1.65,
-          "asOf": "2026-11-26",
+          "value": 3655.0,
+          "change": -50.0,
+          "changePct": -1.35,
+          "asOf": "2026-11-27",
           "history": [
-            3390.0,
             3725.0,
             3830.0,
             3990.0,
@@ -3169,7 +3168,8 @@
             3685.0,
             4050.0,
             3645.0,
-            3705.0
+            3705.0,
+            3655.0
           ],
           "source": "TWSE / TPEx"
         },
@@ -3182,12 +3182,11 @@
           "unit": "元",
           "digits": 2,
           "status": "ok",
-          "value": 216.5,
-          "change": 10.0,
-          "changePct": 4.84,
-          "asOf": "2026-11-26",
+          "value": 217.25,
+          "change": 0.75,
+          "changePct": 0.35,
+          "asOf": "2026-11-27",
           "history": [
-            224.5,
             239.0,
             241.5,
             242.0,
@@ -3201,7 +3200,8 @@
             206.0,
             226.5,
             206.5,
-            216.5
+            216.5,
+            217.25
           ],
           "source": "TWSE / TPEx"
         }
@@ -3216,81 +3216,93 @@
     "podcastUrl": "https://podcasts.apple.com/tw/podcast/%E6%B8%B8%E5%BA%AD%E7%9A%93%E7%9A%84%E8%B2%A1%E7%B6%93%E7%9A%93%E8%A7%92/id1488295306",
     "status": "ok",
     "latest": {
-      "videoId": "7-V-NWQpF7I",
-      "title": "2026/11/26(四)急漲急跌!多空大屠殺?外資提款無底洞 國家隊能守住台股嗎?",
-      "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I",
-      "publishedAt": "2026-11-26 09:06",
-      "chapters": [
-        {
-          "time": "00:00",
-          "label": "市場總覽",
-          "seconds": 0,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=0s"
-        },
-        {
-          "time": "04:00",
-          "label": "債市和緩",
-          "seconds": 240,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=240s"
-        },
-        {
-          "time": "07:50",
-          "label": "台股追蹤",
-          "seconds": 470,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=470s"
-        },
-        {
-          "time": "10:30",
-          "label": "外資提款",
-          "seconds": 630,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=630s"
-        },
-        {
-          "time": "13:20",
-          "label": "官方護盤",
-          "seconds": 800,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=800s"
-        },
-        {
-          "time": "16:20",
-          "label": "市場籌碼",
-          "seconds": 980,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=980s"
-        },
-        {
-          "time": "21:00",
-          "label": "韓股賣壓",
-          "seconds": 1260,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1260s"
-        },
-        {
-          "time": "23:45",
-          "label": "美股追蹤",
-          "seconds": 1425,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1425s"
-        },
-        {
-          "time": "26:50",
-          "label": "信用市場",
-          "seconds": 1610,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1610s"
-        },
-        {
-          "time": "29:45",
-          "label": "時代賭徒",
-          "seconds": 1785,
-          "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1785s"
-        }
-      ],
-      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「急漲急跌!多空大屠殺?」與「外資提款無底洞 國家隊能守住台股嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+      "videoId": "s2maZNnHEvg",
+      "title": "2026/11/27(五)外資大賣3.4兆選後大盤 還護得住嗎? 華爾街多空論戰 抄底還是逃命？",
+      "url": "https://www.youtube.com/watch?v=s2maZNnHEvg",
+      "publishedAt": "2026-11-27 09:10",
+      "chapters": [],
+      "outlineIntro": "本集《早晨財經速解讀》主要聚焦「外資大賣3.4兆選後大盤 還護得住嗎」與「華爾街多空論戰 抄底還是逃命？」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構，節目尾聲並結合《AI概念股致富地圖》導讀地緣供應鏈結構。",
       "summaryPoints": [
-        "前半場｜全球總經與美股動向：市場總覽（00:00）、債市和緩（04:00）、台股追蹤（07:50），檢視美股指數基期與避險情緒變化。",
-        "中半場｜焦點事件與台股籌碼政策：外資提款（10:30）、官方護盤（13:20）、市場籌碼（16:20），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-        "後半場｜延續推演與專題總結：韓股賣壓（21:00）、美股追蹤（23:45）、信用市場（26:50）、時代賭徒（29:45），歸納市場底部訊號與中長線操作紀律。",
-        "更新與播出時段：2026-11-26 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        "節目聚焦：外資大賣3.4兆選後大盤 還護得住嗎；華爾街多空論戰 抄底還是逃命？",
+        "更新與播出時段：2026-11-27 09:10 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
       ]
     },
     "recent": [
+      {
+        "videoId": "7-V-NWQpF7I",
+        "title": "2026/11/26(四)急漲急跌!多空大屠殺?外資提款無底洞 國家隊能守住台股嗎?",
+        "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I",
+        "publishedAt": "2026-11-26 09:06",
+        "chapters": [
+          {
+            "time": "00:00",
+            "label": "市場總覽",
+            "seconds": 0,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=0s"
+          },
+          {
+            "time": "04:00",
+            "label": "債市和緩",
+            "seconds": 240,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=240s"
+          },
+          {
+            "time": "07:50",
+            "label": "台股追蹤",
+            "seconds": 470,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=470s"
+          },
+          {
+            "time": "10:30",
+            "label": "外資提款",
+            "seconds": 630,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=630s"
+          },
+          {
+            "time": "13:20",
+            "label": "官方護盤",
+            "seconds": 800,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=800s"
+          },
+          {
+            "time": "16:20",
+            "label": "市場籌碼",
+            "seconds": 980,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=980s"
+          },
+          {
+            "time": "21:00",
+            "label": "韓股賣壓",
+            "seconds": 1260,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1260s"
+          },
+          {
+            "time": "23:45",
+            "label": "美股追蹤",
+            "seconds": 1425,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1425s"
+          },
+          {
+            "time": "26:50",
+            "label": "信用市場",
+            "seconds": 1610,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1610s"
+          },
+          {
+            "time": "29:45",
+            "label": "時代賭徒",
+            "seconds": 1785,
+            "url": "https://www.youtube.com/watch?v=7-V-NWQpF7I&t=1785s"
+          }
+        ],
+        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「急漲急跌!多空大屠殺?」與「外資提款無底洞 國家隊能守住台股嗎?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
+        "summaryPoints": [
+          "前半場｜全球總經與美股動向：市場總覽（00:00）、債市和緩（04:00）、台股追蹤（07:50），檢視美股指數基期與避險情緒變化。",
+          "中半場｜焦點事件與台股籌碼政策：外資提款（10:30）、官方護盤（13:20）、市場籌碼（16:20），拆解關鍵企業動態、法人籌碼與官方政策防線。",
+          "後半場｜延續推演與專題總結：韓股賣壓（21:00）、美股追蹤（23:45）、信用市場（26:50）、時代賭徒（29:45），歸納市場底部訊號與中長線操作紀律。",
+          "更新與播出時段：2026-11-26 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
+        ]
+      },
       {
         "videoId": "BdGySn52EHU",
         "title": "2026/11/25(三)反彈乏力 關稅帝君回來了?股市暴漲暴跌時代!牛市修正還是泡沫破裂？",
@@ -3458,93 +3470,12 @@
           "後半場｜延續推演與專題總結：美股追蹤（22:48）、資產績效（24:50）、多空行情（27:00）、開盤（29:45），歸納市場底部訊號與中長線操作紀律。",
           "更新與播出時段：2026-11-24 09:05 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
         ]
-      },
-      {
-        "videoId": "wUTABzLMekc",
-        "title": "2026/11/23(一)融資斷頭大逃殺 政府全面救市!誰能解決 流動性問題?",
-        "url": "https://www.youtube.com/watch?v=wUTABzLMekc",
-        "publishedAt": "2026-11-23 09:06",
-        "chapters": [
-          {
-            "time": "00:00",
-            "label": "市場總覽",
-            "seconds": 0,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=0s"
-          },
-          {
-            "time": "02:00",
-            "label": "市場概況",
-            "seconds": 120,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=120s"
-          },
-          {
-            "time": "06:00",
-            "label": "個股波動",
-            "seconds": 360,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=360s"
-          },
-          {
-            "time": "09:30",
-            "label": "通膨降溫",
-            "seconds": 570,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=570s"
-          },
-          {
-            "time": "12:40",
-            "label": "亞股市況",
-            "seconds": 760,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=760s"
-          },
-          {
-            "time": "15:00",
-            "label": "台股市況",
-            "seconds": 900,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=900s"
-          },
-          {
-            "time": "18:00",
-            "label": "流動性枯竭",
-            "seconds": 1080,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=1080s"
-          },
-          {
-            "time": "22:00",
-            "label": "金管會出招",
-            "seconds": 1320,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=1320s"
-          },
-          {
-            "time": "24:00",
-            "label": "流動性問題",
-            "seconds": 1440,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=1440s"
-          },
-          {
-            "time": "28:25",
-            "label": "國安基金",
-            "seconds": 1705,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=1705s"
-          },
-          {
-            "time": "30:10",
-            "label": "長多與長空",
-            "seconds": 1810,
-            "url": "https://www.youtube.com/watch?v=wUTABzLMekc&t=1810s"
-          }
-        ],
-        "outlineIntro": "本集《早晨財經速解讀》主要聚焦「融資斷頭大逃殺 政府全面救市!誰能解決 流動性問題?」。游庭皓先從隔夜美股四大指數與總經資金水位切入，接續研判台股防線、護盤政策與籌碼結構。",
-        "summaryPoints": [
-          "前半場｜全球總經與美股動向：市場總覽（00:00）、市場概況（02:00）、個股波動（06:00），檢視美股指數基期與避險情緒變化。",
-          "中半場｜焦點事件與台股籌碼政策：通膨降溫（09:30）、亞股市況（12:40）、台股市況（15:00）、流動性枯竭（18:00），拆解關鍵企業動態、法人籌碼與官方政策防線。",
-          "後半場｜延續推演與專題總結：金管會出招（22:00）、流動性問題（24:00）、國安基金（28:25）、長多與長空（30:10），歸納市場底部訊號與中長線操作紀律。",
-          "更新與播出時段：2026-11-23 09:06 發布（平日 08:30 至 09:00 開盤前半小時於 YouTube 準時直播）。"
-        ]
       }
     ]
   },
   "leadIds": [
     "s660c1568",
-    "s29413979"
+    "sdf0eced9"
   ],
   "stories": [
     {
@@ -3701,6 +3632,270 @@
       "rank": 1
     },
     {
+      "id": "sdf0eced9",
+      "section": "business_tech",
+      "title": "日本JERA洽談Anthropic、Meta以電廠直供電力招攬AI資料中心客戶",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673464/o/4e131a38402df6ce2746d2c20d974b57.jpg\" alt=\"Reuters/TPG\" /><p>2026年11月27日(優分析/產業資料中心報導)⸺ 日本發電業者JERA正洽談讓美國科技公司進駐東京首都圈的資料中心。根據日經報導,洽談對象包括Anthropic、Meta(Meta-US),JERA會長可兒行夫也透露,已與亞馬遜(Amzn-US)、微軟(Msft-US)和Google接觸。這些案場規劃設在發電廠旁,由電廠直接供電,目前尚未公布簽約客戶或各家洽談的容量。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673464",
+      "publishedAt": "2026-11-27T08:30:15+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "JERA估計,計入用地、供電設施、建設及運算設備後,總投資至少150億美元,目標於2028年前後啟用。",
+          "metric": "150億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "JERA估計,千葉案各階段投入合計將超過150億美元,涵蓋土地、電力設施、機房工程與運算設備;Apollo擬為RHAELM提供投資及融資支援。",
+          "metric": "150億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "JERA此前已與戴爾(Dell-US)、開發商RHAELM簽署合作備忘錄,首案選在千葉火力發電廠,規劃供電容量最高400MW,目標約在2028年啟用。",
+          "metric": "400mw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "日本JERA洽談Anthropic、Meta以電廠直供電力招攬AI資料中心客戶",
+          "angle": "先進技術與算力規格",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本發電業者JERA正洽談讓美國科技公司進駐東京首都圈的資料中心。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本發電業者JERA正洽談讓美國科技公司進駐東京首都圈的資料中心。",
+          "url": "https://news.cnyes.com/news/id/6673464",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "日本JERA洽Anthropic、Meta,擬於東京周邊電廠旁建AI資料中心",
+          "angle": "產業動態與市場焦點",
+          "focus": "《日經新聞》週五(27日)報導,日本最大發電商JERA正與美國人工智慧(AI)公司Anthropic及Meta洽談,擬在東京周邊的發電廠附近興建AI資料中心。",
+          "excerpt": "《日經新聞》週五(27日)報導,日本最大發電商JERA正與美國人工智慧(AI)公司Anthropic及Meta洽談,擬在東京周邊的發電廠附近興建AI資料中心。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%ACjera%E6%B4%BDanthropic-meta-%E6%93%AC%E6%96%BC%E6%9D%B1%E4%BA%AC%E5%91%A8%E9%82%8A%E9%9B%BB%E5%BB%A0%E6%97%81%E5%BB%BAai%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83-001139058.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "JERA估計,計入用地、供電設施、建設及運算設備後,總投資至少150億美元,目標於2028年前後啟用。",
+          "metric": "150億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "JERA估計,千葉案各階段投入合計將超過150億美元,涵蓋土地、電力設施、機房工程與運算設備;Apollo擬為RHAELM提供投資及融資支援。",
+          "metric": "150億美元",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "JERA此前已與戴爾(Dell-US)、開發商RHAELM簽署合作備忘錄,首案選在千葉火力發電廠,規劃供電容量最高400MW,目標約在2028年啟用。",
+          "metric": "400mw",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "日本JERA洽談Anthropic、Meta以電廠直供電力招攬AI資料中心客戶",
+          "angle": "先進技術與算力規格",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本發電業者JERA正洽談讓美國科技公司進駐東京首都圈的資料中心。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本發電業者JERA正洽談讓美國科技公司進駐東京首都圈的資料中心。",
+          "url": "https://news.cnyes.com/news/id/6673464",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "日本JERA洽Anthropic、Meta,擬於東京周邊電廠旁建AI資料中心",
+          "angle": "產業動態與市場焦點",
+          "focus": "《日經新聞》週五(27日)報導,日本最大發電商JERA正與美國人工智慧(AI)公司Anthropic及Meta洽談,擬在東京周邊的發電廠附近興建AI資料中心。",
+          "excerpt": "《日經新聞》週五(27日)報導,日本最大發電商JERA正與美國人工智慧(AI)公司Anthropic及Meta洽談,擬在東京周邊的發電廠附近興建AI資料中心。",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%ACjera%E6%B4%BDanthropic-meta-%E6%93%AC%E6%96%BC%E6%9D%B1%E4%BA%AC%E5%91%A8%E9%82%8A%E9%9B%BB%E5%BB%A0%E6%97%81%E5%BB%BAai%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83-001139058.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673464",
+          "headline": "日本JERA洽談Anthropic、Meta以電廠直供電力招攬AI資料中心客戶",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E6%97%A5%E6%9C%ACjera%E6%B4%BDanthropic-meta-%E6%93%AC%E6%96%BC%E6%9D%B1%E4%BA%AC%E5%91%A8%E9%82%8A%E9%9B%BB%E5%BB%A0%E6%97%81%E5%BB%BAai%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83-001139058.html",
+          "headline": "日本JERA洽Anthropic、Meta,擬於東京周邊電廠旁建AI資料中心",
+          "lang": "zh"
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "sb17d81e2",
+      "section": "business_tech",
+      "title": "美時取得口服司美格魯肽學名藥美韓獨家授權美國上市仍有專利關卡",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673429/o/e45364cf291dcd78d466faf724c002cc.jpg\" alt=\"諾和諾德標誌,資料照片。Reuters/TPG\" /><p>2026年11月27日(優分析/產業資料中心報導)⸺ 美時(1795-TW)26日宣布,與西班牙藥廠Galenicum簽署口服司美格魯肽(semaglutide)學名藥授權及供貨協議,取得美國和南韓的獨家商業化權利。美時也取得台灣、香港、新加坡等另外八個亞洲市場的銷售權。</p> <p>這款口服錠由Galenicum開發及生產,美時負責在授權市場商業化。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673429",
+      "publishedAt": "2026-11-27T08:00:05+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 91,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 33,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "若加計同成分的口服糖尿病藥,諾和諾德前三季口服司美格魯肽的全球銷售約256億丹麥克朗,約合40億美元。",
+          "metric": "40億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "原廠諾和諾德Novo Nordisk(Novo-B-DK)的Wegovy口服錠今年1月在美國上市,前三季銷售約109億丹麥克朗,單是第三季便達約54億丹麥克朗。",
+          "metric": "109億",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "學名藥在美國何時上市,仍須看藥證審查及相關專利安排。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美時取得口服司美格魯肽學名藥美韓獨家授權美國上市仍有專利關卡",
+          "angle": "資本預算與財報配置",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 美時(1795-TW)26日宣布,與西班牙藥廠Galenicum簽署口服司美格魯肽(semaglutide)學名藥授權及供貨協議,取得美國和南韓的獨家商業化權利。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 美時(1795-TW)26日宣布,與西班牙藥廠Galenicum簽署口服司美格魯肽(semaglutide)學名藥授權及供貨協議,取得美國和南韓的獨家商業化權利。",
+          "url": "https://news.cnyes.com/news/id/6673429",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美時簽口服學名藥供貨協議 於美韓市場獲獨家授權",
+          "angle": "產業動態與市場焦點",
+          "focus": "美時宣布,與總部位於西班牙的全球製藥公司Galenicum簽署授權及供貨協議,取得口服Semaglutide錠劑學名藥在美國與韓國獨家授權及供貨協議,另取得台灣等8個亞洲市場的商業化授權。",
+          "excerpt": "美時宣布,與總部位於西班牙的全球製藥公司Galenicum簽署授權及供貨協議,取得口服Semaglutide錠劑學名藥在美國與韓國獨家授權及供貨協議,另取得台灣等8個亞洲市場的商業化授權。",
+          "url": "https://www.cna.com.tw/news/afe/202611260273.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "若加計同成分的口服糖尿病藥,諾和諾德前三季口服司美格魯肽的全球銷售約256億丹麥克朗,約合40億美元。",
+          "metric": "40億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "原廠諾和諾德Novo Nordisk(Novo-B-DK)的Wegovy口服錠今年1月在美國上市,前三季銷售約109億丹麥克朗,單是第三季便達約54億丹麥克朗。",
+          "metric": "109億",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "學名藥在美國何時上市,仍須看藥證審查及相關專利安排。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "美時取得口服司美格魯肽學名藥美韓獨家授權美國上市仍有專利關卡",
+          "angle": "資本預算與財報配置",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 美時(1795-TW)26日宣布,與西班牙藥廠Galenicum簽署口服司美格魯肽(semaglutide)學名藥授權及供貨協議,取得美國和南韓的獨家商業化權利。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 美時(1795-TW)26日宣布,與西班牙藥廠Galenicum簽署口服司美格魯肽(semaglutide)學名藥授權及供貨協議,取得美國和南韓的獨家商業化權利。",
+          "url": "https://news.cnyes.com/news/id/6673429",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美時簽口服學名藥供貨協議 於美韓市場獲獨家授權",
+          "angle": "產業動態與市場焦點",
+          "focus": "美時宣布,與總部位於西班牙的全球製藥公司Galenicum簽署授權及供貨協議,取得口服Semaglutide錠劑學名藥在美國與韓國獨家授權及供貨協議,另取得台灣等8個亞洲市場的商業化授權。",
+          "excerpt": "美時宣布,與總部位於西班牙的全球製藥公司Galenicum簽署授權及供貨協議,取得口服Semaglutide錠劑學名藥在美國與韓國獨家授權及供貨協議,另取得台灣等8個亞洲市場的商業化授權。",
+          "url": "https://www.cna.com.tw/news/afe/202611260273.aspx",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673429",
+          "headline": "美時取得口服司美格魯肽學名藥美韓獨家授權美國上市仍有專利關卡",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/afe/202611260273.aspx",
+          "headline": "美時簽口服學名藥供貨協議 於美韓市場獲獨家授權",
+          "lang": "zh"
+        }
+      ],
+      "rank": 3
+    },
+    {
       "id": "s29413979",
       "section": "business_tech",
       "title": "華南金估央行年底升息半碼 新台幣2027年「震盪偏升」",
@@ -3828,119 +4023,387 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 4
     },
     {
-      "id": "s296936f7",
+      "id": "s4257af23",
       "section": "business_tech",
-      "title": "TrendForce稱全球Q3新能源車銷量年增7.6%,估2027年銷量有望擴至15.2%",
+      "title": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
       "titleOriginal": null,
       "lang": "zh",
-      "summary": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。若計入油電混合車(HEV),四類電動車共計占第三季全球汽車銷量的35.2%,刷新單季歷史紀錄。TrendForce表示,第三季全球電動車市場呈現「純電強、插混弱、油電穩定」走勢,由於中國市場PHEV購買熱度降溫,加上油價高、純電車續航增加、各國補助政策向純電傾斜等因素,BEV銷量占比有所提升。BYD以15.5%的市占率蟬聯全球BEV冠軍,Tesla位居第二,Leapmotor持續推進新車上市並完善產品線布局,以6.1%的市占率穩守全球第三。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.stock.yahoo.com/news/trendforce%E7%A8%B1%E5%85%A8%E7%90%83q3%E6%96%B0%E8%83%BD%E6%BA%90%E8%BB%8A%E9%8A%B7%E9%87%8F%E5%B9%B4%E5%A2%9E7-6-%E4%BC%B02027%E5%B9%B4%E9%8A%B7%E9%87%8F%E6%9C%89%E6%9C%9B%E6%93%B4%E8%87%B315-2-231416778.html",
-      "publishedAt": "2026-11-27T07:14:16+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
+      "summary": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5599/9904928",
+      "publishedAt": "2026-11-27T07:12:25+08:00",
+      "imageUrl": "https://imgcdn.cna.com.tw/www/WebPhotos/1024/20261125/2000x1125_wmky_76254082028579_202503080008000000.jpg",
+      "imageCredit": "中央社 CNA",
       "score": 90,
       "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 20,
-        "durability": 6
+        "resonance": 35,
+        "impact": 35,
+        "data": 12,
+        "durability": 8
       },
-      "mediaCount": 2,
+      "mediaCount": 4,
       "impactCategories": [
         "財報與資本配置",
-        "公共治理與結構轉型"
+        "供應鏈與整併",
+        "技術與算力突破"
       ],
       "isStrategicTopic": false,
       "core_facts": [
         {
-          "text": "TrendForce指出,前十大品牌合計市占率由第二季的52.5%,進一步擴張至57.1%,「強者恆強」的集中化趨勢更加顯著。",
-          "metric": "52.5%",
+          "text": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         },
         {
-          "text": "BYD以15.5%的市占率蟬聯全球BEV冠軍,Tesla位居第二,Leapmotor持續推進新車上市並完善產品線布局,以6.1%的市占率穩守全球第三。",
-          "metric": "15.5%",
+          "text": "川普曾私下關注輝達市值若崩跌,對美國經濟將造成更廣泛影響。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "metric": "579萬",
+          "text": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
+            "自由財經"
           ]
         }
       ],
       "media_perspectives": [
         {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "TrendForce稱全球Q3新能源車銷量年增7.6%,估2027年銷量有望擴至15.2%",
-          "angle": "政策法規與公共治理",
-          "focus": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "excerpt": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "url": "https://tw.stock.yahoo.com/news/trendforce%E7%A8%B1%E5%85%A8%E7%90%83q3%E6%96%B0%E8%83%BD%E6%BA%90%E8%BB%8A%E9%8A%B7%E9%87%8F%E5%B9%B4%E5%A2%9E7-6-%E4%BC%B02027%E5%B9%B4%E9%8A%B7%E9%87%8F%E6%9C%89%E6%9C%9B%E6%93%B4%E8%87%B315-2-231416778.html",
+          "media": "經濟日報",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://money.udn.com/money/story/5599/9904928",
           "lang": "zh"
         },
         {
-          "media": "TechNews 科技新報",
-          "headline": "3Q26 新能源車銷量年增 7.6%,BEV、Phev 走勢分歧",
-          "angle": "深度調查與結構剖析",
-          "focus": "根據 TrendForce 最新調查,2026 年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為 579 萬輛,年增 7.6%。",
-          "excerpt": "根據 TrendForce 最新調查,2026 年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為 579 萬輛,年增 7.6%。",
-          "url": "https://technews.tw/2026/11/26/q3-2026-new-energy-vehicle-sales-7-6-yoy-bev-phev-divergent-trends/",
+          "media": "中央社 CNA",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://www.cna.com.tw/news/aopl/202611270014.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
           "lang": "zh"
         }
       ],
       "unverified_notice": "",
       "coreFacts": [
         {
-          "text": "TrendForce指出,前十大品牌合計市占率由第二季的52.5%,進一步擴張至57.1%,「強者恆強」的集中化趨勢更加顯著。",
-          "metric": "52.5%",
+          "text": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "經濟日報"
           ]
         },
         {
-          "text": "BYD以15.5%的市占率蟬聯全球BEV冠軍,Tesla位居第二,Leapmotor持續推進新車上市並完善產品線布局,以6.1%的市占率穩守全球第三。",
-          "metric": "15.5%",
+          "text": "川普曾私下關注輝達市值若崩跌,對美國經濟將造成更廣泛影響。",
+          "metric": "",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經"
+            "中央社 CNA"
           ]
         },
         {
-          "text": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "metric": "579萬",
+          "text": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "經濟日報",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://money.udn.com/money/story/5599/9904928",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://www.cna.com.tw/news/aopl/202611270014.aspx",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "angle": "市場定價與外資籌碼",
+          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "經濟日報",
+          "url": "https://money.udn.com/money/story/5599/9904928",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "lang": "zh"
+        },
+        {
+          "media": "中央社 CNA",
+          "url": "https://www.cna.com.tw/news/aopl/202611270014.aspx",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "lang": "zh"
+        },
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
+          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/paper/1780032",
+          "headline": "台積電美國新廠動土 川普將出席",
+          "lang": "zh"
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "id": "s59ef83e5",
+      "section": "business_tech",
+      "title": "4大落底訊號揭密!12月反攻強勢股藏在這?!",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<p>最近台股上演大怒神戲碼!很多個股震盪劇烈,一天漲停、隔天跌停,江江認為,與其每天被市場漲跌牽動情緒,不如掌握四大客觀指標,找出行情真正的轉折契機!</p> <p>第一、融資大清洗,籌碼逐步沉澱</p> <p>這波台股急跌已經洗掉大量浮動籌碼,當融資退場、賣壓逐漸減輕,有利於中期底部的形成。但籌碼清洗只是落底的必要條件,仍須搭配技術面轉強確認。</p> <p>第二、三大利空疑慮逐步降溫</p> <p>美國副總統范斯表示,據司法部及國安官員告知,黃仁勳並未受到相關聯邦調查,特赦疑慮暫時降溫;美國最新301關稅建議草案,台灣與日韓、歐盟同列15%不疊加的最低稅率級別。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673457",
+      "publishedAt": "2026-11-27T08:30:55+08:00",
+      "imageUrl": "https://cimg.cnyes.cool/prod/news/6673457/xl/7a9854b9a8137662a98d8e5fc570f1d0.jpg",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 90,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 8
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "欣興(3037-TW)10月營收達189.86億元,年增67.62%。",
+          "metric": "189.86億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "」接下來觀察37,000點附近能否形成有效支撐,以及40,000點反壓能否順利突破。",
+          "metric": "37000點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "更重要的是,戴爾(Dell-US)最新季度AI伺服器新接訂單高達602億美元,未交付訂單更達1,323億美元,創歷史新高!",
+          "metric": "1323億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "4大落底訊號揭密!12月反攻強勢股藏在這?!",
+          "angle": "先進技術與算力規格",
+          "focus": "最近台股上演大怒神戲碼!",
+          "excerpt": "最近台股上演大怒神戲碼!",
+          "url": "https://news.cnyes.com/news/id/6673457",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "欣興(3037-TW)10月營收達189.86億元,年增67.62%。",
+          "metric": "189.86億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "」接下來觀察37,000點附近能否形成有效支撐,以及40,000點反壓能否順利突破。",
+          "metric": "37000點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "更重要的是,戴爾(Dell-US)最新季度AI伺服器新接訂單高達602億美元,未交付訂單更達1,323億美元,創歷史新高!",
+          "metric": "1323億美元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "4大落底訊號揭密!12月反攻強勢股藏在這?!",
+          "angle": "先進技術與算力規格",
+          "focus": "最近台股上演大怒神戲碼!",
+          "excerpt": "最近台股上演大怒神戲碼!",
+          "url": "https://news.cnyes.com/news/id/6673457",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673457",
+          "headline": "4大落底訊號揭密!12月反攻強勢股藏在這?!",
+          "lang": "zh"
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "id": "s4aaef12e",
+      "section": "business_tech",
+      "title": "台股收盤/加權指數大漲956點收復3萬9台積電逆勢收黑",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673048/o/a6d4530e9b79d41f377346094c4bb947.jpg\" alt=\"Reuters/TPG\" /><p>2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。前一日台股下跌1,927點,今天收復約一半跌點,重返39,000點。</p> <p>這波反彈並非由台積電領軍。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673048",
+      "publishedAt": "2026-11-27T06:18:30+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 89,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 33,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "台積電(2330-TW)收在2,145元,下跌5元、跌幅0.23%;台達電(2308-TW)上漲6.16%,鴻海(2317-TW)漲4.84%,日月光投控(3711-TW)漲4.71%。",
+          "metric": "0.23%",
           "confirmed_by": [
             "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "metric": "39152點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "日經225指數盤中漲逾2%,終場收漲0.86%;南韓KOSPI早盤也漲逾2%,在南韓央行升息1碼至3.25%後,漲幅收斂至0.29%。",
+          "metric": "0.29%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "台積電逆勢收黑卻是「甜甜價」?多頭總司令喊2年挑戰5千元 股怪教授反「自曝套牢」:只恨自己錢不夠",
+          "angle": "資本預算與財報配置",
+          "focus": "台股昨(26)日強彈956.38點,收復39,000點關卡,電子權值股普遍走揚,反觀台積電(2330)卻逆勢收黑,終場下跌0.23%,收在2,145元。",
+          "excerpt": "台股昨(26)日強彈956.38點,收復39,000點關卡,電子權值股普遍走揚,反觀台積電(2330)卻逆勢收黑,終場下跌0.23%,收在2,145元。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%86%E5%8B%A2%E6%94%B6%E9%BB%91%E5%8D%BB%E6%98%AF-%E7%94%9C%E7%94%9C%E5%83%B9-%E5%A4%9A%E9%A0%AD%E7%B8%BD%E5%8F%B8%E4%BB%A4%E5%96%8A2%E5%B9%B4%E6%8C%91%E6%88%B05%E5%8D%83%E5%85%83-%E8%82%A1%E6%80%AA%E6%95%99%E6%8E%88%E5%8F%8D-%E8%87%AA%E6%9B%9D%E5%A5%97%E7%89%A2-221830160.html",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "台股收盤/加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "angle": "利率匯率與總經政策",
+          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "url": "https://news.cnyes.com/news/id/6673048",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "台積電(2330-TW)收在2,145元,下跌5元、跌幅0.23%;台達電(2308-TW)上漲6.16%,鴻海(2317-TW)漲4.84%,日月光投控(3711-TW)漲4.71%。",
+          "metric": "0.23%",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "metric": "39152點",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "日經225指數盤中漲逾2%,終場收漲0.86%;南韓KOSPI早盤也漲逾2%,在南韓央行升息1碼至3.25%後,漲幅收斂至0.29%。",
+          "metric": "0.29%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
           ]
         }
       ],
       "mediaPerspectives": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "headline": "TrendForce稱全球Q3新能源車銷量年增7.6%,估2027年銷量有望擴至15.2%",
-          "angle": "政策法規與公共治理",
-          "focus": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "excerpt": "根據TrendForce最新調查,2026年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為579萬輛,年增7.6%。",
-          "url": "https://tw.stock.yahoo.com/news/trendforce%E7%A8%B1%E5%85%A8%E7%90%83q3%E6%96%B0%E8%83%BD%E6%BA%90%E8%BB%8A%E9%8A%B7%E9%87%8F%E5%B9%B4%E5%A2%9E7-6-%E4%BC%B02027%E5%B9%B4%E9%8A%B7%E9%87%8F%E6%9C%89%E6%9C%9B%E6%93%B4%E8%87%B315-2-231416778.html",
+          "headline": "台積電逆勢收黑卻是「甜甜價」?多頭總司令喊2年挑戰5千元 股怪教授反「自曝套牢」:只恨自己錢不夠",
+          "angle": "資本預算與財報配置",
+          "focus": "台股昨(26)日強彈956.38點,收復39,000點關卡,電子權值股普遍走揚,反觀台積電(2330)卻逆勢收黑,終場下跌0.23%,收在2,145元。",
+          "excerpt": "台股昨(26)日強彈956.38點,收復39,000點關卡,電子權值股普遍走揚,反觀台積電(2330)卻逆勢收黑,終場下跌0.23%,收在2,145元。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%86%E5%8B%A2%E6%94%B6%E9%BB%91%E5%8D%BB%E6%98%AF-%E7%94%9C%E7%94%9C%E5%83%B9-%E5%A4%9A%E9%A0%AD%E7%B8%BD%E5%8F%B8%E4%BB%A4%E5%96%8A2%E5%B9%B4%E6%8C%91%E6%88%B05%E5%8D%83%E5%85%83-%E8%82%A1%E6%80%AA%E6%95%99%E6%8E%88%E5%8F%8D-%E8%87%AA%E6%9B%9D%E5%A5%97%E7%89%A2-221830160.html",
           "lang": "zh"
         },
         {
-          "media": "TechNews 科技新報",
-          "headline": "3Q26 新能源車銷量年增 7.6%,BEV、Phev 走勢分歧",
-          "angle": "深度調查與結構剖析",
-          "focus": "根據 TrendForce 最新調查,2026 年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為 579 萬輛,年增 7.6%。",
-          "excerpt": "根據 TrendForce 最新調查,2026 年第三季全球純電動車(BEV)、插電混合式電動車(Phev)及氫燃料電池車等新能源車(NEV)合計銷量為 579 萬輛,年增 7.6%。",
-          "url": "https://technews.tw/2026/11/26/q3-2026-new-energy-vehicle-sales-7-6-yoy-bev-phev-divergent-trends/",
+          "media": "鉅亨網 Anue",
+          "headline": "台股收盤/加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "angle": "利率匯率與總經政策",
+          "focus": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "excerpt": "2026年11月26日(優分析/產業資料中心報導)⸺ 台股26日反彈,加權指數一度上漲逾1,200點,收盤上漲956點、漲幅2.50%,收在39,152點,成交金額約8,175億元。",
+          "url": "https://news.cnyes.com/news/id/6673048",
           "lang": "zh"
         }
       ],
@@ -3948,18 +4411,468 @@
       "sources": [
         {
           "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/trendforce%E7%A8%B1%E5%85%A8%E7%90%83q3%E6%96%B0%E8%83%BD%E6%BA%90%E8%BB%8A%E9%8A%B7%E9%87%8F%E5%B9%B4%E5%A2%9E7-6-%E4%BC%B02027%E5%B9%B4%E9%8A%B7%E9%87%8F%E6%9C%89%E6%9C%9B%E6%93%B4%E8%87%B315-2-231416778.html",
-          "headline": "TrendForce稱全球Q3新能源車銷量年增7.6%,估2027年銷量有望擴至15.2%",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%86%E5%8B%A2%E6%94%B6%E9%BB%91%E5%8D%BB%E6%98%AF-%E7%94%9C%E7%94%9C%E5%83%B9-%E5%A4%9A%E9%A0%AD%E7%B8%BD%E5%8F%B8%E4%BB%A4%E5%96%8A2%E5%B9%B4%E6%8C%91%E6%88%B05%E5%8D%83%E5%85%83-%E8%82%A1%E6%80%AA%E6%95%99%E6%8E%88%E5%8F%8D-%E8%87%AA%E6%9B%9D%E5%A5%97%E7%89%A2-221830160.html",
+          "headline": "台積電逆勢收黑卻是「甜甜價」?多頭總司令喊2年挑戰5千元 股怪教授反「自曝套牢」:只恨自己錢不夠",
+          "lang": "zh"
+        },
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673048",
+          "headline": "台股收盤/加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "lang": "zh"
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "id": "s97c3d40d",
+      "section": "business_tech",
+      "title": "鎧俠攜手輝達以 Ssd 擴充 Gpu 記憶體容量,突破 1 PB 並支援處理 2 兆個向量",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "記憶體解決方案大廠鎧俠(Kioxia)於 27 日宣布與輝達(Nvidia)展開合作,透過結合輝達 Scada 軟體與鎧俠固態硬碟(SSD)的高效能,展示將有效 GPU 記憶體容量擴展至 PB 等級的潛力,並支援輝達的 Storage-Next 計畫。",
+      "source": "TechNews 科技新報",
+      "url": "https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/",
+      "publishedAt": "2026-11-27T08:20:25+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 18,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "這次測試讓GPU能以512位元組為單位讀取SSD上的資料;鎧俠估計,這套配置有潛力處理約2兆筆這種大小的向量。",
+          "metric": "2兆",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "不過,1.1PB是SSD容量,不是同等速度的HBM。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "整座機櫃的SSD原始容量約1.1PB,約合1,100TB。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "鎧俠攜輝達用144顆SSD擴充GPU可用容量AI資料不必全擠進HBM",
+          "angle": "先進技術與算力規格",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本記憶體廠鎧俠Kioxia(285A-JP)與輝達NVIDIA(Nvda-US)公布一項AI伺服器測試,在一座GB200 NVL72機櫃內裝入144顆鎧俠XD8企業級固態硬碟(SSD),搭配輝達軟體…",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本記憶體廠鎧俠Kioxia(285A-JP)與輝達NVIDIA(Nvda-US)公布一項AI伺服器測試,在一座GB200 NVL72機櫃內裝入144顆鎧俠XD8企業級固態硬碟(SSD),搭配輝達軟體…",
+          "url": "https://news.cnyes.com/news/id/6673426",
           "lang": "zh"
         },
         {
           "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/26/q3-2026-new-energy-vehicle-sales-7-6-yoy-bev-phev-divergent-trends/",
-          "headline": "3Q26 新能源車銷量年增 7.6%,BEV、Phev 走勢分歧",
+          "headline": "鎧俠攜手輝達以 Ssd 擴充 Gpu 記憶體容量,突破 1 PB 並支援處理 2 兆個向量",
+          "angle": "先進技術與算力規格",
+          "focus": "記憶體解決方案大廠鎧俠(Kioxia)於 27 日宣布與輝達(Nvidia)展開合作,透過結合輝達 Scada 軟體與鎧俠固態硬碟(SSD)的高效能,展示將有效 GPU 記憶體容量擴展至 PB 等級的潛力,並支援輝達的 Storage-Next 計畫。",
+          "excerpt": "記憶體解決方案大廠鎧俠(Kioxia)於 27 日宣布與輝達(Nvidia)展開合作,透過結合輝達 Scada 軟體與鎧俠固態硬碟(SSD)的高效能,展示將有效 GPU 記憶體容量擴展至 PB 等級的潛力,並支援輝達的 Storage-Next 計畫。",
+          "url": "https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/",
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "這次測試讓GPU能以512位元組為單位讀取SSD上的資料;鎧俠估計,這套配置有潛力處理約2兆筆這種大小的向量。",
+          "metric": "2兆",
+          "confirmed_by": [
+            "鉅亨網 Anue",
+            "TechNews 科技新報"
+          ]
+        },
+        {
+          "text": "不過,1.1PB是SSD容量,不是同等速度的HBM。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "整座機櫃的SSD原始容量約1.1PB,約合1,100TB。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "鎧俠攜輝達用144顆SSD擴充GPU可用容量AI資料不必全擠進HBM",
+          "angle": "先進技術與算力規格",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本記憶體廠鎧俠Kioxia(285A-JP)與輝達NVIDIA(Nvda-US)公布一項AI伺服器測試,在一座GB200 NVL72機櫃內裝入144顆鎧俠XD8企業級固態硬碟(SSD),搭配輝達軟體…",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 日本記憶體廠鎧俠Kioxia(285A-JP)與輝達NVIDIA(Nvda-US)公布一項AI伺服器測試,在一座GB200 NVL72機櫃內裝入144顆鎧俠XD8企業級固態硬碟(SSD),搭配輝達軟體…",
+          "url": "https://news.cnyes.com/news/id/6673426",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "headline": "鎧俠攜手輝達以 Ssd 擴充 Gpu 記憶體容量,突破 1 PB 並支援處理 2 兆個向量",
+          "angle": "先進技術與算力規格",
+          "focus": "記憶體解決方案大廠鎧俠(Kioxia)於 27 日宣布與輝達(Nvidia)展開合作,透過結合輝達 Scada 軟體與鎧俠固態硬碟(SSD)的高效能,展示將有效 GPU 記憶體容量擴展至 PB 等級的潛力,並支援輝達的 Storage-Next 計畫。",
+          "excerpt": "記憶體解決方案大廠鎧俠(Kioxia)於 27 日宣布與輝達(Nvidia)展開合作,透過結合輝達 Scada 軟體與鎧俠固態硬碟(SSD)的高效能,展示將有效 GPU 記憶體容量擴展至 PB 等級的潛力,並支援輝達的 Storage-Next 計畫。",
+          "url": "https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673426",
+          "headline": "鎧俠攜輝達用144顆SSD擴充GPU可用容量AI資料不必全擠進HBM",
+          "lang": "zh"
+        },
+        {
+          "media": "TechNews 科技新報",
+          "url": "https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/",
+          "headline": "鎧俠攜手輝達以 Ssd 擴充 Gpu 記憶體容量,突破 1 PB 並支援處理 2 兆個向量",
+          "lang": "zh"
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "id": "scdcb335d",
+      "section": "business_tech",
+      "title": "燁興岡山廠明年元旦停產鋼線材訂單轉往屏南",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673428/o/7a148c8685be0140d2ca098a3b685c8c.jpg\" alt=\"鋼材資料照,非燁興廠區。Reuters\" /><p>2026年11月27日(優分析/產業資料中心報導)⸺ 鋼線材廠燁興(2007-TW)公告,2027年元旦起將停止高雄岡山廠產線,訂單移往屏東屏南廠生產。公司表示,這次調整是為了整合廠區、提升營運效率,評估對整體財務與業務無重大影響。</p> <p>屏南是燁興近年的設備投資重心。公司在9月底法說會表示,屏南線材廠的高速線退火設備已完成安裝,當時正在熱車;八角形線材產線預計年底完成試車。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673428",
+      "publishedAt": "2026-11-27T08:00:05+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "燁興今年前三季營收34.94億元、年減19%,營業虧損約4.71億元;10月營收回升至4.10億元、年增45%,前十月累計仍年減15%。",
+          "metric": "34.94億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "屏南的不銹鋼棒線處理廠也同步添購設備,酸洗與包裝線原訂年底前後試車。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "燁興生產不銹鋼、碳鋼及合金鋼等線材,產品供下游製作螺絲、螺帽等扣件。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "燁興岡山廠明年元旦停產鋼線材訂單轉往屏南",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 鋼線材廠燁興(2007-TW)公告,2027年元旦起將停止高雄岡山廠產線,訂單移往屏東屏南廠生產。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 鋼線材廠燁興(2007-TW)公告,2027年元旦起將停止高雄岡山廠產線,訂單移往屏東屏南廠生產。",
+          "url": "https://news.cnyes.com/news/id/6673428",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "燁興今年前三季營收34.94億元、年減19%,營業虧損約4.71億元;10月營收回升至4.10億元、年增45%,前十月累計仍年減15%。",
+          "metric": "34.94億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "屏南的不銹鋼棒線處理廠也同步添購設備,酸洗與包裝線原訂年底前後試車。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "燁興生產不銹鋼、碳鋼及合金鋼等線材,產品供下游製作螺絲、螺帽等扣件。",
+          "metric": "",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "燁興岡山廠明年元旦停產鋼線材訂單轉往屏南",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 鋼線材廠燁興(2007-TW)公告,2027年元旦起將停止高雄岡山廠產線,訂單移往屏東屏南廠生產。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 鋼線材廠燁興(2007-TW)公告,2027年元旦起將停止高雄岡山廠產線,訂單移往屏東屏南廠生產。",
+          "url": "https://news.cnyes.com/news/id/6673428",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673428",
+          "headline": "燁興岡山廠明年元旦停產鋼線材訂單轉往屏南",
+          "lang": "zh"
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "id": "seb473ed5",
+      "section": "business_tech",
+      "title": "荷蘭Budel鋅廠11月底停產能源成本壓垮冶煉,鋅價一度漲逾5%",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673463/o/5552e284a3de56617c1512d567bcf615.jpg\" alt=\"優分析 Pro(鋅價走勢,截至2026年11月26日)\" /><p>2026年11月27日(優分析/產業資料中心報導)⸺ 大宗商品商托克(Trafigura)旗下Nyrstar宣布,荷蘭Budel冶煉廠將自11月30日起停止生產鋅。公司表示,能源成本明顯上升,當地用電等能源支出本來就比鄰國同業高,繼續生產已不具經濟效益。消息公布後,倫敦金屬交易所(LME)三個月期鋅26日盤中一度上漲5.3%,為1月下旬以來最大盤中漲幅。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673463",
+      "publishedAt": "2026-11-27T08:30:15+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破",
+        "公共治理與結構轉型"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "國際鉛鋅研究小組(Ilzsg)10月預估,今年全球精煉鋅產量約1,393萬公噸,需求將超過供應8.8萬公噸;明年則可望轉為供應略多,幅度僅2.5萬公噸。",
+          "metric": "1393萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Budel主要生產高純度鋅與鍍鋅用合金,設計年產能為31.5萬公噸。",
+          "metric": "31.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Nyrstar並未公布這次停產前的實際產量或復工日期,不能把31.5萬公噸全數視為供應減量。",
+          "metric": "31.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "荷蘭Budel鋅廠11月底停產能源成本壓垮冶煉,鋅價一度漲逾5%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 大宗商品商托克(Trafigura)旗下Nyrstar宣布,荷蘭Budel冶煉廠將自11月30日起停止生產鋅。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 大宗商品商托克(Trafigura)旗下Nyrstar宣布,荷蘭Budel冶煉廠將自11月30日起停止生產鋅。",
+          "url": "https://news.cnyes.com/news/id/6673463",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "國際鉛鋅研究小組(Ilzsg)10月預估,今年全球精煉鋅產量約1,393萬公噸,需求將超過供應8.8萬公噸;明年則可望轉為供應略多,幅度僅2.5萬公噸。",
+          "metric": "1393萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Budel主要生產高純度鋅與鍍鋅用合金,設計年產能為31.5萬公噸。",
+          "metric": "31.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "Nyrstar並未公布這次停產前的實際產量或復工日期,不能把31.5萬公噸全數視為供應減量。",
+          "metric": "31.5萬",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "荷蘭Budel鋅廠11月底停產能源成本壓垮冶煉,鋅價一度漲逾5%",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 大宗商品商托克(Trafigura)旗下Nyrstar宣布,荷蘭Budel冶煉廠將自11月30日起停止生產鋅。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 大宗商品商托克(Trafigura)旗下Nyrstar宣布,荷蘭Budel冶煉廠將自11月30日起停止生產鋅。",
+          "url": "https://news.cnyes.com/news/id/6673463",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673463",
+          "headline": "荷蘭Budel鋅廠11月底停產能源成本壓垮冶煉,鋅價一度漲逾5%",
+          "lang": "zh"
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "id": "s57a2c065",
+      "section": "business_tech",
+      "title": "超豐營收增四成、營業利益增166%毛利率站上三成",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6673470/o/c148e89b06e5df5815ad8fb7abe7eafc.jpg\" alt=\"超豐財報熱圖。圖片來源:優分析產業資料庫\" /><p>2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。10月營收達20.06億元,年增36.0%,維持第三季以來的銷售水準。",
+      "source": "鉅亨網 Anue",
+      "url": "https://news.cnyes.com/news/id/6673470",
+      "publishedAt": "2026-11-27T09:00:07+08:00",
+      "imageUrl": "https://news.cnyes.com/assets/images/og-image.png",
+      "imageCredit": "鉅亨網 Anue",
+      "score": 88,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 20,
+        "durability": 6
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "metric": "15.85億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "超豐7月估計,若設備順利到位,第四季後覆晶封裝月產能可由約2.1億顆增至2.3億顆,滿載月營收估由2.6億元增至3.2億元。",
+          "metric": "2.6億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "超豐本業獲利增速遠高於營收,關鍵在於營業成本只增加20.7%,約為營收增幅的一半,帶動毛利率由去年同期18.26%升至30.09%。",
+          "metric": "18.26%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "超豐營收增四成、營業利益增166%毛利率站上三成",
+          "angle": "資本預算與財報配置",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "url": "https://news.cnyes.com/news/id/6673470",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "metric": "15.85億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "超豐7月估計,若設備順利到位,第四季後覆晶封裝月產能可由約2.1億顆增至2.3億顆,滿載月營收估由2.6億元增至3.2億元。",
+          "metric": "2.6億元",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        },
+        {
+          "text": "超豐本業獲利增速遠高於營收,關鍵在於營業成本只增加20.7%,約為營收增幅的一半,帶動毛利率由去年同期18.26%升至30.09%。",
+          "metric": "18.26%",
+          "confirmed_by": [
+            "鉅亨網 Anue"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "鉅亨網 Anue",
+          "headline": "超豐營收增四成、營業利益增166%毛利率站上三成",
+          "angle": "資本預算與財報配置",
+          "focus": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "excerpt": "2026年11月27日(優分析/產業資料中心報導)⸺ 封測廠超豐(2441-TW)第三季合併營收59.98億元,年增41.1%,營業利益大增166.4%至15.85億元,每股盈餘由去年同期1.31元升至2.44元。",
+          "url": "https://news.cnyes.com/news/id/6673470",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "鉅亨網 Anue",
+          "url": "https://news.cnyes.com/news/id/6673470",
+          "headline": "超豐營收增四成、營業利益增166%毛利率站上三成",
+          "lang": "zh"
+        }
+      ],
+      "rank": 11
     },
     {
       "id": "se9a89459",
@@ -4051,951 +4964,15 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
-    },
-    {
-      "id": "s3ffe2342",
-      "section": "business_tech",
-      "title": "301關稅效應 傳產挑戰大",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國新301關稅若上路,台灣傳產出口挑戰大。我輸美關稅恐由10%升至15%,若實行,工具機對日韓的關稅紅利將一夕歸零,機械、工具機、手工具、水五金、自行車等產業也面臨接單及獲利考驗。業界示警,台廠要力拚中國轉單商機,更須提防亞洲過剩產能外溢,引爆非美市場殺價戰。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E6%95%88%E6%87%89-%E5%82%B3%E7%94%A2%E6%8C%91%E6%88%B0%E5%A4%A7-223711202.html",
-      "publishedAt": "2026-11-27T06:37:11+08:00",
-      "imageUrl": "https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/t3/2026/11/26/35557827.jpg&M=1&s=Y&x=0&y=0&sw=1280&sh=853&sl=W&fw=1050&exp=3600",
-      "imageCredit": "經濟日報",
-      "score": 85,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 35,
-        "data": 14,
-        "durability": 6
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "我輸美關稅恐由10%升至15%,若實行,工具機對日韓的關稅紅利將一夕歸零,機械、工具機、手工具、水五金、自行車等產業也面臨接單及獲利考驗。",
-          "metric": "10%",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "業界示警,台廠要力拚中國轉單商機,更須提防亞洲過剩產能外溢,引爆非美市場殺價戰。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "excerpt": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "url": "https://money.udn.com/money/story/5612/9904652",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "301關稅效應 傳產挑戰大",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "excerpt": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E6%95%88%E6%87%89-%E5%82%B3%E7%94%A2%E6%8C%91%E6%88%B0%E5%A4%A7-223711202.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "我輸美關稅恐由10%升至15%,若實行,工具機對日韓的關稅紅利將一夕歸零,機械、工具機、手工具、水五金、自行車等產業也面臨接單及獲利考驗。",
-          "metric": "10%",
-          "confirmed_by": [
-            "經濟日報",
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "業界示警,台廠要力拚中國轉單商機,更須提防亞洲過剩產能外溢,引爆非美市場殺價戰。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "excerpt": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "url": "https://money.udn.com/money/story/5612/9904652",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "301關稅效應 傳產挑戰大",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "excerpt": "美國新301關稅若上路,台灣傳產出口挑戰大。",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E6%95%88%E6%87%89-%E5%82%B3%E7%94%A2%E6%8C%91%E6%88%B0%E5%A4%A7-223711202.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904652",
-          "headline": "301 關稅效應 工具機、自行車等傳產接單面臨考驗",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E6%95%88%E6%87%89-%E5%82%B3%E7%94%A2%E6%8C%91%E6%88%B0%E5%A4%A7-223711202.html",
-          "headline": "301關稅效應 傳產挑戰大",
-          "lang": "zh"
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "id": "sd13366b7",
-      "section": "business_tech",
-      "title": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。川普曾私下關注輝達市值若崩跌,對美國經濟將造成更廣泛影響。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
-      "publishedAt": "2026-11-27T07:07:15+08:00",
-      "imageUrl": "https://img.ltn.com.tw/Upload/business/page/800/2026/11/27/56.jpg",
-      "imageCredit": "自由財經",
-      "score": 85,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 35,
-        "data": 12,
-        "durability": 8
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "川普曾私下關注輝達市值若崩跌,對美國經濟將造成更廣泛影響。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
-          "angle": "市場定價與外資籌碼",
-          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "台積電美國新廠動土 川普將出席",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "excerpt": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780032",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "川普曾私下關注輝達市值若崩跌,對美國經濟將造成更廣泛影響。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
-          "angle": "市場定價與外資籌碼",
-          "focus": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "excerpt": "美國哥倫比亞廣播公司今天引述白宮官員的說法報導,總統川普將在12月4日前往鳳凰城參加台積電擴廠動土儀式,期間將發表談話。",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "台積電美國新廠動土 川普將出席",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "excerpt": "凸顯台灣在晶片製造領域的主導地位 〔編譯盧永山/綜合報導〕外媒報導,美國總統川普重返白宮後就把經濟政策的重心放在發展人工智慧(AI)產業,以拉抬經濟成長,近日除了積極遊說輝達(Nvidia)董事會讓黃仁勳恢復執行長職務,十二月四日更將前往亞利桑那州鳳凰城,出席台積電新建晶圓廠的動土典禮。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780032",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%AA%92-%E5%B7%9D%E6%99%AE%E9%97%9C%E6%B3%A8%E8%BC%9D%E9%81%94%E5%B8%82%E5%80%BC-%E5%B0%87%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%93%B4%E5%BB%A0%E5%8B%95%E5%9C%9F-230715492.html",
-          "headline": "美媒:川普關注輝達市值 將出席台積電擴廠動土",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1780032",
-          "headline": "台積電美國新廠動土 川普將出席",
-          "lang": "zh"
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "id": "s548af181",
-      "section": "business_tech",
-      "title": "台積電傳擬建德州廠 Wedbush:暗示 AI 需求未放緩",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。華爾街券商認為,台積電對終端市場需求的掌握程度可能更勝任何其他供應商,其持續擴充產能的動作,對整體 AI 供應鏈而言是一項正面訊號。",
-      "source": "TechNews 科技新報",
-      "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
-      "publishedAt": "2026-11-27T05:05:30+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
-      "score": 84,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 34,
-        "data": 14,
-        "durability": 6
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "華爾街券商認為,台積電掌握終端市場需求的能力優於其他供應商,其擴產動作不僅反映需求持續強勁,也為整體人工智慧(AI)供應鏈帶來正面訊號。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台積電傳赴德州蓋2奈米廠 洩AI需求風向?華爾街點破關鍵訊號",
-          "angle": "先進技術與算力規格",
-          "focus": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "excerpt": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E8%B5%B4%E5%BE%B7%E5%B7%9E%E8%93%8B2%E5%A5%88%E7%B1%B3%E5%BB%A0-%E6%B4%A9ai%E9%9C%80%E6%B1%82%E9%A2%A8%E5%90%91-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%BB%9E%E7%A0%B4%E9%97%9C%E9%8D%B5%E8%A8%8A%E8%99%9F-210530975.html",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電傳擬建德州廠 Wedbush:暗示 AI 需求未放緩",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "excerpt": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "多家媒體（工商時報 / Yahoo 財經、TechNews 科技新報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
-      "coreFacts": [
-        {
-          "text": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "metric": "226億美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經",
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "華爾街券商認為,台積電掌握終端市場需求的能力優於其他供應商,其擴產動作不僅反映需求持續強勁,也為整體人工智慧(AI)供應鏈帶來正面訊號。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "台積電傳赴德州蓋2奈米廠 洩AI需求風向?華爾街點破關鍵訊號",
-          "angle": "先進技術與算力規格",
-          "focus": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "excerpt": "台積電持續擴大美國布局,傳出已為計畫投資226億美元興建的德州晶圓廠申請租稅優惠,預計生產2奈米及更先進製程晶片。",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E8%B5%B4%E5%BE%B7%E5%B7%9E%E8%93%8B2%E5%A5%88%E7%B1%B3%E5%BB%A0-%E6%B4%A9ai%E9%9C%80%E6%B1%82%E9%A2%A8%E5%90%91-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%BB%9E%E7%A0%B4%E9%97%9C%E9%8D%B5%E8%A8%8A%E8%99%9F-210530975.html",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "台積電傳擬建德州廠 Wedbush:暗示 AI 需求未放緩",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "excerpt": "台積電傳出已為計劃斥資 226 億美元興建的美國德州晶圓廠申請租稅優惠,該廠將生產 2 奈米及更先進製程晶片。",
-          "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "多家媒體（工商時報 / Yahoo 財經、TechNews 科技新報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E8%B5%B4%E5%BE%B7%E5%B7%9E%E8%93%8B2%E5%A5%88%E7%B1%B3%E5%BB%A0-%E6%B4%A9ai%E9%9C%80%E6%B1%82%E9%A2%A8%E5%90%91-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%BB%9E%E7%A0%B4%E9%97%9C%E9%8D%B5%E8%A8%8A%E8%99%9F-210530975.html",
-          "headline": "台積電傳赴德州蓋2奈米廠 洩AI需求風向?華爾街點破關鍵訊號",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/26/tsmc-asking-for-tax-incentives-at-texas-fab-suggests-no-ai-slowdown/",
-          "headline": "台積電傳擬建德州廠 Wedbush:暗示 AI 需求未放緩",
-          "lang": "zh"
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "id": "sa7d5b9f3",
-      "section": "business_tech",
-      "title": "科技業躲過301關稅 PC品牌廠:持續多元布局",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。宏碁、神達均表示,已透過多元產能布局因應關稅變局,整體衝擊有限。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9904664",
-      "publishedAt": "2026-11-27T03:41:29+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
-      "score": 84,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 12,
-        "durability": 10
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "宏碁、神達均表示,已透過多元產能布局因應關稅變局,整體衝擊有限。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "科技業躲過301關稅 PC品牌廠:持續多元布局",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "excerpt": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "url": "https://money.udn.com/money/story/5612/9904664",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "宏碁、神達均表示,已透過多元產能布局因應關稅變局,整體衝擊有限。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "科技業躲過301關稅 PC品牌廠:持續多元布局",
-          "angle": "利率匯率與總經政策",
-          "focus": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "excerpt": "美國新301關稅政策出爐,耳機、鋰離子電池、基地台、印表機、電視及電玩主機未列入豁免清單,惟相關產品多由中國大陸工廠出口,台廠營運主力PC及AI伺服器仍屬豁免範圍。",
-          "url": "https://money.udn.com/money/story/5612/9904664",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904664",
-          "headline": "科技業躲過301關稅 PC品牌廠:持續多元布局",
-          "lang": "zh"
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "id": "s9ea476b6",
-      "section": "business_tech",
-      "title": "輝達AI伺服器暫停出貨東南亞四國!美國收緊晶片出口管制,盯上中國企業海外算力租賃",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "英國《金融時報》11月26日引述三名知情人士報導,輝達已要求製造合作夥伴暫停向馬來西亞、新加坡、泰國和印尼交付搭載輝達晶片的伺服器。戴爾(Dell)、美超微(Supermicro)等廠商也通知四國買家,手上的訂單目前無法出貨。輝達與合作夥伴仍在研究如何遵守美國的新規定,何時恢復出貨仍未明朗。",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9A%AB%E5%81%9C%E5%87%BA%E8%B2%A8%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9B%9B%E5%9C%8B-%E7%BE%8E%E5%9C%8B%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-%E7%9B%AF%E4%B8%8A%E4%B8%AD%E5%9C%8B%E4%BC%81%E6%A5%AD%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B3%83-120321223.html",
-      "publishedAt": "2026-11-27T03:09:11+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/55cf152d517aecf9f2eab3517102d0e35b60b1bc8ef4a35911e18271dcdd58f4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fstormmediagroup.com%2Ff6be57c43a1e56e3631a7e2480c4fe27_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 83,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 34,
-        "data": 8,
-        "durability": 6
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達與合作夥伴仍在研究如何遵守美國的新規定,何時恢復出貨仍未明朗。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "戴爾(Dell)、美超微(Supermicro)等廠商也通知四國買家,手上的訂單目前無法出貨。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "輝達傳要求品牌客戶停止出貨東南亞四國 市場解讀:黃仁勳自清 配合美國政策",
-          "angle": "先進技術與算力規格",
-          "focus": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "excerpt": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "url": "https://money.udn.com/money/story/5612/9904628",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "輝達AI伺服器暫停出貨東南亞四國!美國收緊晶片出口管制,盯上中國企業海外算力租賃",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "英國《金融時報》11月26日引述三名知情人士報導,輝達已要求製造合作夥伴暫停向馬來西亞、新加坡、泰國和印尼交付搭載輝達晶片的伺服器。",
-          "excerpt": "英國《金融時報》11月26日引述三名知情人士報導,輝達已要求製造合作夥伴暫停向馬來西亞、新加坡、泰國和印尼交付搭載輝達晶片的伺服器。",
-          "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9A%AB%E5%81%9C%E5%87%BA%E8%B2%A8%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9B%9B%E5%9C%8B-%E7%BE%8E%E5%9C%8B%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-%E7%9B%AF%E4%B8%8A%E4%B8%AD%E5%9C%8B%E4%BC%81%E6%A5%AD%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B3%83-120321223.html",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "美國封堵中國 AI 算力漏洞,輝達緊急喊停東南亞四國伺服器出貨",
-          "angle": "先進技術與算力規格",
-          "focus": "根據外媒報導,輝達(Nvidia)已通知製造合作夥伴,暫停向馬來西亞、新加坡、泰國及印尼四個東南亞國家出貨搭載輝達晶片的伺服器,以配合美國政府最新出口管制措施,防止中國企業透過第三國資料中心及雲端服務取得受限制的人工智慧(AI)運算能力。",
-          "excerpt": "根據外媒報導,輝達(Nvidia)已通知製造合作夥伴,暫停向馬來西亞、新加坡、泰國及印尼四個東南亞國家出貨搭載輝達晶片的伺服器,以配合美國政府最新出口管制措施,防止中國企業透過第三國資料中心及雲端服務取得受限制的人工智慧(AI)運算能力。",
-          "url": "https://technews.tw/2026/11/26/nvidia-halts-server-shipments-to-four-southeast-asian-countries/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "多家媒體（工商時報 / Yahoo 財經、經濟日報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
-      "coreFacts": [
-        {
-          "text": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "輝達與合作夥伴仍在研究如何遵守美國的新規定,何時恢復出貨仍未明朗。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        },
-        {
-          "text": "戴爾(Dell)、美超微(Supermicro)等廠商也通知四國買家,手上的訂單目前無法出貨。",
-          "metric": "",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "輝達傳要求品牌客戶停止出貨東南亞四國 市場解讀:黃仁勳自清 配合美國政策",
-          "angle": "先進技術與算力規格",
-          "focus": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "excerpt": "美國政府限制高階AI晶片不能輸往中國大陸,近期進一步限制陸廠租用遠端AI算力,現在更傳出輝達要求製造夥伴停止出貨伺服器至東南亞四國。",
-          "url": "https://money.udn.com/money/story/5612/9904628",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "輝達AI伺服器暫停出貨東南亞四國!美國收緊晶片出口管制,盯上中國企業海外算力租賃",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "英國《金融時報》11月26日引述三名知情人士報導,輝達已要求製造合作夥伴暫停向馬來西亞、新加坡、泰國和印尼交付搭載輝達晶片的伺服器。",
-          "excerpt": "英國《金融時報》11月26日引述三名知情人士報導,輝達已要求製造合作夥伴暫停向馬來西亞、新加坡、泰國和印尼交付搭載輝達晶片的伺服器。",
-          "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9A%AB%E5%81%9C%E5%87%BA%E8%B2%A8%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9B%9B%E5%9C%8B-%E7%BE%8E%E5%9C%8B%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-%E7%9B%AF%E4%B8%8A%E4%B8%AD%E5%9C%8B%E4%BC%81%E6%A5%AD%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B3%83-120321223.html",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "美國封堵中國 AI 算力漏洞,輝達緊急喊停東南亞四國伺服器出貨",
-          "angle": "先進技術與算力規格",
-          "focus": "根據外媒報導,輝達(Nvidia)已通知製造合作夥伴,暫停向馬來西亞、新加坡、泰國及印尼四個東南亞國家出貨搭載輝達晶片的伺服器,以配合美國政府最新出口管制措施,防止中國企業透過第三國資料中心及雲端服務取得受限制的人工智慧(AI)運算能力。",
-          "excerpt": "根據外媒報導,輝達(Nvidia)已通知製造合作夥伴,暫停向馬來西亞、新加坡、泰國及印尼四個東南亞國家出貨搭載輝達晶片的伺服器,以配合美國政府最新出口管制措施,防止中國企業透過第三國資料中心及雲端服務取得受限制的人工智慧(AI)運算能力。",
-          "url": "https://technews.tw/2026/11/26/nvidia-halts-server-shipments-to-four-southeast-asian-countries/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "多家媒體（工商時報 / Yahoo 財經、經濟日報）均引述未具名消息源，閱讀時請留意官方後續正式公告。",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904628",
-          "headline": "輝達傳要求品牌客戶停止出貨東南亞四國 市場解讀:黃仁勳自清 配合美國政策",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E8%BC%9D%E9%81%94ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%9A%AB%E5%81%9C%E5%87%BA%E8%B2%A8%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9B%9B%E5%9C%8B-%E7%BE%8E%E5%9C%8B%E6%94%B6%E7%B7%8A%E6%99%B6%E7%89%87%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6-%E7%9B%AF%E4%B8%8A%E4%B8%AD%E5%9C%8B%E4%BC%81%E6%A5%AD%E6%B5%B7%E5%A4%96%E7%AE%97%E5%8A%9B%E7%A7%9F%E8%B3%83-120321223.html",
-          "headline": "輝達AI伺服器暫停出貨東南亞四國!美國收緊晶片出口管制,盯上中國企業海外算力租賃",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://technews.tw/2026/11/26/nvidia-halts-server-shipments-to-four-southeast-asian-countries/",
-          "headline": "美國封堵中國 AI 算力漏洞,輝達緊急喊停東南亞四國伺服器出貨",
-          "lang": "zh"
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "id": "sa79a4653",
-      "section": "business_tech",
-      "title": "馬斯克太空AI鳴槍 引爆太陽能大商機 中美晶、盟立、聯合再生、元晶吞補丸",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-      "source": "經濟日報",
-      "url": "https://money.udn.com/money/story/5612/9904790",
-      "publishedAt": "2026-11-27T06:40:33+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
-      "score": 81,
-      "scoreBreakdown": {
-        "resonance": 30,
-        "impact": 33,
-        "data": 10,
-        "durability": 8
-      },
-      "mediaCount": 2,
-      "impactCategories": [
-        "利率與法規政策",
-        "技術與算力突破",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "metric": "100萬顆",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,公司預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶、盟立、元晶、聯合再生等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "馬斯克太空 AI 鳴槍 昇達科、萊德、啟碁搶商機",
-          "angle": "先進技術與算力規格",
-          "focus": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "excerpt": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "url": "https://money.udn.com/money/story/5612/9904621",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克太空AI鳴槍 引爆太陽能大商機 台廠吞補丸",
-          "angle": "政策法規與公共治理",
-          "focus": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "excerpt": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "url": "https://tw.news.yahoo.com/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E9%B3%B4%E6%A7%8D-%E5%BC%95%E7%88%86%E5%A4%AA%E9%99%BD%E8%83%BD%E5%A4%A7%E5%95%86%E6%A9%9F-%E5%8F%B0%E5%BB%A0%E5%90%9E%E8%A3%9C%E4%B8%B8-224033747.html",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "metric": "100萬顆",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,公司預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶、盟立、元晶、聯合再生等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        },
-        {
-          "text": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "metric": "",
-          "confirmed_by": [
-            "經濟日報"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "經濟日報",
-          "headline": "馬斯克太空 AI 鳴槍 昇達科、萊德、啟碁搶商機",
-          "angle": "先進技術與算力規格",
-          "focus": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "excerpt": "SpaceX獲准部署由100萬顆衛星組成的星系,藉此布局太空AI,由於衛星是將AI伺服器送到太空的關鍵載體,同步掀起衛星零組件需求,昇達科、萊德光電、啟碁等網通廠積極投入相關布局,可望沾光。",
-          "url": "https://money.udn.com/money/story/5612/9904621",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "馬斯克太空AI鳴槍 引爆太陽能大商機 台廠吞補丸",
-          "angle": "政策法規與公共治理",
-          "focus": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "excerpt": "億萬富豪馬斯克旗下SpaceX獲美國聯邦傳播委員會(FCC)核准,將可開始投入太空AI部署,SpaceX預告將直接利用近乎恆定的太陽能做為太空AI電力來源,引爆太陽能大商機,中美晶(5483)、盟立(2464)、元晶(6443)、聯合再生(3576)等台廠都積極投入太空太陽能技術,有望分杯羹。",
-          "url": "https://tw.news.yahoo.com/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E9%B3%B4%E6%A7%8D-%E5%BC%95%E7%88%86%E5%A4%AA%E9%99%BD%E8%83%BD%E5%A4%A7%E5%95%86%E6%A9%9F-%E5%8F%B0%E5%BB%A0%E5%90%9E%E8%A3%9C%E4%B8%B8-224033747.html",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904621",
-          "headline": "馬斯克太空 AI 鳴槍 昇達科、萊德、啟碁搶商機",
-          "lang": "zh"
-        },
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904623",
-          "headline": "馬斯克太空 AI 鳴槍 中美晶、盟立、元晶分杯羹",
-          "lang": "zh"
-        },
-        {
-          "media": "經濟日報",
-          "url": "https://money.udn.com/money/story/5612/9904790",
-          "headline": "馬斯克太空AI鳴槍 引爆太陽能大商機 中美晶、盟立、聯合再生、元晶吞補丸",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/%E9%A6%AC%E6%96%AF%E5%85%8B%E5%A4%AA%E7%A9%BAai%E9%B3%B4%E6%A7%8D-%E5%BC%95%E7%88%86%E5%A4%AA%E9%99%BD%E8%83%BD%E5%A4%A7%E5%95%86%E6%A9%9F-%E5%8F%B0%E5%BB%A0%E5%90%9E%E8%A3%9C%E4%B8%B8-224033747.html",
-          "headline": "馬斯克太空AI鳴槍 引爆太陽能大商機 台廠吞補丸",
-          "lang": "zh"
-        }
-      ],
-      "rank": 10
-    },
-    {
-      "id": "s4b82e579",
-      "section": "business_tech",
-      "title": "322項農產品仍零關稅 農業部:更有利在美市場競爭力",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/paper/1780013",
-      "publishedAt": "2026-11-27T05:30:00+08:00",
-      "imageUrl": "https://img.ltn.com.tw/Upload/business/page/800/2026/11/27/32.jpg",
-      "imageCredit": "自由財經",
-      "score": 81,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
-        "data": 12,
-        "durability": 8
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "自由財經",
-          "headline": "322項農產品仍零關稅 農業部:更有利在美市場競爭力",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "excerpt": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780013",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "自由財經",
-          "headline": "322項農產品仍零關稅 農業部:更有利在美市場競爭力",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "excerpt": "〔記者楊媛婷/台北報導〕美國公布針對「結構性產能過剩」三〇一調查結果,農業部昨表示,蘭花、芭樂、茶葉、火鶴花等多項農產品仍確定在豁免清單,毛豆、台灣鯛稅率將大幅優於競爭對手國中國。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780013",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1780013",
-          "headline": "322項農產品仍零關稅 農業部:更有利在美市場競爭力",
-          "lang": "zh"
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "id": "s9192c902",
-      "section": "business_tech",
-      "title": "供不應求 穎崴加速擴產搶攻市占",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-      "source": "自由財經",
-      "url": "https://ec.ltn.com.tw/article/paper/1780054",
-      "publishedAt": "2026-11-27T05:30:00+08:00",
-      "imageUrl": "https://img.ltn.com.tw/Upload/business/page/800/2026/11/27/73.jpg",
-      "imageCredit": "自由財經",
-      "score": 81,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 34,
-        "data": 12,
-        "durability": 8
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "財報與資本配置",
-        "供應鏈與整併"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "自由財經",
-          "headline": "供不應求 穎崴加速擴產搶攻市占",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "excerpt": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780054",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "自由財經",
-          "headline": "供不應求 穎崴加速擴產搶攻市占",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "excerpt": "看好明年營運續創新高 〔記者卓怡君/台北報導〕半導體測試介面廠穎崴(6515)昨日召開法說會,近來AI市場前景雜音不斷,穎崴董事長王嘉煌看好明年公司營運有望續創新高。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780054",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1780054",
-          "headline": "供不應求 穎崴加速擴產搶攻市占",
-          "lang": "zh"
-        }
-      ],
       "rank": 12
     }
   ],
   "stats": {
-    "clusters": 337,
+    "clusters": 348,
     "passed": 12,
-    "totalQualified": 78,
-    "below_threshold": 259,
-    "articlesAnalysed": 409
+    "totalQualified": 72,
+    "below_threshold": 276,
+    "articlesAnalysed": 423
   },
   "sourcesStatus": [
     {
@@ -5004,7 +4981,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 55,
+      "count": 76,
       "error": null
     },
     {
@@ -5031,7 +5008,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 185,
+      "count": 190,
       "error": null
     },
     {
@@ -5076,7 +5053,7 @@
       "group": "tech",
       "section": "科技與半導體供應鏈",
       "ok": true,
-      "count": 38,
+      "count": 39,
       "error": null
     },
     {
