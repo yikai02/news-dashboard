@@ -7,8 +7,8 @@
     "name": "晨報版",
     "scheduledTime": "07:30"
   },
-  "generatedAt": "2026-11-28T07:30:16+08:00",
-  "updatedAt": "2026-11-28 07:30",
+  "generatedAt": "2026-11-28T09:15:14+08:00",
+  "updatedAt": "2026-11-28 09:15",
   "date": "2026-11-28",
   "weekday": "星期六",
   "dataMode": "live",
@@ -3555,116 +3555,10 @@
     ]
   },
   "leadIds": [
-    "sbfa3f52a",
-    "s9ff44b0d"
+    "s9ff44b0d",
+    "s8d0df4d0"
   ],
   "stories": [
-    {
-      "id": "sbfa3f52a",
-      "section": "business_tech",
-      "title": "美股收盤/晶片股領漲,那斯達克升2.31%標普創去年4月來最大單週漲幅",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "<img src=\"https://cimg.cnyes.cool/prod/news/6674265/o/071820cec0cda83fcf8effd2ac336fd0.jpg\" alt=\"Reuters/TPG\" /><p>2026年11月28日(優分析/產業資料中心報導)⸺ 美股27日感恩節後恢復交易,買盤回流近期跌深的AI股,三大指數在半日市全數收高。那斯達克綜合指數上漲2.31%,費城半導體指數漲4.7%,早盤承壓的輝達也在收盤前翻紅。三大指數全週均上漲,標普500指數寫下去年4月以來最大單週漲幅。",
-      "source": "鉅亨網 Anue",
-      "url": "https://news.cnyes.com/news/id/6674265",
-      "publishedAt": "2026-11-28T03:30:09+08:00",
-      "imageUrl": null,
-      "imageCredit": null,
-      "score": 88,
-      "scoreBreakdown": {
-        "resonance": 27,
-        "impact": 35,
-        "data": 20,
-        "durability": 6
-      },
-      "mediaCount": 1,
-      "impactCategories": [
-        "利率與法規政策",
-        "供應鏈與整併",
-        "技術與算力突破"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "道瓊工業指數上漲591.99點或1.18%,收50,774.94點;標普500指數上漲114.71點或1.60%,收7,297.49點;那斯達克綜合指數上漲543.70點或2.31%,收24,129.50點。",
-          "metric": "24129.50點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "全週道瓊上漲5.46%、標普500上漲5.6%,那斯達克漲6.68%。",
-          "metric": "5.46%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "記憶體廠美光(MU-US)上漲7.6%,邁威爾(Mrvl-US)漲7.3%,輝達(Nvda-US)則收漲0.8%。",
-          "metric": "0.8%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "美股收盤/晶片股領漲,那斯達克升2.31%標普創去年4月來最大單週漲幅",
-          "angle": "市場定價與外資籌碼",
-          "focus": "2026年11月28日(優分析/產業資料中心報導)⸺ 美股27日感恩節後恢復交易,買盤回流近期跌深的AI股,三大指數在半日市全數收高。",
-          "excerpt": "2026年11月28日(優分析/產業資料中心報導)⸺ 美股27日感恩節後恢復交易,買盤回流近期跌深的AI股,三大指數在半日市全數收高。",
-          "url": "https://news.cnyes.com/news/id/6674265",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "道瓊工業指數上漲591.99點或1.18%,收50,774.94點;標普500指數上漲114.71點或1.60%,收7,297.49點;那斯達克綜合指數上漲543.70點或2.31%,收24,129.50點。",
-          "metric": "24129.50點",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "全週道瓊上漲5.46%、標普500上漲5.6%,那斯達克漲6.68%。",
-          "metric": "5.46%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        },
-        {
-          "text": "記憶體廠美光(MU-US)上漲7.6%,邁威爾(Mrvl-US)漲7.3%,輝達(Nvda-US)則收漲0.8%。",
-          "metric": "0.8%",
-          "confirmed_by": [
-            "鉅亨網 Anue"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "鉅亨網 Anue",
-          "headline": "美股收盤/晶片股領漲,那斯達克升2.31%標普創去年4月來最大單週漲幅",
-          "angle": "市場定價與外資籌碼",
-          "focus": "2026年11月28日(優分析/產業資料中心報導)⸺ 美股27日感恩節後恢復交易,買盤回流近期跌深的AI股,三大指數在半日市全數收高。",
-          "excerpt": "2026年11月28日(優分析/產業資料中心報導)⸺ 美股27日感恩節後恢復交易,買盤回流近期跌深的AI股,三大指數在半日市全數收高。",
-          "url": "https://news.cnyes.com/news/id/6674265",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "鉅亨網 Anue",
-          "url": "https://news.cnyes.com/news/id/6674265",
-          "headline": "美股收盤/晶片股領漲,那斯達克升2.31%標普創去年4月來最大單週漲幅",
-          "lang": "zh"
-        }
-      ],
-      "rank": 1
-    },
     {
       "id": "s9ff44b0d",
       "section": "business_tech",
@@ -3754,7 +3648,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 2
+      "rank": 1
     },
     {
       "id": "s8d0df4d0",
@@ -3786,8 +3680,8 @@
           "text": "AI股反彈帶動美股周五全面收高,費半漲4.69%,道瓊、標普、那指本周分別上漲5.46%、5.6%、6.68%。",
           "metric": "4.69%",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
@@ -3831,8 +3725,8 @@
           "text": "AI股反彈帶動美股周五全面收高,費半漲4.69%,道瓊、標普、那指本周分別上漲5.46%、5.6%、6.68%。",
           "metric": "4.69%",
           "confirmed_by": [
-            "鉅亨網 Anue",
-            "工商時報 / Yahoo 財經"
+            "工商時報 / Yahoo 財經",
+            "鉅亨網 Anue"
           ]
         },
         {
@@ -3885,7 +3779,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "id": "sd5af1754",
@@ -3906,7 +3800,7 @@
         "data": 14,
         "durability": 6
       },
-      "mediaCount": 4,
+      "mediaCount": 3,
       "impactCategories": [
         "供應鏈與整併",
         "公共治理與結構轉型"
@@ -3917,15 +3811,7 @@
           "text": "紐約市場西德州中級原油的1月期貨價格下跌0.7%,收在每桶83.08美元。",
           "metric": "83.08美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "自由財經"
-          ]
-        },
-        {
-          "text": "倫敦市場北海布倫特原油的1月期貨價格下跌1.2%,收在每桶95.44美元。",
-          "metric": "95.44美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
           ]
         },
         {
@@ -3956,12 +3842,12 @@
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
+          "media": "自由財經",
           "headline": "市場交投清淡 油價震盪收低",
           "angle": "產業動態與市場焦點",
           "focus": "中東能源基礎設施和油輪遭遇攻擊情形增加,投資人對供應的憂慮加深,市場交投清淡,油價今天震盪收低。",
           "excerpt": "中東能源基礎設施和油輪遭遇攻擊情形增加,投資人對供應的憂慮加深,市場交投清淡,油價今天震盪收低。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%83%BD%E6%BA%90%E7%9B%A4%E5%BE%8C-%E5%B8%82%E5%A0%B4%E4%BA%A4%E6%8A%95%E6%B8%85%E6%B7%A1-%E6%B2%B9%E5%83%B9%E9%9C%87%E7%9B%AA%E6%94%B6%E4%BD%8E-210734180.html",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5655971",
           "lang": "zh"
         }
       ],
@@ -3971,15 +3857,7 @@
           "text": "紐約市場西德州中級原油的1月期貨價格下跌0.7%,收在每桶83.08美元。",
           "metric": "83.08美元",
           "confirmed_by": [
-            "工商時報 / Yahoo 財經",
             "自由財經"
-          ]
-        },
-        {
-          "text": "倫敦市場北海布倫特原油的1月期貨價格下跌1.2%,收在每桶95.44美元。",
-          "metric": "95.44美元",
-          "confirmed_by": [
-            "工商時報 / Yahoo 財經"
           ]
         },
         {
@@ -4010,12 +3888,12 @@
           "lang": "zh"
         },
         {
-          "media": "工商時報 / Yahoo 財經",
+          "media": "自由財經",
           "headline": "市場交投清淡 油價震盪收低",
           "angle": "產業動態與市場焦點",
           "focus": "中東能源基礎設施和油輪遭遇攻擊情形增加,投資人對供應的憂慮加深,市場交投清淡,油價今天震盪收低。",
           "excerpt": "中東能源基礎設施和油輪遭遇攻擊情形增加,投資人對供應的憂慮加深,市場交投清淡,油價今天震盪收低。",
-          "url": "https://tw.stock.yahoo.com/news/%E8%83%BD%E6%BA%90%E7%9B%A4%E5%BE%8C-%E5%B8%82%E5%A0%B4%E4%BA%A4%E6%8A%95%E6%B8%85%E6%B7%A1-%E6%B2%B9%E5%83%B9%E9%9C%87%E7%9B%AA%E6%94%B6%E4%BD%8E-210734180.html",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5655971",
           "lang": "zh"
         }
       ],
@@ -4030,12 +3908,6 @@
         {
           "media": "中央社 CNA",
           "url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
-          "headline": "市場交投清淡 油價震盪收低",
-          "lang": "zh"
-        },
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.stock.yahoo.com/news/%E8%83%BD%E6%BA%90%E7%9B%A4%E5%BE%8C-%E5%B8%82%E5%A0%B4%E4%BA%A4%E6%8A%95%E6%B8%85%E6%B7%A1-%E6%B2%B9%E5%83%B9%E9%9C%87%E7%9B%AA%E6%94%B6%E4%BD%8E-210734180.html",
           "headline": "市場交投清淡 油價震盪收低",
           "lang": "zh"
         },
@@ -4046,160 +3918,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 4
-    },
-    {
-      "id": "s2ff0509e",
-      "section": "business_tech",
-      "title": "10月景氣燈號連11紅 創史上最長熱絡紀錄",
-      "titleOriginal": null,
-      "lang": "zh",
-      "summary": "AI應用深化將挹注台灣相關供應鏈出口,支撐國內景氣連亮11個紅燈(圖/pexels)",
-      "source": "工商時報 / Yahoo 財經",
-      "url": "https://tw.news.yahoo.com/10%E6%9C%88%E6%99%AF%E6%B0%A3%E7%87%88%E8%99%9F%E9%80%A311%E7%B4%85-%E5%89%B5%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E7%86%B1%E7%B5%A1%E7%B4%80%E9%8C%84-193741171.html",
-      "publishedAt": "2026-11-28T05:30:00+08:00",
-      "imageUrl": "https://s.yimg.com/lo/mysterio/api/05618d3d6cf18df494d33df38226bfec2b084857ecb5033123f573097d5fe2fd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fcardu.com.tw%2Fdb0a227e0bcc061873ea48e9ef675648.jpg_up.jpg",
-      "imageCredit": "工商時報 / Yahoo 財經",
-      "score": 85,
-      "scoreBreakdown": {
-        "resonance": 35,
-        "impact": 30,
-        "data": 12,
-        "durability": 8
-      },
-      "mediaCount": 3,
-      "impactCategories": [
-        "供應鏈與整併",
-        "公共治理與結構轉型"
-      ],
-      "isStrategicTopic": false,
-      "core_facts": [
-        {
-          "text": "國發會表示,10月景氣對策信號綜合判斷分數為40分,較9月減少1分,燈號續呈紅燈。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "在九個構成項目中,製造業營業氣候測驗點由黃紅燈轉為綠燈,分數減少一分,其餘八個項目分數不變。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        },
-        {
-          "text": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "media_perspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "10月景氣燈號連11紅 創史上最長熱絡紀錄",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "AI應用深化將挹注台灣相關供應鏈出口,支撐國內景氣連亮11個紅燈(圖/pexels)",
-          "excerpt": "AI應用深化將挹注台灣相關供應鏈出口,支撐國內景氣連亮11個紅燈(圖/pexels)",
-          "url": "https://tw.news.yahoo.com/10%E6%9C%88%E6%99%AF%E6%B0%A3%E7%87%88%E8%99%9F%E9%80%A311%E7%B4%85-%E5%89%B5%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E7%86%B1%E7%B5%A1%E7%B4%80%E9%8C%84-193741171.html",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "10月景氣燈號連11紅 續創歷史紀錄",
-          "angle": "產業動態與市場焦點",
-          "focus": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "excerpt": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780173",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "10 月景氣燈號連 11 紅,刷新史上最長紅燈紀錄",
-          "angle": "產業動態與市場焦點",
-          "focus": "國發會今天公布 10 月景氣燈號,由於 AI 應用深化及需求維持強勁,國內經濟維持穩健,10 月景氣燈號續亮熱絡紅燈,呈現連 11 紅,刷新史上最長紅燈紀錄。",
-          "excerpt": "國發會今天公布 10 月景氣燈號,由於 AI 應用深化及需求維持強勁,國內經濟維持穩健,10 月景氣燈號續亮熱絡紅燈,呈現連 11 紅,刷新史上最長紅燈紀錄。",
-          "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
-          "lang": "zh"
-        }
-      ],
-      "unverified_notice": "",
-      "coreFacts": [
-        {
-          "text": "國發會表示,10月景氣對策信號綜合判斷分數為40分,較9月減少1分,燈號續呈紅燈。",
-          "metric": "",
-          "confirmed_by": [
-            "TechNews 科技新報"
-          ]
-        },
-        {
-          "text": "在九個構成項目中,製造業營業氣候測驗點由黃紅燈轉為綠燈,分數減少一分,其餘八個項目分數不變。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        },
-        {
-          "text": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "metric": "",
-          "confirmed_by": [
-            "自由財經"
-          ]
-        }
-      ],
-      "mediaPerspectives": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "headline": "10月景氣燈號連11紅 創史上最長熱絡紀錄",
-          "angle": "供應鏈產能與建廠動向",
-          "focus": "AI應用深化將挹注台灣相關供應鏈出口,支撐國內景氣連亮11個紅燈(圖/pexels)",
-          "excerpt": "AI應用深化將挹注台灣相關供應鏈出口,支撐國內景氣連亮11個紅燈(圖/pexels)",
-          "url": "https://tw.news.yahoo.com/10%E6%9C%88%E6%99%AF%E6%B0%A3%E7%87%88%E8%99%9F%E9%80%A311%E7%B4%85-%E5%89%B5%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E7%86%B1%E7%B5%A1%E7%B4%80%E9%8C%84-193741171.html",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "headline": "10月景氣燈號連11紅 續創歷史紀錄",
-          "angle": "產業動態與市場焦點",
-          "focus": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "excerpt": "〔記者吳欣恬/台北報導〕國發會昨公布十月景氣對策信號綜合判斷分數為四十分,較上月減少一分,連續第十一個月亮出代表「熱絡」的紅燈,續創歷史紀錄。",
-          "url": "https://ec.ltn.com.tw/article/paper/1780173",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "headline": "10 月景氣燈號連 11 紅,刷新史上最長紅燈紀錄",
-          "angle": "產業動態與市場焦點",
-          "focus": "國發會今天公布 10 月景氣燈號,由於 AI 應用深化及需求維持強勁,國內經濟維持穩健,10 月景氣燈號續亮熱絡紅燈,呈現連 11 紅,刷新史上最長紅燈紀錄。",
-          "excerpt": "國發會今天公布 10 月景氣燈號,由於 AI 應用深化及需求維持強勁,國內經濟維持穩健,10 月景氣燈號續亮熱絡紅燈,呈現連 11 紅,刷新史上最長紅燈紀錄。",
-          "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
-          "lang": "zh"
-        }
-      ],
-      "unverifiedNotice": "",
-      "sources": [
-        {
-          "media": "工商時報 / Yahoo 財經",
-          "url": "https://tw.news.yahoo.com/10%E6%9C%88%E6%99%AF%E6%B0%A3%E7%87%88%E8%99%9F%E9%80%A311%E7%B4%85-%E5%89%B5%E5%8F%B2%E4%B8%8A%E6%9C%80%E9%95%B7%E7%86%B1%E7%B5%A1%E7%B4%80%E9%8C%84-193741171.html",
-          "headline": "10月景氣燈號連11紅 創史上最長熱絡紀錄",
-          "lang": "zh"
-        },
-        {
-          "media": "自由財經",
-          "url": "https://ec.ltn.com.tw/article/paper/1780173",
-          "headline": "10月景氣燈號連11紅 續創歷史紀錄",
-          "lang": "zh"
-        },
-        {
-          "media": "TechNews 科技新報",
-          "url": "https://finance.technews.tw/2026/11/27/october-economic-indicator-stays-red-for-11th-straight-month/",
-          "headline": "10 月景氣燈號連 11 紅,刷新史上最長紅燈紀錄",
-          "lang": "zh"
-        }
-      ],
-      "rank": 5
+      "rank": 3
     },
     {
       "id": "s881ec76d",
@@ -4329,7 +4048,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 6
+      "rank": 4
     },
     {
       "id": "sc59e1b7b",
@@ -4463,7 +4182,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 7
+      "rank": 5
     },
     {
       "id": "sf54c9be8",
@@ -4555,7 +4274,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 8
+      "rank": 6
     },
     {
       "id": "s4248346a",
@@ -4632,7 +4351,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 9
+      "rank": 7
     },
     {
       "id": "s6eb50a71",
@@ -4737,7 +4456,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 10
+      "rank": 8
     },
     {
       "id": "sc8e75fe1",
@@ -4828,7 +4547,7 @@
           "lang": "zh"
         }
       ],
-      "rank": 11
+      "rank": 9
     },
     {
       "id": "sad642e07",
@@ -4905,15 +4624,250 @@
           "lang": "zh"
         }
       ],
+      "rank": 10
+    },
+    {
+      "id": "s260eb568",
+      "section": "business_tech",
+      "title": "輝達傳喊停東南亞出貨 星急磋商",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。新加坡副總理顏金勇昨表示,正與美國磋商,以確保持續取得先進人工智慧(AI)晶片。",
+      "source": "自由財經",
+      "url": "https://ec.ltn.com.tw/article/paper/1780171",
+      "publishedAt": "2026-11-28T05:30:00+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/bd7d8a5c70755334a877bc00d3ba190295473cfff59323b279bc92f5e07d0faa/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fftnn_com_tw_939%2F35237d28d86a14e666e15ee34f0d0003.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 30,
+        "impact": 34,
+        "data": 12,
+        "durability": 6
+      },
+      "mediaCount": 2,
+      "impactCategories": [
+        "供應鏈與整併",
+        "技術與算力突破"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "新加坡副總理顏金勇昨表示,正與美國磋商,以確保持續取得先進人工智慧(AI)晶片。",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        },
+        {
+          "text": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "輝達傳暫停向東南亞4國出貨!美國封堵中國AI算力衝擊擴大 惠譽示警:資料中心投資恐降溫",
+          "angle": "先進技術與算力規格",
+          "focus": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "excerpt": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E5%82%B3%E6%9A%AB%E5%81%9C%E5%90%91%E6%9D%B1%E5%8D%97%E4%BA%9E4%E5%9C%8B%E5%87%BA%E8%B2%A8-%E7%BE%8E%E5%9C%8B%E5%B0%81%E5%A0%B5%E4%B8%AD%E5%9C%8Bai%E7%AE%97%E5%8A%9B%E8%A1%9D%E6%93%8A%E6%93%B4%E5%A4%A7-%E6%83%A0%E8%AD%BD%E7%A4%BA%E8%AD%A6-%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%8A%95%E8%B3%87%E6%81%90%E9%99%8D%E6%BA%AB-141000552.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "輝達傳喊停東南亞出貨 星急磋商",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "excerpt": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "url": "https://ec.ltn.com.tw/article/paper/1780171",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "自由財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
+      "coreFacts": [
+        {
+          "text": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "新加坡副總理顏金勇昨表示,正與美國磋商,以確保持續取得先進人工智慧(AI)晶片。",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        },
+        {
+          "text": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "metric": "",
+          "confirmed_by": [
+            "自由財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "輝達傳暫停向東南亞4國出貨!美國封堵中國AI算力衝擊擴大 惠譽示警:資料中心投資恐降溫",
+          "angle": "先進技術與算力規格",
+          "focus": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "excerpt": "美國擴大AI晶片出口管制,東南亞資料中心建設熱潮恐遭重創。",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E5%82%B3%E6%9A%AB%E5%81%9C%E5%90%91%E6%9D%B1%E5%8D%97%E4%BA%9E4%E5%9C%8B%E5%87%BA%E8%B2%A8-%E7%BE%8E%E5%9C%8B%E5%B0%81%E5%A0%B5%E4%B8%AD%E5%9C%8Bai%E7%AE%97%E5%8A%9B%E8%A1%9D%E6%93%8A%E6%93%B4%E5%A4%A7-%E6%83%A0%E8%AD%BD%E7%A4%BA%E8%AD%A6-%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%8A%95%E8%B3%87%E6%81%90%E9%99%8D%E6%BA%AB-141000552.html",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "headline": "輝達傳喊停東南亞出貨 星急磋商",
+          "angle": "供應鏈產能與建廠動向",
+          "focus": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "excerpt": "美國出口新規 堵住中國遠端取得算力漏洞 〔編譯魏國金/綜合報導〕在華府升高對東南亞國家的晶片出口管制後,傳出輝達已通知美超微、戴爾等合作夥伴,暫停對星馬泰與印尼的買家出貨搭載輝達晶片的伺服器。",
+          "url": "https://ec.ltn.com.tw/article/paper/1780171",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "自由財經報導內含單一匿名消息源引述，其他媒體尚未獨立核實該段細節，決策時請審慎區辨。",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E5%82%B3%E6%9A%AB%E5%81%9C%E5%90%91%E6%9D%B1%E5%8D%97%E4%BA%9E4%E5%9C%8B%E5%87%BA%E8%B2%A8-%E7%BE%8E%E5%9C%8B%E5%B0%81%E5%A0%B5%E4%B8%AD%E5%9C%8Bai%E7%AE%97%E5%8A%9B%E8%A1%9D%E6%93%8A%E6%93%B4%E5%A4%A7-%E6%83%A0%E8%AD%BD%E7%A4%BA%E8%AD%A6-%E8%B3%87%E6%96%99%E4%B8%AD%E5%BF%83%E6%8A%95%E8%B3%87%E6%81%90%E9%99%8D%E6%BA%AB-141000552.html",
+          "headline": "輝達傳暫停向東南亞4國出貨!美國封堵中國AI算力衝擊擴大 惠譽示警:資料中心投資恐降溫",
+          "lang": "zh"
+        },
+        {
+          "media": "自由財經",
+          "url": "https://ec.ltn.com.tw/article/paper/1780171",
+          "headline": "輝達傳喊停東南亞出貨 星急磋商",
+          "lang": "zh"
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "id": "s0a657c8c",
+      "section": "business_tech",
+      "title": "升息重塑資產配置 金融股獲利看俏成長股估值承壓",
+      "titleOriginal": null,
+      "lang": "zh",
+      "summary": "圖/本報資料庫商傳媒|吳承岳/台北報導面對全球央行調整貨幣政策,利率波動持續牽動股票投資組合的表現。加拿大金融媒體 Stockhouse Publishing Ltd. 分析指出,當利率上升時,投資人往往會將資金從投機性成長股,轉向具備資本保全優勢、自由現金流健全且資產負債表強韌的標的。 在估值模型中,利率走高意味著折現率提升。也就是說,市場在評估一家公司未來產生的現金換算成現有價值時,標準變得更加嚴格,進而壓低投資標的的淨現值。這對許多仰賴遠期獲利承諾的高成長股票而言,估值縮水壓力尤為顯著。若企業的負債過重,利息支出將成為獲利成長與維護股東價值的沉重障礙,讓原本穩定的財務數據轉變為劇烈波動,此時重新調整投資組合便成為關鍵手段。",
+      "source": "工商時報 / Yahoo 財經",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF%E9%87%8D%E5%A1%91%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE-%E9%87%91%E8%9E%8D%E8%82%A1%E7%8D%B2%E5%88%A9%E7%9C%8B%E4%BF%8F%E6%88%90%E9%95%B7%E8%82%A1%E4%BC%B0%E5%80%BC%E6%89%BF%E5%A3%93-230021179.html",
+      "publishedAt": "2026-11-28T07:00:21+08:00",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/add4730ef61105ca82a988317fd324a144067bef165d2ab3d67f431dd5529ab8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fko%2Fsunmedia_664%2F7b10960dcec1d4f1b3f0fbffe8cde4ce.jpg_up.jpg",
+      "imageCredit": "工商時報 / Yahoo 財經",
+      "score": 82,
+      "scoreBreakdown": {
+        "resonance": 27,
+        "impact": 35,
+        "data": 12,
+        "durability": 8
+      },
+      "mediaCount": 1,
+      "impactCategories": [
+        "財報與資本配置",
+        "利率與法規政策",
+        "供應鏈與整併"
+      ],
+      "isStrategicTopic": false,
+      "core_facts": [
+        {
+          "text": "在估值模型中,利率走高意味著折現率提升。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "外媒分析指出,金融股通常是升息環境下的最大受惠者。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "這對許多仰賴遠期獲利承諾的高成長股票而言,估值縮水壓力尤為顯著。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "media_perspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "升息重塑資產配置 金融股獲利看俏成長股估值承壓",
+          "angle": "利率匯率與總經政策",
+          "focus": "圖/本報資料庫商傳媒|吳承岳/台北報導面對全球央行調整貨幣政策,利率波動持續牽動股票投資組合的表現。",
+          "excerpt": "圖/本報資料庫商傳媒|吳承岳/台北報導面對全球央行調整貨幣政策,利率波動持續牽動股票投資組合的表現。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF%E9%87%8D%E5%A1%91%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE-%E9%87%91%E8%9E%8D%E8%82%A1%E7%8D%B2%E5%88%A9%E7%9C%8B%E4%BF%8F%E6%88%90%E9%95%B7%E8%82%A1%E4%BC%B0%E5%80%BC%E6%89%BF%E5%A3%93-230021179.html",
+          "lang": "zh"
+        }
+      ],
+      "unverified_notice": "",
+      "coreFacts": [
+        {
+          "text": "在估值模型中,利率走高意味著折現率提升。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "外媒分析指出,金融股通常是升息環境下的最大受惠者。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        },
+        {
+          "text": "這對許多仰賴遠期獲利承諾的高成長股票而言,估值縮水壓力尤為顯著。",
+          "metric": "",
+          "confirmed_by": [
+            "工商時報 / Yahoo 財經"
+          ]
+        }
+      ],
+      "mediaPerspectives": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "headline": "升息重塑資產配置 金融股獲利看俏成長股估值承壓",
+          "angle": "利率匯率與總經政策",
+          "focus": "圖/本報資料庫商傳媒|吳承岳/台北報導面對全球央行調整貨幣政策,利率波動持續牽動股票投資組合的表現。",
+          "excerpt": "圖/本報資料庫商傳媒|吳承岳/台北報導面對全球央行調整貨幣政策,利率波動持續牽動股票投資組合的表現。",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF%E9%87%8D%E5%A1%91%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE-%E9%87%91%E8%9E%8D%E8%82%A1%E7%8D%B2%E5%88%A9%E7%9C%8B%E4%BF%8F%E6%88%90%E9%95%B7%E8%82%A1%E4%BC%B0%E5%80%BC%E6%89%BF%E5%A3%93-230021179.html",
+          "lang": "zh"
+        }
+      ],
+      "unverifiedNotice": "",
+      "sources": [
+        {
+          "media": "工商時報 / Yahoo 財經",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8D%87%E6%81%AF%E9%87%8D%E5%A1%91%E8%B3%87%E7%94%A2%E9%85%8D%E7%BD%AE-%E9%87%91%E8%9E%8D%E8%82%A1%E7%8D%B2%E5%88%A9%E7%9C%8B%E4%BF%8F%E6%88%90%E9%95%B7%E8%82%A1%E4%BC%B0%E5%80%BC%E6%89%BF%E5%A3%93-230021179.html",
+          "headline": "升息重塑資產配置 金融股獲利看俏成長股估值承壓",
+          "lang": "zh"
+        }
+      ],
       "rank": 12
     }
   ],
   "stats": {
-    "clusters": 359,
+    "clusters": 325,
     "passed": 12,
-    "totalQualified": 76,
-    "below_threshold": 283,
-    "articlesAnalysed": 431
+    "totalQualified": 50,
+    "below_threshold": 275,
+    "articlesAnalysed": 393
   },
   "sourcesStatus": [
     {
@@ -4922,7 +4876,7 @@
       "group": "business",
       "section": "產業與科技",
       "ok": true,
-      "count": 70,
+      "count": 69,
       "error": null
     },
     {
@@ -4931,7 +4885,7 @@
       "group": "business",
       "section": "頭條要聞",
       "ok": true,
-      "count": 94,
+      "count": 48,
       "error": null
     },
     {
@@ -4949,7 +4903,7 @@
       "group": "business",
       "section": "台股市場與總經",
       "ok": true,
-      "count": 193,
+      "count": 190,
       "error": null
     },
     {
@@ -4976,7 +4930,7 @@
       "group": "business",
       "section": "Markets",
       "ok": true,
-      "count": 36,
+      "count": 38,
       "error": null
     },
     {
